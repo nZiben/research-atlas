@@ -1,0 +1,97 @@
+{
+  "papers": [
+    {
+      "id": "arxiv-2610-24320",
+      "title": "The Judge Can Debias Itself: Awareness and Self-Debiasing for Reliable LLM-as-a-Judge",
+      "authors": [
+        "Youbing Yin",
+        "Jingyu Wu",
+        "Anoop Kumar",
+        "Scott Novotney",
+        "Daben Liu",
+        "Erin Babinsky"
+      ],
+      "year": 2026,
+      "doi": null,
+      "arxiv_id": "2610.24320v1",
+      "url": "https://arxiv.org/abs/2610.24320v1",
+      "published_at": "2026-10-16",
+      "updated_at": "2026-10-16",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2606-19544",
+      "title": "Reliability without Validity: A Systematic, Large-Scale Evaluation of LLM-as-a-Judge Models Across Agreement, Consistency, and Bias",
+      "authors": [
+        "Justin D. Norman",
+        "Michael U. Rivera",
+        "D. Alex Hughes"
+      ],
+      "year": 2026,
+      "doi": null,
+      "arxiv_id": "2606.19544v2",
+      "url": "https://arxiv.org/abs/2606.19544v2",
+      "published_at": "2026-06-17",
+      "updated_at": "2026-11-03",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2604-23178",
+      "title": "Judging the Judges: A Systematic Evaluation of Bias Mitigation Strategies in LLM-as-a-Judge Pipelines",
+      "authors": [
+        "Sadman Kabir Soumik"
+      ],
+      "year": 2026,
+      "doi": null,
+      "arxiv_id": "2604.23178v2",
+      "url": "https://arxiv.org/abs/2604.23178v2",
+      "published_at": "2026-04-25",
+      "updated_at": "2026-06-24",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2306-05685",
+      "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+      "authors": [
+        "Lianmin Zheng",
+        "Wei-Lin Chiang",
+        "Ying Sheng",
+        "Siyuan Zhuang",
+        "Zhanghao Wu",
+        "Yonghao Zhuang",
+        "Zi Lin",
+        "Zhuohan Li",
+        "Dacheng Li",
+        "Eric P. Xing",
+        "Hao Zhang",
+        "Joseph E. Gonzalez",
+        "Ion Stoica"
+      ],
+      "year": 2023,
+      "doi": null,
+      "arxiv_id": "2306.05685v4",
+      "url": "https://arxiv.org/abs/2306.05685v4",
+      "published_at": "2023-06-09",
+      "updated_at": "2023-12-24",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    }
+  ],
+  "versions": [],
+  "review": null
+}

@@ -1,0 +1,90 @@
+{
+  "papers": [
+    {
+      "id": "arxiv-2610-20139",
+      "title": "Sparse Autoencoders for Mechanistic Interpretability in NLP: A Critical Survey of Recoverability, Interpretability, and Utility",
+      "authors": [
+        "Salima Lamsiyah",
+        "Adelaide Danilov",
+        "Oleksandr Marchenko Breneur",
+        "Aria Nourbakhsh"
+      ],
+      "year": 2026,
+      "doi": null,
+      "arxiv_id": "2610.20139v1",
+      "url": "https://arxiv.org/abs/2610.20139v1",
+      "published_at": "2026-10-14",
+      "updated_at": "2026-10-14",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2609-37857",
+      "title": "Active Budget Can Kill Sensitivity: Diagnosing and Repairing TopK Sparse Autoencoder Reliability",
+      "authors": [
+        "Zhenting Huang",
+        "Bo Jiang",
+        "Junnan Liu",
+        "Zhixing Tan",
+        "Qianren Mao"
+      ],
+      "year": 2026,
+      "doi": null,
+      "arxiv_id": "2609.37857v2",
+      "url": "https://arxiv.org/abs/2609.37857v2",
+      "published_at": "2026-09-29",
+      "updated_at": "2026-09-30",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2605-18229",
+      "title": "Are Sparse Autoencoder Benchmarks Reliable?",
+      "authors": [
+        "David Chanin"
+      ],
+      "year": 2026,
+      "doi": null,
+      "arxiv_id": "2605.18229v1",
+      "url": "https://arxiv.org/abs/2605.18229v1",
+      "published_at": "2026-05-18",
+      "updated_at": "2026-05-18",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2602-14111",
+      "title": "Sanity Checks for Sparse Autoencoders: Do SAEs Beat Random Baselines?",
+      "authors": [
+        "Anton Korznikov",
+        "Andrey Galichin",
+        "Alexey Dontsov",
+        "Oleg Rogov",
+        "Ivan Oseledets",
+        "Elena Tutubalina"
+      ],
+      "year": 2026,
+      "doi": null,
+      "arxiv_id": "2602.14111v2",
+      "url": "https://arxiv.org/abs/2602.14111v2",
+      "published_at": "2026-02-15",
+      "updated_at": "2026-11-02",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    }
+  ],
+  "versions": [],
+  "review": null
+}

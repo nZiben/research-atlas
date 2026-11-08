@@ -1,0 +1,100 @@
+{
+  "papers": [
+    {
+      "id": "arxiv-2611-02501",
+      "title": "SpecPilot: Autonomous Algorithm Discovery and Systems Optimization for Speculative Decoding",
+      "authors": [
+        "Kunjun Li",
+        "Wenhao Chai",
+        "Yihao Liang",
+        "Yuezhou Hu",
+        "Shuyao Xu",
+        "Yi Pan",
+        "William X. Zheng",
+        "Kannan Ramchandran",
+        "Kurt Keutzer",
+        "Jiantao Jiao"
+      ],
+      "year": 2026,
+      "doi": null,
+      "arxiv_id": "2611.02501v1",
+      "url": "https://arxiv.org/abs/2611.02501v1",
+      "published_at": "2026-11-02",
+      "updated_at": "2026-11-02",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-40287",
+      "title": "Only Accepted Tokens Count: An Energy Accounting of Speculative Decoding Under Latency Targets",
+      "authors": [
+        "Bole Ma",
+        "Ayesha Afzal",
+        "Jan Eitzinger",
+        "Harald Koestler",
+        "Gerhard Wellein"
+      ],
+      "year": 2026,
+      "doi": null,
+      "arxiv_id": "2610.40287v1",
+      "url": "https://arxiv.org/abs/2610.40287v1",
+      "published_at": "2026-10-29",
+      "updated_at": "2026-10-29",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2609-33184",
+      "title": "Resource-Efficient Speculative Decoding for Long-Context LLM Serving",
+      "authors": [
+        "Fei Li",
+        "Song Liu",
+        "Shiqiang Nie",
+        "Jinyu Wang",
+        "Weiguo Wu"
+      ],
+      "year": 2026,
+      "doi": null,
+      "arxiv_id": "2609.33184v1",
+      "url": "https://arxiv.org/abs/2609.33184v1",
+      "published_at": "2026-09-27",
+      "updated_at": "2026-09-27",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2605-15051",
+      "title": "An Interpretable Latency Model for Speculative Decoding in LLM Serving",
+      "authors": [
+        "Linghao Kong",
+        "Megan Flynn",
+        "Michael Peng",
+        "Nir Shavit",
+        "Mark Kurtz",
+        "Alexandre Marques"
+      ],
+      "year": 2026,
+      "doi": null,
+      "arxiv_id": "2605.15051v1",
+      "url": "https://arxiv.org/abs/2605.15051v1",
+      "published_at": "2026-05-14",
+      "updated_at": "2026-05-14",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    }
+  ],
+  "versions": [],
+  "review": null
+}

@@ -1,0 +1,98 @@
+{
+  "papers": [
+    {
+      "id": "arxiv-2610-22067",
+      "title": "Beyond Context Length: Characterising the Difficulty of Long-Context Reasoning",
+      "authors": [
+        "Shiwen Qin",
+        "Cameron Barker",
+        "Henry Gouk",
+        "Elliot J. Crowley",
+        "Shay B. Cohen",
+        "Mirella Lapata",
+        "Miao Li"
+      ],
+      "year": 2026,
+      "doi": null,
+      "arxiv_id": "2610.22067v1",
+      "url": "https://arxiv.org/abs/2610.22067v1",
+      "published_at": "2026-10-15",
+      "updated_at": "2026-10-15",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2609-38137",
+      "title": "LongHarness Bench: Stress-Testing Language Model Harnesses for Long-Context Reasoning",
+      "authors": [
+        "Quang Hieu Pham",
+        "Thuy Duong Nguyen",
+        "Jocelyn Qiaochu Chen",
+        "Xi Ye"
+      ],
+      "year": 2026,
+      "doi": null,
+      "arxiv_id": "2609.38137v1",
+      "url": "https://arxiv.org/abs/2609.38137v1",
+      "published_at": "2026-09-29",
+      "updated_at": "2026-09-29",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2605-23170",
+      "title": "Positional Failures in Long-Context LLMs: A Blind Spot in Reasoning Benchmarks",
+      "authors": [
+        "Chuyifei Zhang",
+        "Hongyu Cui",
+        "Xiaowen Huang",
+        "Jitao Sang"
+      ],
+      "year": 2026,
+      "doi": null,
+      "arxiv_id": "2605.23170v1",
+      "url": "https://arxiv.org/abs/2605.23170v1",
+      "published_at": "2026-05-22",
+      "updated_at": "2026-05-22",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2501-15089",
+      "title": "LongReason: A Synthetic Long-Context Reasoning Benchmark via Context Expansion",
+      "authors": [
+        "Zhan Ling",
+        "Kang Liu",
+        "Kai Yan",
+        "Yifan Yang",
+        "Weijian Lin",
+        "Ting-Han Fan",
+        "Lingfeng Shen",
+        "Zhengyin Du",
+        "Jiecao Chen"
+      ],
+      "year": 2025,
+      "doi": null,
+      "arxiv_id": "2501.15089v3",
+      "url": "https://arxiv.org/abs/2501.15089v3",
+      "published_at": "2025-01-25",
+      "updated_at": "2025-11-17",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    }
+  ],
+  "versions": [],
+  "review": null
+}

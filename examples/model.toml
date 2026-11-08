@@ -1,0 +1,5 @@
+[model]
+endpoint = "https://api.openai.com/v1/chat/completions"
+name = ""
+api_key_env = "REVIEW_API_KEY"
+require_api_key = true

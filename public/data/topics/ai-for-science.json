@@ -1,0 +1,89 @@
+{
+  "papers": [
+    {
+      "id": "arxiv-2609-23529",
+      "title": "Predicting Out-of-Distribution Generalization of Neural Operators via Observable Spectral Error Decomposition",
+      "authors": [
+        "Hang-Cheng Dong",
+        "Pengcheng Cheng"
+      ],
+      "year": 2026,
+      "doi": null,
+      "arxiv_id": "2609.23529v1",
+      "url": "https://arxiv.org/abs/2609.23529v1",
+      "published_at": "2026-09-20",
+      "updated_at": "2026-09-20",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2607-21932",
+      "title": "Generalized Neural Operator for Parametric and Boundary-Value Problems",
+      "authors": [
+        "Ruoyan Li",
+        "Yizhou Sun",
+        "Wei Wang"
+      ],
+      "year": 2026,
+      "doi": null,
+      "arxiv_id": "2607.21932v1",
+      "url": "https://arxiv.org/abs/2607.21932v1",
+      "published_at": "2026-07-24",
+      "updated_at": "2026-07-24",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2606-17419",
+      "title": "Generalization Guarantees for Multi-Input Neural Operator Learning in Sobolev Spaces",
+      "authors": [
+        "Yahong Yang",
+        "Zecheng Zhang",
+        "Wei Zhu",
+        "Wenjing Liao",
+        "Hao Liu"
+      ],
+      "year": 2026,
+      "doi": null,
+      "arxiv_id": "2606.17419v1",
+      "url": "https://arxiv.org/abs/2606.17419v1",
+      "published_at": "2026-06-16",
+      "updated_at": "2026-06-16",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2602-00884",
+      "title": "Test-time Generalization for Physics through Neural Operator Splitting",
+      "authors": [
+        "Louis Serrano",
+        "Jiequn Han",
+        "Edouard Oyallon",
+        "Shirley Ho",
+        "Rudy Morel"
+      ],
+      "year": 2026,
+      "doi": null,
+      "arxiv_id": "2602.00884v2",
+      "url": "https://arxiv.org/abs/2602.00884v2",
+      "published_at": "2026-01-31",
+      "updated_at": "2026-08-10",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    }
+  ],
+  "versions": [],
+  "review": null
+}

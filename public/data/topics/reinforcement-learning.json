@@ -1,0 +1,108 @@
+{
+  "papers": [
+    {
+      "id": "arxiv-2610-29129",
+      "title": "Mitigating Reward Hacking in Realistic Scenarios Through Representation Engineering",
+      "authors": [
+        "Austin Meek",
+        "Kyle Cox",
+        "Matthew Nguyen",
+        "Austin J. Brockmeier",
+        "Steven Basart"
+      ],
+      "year": 2026,
+      "doi": null,
+      "arxiv_id": "2610.29129v1",
+      "url": "https://arxiv.org/abs/2610.29129v1",
+      "published_at": "2026-10-21",
+      "updated_at": "2026-10-21",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2609-38526",
+      "title": "Revisiting scaling laws for reward optimization",
+      "authors": [
+        "Ali Aouad",
+        "Aymane El Gadarri",
+        "Vivek F. Farias"
+      ],
+      "year": 2026,
+      "doi": null,
+      "arxiv_id": "2609.38526v1",
+      "url": "https://arxiv.org/abs/2609.38526v1",
+      "published_at": "2026-09-29",
+      "updated_at": "2026-09-29",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2604-13602",
+      "title": "Reward Hacking in the Era of Large Models: Mechanisms, Emergent Misalignment, Challenges",
+      "authors": [
+        "Xiaohua Wang",
+        "Muzhao Tian",
+        "Yuqi Zeng",
+        "Zisu Huang",
+        "Jiakang Yuan",
+        "Bowen Chen",
+        "Jingwen Xu",
+        "Mingbo Zhou",
+        "Wenhao Liu",
+        "Muling Wu",
+        "Zhengkang Guo",
+        "Qi Qian",
+        "Yifei Wang",
+        "Feiran Zhang",
+        "Ruicheng Yin",
+        "Shihan Dou",
+        "Changze Lv",
+        "Tao Chen",
+        "Kaitao Song",
+        "Xu Tan",
+        "Tao Gui",
+        "Xiaoqing Zheng",
+        "Xuanjing Huang"
+      ],
+      "year": 2026,
+      "doi": null,
+      "arxiv_id": "2604.13602v1",
+      "url": "https://arxiv.org/abs/2604.13602v1",
+      "published_at": "2026-04-15",
+      "updated_at": "2026-04-15",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2210-10760",
+      "title": "Scaling Laws for Reward Model Overoptimization",
+      "authors": [
+        "Leo Gao",
+        "John Schulman",
+        "Jacob Hilton"
+      ],
+      "year": 2022,
+      "doi": null,
+      "arxiv_id": "2210.10760v1",
+      "url": "https://arxiv.org/abs/2210.10760v1",
+      "published_at": "2022-10-19",
+      "updated_at": "2022-10-19",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    }
+  ],
+  "versions": [],
+  "review": null
+}

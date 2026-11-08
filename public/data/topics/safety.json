@@ -1,0 +1,95 @@
+{
+  "papers": [
+    {
+      "id": "arxiv-2609-22949",
+      "title": "Beyond Single-Model Injection: A Threat Model and Defense Architecture for Prompt Injection in Multi-Agent Systems",
+      "authors": [
+        "Rudrendu Kumar Paul",
+        "Sourav Nandy"
+      ],
+      "year": 2026,
+      "doi": null,
+      "arxiv_id": "2609.22949v1",
+      "url": "https://arxiv.org/abs/2609.22949v1",
+      "published_at": "2026-09-19",
+      "updated_at": "2026-09-19",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2608-04053",
+      "title": "AgentAntibody: An Adaptive Immune System for Defending LLM Agents against Prompt Injection",
+      "authors": [
+        "Shihao Weng",
+        "Yang Feng",
+        "Xiaofei Xie",
+        "Jiongchi Yu"
+      ],
+      "year": 2026,
+      "doi": null,
+      "arxiv_id": "2608.04053v1",
+      "url": "https://arxiv.org/abs/2608.04053v1",
+      "published_at": "2026-08-04",
+      "updated_at": "2026-08-04",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2606-26479",
+      "title": "Adaptive Evaluation of Out-of-Band Defenses Against Prompt Injection in LLM Agents",
+      "authors": [
+        "Praneeth Narisetty",
+        "Shiva Nagendra Babu Kore",
+        "Uday Kumar Reddy Kattamanchi",
+        "Jayaram Kumarapu"
+      ],
+      "year": 2026,
+      "doi": null,
+      "arxiv_id": "2606.26479v1",
+      "url": "https://arxiv.org/abs/2606.26479v1",
+      "published_at": "2026-06-25",
+      "updated_at": "2026-06-25",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2605-15030",
+      "title": "WARD: Adversarially Robust Defense of Web Agents Against Prompt Injections",
+      "authors": [
+        "Tri Cao",
+        "Yulin Chen",
+        "Hieu Cao",
+        "Yibo Li",
+        "Khoi Le",
+        "Thong Nguyen",
+        "Yuexin Li",
+        "Yufei He",
+        "Yue Liu",
+        "Shuicheng Yan",
+        "Bryan Hooi"
+      ],
+      "year": 2026,
+      "doi": null,
+      "arxiv_id": "2605.15030v1",
+      "url": "https://arxiv.org/abs/2605.15030v1",
+      "published_at": "2026-05-14",
+      "updated_at": "2026-05-14",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    }
+  ],
+  "versions": [],
+  "review": null
+}

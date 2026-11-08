@@ -1,0 +1,935 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-08",
+  "method": "Bounded web searches for each starter question; bibliographic fields verified against the arXiv Atom API. Selected papers, not an exhaustive systematic search. Full texts were not reviewed. Four earlier context papers were checked directly by arXiv ID: 2405.21075, 2210.10760, 2306.05685, 2501.15089.",
+  "queries": {
+    "safety": [
+      "prompt injection defense agents 2026 site:arxiv.org/abs",
+      "prompt injection agent defense 2026 October November site:arxiv.org/abs",
+      "prompt injection defense November 2026 site:arxiv.org/abs"
+    ],
+    "interpretability": [
+      "sparse autoencoder faithfulness evaluation 2026 site:arxiv.org/abs"
+    ],
+    "efficiency": [
+      "speculative decoding serving latency 2026 site:arxiv.org/abs",
+      "speculative decoding serving 2026 October November site:arxiv.org/abs"
+    ],
+    "language": [
+      "long context reasoning evaluation 2026 site:arxiv.org/abs"
+    ],
+    "agents": [
+      "agent memory retrieval long horizon 2026 site:arxiv.org/abs",
+      "agent memory October November 2026 site:arxiv.org/abs"
+    ],
+    "vision": [
+      "video temporal grounding reasoning benchmark 2026 site:arxiv.org/abs"
+    ],
+    "robotics": [
+      "vision language action cross embodiment generalization 2026 site:arxiv.org/abs",
+      "cross embodiment VLA October November 2026 site:arxiv.org/abs"
+    ],
+    "reinforcement-learning": [
+      "reward hacking reward model overoptimization 2026 site:arxiv.org/abs"
+    ],
+    "evaluation": [
+      "LLM as judge bias reliability 2026 site:arxiv.org/abs"
+    ],
+    "ai-for-science": [
+      "neural operator out of distribution generalization PDE 2026 site:arxiv.org/abs",
+      "neural operator generalization October November 2026 site:arxiv.org/abs"
+    ]
+  },
+  "metadata_source": "https://export.arxiv.org/api/query?id_list=2609.22949,2606.26479,2608.04053,2605.15030,2610.20139,2605.18229,2602.14111,2609.37857,2611.02501,2610.40287,2609.33184,2605.15051,2610.22067,2609.38137,2605.23170,2501.15089,2610.34673,2610.32464,2608.15008,2606.06448,2610.32268,2606.27828,2606.01591,2405.21075,2610.33685,2609.02546,2608.06374,2606.26095,2610.29129,2609.38526,2604.13602,2210.10760,2610.24320,2606.19544,2604.23178,2306.05685,2609.23529,2607.21932,2606.17419,2602.00884&max_results=40",
+  "metadata_sha256": "1cac5fd442f544e4c9d1276f3e47b45c250401a1df6f0b660e588ecf53be77d6",
+  "topics": {
+    "safety": [
+      {
+        "id": "arxiv-2609-22949",
+        "title": "Beyond Single-Model Injection: A Threat Model and Defense Architecture for Prompt Injection in Multi-Agent Systems",
+        "authors": [
+          "Rudrendu Kumar Paul",
+          "Sourav Nandy"
+        ],
+        "year": 2026,
+        "published_at": "2026-09-19",
+        "updated_at": "2026-09-19",
+        "arxiv_id": "2609.22949v1",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2609.22949v1",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      },
+      {
+        "id": "arxiv-2608-04053",
+        "title": "AgentAntibody: An Adaptive Immune System for Defending LLM Agents against Prompt Injection",
+        "authors": [
+          "Shihao Weng",
+          "Yang Feng",
+          "Xiaofei Xie",
+          "Jiongchi Yu"
+        ],
+        "year": 2026,
+        "published_at": "2026-08-04",
+        "updated_at": "2026-08-04",
+        "arxiv_id": "2608.04053v1",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2608.04053v1",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      },
+      {
+        "id": "arxiv-2606-26479",
+        "title": "Adaptive Evaluation of Out-of-Band Defenses Against Prompt Injection in LLM Agents",
+        "authors": [
+          "Praneeth Narisetty",
+          "Shiva Nagendra Babu Kore",
+          "Uday Kumar Reddy Kattamanchi",
+          "Jayaram Kumarapu"
+        ],
+        "year": 2026,
+        "published_at": "2026-06-25",
+        "updated_at": "2026-06-25",
+        "arxiv_id": "2606.26479v1",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2606.26479v1",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      },
+      {
+        "id": "arxiv-2605-15030",
+        "title": "WARD: Adversarially Robust Defense of Web Agents Against Prompt Injections",
+        "authors": [
+          "Tri Cao",
+          "Yulin Chen",
+          "Hieu Cao",
+          "Yibo Li",
+          "Khoi Le",
+          "Thong Nguyen",
+          "Yuexin Li",
+          "Yufei He",
+          "Yue Liu",
+          "Shuicheng Yan",
+          "Bryan Hooi"
+        ],
+        "year": 2026,
+        "published_at": "2026-05-14",
+        "updated_at": "2026-05-14",
+        "arxiv_id": "2605.15030v1",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2605.15030v1",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      }
+    ],
+    "interpretability": [
+      {
+        "id": "arxiv-2610-20139",
+        "title": "Sparse Autoencoders for Mechanistic Interpretability in NLP: A Critical Survey of Recoverability, Interpretability, and Utility",
+        "authors": [
+          "Salima Lamsiyah",
+          "Adelaide Danilov",
+          "Oleksandr Marchenko Breneur",
+          "Aria Nourbakhsh"
+        ],
+        "year": 2026,
+        "published_at": "2026-10-14",
+        "updated_at": "2026-10-14",
+        "arxiv_id": "2610.20139v1",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2610.20139v1",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      },
+      {
+        "id": "arxiv-2609-37857",
+        "title": "Active Budget Can Kill Sensitivity: Diagnosing and Repairing TopK Sparse Autoencoder Reliability",
+        "authors": [
+          "Zhenting Huang",
+          "Bo Jiang",
+          "Junnan Liu",
+          "Zhixing Tan",
+          "Qianren Mao"
+        ],
+        "year": 2026,
+        "published_at": "2026-09-29",
+        "updated_at": "2026-09-30",
+        "arxiv_id": "2609.37857v2",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2609.37857v2",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      },
+      {
+        "id": "arxiv-2605-18229",
+        "title": "Are Sparse Autoencoder Benchmarks Reliable?",
+        "authors": [
+          "David Chanin"
+        ],
+        "year": 2026,
+        "published_at": "2026-05-18",
+        "updated_at": "2026-05-18",
+        "arxiv_id": "2605.18229v1",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2605.18229v1",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      },
+      {
+        "id": "arxiv-2602-14111",
+        "title": "Sanity Checks for Sparse Autoencoders: Do SAEs Beat Random Baselines?",
+        "authors": [
+          "Anton Korznikov",
+          "Andrey Galichin",
+          "Alexey Dontsov",
+          "Oleg Rogov",
+          "Ivan Oseledets",
+          "Elena Tutubalina"
+        ],
+        "year": 2026,
+        "published_at": "2026-02-15",
+        "updated_at": "2026-11-02",
+        "arxiv_id": "2602.14111v2",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2602.14111v2",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      }
+    ],
+    "efficiency": [
+      {
+        "id": "arxiv-2611-02501",
+        "title": "SpecPilot: Autonomous Algorithm Discovery and Systems Optimization for Speculative Decoding",
+        "authors": [
+          "Kunjun Li",
+          "Wenhao Chai",
+          "Yihao Liang",
+          "Yuezhou Hu",
+          "Shuyao Xu",
+          "Yi Pan",
+          "William X. Zheng",
+          "Kannan Ramchandran",
+          "Kurt Keutzer",
+          "Jiantao Jiao"
+        ],
+        "year": 2026,
+        "published_at": "2026-11-02",
+        "updated_at": "2026-11-02",
+        "arxiv_id": "2611.02501v1",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2611.02501v1",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      },
+      {
+        "id": "arxiv-2610-40287",
+        "title": "Only Accepted Tokens Count: An Energy Accounting of Speculative Decoding Under Latency Targets",
+        "authors": [
+          "Bole Ma",
+          "Ayesha Afzal",
+          "Jan Eitzinger",
+          "Harald Koestler",
+          "Gerhard Wellein"
+        ],
+        "year": 2026,
+        "published_at": "2026-10-29",
+        "updated_at": "2026-10-29",
+        "arxiv_id": "2610.40287v1",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2610.40287v1",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      },
+      {
+        "id": "arxiv-2609-33184",
+        "title": "Resource-Efficient Speculative Decoding for Long-Context LLM Serving",
+        "authors": [
+          "Fei Li",
+          "Song Liu",
+          "Shiqiang Nie",
+          "Jinyu Wang",
+          "Weiguo Wu"
+        ],
+        "year": 2026,
+        "published_at": "2026-09-27",
+        "updated_at": "2026-09-27",
+        "arxiv_id": "2609.33184v1",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2609.33184v1",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      },
+      {
+        "id": "arxiv-2605-15051",
+        "title": "An Interpretable Latency Model for Speculative Decoding in LLM Serving",
+        "authors": [
+          "Linghao Kong",
+          "Megan Flynn",
+          "Michael Peng",
+          "Nir Shavit",
+          "Mark Kurtz",
+          "Alexandre Marques"
+        ],
+        "year": 2026,
+        "published_at": "2026-05-14",
+        "updated_at": "2026-05-14",
+        "arxiv_id": "2605.15051v1",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2605.15051v1",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      }
+    ],
+    "language": [
+      {
+        "id": "arxiv-2610-22067",
+        "title": "Beyond Context Length: Characterising the Difficulty of Long-Context Reasoning",
+        "authors": [
+          "Shiwen Qin",
+          "Cameron Barker",
+          "Henry Gouk",
+          "Elliot J. Crowley",
+          "Shay B. Cohen",
+          "Mirella Lapata",
+          "Miao Li"
+        ],
+        "year": 2026,
+        "published_at": "2026-10-15",
+        "updated_at": "2026-10-15",
+        "arxiv_id": "2610.22067v1",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2610.22067v1",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      },
+      {
+        "id": "arxiv-2609-38137",
+        "title": "LongHarness Bench: Stress-Testing Language Model Harnesses for Long-Context Reasoning",
+        "authors": [
+          "Quang Hieu Pham",
+          "Thuy Duong Nguyen",
+          "Jocelyn Qiaochu Chen",
+          "Xi Ye"
+        ],
+        "year": 2026,
+        "published_at": "2026-09-29",
+        "updated_at": "2026-09-29",
+        "arxiv_id": "2609.38137v1",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2609.38137v1",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      },
+      {
+        "id": "arxiv-2605-23170",
+        "title": "Positional Failures in Long-Context LLMs: A Blind Spot in Reasoning Benchmarks",
+        "authors": [
+          "Chuyifei Zhang",
+          "Hongyu Cui",
+          "Xiaowen Huang",
+          "Jitao Sang"
+        ],
+        "year": 2026,
+        "published_at": "2026-05-22",
+        "updated_at": "2026-05-22",
+        "arxiv_id": "2605.23170v1",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2605.23170v1",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      },
+      {
+        "id": "arxiv-2501-15089",
+        "title": "LongReason: A Synthetic Long-Context Reasoning Benchmark via Context Expansion",
+        "authors": [
+          "Zhan Ling",
+          "Kang Liu",
+          "Kai Yan",
+          "Yifan Yang",
+          "Weijian Lin",
+          "Ting-Han Fan",
+          "Lingfeng Shen",
+          "Zhengyin Du",
+          "Jiecao Chen"
+        ],
+        "year": 2025,
+        "published_at": "2025-01-25",
+        "updated_at": "2025-11-17",
+        "arxiv_id": "2501.15089v3",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2501.15089v3",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      }
+    ],
+    "agents": [
+      {
+        "id": "arxiv-2610-34673",
+        "title": "Agent Memory as Recommendation: Recommender-System Design for Long-Term Memory of LLM Agents",
+        "authors": [
+          "Xinyu Zhang",
+          "Weiwei Sun"
+        ],
+        "year": 2026,
+        "published_at": "2026-10-26",
+        "updated_at": "2026-10-26",
+        "arxiv_id": "2610.34673v1",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2610.34673v1",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      },
+      {
+        "id": "arxiv-2610-32464",
+        "title": "Agentic Memory Management Is the Next Frontier of Information Retrieval",
+        "authors": [
+          "Qingyao Ai"
+        ],
+        "year": 2026,
+        "published_at": "2026-10-23",
+        "updated_at": "2026-10-23",
+        "arxiv_id": "2610.32464v1",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2610.32464v1",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      },
+      {
+        "id": "arxiv-2608-15008",
+        "title": "Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents",
+        "authors": [
+          "Wei-Chieh Huang",
+          "Weizhi Zhang",
+          "Yuchen Wu",
+          "Yankai Chen",
+          "Eric Hanchen Jiang",
+          "Wooseong Yang",
+          "Yiwei Yang",
+          "Henry Peng Zou",
+          "Hanrong Zhang",
+          "Ying Nian Wu",
+          "Haolun Wu",
+          "Kai-Wei Chang",
+          "Philip S. Yu",
+          "Xue Liu",
+          "Aylin Caliskan"
+        ],
+        "year": 2026,
+        "published_at": "2026-08-15",
+        "updated_at": "2026-11-04",
+        "arxiv_id": "2608.15008v2",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2608.15008v2",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      },
+      {
+        "id": "arxiv-2606-06448",
+        "title": "Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads",
+        "authors": [
+          "Yasmine Omri",
+          "Ziyu Gan",
+          "Zachary Broveak",
+          "Robin Geens",
+          "Zexue He",
+          "Alex Pentland",
+          "Marian Verhelst",
+          "Tsachy Weissman",
+          "Thierry Tambe"
+        ],
+        "year": 2026,
+        "published_at": "2026-06-04",
+        "updated_at": "2026-09-22",
+        "arxiv_id": "2606.06448v2",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2606.06448v2",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      }
+    ],
+    "vision": [
+      {
+        "id": "arxiv-2610-32268",
+        "title": "RVG-Bench: A Benchmark for Reasoning-Driven Audio-Visual Temporal Grounding",
+        "authors": [
+          "Yue Feng",
+          "Boshen Xu",
+          "Zihao Yue",
+          "Xiaokun Liu",
+          "Miao Yang",
+          "Xin Tao",
+          "Pengfei Wan",
+          "Qin Jin"
+        ],
+        "year": 2026,
+        "published_at": "2026-10-23",
+        "updated_at": "2026-10-23",
+        "arxiv_id": "2610.32268v1",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2610.32268v1",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      },
+      {
+        "id": "arxiv-2606-27828",
+        "title": "Video-MME-Logical: A Controlled Diagnostic Benchmark for Video Temporal-Logical Reasoning",
+        "authors": [
+          "Hohin Kwan",
+          "Hongyu Li",
+          "Ray Zhang",
+          "Manyuan Zhang",
+          "Xianghao Kong",
+          "Anyi Rao",
+          "Jiahao Xie",
+          "Si Liu"
+        ],
+        "year": 2026,
+        "published_at": "2026-06-26",
+        "updated_at": "2026-06-26",
+        "arxiv_id": "2606.27828v1",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2606.27828v1",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      },
+      {
+        "id": "arxiv-2606-01591",
+        "title": "TLG: Temporal-Logic Grounding for Video Question Answering via Source-Annotation Reconstruction and Category-Targeted Reasoning",
+        "authors": [
+          "Ali Alavi"
+        ],
+        "year": 2026,
+        "published_at": "2026-06-01",
+        "updated_at": "2026-06-01",
+        "arxiv_id": "2606.01591v1",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2606.01591v1",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      },
+      {
+        "id": "arxiv-2405-21075",
+        "title": "Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis",
+        "authors": [
+          "Chaoyou Fu",
+          "Yuhan Dai",
+          "Yongdong Luo",
+          "Lei Li",
+          "Shuhuai Ren",
+          "Renrui Zhang",
+          "Zihan Wang",
+          "Chenyu Zhou",
+          "Yunhang Shen",
+          "Mengdan Zhang",
+          "Peixian Chen",
+          "Yanwei Li",
+          "Shaohui Lin",
+          "Sirui Zhao",
+          "Ke Li",
+          "Tong Xu",
+          "Xiawu Zheng",
+          "Enhong Chen",
+          "Caifeng Shan",
+          "Ran He",
+          "Xing Sun"
+        ],
+        "year": 2024,
+        "published_at": "2024-05-31",
+        "updated_at": "2025-05-30",
+        "arxiv_id": "2405.21075v3",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2405.21075v3",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      }
+    ],
+    "robotics": [
+      {
+        "id": "arxiv-2610-33685",
+        "title": "EXE: Egocentric Cross-Embodiment Pretraining via Factorized Latent Actions for VLA Models",
+        "authors": [
+          "Qingyuan Cai",
+          "Bo Zhang",
+          "Yongzhen Huang",
+          "Jianyu Chen"
+        ],
+        "year": 2026,
+        "published_at": "2026-10-24",
+        "updated_at": "2026-10-24",
+        "arxiv_id": "2610.33685v1",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2610.33685v1",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      },
+      {
+        "id": "arxiv-2609-02546",
+        "title": "ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop Manipulation",
+        "authors": [
+          "Mi Yan",
+          "Wenhao Zhang",
+          "Zhiqi Zhang",
+          "Yu Peng",
+          "Tangxinyu Wang",
+          "Lingfei Zhai",
+          "Jiayi Su",
+          "Shengliang Deng",
+          "Lin Peng",
+          "Yaowei Liu",
+          "Yuxing Chen",
+          "Zhiyuan Wei",
+          "Jilong Wang",
+          "Jiayi Chen",
+          "Jiangran Lyu",
+          "Zhizheng Zhang",
+          "He Wang"
+        ],
+        "year": 2026,
+        "published_at": "2026-09-02",
+        "updated_at": "2026-10-11",
+        "arxiv_id": "2609.02546v3",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2609.02546v3",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      },
+      {
+        "id": "arxiv-2608-06374",
+        "title": "DyPES-VLA: Learning Shared Dynamics Priors and Embodiment-Specific Control for Cross-Embodiment Manipulation",
+        "authors": [
+          "Junfeng Li",
+          "Junjie He",
+          "Zhide Zhong",
+          "Yangyang Zheng",
+          "Pingyue Sheng",
+          "Jiayu Dong",
+          "Ruixin Li",
+          "Haodong Yan",
+          "Jiaguan Zhu",
+          "Tianran Zhang",
+          "Runze Yu",
+          "Wen Chen",
+          "Liuqing Yang",
+          "Yuxiang Gao",
+          "Haoang Li"
+        ],
+        "year": 2026,
+        "published_at": "2026-08-06",
+        "updated_at": "2026-08-06",
+        "arxiv_id": "2608.06374v1",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2608.06374v1",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      },
+      {
+        "id": "arxiv-2606-26095",
+        "title": "Learning Action Priors for Cross-embodiment Robot Manipulation",
+        "authors": [
+          "Dong Jing",
+          "Tianqi Zhang",
+          "Jiaqi Liu",
+          "Jinman Zhao",
+          "Zelong Sun",
+          "Li Erran Li",
+          "Zhiwu Lu",
+          "Mingyu Ding"
+        ],
+        "year": 2026,
+        "published_at": "2026-06-24",
+        "updated_at": "2026-06-24",
+        "arxiv_id": "2606.26095v1",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2606.26095v1",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      }
+    ],
+    "reinforcement-learning": [
+      {
+        "id": "arxiv-2610-29129",
+        "title": "Mitigating Reward Hacking in Realistic Scenarios Through Representation Engineering",
+        "authors": [
+          "Austin Meek",
+          "Kyle Cox",
+          "Matthew Nguyen",
+          "Austin J. Brockmeier",
+          "Steven Basart"
+        ],
+        "year": 2026,
+        "published_at": "2026-10-21",
+        "updated_at": "2026-10-21",
+        "arxiv_id": "2610.29129v1",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2610.29129v1",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      },
+      {
+        "id": "arxiv-2609-38526",
+        "title": "Revisiting scaling laws for reward optimization",
+        "authors": [
+          "Ali Aouad",
+          "Aymane El Gadarri",
+          "Vivek F. Farias"
+        ],
+        "year": 2026,
+        "published_at": "2026-09-29",
+        "updated_at": "2026-09-29",
+        "arxiv_id": "2609.38526v1",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2609.38526v1",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      },
+      {
+        "id": "arxiv-2604-13602",
+        "title": "Reward Hacking in the Era of Large Models: Mechanisms, Emergent Misalignment, Challenges",
+        "authors": [
+          "Xiaohua Wang",
+          "Muzhao Tian",
+          "Yuqi Zeng",
+          "Zisu Huang",
+          "Jiakang Yuan",
+          "Bowen Chen",
+          "Jingwen Xu",
+          "Mingbo Zhou",
+          "Wenhao Liu",
+          "Muling Wu",
+          "Zhengkang Guo",
+          "Qi Qian",
+          "Yifei Wang",
+          "Feiran Zhang",
+          "Ruicheng Yin",
+          "Shihan Dou",
+          "Changze Lv",
+          "Tao Chen",
+          "Kaitao Song",
+          "Xu Tan",
+          "Tao Gui",
+          "Xiaoqing Zheng",
+          "Xuanjing Huang"
+        ],
+        "year": 2026,
+        "published_at": "2026-04-15",
+        "updated_at": "2026-04-15",
+        "arxiv_id": "2604.13602v1",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2604.13602v1",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      },
+      {
+        "id": "arxiv-2210-10760",
+        "title": "Scaling Laws for Reward Model Overoptimization",
+        "authors": [
+          "Leo Gao",
+          "John Schulman",
+          "Jacob Hilton"
+        ],
+        "year": 2022,
+        "published_at": "2022-10-19",
+        "updated_at": "2022-10-19",
+        "arxiv_id": "2210.10760v1",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2210.10760v1",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "arxiv-2610-24320",
+        "title": "The Judge Can Debias Itself: Awareness and Self-Debiasing for Reliable LLM-as-a-Judge",
+        "authors": [
+          "Youbing Yin",
+          "Jingyu Wu",
+          "Anoop Kumar",
+          "Scott Novotney",
+          "Daben Liu",
+          "Erin Babinsky"
+        ],
+        "year": 2026,
+        "published_at": "2026-10-16",
+        "updated_at": "2026-10-16",
+        "arxiv_id": "2610.24320v1",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2610.24320v1",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      },
+      {
+        "id": "arxiv-2606-19544",
+        "title": "Reliability without Validity: A Systematic, Large-Scale Evaluation of LLM-as-a-Judge Models Across Agreement, Consistency, and Bias",
+        "authors": [
+          "Justin D. Norman",
+          "Michael U. Rivera",
+          "D. Alex Hughes"
+        ],
+        "year": 2026,
+        "published_at": "2026-06-17",
+        "updated_at": "2026-11-03",
+        "arxiv_id": "2606.19544v2",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2606.19544v2",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      },
+      {
+        "id": "arxiv-2604-23178",
+        "title": "Judging the Judges: A Systematic Evaluation of Bias Mitigation Strategies in LLM-as-a-Judge Pipelines",
+        "authors": [
+          "Sadman Kabir Soumik"
+        ],
+        "year": 2026,
+        "published_at": "2026-04-25",
+        "updated_at": "2026-06-24",
+        "arxiv_id": "2604.23178v2",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2604.23178v2",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      },
+      {
+        "id": "arxiv-2306-05685",
+        "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+        "authors": [
+          "Lianmin Zheng",
+          "Wei-Lin Chiang",
+          "Ying Sheng",
+          "Siyuan Zhuang",
+          "Zhanghao Wu",
+          "Yonghao Zhuang",
+          "Zi Lin",
+          "Zhuohan Li",
+          "Dacheng Li",
+          "Eric P. Xing",
+          "Hao Zhang",
+          "Joseph E. Gonzalez",
+          "Ion Stoica"
+        ],
+        "year": 2023,
+        "published_at": "2023-06-09",
+        "updated_at": "2023-12-24",
+        "arxiv_id": "2306.05685v4",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2306.05685v4",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      }
+    ],
+    "ai-for-science": [
+      {
+        "id": "arxiv-2609-23529",
+        "title": "Predicting Out-of-Distribution Generalization of Neural Operators via Observable Spectral Error Decomposition",
+        "authors": [
+          "Hang-Cheng Dong",
+          "Pengcheng Cheng"
+        ],
+        "year": 2026,
+        "published_at": "2026-09-20",
+        "updated_at": "2026-09-20",
+        "arxiv_id": "2609.23529v1",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2609.23529v1",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      },
+      {
+        "id": "arxiv-2607-21932",
+        "title": "Generalized Neural Operator for Parametric and Boundary-Value Problems",
+        "authors": [
+          "Ruoyan Li",
+          "Yizhou Sun",
+          "Wei Wang"
+        ],
+        "year": 2026,
+        "published_at": "2026-07-24",
+        "updated_at": "2026-07-24",
+        "arxiv_id": "2607.21932v1",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2607.21932v1",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      },
+      {
+        "id": "arxiv-2606-17419",
+        "title": "Generalization Guarantees for Multi-Input Neural Operator Learning in Sobolev Spaces",
+        "authors": [
+          "Yahong Yang",
+          "Zecheng Zhang",
+          "Wei Zhu",
+          "Wenjing Liao",
+          "Hao Liu"
+        ],
+        "year": 2026,
+        "published_at": "2026-06-16",
+        "updated_at": "2026-06-16",
+        "arxiv_id": "2606.17419v1",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2606.17419v1",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      },
+      {
+        "id": "arxiv-2602-00884",
+        "title": "Test-time Generalization for Physics through Neural Operator Splitting",
+        "authors": [
+          "Louis Serrano",
+          "Jiequn Han",
+          "Edouard Oyallon",
+          "Shirley Ho",
+          "Rudy Morel"
+        ],
+        "year": 2026,
+        "published_at": "2026-01-31",
+        "updated_at": "2026-08-10",
+        "arxiv_id": "2602.00884v2",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2602.00884v2",
+        "verification": "arxiv_metadata",
+        "checked_at": "2026-11-08",
+        "coverage": "metadata_only"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "review-forge"
+version = "0.1.0"
+description = "Local, evidence-linked conceptual literature reviews"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+pdf = ["pypdf>=5,<7"]
+
+[project.scripts]
+review-forge = "review_forge.cli:main"
+
+[tool.setuptools.package-data]
+review_forge = ["default.toml", "topics.json", "web/*"]
+
+[tool.setuptools.packages.find]
+include = ["review_forge*"]

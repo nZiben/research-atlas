@@ -1,0 +1,65 @@
+[review]
+topic = "REPLACE_WITH_TOPIC"
+language = "ru"
+questions = ["Какие основные подходы существуют, чем подтверждаются и где перестают работать?"]
+include = ["Исследовательские работы, прямо отвечающие на вопросы обзора"]
+exclude = ["Рекламные материалы и неподтверждённые пересказы"]
+year_from = 2017
+year_to = 2026
+min_papers = 3
+
+[search]
+providers = ["arxiv", "semantic_scholar"]
+# English search terms usually improve recall. Each string is searched independently.
+# For arXiv, field syntax (ti:, abs:, cat:) is accepted; otherwise all: is added.
+queries = []
+per_query = 30
+max_candidates = 120
+max_papers = 25
+# Fetch both relevance-ranked and recently submitted papers on arXiv.
+arxiv_sorts = ["relevance", "submittedDate"]
+
+[documents]
+allow_abstract_only = false
+chunk_chars = 18000
+min_fulltext_chars = 800
+
+[model]
+# Exact full URL, e.g. https://your-provider.example/v1/chat/completions
+# For a local server, http://127.0.0.1:PORT/v1/chat/completions is allowed.
+endpoint = ""
+name = ""
+api_key_env = "REVIEW_API_KEY"
+require_api_key = true
+json_mode = true
+# Some compatible providers require max_tokens instead. Change explicitly.
+token_parameter = "max_completion_tokens"
+max_output_tokens = 6000
+# Optional: temperature = 0.1 (omit for models that do not support it).
+
+# Optional second model. Remove comments and fill BOTH fields to enable.
+# [synthesis_model]
+# endpoint = ""
+# name = ""
+# api_key_env = "SYNTHESIS_API_KEY"
+# require_api_key = true
+# json_mode = true
+# token_parameter = "max_completion_tokens"
+# max_output_tokens = 12000
+
+[limits]
+# A hard cap per command invocation, shared across both models. Cached calls are free.
+max_model_calls = 250
+# Counts the serialized system + user messages, including schema instructions.
+# Must fit the actual model context; chars are NOT tokens.
+max_input_chars = 200000
+timeout_seconds = 180
+claims_per_chunk = 6
+synthesis_claims_per_paper = 8
+quote_max_words = 35
+export_quote_words_per_paper = 120
+
+[updates]
+# Advice only: no scheduler is installed or enabled.
+suggested_check_days = 7
+refresh_metadata_days = 30

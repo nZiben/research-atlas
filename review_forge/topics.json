@@ -1,0 +1,92 @@
+[
+  {
+    "id": "safety", "name": "AI Safety, alignment и безопасность",
+    "description": "Согласование поведения, надёжность и устойчивость к злоупотреблениям.",
+    "subtopics": ["alignment", "jailbreaks", "prompt injection", "scalable oversight", "unlearning", "privacy"],
+    "starter_topic": "Prompt injection defenses for tool-using language model agents",
+    "questions": ["Какие модели угроз рассматривают защиты от prompt injection?", "Какие атаки и условия проверки ограничивают выводы об эффективности?"],
+    "queries": ["prompt injection defense language model agents", "indirect prompt injection tool use evaluation"],
+    "suggested_check_days": 7
+  },
+  {
+    "id": "interpretability", "name": "Интерпретируемость и теория обучения",
+    "description": "Механизмы моделей, представления, обобщение и причинные объяснения.",
+    "subtopics": ["mechanistic interpretability", "sparse autoencoders", "causal interventions", "grokking", "learning dynamics"],
+    "starter_topic": "Faithfulness of sparse autoencoder features in language model interpretability",
+    "questions": ["Какие проверки отличают интерпретируемую корреляцию от причинного механизма?", "Какие ограничения sparse autoencoders влияют на полноту объяснения?"],
+    "queries": ["sparse autoencoder feature faithfulness language models", "sparse autoencoder causal evaluation interpretability"],
+    "suggested_check_days": 14
+  },
+  {
+    "id": "efficiency", "name": "Ускорение и эффективность обучения и инференса",
+    "description": "Алгоритмы и системы, уменьшающие время, память и стоимость вычислений.",
+    "subtopics": ["speculative decoding", "quantization", "distillation", "KV cache", "attention kernels", "distributed training", "efficient fine-tuning"],
+    "starter_topic": "Speculative decoding for autoregressive language models under realistic serving workloads",
+    "questions": ["При каких нагрузках speculative decoding даёт выигрыш в latency и throughput?", "Как результат зависит от draft model, batch size, железа и длины ответа?"],
+    "queries": ["speculative decoding language model serving latency throughput", "speculative sampling draft model benchmark"],
+    "suggested_check_days": 7
+  },
+  {
+    "id": "language", "name": "LLM, NLP и рассуждение",
+    "description": "Языковые способности, многоязычие, reasoning и использование контекста.",
+    "subtopics": ["reasoning", "long context", "multilingual NLP", "code models", "test-time compute", "language representation"],
+    "starter_topic": "Reliability of long-context reasoning in language models",
+    "questions": ["Что измеряют тесты long-context reasoning сверх простого поиска фрагмента?", "Как длина контекста и расположение данных влияют на надёжность вывода?"],
+    "queries": ["long context reasoning language model evaluation", "long context language model information position reasoning"],
+    "suggested_check_days": 7
+  },
+  {
+    "id": "agents", "name": "Агенты, RAG, память и инструменты",
+    "description": "Системы поиска знаний, планирования и действий с использованием моделей.",
+    "subtopics": ["retrieval augmented generation", "agent memory", "tool use", "planning", "multi-agent systems", "computer use"],
+    "starter_topic": "Retrieval and memory mechanisms for long-horizon language model agents",
+    "questions": ["Какие виды памяти помогают на длинных задачах и как это проверено?", "Отделён ли вклад памяти от дополнительных вызовов модели и retrieval?"],
+    "queries": ["language model agent long term memory retrieval", "long horizon agents memory evaluation"],
+    "suggested_check_days": 7
+  },
+  {
+    "id": "vision", "name": "Computer vision, мультимодальность и генерация",
+    "description": "Изображения, видео, vision-language модели, 3D и генеративные методы.",
+    "subtopics": ["vision language models", "video understanding", "diffusion", "flow matching", "3D perception", "multimodal grounding"],
+    "starter_topic": "Temporal grounding and reasoning in video language models",
+    "questions": ["Какие тесты отделяют временное рассуждение от распознавания кадров?", "Как оценка зависит от sampling кадров, длительности видео и утечки данных?"],
+    "queries": ["video language model temporal grounding reasoning", "video understanding temporal reasoning evaluation"],
+    "suggested_check_days": 7
+  },
+  {
+    "id": "robotics", "name": "Robotics, embodied AI и модели мира",
+    "description": "Восприятие и действия физических агентов, перенос между роботами и средами.",
+    "subtopics": ["vision language action", "robot learning", "sim-to-real", "world models", "manipulation", "robot foundation models"],
+    "starter_topic": "Cross-embodiment generalization in vision-language-action robot policies",
+    "questions": ["Что именно переносится между embodiment, задачами и средами?", "Какие реальные роботические эксперименты подтверждают перенос и где он нарушается?"],
+    "queries": ["vision language action cross embodiment generalization", "robot foundation models embodiment transfer evaluation"],
+    "suggested_check_days": 14
+  },
+  {
+    "id": "reinforcement-learning", "name": "Reinforcement learning и принятие решений",
+    "description": "Обучение по вознаграждению, планирование, offline RL и post-training.",
+    "subtopics": ["offline RL", "model-based RL", "reward modeling", "RL post-training", "exploration", "planning"],
+    "starter_topic": "Reward hacking and reward model generalization in language model post-training",
+    "questions": ["Какие проявления reward hacking наблюдаются при post-training?", "Как авторы отделяют рост proxy reward от улучшения независимой оценки?"],
+    "queries": ["language model reinforcement learning reward hacking", "reward model generalization overoptimization language models"],
+    "suggested_check_days": 14
+  },
+  {
+    "id": "evaluation", "name": "Оценка, данные и воспроизводимость",
+    "description": "Валидность бенчмарков, качество данных, утечки и надёжность измерений.",
+    "subtopics": ["benchmark contamination", "LLM as a judge", "data quality", "synthetic data", "uncertainty", "reproducibility"],
+    "starter_topic": "Validity and bias of language models as evaluators of model-generated answers",
+    "questions": ["Когда LLM-as-a-judge согласуется с независимой человеческой оценкой?", "Какие позиционные, стилевые и модельные смещения выявлены и как они измерены?"],
+    "queries": ["LLM as a judge bias reliability evaluation", "language model evaluator human agreement position bias"],
+    "suggested_check_days": 14
+  },
+  {
+    "id": "ai-for-science", "name": "AI for Science",
+    "description": "Научные модели и открытия в биологии, химии, физике и математике.",
+    "subtopics": ["molecular generation", "protein models", "scientific foundation models", "neural operators", "theorem proving", "scientific discovery"],
+    "starter_topic": "Out-of-distribution generalization of neural operators for partial differential equations",
+    "questions": ["Какие виды смены распределения проверяются у neural operators?", "Как сравниваются точность, вычислительная стоимость и физическая корректность?"],
+    "queries": ["neural operator out of distribution generalization PDE", "neural operators distribution shift evaluation"],
+    "suggested_check_days": 30
+  }
+]

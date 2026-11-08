@@ -1,0 +1,158 @@
+"""Only explicitly released snapshots become public static files."""
+from __future__ import annotations
+
+import os
+import re
+import shutil
+import tempfile
+from datetime import date
+from pathlib import Path
+
+from .cli import topics
+from .export import bibliography, load_snapshot, write_html
+from .util import ReviewError, digest, locked, now, read_json, write_json, write_text
+
+WEB = Path(__file__).parent / "web"
+
+
+def load_bibliography(path: Path) -> dict:
+    data = read_json(path, {"schema_version": 1, "checked_at": None, "topics": {}})
+    if data.get("schema_version") != 1 or not isinstance(data.get("topics"), dict):
+        raise ReviewError("Invalid public bibliography schema.")
+    if set(data["topics"]) - {topic["id"] for topic in topics()}:
+        raise ReviewError("Unknown topic in public bibliography.")
+    for rows in data["topics"].values():
+        if not isinstance(rows, list):
+            raise ReviewError("Bibliography topics must contain arrays of records.")
+        seen = set()
+        for paper in rows:
+            if (not isinstance(paper, dict) or not isinstance(paper.get("title"), str) or not paper["title"].strip()
+                    or not isinstance(paper.get("authors"), list) or not paper["authors"]
+                    or not all(isinstance(author, str) and author.strip() for author in paper["authors"])
+                    or not re.fullmatch(r"arxiv-[0-9-]+", paper.get("id", ""))
+                    or not re.fullmatch(r"\d{4}\.\d{4,5}v\d+", paper.get("arxiv_id", ""))
+                    or paper.get("url") != "https://arxiv.org/abs/" + paper["arxiv_id"]
+                    or paper.get("coverage") != "metadata_only" or paper.get("verification") != "arxiv_metadata"):
+                raise ReviewError("Public reading list requires verified arXiv metadata and metadata_only status.")
+            published = date.fromisoformat(paper["published_at"])
+            checked = date.fromisoformat(paper["checked_at"])
+            updated = date.fromisoformat(paper["updated_at"])
+            if not published <= updated <= checked or checked.isoformat() != data["checked_at"] or paper["year"] != published.year or paper["id"] in seen:
+                raise ReviewError("Inconsistent dates, year or duplicate ID in public bibliography.")
+            seen.add(paper["id"])
+    return data
+
+
+def snapshot_path(library: Path, topic_id: str, snapshot_id: str) -> Path:
+    if topic_id not in {topic["id"] for topic in topics()}:
+        raise ReviewError("Unknown topic ID.")
+    if not isinstance(snapshot_id, str) or not re.fullmatch(r"[A-Za-z0-9.+-]{1,160}", snapshot_id) or snapshot_id in {".", ".."}:
+        raise ReviewError("Invalid snapshot ID.")
+    base = library / topic_id / "snapshots"
+    target = base / snapshot_id
+    if not target.resolve().is_relative_to(base.resolve()):
+        raise ReviewError("Snapshot escaped its topic directory.")
+    return target
+
+
+def release(library: Path, topic_id: str, snapshot_id: str, note: str, reviewed: bool) -> dict:
+    if not reviewed or not note.strip():
+        raise ReviewError("Release requires --reviewed and a concrete --note after checking the draft and publication rights.")
+    payload = load_snapshot(snapshot_path(library, topic_id, snapshot_id))
+    if payload["quality"]["hard_errors"]:
+        raise ReviewError("Cannot release a snapshot with structural quality errors.")
+    with locked(library / ".publishing"):
+        manifest = read_json(library / "releases.json", {"schema_version": 1, "topics": {}})
+        entries = manifest["topics"].setdefault(topic_id, [])
+        if any(entry["snapshot_id"] == snapshot_id for entry in entries):
+            raise ReviewError("This snapshot was already released; no duplicate publication record was created.")
+        entry = {"snapshot_id": snapshot_id, "released_at": now(), "note": note, "editor_reviewed": True,
+                 "snapshot_checksum": payload["integrity_sha256"]}
+        entries.append(entry)
+        write_json(library / "releases.json", manifest)
+    return {"topic": topic_id, **entry, "next": "Run build-site to prepare public files. No upload or deployment has happened."}
+
+
+def public_review(payload: dict, entry: dict) -> dict:
+    # No config, source texts, local paths, raw API replies or search logs.
+    papers = [{key: p.get(key) for key in ("id", "title", "authors", "year", "doi", "arxiv_id", "url")} for p in payload["papers"]]
+    return {"schema_version": 1, "snapshot_id": payload["snapshot_id"], "at": payload["at"],
+            "review": payload["review"], "papers": papers,
+            "cards": [{key: card[key] for key in ("paper_id", "coverage", "claims")} for card in payload["cards"]],
+            "synthesis": payload["synthesis"], "quality": {"warnings": [
+                "Обзор собран с помощью модели и выпущен редактором. Проверьте первоисточники перед использованием научных выводов.",
+                "Охват ограничен выбранным корпусом; отсутствие работы в обзоре не означает её отсутствия в литературе."
+            ]}, "changes": payload["changes"], "publication": entry}
+
+
+def build_site(library: Path, destination: Path) -> Path:
+    library, destination = library.resolve(), destination.resolve()
+    if destination == library or destination.is_relative_to(library) or library.is_relative_to(destination) or WEB.resolve().is_relative_to(destination) or destination.is_relative_to(WEB.resolve()):
+        raise ReviewError("Public output must be a separate directory, outside private library and source assets.")
+    if destination.exists() and read_json(destination / "site-manifest.json", {}).get("kind") != "review-forge-public-site":
+        raise ReviewError("Output directory is not a generated site; refusing to overwrite it.")
+    manifest = read_json(library / "releases.json", {"schema_version": 1, "topics": {}})
+    reading = load_bibliography(library.parent / "bibliography" / "papers.json")
+    if manifest.get("schema_version") != 1:
+        raise ReviewError("Unsupported release manifest.")
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    temporary = Path(tempfile.mkdtemp(prefix=".site-", dir=destination.parent))
+    backup = None
+    try:
+        for name in ("index.html", "app.js", "style.css", "mark.svg"):
+            shutil.copyfile(WEB / name, temporary / name)
+        summaries = []
+        for topic in topics():
+            topic_id = topic["id"]
+            entries = manifest["topics"].get(topic_id, [])
+            versions, current, roles = [], None, {}
+            for entry in entries:
+                payload = load_snapshot(snapshot_path(library, topic_id, entry["snapshot_id"]))
+                if not entry.get("editor_reviewed") or payload["integrity_sha256"] != entry["snapshot_checksum"]:
+                    raise ReviewError("Released snapshot changed or has no editorial approval.")
+                current = public_review(payload, entry)
+                roles = {row["paper_id"]: row["decision"] for row in payload["selection"]["decisions"]}
+                write_json(temporary / "data" / "reviews" / topic_id / f"{entry['snapshot_id']}.json", current)
+                write_text(temporary / "exports" / topic_id / entry["snapshot_id"] / "references.bib", bibliography(current["papers"]))
+                write_html(temporary / "exports" / topic_id / entry["snapshot_id"], {**payload, "quality": current["quality"]},
+                           {claim["id"]: claim for card in payload["cards"] for claim in card["claims"]},
+                           {paper["id"]: paper for paper in payload["papers"]}, public=True)
+                versions.append({"id": entry["snapshot_id"], "released_at": entry["released_at"], "note": entry["note"]})
+            papers = [{**paper, "decision": roles.get(paper["id"], "core"), "reason": "Источник опубликованного обзора."} for paper in current["papers"]] if current else []
+            included = {re.sub(r"v\d+$", "", paper.get("arxiv_id") or "") for paper in papers}
+            for paper in reading["topics"].get(topic_id, []):
+                if re.sub(r"v\d+$", "", paper["arxiv_id"]) not in included:
+                    fields = ("id", "title", "authors", "year", "doi", "arxiv_id", "url", "published_at", "updated_at", "checked_at", "coverage", "verification")
+                    papers.append({**{key: paper.get(key) for key in fields}, "decision": "reading_list",
+                                   "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."})
+            summary = {**topic, "topic": current["review"]["topic"] if current else topic["starter_topic"],
+                       "questions": current["review"]["questions"] if current else topic["questions"],
+                       "has_review": current is not None, "snapshot_id": current["snapshot_id"] if current else None,
+                       "papers": len(papers), "bibliography_checked_at": reading["checked_at"] if reading["topics"].get(topic_id) else None,
+                       "updated_at": entries[-1]["released_at"] if entries else None}
+            write_json(temporary / "data" / "topics" / f"{topic_id}.json", {"papers": papers, "versions": list(reversed(versions)), "review": current})
+            summaries.append(summary)
+        write_json(temporary / "data" / "library.json", {"schema_version": 1, "topics": summaries})
+        files = {str(p.relative_to(temporary)): digest(p.read_bytes()) for p in sorted(temporary.rglob("*")) if p.is_file()}
+        write_json(temporary / "site-manifest.json", {"kind": "review-forge-public-site", "files": files})
+        # These files are explicitly public; a separate static-server user must be able to read them.
+        temporary.chmod(0o755)
+        for path in temporary.rglob("*"):
+            path.chmod(0o755 if path.is_dir() else 0o644)
+        if destination.exists():
+            backup = Path(tempfile.mkdtemp(prefix=".previous-site-", dir=destination.parent))
+            backup.rmdir()
+            os.rename(destination, backup)
+        try:
+            os.rename(temporary, destination)
+        except OSError:
+            if backup:
+                os.rename(backup, destination)
+                backup = None
+            raise
+        if backup:
+            shutil.rmtree(backup)
+        return destination
+    finally:
+        if temporary.exists():
+            shutil.rmtree(temporary)

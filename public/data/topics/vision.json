@@ -1,0 +1,112 @@
+{
+  "papers": [
+    {
+      "id": "arxiv-2610-32268",
+      "title": "RVG-Bench: A Benchmark for Reasoning-Driven Audio-Visual Temporal Grounding",
+      "authors": [
+        "Yue Feng",
+        "Boshen Xu",
+        "Zihao Yue",
+        "Xiaokun Liu",
+        "Miao Yang",
+        "Xin Tao",
+        "Pengfei Wan",
+        "Qin Jin"
+      ],
+      "year": 2026,
+      "doi": null,
+      "arxiv_id": "2610.32268v1",
+      "url": "https://arxiv.org/abs/2610.32268v1",
+      "published_at": "2026-10-23",
+      "updated_at": "2026-10-23",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2606-27828",
+      "title": "Video-MME-Logical: A Controlled Diagnostic Benchmark for Video Temporal-Logical Reasoning",
+      "authors": [
+        "Hohin Kwan",
+        "Hongyu Li",
+        "Ray Zhang",
+        "Manyuan Zhang",
+        "Xianghao Kong",
+        "Anyi Rao",
+        "Jiahao Xie",
+        "Si Liu"
+      ],
+      "year": 2026,
+      "doi": null,
+      "arxiv_id": "2606.27828v1",
+      "url": "https://arxiv.org/abs/2606.27828v1",
+      "published_at": "2026-06-26",
+      "updated_at": "2026-06-26",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2606-01591",
+      "title": "TLG: Temporal-Logic Grounding for Video Question Answering via Source-Annotation Reconstruction and Category-Targeted Reasoning",
+      "authors": [
+        "Ali Alavi"
+      ],
+      "year": 2026,
+      "doi": null,
+      "arxiv_id": "2606.01591v1",
+      "url": "https://arxiv.org/abs/2606.01591v1",
+      "published_at": "2026-06-01",
+      "updated_at": "2026-06-01",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2405-21075",
+      "title": "Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis",
+      "authors": [
+        "Chaoyou Fu",
+        "Yuhan Dai",
+        "Yongdong Luo",
+        "Lei Li",
+        "Shuhuai Ren",
+        "Renrui Zhang",
+        "Zihan Wang",
+        "Chenyu Zhou",
+        "Yunhang Shen",
+        "Mengdan Zhang",
+        "Peixian Chen",
+        "Yanwei Li",
+        "Shaohui Lin",
+        "Sirui Zhao",
+        "Ke Li",
+        "Tong Xu",
+        "Xiawu Zheng",
+        "Enhong Chen",
+        "Caifeng Shan",
+        "Ran He",
+        "Xing Sun"
+      ],
+      "year": 2024,
+      "doi": null,
+      "arxiv_id": "2405.21075v3",
+      "url": "https://arxiv.org/abs/2405.21075v3",
+      "published_at": "2024-05-31",
+      "updated_at": "2025-05-30",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    }
+  ],
+  "versions": [],
+  "review": null
+}

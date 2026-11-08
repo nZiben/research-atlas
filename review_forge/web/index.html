@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Библиотека научных обзоров об искусственном интеллекте. Десять направлений, первоисточники и проверяемые связи.">
+  <title>Review Forge — библиотека исследований</title>
+  <link rel="icon" type="image/svg+xml" href="./mark.svg">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#content">Перейти к содержанию</a>
+  <aside class="sidebar" aria-label="Навигация библиотеки">
+    <a class="brand" href="#safety"><img src="./mark.svg" width="38" height="38" alt=""><span>review<span class="brand-light">forge</span><small>RESEARCH, CONNECTED.</small></span></a>
+    <div class="sidebar-label">БИБЛИОТЕКА <span id="library-count">— / 10</span></div>
+    <nav id="topic-nav" aria-label="10 направлений исследований"></nav>
+    <div class="sidebar-bottom">
+      <button class="sidebar-help" id="about-button"><span class="help-icon">↗</span><span>Об этом проекте<small>Источники, метод и ограничения</small></span></button>
+      <div class="local"><span class="live-dot"></span> Библиотека знаний <span class="local-lock" aria-hidden="true">⌁</span></div>
+    </div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><div class="breadcrumb">Библиотека <span>/</span> <span id="breadcrumb-topic">Загрузка</span></div><span class="connection"><span class="status-dot"></span>Открытая библиотека</span></header>
+    <main id="content" tabindex="-1">
+      <div class="intro-line"><span class="eyebrow">АТЛАС ИССЛЕДОВАНИЙ AI</span><span class="issue">10 НАПРАВЛЕНИЙ · ОДНА БИБЛИОТЕКА</span></div>
+      <section class="hero" aria-labelledby="topic-title">
+        <div class="hero-copy"><div id="topic-kicker" class="topic-kicker">ОБЛАСТЬ ИССЛЕДОВАНИЯ</div><h1 id="topic-title">Исследовать глубже.<br>Видеть связи.</h1><p id="topic-description" class="hero-description">Понятия, методы и свидетельства — в одной связной картине области.</p><div class="hero-actions" id="reading-actions" hidden><button id="read-overview" class="button primary">Читать обзор ↓</button><button id="read-sources" class="button secondary">Источники ↗</button></div><p class="action-note" id="action-note">От выводов можно перейти к тезисам и первоисточникам.</p></div>
+        <div class="hero-art" aria-hidden="true"><div class="art-label">ОТ СТАТЬИ К ПОНИМАНИЮ</div><svg viewBox="0 0 370 270" fill="none"><defs><pattern id="dots" width="17" height="17" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.7" fill="#c8c9c0"/></pattern></defs><rect width="370" height="270" fill="url(#dots)"/><path d="M73 83C130 83 115 135 180 135M73 135H180M73 187C130 187 115 135 180 135M180 135C255 135 227 68 300 68M180 135H300M180 135C255 135 227 202 300 202" stroke="#b7beb4" stroke-width="1.2"/><circle cx="180" cy="135" r="48" fill="#eff0e8" stroke="#d3d7c9"/><circle cx="180" cy="135" r="31" fill="#e0e7d7" stroke="#82966e"/><path d="M168 129L180 122L192 129V142L180 149L168 142V129Z" stroke="#4c6540" stroke-width="1.5"/><path d="M168 129L180 136L192 129M180 136V149" stroke="#4c6540" stroke-width="1.5"/><rect x="45" y="66" width="36" height="34" rx="5" fill="#fafaf5" stroke="#c3c8bb"/><rect x="45" y="118" width="36" height="34" rx="5" fill="#fafaf5" stroke="#c3c8bb"/><rect x="45" y="170" width="36" height="34" rx="5" fill="#fafaf5" stroke="#c3c8bb"/><path d="M54 77H71M54 82H71M54 87H65M54 129H71M54 134H71M54 139H65M54 181H71M54 186H71M54 191H65" stroke="#919a85"/><circle cx="300" cy="68" r="7" fill="#c87252" stroke="#f4ece1" stroke-width="4"/><circle cx="300" cy="135" r="7" fill="#78936e" stroke="#e9eedf" stroke-width="4"/><circle cx="300" cy="202" r="7" fill="#c6ab70" stroke="#f4eee0" stroke-width="4"/><text x="99" y="239" fill="#7c8378" font-size="9" font-family="monospace">ИСТОЧНИКИ → СВЯЗИ → ВЫВОДЫ</text></svg><div class="art-caption">Знания складываются в картину,<br>когда между ними есть связи.</div></div>
+      </section>
+      <div class="topic-meta"><span class="pill" id="review-status">Раздел готовится</span><span class="meta-separator"></span><span id="cadence">Редакционная библиотека</span><span class="meta-date" id="last-updated"></span></div>
+      <div class="view-bar"><div role="tablist" aria-label="Разделы темы" class="tabs"><button id="tab-overview" role="tab" aria-selected="true" aria-controls="view-panel" data-view="overview">Обзор</button><button id="tab-sources" role="tab" aria-selected="false" aria-controls="view-panel" data-view="sources" tabindex="-1">Источники <span id="source-count">0</span></button><button id="tab-history" role="tab" aria-selected="false" aria-controls="view-panel" data-view="history" tabindex="-1">История</button></div><span class="view-caption" id="view-caption">ОТ ПОНЯТИЙ К ПЕРВОИСТОЧНИКАМ</span></div>
+      <div id="view-panel" role="tabpanel" aria-labelledby="tab-overview" tabindex="0"><div class="loading">Загружаем библиотеку…</div></div>
+      <footer class="page-footer"><span>Review Forge <span class="footer-dot">·</span> Литература, у которой есть контекст.</span><button id="method-button">Как мы собираем обзоры <span aria-hidden="true">↗</span></button></footer>
+    </main>
+  </div>
+  <dialog id="method-dialog" aria-labelledby="method-title"><div class="dialog-top"><span class="eyebrow">МЕТОД ОБЗОРА</span><button class="close-dialog" data-close="method-dialog" aria-label="Закрыть">×</button></div><h2 id="method-title">Понимание,<br>на которое можно сослаться.</h2><div class="setup-list"><div><span class="step-number">01</span><div><strong>Вопрос и отбор</strong><p>Ищем статьи по теме, объединяем дубликаты и сохраняем причины включения и исключения.</p></div></div><div><span class="step-number">02</span><div><strong>Чтение и доказательства</strong><p>Извлекаем тезисы из источников. У цитат проверяются текст и локатор; без полного текста работа по умолчанию блокируется.</p></div></div><div><span class="step-number">03</span><div><strong>Понятия и разногласия</strong><p>Сопоставляем позиции работ, условия и ограничения. Выводы связаны с тезисами, а тезисы — со статьями.</p></div></div><div><span class="step-number">04</span><div><strong>Живая история</strong><p>Новые публикации обрабатываются редакцией отдельно от сайта. После проверки изменений выходит новая версия; читатели видят опубликованную историю.</p></div></div></div><p class="method-warning">Подготовка моделью даёт черновик для редактора. Совпадение цитаты и модельная критика не гарантируют правильность вывода; ограничения сохраняются и после выпуска.</p><button class="button primary full" data-close="method-dialog">Понятно</button></dialog>
+</body>
+</html>
