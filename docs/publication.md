@@ -4,7 +4,7 @@
 
 ## Обновить библиографию
 
-1. Проверьте первоисточники и добавьте реальные записи в `bibliography/papers.json` с датой проверки и статусом `metadata_only`.
+1. Уточните `bibliography/search-plan.json` и выполните `python3 -m review_forge.bibliography`. Проверьте кандидатов, журнал отсева и усечения. Все записи остаются `metadata_only`.
 2. Соберите сайт: `python3 -m review_forge build-site --library library --destination public`.
 3. Проверьте изменения и выполните commit/push. Workflow `Publish library` развернёт только `public/` на GitHub Pages.
 

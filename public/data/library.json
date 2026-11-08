@@ -26,8 +26,28 @@
       "topic": "Prompt injection defenses for tool-using language model agents",
       "has_review": false,
       "snapshot_id": null,
-      "papers": 4,
+      "papers": 215,
       "bibliography_checked_at": "2026-11-08",
+      "bibliography_coverage": {
+        "count": 215,
+        "first_year": 2023,
+        "last_year": 2026,
+        "years": {
+          "2023": 16,
+          "2024": 80,
+          "2025": 33,
+          "2026": 86
+        },
+        "groups": {
+          "relevance": 60,
+          "recent": 44,
+          "earlier": 96,
+          "evaluation": 39
+        },
+        "full_text_reviewed": 0,
+        "searches": 4,
+        "truncated_searches": 4
+      },
       "updated_at": null
     },
     {
@@ -54,8 +74,28 @@
       "topic": "Faithfulness of sparse autoencoder features in language model interpretability",
       "has_review": false,
       "snapshot_id": null,
-      "papers": 4,
+      "papers": 162,
       "bibliography_checked_at": "2026-11-08",
+      "bibliography_coverage": {
+        "count": 162,
+        "first_year": 2023,
+        "last_year": 2026,
+        "years": {
+          "2023": 3,
+          "2024": 53,
+          "2025": 48,
+          "2026": 58
+        },
+        "groups": {
+          "relevance": 53,
+          "recent": 34,
+          "earlier": 71,
+          "evaluation": 30
+        },
+        "full_text_reviewed": 0,
+        "searches": 4,
+        "truncated_searches": 4
+      },
       "updated_at": null
     },
     {
@@ -84,8 +124,29 @@
       "topic": "Speculative decoding for autoregressive language models under realistic serving workloads",
       "has_review": false,
       "snapshot_id": null,
-      "papers": 4,
+      "papers": 212,
       "bibliography_checked_at": "2026-11-08",
+      "bibliography_coverage": {
+        "count": 212,
+        "first_year": 2022,
+        "last_year": 2026,
+        "years": {
+          "2022": 1,
+          "2023": 14,
+          "2024": 86,
+          "2025": 33,
+          "2026": 78
+        },
+        "groups": {
+          "relevance": 60,
+          "recent": 49,
+          "earlier": 99,
+          "evaluation": 40
+        },
+        "full_text_reviewed": 0,
+        "searches": 4,
+        "truncated_searches": 4
+      },
       "updated_at": null
     },
     {
@@ -113,8 +174,29 @@
       "topic": "Reliability of long-context reasoning in language models",
       "has_review": false,
       "snapshot_id": null,
-      "papers": 4,
+      "papers": 131,
       "bibliography_checked_at": "2026-11-08",
+      "bibliography_coverage": {
+        "count": 131,
+        "first_year": 2022,
+        "last_year": 2026,
+        "years": {
+          "2022": 2,
+          "2023": 20,
+          "2024": 37,
+          "2025": 29,
+          "2026": 43
+        },
+        "groups": {
+          "relevance": 49,
+          "recent": 22,
+          "earlier": 45,
+          "evaluation": 40
+        },
+        "full_text_reviewed": 0,
+        "searches": 4,
+        "truncated_searches": 4
+      },
       "updated_at": null
     },
     {
@@ -142,8 +224,31 @@
       "topic": "Retrieval and memory mechanisms for long-horizon language model agents",
       "has_review": false,
       "snapshot_id": null,
-      "papers": 4,
+      "papers": 240,
       "bibliography_checked_at": "2026-11-08",
+      "bibliography_coverage": {
+        "count": 240,
+        "first_year": 2019,
+        "last_year": 2026,
+        "years": {
+          "2019": 3,
+          "2020": 1,
+          "2022": 5,
+          "2023": 71,
+          "2024": 20,
+          "2025": 12,
+          "2026": 128
+        },
+        "groups": {
+          "relevance": 59,
+          "recent": 49,
+          "earlier": 95,
+          "evaluation": 39
+        },
+        "full_text_reviewed": 0,
+        "searches": 4,
+        "truncated_searches": 4
+      },
       "updated_at": null
     },
     {
@@ -171,8 +276,31 @@
       "topic": "Temporal grounding and reasoning in video language models",
       "has_review": false,
       "snapshot_id": null,
-      "papers": 4,
+      "papers": 189,
       "bibliography_checked_at": "2026-11-08",
+      "bibliography_coverage": {
+        "count": 189,
+        "first_year": 2020,
+        "last_year": 2026,
+        "years": {
+          "2020": 4,
+          "2021": 8,
+          "2022": 13,
+          "2023": 38,
+          "2024": 24,
+          "2025": 35,
+          "2026": 67
+        },
+        "groups": {
+          "relevance": 59,
+          "recent": 40,
+          "earlier": 75,
+          "evaluation": 30
+        },
+        "full_text_reviewed": 0,
+        "searches": 4,
+        "truncated_searches": 4
+      },
       "updated_at": null
     },
     {
@@ -200,8 +328,30 @@
       "topic": "Cross-embodiment generalization in vision-language-action robot policies",
       "has_review": false,
       "snapshot_id": null,
-      "papers": 4,
+      "papers": 159,
       "bibliography_checked_at": "2026-11-08",
+      "bibliography_coverage": {
+        "count": 159,
+        "first_year": 2020,
+        "last_year": 2026,
+        "years": {
+          "2020": 1,
+          "2021": 1,
+          "2023": 4,
+          "2024": 31,
+          "2025": 62,
+          "2026": 60
+        },
+        "groups": {
+          "relevance": 37,
+          "recent": 20,
+          "earlier": 65,
+          "evaluation": 40
+        },
+        "full_text_reviewed": 0,
+        "searches": 4,
+        "truncated_searches": 4
+      },
       "updated_at": null
     },
     {
@@ -229,8 +379,29 @@
       "topic": "Reward hacking and reward model generalization in language model post-training",
       "has_review": false,
       "snapshot_id": null,
-      "papers": 4,
+      "papers": 158,
       "bibliography_checked_at": "2026-11-08",
+      "bibliography_coverage": {
+        "count": 158,
+        "first_year": 2022,
+        "last_year": 2026,
+        "years": {
+          "2022": 1,
+          "2023": 6,
+          "2024": 31,
+          "2025": 58,
+          "2026": 62
+        },
+        "groups": {
+          "relevance": 51,
+          "recent": 38,
+          "earlier": 85,
+          "evaluation": 22
+        },
+        "full_text_reviewed": 0,
+        "searches": 4,
+        "truncated_searches": 4
+      },
       "updated_at": null
     },
     {
@@ -258,8 +429,29 @@
       "topic": "Validity and bias of language models as evaluators of model-generated answers",
       "has_review": false,
       "snapshot_id": null,
-      "papers": 4,
+      "papers": 126,
       "bibliography_checked_at": "2026-11-08",
+      "bibliography_coverage": {
+        "count": 126,
+        "first_year": 2022,
+        "last_year": 2026,
+        "years": {
+          "2022": 1,
+          "2023": 9,
+          "2024": 22,
+          "2025": 32,
+          "2026": 62
+        },
+        "groups": {
+          "relevance": 59,
+          "recent": 35,
+          "earlier": 21,
+          "evaluation": 40
+        },
+        "full_text_reviewed": 0,
+        "searches": 4,
+        "truncated_searches": 4
+      },
       "updated_at": null
     },
     {
@@ -287,8 +479,32 @@
       "topic": "Out-of-distribution generalization of neural operators for partial differential equations",
       "has_review": false,
       "snapshot_id": null,
-      "papers": 4,
+      "papers": 87,
       "bibliography_checked_at": "2026-11-08",
+      "bibliography_coverage": {
+        "count": 87,
+        "first_year": 2019,
+        "last_year": 2026,
+        "years": {
+          "2019": 1,
+          "2020": 3,
+          "2021": 5,
+          "2022": 21,
+          "2023": 4,
+          "2024": 11,
+          "2025": 20,
+          "2026": 22
+        },
+        "groups": {
+          "relevance": 34,
+          "recent": 8,
+          "earlier": 32,
+          "evaluation": 19
+        },
+        "full_text_reviewed": 0,
+        "searches": 4,
+        "truncated_searches": 4
+      },
       "updated_at": null
     }
   ]

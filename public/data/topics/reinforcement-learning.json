@@ -1,6 +1,223 @@
 {
   "papers": [
     {
+      "id": "arxiv-2611-07939",
+      "title": "WAM-Sim0.1: World Anchored Memory Meets Online RL for Consistent and Realistic Driving Simulation",
+      "authors": [
+        "Jiahao Cui",
+        "Jiaye Li",
+        "Wenhao Zhang",
+        "Yaoyi Li",
+        "Shan Luan",
+        "Quanhui Tang",
+        "Jianhua Han",
+        "Lin Cheng",
+        "Hang Xu",
+        "Siyu Zhu"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.07939v1",
+      "url": "https://arxiv.org/abs/2611.07939v1",
+      "published_at": "2026-11-05",
+      "updated_at": "2026-11-05",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-06518",
+      "title": "EmoReward: Self-Evolving Reward Calibration for Emotional Video Generation RL",
+      "authors": [
+        "Mingzhe Zheng",
+        "Yue Wu",
+        "Jing Tan",
+        "Chang Zou",
+        "Dengyang Jiang",
+        "Zeyue Tian",
+        "Xuanhua He",
+        "Ryan Xu",
+        "Yunyang Ge",
+        "Sihui Ji",
+        "Yunlong Lin",
+        "Kaihang Pan",
+        "Hongru Yan",
+        "Sixiang Chen",
+        "Dianyi Wang",
+        "Julian Zhang",
+        "Weijie Kong",
+        "Changlin Li",
+        "Lanqing Guo",
+        "Zhao Zhong",
+        "Qifeng Chen",
+        "Harry Yang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.06518v1",
+      "url": "https://arxiv.org/abs/2611.06518v1",
+      "published_at": "2026-11-04",
+      "updated_at": "2026-11-04",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-05151",
+      "title": "Catalyzing Interactive HTML Generation Capabilities via High-Fidelity Reinforcement Learning",
+      "authors": [
+        "Xujia Wang",
+        "Yixuan Liu",
+        "Shaohan Huang",
+        "Furu Wei",
+        "Lei Hou",
+        "Bin Xu",
+        "Juanzi Li"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.05151v1",
+      "url": "https://arxiv.org/abs/2611.05151v1",
+      "published_at": "2026-11-03",
+      "updated_at": "2026-11-03",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-03627",
+      "title": "Not All Reasoning Generalizes: A Case Study on Learning Generalizable Reasoning Strategies in RLVR",
+      "authors": [
+        "Ziqi Pang",
+        "Yu-Xiong Wang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.03627v1",
+      "url": "https://arxiv.org/abs/2611.03627v1",
+      "published_at": "2026-11-02",
+      "updated_at": "2026-11-02",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-01334",
+      "title": "The Verifier Is Part of the Simulator: Evidence-View Gaming in Agentic Equation Discovery",
+      "authors": [
+        "Orestis Oikonomou",
+        "Bogdan Raonic"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.01334v1",
+      "url": "https://arxiv.org/abs/2611.01334v1",
+      "published_at": "2026-10-31",
+      "updated_at": "2026-10-31",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-01313",
+      "title": "Are Fake Citations a Form of Reward Hacking? A Pre-Registered Study of Post-Training and Citation Cues",
+      "authors": [
+        "Zain Naboulsi"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.01313v1",
+      "url": "https://arxiv.org/abs/2611.01313v1",
+      "published_at": "2026-10-31",
+      "updated_at": "2026-10-31",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-39835",
+      "title": "Aligning Medical Vision Language Models at the Capability Boundary with Entropy Adaptive Rubric Grounding",
+      "authors": [
+        "Hongyu Bai",
+        "Jiaqi Zeng",
+        "Chunzheng Zhu"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.39835v1",
+      "url": "https://arxiv.org/abs/2610.39835v1",
+      "published_at": "2026-10-29",
+      "updated_at": "2026-10-29",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-38185",
+      "title": "Complementing Text Based Moderation with Multimodal Grounding: Detecting Fraudulent Inducement Behaviors on Short Video Platforms",
+      "authors": [
+        "Xiaoyong Yu"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.38185v1",
+      "url": "https://arxiv.org/abs/2610.38185v1",
+      "published_at": "2026-10-28",
+      "updated_at": "2026-10-28",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
       "id": "arxiv-2610-29129",
       "title": "Mitigating Reward Hacking in Realistic Scenarios Through Representation Engineering",
       "authors": [
@@ -19,6 +236,468 @@
       "checked_at": "2026-11-08",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "seed"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-28819",
+      "title": "LIFT: Scoped Constraints for Evaluating and Training Instruction Following",
+      "authors": [
+        "Eran Goldstein",
+        "Yuval Belfer",
+        "Yonatan Belinkov",
+        "Daniel Gissin"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.28819v1",
+      "url": "https://arxiv.org/abs/2610.28819v1",
+      "published_at": "2026-10-20",
+      "updated_at": "2026-10-20",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-28303",
+      "title": "Reward Misspecification Degrades Chain-of-Thought Monitorability",
+      "authors": [
+        "Tianyi Lorena Yan",
+        "John Hewitt"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.28303v1",
+      "url": "https://arxiv.org/abs/2610.28303v1",
+      "published_at": "2026-10-20",
+      "updated_at": "2026-10-20",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-26496",
+      "title": "Mitigating Reward Hacking in Preference Reward Models with Evolving Penalties",
+      "authors": [
+        "Afonso Baldo",
+        "António Farinhas",
+        "Marcos Treviso",
+        "Ricardo Rei",
+        "Nuno M. Guerreiro"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.26496v2",
+      "url": "https://arxiv.org/abs/2610.26496v2",
+      "published_at": "2026-10-19",
+      "updated_at": "2026-10-20",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "recent",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-22217",
+      "title": "Skill-Decoupled On-Policy Expert Distillation for Unified Vision-Language Models",
+      "authors": [
+        "Yuqi Xiong",
+        "Chunyi Peng",
+        "Zhipeng Xu",
+        "Qing Yang",
+        "Zhenghao Liu",
+        "Zulong Chen",
+        "Yu Gu",
+        "Ge Yu"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.22217v1",
+      "url": "https://arxiv.org/abs/2610.22217v1",
+      "published_at": "2026-10-15",
+      "updated_at": "2026-10-15",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-19832",
+      "title": "Rent-Seeking Language Models: Reward Models Set the Prices, Frequent Audits Curb the Rent",
+      "authors": [
+        "Zixiao Wang",
+        "Xingbo Du",
+        "Duzhen Zhang",
+        "Le Song"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.19832v1",
+      "url": "https://arxiv.org/abs/2610.19832v1",
+      "published_at": "2026-10-14",
+      "updated_at": "2026-10-14",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-19362",
+      "title": "Tail Competition Explains Scaling in Best-of-N Sampling for Verifiable Problems",
+      "authors": [
+        "Taro Yano",
+        "Yoichi Ishibashi",
+        "Masafumi Oyamada"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.19362v1",
+      "url": "https://arxiv.org/abs/2610.19362v1",
+      "published_at": "2026-10-14",
+      "updated_at": "2026-10-14",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-15924",
+      "title": "Scalable Weak-to-Strong Verifier Hardening for Agent Environments",
+      "authors": [
+        "Chong Zeng",
+        "Ziqian Zhong",
+        "Kexun Zhang",
+        "Ivan Bercovich",
+        "Ivgeni Segal",
+        "Yuzhen Mao",
+        "Shashwat Saxena",
+        "Aditi Raghunathan"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.15924v1",
+      "url": "https://arxiv.org/abs/2610.15924v1",
+      "published_at": "2026-10-11",
+      "updated_at": "2026-10-11",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-14976",
+      "title": "Metric-Driven Reinforcement Learning for Object Hallucination Reduction in LVLM-Based Image Captioning",
+      "authors": [
+        "Thanh Nguyen",
+        "Hee Suk Yoon",
+        "Tung Minh Luu",
+        "Eunseop Yoon",
+        "Chang D. Yoo"
+      ],
+      "year": 2026,
+      "doi": "10.1109/ACCESS.2026.3723028",
+      "arxiv_id": "2610.14976v1",
+      "url": "https://arxiv.org/abs/2610.14976v1",
+      "published_at": "2026-10-10",
+      "updated_at": "2026-10-10",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-11281",
+      "title": "How to post-train on a surrogate: Envelope sampling mitigates reward hacking",
+      "authors": [
+        "Sanjit Dandapanthula",
+        "Shuvom Sadhuka",
+        "Samir Khan",
+        "Michael Oberst",
+        "Aaditya Ramdas",
+        "Alexandra Chouldechova"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.11281v1",
+      "url": "https://arxiv.org/abs/2610.11281v1",
+      "published_at": "2026-10-08",
+      "updated_at": "2026-10-08",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-10947",
+      "title": "RH-Detect: A Unified Benchmark for Reward Hacking Detection",
+      "authors": [
+        "Junwei Quan",
+        "Evgenii Opryshko",
+        "Rohan Subramani",
+        "Igor Gilitschenski"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.10947v1",
+      "url": "https://arxiv.org/abs/2610.10947v1",
+      "published_at": "2026-10-07",
+      "updated_at": "2026-10-07",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-09384",
+      "title": "The Persona Hierarchy Model: Understanding Contextual Generalization in Fine-Tuning LLMs",
+      "authors": [
+        "Jiachen Zhao",
+        "Zhengxuan Wu",
+        "David Bau",
+        "Weiyan Shi"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.09384v1",
+      "url": "https://arxiv.org/abs/2610.09384v1",
+      "published_at": "2026-10-07",
+      "updated_at": "2026-10-07",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-05308",
+      "title": "RubricArmor: Adversarial Evolution Improves LLM-Based Rubric Generation",
+      "authors": [
+        "Haocheng Yang",
+        "Yuchao Zhang",
+        "Licheng Pan",
+        "Jiajun Fan",
+        "Maolin Wang",
+        "Kangning Zhang",
+        "Shuai Shao",
+        "Shijian Wang",
+        "Yuan Lu",
+        "Chunyuan Zheng",
+        "Hao Wang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.05308v1",
+      "url": "https://arxiv.org/abs/2610.05308v1",
+      "published_at": "2026-10-04",
+      "updated_at": "2026-10-04",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-03185",
+      "title": "Gains and Collapse in On-Policy Distillation:A Reinforcement Learning Perspective",
+      "authors": [
+        "Han Cui",
+        "Jianhao Yan",
+        "Yun Luo",
+        "Hongbo Zhang",
+        "Zhizhang Fu",
+        "Yue Zhang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.03185v1",
+      "url": "https://arxiv.org/abs/2610.03185v1",
+      "published_at": "2026-10-02",
+      "updated_at": "2026-10-02",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-01800",
+      "title": "LineupRL: Verifiable Reinforcement Learning for Time Series Captioning via Caption-to-Series Identification",
+      "authors": [
+        "Haochen Zhang",
+        "Laura Yao",
+        "Zachary Plotkin",
+        "Gengwei Zhang",
+        "Tianlong Chen"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.01800v1",
+      "url": "https://arxiv.org/abs/2610.01800v1",
+      "published_at": "2026-10-01",
+      "updated_at": "2026-10-01",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2609-39533",
+      "title": "CATCH: A Controllable Analysis Testbed for Reward Hacking in Coding RL",
+      "authors": [
+        "Shouli Wang",
+        "Yanfeng Jia",
+        "Zhihao Ou",
+        "Zitao Su",
+        "Ruize He",
+        "Haotong Xie",
+        "Hao Peng",
+        "Juanzi Li",
+        "Xiaozhi Wang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2609.39533v3",
+      "url": "https://arxiv.org/abs/2609.39533v3",
+      "published_at": "2026-09-30",
+      "updated_at": "2026-10-02",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2609-38847",
+      "title": "Scoring Higher, Answering Worse: Mitigating Reward Hacking in Rubric-Based RL via Protocol-Level Rubrics",
+      "authors": [
+        "Maoqi Liu",
+        "Junwei He",
+        "Bowen Zhang",
+        "Feiran Li",
+        "Wentao Ma",
+        "Rongyi Lin",
+        "Shuhan Zhong",
+        "Quan Fang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2609.38847v1",
+      "url": "https://arxiv.org/abs/2609.38847v1",
+      "published_at": "2026-09-30",
+      "updated_at": "2026-09-30",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-00332",
+      "title": "The Weakest Link: Distilling LLM Reasoning with Worst-Case Constrained Reinforcement Learning",
+      "authors": [
+        "Matthieu Zimmer",
+        "Xiaotong Ji",
+        "Tu Nguyen",
+        "Haitham Bou-Ammar"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.00332v1",
+      "url": "https://arxiv.org/abs/2610.00332v1",
+      "published_at": "2026-09-29",
+      "updated_at": "2026-09-29",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -39,6 +718,722 @@
       "checked_at": "2026-11-08",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "seed"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2609-35677",
+      "title": "Verifier Errors in RLVR: Reward Hacking, Limits of Feedback, and Selective Control",
+      "authors": [
+        "Christian Moya",
+        "Elliott Thornley",
+        "Guang Lin"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2609.35677v1",
+      "url": "https://arxiv.org/abs/2609.35677v1",
+      "published_at": "2026-09-28",
+      "updated_at": "2026-09-28",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2609-33989",
+      "title": "RewardExplainer: Learning Reward Model Explanations from Counterfactual Preference Feedback",
+      "authors": [
+        "Jingyi He",
+        "Nier Wu",
+        "Shuang Liu",
+        "Xin Wang",
+        "Mengnan Du",
+        "Xia Hu"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2609.33989v1",
+      "url": "https://arxiv.org/abs/2609.33989v1",
+      "published_at": "2026-09-27",
+      "updated_at": "2026-09-27",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2609-33221",
+      "title": "RMB: Reward Model Boosting Mitigates Reward Hacking",
+      "authors": [
+        "Jiabin Fan",
+        "Dezhi Ye",
+        "Yongchang Hao",
+        "Lili Mou"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2609.33221v1",
+      "url": "https://arxiv.org/abs/2609.33221v1",
+      "published_at": "2026-09-27",
+      "updated_at": "2026-09-27",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2609-31911",
+      "title": "Enhancing Visual Reasoning in Chest X-Ray Report Generation Using Reinforcement Learning",
+      "authors": [
+        "Denis Musinguzi",
+        "Andrew Katumba",
+        "Prasenjit Mitra"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2609.31911v1",
+      "url": "https://arxiv.org/abs/2609.31911v1",
+      "published_at": "2026-09-25",
+      "updated_at": "2026-09-25",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2609-31855",
+      "title": "PHIRL: Aligning Learned Rewards with Task Progress for Inverse Reinforcement Learning",
+      "authors": [
+        "Hang Yu",
+        "James Staley",
+        "Cheng Xi Tsou",
+        "Xiujin Liu",
+        "Wenchang Gao",
+        "Jindan Huang",
+        "Shijie Fang",
+        "Zhegong Shangguan",
+        "Angelo Cangelosi",
+        "Reuben Aronson",
+        "Elaine Short"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2609.31855v1",
+      "url": "https://arxiv.org/abs/2609.31855v1",
+      "published_at": "2026-09-25",
+      "updated_at": "2026-09-25",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2609-29429",
+      "title": "Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures",
+      "authors": [
+        "Ruoqi Guo",
+        "Yi Liu",
+        "Gelei Deng",
+        "Yuekang Li",
+        "Lida Zhao",
+        "Yutao Wu",
+        "Simin Chen",
+        "Ying Zhang",
+        "Leo Yu Zhang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2609.29429v1",
+      "url": "https://arxiv.org/abs/2609.29429v1",
+      "published_at": "2026-09-24",
+      "updated_at": "2026-09-24",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2609-28614",
+      "title": "Reward Hacking Challenges Oversight of Autonomous Research Agents",
+      "authors": [
+        "Yue Huang",
+        "Zhangchen Xu",
+        "Yuchen Ma",
+        "Wenjie Wang",
+        "Zheyuan Liu",
+        "Ziwei Xu",
+        "Pin-Yu Chen",
+        "Michel Galley",
+        "Zinan Lin",
+        "Stefan Feuerriegel",
+        "Radha Poovendran",
+        "Misha Sra",
+        "Alex Pentland",
+        "Xiangliang Zhang",
+        "Zichen Chen"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2609.28614v1",
+      "url": "https://arxiv.org/abs/2609.28614v1",
+      "published_at": "2026-09-23",
+      "updated_at": "2026-09-23",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2609-27572",
+      "title": "DCRL: Decoupling and Coupling Reinforcement Learning via Policy-Reward Manifold Alignment",
+      "authors": [
+        "Henan Sun",
+        "Zehua Li",
+        "Haitao Hu",
+        "Qifan Zhang",
+        "Jianfeng Zhang",
+        "Nuo Chen",
+        "Jia Li"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2609.27572v1",
+      "url": "https://arxiv.org/abs/2609.27572v1",
+      "published_at": "2026-09-23",
+      "updated_at": "2026-09-23",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2609-25848",
+      "title": "Optimizing the Score, Losing Sight of the Task: Reward Hacking Across Weights, Selection, and Prompts",
+      "authors": [
+        "Vansh Wahi"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2609.25848v1",
+      "url": "https://arxiv.org/abs/2609.25848v1",
+      "published_at": "2026-09-22",
+      "updated_at": "2026-09-22",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2609-24760",
+      "title": "Construting Reverse Thinking: Developing Large Language Models' Reverse Thingking Ability",
+      "authors": [
+        "Xin Liu",
+        "Yunhai Li",
+        "Chunfu Jia",
+        "Ziliang Chen",
+        "Jisen Song"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2609.24760v1",
+      "url": "https://arxiv.org/abs/2609.24760v1",
+      "published_at": "2026-09-21",
+      "updated_at": "2026-09-21",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2609-22978",
+      "title": "DeepSeek Elastic Compute (DSec): A Sandbox Infrastructure for Effective Agentic Training at Scale",
+      "authors": [
+        "Jialiang Huang",
+        "Hongxuan Tang",
+        "Jingchang Chen",
+        "Yuxuan Liu",
+        "Yixiao Chen",
+        "Yuan Cheng",
+        "Yi Tao",
+        "Jingli Zhou",
+        "Yupeng Chen",
+        "Haoyu Chen",
+        "Jiarui Wang",
+        "Shengkai Lin",
+        "Chuqi Zhang",
+        "Bryan Lee Teng",
+        "Lian Guo",
+        "Zhe Fu",
+        "Wenjun Gao",
+        "Yisong Wang",
+        "Liang Zhao",
+        "Zehao Wang",
+        "Ziwei Xie",
+        "Yongqiang Guo",
+        "Peixin Cong",
+        "Ziyi Gao",
+        "Shuiping Yu",
+        "Hanwei Xu",
+        "Zuofan Wu",
+        "Zhizhou Ren",
+        "Yuyang Zhou",
+        "Bowei Zhang",
+        "Zhihuan Huang",
+        "Qihao Zhu",
+        "Lei Wang",
+        "Tianle Lin",
+        "Han Yu",
+        "Jiewen Hu",
+        "Dejian Yang",
+        "Shuo Yang",
+        "Shanghao Lu",
+        "Shaoyuan Chen",
+        "Junjie Qiu",
+        "Zhangli Sha",
+        "Yinmin Zhong",
+        "Yongtong Wu",
+        "Shiyu Wang",
+        "Wei Liu",
+        "Bingzheng Xu",
+        "Longhao Chen",
+        "Qiushi Du",
+        "Yuzhen Huang",
+        "Shirong Ma",
+        "Yaohui Wang",
+        "Mingshu Chen",
+        "Tongrui Xiong",
+        "Y. C. Yan",
+        "Haowen Luo",
+        "Haofen Liang",
+        "Xiaokang Zhang",
+        "Weihao Zeng",
+        "Runxin Xu",
+        "Peiyi Wang",
+        "Jinhua Zhu",
+        "Ruoyu Zhang",
+        "Wenkai Yang",
+        "Qi Tang",
+        "Jiping Yu",
+        "Tian Ye",
+        "Ruizhe Pan",
+        "Honghui Ding",
+        "Xiaodong Liu",
+        "Lingxiao Luo",
+        "Zhihong Shao",
+        "Yuhan Wu",
+        "Jibai Lu",
+        "Wen Liu",
+        "Haoling Zhang",
+        "Jingcheng Hu",
+        "Yaoyang Ye",
+        "Chaofan Lin",
+        "Zhaochen Zhang",
+        "Jianan Tong",
+        "Hengxu Wu",
+        "Zhihao Li",
+        "Yicheng Wang",
+        "Luyao Wang",
+        "Yuzhuo Bai",
+        "Lingyue Fu",
+        "Ruifan Xu",
+        "Y. Z. Wang",
+        "Zonglin Li",
+        "Mingqi Wei",
+        "Haiyang Shen",
+        "Chengyuan Zhang",
+        "Chao Jin",
+        "Zili Zhang",
+        "R. H. Yang",
+        "Xinbo Xu",
+        "Jian Zhou",
+        "Ruidong Zhu",
+        "Yuzhe Guo",
+        "Zelun Pan",
+        "Shaoheng Nie",
+        "Erhang Li",
+        "Shuhan Lin",
+        "Zheng Liu",
+        "Anshuo Chen",
+        "Zilong Lyu",
+        "Sinuo Cao",
+        "Rui Yu",
+        "Chuhao Wang",
+        "Junyi Guo",
+        "Junxiao Song",
+        "Kaifeng Chen",
+        "Menghao Ye",
+        "Junxian Li",
+        "Di Wu",
+        "Haiyang Ma",
+        "Yilun Wang",
+        "Haoran Yang",
+        "Yizai Cai",
+        "Shichun Liu",
+        "Yiping Wang",
+        "Junbo Sun",
+        "Shicheng Xu",
+        "Xiao Bi",
+        "Ying He",
+        "Yichao Zhang",
+        "Mingxing Zhang",
+        "Liyue Zhang",
+        "Panpan Huang",
+        "Wenfeng Liang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2609.22978v1",
+      "url": "https://arxiv.org/abs/2609.22978v1",
+      "published_at": "2026-09-19",
+      "updated_at": "2026-09-19",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2609-18642",
+      "title": "STRETCH the Boundaries: A Unified Self-Taught Framework for Progressive LLM Evolution",
+      "authors": [
+        "Yajie Yu",
+        "Mark Lee",
+        "Yue Feng"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2609.18642v1",
+      "url": "https://arxiv.org/abs/2609.18642v1",
+      "published_at": "2026-09-16",
+      "updated_at": "2026-09-16",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2609-12607",
+      "title": "Direct Preference Density Alignment for Conversational Audio Equalization",
+      "authors": [
+        "Ioannis Stylianou",
+        "Sven Ewan Shepstone",
+        "Jon Francombe",
+        "Pablo Martinez Nuevo",
+        "Zheng-Hua Tan"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2609.12607v1",
+      "url": "https://arxiv.org/abs/2609.12607v1",
+      "published_at": "2026-09-11",
+      "updated_at": "2026-09-11",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2607-09492",
+      "title": "Multimodal Reward Hacking in Reinforcement Learning",
+      "authors": [
+        "Jiayu Yao",
+        "Yiwei Wang",
+        "Anmeng Zhang",
+        "Zhe Sun",
+        "Songsong Wang",
+        "Lingrui Mei",
+        "Yuyao Ge",
+        "Shenghua Liu"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2607.09492v1",
+      "url": "https://arxiv.org/abs/2607.09492v1",
+      "published_at": "2026-07-10",
+      "updated_at": "2026-07-10",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2606-19818",
+      "title": "Uncertainty-Aware Reward Modeling for Stable RLHF",
+      "authors": [
+        "Licheng Pan",
+        "Haocheng Yang",
+        "Haoxuan Li",
+        "Yichen Sun",
+        "Yunsheng Lu",
+        "Shijian Wang",
+        "Lei Shen",
+        "Yuan Lu",
+        "Zhixuan Chu",
+        "Hao Wang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2606.19818v1",
+      "url": "https://arxiv.org/abs/2606.19818v1",
+      "published_at": "2026-06-18",
+      "updated_at": "2026-06-18",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2606-15385",
+      "title": "Reward Hacking in Language Model Agents: Revisiting AI Safety Gridworlds",
+      "authors": [
+        "Ömer Veysel Çağatan",
+        "Xuandong Zhao"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2606.15385v1",
+      "url": "https://arxiv.org/abs/2606.15385v1",
+      "published_at": "2026-06-13",
+      "updated_at": "2026-06-13",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2606-04145",
+      "title": "EvalStop: Using World Feedback to Detect and Correct Reward Overoptimization in Multi-Tenant RLHF Platforms",
+      "authors": [
+        "Guilin Zhang",
+        "Chuanyi Sun",
+        "Kai Zhao",
+        "Xu Chu",
+        "Shahryar Sarkani",
+        "John M. Fossaceca"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2606.04145v3",
+      "url": "https://arxiv.org/abs/2606.04145v3",
+      "published_at": "2026-06-02",
+      "updated_at": "2026-06-14",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2606-03238",
+      "title": "When RLHF Fails: A Mechanistic Taxonomy of Reward Hacking, Collapse, and Evaluator Gaming",
+      "authors": [
+        "Zelalem Abahana",
+        "David Evans",
+        "Satish Mahadevan Srinivasan",
+        "Matjaz Gams"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2606.03238v2",
+      "url": "https://arxiv.org/abs/2606.03238v2",
+      "published_at": "2026-06-02",
+      "updated_at": "2026-07-09",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2605-25189",
+      "title": "Directional Alignment Mitigates Reward Hacking in Reinforcement Learning for Language Models",
+      "authors": [
+        "Wenlong Deng",
+        "Jiaji Huang",
+        "Kaan Ozkara",
+        "Yushu Li",
+        "Christos Thrampoulidis",
+        "Xiaoxiao Li",
+        "Youngsuk Park"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2605.25189v1",
+      "url": "https://arxiv.org/abs/2605.25189v1",
+      "published_at": "2026-05-24",
+      "updated_at": "2026-05-24",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2605-20744",
+      "title": "Hack-Verifiable Environments: Towards Evaluating Reward Hacking at Scale",
+      "authors": [
+        "Amit Roth",
+        "Ankur Samanta",
+        "Matan Halevy",
+        "Yoav Levine",
+        "Yonathan Efroni"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2605.20744v1",
+      "url": "https://arxiv.org/abs/2605.20744v1",
+      "published_at": "2026-05-20",
+      "updated_at": "2026-05-20",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2605-02964",
+      "title": "Reward Hacking Benchmark: Measuring Exploits in LLM Agents with Tool Use",
+      "authors": [
+        "Kunvar Thaman"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2605.02964v1",
+      "url": "https://arxiv.org/abs/2605.02964v1",
+      "published_at": "2026-05-03",
+      "updated_at": "2026-05-03",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2604-26360",
+      "title": "Uncertainty-Aware Reward Discounting for Mitigating Reward Hacking",
+      "authors": [
+        "Disha Singha"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2604.26360v2",
+      "url": "https://arxiv.org/abs/2604.26360v2",
+      "published_at": "2026-04-29",
+      "updated_at": "2026-06-26",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -71,7 +1466,7 @@
         "Xuanjing Huang"
       ],
       "year": 2026,
-      "doi": null,
+      "doi": "",
       "arxiv_id": "2604.13602v1",
       "url": "https://arxiv.org/abs/2604.13602v1",
       "published_at": "2026-04-15",
@@ -79,6 +1474,3142 @@
       "checked_at": "2026-11-08",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance",
+        "seed"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2604-04648",
+      "title": "From Curiosity to Caution: Mitigating Reward Hacking for Best-of-N with Pessimism",
+      "authors": [
+        "Zhuohao Yu",
+        "Zhiwei Steven Wu",
+        "Adam Block"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2604.04648v1",
+      "url": "https://arxiv.org/abs/2604.04648v1",
+      "published_at": "2026-04-06",
+      "updated_at": "2026-04-06",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2604-02986",
+      "title": "Mitigating Reward Hacking in RLHF via Advantage Sign Robustness",
+      "authors": [
+        "Shinnosuke Ono",
+        "Johannes Ackermann",
+        "Soichiro Nishimori",
+        "Takashi Ishida",
+        "Masashi Sugiyama"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2604.02986v1",
+      "url": "https://arxiv.org/abs/2604.02986v1",
+      "published_at": "2026-04-03",
+      "updated_at": "2026-04-03",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2603-28063",
+      "title": "Reward Hacking as Equilibrium under Finite Evaluation",
+      "authors": [
+        "Jiacheng Wang",
+        "Jinbin Huang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2603.28063v1",
+      "url": "https://arxiv.org/abs/2603.28063v1",
+      "published_at": "2026-03-30",
+      "updated_at": "2026-03-30",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2603-10279",
+      "title": "Robust Post-Training for Generative Recommenders: Why Exponential Reward-Weighted SFT Outperforms RLHF",
+      "authors": [
+        "Keertana Chidambaram",
+        "Sanath Kumar Krishnamurthy",
+        "Qiuling Xu",
+        "Ko-Jen Hsiao",
+        "Moumita Bhattacharya"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2603.10279v1",
+      "url": "https://arxiv.org/abs/2603.10279v1",
+      "published_at": "2026-03-10",
+      "updated_at": "2026-03-10",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2603-04069",
+      "title": "Monitoring Emergent Reward Hacking During Generation via Internal Activations",
+      "authors": [
+        "Patrick Wilhelm",
+        "Thorsten Wittkopp",
+        "Odej Kao"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2603.04069v1",
+      "url": "https://arxiv.org/abs/2603.04069v1",
+      "published_at": "2026-03-04",
+      "updated_at": "2026-03-04",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2602-19416",
+      "title": "IR$^3$: Contrastive Inverse Reinforcement Learning for Interpretable Detection and Mitigation of Reward Hacking",
+      "authors": [
+        "Mohammad Beigi",
+        "Ming Jin",
+        "Junshan Zhang",
+        "Jiaxin Zhang",
+        "Qifan Wang",
+        "Lifu Huang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2602.19416v1",
+      "url": "https://arxiv.org/abs/2602.19416v1",
+      "published_at": "2026-02-23",
+      "updated_at": "2026-02-23",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2602-18037",
+      "title": "Gradient Regularization Mitigates Reward Hacking in Reinforcement Learning from Human Feedback and Verifiable Rewards",
+      "authors": [
+        "Johannes Ackermann",
+        "Michael Noukhovitch",
+        "Takashi Ishida",
+        "Masashi Sugiyama"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2602.18037v2",
+      "url": "https://arxiv.org/abs/2602.18037v2",
+      "published_at": "2026-02-20",
+      "updated_at": "2026-07-03",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2602-10623",
+      "title": "Mitigating Reward Hacking in RLHF via Bayesian Non-negative Reward Modeling",
+      "authors": [
+        "Zhibin Duan",
+        "Guowei Rong",
+        "Zhuo Li",
+        "Bo Chen",
+        "Mingyuan Zhou",
+        "Dandan Guo"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2602.10623v2",
+      "url": "https://arxiv.org/abs/2602.10623v2",
+      "published_at": "2026-02-11",
+      "updated_at": "2026-06-01",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2602-01750",
+      "title": "Adversarial Reward Auditing for Active Detection and Mitigation of Reward Hacking",
+      "authors": [
+        "Mohammad Beigi",
+        "Ming Jin",
+        "Junshan Zhang",
+        "Qifan Wang",
+        "Lifu Huang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2602.01750v2",
+      "url": "https://arxiv.org/abs/2602.01750v2",
+      "published_at": "2026-02-02",
+      "updated_at": "2026-09-28",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2601-22664",
+      "title": "Real-Time Aligned Reward Model beyond Semantics",
+      "authors": [
+        "Zixuan Huang",
+        "Xin Xia",
+        "Yuxi Ren",
+        "Jianbin Zheng",
+        "Xuefeng Xiao",
+        "Hongyan Xie",
+        "Li Huaqiu",
+        "Songshi Liang",
+        "Zhongxiang Dai",
+        "Fuzhen Zhuang",
+        "Jianxin Li",
+        "Yikun Ban",
+        "Deqing Wang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2601.22664v4",
+      "url": "https://arxiv.org/abs/2601.22664v4",
+      "published_at": "2026-01-30",
+      "updated_at": "2026-05-16",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2601-21350",
+      "title": "Factored Causal Representation Learning for Robust Reward Modeling in RLHF",
+      "authors": [
+        "Yupei Yang",
+        "Lin Yang",
+        "Wanxi Deng",
+        "Lin Qu",
+        "Fan Feng",
+        "Biwei Huang",
+        "Shikui Tu",
+        "Lei Xu"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2601.21350v2",
+      "url": "https://arxiv.org/abs/2601.21350v2",
+      "published_at": "2026-01-29",
+      "updated_at": "2026-05-16",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2601-03468",
+      "title": "Understanding Reward Hacking in Text-to-Image Reinforcement Learning",
+      "authors": [
+        "Yunqi Hong",
+        "Kuei-Chun Kao",
+        "Hengguang Zhou",
+        "Cho-Jui Hsieh"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2601.03468v2",
+      "url": "https://arxiv.org/abs/2601.03468v2",
+      "published_at": "2026-01-06",
+      "updated_at": "2026-08-31",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2512-00724",
+      "title": "UMM-RM: An Upcycle-and-Merge MoE Reward Model for Mitigating Reward Hacking",
+      "authors": [
+        "Lingling Fu",
+        "Yongfu Xue"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2512.00724v3",
+      "url": "https://arxiv.org/abs/2512.00724v3",
+      "published_at": "2025-11-30",
+      "updated_at": "2026-10-11",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2511-18397",
+      "title": "Natural Emergent Misalignment from Reward Hacking in Production RL",
+      "authors": [
+        "Monte MacDiarmid",
+        "Benjamin Wright",
+        "Jonathan Uesato",
+        "Joe Benton",
+        "Jon Kutasov",
+        "Sara Price",
+        "Naia Bouscal",
+        "Sam Bowman",
+        "Trenton Bricken",
+        "Alex Cloud",
+        "Carson Denison",
+        "Johannes Gasteiger",
+        "Ryan Greenblatt",
+        "Jan Leike",
+        "Jack Lindsey",
+        "Vlad Mikulik",
+        "Ethan Perez",
+        "Alex Rodrigues",
+        "Drake Thomas",
+        "Albert Webson",
+        "Daniel Ziegler",
+        "Evan Hubinger"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2511.18397v1",
+      "url": "https://arxiv.org/abs/2511.18397v1",
+      "published_at": "2025-11-23",
+      "updated_at": "2025-11-23",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2511-17869",
+      "title": "The Horcrux: Mechanistically Interpretable Task Decomposition for Detecting and Mitigating Reward Hacking in Embodied AI Systems",
+      "authors": [
+        "Subramanyam Sahoo",
+        "Jared Junkin"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2511.17869v1",
+      "url": "https://arxiv.org/abs/2511.17869v1",
+      "published_at": "2025-11-22",
+      "updated_at": "2025-11-22",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2510-13694",
+      "title": "Information-Theoretic Reward Modeling for Stable RLHF: Detecting and Mitigating Reward Hacking",
+      "authors": [
+        "Yuchun Miao",
+        "Liang Ding",
+        "Sen Zhang",
+        "Rong Bao",
+        "Lefei Zhang",
+        "Dacheng Tao"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2510.13694v1",
+      "url": "https://arxiv.org/abs/2510.13694v1",
+      "published_at": "2025-10-15",
+      "updated_at": "2025-10-15",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2509-20265",
+      "title": "Failure Modes of Maximum Entropy RLHF",
+      "authors": [
+        "Ömer Veysel Çağatan",
+        "Barış Akgün"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2509.20265v3",
+      "url": "https://arxiv.org/abs/2509.20265v3",
+      "published_at": "2025-09-24",
+      "updated_at": "2026-04-29",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2509-15557",
+      "title": "Reward Hacking Mitigation using Verifiable Composite Rewards",
+      "authors": [
+        "Mirza Farhan Bin Tarek",
+        "Rahmatollah Beheshti"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2509.15557v1",
+      "url": "https://arxiv.org/abs/2509.15557v1",
+      "published_at": "2025-09-19",
+      "updated_at": "2025-09-19",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2508-05613",
+      "title": "Cooper: Co-Optimizing Policy and Reward Models in Reinforcement Learning for Large Language Models",
+      "authors": [
+        "Haitao Hong",
+        "Yuchen Yan",
+        "Xingyu Wu",
+        "Guiyang Hou",
+        "Wenqi Zhang",
+        "Weiming Lu",
+        "Yongliang Shen",
+        "Jun Xiao"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2508.05613v1",
+      "url": "https://arxiv.org/abs/2508.05613v1",
+      "published_at": "2025-08-07",
+      "updated_at": "2025-08-07",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2508-04216",
+      "title": "Causal Reward Adjustment: Mitigating Reward Hacking in External Reasoning via Backdoor Correction",
+      "authors": [
+        "Ruike Song",
+        "Zeen Song",
+        "Huijie Guo",
+        "Wenwen Qiang"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2508.04216v1",
+      "url": "https://arxiv.org/abs/2508.04216v1",
+      "published_at": "2025-08-06",
+      "updated_at": "2025-08-06",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2506-22777",
+      "title": "Teaching Models to Verbalize Reward Hacking in Chain-of-Thought Reasoning",
+      "authors": [
+        "Miles Turpin",
+        "Andy Arditi",
+        "Marvin Li",
+        "Joe Benton",
+        "Julian Michael"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2506.22777v2",
+      "url": "https://arxiv.org/abs/2506.22777v2",
+      "published_at": "2025-06-28",
+      "updated_at": "2025-07-13",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2506-19248",
+      "title": "Inference-Time Reward Hacking in Large Language Models",
+      "authors": [
+        "Hadi Khalaf",
+        "Claudio Mayrink Verdun",
+        "Alex Oesterling",
+        "Himabindu Lakkaraju",
+        "Flavio du Pin Calmon"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2506.19248v2",
+      "url": "https://arxiv.org/abs/2506.19248v2",
+      "published_at": "2025-06-24",
+      "updated_at": "2025-11-04",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2506-11902",
+      "title": "TreeRL: LLM Reinforcement Learning with On-Policy Tree Search",
+      "authors": [
+        "Zhenyu Hou",
+        "Ziniu Hu",
+        "Yujiang Li",
+        "Rui Lu",
+        "Jie Tang",
+        "Yuxiao Dong"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2506.11902v1",
+      "url": "https://arxiv.org/abs/2506.11902v1",
+      "published_at": "2025-06-13",
+      "updated_at": "2025-06-13",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2506-08712",
+      "title": "ConfPO: Exploiting Policy Model Confidence for Critical Token Selection in Preference Optimization",
+      "authors": [
+        "Hee Suk Yoon",
+        "Eunseop Yoon",
+        "Mark Hasegawa-Johnson",
+        "Sungwoong Kim",
+        "Chang D. Yoo"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2506.08712v2",
+      "url": "https://arxiv.org/abs/2506.08712v2",
+      "published_at": "2025-06-10",
+      "updated_at": "2025-06-12",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2506-06877",
+      "title": "Right Is Not Enough: The Pitfalls of Outcome Supervision in Training LLMs for Math Reasoning",
+      "authors": [
+        "Jiaxing Guo",
+        "Wenjie Yang",
+        "Shengzhong Zhang",
+        "Tongshan Xu",
+        "Lun Du",
+        "Da Zheng",
+        "Zengfeng Huang"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2506.06877v2",
+      "url": "https://arxiv.org/abs/2506.06877v2",
+      "published_at": "2025-06-07",
+      "updated_at": "2025-06-24",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2506-05339",
+      "title": "Flattery, Fluff, and Fog: Diagnosing and Mitigating Idiosyncratic Biases in Preference Models",
+      "authors": [
+        "Anirudh Bharadwaj",
+        "Chaitanya Malaviya",
+        "Nitish Joshi",
+        "Mark Yatskar"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2506.05339v3",
+      "url": "https://arxiv.org/abs/2506.05339v3",
+      "published_at": "2025-06-05",
+      "updated_at": "2026-03-03",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2506-01926",
+      "title": "Large language models can learn and generalize steganographic chain-of-thought under process supervision",
+      "authors": [
+        "Joey Skaf",
+        "Luis Ibanez-Lissen",
+        "Robert McCarthy",
+        "Connor Watts",
+        "Vasil Georgiv",
+        "Hannes Whittingham",
+        "Lorena Gonzalez-Manzano",
+        "David Lindner",
+        "Cameron Tice",
+        "Edward James Young",
+        "Puria Radmard"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2506.01926v2",
+      "url": "https://arxiv.org/abs/2506.01926v2",
+      "published_at": "2025-06-02",
+      "updated_at": "2025-12-04",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2506-00103",
+      "title": "Writing-Zero: Bridge the Gap Between Non-verifiable Tasks and Verifiable Rewards",
+      "authors": [
+        "Ruipeng Jia",
+        "Yunyi Yang",
+        "Yongbo Gai",
+        "Kai Luo",
+        "Shihao Huang",
+        "Jianhe Lin",
+        "Xiaoxi Jiang",
+        "Guanjun Jiang"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2506.00103v2",
+      "url": "https://arxiv.org/abs/2506.00103v2",
+      "published_at": "2025-05-30",
+      "updated_at": "2025-06-11",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2505-24369",
+      "title": "Adversarial Preference Learning for Robust LLM Alignment",
+      "authors": [
+        "Yuanfu Wang",
+        "Pengyu Wang",
+        "Chenyang Xi",
+        "Bo Tang",
+        "Junyi Zhu",
+        "Wenqiang Wei",
+        "Chen Chen",
+        "Chao Yang",
+        "Jingfeng Zhang",
+        "Chaochao Lu",
+        "Yijun Niu",
+        "Keming Mao",
+        "Zhiyu Li",
+        "Feiyu Xiong",
+        "Jie Hu",
+        "Mingchuan Yang"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2505.24369v1",
+      "url": "https://arxiv.org/abs/2505.24369v1",
+      "published_at": "2025-05-30",
+      "updated_at": "2025-05-30",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2505-21493",
+      "title": "Reinforcing General Reasoning without Verifiers",
+      "authors": [
+        "Xiangxin Zhou",
+        "Zichen Liu",
+        "Anya Sims",
+        "Haonan Wang",
+        "Tianyu Pang",
+        "Chongxuan Li",
+        "Liang Wang",
+        "Min Lin",
+        "Chao Du"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2505.21493v1",
+      "url": "https://arxiv.org/abs/2505.21493v1",
+      "published_at": "2025-05-27",
+      "updated_at": "2025-05-27",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2505-20556",
+      "title": "Learning a Pessimistic Reward Model in RLHF",
+      "authors": [
+        "Yinglun Xu",
+        "Hangoo Kang",
+        "Tarun Suresh",
+        "Yuxuan Wan",
+        "Gagandeep Singh"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2505.20556v1",
+      "url": "https://arxiv.org/abs/2505.20556v1",
+      "published_at": "2025-05-26",
+      "updated_at": "2025-05-26",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2505-17018",
+      "title": "SophiaVL-R1: Reinforcing MLLMs Reasoning with Thinking Reward",
+      "authors": [
+        "Kaixuan Fan",
+        "Kaituo Feng",
+        "Haoming Lyu",
+        "Dongzhan Zhou",
+        "Xiangyu Yue"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2505.17018v2",
+      "url": "https://arxiv.org/abs/2505.17018v2",
+      "published_at": "2025-05-22",
+      "updated_at": "2026-03-17",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2505-16265",
+      "title": "Think-RM: Enabling Long-Horizon Reasoning in Generative Reward Models",
+      "authors": [
+        "Ilgee Hong",
+        "Changlong Yu",
+        "Liang Qiu",
+        "Weixiang Yan",
+        "Zhenghao Xu",
+        "Haoming Jiang",
+        "Qingru Zhang",
+        "Qin Lu",
+        "Xin Liu",
+        "Chao Zhang",
+        "Tuo Zhao"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2505.16265v1",
+      "url": "https://arxiv.org/abs/2505.16265v1",
+      "published_at": "2025-05-22",
+      "updated_at": "2025-05-22",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2505-15034",
+      "title": "RL Tango: Reinforcing Generator and Verifier Together for Language Reasoning",
+      "authors": [
+        "Kaiwen Zha",
+        "Zhengqi Gao",
+        "Maohao Shen",
+        "Zhang-Wei Hong",
+        "Duane S. Boning",
+        "Dina Katabi"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2505.15034v2",
+      "url": "https://arxiv.org/abs/2505.15034v2",
+      "published_at": "2025-05-21",
+      "updated_at": "2025-10-23",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2505-14946",
+      "title": "Reinforcement Learning from User Feedback",
+      "authors": [
+        "Eric Han",
+        "Jun Chen",
+        "Karthik Abinav Sankararaman",
+        "Xiaoliang Peng",
+        "Tengyu Xu",
+        "Eryk Helenowski",
+        "Kaiyan Peng",
+        "Mrinal Kumar",
+        "Sinong Wang",
+        "Han Fang",
+        "Arya Talebzadeh"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2505.14946v1",
+      "url": "https://arxiv.org/abs/2505.14946v1",
+      "published_at": "2025-05-20",
+      "updated_at": "2025-05-20",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2505-12843",
+      "title": "Bias Fitting to Mitigate Length Bias of Reward Model in RLHF",
+      "authors": [
+        "Kangwen Zhao",
+        "Jianfeng Cai",
+        "Jinhua Zhu",
+        "Ruopei Sun",
+        "Dongyun Xue",
+        "Wengang Zhou",
+        "Li Li",
+        "Houqiang Li"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2505.12843v2",
+      "url": "https://arxiv.org/abs/2505.12843v2",
+      "published_at": "2025-05-19",
+      "updated_at": "2026-06-24",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2505-12763",
+      "title": "Rethinking Reward Model Evaluation Through the Lens of Reward Overoptimization",
+      "authors": [
+        "Sunghwan Kim",
+        "Dongjin Kang",
+        "Taeyoon Kwon",
+        "Hyungjoo Chae",
+        "Dongha Lee",
+        "Jinyoung Yeo"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2505.12763v1",
+      "url": "https://arxiv.org/abs/2505.12763v1",
+      "published_at": "2025-05-19",
+      "updated_at": "2025-05-19",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2504-20157",
+      "title": "Toward Evaluative Thinking: Meta Policy Optimization with Evolving Reward Models",
+      "authors": [
+        "Zae Myung Kim",
+        "Chanwoo Park",
+        "Vipul Raheja",
+        "Suin Kim",
+        "Dongyeop Kang"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2504.20157v2",
+      "url": "https://arxiv.org/abs/2504.20157v2",
+      "published_at": "2025-04-28",
+      "updated_at": "2025-05-16",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2504-15275",
+      "title": "Stop Summation: Min-Form Credit Assignment Is All Process Reward Model Needs for Reasoning",
+      "authors": [
+        "Jie Cheng",
+        "Gang Xiong",
+        "Ruixi Qiao",
+        "Lijun Li",
+        "Chao Guo",
+        "Junle Wang",
+        "Yisheng Lv",
+        "Fei-Yue Wang"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2504.15275v3",
+      "url": "https://arxiv.org/abs/2504.15275v3",
+      "published_at": "2025-04-21",
+      "updated_at": "2025-10-23",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2504-13134",
+      "title": "Energy-Based Reward Models for Robust Language Model Alignment",
+      "authors": [
+        "Anamika Lochab",
+        "Ruqi Zhang"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2504.13134v2",
+      "url": "https://arxiv.org/abs/2504.13134v2",
+      "published_at": "2025-04-17",
+      "updated_at": "2025-08-05",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2504-10045",
+      "title": "CHARM: Calibrating Reward Models With Chatbot Arena Scores",
+      "authors": [
+        "Xiao Zhu",
+        "Chenmien Tan",
+        "Pinzhen Chen",
+        "Rico Sennrich",
+        "Huiming Wang",
+        "Yanlin Zhang",
+        "Hanxu Hu"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2504.10045v2",
+      "url": "https://arxiv.org/abs/2504.10045v2",
+      "published_at": "2025-04-14",
+      "updated_at": "2026-03-17",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2504-07615",
+      "title": "VLM-R1: A Stable and Generalizable R1-style Large Vision-Language Model",
+      "authors": [
+        "Haozhan Shen",
+        "Peng Liu",
+        "Jingcheng Li",
+        "Chunxin Fang",
+        "Yibo Ma",
+        "Jiajia Liao",
+        "Qiaoli Shen",
+        "Zilun Zhang",
+        "Kangjia Zhao",
+        "Qianqian Zhang",
+        "Ruochen Xu",
+        "Tiancheng Zhao"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2504.07615v2",
+      "url": "https://arxiv.org/abs/2504.07615v2",
+      "published_at": "2025-04-10",
+      "updated_at": "2025-04-14",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2504-06141",
+      "title": "Adversarial Training of Reward Models",
+      "authors": [
+        "Alexander Bukharin",
+        "Haifeng Qian",
+        "Shengyang Sun",
+        "Adithya Renduchintala",
+        "Soumye Singhal",
+        "Zhilin Wang",
+        "Oleksii Kuchaiev",
+        "Olivier Delalleau",
+        "Tuo Zhao"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2504.06141v2",
+      "url": "https://arxiv.org/abs/2504.06141v2",
+      "published_at": "2025-04-08",
+      "updated_at": "2025-04-11",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2504-05294",
+      "title": "Truthful or Fabricated? Using Causal Attribution to Mitigate Reward Hacking in Explanations",
+      "authors": [
+        "Pedro Ferreira",
+        "Wilker Aziz",
+        "Ivan Titov"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2504.05294v3",
+      "url": "https://arxiv.org/abs/2504.05294v3",
+      "published_at": "2025-04-07",
+      "updated_at": "2026-07-07",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2504-04524",
+      "title": "Trust Region Preference Approximation: A simple and stable reinforcement learning algorithm for LLM reasoning",
+      "authors": [
+        "Xuerui Su",
+        "Shufang Xie",
+        "Guoqing Liu",
+        "Yingce Xia",
+        "Renqian Luo",
+        "Peiran Jin",
+        "Zhiming Ma",
+        "Yue Wang",
+        "Zun Wang",
+        "Yuting Liu"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2504.04524v2",
+      "url": "https://arxiv.org/abs/2504.04524v2",
+      "published_at": "2025-04-06",
+      "updated_at": "2025-06-18",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2504-02193",
+      "title": "More is Less: The Pitfalls of Multi-Model Synthetic Preference Data in DPO Safety Alignment",
+      "authors": [
+        "Yifan Wang",
+        "Runjin Chen",
+        "Bolian Li",
+        "David Cho",
+        "Yihe Deng",
+        "Ruqi Zhang",
+        "Tianlong Chen",
+        "Zhangyang Wang",
+        "Ananth Grama",
+        "Junyuan Hong"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2504.02193v3",
+      "url": "https://arxiv.org/abs/2504.02193v3",
+      "published_at": "2025-04-03",
+      "updated_at": "2025-07-28",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2503-22480",
+      "title": "Probabilistic Uncertain Reward Model",
+      "authors": [
+        "Wangtao Sun",
+        "Xiang Cheng",
+        "Xing Yu",
+        "Haotian Xu",
+        "Zhao Yang",
+        "Shizhu He",
+        "Jun Zhao",
+        "Kang Liu"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2503.22480v6",
+      "url": "https://arxiv.org/abs/2503.22480v6",
+      "published_at": "2025-03-28",
+      "updated_at": "2025-05-16",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2503-22230",
+      "title": "Exploring Data Scaling Trends and Effects in Reinforcement Learning from Human Feedback",
+      "authors": [
+        "Wei Shen",
+        "Guanlin Liu",
+        "Zheng Wu",
+        "Ruofei Zhu",
+        "Qingping Yang",
+        "Chao Xin",
+        "Yu Yue",
+        "Lin Yan"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2503.22230v3",
+      "url": "https://arxiv.org/abs/2503.22230v3",
+      "published_at": "2025-03-28",
+      "updated_at": "2025-04-02",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2503-21878",
+      "title": "Is Best-of-N the Best of Them? Coverage, Scaling, and Optimality in Inference-Time Alignment",
+      "authors": [
+        "Audrey Huang",
+        "Adam Block",
+        "Qinghua Liu",
+        "Nan Jiang",
+        "Akshay Krishnamurthy",
+        "Dylan J. Foster"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2503.21878v2",
+      "url": "https://arxiv.org/abs/2503.21878v2",
+      "published_at": "2025-03-27",
+      "updated_at": "2025-04-07",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2503-18013",
+      "title": "Vision-R1: Evolving Human-Free Alignment in Large Vision-Language Models via Vision-Guided Reinforcement Learning",
+      "authors": [
+        "Yufei Zhan",
+        "Yousong Zhu",
+        "Shurong Zheng",
+        "Hongyin Zhao",
+        "Fan Yang",
+        "Ming Tang",
+        "Jinqiao Wang"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2503.18013v1",
+      "url": "https://arxiv.org/abs/2503.18013v1",
+      "published_at": "2025-03-23",
+      "updated_at": "2025-03-23",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2503-13817",
+      "title": "VARP: Reinforcement Learning from Vision-Language Model Feedback with Agent Regularized Preferences",
+      "authors": [
+        "Anukriti Singh",
+        "Amisha Bhaskar",
+        "Peihong Yu",
+        "Souradip Chakraborty",
+        "Ruthwik Dasyam",
+        "Amrit Bedi",
+        "Pratap Tokekar"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2503.13817v1",
+      "url": "https://arxiv.org/abs/2503.13817v1",
+      "published_at": "2025-03-18",
+      "updated_at": "2025-03-18",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2503-13551",
+      "title": "Towards Hierarchical Multi-Step Reward Models for Enhanced Reasoning in Large Language Models",
+      "authors": [
+        "Teng Wang",
+        "Zhangyi Jiang",
+        "Zhenqi He",
+        "Shenyang Tong",
+        "Wenhan Yang",
+        "Yanan Zheng",
+        "Zeyu Li",
+        "Zifan He",
+        "Hailei Gong",
+        "Zewen Ye",
+        "Shengjie Ma",
+        "Jianping Zhang"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2503.13551v5",
+      "url": "https://arxiv.org/abs/2503.13551v5",
+      "published_at": "2025-03-16",
+      "updated_at": "2026-04-09",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2503-11720",
+      "title": "RPO: Fine-Tuning Visual Generative Models via Rich Vision-Language Preferences",
+      "authors": [
+        "Hanyang Zhao",
+        "Haoxian Chen",
+        "Yucheng Guo",
+        "Genta Indra Winata",
+        "Tingting Ou",
+        "Ziyu Huang",
+        "David D. Yao",
+        "Wenpin Tang"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2503.11720v5",
+      "url": "https://arxiv.org/abs/2503.11720v5",
+      "published_at": "2025-03-13",
+      "updated_at": "2026-01-10",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2503-06171",
+      "title": "ROCM: RLHF on consistency models",
+      "authors": [
+        "Shivanshu Shekhar",
+        "Tong Zhang"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2503.06171v1",
+      "url": "https://arxiv.org/abs/2503.06171v1",
+      "published_at": "2025-03-08",
+      "updated_at": "2025-03-08",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2503-05788",
+      "title": "Emergent Abilities in Large Language Models: A Survey",
+      "authors": [
+        "Leonardo Berti",
+        "Flavio Giorgi",
+        "Gjergji Kasneci"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2503.05788v3",
+      "url": "https://arxiv.org/abs/2503.05788v3",
+      "published_at": "2025-02-28",
+      "updated_at": "2026-08-26",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2502-21321",
+      "title": "LLM Post-Training: A Deep Dive into Reasoning Large Language Models",
+      "authors": [
+        "Komal Kumar",
+        "Tajamul Ashraf",
+        "Omkar Thawakar",
+        "Rao Muhammad Anwer",
+        "Hisham Cholakkal",
+        "Mubarak Shah",
+        "Ming-Hsuan Yang",
+        "Phillip H. S. Torr",
+        "Fahad Shahbaz Khan",
+        "Salman Khan"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2502.21321v2",
+      "url": "https://arxiv.org/abs/2502.21321v2",
+      "published_at": "2025-02-28",
+      "updated_at": "2025-03-24",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2502-18770",
+      "title": "Reward Shaping to Mitigate Reward Hacking in RLHF",
+      "authors": [
+        "Jiayi Fu",
+        "Xuandong Zhao",
+        "Chengyuan Yao",
+        "Heng Wang",
+        "Qi Han",
+        "Yanghua Xiao",
+        "Yuxia Wang"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2502.18770v8",
+      "url": "https://arxiv.org/abs/2502.18770v8",
+      "published_at": "2025-02-26",
+      "updated_at": "2026-09-18",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2502-13957",
+      "title": "Supervising the search process produces reliable and generalizable information-seeking agents",
+      "authors": [
+        "Guangzhi Xiong",
+        "Qiao Jin",
+        "Xiao Wang",
+        "Yin Fang",
+        "Haolin Liu",
+        "Yifan Yang",
+        "Fangyuan Chen",
+        "Zhixing Song",
+        "Dengyu Wang",
+        "Minjia Zhang",
+        "Zhiyong Lu",
+        "Aidong Zhang"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2502.13957v3",
+      "url": "https://arxiv.org/abs/2502.13957v3",
+      "published_at": "2025-02-19",
+      "updated_at": "2026-05-16",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2502-12668",
+      "title": "Evaluation of Best-of-N Sampling Strategies for Language Model Alignment",
+      "authors": [
+        "Yuki Ichihara",
+        "Yuu Jinnai",
+        "Tetsuro Morimura",
+        "Kaito Ariu",
+        "Kenshi Abe",
+        "Mitsuki Sakamoto",
+        "Eiji Uchibe"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2502.12668v1",
+      "url": "https://arxiv.org/abs/2502.12668v1",
+      "published_at": "2025-02-18",
+      "updated_at": "2025-02-18",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2502-11250",
+      "title": "Uncertainty-Aware Step-wise Verification with Generative Reward Models",
+      "authors": [
+        "Zihuiwen Ye",
+        "Luckeciano Carvalho Melo",
+        "Younesse Kaddar",
+        "Phil Blunsom",
+        "Sam Staton",
+        "Yarin Gal"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2502.11250v1",
+      "url": "https://arxiv.org/abs/2502.11250v1",
+      "published_at": "2025-02-16",
+      "updated_at": "2025-02-16",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2502-10325",
+      "title": "Process Reward Models for LLM Agents: Practical Framework and Directions",
+      "authors": [
+        "Sanjiban Choudhury"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2502.10325v1",
+      "url": "https://arxiv.org/abs/2502.10325v1",
+      "published_at": "2025-02-14",
+      "updated_at": "2025-02-14",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2502-04371",
+      "title": "PerPO: Perceptual Preference Optimization via Discriminative Rewarding",
+      "authors": [
+        "Zining Zhu",
+        "Liang Zhao",
+        "Kangheng Lin",
+        "Jinze Yang",
+        "En Yu",
+        "Chenglong Liu",
+        "Haoran Wei",
+        "Jianjian Sun",
+        "Zheng Ge",
+        "Xiangyu Zhang"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2502.04371v1",
+      "url": "https://arxiv.org/abs/2502.04371v1",
+      "published_at": "2025-02-05",
+      "updated_at": "2025-02-05",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2502-02671",
+      "title": "On Teacher Hacking in Language Model Distillation",
+      "authors": [
+        "Daniil Tiapkin",
+        "Daniele Calandriello",
+        "Johan Ferret",
+        "Sarah Perrin",
+        "Nino Vieillard",
+        "Alexandre Ramé",
+        "Mathieu Blondel"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2502.02671v1",
+      "url": "https://arxiv.org/abs/2502.02671v1",
+      "published_at": "2025-02-04",
+      "updated_at": "2025-02-04",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2502-01618",
+      "title": "Rollout Roulette: A Probabilistic Inference Approach to Inference-Time Scaling of LLMs using Particle-Based Monte Carlo Methods",
+      "authors": [
+        "Isha Puri",
+        "Shivchander Sudalairaj",
+        "Guangxuan Xu",
+        "Kai Xu",
+        "Akash Srivastava"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2502.01618v5",
+      "url": "https://arxiv.org/abs/2502.01618v5",
+      "published_at": "2025-02-03",
+      "updated_at": "2025-08-14",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2502-01456",
+      "title": "Process Reinforcement through Implicit Rewards",
+      "authors": [
+        "Ganqu Cui",
+        "Lifan Yuan",
+        "Zefan Wang",
+        "Hanbin Wang",
+        "Yuchen Zhang",
+        "Jiacheng Chen",
+        "Wendi Li",
+        "Bingxiang He",
+        "Yuchen Fan",
+        "Tianyu Yu",
+        "Qixin Xu",
+        "Weize Chen",
+        "Jiarui Yuan",
+        "Huayu Chen",
+        "Kaiyan Zhang",
+        "Xingtai Lv",
+        "Shuo Wang",
+        "Yuan Yao",
+        "Xu Han",
+        "Hao Peng",
+        "Yu Cheng",
+        "Zhiyuan Liu",
+        "Maosong Sun",
+        "Bowen Zhou",
+        "Ning Ding"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2502.01456v2",
+      "url": "https://arxiv.org/abs/2502.01456v2",
+      "published_at": "2025-02-03",
+      "updated_at": "2025-09-26",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2501-19358",
+      "title": "The Energy Loss Phenomenon in RLHF: A New Perspective on Mitigating Reward Hacking",
+      "authors": [
+        "Yuchun Miao",
+        "Sen Zhang",
+        "Liang Ding",
+        "Yuqi Zhang",
+        "Lefei Zhang",
+        "Dacheng Tao"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2501.19358v3",
+      "url": "https://arxiv.org/abs/2501.19358v3",
+      "published_at": "2025-01-31",
+      "updated_at": "2025-06-02",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2501-18873",
+      "title": "Best Policy Learning from Trajectory Preference Feedback",
+      "authors": [
+        "Akhil Agnihotri",
+        "Rahul Jain",
+        "Deepak Ramachandran",
+        "Zheng Wen"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2501.18873v4",
+      "url": "https://arxiv.org/abs/2501.18873v4",
+      "published_at": "2025-01-31",
+      "updated_at": "2026-04-21",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2501-17030",
+      "title": "Challenges in Ensuring AI Safety in DeepSeek-R1 Models: The Shortcomings of Reinforcement Learning Strategies",
+      "authors": [
+        "Manojkumar Parmar",
+        "Yuvaraj Govindarajulu"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2501.17030v1",
+      "url": "https://arxiv.org/abs/2501.17030v1",
+      "published_at": "2025-01-28",
+      "updated_at": "2025-01-28",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2501-09620",
+      "title": "Beyond Reward Hacking: Causal Rewards for Large Language Model Alignment",
+      "authors": [
+        "Chaoqi Wang",
+        "Zhuokai Zhao",
+        "Yibo Jiang",
+        "Zhaorun Chen",
+        "Chen Zhu",
+        "Yuxin Chen",
+        "Jiayi Liu",
+        "Lizhu Zhang",
+        "Xiangjun Fan",
+        "Hao Ma",
+        "Sinong Wang"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2501.09620v2",
+      "url": "https://arxiv.org/abs/2501.09620v2",
+      "published_at": "2025-01-16",
+      "updated_at": "2025-05-29",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2501-04686",
+      "title": "Unlocking Multimodal Mathematical Reasoning via Process Reward Model",
+      "authors": [
+        "Ruilin Luo",
+        "Zhuofan Zheng",
+        "Yifan Wang",
+        "Xinzhe Ni",
+        "Zicheng Lin",
+        "Songtao Jiang",
+        "Yiyao Yu",
+        "Chufan Shi",
+        "Lei Wang",
+        "Ruihang Chu",
+        "Jin Zeng",
+        "Yujiu Yang"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2501.04686v6",
+      "url": "https://arxiv.org/abs/2501.04686v6",
+      "published_at": "2025-01-08",
+      "updated_at": "2025-10-05",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2412-16475",
+      "title": "When Can Proxies Improve the Sample Complexity of Preference Learning?",
+      "authors": [
+        "Yuchen Zhu",
+        "Daniel Augusto de Souza",
+        "Zhengyan Shi",
+        "Mengyue Yang",
+        "Pasquale Minervini",
+        "Alexander D'Amour",
+        "Matt J. Kusner"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2412.16475v1",
+      "url": "https://arxiv.org/abs/2412.16475v1",
+      "published_at": "2024-12-21",
+      "updated_at": "2024-12-21",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2412-06176",
+      "title": "AlphaVerus: Bootstrapping Formally Verified Code Generation through Self-Improving Translation and Treefinement",
+      "authors": [
+        "Pranjal Aggarwal",
+        "Bryan Parno",
+        "Sean Welleck"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2412.06176v1",
+      "url": "https://arxiv.org/abs/2412.06176v1",
+      "published_at": "2024-12-09",
+      "updated_at": "2024-12-09",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2411-17760",
+      "title": "Efficient Self-Improvement in Multimodal Large Language Models: A Model-Level Judge-Free Approach",
+      "authors": [
+        "Shijian Deng",
+        "Wentian Zhao",
+        "Yu-Jhe Li",
+        "Kun Wan",
+        "Daniel Miranda",
+        "Ajinkya Kale",
+        "Yapeng Tian"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2411.17760v1",
+      "url": "https://arxiv.org/abs/2411.17760v1",
+      "published_at": "2024-11-26",
+      "updated_at": "2024-11-26",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2411-09341",
+      "title": "Approximated Variational Bayesian Inverse Reinforcement Learning for Large Language Model Alignment",
+      "authors": [
+        "Yuang Cai",
+        "Yuyu Yuan",
+        "Jinsheng Shi",
+        "Qinhong Lin"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2411.09341v1",
+      "url": "https://arxiv.org/abs/2411.09341v1",
+      "published_at": "2024-11-14",
+      "updated_at": "2024-11-14",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2411-04712",
+      "title": "SEE-DPO: Self Entropy Enhanced Direct Preference Optimization",
+      "authors": [
+        "Shivanshu Shekhar",
+        "Shreyas Singh",
+        "Tong Zhang"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2411.04712v2",
+      "url": "https://arxiv.org/abs/2411.04712v2",
+      "published_at": "2024-11-06",
+      "updated_at": "2025-10-06",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-21545",
+      "title": "CARMO: Dynamic Criteria Generation for Context-Aware Reward Modelling",
+      "authors": [
+        "Taneesh Gupta",
+        "Shivam Shandilya",
+        "Xuchao Zhang",
+        "Rahul Madhavan",
+        "Supriyo Ghosh",
+        "Chetan Bansal",
+        "Huaxiu Yao",
+        "Saravan Rajmohan"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2410.21545v2",
+      "url": "https://arxiv.org/abs/2410.21545v2",
+      "published_at": "2024-10-28",
+      "updated_at": "2025-02-17",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-20187",
+      "title": "Uncertainty-Penalized Direct Preference Optimization",
+      "authors": [
+        "Sam Houliston",
+        "Alizée Pace",
+        "Alexander Immer",
+        "Gunnar Rätsch"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2410.20187v1",
+      "url": "https://arxiv.org/abs/2410.20187v1",
+      "published_at": "2024-10-26",
+      "updated_at": "2024-10-26",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-15115",
+      "title": "On Designing Effective RL Reward at Training Time for LLM Reasoning",
+      "authors": [
+        "Jiaxuan Gao",
+        "Shusheng Xu",
+        "Wenjie Ye",
+        "Weilin Liu",
+        "Chuyi He",
+        "Wei Fu",
+        "Zhiyu Mei",
+        "Guangju Wang",
+        "Yi Wu"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2410.15115v3",
+      "url": "https://arxiv.org/abs/2410.15115v3",
+      "published_at": "2024-10-19",
+      "updated_at": "2024-11-27",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-07025",
+      "title": "CheXalign: Preference fine-tuning in chest X-ray interpretation models without human feedback",
+      "authors": [
+        "Dennis Hein",
+        "Zhihong Chen",
+        "Sophie Ostmeier",
+        "Justin Xu",
+        "Maya Varma",
+        "Eduardo Pontes Reis",
+        "Arne Edward Michalson",
+        "Christian Bluethgen",
+        "Hyun Joo Shin",
+        "Curtis Langlotz",
+        "Akshay S Chaudhari"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2410.07025v3",
+      "url": "https://arxiv.org/abs/2410.07025v3",
+      "published_at": "2024-10-09",
+      "updated_at": "2025-08-03",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-01729",
+      "title": "Evaluating Robustness of Reward Models for Mathematical Reasoning",
+      "authors": [
+        "Sunghwan Kim",
+        "Dongjin Kang",
+        "Taeyoon Kwon",
+        "Hyungjoo Chae",
+        "Jungsoo Won",
+        "Dongha Lee",
+        "Jinyoung Yeo"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2410.01729v1",
+      "url": "https://arxiv.org/abs/2410.01729v1",
+      "published_at": "2024-10-02",
+      "updated_at": "2024-10-02",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2409-20370",
+      "title": "The Perfect Blend: Redefining RLHF with Mixture of Judges",
+      "authors": [
+        "Tengyu Xu",
+        "Eryk Helenowski",
+        "Karthik Abinav Sankararaman",
+        "Di Jin",
+        "Kaiyan Peng",
+        "Eric Han",
+        "Shaoliang Nie",
+        "Chen Zhu",
+        "Hejia Zhang",
+        "Wenxuan Zhou",
+        "Zhouhao Zeng",
+        "Yun He",
+        "Karishma Mandyam",
+        "Arya Talabzadeh",
+        "Madian Khabsa",
+        "Gabriel Cohen",
+        "Yuandong Tian",
+        "Hao Ma",
+        "Sinong Wang",
+        "Han Fang"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2409.20370v1",
+      "url": "https://arxiv.org/abs/2409.20370v1",
+      "published_at": "2024-09-30",
+      "updated_at": "2024-09-30",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2409-13156",
+      "title": "RRM: Robust Reward Model Training Mitigates Reward Hacking",
+      "authors": [
+        "Tianqi Liu",
+        "Wei Xiong",
+        "Jie Ren",
+        "Lichang Chen",
+        "Junru Wu",
+        "Rishabh Joshi",
+        "Yang Gao",
+        "Jiaming Shen",
+        "Zhen Qin",
+        "Tianhe Yu",
+        "Daniel Sohn",
+        "Anastasiia Makarova",
+        "Jeremiah Liu",
+        "Yuan Liu",
+        "Bilal Piot",
+        "Abe Ittycheriah",
+        "Aviral Kumar",
+        "Mohammad Saleh"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2409.13156v2",
+      "url": "https://arxiv.org/abs/2409.13156v2",
+      "published_at": "2024-09-20",
+      "updated_at": "2025-02-27",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2409-12914",
+      "title": "Evaluating Defences against Unsafe Feedback in RLHF",
+      "authors": [
+        "Domenic Rosati",
+        "Giles Edkins",
+        "Harsh Raj",
+        "David Atanasov",
+        "Subhabrata Majumdar",
+        "Janarthanan Rajendran",
+        "Frank Rudzicz",
+        "Hassan Sajjad"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2409.12914v3",
+      "url": "https://arxiv.org/abs/2409.12914v3",
+      "published_at": "2024-09-19",
+      "updated_at": "2025-02-26",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2409-15360",
+      "title": "Reward-Robust RLHF in LLMs",
+      "authors": [
+        "Yuzi Yan",
+        "Xingzhou Lou",
+        "Jialian Li",
+        "Yiping Zhang",
+        "Jian Xie",
+        "Chao Yu",
+        "Yu Wang",
+        "Dong Yan",
+        "Yuan Shen"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2409.15360v3",
+      "url": "https://arxiv.org/abs/2409.15360v3",
+      "published_at": "2024-09-18",
+      "updated_at": "2024-10-16",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2407-14503",
+      "title": "Catastrophic Goodhart: regularizing RLHF with KL divergence does not mitigate heavy-tailed reward misspecification",
+      "authors": [
+        "Thomas Kwa",
+        "Drake Thomas",
+        "Adrià Garriga-Alonso"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2407.14503v2",
+      "url": "https://arxiv.org/abs/2407.14503v2",
+      "published_at": "2024-07-19",
+      "updated_at": "2024-11-08",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2407-04549",
+      "title": "Spontaneous Reward Hacking in Iterative Self-Refinement",
+      "authors": [
+        "Jane Pan",
+        "He He",
+        "Samuel R. Bowman",
+        "Shi Feng"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2407.04549v1",
+      "url": "https://arxiv.org/abs/2407.04549v1",
+      "published_at": "2024-07-05",
+      "updated_at": "2024-07-05",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2407-03038",
+      "title": "Towards Federated RLHF with Aggregated Client Preference for LLMs",
+      "authors": [
+        "Feijie Wu",
+        "Xiaoze Liu",
+        "Haoyu Wang",
+        "Xingchen Wang",
+        "Lu Su",
+        "Jing Gao"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2407.03038v3",
+      "url": "https://arxiv.org/abs/2407.03038v3",
+      "published_at": "2024-07-03",
+      "updated_at": "2025-04-08",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2406-12845",
+      "title": "Interpretable Preferences via Multi-Objective Reward Modeling and Mixture-of-Experts",
+      "authors": [
+        "Haoxiang Wang",
+        "Wei Xiong",
+        "Tengyang Xie",
+        "Han Zhao",
+        "Tong Zhang"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2406.12845v1",
+      "url": "https://arxiv.org/abs/2406.12845v1",
+      "published_at": "2024-06-18",
+      "updated_at": "2024-06-18",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2406-02900",
+      "title": "Scaling Laws for Reward Model Overoptimization in Direct Alignment Algorithms",
+      "authors": [
+        "Rafael Rafailov",
+        "Yaswanth Chittepu",
+        "Ryan Park",
+        "Harshit Sikchi",
+        "Joey Hejna",
+        "Bradley Knox",
+        "Chelsea Finn",
+        "Scott Niekum"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2406.02900v2",
+      "url": "https://arxiv.org/abs/2406.02900v2",
+      "published_at": "2024-06-05",
+      "updated_at": "2024-11-05",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2405-19026",
+      "title": "DiveR-CT: Diversity-enhanced Red Teaming Large Language Model Assistants with Relaxing Constraints",
+      "authors": [
+        "Andrew Zhao",
+        "Quentin Xu",
+        "Matthieu Lin",
+        "Shenzhi Wang",
+        "Yong-jin Liu",
+        "Zilong Zheng",
+        "Gao Huang"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2405.19026v2",
+      "url": "https://arxiv.org/abs/2405.19026v2",
+      "published_at": "2024-05-29",
+      "updated_at": "2024-12-20",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2404-01054",
+      "title": "Regularized Best-of-N Sampling with Minimum Bayes Risk Objective for Language Model Alignment",
+      "authors": [
+        "Yuu Jinnai",
+        "Tetsuro Morimura",
+        "Kaito Ariu",
+        "Kenshi Abe"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2404.01054v4",
+      "url": "https://arxiv.org/abs/2404.01054v4",
+      "published_at": "2024-04-01",
+      "updated_at": "2025-01-29",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2403-17297",
+      "title": "InternLM2 Technical Report",
+      "authors": [
+        "Zheng Cai",
+        "Maosong Cao",
+        "Haojiong Chen",
+        "Kai Chen",
+        "Keyu Chen",
+        "Xin Chen",
+        "Xun Chen",
+        "Zehui Chen",
+        "Zhi Chen",
+        "Pei Chu",
+        "Xiaoyi Dong",
+        "Haodong Duan",
+        "Qi Fan",
+        "Zhaoye Fei",
+        "Yang Gao",
+        "Jiaye Ge",
+        "Chenya Gu",
+        "Yuzhe Gu",
+        "Tao Gui",
+        "Aijia Guo",
+        "Qipeng Guo",
+        "Conghui He",
+        "Yingfan Hu",
+        "Ting Huang",
+        "Tao Jiang",
+        "Penglong Jiao",
+        "Zhenjiang Jin",
+        "Zhikai Lei",
+        "Jiaxing Li",
+        "Jingwen Li",
+        "Linyang Li",
+        "Shuaibin Li",
+        "Wei Li",
+        "Yining Li",
+        "Hongwei Liu",
+        "Jiangning Liu",
+        "Jiawei Hong",
+        "Kaiwen Liu",
+        "Kuikun Liu",
+        "Xiaoran Liu",
+        "Chengqi Lv",
+        "Haijun Lv",
+        "Kai Lv",
+        "Li Ma",
+        "Runyuan Ma",
+        "Zerun Ma",
+        "Wenchang Ning",
+        "Linke Ouyang",
+        "Jiantao Qiu",
+        "Yuan Qu",
+        "Fukai Shang",
+        "Yunfan Shao",
+        "Demin Song",
+        "Zifan Song",
+        "Zhihao Sui",
+        "Peng Sun",
+        "Yu Sun",
+        "Huanze Tang",
+        "Bin Wang",
+        "Guoteng Wang",
+        "Jiaqi Wang",
+        "Jiayu Wang",
+        "Rui Wang",
+        "Yudong Wang",
+        "Ziyi Wang",
+        "Xingjian Wei",
+        "Qizhen Weng",
+        "Fan Wu",
+        "Yingtong Xiong",
+        "Chao Xu",
+        "Ruiliang Xu",
+        "Hang Yan",
+        "Yirong Yan",
+        "Xiaogui Yang",
+        "Haochen Ye",
+        "Huaiyuan Ying",
+        "Jia Yu",
+        "Jing Yu",
+        "Yuhang Zang",
+        "Chuyu Zhang",
+        "Li Zhang",
+        "Pan Zhang",
+        "Peng Zhang",
+        "Ruijie Zhang",
+        "Shuo Zhang",
+        "Songyang Zhang",
+        "Wenjian Zhang",
+        "Wenwei Zhang",
+        "Xingcheng Zhang",
+        "Xinyue Zhang",
+        "Hui Zhao",
+        "Qian Zhao",
+        "Xiaomeng Zhao",
+        "Fengzhe Zhou",
+        "Zaida Zhou",
+        "Jingming Zhuo",
+        "Yicheng Zou",
+        "Xipeng Qiu",
+        "Yu Qiao",
+        "Dahua Lin"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2403.17297v1",
+      "url": "https://arxiv.org/abs/2403.17297v1",
+      "published_at": "2024-03-26",
+      "updated_at": "2024-03-26",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2403-05171",
+      "title": "Overcoming Reward Overoptimization via Adversarial Policy Optimization with Lightweight Uncertainty Estimation",
+      "authors": [
+        "Xiaoying Zhang",
+        "Jean-Francois Ton",
+        "Wei Shen",
+        "Hongning Wang",
+        "Yang Liu"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2403.05171v2",
+      "url": "https://arxiv.org/abs/2403.05171v2",
+      "published_at": "2024-03-08",
+      "updated_at": "2024-07-09",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2403-03185",
+      "title": "Correlated Proxies: A New Definition and Improved Mitigation for Reward Hacking",
+      "authors": [
+        "Cassidy Laidlaw",
+        "Shivam Singhal",
+        "Anca Dragan"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2403.03185v4",
+      "url": "https://arxiv.org/abs/2403.03185v4",
+      "published_at": "2024-03-05",
+      "updated_at": "2025-03-13",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2402-13210",
+      "title": "Bayesian Reward Models for LLM Alignment",
+      "authors": [
+        "Adam X. Yang",
+        "Maxime Robeyns",
+        "Thomas Coste",
+        "Zhengyan Shi",
+        "Jun Wang",
+        "Haitham Bou-Ammar",
+        "Laurence Aitchison"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2402.13210v2",
+      "url": "https://arxiv.org/abs/2402.13210v2",
+      "published_at": "2024-02-20",
+      "updated_at": "2024-07-03",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2402-09345",
+      "title": "InfoRM: Mitigating Reward Hacking in RLHF via Information-Theoretic Reward Modeling",
+      "authors": [
+        "Yuchun Miao",
+        "Sen Zhang",
+        "Liang Ding",
+        "Rong Bao",
+        "Lefei Zhang",
+        "Dacheng Tao"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2402.09345v5",
+      "url": "https://arxiv.org/abs/2402.09345v5",
+      "published_at": "2024-02-14",
+      "updated_at": "2024-11-01",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2402-07319",
+      "title": "ODIN: Disentangled Reward Mitigates Hacking in RLHF",
+      "authors": [
+        "Lichang Chen",
+        "Chen Zhu",
+        "Davit Soselia",
+        "Jiuhai Chen",
+        "Tianyi Zhou",
+        "Tom Goldstein",
+        "Heng Huang",
+        "Mohammad Shoeybi",
+        "Bryan Catanzaro"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2402.07319v1",
+      "url": "https://arxiv.org/abs/2402.07319v1",
+      "published_at": "2024-02-11",
+      "updated_at": "2024-02-11",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2402-06627",
+      "title": "Feedback Loops With Language Models Drive In-Context Reward Hacking",
+      "authors": [
+        "Alexander Pan",
+        "Erik Jones",
+        "Meena Jagadeesan",
+        "Jacob Steinhardt"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2402.06627v3",
+      "url": "https://arxiv.org/abs/2402.06627v3",
+      "published_at": "2024-02-09",
+      "updated_at": "2024-06-06",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2402-02992",
+      "title": "Decoding-time Realignment of Language Models",
+      "authors": [
+        "Tianlin Liu",
+        "Shangmin Guo",
+        "Leonardo Bianco",
+        "Daniele Calandriello",
+        "Quentin Berthet",
+        "Felipe Llinares",
+        "Jessica Hoffmann",
+        "Lucas Dixon",
+        "Michal Valko",
+        "Mathieu Blondel"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2402.02992v2",
+      "url": "https://arxiv.org/abs/2402.02992v2",
+      "published_at": "2024-02-05",
+      "updated_at": "2024-05-24",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2402-00742",
+      "title": "Transforming and Combining Rewards for Aligning Large Language Models",
+      "authors": [
+        "Zihao Wang",
+        "Chirag Nagpal",
+        "Jonathan Berant",
+        "Jacob Eisenstein",
+        "Alex D'Amour",
+        "Sanmi Koyejo",
+        "Victor Veitch"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2402.00742v2",
+      "url": "https://arxiv.org/abs/2402.00742v2",
+      "published_at": "2024-02-01",
+      "updated_at": "2024-07-19",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2401-12187",
+      "title": "WARM: On the Benefits of Weight Averaged Reward Models",
+      "authors": [
+        "Alexandre Ramé",
+        "Nino Vieillard",
+        "Léonard Hussenot",
+        "Robert Dadashi",
+        "Geoffrey Cideron",
+        "Olivier Bachem",
+        "Johan Ferret"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2401.12187v1",
+      "url": "https://arxiv.org/abs/2401.12187v1",
+      "published_at": "2024-01-22",
+      "updated_at": "2024-01-22",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2312-14436",
+      "title": "REBEL: Reward Regularization-Based Approach for Robotic Reinforcement Learning from Human Feedback",
+      "authors": [
+        "Souradip Chakraborty",
+        "Anukriti Singh",
+        "Amisha Bhaskar",
+        "Pratap Tokekar",
+        "Dinesh Manocha",
+        "Amrit Singh Bedi"
+      ],
+      "year": 2023,
+      "doi": "",
+      "arxiv_id": "2312.14436v3",
+      "url": "https://arxiv.org/abs/2312.14436v3",
+      "published_at": "2023-12-22",
+      "updated_at": "2025-01-19",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2312-09244",
+      "title": "Helping or Herding? Reward Model Ensembles Mitigate but do not Eliminate Reward Hacking",
+      "authors": [
+        "Jacob Eisenstein",
+        "Chirag Nagpal",
+        "Alekh Agarwal",
+        "Ahmad Beirami",
+        "Alex D'Amour",
+        "DJ Dvijotham",
+        "Adam Fisch",
+        "Katherine Heller",
+        "Stephen Pfohl",
+        "Deepak Ramachandran",
+        "Peter Shaw",
+        "Jonathan Berant"
+      ],
+      "year": 2023,
+      "doi": "",
+      "arxiv_id": "2312.09244v3",
+      "url": "https://arxiv.org/abs/2312.09244v3",
+      "published_at": "2023-12-14",
+      "updated_at": "2024-08-16",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2312-07551",
+      "title": "Language Model Alignment with Elastic Reset",
+      "authors": [
+        "Michael Noukhovitch",
+        "Samuel Lavoie",
+        "Florian Strub",
+        "Aaron Courville"
+      ],
+      "year": 2023,
+      "doi": "",
+      "arxiv_id": "2312.07551v1",
+      "url": "https://arxiv.org/abs/2312.07551v1",
+      "published_at": "2023-12-06",
+      "updated_at": "2023-12-06",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2310-16763",
+      "title": "SuperHF: Supervised Iterative Learning from Human Feedback",
+      "authors": [
+        "Gabriel Mukobi",
+        "Peter Chatain",
+        "Su Fong",
+        "Robert Windesheim",
+        "Gitta Kutyniok",
+        "Kush Bhatia",
+        "Silas Alberti"
+      ],
+      "year": 2023,
+      "doi": "",
+      "arxiv_id": "2310.16763v1",
+      "url": "https://arxiv.org/abs/2310.16763v1",
+      "published_at": "2023-10-25",
+      "updated_at": "2023-10-25",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2309-14525",
+      "title": "Aligning Large Multimodal Models with Factually Augmented RLHF",
+      "authors": [
+        "Zhiqing Sun",
+        "Sheng Shen",
+        "Shengcao Cao",
+        "Haotian Liu",
+        "Chunyuan Li",
+        "Yikang Shen",
+        "Chuang Gan",
+        "Liang-Yan Gui",
+        "Yu-Xiong Wang",
+        "Yiming Yang",
+        "Kurt Keutzer",
+        "Trevor Darrell"
+      ],
+      "year": 2023,
+      "doi": "",
+      "arxiv_id": "2309.14525v1",
+      "url": "https://arxiv.org/abs/2309.14525v1",
+      "published_at": "2023-09-25",
+      "updated_at": "2023-09-25",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2309-10202",
+      "title": "Stabilizing RLHF through Advantage Model and Selective Rehearsal",
+      "authors": [
+        "Baolin Peng",
+        "Linfeng Song",
+        "Ye Tian",
+        "Lifeng Jin",
+        "Haitao Mi",
+        "Dong Yu"
+      ],
+      "year": 2023,
+      "doi": "",
+      "arxiv_id": "2309.10202v1",
+      "url": "https://arxiv.org/abs/2309.10202v1",
+      "published_at": "2023-09-18",
+      "updated_at": "2023-09-18",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -99,6 +4630,10 @@
       "checked_at": "2026-11-08",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "seed"
+      ],
+      "screening_status": "not_fulltext_reviewed",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     }

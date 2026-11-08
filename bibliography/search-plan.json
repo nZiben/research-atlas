@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "through": "2026-11-08",
+  "year_from": 2017,
+  "scope": "Ten narrow starter questions, not complete coverage of all AI research.",
+  "strategies": [
+    {
+      "id": "relevance",
+      "label": "Методы и постановка задачи",
+      "sort": "relevance",
+      "order": "descending",
+      "limit": 60,
+      "query": "main"
+    },
+    {
+      "id": "recent",
+      "label": "Последние публикации",
+      "sort": "submittedDate",
+      "order": "descending",
+      "limit": 50,
+      "query": "main"
+    },
+    {
+      "id": "earlier",
+      "label": "Ранние работы",
+      "sort": "submittedDate",
+      "order": "ascending",
+      "limit": 100,
+      "query": "main"
+    },
+    {
+      "id": "evaluation",
+      "label": "Оценка, ограничения и надёжность",
+      "sort": "relevance",
+      "order": "descending",
+      "limit": 40,
+      "query": "evaluation"
+    }
+  ],
+  "topics": {
+    "safety": {
+      "main": "(all:\"prompt injection\") AND (all:agent OR all:tool OR all:defense OR all:defence OR all:security)",
+      "evaluation": "(all:\"prompt injection\") AND (all:adaptive OR all:benchmark OR all:evaluation OR all:limitation)",
+      "must_match": [
+        "prompt[\\s-]+injection",
+        "attack|adversarial|untrusted|malicious|security"
+      ]
+    },
+    "interpretability": {
+      "main": "(all:\"sparse autoencoder\" OR all:\"sparse autoencoders\") AND (all:\"language model\" OR all:interpretability)",
+      "evaluation": "(all:\"sparse autoencoder\" OR all:\"sparse autoencoders\") AND (all:faithfulness OR all:causal OR all:benchmark OR all:reliability OR all:limitation OR all:random)",
+      "must_match": [
+        "sparse[\\s-]+autoencoder",
+        "language model|transformer|mechanistic|SAEBench|monosemantic"
+      ]
+    },
+    "efficiency": {
+      "main": "(all:\"speculative decoding\" OR all:\"speculative sampling\") AND (all:\"language model\" OR all:LLM)",
+      "evaluation": "(all:\"speculative decoding\") AND (all:serving OR all:latency OR all:throughput OR all:energy OR all:batch)",
+      "must_match": [
+        "\\bspeculative[\\s-]+(?:decoding|sampling)\\b"
+      ]
+    },
+    "language": {
+      "main": "(all:\"long context\" OR all:\"long-context\") AND (all:reasoning OR all:evaluation OR all:benchmark) AND (all:\"language model\" OR all:LLM)",
+      "evaluation": "(all:\"long context\" OR all:\"long-context\") AND (all:position OR all:failure OR all:reliability OR all:\"lost in the middle\" OR all:retrieval) AND (all:reasoning OR all:benchmark)",
+      "must_match": [
+        "long[\\s-]+context|long[\\s-]+range|context[\\s-]+length",
+        "\\b(?:reasoning|retrieval|needle|multi[\\s-]+hop)\\b|lost in the middle"
+      ]
+    },
+    "agents": {
+      "main": "(all:\"language model\" OR all:LLM) AND (all:agent OR all:agents) AND (all:memory OR all:\"long horizon\" OR all:\"long-horizon\")",
+      "evaluation": "(all:\"language model\" OR all:LLM) AND (all:agent OR all:agents) AND all:memory AND (all:evaluation OR all:benchmark OR all:forgetting OR all:retrieval)",
+      "must_match": [
+        "language model|\\bLLMs?\\b",
+        "agent",
+        "memory|long[\\s-]+horizon"
+      ]
+    },
+    "vision": {
+      "main": "all:video AND all:temporal AND (all:reasoning OR all:grounding) AND (all:\"language model\" OR all:multimodal OR all:\"vision-language\")",
+      "evaluation": "all:video AND all:temporal AND (all:benchmark OR all:evaluation OR all:bias) AND (all:reasoning OR all:grounding)",
+      "must_match": [
+        "video",
+        "temporal",
+        "\\b(?:reasoning|grounding)\\b",
+        "language|multimodal|multi-modal"
+      ]
+    },
+    "robotics": {
+      "main": "(all:\"vision-language-action\" OR all:\"vision language action\" OR all:VLA) AND (all:robot OR all:robotic OR all:robotics) AND (all:embodiment OR all:generalization OR all:transfer)",
+      "evaluation": "(all:robot OR all:robotic) AND (all:\"cross-embodiment\" OR all:\"cross embodiment\") AND (all:evaluation OR all:benchmark OR all:generalization OR all:transfer)",
+      "must_match": [
+        "cross[\\s-]+embodiment|(?:(?:vision[\\s-]+language[\\s-]+action|\\bVLA\\b).*(?:generaliz|transfer))|(?:(?:generaliz|transfer).*(?:vision[\\s-]+language[\\s-]+action|\\bVLA\\b))"
+      ]
+    },
+    "reinforcement-learning": {
+      "main": "(all:\"reward hacking\" OR all:\"reward overoptimization\" OR all:\"reward model overoptimization\" OR all:\"reward gaming\") AND (all:\"language model\" OR all:RLHF OR all:\"reward model\")",
+      "evaluation": "(all:\"reward model\" OR all:RLHF) AND (all:generalization OR all:overoptimization OR all:\"reward hacking\") AND (all:evaluation OR all:benchmark OR all:scaling)",
+      "must_match": [
+        "reward[\\s-]+(?:hacking|over.?optimi|gaming)",
+        "language model|\\bRLHF\\b|\\bLLMs?\\b"
+      ]
+    },
+    "evaluation": {
+      "main": "(all:\"LLM-as-a-judge\" OR all:\"LLM as a judge\" OR all:\"language models as evaluators\" OR all:\"language model judges\")",
+      "evaluation": "(all:\"LLM-as-a-judge\" OR all:\"LLM as a judge\" OR all:\"language model judges\") AND (all:bias OR all:reliability OR all:validity OR all:agreement OR all:human)",
+      "must_match": [
+        "LLM[\\s-]+as[\\s-]+(?:a[\\s-]+)?judge|language models? as (?:an? )?(?:evaluators?|judges?)|LLM.{0,20}(?:judge|evaluator)|(?:judge|evaluator).{0,20}LLM",
+        "evaluat|bias|reliab|human|agreement|valid"
+      ]
+    },
+    "ai-for-science": {
+      "main": "(all:\"neural operator\" OR all:\"neural operators\" OR all:DeepONet) AND (all:generalization OR all:\"distribution shift\" OR all:extrapolation OR all:\"out-of-distribution\")",
+      "evaluation": "(all:\"neural operator\" OR all:DeepONet) AND (all:benchmark OR all:evaluation OR all:limitation OR all:robustness) AND (all:PDE OR all:\"partial differential\" OR all:\"operator learning\")",
+      "must_match": [
+        "neural operator|deeponet",
+        "generaliz|out.of.distribution|distribution shift|extrapolat|robust",
+        "\\bPDEs?\\b|partial differential|operator learning"
+      ]
+    }
+  }
+}

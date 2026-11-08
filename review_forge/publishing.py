@@ -40,6 +40,9 @@ def load_bibliography(path: Path) -> dict:
             if not published <= updated <= checked or checked.isoformat() != data["checked_at"] or paper["year"] != published.year or paper["id"] in seen:
                 raise ReviewError("Inconsistent dates, year or duplicate ID in public bibliography.")
             seen.add(paper["id"])
+            if "discovery_groups" in paper and (not isinstance(paper["discovery_groups"], list)
+                    or set(paper["discovery_groups"]) - {"seed", "relevance", "recent", "earlier", "evaluation"}):
+                raise ReviewError("Unknown discovery group in bibliography.")
     return data
 
 
@@ -122,17 +125,34 @@ def build_site(library: Path, destination: Path) -> Path:
             included = {re.sub(r"v\d+$", "", paper.get("arxiv_id") or "") for paper in papers}
             for paper in reading["topics"].get(topic_id, []):
                 if re.sub(r"v\d+$", "", paper["arxiv_id"]) not in included:
-                    fields = ("id", "title", "authors", "year", "doi", "arxiv_id", "url", "published_at", "updated_at", "checked_at", "coverage", "verification")
+                    fields = ("id", "title", "authors", "year", "doi", "arxiv_id", "url", "published_at", "updated_at", "checked_at", "coverage", "verification", "discovery_groups", "screening_status")
                     papers.append({**{key: paper.get(key) for key in fields}, "decision": "reading_list",
                                    "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."})
+            reading_papers = [paper for paper in papers if paper["decision"] == "reading_list"]
+            years = sorted({paper["year"] for paper in reading_papers})
+            coverage = {"count": len(reading_papers), "first_year": min(years) if years else None,
+                        "last_year": max(years) if years else None,
+                        "years": {str(year): sum(p["year"] == year for p in reading_papers) for year in years},
+                        "groups": {key: sum(key in (p.get("discovery_groups") or []) for p in reading_papers)
+                                   for key in ("relevance", "recent", "earlier", "evaluation")},
+                        "full_text_reviewed": 0}
+            searches = [row for row in reading.get("searches", []) if row["topic"] == topic_id]
+            coverage.update({"searches": len(searches), "truncated_searches": sum(bool(row["truncated"]) for row in searches)})
+            if papers:
+                write_text(temporary / "exports" / "reading-lists" / topic_id / "references.bib", bibliography(papers))
             summary = {**topic, "topic": current["review"]["topic"] if current else topic["starter_topic"],
                        "questions": current["review"]["questions"] if current else topic["questions"],
                        "has_review": current is not None, "snapshot_id": current["snapshot_id"] if current else None,
                        "papers": len(papers), "bibliography_checked_at": reading["checked_at"] if reading["topics"].get(topic_id) else None,
+                       "bibliography_coverage": coverage,
                        "updated_at": entries[-1]["released_at"] if entries else None}
             write_json(temporary / "data" / "topics" / f"{topic_id}.json", {"papers": papers, "versions": list(reversed(versions)), "review": current})
             summaries.append(summary)
         write_json(temporary / "data" / "library.json", {"schema_version": 1, "topics": summaries})
+        search_fields = ("topic", "strategy", "label", "url", "returned", "eligible_returned", "total_matches", "truncated", "scope_excluded", "scope_excluded_ids", "response_sha256")
+        write_json(temporary / "data" / "search-method.json", {"checked_at": reading["checked_at"],
+                   "method": reading.get("method"), "plan_sha256": reading.get("plan_sha256"),
+                   "searches": [{key: row.get(key) for key in search_fields} for row in reading.get("searches", [])]})
         files = {str(p.relative_to(temporary)): digest(p.read_bytes()) for p in sorted(temporary.rglob("*")) if p.is_file()}
         write_json(temporary / "site-manifest.json", {"kind": "review-forge-public-site", "files": files})
         # These files are explicitly public; a separate static-server user must be able to read them.

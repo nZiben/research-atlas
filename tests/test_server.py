@@ -95,7 +95,7 @@ class StaticLibrary(unittest.TestCase):
         write_json(target, metadata)
         build_site(self.library, self.site)
         data = json.loads((self.site / 'data/topics/safety.json').read_text())
-        self.assertEqual(len(data['papers']), 4)
+        self.assertEqual(len(data['papers']), len(metadata['topics']['safety']))
         self.assertIsNone(data['review'])
         self.assertEqual(data['versions'], [])
         self.assertTrue(all(p['decision'] == 'reading_list' for p in data['papers']))

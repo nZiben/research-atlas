@@ -13,9 +13,10 @@ providers = ["arxiv", "semantic_scholar"]
 # English search terms usually improve recall. Each string is searched independently.
 # For arXiv, field syntax (ti:, abs:, cat:) is accepted; otherwise all: is added.
 queries = []
-per_query = 30
-max_candidates = 120
-max_papers = 25
+per_query = 100
+max_candidates = 1000
+# Resource ceiling, not a target or a completeness guarantee. Deferred papers remain visible.
+max_papers = 100
 # Fetch both relevance-ranked and recently submitted papers on arXiv.
 arxiv_sorts = ["relevance", "submittedDate"]
 

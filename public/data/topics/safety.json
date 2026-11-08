@@ -1,6 +1,1280 @@
 {
   "papers": [
     {
+      "id": "arxiv-2611-07640",
+      "title": "Beyond Instruction Override: Benchmarking Indirect Prompt Injection with Task-Tampering Attacks",
+      "authors": [
+        "Rongting Zhang",
+        "Martin Bertran",
+        "Sandeep Avula",
+        "Chia-Jung Lee",
+        "Vanessa Murdock"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.07640v1",
+      "url": "https://arxiv.org/abs/2611.07640v1",
+      "published_at": "2026-11-05",
+      "updated_at": "2026-11-05",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "recent",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-07222",
+      "title": "SPILLWAY: Separating Target Admission from Sanitization to Defend Tool-Using Agents against Prompt Injection",
+      "authors": [
+        "Woosang Lim",
+        "Yeseul Chang",
+        "Jaewoo Lee"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.07222v1",
+      "url": "https://arxiv.org/abs/2611.07222v1",
+      "published_at": "2026-11-04",
+      "updated_at": "2026-11-04",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-06682",
+      "title": "SecureGARD: Dynamic Ontology-Guided Governance for Secure Tool-Using LLM Agents",
+      "authors": [
+        "Guoqin Xiong",
+        "Shengtao Wen",
+        "Xiang Chen",
+        "Xinyi Zeng",
+        "Zhaoxin Fan",
+        "Wei Ye",
+        "Xiaofeng Cao",
+        "Sheng-Jun Huang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.06682v1",
+      "url": "https://arxiv.org/abs/2611.06682v1",
+      "published_at": "2026-11-04",
+      "updated_at": "2026-11-04",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-06039",
+      "title": "Securing Web Agents with the Compile-Then-Execute Paradigm",
+      "authors": [
+        "Annabella Chow",
+        "Jinhao Zhu",
+        "Sylvie Venuto",
+        "Abdulaziz Alharbi",
+        "Basel Alomair",
+        "Raluca Popa",
+        "David Wagner",
+        "Julien Piet"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.06039v1",
+      "url": "https://arxiv.org/abs/2611.06039v1",
+      "published_at": "2026-11-04",
+      "updated_at": "2026-11-04",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-04879",
+      "title": "ScamWorld: An Interactive Environment for Evaluating Web Agents Against Online Fraud",
+      "authors": [
+        "Yutao Wu",
+        "Xiao Liu",
+        "Ming Wen",
+        "Hanxun Huang",
+        "Jun Wang",
+        "Xingjun Ma"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.04879v2",
+      "url": "https://arxiv.org/abs/2611.04879v2",
+      "published_at": "2026-11-03",
+      "updated_at": "2026-11-04",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-04673",
+      "title": "Right Tool, Wrong Parameters: Defending LLM Agents Against Parameter Poisoning",
+      "authors": [
+        "Yao Wang",
+        "Zehua Ma",
+        "Weiming Zhang",
+        "Han Fang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.04673v1",
+      "url": "https://arxiv.org/abs/2611.04673v1",
+      "published_at": "2026-11-03",
+      "updated_at": "2026-11-03",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-04672",
+      "title": "The Devil is in the Context: Nine Dimensions of Prompt Injection Attacks",
+      "authors": [
+        "Jiamin Chang",
+        "Kristina Nikolić",
+        "Rishi Sharma",
+        "Giovanni Cherubin",
+        "Vasilios Mavroudis",
+        "Jose Sanchez Vicarte",
+        "Arnav Garg",
+        "Hammond Pearce",
+        "Andrew Paverd",
+        "Ahmed Salem"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.04672v1",
+      "url": "https://arxiv.org/abs/2611.04672v1",
+      "published_at": "2026-11-03",
+      "updated_at": "2026-11-03",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-04271",
+      "title": "From Guidelines to Practice: Defining Requirements for AI Red-Teaming Tools",
+      "authors": [
+        "Gia Phong Tran",
+        "Thai Duong Huynh",
+        "Randolph Loh",
+        "Balachandar Gowrisankar",
+        "Zihao Wang",
+        "Moe Thu Kyaw",
+        "Jun Sun",
+        "Adams Wai-Kin Kong",
+        "Vrizlynn L. L. Thing"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.04271v1",
+      "url": "https://arxiv.org/abs/2611.04271v1",
+      "published_at": "2026-11-03",
+      "updated_at": "2026-11-03",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-02741",
+      "title": "ATrust: Adaptive Trust Boundary Expansion for Securing LLM Agents",
+      "authors": [
+        "Xu Zhang",
+        "Zhichao Lu"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.02741v1",
+      "url": "https://arxiv.org/abs/2611.02741v1",
+      "published_at": "2026-11-02",
+      "updated_at": "2026-11-02",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-02611",
+      "title": "Where Does MCP Security End? A Three-Tier Mitigation Mapping Framework for the OWASP MCP Top 10",
+      "authors": [
+        "Christopher Krakauer",
+        "Andreas Schaad"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.02611v1",
+      "url": "https://arxiv.org/abs/2611.02611v1",
+      "published_at": "2026-11-02",
+      "updated_at": "2026-11-02",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-02605",
+      "title": "StateFence: Task-State Protection Against Evidence-Chain Contamination in Blue-Team LLM Agents",
+      "authors": [
+        "Haowen Dai",
+        "Alejandro Guerra-Manzanares"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.02605v1",
+      "url": "https://arxiv.org/abs/2611.02605v1",
+      "published_at": "2026-11-02",
+      "updated_at": "2026-11-02",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-02522",
+      "title": "Ranked but Not Stopped: Detecting Prompt-Injection Hijacks from Typed Decision Models' Output Probabilities",
+      "authors": [
+        "Junwei Yao",
+        "Jianan Liu",
+        "Yongxi Zhou",
+        "Zike Yang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.02522v1",
+      "url": "https://arxiv.org/abs/2611.02522v1",
+      "published_at": "2026-11-02",
+      "updated_at": "2026-11-02",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-01976",
+      "title": "Beyond Prompt Injection: The Tool Update Gap in LLM Agent Security",
+      "authors": [
+        "Shiyu Kan",
+        "Yue Qi",
+        "Yufei Han",
+        "Xinjian Luo",
+        "Guojun Xiong",
+        "Xiaofeng Gao"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.01976v1",
+      "url": "https://arxiv.org/abs/2611.01976v1",
+      "published_at": "2026-11-01",
+      "updated_at": "2026-11-01",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-01700",
+      "title": "MemHarmBench: Evaluating Cross-Session Prompt Injection in Memory-Persistent AI Agents",
+      "authors": [
+        "Zhihua Wang",
+        "Yunhao Feng",
+        "Yifeng Gao",
+        "Rui Pan",
+        "Baiheng Zhao",
+        "Zixing Chen",
+        "Xingjun Ma"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.01700v1",
+      "url": "https://arxiv.org/abs/2611.01700v1",
+      "published_at": "2026-11-01",
+      "updated_at": "2026-11-01",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-00729",
+      "title": "AgentCap: Capability-Based Runtime Authorization for Secure LLM Agent Execution",
+      "authors": [
+        "Aravinda Kashyap Kabbinamakki Suresh",
+        "Peng Gao"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.00729v1",
+      "url": "https://arxiv.org/abs/2611.00729v1",
+      "published_at": "2026-10-31",
+      "updated_at": "2026-10-31",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-00725",
+      "title": "The Long Con on the Web: Earn-then-Exploit Fraud Attacks against Coding Agents",
+      "authors": [
+        "Xingling Xu",
+        "Zhengwei Jiang",
+        "Zheng Zhi",
+        "Fangming Dong",
+        "LingJia Guo",
+        "Wei Dong",
+        "Chunyan Ma",
+        "Jun Jiang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.00725v1",
+      "url": "https://arxiv.org/abs/2611.00725v1",
+      "published_at": "2026-10-31",
+      "updated_at": "2026-10-31",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-41998",
+      "title": "SecPO: Principled Adversarial Training for Prompt Injection Security",
+      "authors": [
+        "Sizhe Chen",
+        "Yibo Peng",
+        "Jaewon Chang",
+        "Chawin Sitawarin",
+        "David Wagner"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.41998v1",
+      "url": "https://arxiv.org/abs/2610.41998v1",
+      "published_at": "2026-10-30",
+      "updated_at": "2026-10-30",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-41307",
+      "title": "Erase the Injected Region: Multimodal Prompt-Injection Defense with On-Policy Self-Distillation",
+      "authors": [
+        "Shuo Hong",
+        "Jiaxin Ma",
+        "Xidi Cai",
+        "Qianli Ma"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.41307v1",
+      "url": "https://arxiv.org/abs/2610.41307v1",
+      "published_at": "2026-10-30",
+      "updated_at": "2026-10-30",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-41181",
+      "title": "AgentShield: Fortifying Web Applications Against AI Agents and Agentic Browsers",
+      "authors": [
+        "Moiz Ali",
+        "Nafis Karim",
+        "Rownak Islam",
+        "Jyotirmay Chauhan",
+        "Dhruv Kuchhal",
+        "Jason Polakis"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.41181v1",
+      "url": "https://arxiv.org/abs/2610.41181v1",
+      "published_at": "2026-10-30",
+      "updated_at": "2026-10-30",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-41072",
+      "title": "LanG 2.0: Energy-Efficient Agentic AI for Semi-Automated Security Operations at Scale",
+      "authors": [
+        "Anes Abdennebi",
+        "Nadjia Kara",
+        "Laaziz Lahlou",
+        "Hakima Ould-Slimane"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.41072v1",
+      "url": "https://arxiv.org/abs/2610.41072v1",
+      "published_at": "2026-10-29",
+      "updated_at": "2026-10-29",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-40744",
+      "title": "CLIC: Closed-Loop Intent Consistency for Securing LLM-Driven Control in Open RAN",
+      "authors": [
+        "Sunder Ali Khowaja",
+        "Kapal Dev",
+        "Joongheon Kim",
+        "Angelos Antonopoulos",
+        "Nikolaos Bartzoudis"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.40744v1",
+      "url": "https://arxiv.org/abs/2610.40744v1",
+      "published_at": "2026-10-29",
+      "updated_at": "2026-10-29",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-40396",
+      "title": "Understanding and Mitigating Role Spoofing in LLMs",
+      "authors": [
+        "Ezra Edelman",
+        "Benjamin Edelman",
+        "Surbhi Goel",
+        "Eran Malach"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.40396v1",
+      "url": "https://arxiv.org/abs/2610.40396v1",
+      "published_at": "2026-10-29",
+      "updated_at": "2026-10-29",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-39758",
+      "title": "SEAL: Sealed Queries for Local Sanitization against Indirect Prompt Injection",
+      "authors": [
+        "Doohyun Kim",
+        "Donghwa Kang",
+        "Mingyu Jun",
+        "Brent ByungHoon Kang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.39758v1",
+      "url": "https://arxiv.org/abs/2610.39758v1",
+      "published_at": "2026-10-29",
+      "updated_at": "2026-10-29",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-39122",
+      "title": "Appreciation Teaches Unauthorized Execution: Self-Evolution Degrades the Robustness of Personal Agents to Indirect Prompt Injection",
+      "authors": [
+        "Xinyan Wang",
+        "Xiaogeng Liu",
+        "Jun Shao",
+        "Chaowei Xiao"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.39122v1",
+      "url": "https://arxiv.org/abs/2610.39122v1",
+      "published_at": "2026-10-29",
+      "updated_at": "2026-10-29",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-38895",
+      "title": "FlipJev: Fast Black-Box Red Teaming Finds Universal Adversarial Suffixes for Typed Decision Models",
+      "authors": [
+        "Xiaogeng Liu",
+        "Xinyan Wang",
+        "Chaowei Xiao"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.38895v1",
+      "url": "https://arxiv.org/abs/2610.38895v1",
+      "published_at": "2026-10-28",
+      "updated_at": "2026-10-28",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-38867",
+      "title": "Where You Inject Matters: The Trust Region Effect in LLM Agents",
+      "authors": [
+        "Chengquan Guo",
+        "Xiaodong Liu",
+        "Weiwei Yang",
+        "Mingqian Feng",
+        "Jialin Song",
+        "Qiyao Ma",
+        "Carolyn Buractaon",
+        "Christopher White",
+        "Bo Li",
+        "Jianfeng Gao"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.38867v1",
+      "url": "https://arxiv.org/abs/2610.38867v1",
+      "published_at": "2026-10-28",
+      "updated_at": "2026-10-28",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-38120",
+      "title": "Post-Training Large Language Models with LLMON",
+      "authors": [
+        "Basel Shbita",
+        "Michael Hind",
+        "Chad DeLuca",
+        "Nathan Fulton",
+        "Shubhi Asthana",
+        "Farhan Ahmed",
+        "Anisa Halimi",
+        "Yada Zhu",
+        "Mauro Martino",
+        "David Cox",
+        "Dan Gutfreund"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.38120v1",
+      "url": "https://arxiv.org/abs/2610.38120v1",
+      "published_at": "2026-10-28",
+      "updated_at": "2026-10-28",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-37657",
+      "title": "Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness",
+      "authors": [
+        "Igor Shilov",
+        "Xiaoxue Yang",
+        "Alexander Panfilov",
+        "Evgenii Kortukov",
+        "Matthieu Meeus",
+        "Peter Romov",
+        "Wojciech Samek",
+        "Jonas Geiping",
+        "Yves-Alexandre de Montjoye"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.37657v2",
+      "url": "https://arxiv.org/abs/2610.37657v2",
+      "published_at": "2026-10-27",
+      "updated_at": "2026-10-30",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-36422",
+      "title": "What Victims Take Away: Attack Reuse and Defense Revision after Prompt-Injection Attacks",
+      "authors": [
+        "Zihan Chen",
+        "Lei Nico Zheng",
+        "Di Zhu"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.36422v1",
+      "url": "https://arxiv.org/abs/2610.36422v1",
+      "published_at": "2026-10-27",
+      "updated_at": "2026-10-27",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-36108",
+      "title": "Log-To-Leak: Prompt Injection Attacks on Tool-Using LLM Agents via the Model Context Protocol",
+      "authors": [
+        "Yuepeng Hu",
+        "Chongyu Fan",
+        "Sirat Samyoun",
+        "Jian Du"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.36108v1",
+      "url": "https://arxiv.org/abs/2610.36108v1",
+      "published_at": "2026-10-26",
+      "updated_at": "2026-10-26",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-35451",
+      "title": "Then there is prompt injection, a malicious email, ...: The Wild Wide West of OpenClaw Agentic System Security",
+      "authors": [
+        "Mostafijur Rahman Akhond",
+        "Mahmuda Khatun",
+        "Gias Uddin"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.35451v1",
+      "url": "https://arxiv.org/abs/2610.35451v1",
+      "published_at": "2026-10-26",
+      "updated_at": "2026-10-26",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-34777",
+      "title": "Scope-Gap Injection: Exploiting Evaluator Channel Blind Spots in the OpenClaw Agent Security Competition",
+      "authors": [
+        "Weihang Niu",
+        "Mengxing Ren",
+        "Che Qu"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.34777v1",
+      "url": "https://arxiv.org/abs/2610.34777v1",
+      "published_at": "2026-10-26",
+      "updated_at": "2026-10-26",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-34535",
+      "title": "SentryBench: A Cost-Sensitive Benchmark for Adversarial Robustness of Tool-Using LLM Agents in Public-Safety Deployments",
+      "authors": [
+        "Md Abu Yusuf",
+        "Oyshi Tabassum Aditi",
+        "Md Faysal Hosain Mazed"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.34535v1",
+      "url": "https://arxiv.org/abs/2610.34535v1",
+      "published_at": "2026-10-25",
+      "updated_at": "2026-10-25",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-33198",
+      "title": "Deletion, Substitution, Repair and Transplant: Component Attribution in BARBICAN, a Layered Prompt-Injection Gateway for MCP",
+      "authors": [
+        "İpek Abasıkeleş Turgut",
+        "Edip Gümüş"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.33198v1",
+      "url": "https://arxiv.org/abs/2610.33198v1",
+      "published_at": "2026-10-23",
+      "updated_at": "2026-10-23",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-32531",
+      "title": "On Task, Off Track: Benchmarking LLM and Agent Robustness to Near-Target Prompt Injection",
+      "authors": [
+        "Yuyang Gong",
+        "Zihao Wang",
+        "Jiawei Liu",
+        "XiaoFeng Wang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.32531v1",
+      "url": "https://arxiv.org/abs/2610.32531v1",
+      "published_at": "2026-10-23",
+      "updated_at": "2026-10-23",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-31974",
+      "title": "Agentic AI Defense: Decode-Time Provenance Binding for MCP",
+      "authors": [
+        "Eric Yocam",
+        "Varghese Vaidyan",
+        "Paris Kalathas",
+        "Patrick Tague",
+        "Bruce DeBruhl",
+        "Yong Wang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.31974v1",
+      "url": "https://arxiv.org/abs/2610.31974v1",
+      "published_at": "2026-10-22",
+      "updated_at": "2026-10-22",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-30202",
+      "title": "MPIDetector: Detecting Multi-modal Prompt Injection via LLM-based Reasoning",
+      "authors": [
+        "Yiheng Li",
+        "Jingyue Li"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.30202v1",
+      "url": "https://arxiv.org/abs/2610.30202v1",
+      "published_at": "2026-10-21",
+      "updated_at": "2026-10-21",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-30193",
+      "title": "Protection Is Not One Event: A Survey of RAG Protection Research by Measured Endpoint",
+      "authors": [
+        "Peiyang Liu",
+        "Xi Wang",
+        "Di Liang",
+        "Youru Li",
+        "Zhi Cai",
+        "Wei Ye"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.30193v1",
+      "url": "https://arxiv.org/abs/2610.30193v1",
+      "published_at": "2026-10-21",
+      "updated_at": "2026-10-21",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-29747",
+      "title": "Prompt Injection Through Forensic Evidence: A Taxonomy and Proof of Concept of Anti-Forensic Attacks on LLM-Assisted Digital Investigations",
+      "authors": [
+        "Frank Breitinger",
+        "Jan Gruber",
+        "Christopher Hargreaves",
+        "Jan-Niclas Hilgert",
+        "Gaëtan Michelet",
+        "Mark Scanlon"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.29747v1",
+      "url": "https://arxiv.org/abs/2610.29747v1",
+      "published_at": "2026-10-21",
+      "updated_at": "2026-10-21",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-29379",
+      "title": "Where AI Vulnerability Discovery Harnesses Go Quiet: Structural False Negatives and Hidden Vulnerabilities",
+      "authors": [
+        "Gadi Evron"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.29379v1",
+      "url": "https://arxiv.org/abs/2610.29379v1",
+      "published_at": "2026-10-21",
+      "updated_at": "2026-10-21",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-28988",
+      "title": "Attention-based Classification for Indirect Prompt Injection",
+      "authors": [
+        "Amelia Kawasaki",
+        "Stefan Lee"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.28988v1",
+      "url": "https://arxiv.org/abs/2610.28988v1",
+      "published_at": "2026-10-20",
+      "updated_at": "2026-10-20",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-28810",
+      "title": "Combining Long-Term Memory and LLMs Comes at a High Cost: From Prompt Injection to Persistent Compromise",
+      "authors": [
+        "Pedro H. Barcha Correia",
+        "Matheus Azevedo de Sá",
+        "Paulo H. Gomes de Senna",
+        "Giovanni Mandel Martignago",
+        "Victor Takashi Hayashi",
+        "Charles Christian Miers",
+        "Marcos A. Simplicio"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.28810v1",
+      "url": "https://arxiv.org/abs/2610.28810v1",
+      "published_at": "2026-10-20",
+      "updated_at": "2026-10-20",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-28425",
+      "title": "After the Attacker Leaves: Benchmarking Carryover Attacks on LLM Agents",
+      "authors": [
+        "Zhiyue Xu",
+        "Xukai Wang",
+        "Zhiyuan Huang",
+        "Mingjie Zhan",
+        "Jian Zhao",
+        "Xu-Yao Zhang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.28425v1",
+      "url": "https://arxiv.org/abs/2610.28425v1",
+      "published_at": "2026-10-20",
+      "updated_at": "2026-10-20",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-28364",
+      "title": "Context-Aware Prompt Injection Detection via Small Language Models in RAG Pipelines: nokast-secureRAG",
+      "authors": [
+        "Abhishek Rai"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.28364v1",
+      "url": "https://arxiv.org/abs/2610.28364v1",
+      "published_at": "2026-10-20",
+      "updated_at": "2026-10-20",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-05640",
+      "title": "Can CaMeLs Talk? Securing Multi-Agent Systems Against Indirect Prompt Injection Attacks",
+      "authors": [
+        "James Peters-Gill",
+        "Avi Semler",
+        "Henning Bartsch",
+        "Ilia Shumailov",
+        "Christian Schroeder de Witt"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.05640v1",
+      "url": "https://arxiv.org/abs/2610.05640v1",
+      "published_at": "2026-10-05",
+      "updated_at": "2026-10-05",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-04269",
+      "title": "Self-Reflection Fine-Tuning: Enhancing Agent Security against Prompt Injection Attacks from Failure Experience",
+      "authors": [
+        "Zixuan Wang",
+        "Hao Li",
+        "Fengyu Gao",
+        "G. Edward Suh",
+        "Yi Zeng",
+        "Yevgeniy Vorobeychik",
+        "Ning Zhang",
+        "Chaowei Xiao"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.04269v1",
+      "url": "https://arxiv.org/abs/2610.04269v1",
+      "published_at": "2026-10-03",
+      "updated_at": "2026-10-03",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2609-36603",
+      "title": "Self-Evolving Defense: Continual Security Policy Learning for LLM Agents",
+      "authors": [
+        "Minh Nhat Le",
+        "Nisarga Gondi",
+        "Yibo Peng",
+        "Ronghao Ni",
+        "Limin Jia",
+        "Beidi Chen",
+        "Haizhong Zheng"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2609.36603v1",
+      "url": "https://arxiv.org/abs/2609.36603v1",
+      "published_at": "2026-09-29",
+      "updated_at": "2026-09-29",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2609-34463",
+      "title": "CoDeL: Co-Evolutionary Defense against Indirect Prompt Injection in LLM-based Agents",
+      "authors": [
+        "Xiao Yang",
+        "Yangchen Ou",
+        "Yuhan Gao",
+        "Le Wang",
+        "Zonghao Ying",
+        "Aishan Liu"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2609.34463v1",
+      "url": "https://arxiv.org/abs/2609.34463v1",
+      "published_at": "2026-09-28",
+      "updated_at": "2026-09-28",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2609-32691",
+      "title": "Silent Failures in Agentic Security Evaluation: A Validated Harness for Tool-Call Mediation Under Indirect Prompt Injection",
+      "authors": [
+        "Animesh Shaw"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2609.32691v1",
+      "url": "https://arxiv.org/abs/2609.32691v1",
+      "published_at": "2026-09-26",
+      "updated_at": "2026-09-26",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
       "id": "arxiv-2609-22949",
       "title": "Beyond Single-Model Injection: A Threat Model and Defense Architecture for Prompt Injection in Multi-Agent Systems",
       "authors": [
@@ -16,6 +1290,161 @@
       "checked_at": "2026-11-08",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "seed"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2609-16098",
+      "title": "Universal Defenses for Tool-Integrated LLM Agents Against Adversarial Attacks",
+      "authors": [
+        "Xiaoyan Li",
+        "Yunli Wang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2609.16098v1",
+      "url": "https://arxiv.org/abs/2609.16098v1",
+      "published_at": "2026-09-14",
+      "updated_at": "2026-09-14",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2609-04533",
+      "title": "Repeat-After-Me: Black-Box Adaptive Visual Prompt Injection",
+      "authors": [
+        "Sizhe Chen",
+        "Yu-Lin Tsai",
+        "Ivan Evtimov",
+        "Kamalika Chaudhuri",
+        "Raluca Ada Popa",
+        "David Wagner",
+        "Arman Zharmagambetov"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2609.04533v2",
+      "url": "https://arxiv.org/abs/2609.04533v2",
+      "published_at": "2026-09-03",
+      "updated_at": "2026-09-15",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2608-28411",
+      "title": "LongPIBench: A Long-Context Benchmark for Prompt Injection",
+      "authors": [
+        "Yupei Liu",
+        "Yuqi Jia",
+        "Neil Zhenqiang Gong",
+        "Jinyuan Jia"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2608.28411v1",
+      "url": "https://arxiv.org/abs/2608.28411v1",
+      "published_at": "2026-08-28",
+      "updated_at": "2026-08-28",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2608-19982",
+      "title": "COPA: Continual Preference Optimization for Adaptive Prompt Injection Defense",
+      "authors": [
+        "Roshan Sood",
+        "Onat Gungor",
+        "Tajana Rosing"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2608.19982v1",
+      "url": "https://arxiv.org/abs/2608.19982v1",
+      "published_at": "2026-08-20",
+      "updated_at": "2026-08-20",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2608-06477",
+      "title": "StepJack: Benchmarking Computer-Use Agent Safety Against Multi-Step Indirect Prompt Injection",
+      "authors": [
+        "Zhuoxin Zhan",
+        "Akbar Rafiey",
+        "Avery Ma",
+        "Leila Pishdad",
+        "Layla El Asri"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2608.06477v1",
+      "url": "https://arxiv.org/abs/2608.06477v1",
+      "published_at": "2026-08-06",
+      "updated_at": "2026-08-06",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2608-05108",
+      "title": "Agent Against Agent: An Agentic System for Automatic Prompt Injection Red Teaming",
+      "authors": [
+        "Yanting Wang",
+        "Chenlong Yin",
+        "Runpeng Geng",
+        "Jinyuan Jia"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2608.05108v1",
+      "url": "https://arxiv.org/abs/2608.05108v1",
+      "published_at": "2026-08-05",
+      "updated_at": "2026-08-05",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -29,7 +1458,7 @@
         "Jiongchi Yu"
       ],
       "year": 2026,
-      "doi": null,
+      "doi": "",
       "arxiv_id": "2608.04053v1",
       "url": "https://arxiv.org/abs/2608.04053v1",
       "published_at": "2026-08-04",
@@ -37,6 +1466,37 @@
       "checked_at": "2026-11-08",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "seed"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2606-30783",
+      "title": "Security--Fidelity Tradeoffs: The Hidden Cost of Prompt Injection Defense",
+      "authors": [
+        "Mitchell Hermon",
+        "Rahul Gupta",
+        "Weitong Ruan",
+        "Ekraam Sabir",
+        "Haohan Wang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2606.30783v1",
+      "url": "https://arxiv.org/abs/2606.30783v1",
+      "published_at": "2026-06-29",
+      "updated_at": "2026-06-29",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -50,7 +1510,7 @@
         "Jayaram Kumarapu"
       ],
       "year": 2026,
-      "doi": null,
+      "doi": "",
       "arxiv_id": "2606.26479v1",
       "url": "https://arxiv.org/abs/2606.26479v1",
       "published_at": "2026-06-25",
@@ -58,6 +1518,147 @@
       "checked_at": "2026-11-08",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance",
+        "seed"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2606-22864",
+      "title": "When AUC 0.998 Is Not Enough: A Candidate Evaluation Protocol for Hidden-State Probes of Indirect Prompt Injection in Multimodal Computer-Use Agents",
+      "authors": [
+        "Yanhang Li",
+        "Zhichao Fan",
+        "Zexin Zhuang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2606.22864v1",
+      "url": "https://arxiv.org/abs/2606.22864v1",
+      "published_at": "2026-06-22",
+      "updated_at": "2026-06-22",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2606-15057",
+      "title": "AutoDojo: A Generative Benchmark for Evaluating Prompt Injection Defenses in LLM Agents",
+      "authors": [
+        "Xinhang Ma",
+        "Taoran Li",
+        "Chaowei Xiao",
+        "Zhiyuan Yu",
+        "Ning Zhang",
+        "Yevgeniy Vorobeychik"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2606.15057v3",
+      "url": "https://arxiv.org/abs/2606.15057v3",
+      "published_at": "2026-06-13",
+      "updated_at": "2026-09-28",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2606-10749",
+      "title": "Toward Secure LLM Agents: Threat Surfaces, Attacks, Defenses, and Evaluation",
+      "authors": [
+        "Yuchen Ling",
+        "Shengcheng Yu",
+        "Zhenyu Chen",
+        "Chunrong Fang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2606.10749v2",
+      "url": "https://arxiv.org/abs/2606.10749v2",
+      "published_at": "2026-06-09",
+      "updated_at": "2026-08-23",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2606-04425",
+      "title": "What If Prompt Injection Never Left? Rethinking Agent Security through Cross-Session Stored Prompt Injection",
+      "authors": [
+        "Yuanbo Xie",
+        "Wenlei Zhu",
+        "Tianyun Liu",
+        "Yingjie Zhang",
+        "Suchen Liu",
+        "Yulin Li",
+        "Liya Su",
+        "Tingwen Liu"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2606.04425v2",
+      "url": "https://arxiv.org/abs/2606.04425v2",
+      "published_at": "2026-06-03",
+      "updated_at": "2026-07-29",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2605-25415",
+      "title": "LLM-as-a-Reviewer: Benchmarking Their Ability, Divergence, and Prompt Injection Resistance as Paper Reviewers",
+      "authors": [
+        "Lingyao Li",
+        "Junjie Xiong",
+        "Changjia Zhu",
+        "Runlong Yu",
+        "Chen Chen",
+        "Junyu Wang",
+        "Renkai Ma",
+        "Zhicong Lu"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2605.25415v1",
+      "url": "https://arxiv.org/abs/2605.25415v1",
+      "published_at": "2026-05-25",
+      "updated_at": "2026-05-25",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -78,7 +1679,7 @@
         "Bryan Hooi"
       ],
       "year": 2026,
-      "doi": null,
+      "doi": "",
       "arxiv_id": "2605.15030v1",
       "url": "https://arxiv.org/abs/2605.15030v1",
       "published_at": "2026-05-14",
@@ -86,6 +1687,3962 @@
       "checked_at": "2026-11-08",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance",
+        "seed"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2604-24118",
+      "title": "AgentVisor: Defending LLM Agents Against Prompt Injection via Semantic Virtualization",
+      "authors": [
+        "Zonghao Ying",
+        "Haozheng Wang",
+        "Jiangfan Liu",
+        "Quanchen Zou",
+        "Aishan Liu",
+        "Jian Yang",
+        "Yaodong Yang",
+        "Xianglong Liu"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2604.24118v1",
+      "url": "https://arxiv.org/abs/2604.24118v1",
+      "published_at": "2026-04-27",
+      "updated_at": "2026-04-27",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2604-16762",
+      "title": "CapSeal: Capability-Sealed Secret Mediation for Secure Agent Execution",
+      "authors": [
+        "Shutong Jin",
+        "Ruiyi Guo",
+        "Ray C. C. Cheung"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2604.16762v1",
+      "url": "https://arxiv.org/abs/2604.16762v1",
+      "published_at": "2026-04-18",
+      "updated_at": "2026-04-18",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2604-11790",
+      "title": "ClawGuard: A Runtime Security Framework for Tool-Augmented LLM Agents Against Indirect Prompt Injection",
+      "authors": [
+        "Wei Zhao",
+        "Zhe Li",
+        "Peixin Zhang",
+        "Jun Sun"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2604.11790v2",
+      "url": "https://arxiv.org/abs/2604.11790v2",
+      "published_at": "2026-04-13",
+      "updated_at": "2026-05-11",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2604-08499",
+      "title": "PIArena: A Platform for Prompt Injection Evaluation",
+      "authors": [
+        "Runpeng Geng",
+        "Chenlong Yin",
+        "Yanting Wang",
+        "Ying Chen",
+        "Jinyuan Jia"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2604.08499v1",
+      "url": "https://arxiv.org/abs/2604.08499v1",
+      "published_at": "2026-04-09",
+      "updated_at": "2026-04-09",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2604-01194",
+      "title": "AgentWatcher: A Rule-based Prompt Injection Monitor",
+      "authors": [
+        "Yanting Wang",
+        "Wei Zou",
+        "Runpeng Geng",
+        "Jinyuan Jia"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2604.01194v2",
+      "url": "https://arxiv.org/abs/2604.01194v2",
+      "published_at": "2026-04-01",
+      "updated_at": "2026-07-25",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2603-30016",
+      "title": "Architecting Secure AI Agents: Perspectives on System-Level Defenses Against Indirect Prompt Injection Attacks",
+      "authors": [
+        "Chong Xiang",
+        "Drew Zagieboylo",
+        "Shaona Ghosh",
+        "Sanjay Kariyappa",
+        "Kai Greshake",
+        "Hanshen Xiao",
+        "Chaowei Xiao",
+        "G. Edward Suh"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2603.30016v1",
+      "url": "https://arxiv.org/abs/2603.30016v1",
+      "published_at": "2026-03-31",
+      "updated_at": "2026-03-31",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2603-23791",
+      "title": "The Cognitive Firewall:Securing Browser Based AI Agents Against Indirect Prompt Injection Via Hybrid Edge Cloud Defense",
+      "authors": [
+        "Qianlong Lan",
+        "Anuj Kaul"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2603.23791v1",
+      "url": "https://arxiv.org/abs/2603.23791v1",
+      "published_at": "2026-03-24",
+      "updated_at": "2026-03-24",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2603-21642",
+      "title": "Are AI-assisted Development Tools Immune to Prompt Injection?",
+      "authors": [
+        "Charoes Huang",
+        "Xin Huang",
+        "Amin Milani Fard"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2603.21642v1",
+      "url": "https://arxiv.org/abs/2603.21642v1",
+      "published_at": "2026-03-23",
+      "updated_at": "2026-03-23",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2603-17419",
+      "title": "Caging the Agents: A Zero Trust Security Architecture for Autonomous AI in Healthcare",
+      "authors": [
+        "Saikat Maiti"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2603.17419v1",
+      "url": "https://arxiv.org/abs/2603.17419v1",
+      "published_at": "2026-03-18",
+      "updated_at": "2026-03-18",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2603-13424",
+      "title": "Agent Privilege Separation in OpenClaw: A Structural Defense Against Prompt Injection",
+      "authors": [
+        "Darren Cheng",
+        "Wen-Kwang Tsao"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2603.13424v1",
+      "url": "https://arxiv.org/abs/2603.13424v1",
+      "published_at": "2026-03-13",
+      "updated_at": "2026-03-13",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2603-13026",
+      "title": "PISmith: Reinforcement Learning-based Red Teaming for Prompt Injection Defenses",
+      "authors": [
+        "Chenlong Yin",
+        "Runpeng Geng",
+        "Yanting Wang",
+        "Jinyuan Jia"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2603.13026v2",
+      "url": "https://arxiv.org/abs/2603.13026v2",
+      "published_at": "2026-03-13",
+      "updated_at": "2026-07-23",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2603-11853",
+      "title": "OpenClaw PRISM: A Zero-Fork, Defense-in-Depth Runtime Security Layer for Tool-Augmented LLM Agents",
+      "authors": [
+        "Frank Li"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2603.11853v1",
+      "url": "https://arxiv.org/abs/2603.11853v1",
+      "published_at": "2026-03-12",
+      "updated_at": "2026-03-12",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2603-10749",
+      "title": "AttriGuard: Defeating Indirect Prompt Injection in LLM Agents via Causal Attribution of Tool Invocations",
+      "authors": [
+        "Yu He",
+        "Haozhe Zhu",
+        "Yiming Li",
+        "Shuo Shao",
+        "Hongwei Yao",
+        "Zhihao Liu",
+        "Zhan Qin"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2603.10749v2",
+      "url": "https://arxiv.org/abs/2603.10749v2",
+      "published_at": "2026-03-11",
+      "updated_at": "2026-06-10",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2602-20720",
+      "title": "AdapTools: Adaptive Tool-based Indirect Prompt Injection Attacks on Agentic LLMs",
+      "authors": [
+        "Che Wang",
+        "Jiaming Zhang",
+        "Ziqi Zhang",
+        "Zijie Wang",
+        "Yinghui Wang",
+        "Jianbo Gao",
+        "Tao Wei",
+        "Zhong Chen",
+        "Wei Yang Bryan Lim"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2602.20720v1",
+      "url": "https://arxiv.org/abs/2602.20720v1",
+      "published_at": "2026-02-24",
+      "updated_at": "2026-02-24",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2602-09222",
+      "title": "MUZZLE: Adaptive Agentic Red-Teaming of Web Agents Against Indirect Prompt Injection Attacks",
+      "authors": [
+        "Georgios Syros",
+        "Evan Rose",
+        "Brian Grinstead",
+        "Christoph Kerschbaumer",
+        "William Robertson",
+        "Cristina Nita-Rotaru",
+        "Alina Oprea"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2602.09222v2",
+      "url": "https://arxiv.org/abs/2602.09222v2",
+      "published_at": "2026-02-09",
+      "updated_at": "2026-06-14",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2602-06268",
+      "title": "MPIB: A Benchmark for Medical Prompt Injection Attacks and Clinical Safety in LLMs",
+      "authors": [
+        "Junhyeok Lee",
+        "Han Jang",
+        "Kyu Sung Choi"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2602.06268v2",
+      "url": "https://arxiv.org/abs/2602.06268v2",
+      "published_at": "2026-02-06",
+      "updated_at": "2026-08-25",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2602-05746",
+      "title": "Learning to Inject: Automated Prompt Injection via Reinforcement Learning",
+      "authors": [
+        "Xin Chen",
+        "Jie Zhang",
+        "Florian Tramèr"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2602.05746v2",
+      "url": "https://arxiv.org/abs/2602.05746v2",
+      "published_at": "2026-02-05",
+      "updated_at": "2026-06-10",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2602-03117",
+      "title": "AgentDyn: Are Your Agent Security Defenses Deployable in Real-World Dynamic Environments?",
+      "authors": [
+        "Hao Li",
+        "Ruoyao Wen",
+        "Shanghao Shi",
+        "Ning Zhang",
+        "Yevgeniy Vorobeychik",
+        "Chaowei Xiao"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2602.03117v3",
+      "url": "https://arxiv.org/abs/2602.03117v3",
+      "published_at": "2026-02-03",
+      "updated_at": "2026-05-07",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2601-22569",
+      "title": "Whispers of Wealth: Red-Teaming Google's Agent Payments Protocol via Prompt Injection",
+      "authors": [
+        "Tanusree Debi",
+        "Wentian Zhu",
+        "Pranjol Sen Gupta"
+      ],
+      "year": 2026,
+      "doi": "10.1109/IMNS67862.2026.11655291",
+      "arxiv_id": "2601.22569v2",
+      "url": "https://arxiv.org/abs/2601.22569v2",
+      "published_at": "2026-01-30",
+      "updated_at": "2026-05-18",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2601-17549",
+      "title": "Breaking the Protocol: Security Analysis of the Model Context Protocol Specification and Prompt Injection Vulnerabilities in Tool-Integrated LLM Agents",
+      "authors": [
+        "Narek Maloyan",
+        "Dmitry Namiot"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2601.17549v1",
+      "url": "https://arxiv.org/abs/2601.17549v1",
+      "published_at": "2026-01-24",
+      "updated_at": "2026-01-24",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2601-04795",
+      "title": "Defense Against Indirect Prompt Injection via Tool Result Parsing",
+      "authors": [
+        "Qiang Yu",
+        "Xinran Cheng",
+        "Chuanyi Liu"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2601.04795v1",
+      "url": "https://arxiv.org/abs/2601.04795v1",
+      "published_at": "2026-01-08",
+      "updated_at": "2026-01-08",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2512-20986",
+      "title": "AegisAgent: An Autonomous Defense Agent Against Prompt Injection Attacks in LLM-HARs",
+      "authors": [
+        "Yihan Wang",
+        "Huanqi Yang",
+        "Shantanu Pal",
+        "Weitao Xu"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2512.20986v1",
+      "url": "https://arxiv.org/abs/2512.20986v1",
+      "published_at": "2025-12-24",
+      "updated_at": "2025-12-24",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2512-16307",
+      "title": "Beyond the Benchmark: Innovative Defenses Against Prompt Injection Attacks",
+      "authors": [
+        "Safwan Shaheer",
+        "G. M. Refatul Islam",
+        "Mohammad Rafid Hamid",
+        "Tahsin Zaman Jilan"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2512.16307v1",
+      "url": "https://arxiv.org/abs/2512.16307v1",
+      "published_at": "2025-12-18",
+      "updated_at": "2025-12-18",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2512-12583",
+      "title": "Detecting Prompt Injection Attacks Against Application Using Classifiers",
+      "authors": [
+        "Safwan Shaheer",
+        "G. M. Refatul Islam",
+        "Mohammad Rafid Hamid",
+        "Md. Abrar Faiaz Khan",
+        "Md. Omar Faruk",
+        "Yaseen Nur"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2512.12583v1",
+      "url": "https://arxiv.org/abs/2512.12583v1",
+      "published_at": "2025-12-14",
+      "updated_at": "2025-12-14",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2511-20597",
+      "title": "BrowseSafe: Understanding and Preventing Prompt Injection Within AI Browser Agents",
+      "authors": [
+        "Kaiyuan Zhang",
+        "Mark Tenenholtz",
+        "Kyle Polley",
+        "Jerry Ma",
+        "Denis Yarats",
+        "Ninghui Li"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2511.20597v2",
+      "url": "https://arxiv.org/abs/2511.20597v2",
+      "published_at": "2025-11-25",
+      "updated_at": "2026-08-12",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2511-15759",
+      "title": "Securing AI Agents Against Prompt Injection Attacks",
+      "authors": [
+        "Badrinath Ramakrishnan",
+        "Akshaya Balaji"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2511.15759v1",
+      "url": "https://arxiv.org/abs/2511.15759v1",
+      "published_at": "2025-11-19",
+      "updated_at": "2025-11-19",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2510-19844",
+      "title": "CourtGuard: A Local, Multiagent Prompt Injection Classifier",
+      "authors": [
+        "Isaac Wu",
+        "Michael Maslowski"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2510.19844v1",
+      "url": "https://arxiv.org/abs/2510.19844v1",
+      "published_at": "2025-10-20",
+      "updated_at": "2025-10-20",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2510-11837",
+      "title": "Countermind: A Multi-Layered Security Architecture for Large Language Models",
+      "authors": [
+        "Dominik Schwarz"
+      ],
+      "year": 2025,
+      "doi": "10.36227/techrxiv.175994550.08962082/v1",
+      "arxiv_id": "2510.11837v1",
+      "url": "https://arxiv.org/abs/2510.11837v1",
+      "published_at": "2025-10-13",
+      "updated_at": "2025-10-13",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2510-05244",
+      "title": "Indirect Prompt Injections: Are Firewalls All You Need, or Stronger Benchmarks?",
+      "authors": [
+        "Rishika Bhagwatkar",
+        "Kevin Kasa",
+        "Abhay Puri",
+        "Gabriel Huang",
+        "Irina Rish",
+        "Graham W. Taylor",
+        "Krishnamurthy Dj Dvijotham",
+        "Alexandre Lacoste"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2510.05244v2",
+      "url": "https://arxiv.org/abs/2510.05244v2",
+      "published_at": "2025-10-06",
+      "updated_at": "2026-03-23",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2510-04257",
+      "title": "AgentTypo: Adaptive Typographic Prompt Injection Attacks against Black-box Multimodal Agents",
+      "authors": [
+        "Yanjie Li",
+        "Yiming Cao",
+        "Dong Wang",
+        "Bin Xiao"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2510.04257v2",
+      "url": "https://arxiv.org/abs/2510.04257v2",
+      "published_at": "2025-10-05",
+      "updated_at": "2026-11-02",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2510-03705",
+      "title": "Backdoor-Powered Prompt Injection Attacks Nullify Defense Methods",
+      "authors": [
+        "Yulin Chen",
+        "Haoran Li",
+        "Yuan Sui",
+        "Yangqiu Song",
+        "Bryan Hooi"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2510.03705v1",
+      "url": "https://arxiv.org/abs/2510.03705v1",
+      "published_at": "2025-10-04",
+      "updated_at": "2025-10-04",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2510-01354",
+      "title": "WAInjectBench: Benchmarking Prompt Injection Detections for Web Agents",
+      "authors": [
+        "Yinuo Liu",
+        "Xilong Wang",
+        "Ruohan Xu",
+        "Yuqi Jia",
+        "Neil Zhenqiang Gong"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2510.01354v2",
+      "url": "https://arxiv.org/abs/2510.01354v2",
+      "published_at": "2025-10-01",
+      "updated_at": "2026-09-23",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2509-14285",
+      "title": "A Multi-Agent LLM Defense Pipeline Against Prompt Injection Attacks",
+      "authors": [
+        "S M Asif Hossain",
+        "Ruksat Khan Shayoni",
+        "Mohd Ruhul Ameen",
+        "Akif Islam",
+        "M. F. Mridha",
+        "Jungpil Shin"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2509.14285v4",
+      "url": "https://arxiv.org/abs/2509.14285v4",
+      "published_at": "2025-09-16",
+      "updated_at": "2025-12-17",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2509-14271",
+      "title": "Early Approaches to Adversarial Fine-Tuning for Prompt Injection Defense: A 2022 Study of GPT-3 and Contemporary Models",
+      "authors": [
+        "Gustavo Sandoval",
+        "Denys Fenchenko",
+        "Junyao Chen"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2509.14271v1",
+      "url": "https://arxiv.org/abs/2509.14271v1",
+      "published_at": "2025-09-15",
+      "updated_at": "2025-09-15",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2508-20890",
+      "title": "PromptSleuth: Detecting Prompt Injection via Semantic Intent Invariance",
+      "authors": [
+        "Mengxiao Wang",
+        "Yuxuan Zhang",
+        "Guofei Gu"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2508.20890v2",
+      "url": "https://arxiv.org/abs/2508.20890v2",
+      "published_at": "2025-08-28",
+      "updated_at": "2025-09-16",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2508-15310",
+      "title": "IPIGuard: A Novel Tool Dependency Graph-Based Defense Against Indirect Prompt Injection in LLM Agents",
+      "authors": [
+        "Hengyu An",
+        "Jinghuai Zhang",
+        "Tianyu Du",
+        "Chunyi Zhou",
+        "Qingming Li",
+        "Tao Lin",
+        "Shouling Ji"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2508.15310v1",
+      "url": "https://arxiv.org/abs/2508.15310v1",
+      "published_at": "2025-08-21",
+      "updated_at": "2025-08-21",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2507-15219",
+      "title": "PromptArmor: Simple yet Effective Prompt Injection Defenses",
+      "authors": [
+        "Tianneng Shi",
+        "Kaijie Zhu",
+        "Zhun Wang",
+        "Yuqi Jia",
+        "Will Cai",
+        "Weida Liang",
+        "Haonan Wang",
+        "Hend Alzahrani",
+        "Joshua Lu",
+        "Kenji Kawaguchi",
+        "Basel Alomair",
+        "Xuandong Zhao",
+        "William Yang Wang",
+        "Neil Gong",
+        "Wenbo Guo",
+        "Dawn Song"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2507.15219v1",
+      "url": "https://arxiv.org/abs/2507.15219v1",
+      "published_at": "2025-07-21",
+      "updated_at": "2025-07-21",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2507-02735",
+      "title": "Meta-SecAlign: Training LLMs against Prompt Injection for Robust Agents",
+      "authors": [
+        "Sizhe Chen",
+        "Arman Zharmagambetov",
+        "David Wagner",
+        "Chuan Guo"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2507.02735v4",
+      "url": "https://arxiv.org/abs/2507.02735v4",
+      "published_at": "2025-07-03",
+      "updated_at": "2026-09-28",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2506-09956",
+      "title": "LLMail-Inject: A Dataset from a Realistic Adaptive Prompt Injection Challenge",
+      "authors": [
+        "Sahar Abdelnabi",
+        "Aideen Fay",
+        "Ahmed Salem",
+        "Egor Zverev",
+        "Kai-Chieh Liao",
+        "Chi-Huang Liu",
+        "Chun-Chih Kuo",
+        "Jannis Weigend",
+        "Danyael Manlangit",
+        "Alex Apostolov",
+        "Haris Umair",
+        "João Donato",
+        "Masayuki Kawakita",
+        "Athar Mahboob",
+        "Tran Huu Bach",
+        "Tsun-Han Chiang",
+        "Myeongjin Cho",
+        "Hajin Choi",
+        "Byeonghyeon Kim",
+        "Hyeonjin Lee",
+        "Benjamin Pannell",
+        "Conor McCauley",
+        "Mark Russinovich",
+        "Andrew Paverd",
+        "Giovanni Cherubin"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2506.09956v2",
+      "url": "https://arxiv.org/abs/2506.09956v2",
+      "published_at": "2025-06-11",
+      "updated_at": "2026-10-09",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2506-08837",
+      "title": "Design Patterns for Securing LLM Agents against Prompt Injections",
+      "authors": [
+        "Luca Beurer-Kellner",
+        "Beat Buesser",
+        "Ana-Maria Creţu",
+        "Edoardo Debenedetti",
+        "Daniel Dobos",
+        "Daniel Fabian",
+        "Marc Fischer",
+        "David Froelicher",
+        "Kathrin Grosse",
+        "Daniel Naeff",
+        "Ezinwanne Ozoani",
+        "Andrew Paverd",
+        "Florian Tramèr",
+        "Václav Volhejn"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2506.08837v3",
+      "url": "https://arxiv.org/abs/2506.08837v3",
+      "published_at": "2025-06-10",
+      "updated_at": "2025-06-27",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2506-05739",
+      "title": "To Protect the LLM Agent Against the Prompt Injection Attack with Polymorphic Prompt",
+      "authors": [
+        "Zhilong Wang",
+        "Neha Nagaraja",
+        "Lan Zhang",
+        "Hayretdin Bahsi",
+        "Pawan Patil",
+        "Peng Liu"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2506.05739v1",
+      "url": "https://arxiv.org/abs/2506.05739v1",
+      "published_at": "2025-06-06",
+      "updated_at": "2025-06-06",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2505-18333",
+      "title": "A Critical Evaluation of Defenses against Prompt Injection Attacks",
+      "authors": [
+        "Yuqi Jia",
+        "Zedian Shao",
+        "Yupei Liu",
+        "Jinyuan Jia",
+        "Dawn Song",
+        "Neil Zhenqiang Gong"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2505.18333v1",
+      "url": "https://arxiv.org/abs/2505.18333v1",
+      "published_at": "2025-05-23",
+      "updated_at": "2025-05-23",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2505-12368",
+      "title": "CAPTURE: Context-Aware Prompt Injection Testing and Robustness Enhancement",
+      "authors": [
+        "Gauri Kholkar",
+        "Ratinder Ahuja"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2505.12368v2",
+      "url": "https://arxiv.org/abs/2505.12368v2",
+      "published_at": "2025-05-18",
+      "updated_at": "2025-06-17",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2505-11717",
+      "title": "WebInject: Prompt Injection Attack to Web Agents",
+      "authors": [
+        "Xilong Wang",
+        "John Bloch",
+        "Zedian Shao",
+        "Yuepeng Hu",
+        "Shuyan Zhou",
+        "Neil Zhenqiang Gong"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2505.11717v4",
+      "url": "https://arxiv.org/abs/2505.11717v4",
+      "published_at": "2025-05-16",
+      "updated_at": "2025-10-17",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2505-00843",
+      "title": "OET: Optimization-based prompt injection Evaluation Toolkit",
+      "authors": [
+        "Jinsheng Pan",
+        "Xiaogeng Liu",
+        "Chaowei Xiao"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2505.00843v1",
+      "url": "https://arxiv.org/abs/2505.00843v1",
+      "published_at": "2025-05-01",
+      "updated_at": "2025-05-01",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2504-20984",
+      "title": "ACE: A Security Architecture for LLM-Integrated App Systems",
+      "authors": [
+        "Evan Li",
+        "Tushin Mallick",
+        "Evan Rose",
+        "William Robertson",
+        "Alina Oprea",
+        "Cristina Nita-Rotaru"
+      ],
+      "year": 2025,
+      "doi": "10.14722/ndss.2026.230352",
+      "arxiv_id": "2504.20984v3",
+      "url": "https://arxiv.org/abs/2504.20984v3",
+      "published_at": "2025-04-29",
+      "updated_at": "2025-09-10",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2504-19793",
+      "title": "Prompt Injection Attack to Tool Selection in LLM Agents",
+      "authors": [
+        "Jiawen Shi",
+        "Zenghui Yuan",
+        "Guiyao Tie",
+        "Pan Zhou",
+        "Neil Zhenqiang Gong",
+        "Lichao Sun"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2504.19793v3",
+      "url": "https://arxiv.org/abs/2504.19793v3",
+      "published_at": "2025-04-28",
+      "updated_at": "2025-08-24",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2504-18575",
+      "title": "WASP: Benchmarking Web Agent Security Against Prompt Injection Attacks",
+      "authors": [
+        "Ivan Evtimov",
+        "Arman Zharmagambetov",
+        "Aaron Grattafiori",
+        "Chuan Guo",
+        "Kamalika Chaudhuri"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2504.18575v3",
+      "url": "https://arxiv.org/abs/2504.18575v3",
+      "published_at": "2025-04-22",
+      "updated_at": "2025-05-16",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2504-11358",
+      "title": "DataSentinel: A Game-Theoretic Detection of Prompt Injection Attacks",
+      "authors": [
+        "Yupei Liu",
+        "Yuqi Jia",
+        "Jinyuan Jia",
+        "Dawn Song",
+        "Neil Zhenqiang Gong"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2504.11358v4",
+      "url": "https://arxiv.org/abs/2504.11358v4",
+      "published_at": "2025-04-15",
+      "updated_at": "2025-11-12",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2504-07467",
+      "title": "Defense against Prompt Injection Attacks via Mixture of Encodings",
+      "authors": [
+        "Ruiyi Zhang",
+        "David Sullivan",
+        "Kyle Jackson",
+        "Pengtao Xie",
+        "Mei Chen"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2504.07467v1",
+      "url": "https://arxiv.org/abs/2504.07467v1",
+      "published_at": "2025-04-10",
+      "updated_at": "2025-04-10",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2503-00061",
+      "title": "Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on LLM Agents",
+      "authors": [
+        "Qiusi Zhan",
+        "Richard Fang",
+        "Henil Shalin Panchal",
+        "Daniel Kang"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2503.00061v2",
+      "url": "https://arxiv.org/abs/2503.00061v2",
+      "published_at": "2025-02-27",
+      "updated_at": "2025-03-04",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2502-13141",
+      "title": "UniGuardian: A Unified Defense for Detecting Prompt Injection, Backdoor Attacks and Adversarial Attacks in Large Language Models",
+      "authors": [
+        "Huawei Lin",
+        "Yingjie Lao",
+        "Tony Geng",
+        "Tan Yu",
+        "Weijie Zhao"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2502.13141v2",
+      "url": "https://arxiv.org/abs/2502.13141v2",
+      "published_at": "2025-02-18",
+      "updated_at": "2026-10-01",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2502-05174",
+      "title": "MELON: Provable Defense Against Indirect Prompt Injection Attacks in AI Agents",
+      "authors": [
+        "Kaijie Zhu",
+        "Xianjun Yang",
+        "Jindong Wang",
+        "Wenbo Guo",
+        "William Yang Wang"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2502.05174v4",
+      "url": "https://arxiv.org/abs/2502.05174v4",
+      "published_at": "2025-02-07",
+      "updated_at": "2025-06-10",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2501-15145",
+      "title": "PromptShield: Deployable Detection for Prompt Injection Attacks",
+      "authors": [
+        "Dennis Jacob",
+        "Hend Alzahrani",
+        "Zhanhao Hu",
+        "Basel Alomair",
+        "David Wagner"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2501.15145v2",
+      "url": "https://arxiv.org/abs/2501.15145v2",
+      "published_at": "2025-01-25",
+      "updated_at": "2025-04-12",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2411-00459",
+      "title": "Defense Against Prompt Injection Attack by Leveraging Attack Techniques",
+      "authors": [
+        "Yulin Chen",
+        "Haoran Li",
+        "Zihao Zheng",
+        "Yangqiu Song",
+        "Dekai Wu",
+        "Bryan Hooi"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2411.00459v6",
+      "url": "https://arxiv.org/abs/2411.00459v6",
+      "published_at": "2024-11-01",
+      "updated_at": "2025-08-02",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2411-00348",
+      "title": "Attention Tracker: Detecting Prompt Injection Attacks in LLMs",
+      "authors": [
+        "Kuo-Han Hung",
+        "Ching-Yun Ko",
+        "Ambrish Rawat",
+        "I-Hsin Chung",
+        "Winston H. Hsu",
+        "Pin-Yu Chen"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2411.00348v2",
+      "url": "https://arxiv.org/abs/2411.00348v2",
+      "published_at": "2024-11-01",
+      "updated_at": "2025-04-23",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-23687",
+      "title": "Adversarial Attacks of Vision Tasks in the Past 10 Years: A Survey",
+      "authors": [
+        "Chiyu Zhang",
+        "Lu Zhou",
+        "Xiaogang Xu",
+        "Jiafei Wu",
+        "Zhe Liu"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2410.23687v2",
+      "url": "https://arxiv.org/abs/2410.23687v2",
+      "published_at": "2024-10-31",
+      "updated_at": "2025-05-17",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-22770",
+      "title": "InjecGuard: Benchmarking and Mitigating Over-defense in Prompt Injection Guardrail Models",
+      "authors": [
+        "Hao Li",
+        "Xiaogeng Liu"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2410.22770v3",
+      "url": "https://arxiv.org/abs/2410.22770v3",
+      "published_at": "2024-10-30",
+      "updated_at": "2025-03-30",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-22284",
+      "title": "Embedding-based classifiers can detect prompt injection attacks",
+      "authors": [
+        "Md. Ahsan Ayub",
+        "Subhabrata Majumdar"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2410.22284v1",
+      "url": "https://arxiv.org/abs/2410.22284v1",
+      "published_at": "2024-10-29",
+      "updated_at": "2024-10-29",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-23308",
+      "title": "Systematically Analyzing Prompt Injection Vulnerabilities in Diverse LLM Architectures",
+      "authors": [
+        "Victoria Benjamin",
+        "Emily Braca",
+        "Israel Carter",
+        "Hafsa Kanchwala",
+        "Nava Khojasteh",
+        "Charly Landow",
+        "Yi Luo",
+        "Caroline Ma",
+        "Anna Magarelli",
+        "Rachel Mirin",
+        "Avery Moyer",
+        "Kayla Simpson",
+        "Amelia Skawinski",
+        "Thomas Heverin"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2410.23308v1",
+      "url": "https://arxiv.org/abs/2410.23308v1",
+      "published_at": "2024-10-28",
+      "updated_at": "2024-10-28",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-21492",
+      "title": "FATH: Authentication-based Test-time Defense against Indirect Prompt Injection Attacks",
+      "authors": [
+        "Jiongxiao Wang",
+        "Fangzhou Wu",
+        "Wendi Li",
+        "Jinsheng Pan",
+        "Edward Suh",
+        "Z. Morley Mao",
+        "Muhao Chen",
+        "Chaowei Xiao"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2410.21492v2",
+      "url": "https://arxiv.org/abs/2410.21492v2",
+      "published_at": "2024-10-28",
+      "updated_at": "2024-11-25",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-21337",
+      "title": "Fine-tuned Large Language Models (LLMs): Improved Prompt Injection Attacks Detection",
+      "authors": [
+        "Md Abdur Rahman",
+        "Fan Wu",
+        "Alfredo Cuzzocrea",
+        "Sheikh Iqbal Ahamed"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2410.21337v2",
+      "url": "https://arxiv.org/abs/2410.21337v2",
+      "published_at": "2024-10-28",
+      "updated_at": "2024-11-07",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-21146",
+      "title": "Palisade -- Prompt Injection Detection Framework",
+      "authors": [
+        "Sahasra Kokkula",
+        "Somanathan R",
+        "Nandavardhan R",
+        " Aashishkumar",
+        "G Divya"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2410.21146v1",
+      "url": "https://arxiv.org/abs/2410.21146v1",
+      "published_at": "2024-10-28",
+      "updated_at": "2024-10-28",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-20911",
+      "title": "Hacking Back the AI-Hacker: Prompt Injection as a Defense Against LLM-driven Cyberattacks",
+      "authors": [
+        "Dario Pasquini",
+        "Evgenios M. Kornaropoulos",
+        "Giuseppe Ateniese"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2410.20911v2",
+      "url": "https://arxiv.org/abs/2410.20911v2",
+      "published_at": "2024-10-28",
+      "updated_at": "2024-11-18",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-18312",
+      "title": "Countering Autonomous Cyber Threats",
+      "authors": [
+        "Kade M. Heckel",
+        "Adrian Weller"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2410.18312v1",
+      "url": "https://arxiv.org/abs/2410.18312v1",
+      "published_at": "2024-10-23",
+      "updated_at": "2024-10-23",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-17520",
+      "title": "MobileSafetyBench: Evaluating Safety of Autonomous Agents in Mobile Device Control",
+      "authors": [
+        "Juyong Lee",
+        "Dongyoon Hahm",
+        "June Suk Choi",
+        "W. Bradley Knox",
+        "Kimin Lee"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2410.17520v3",
+      "url": "https://arxiv.org/abs/2410.17520v3",
+      "published_at": "2024-10-23",
+      "updated_at": "2026-01-27",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-16950",
+      "title": "Breaking ReAct Agents: Foot-in-the-Door Attack Will Get You In",
+      "authors": [
+        "Itay Nakash",
+        "George Kour",
+        "Guy Uziel",
+        "Ateret Anaby-Tavor"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2410.16950v1",
+      "url": "https://arxiv.org/abs/2410.16950v1",
+      "published_at": "2024-10-22",
+      "updated_at": "2024-10-22",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-15641",
+      "title": "SMILES-Prompting: A Novel Approach to LLM Jailbreak Attacks in Chemical Synthesis",
+      "authors": [
+        "Aidan Wong",
+        "He Cao",
+        "Zijing Liu",
+        "Yu Li"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2410.15641v1",
+      "url": "https://arxiv.org/abs/2410.15641v1",
+      "published_at": "2024-10-21",
+      "updated_at": "2024-10-21",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-15236",
+      "title": "Jailbreaking and Mitigation of Vulnerabilities in Large Language Models",
+      "authors": [
+        "Benji Peng",
+        "Hanxuan Chen",
+        "Keyu Chen",
+        "Qian Niu",
+        "Ziqian Bi",
+        "Ming Liu",
+        "Pohsun Feng",
+        "Tianyang Wang",
+        "Lawrence K. Q. Yan",
+        "Yizhu Wen",
+        "Yichao Zhang",
+        "Caitlyn Heqi Yin",
+        "Xinyuan Song",
+        "Riyang Bao",
+        "Jiacheng Shi"
+      ],
+      "year": 2024,
+      "doi": "10.63336/Eureka.47",
+      "arxiv_id": "2410.15236v4",
+      "url": "https://arxiv.org/abs/2410.15236v4",
+      "published_at": "2024-10-20",
+      "updated_at": "2026-05-27",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-14827",
+      "title": "Enhancing Prompt Injection Attacks to LLMs via Poisoning Alignment",
+      "authors": [
+        "Zedian Shao",
+        "Hongbin Liu",
+        "Jaden Mu",
+        "Neil Zhenqiang Gong"
+      ],
+      "year": 2024,
+      "doi": "10.1145/3733799.3762963",
+      "arxiv_id": "2410.14827v3",
+      "url": "https://arxiv.org/abs/2410.14827v3",
+      "published_at": "2024-10-18",
+      "updated_at": "2025-09-15",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-14479",
+      "title": "Backdoored Retrievers for Prompt Injection Attacks on Retrieval Augmented Generation of Large Language Models",
+      "authors": [
+        "Cody Clop",
+        "Yannick Teglia"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2410.14479v1",
+      "url": "https://arxiv.org/abs/2410.14479v1",
+      "published_at": "2024-10-18",
+      "updated_at": "2024-10-18",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-13919",
+      "title": "LLM Agent Honeypot: Monitoring AI Hacking Agents in the Wild",
+      "authors": [
+        " Reworr",
+        "Dmitrii Volkov"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2410.13919v2",
+      "url": "https://arxiv.org/abs/2410.13919v2",
+      "published_at": "2024-10-17",
+      "updated_at": "2025-02-10",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-13236",
+      "title": "SPIN: Self-Supervised Prompt INjection",
+      "authors": [
+        "Leon Zhou",
+        "Junfeng Yang",
+        "Chengzhi Mao"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2410.13236v1",
+      "url": "https://arxiv.org/abs/2410.13236v1",
+      "published_at": "2024-10-17",
+      "updated_at": "2024-10-17",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-13138",
+      "title": "Data Defenses Against Large Language Models",
+      "authors": [
+        "William Agnew",
+        "Harry H. Jiang",
+        "Cella Sum",
+        "Maarten Sap",
+        "Sauvik Das"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2410.13138v1",
+      "url": "https://arxiv.org/abs/2410.13138v1",
+      "published_at": "2024-10-17",
+      "updated_at": "2024-10-17",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-08776",
+      "title": "FATS: A Prompt Injection Attack Utilizing Feign Security Agents with Deceptive Few-shots Learning",
+      "authors": [
+        "Yupeng Ren",
+        "Jiangtao Chen",
+        "Rui Zhang"
+      ],
+      "year": 2024,
+      "doi": "10.1007/978-981-95-7078-2_47",
+      "arxiv_id": "2410.08776v3",
+      "url": "https://arxiv.org/abs/2410.08776v3",
+      "published_at": "2024-10-11",
+      "updated_at": "2026-09-05",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-09102",
+      "title": "Instructional Segment Embedding: Improving LLM Safety with Instruction Hierarchy",
+      "authors": [
+        "Tong Wu",
+        "Shujian Zhang",
+        "Kaiqiang Song",
+        "Silei Xu",
+        "Sanqiang Zhao",
+        "Ravi Agrawal",
+        "Sathish Reddy Indurthi",
+        "Chong Xiang",
+        "Prateek Mittal",
+        "Wenxuan Zhou"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2410.09102v2",
+      "url": "https://arxiv.org/abs/2410.09102v2",
+      "published_at": "2024-10-09",
+      "updated_at": "2025-03-01",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-07283",
+      "title": "Prompt Infection: LLM-to-LLM Prompt Injection within Multi-Agent Systems",
+      "authors": [
+        "Donghyun Lee",
+        "Mo Tiwari"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2410.07283v1",
+      "url": "https://arxiv.org/abs/2410.07283v1",
+      "published_at": "2024-10-09",
+      "updated_at": "2024-10-09",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-05451",
+      "title": "SecAlign: Defending Against Prompt Injection with Preference Optimization",
+      "authors": [
+        "Sizhe Chen",
+        "Arman Zharmagambetov",
+        "Saeed Mahloujifar",
+        "Kamalika Chaudhuri",
+        "David Wagner",
+        "Chuan Guo"
+      ],
+      "year": 2024,
+      "doi": "10.1145/3719027.3744836",
+      "arxiv_id": "2410.05451v3",
+      "url": "https://arxiv.org/abs/2410.05451v3",
+      "published_at": "2024-10-07",
+      "updated_at": "2025-07-03",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-02916",
+      "title": "LLM Safeguard is a Double-Edged Sword: Exploiting False Positives for Denial-of-Service Attacks",
+      "authors": [
+        "Qingzhao Zhang",
+        "Ziyang Xiong",
+        "Z. Morley Mao"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2410.02916v3",
+      "url": "https://arxiv.org/abs/2410.02916v3",
+      "published_at": "2024-10-03",
+      "updated_at": "2025-04-09",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-02644",
+      "title": "Agent Security Bench (ASB): Formalizing and Benchmarking Attacks and Defenses in LLM-based Agents",
+      "authors": [
+        "Hanrong Zhang",
+        "Jingyuan Huang",
+        "Kai Mei",
+        "Yifei Yao",
+        "Zhenting Wang",
+        "Chenlu Zhan",
+        "Hongwei Wang",
+        "Yongfeng Zhang"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2410.02644v4",
+      "url": "https://arxiv.org/abs/2410.02644v4",
+      "published_at": "2024-10-03",
+      "updated_at": "2025-05-30",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2409-19521",
+      "title": "GenTel-Safe: A Unified Benchmark and Shielding Framework for Defending Against Prompt Injection Attacks",
+      "authors": [
+        "Rongchang Li",
+        "Minjie Chen",
+        "Chang Hu",
+        "Han Chen",
+        "Wenpeng Xing",
+        "Meng Han"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2409.19521v1",
+      "url": "https://arxiv.org/abs/2409.19521v1",
+      "published_at": "2024-09-29",
+      "updated_at": "2024-09-29",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2409-19091",
+      "title": "System-Level Defense against Indirect Prompt Injection Attacks: An Information Flow Control Perspective",
+      "authors": [
+        "Fangzhou Wu",
+        "Ethan Cecchetti",
+        "Chaowei Xiao"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2409.19091v2",
+      "url": "https://arxiv.org/abs/2409.19091v2",
+      "published_at": "2024-09-27",
+      "updated_at": "2024-10-10",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2409-14729",
+      "title": "PROMPTFUZZ: Harnessing Fuzzing Techniques for Robust Testing of Prompt Injection in LLMs",
+      "authors": [
+        "Jiahao Yu",
+        "Yangguang Shao",
+        "Hanwen Miao",
+        "Junzheng Shi"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2409.14729v2",
+      "url": "https://arxiv.org/abs/2409.14729v2",
+      "published_at": "2024-09-23",
+      "updated_at": "2025-04-03",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2409-13331",
+      "title": "Applying Pre-trained Multilingual BERT in Embeddings for Improved Malicious Prompt Injection Attacks Detection",
+      "authors": [
+        "Md Abdur Rahman",
+        "Hossain Shahriar",
+        "Fan Wu",
+        "Alfredo Cuzzocrea"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2409.13331v1",
+      "url": "https://arxiv.org/abs/2409.13331v1",
+      "published_at": "2024-09-20",
+      "updated_at": "2024-09-20",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2409-08087",
+      "title": "Securing Large Language Models: Addressing Bias, Misinformation, and Prompt Attacks",
+      "authors": [
+        "Benji Peng",
+        "Keyu Chen",
+        "Ming Li",
+        "Pohsun Feng",
+        "Ziqian Bi",
+        "Junyu Liu",
+        "Xinyuan Song",
+        "Qian Niu"
+      ],
+      "year": 2024,
+      "doi": "10.63336/Eureka.46",
+      "arxiv_id": "2409.08087v3",
+      "url": "https://arxiv.org/abs/2409.08087v3",
+      "published_at": "2024-09-12",
+      "updated_at": "2025-11-25",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2408-11182",
+      "title": "Hide Your Malicious Goal Into Benign Narratives: Jailbreak Large Language Models through Carrier Articles",
+      "authors": [
+        "Zhilong Wang",
+        "Haizhou Wang",
+        "Nanqing Luo",
+        "Lan Zhang",
+        "Xiaoyan Sun",
+        "Yebo Cao",
+        "Peng Liu"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2408.11182v2",
+      "url": "https://arxiv.org/abs/2408.11182v2",
+      "published_at": "2024-08-20",
+      "updated_at": "2025-02-07",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2408-07291",
+      "title": "Evaluating LLM-based Personal Information Extraction and Countermeasures",
+      "authors": [
+        "Yupei Liu",
+        "Yuqi Jia",
+        "Jinyuan Jia",
+        "Neil Zhenqiang Gong"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2408.07291v4",
+      "url": "https://arxiv.org/abs/2408.07291v4",
+      "published_at": "2024-08-14",
+      "updated_at": "2026-04-07",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2408-05025",
+      "title": "Rag and Roll: An End-to-End Evaluation of Indirect Prompt Manipulations in LLM-based Application Frameworks",
+      "authors": [
+        "Gianluca De Stefano",
+        "Lea Schönherr",
+        "Giancarlo Pellegrino"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2408.05025v2",
+      "url": "https://arxiv.org/abs/2408.05025v2",
+      "published_at": "2024-08-09",
+      "updated_at": "2024-08-12",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2408-04194",
+      "title": "FDI: Attack Neural Code Generation Systems through User Feedback Channel",
+      "authors": [
+        "Zhensu Sun",
+        "Xiaoning Du",
+        "Xiapu Luo",
+        "Fu Song",
+        "David Lo",
+        "Li Li"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2408.04194v1",
+      "url": "https://arxiv.org/abs/2408.04194v1",
+      "published_at": "2024-08-08",
+      "updated_at": "2024-08-08",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2408-03554",
+      "title": "Empirical Analysis of Large Vision-Language Models against Goal Hijacking via Visual Prompt Injection",
+      "authors": [
+        "Subaru Kimura",
+        "Ryota Tanaka",
+        "Shumpei Miyawaki",
+        "Jun Suzuki",
+        "Keisuke Sakaguchi"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2408.03554v1",
+      "url": "https://arxiv.org/abs/2408.03554v1",
+      "published_at": "2024-08-07",
+      "updated_at": "2024-08-07",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2408-03515",
+      "title": "A Study on Prompt Injection Attack Against LLM-Integrated Mobile Robotic Systems",
+      "authors": [
+        "Wenxiao Zhang",
+        "Xiangrui Kong",
+        "Conan Dewitt",
+        "Thomas Braunl",
+        "Jin B. Hong"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2408.03515v2",
+      "url": "https://arxiv.org/abs/2408.03515v2",
+      "published_at": "2024-08-07",
+      "updated_at": "2024-09-09",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2408-00925",
+      "title": "WHITE PAPER: A Brief Exploration of Data Exfiltration using GCG Suffixes",
+      "authors": [
+        "Victor Valbuena"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2408.00925v1",
+      "url": "https://arxiv.org/abs/2408.00925v1",
+      "published_at": "2024-08-01",
+      "updated_at": "2024-08-01",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2407-20181",
+      "title": "Blockchain for Large Language Model Security and Safety: A Holistic Survey",
+      "authors": [
+        "Caleb Geren",
+        "Amanda Board",
+        "Gaby G. Dagher",
+        "Tim Andersen",
+        "Jun Zhuang"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2407.20181v2",
+      "url": "https://arxiv.org/abs/2407.20181v2",
+      "published_at": "2024-07-26",
+      "updated_at": "2024-11-17",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2407-18213",
+      "title": "Scaling Trends in Language Model Robustness",
+      "authors": [
+        "Nikolaus Howe",
+        "Ian McKenzie",
+        "Oskar Hollinsworth",
+        "Michał Zajac",
+        "Tom Tseng",
+        "Aaron Tucker",
+        "Pierre-Luc Bacon",
+        "Adam Gleave"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2407.18213v5",
+      "url": "https://arxiv.org/abs/2407.18213v5",
+      "published_at": "2024-07-25",
+      "updated_at": "2025-06-05",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2407-18981",
+      "title": "Prompt Injection Attacks on Large Language Models in Oncology",
+      "authors": [
+        "Jan Clusmann",
+        "Dyke Ferber",
+        "Isabella C. Wiest",
+        "Carolin V. Schneider",
+        "Titus J. Brinker",
+        "Sebastian Foersch",
+        "Daniel Truhn",
+        "Jakob N. Kather"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2407.18981v1",
+      "url": "https://arxiv.org/abs/2407.18981v1",
+      "published_at": "2024-07-23",
+      "updated_at": "2024-07-23",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2407-09164",
+      "title": "ShadowCode: Towards (Automatic) External Prompt Injection Attack against Code LLMs",
+      "authors": [
+        "Yuchen Yang",
+        "Yiming Li",
+        "Hongwei Yao",
+        "Bingrun Yang",
+        "Yiling He",
+        "Tianwei Zhang",
+        "Dacheng Tao",
+        "Zhan Qin"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2407.09164v6",
+      "url": "https://arxiv.org/abs/2407.09164v6",
+      "published_at": "2024-07-12",
+      "updated_at": "2025-07-22",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2407-08970",
+      "title": "Self-interpreting Adversarial Images",
+      "authors": [
+        "Tingwei Zhang",
+        "Collin Zhang",
+        "John X. Morris",
+        "Eugene Bagdasarian",
+        "Vitaly Shmatikov"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2407.08970v4",
+      "url": "https://arxiv.org/abs/2407.08970v4",
+      "published_at": "2024-07-12",
+      "updated_at": "2025-06-13",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2407-07403",
+      "title": "A Survey of Attacks on Large Vision-Language Models: Resources, Advances, and Future Trends",
+      "authors": [
+        "Daizong Liu",
+        "Mingyu Yang",
+        "Xiaoye Qu",
+        "Pan Zhou",
+        "Yu Cheng",
+        "Wei Hu"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2407.07403v2",
+      "url": "https://arxiv.org/abs/2407.07403v2",
+      "published_at": "2024-07-10",
+      "updated_at": "2024-07-12",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2407-03391",
+      "title": "Soft Begging: Modular and Efficient Shielding of LLMs against Prompt Injection and Jailbreaking based on Prompt Tuning",
+      "authors": [
+        "Simon Ostermann",
+        "Kevin Baum",
+        "Christoph Endres",
+        "Julia Masloh",
+        "Patrick Schramowski"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2407.03391v1",
+      "url": "https://arxiv.org/abs/2407.03391v1",
+      "published_at": "2024-07-03",
+      "updated_at": "2024-07-03",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2406-19501",
+      "title": "Monitoring Latent World States in Language Models with Propositional Probes",
+      "authors": [
+        "Jiahai Feng",
+        "Stuart Russell",
+        "Jacob Steinhardt"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2406.19501v2",
+      "url": "https://arxiv.org/abs/2406.19501v2",
+      "published_at": "2024-06-27",
+      "updated_at": "2024-12-06",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2406-14048",
+      "title": "Prompt Injection Attacks in Defended Systems",
+      "authors": [
+        "Daniil Khomsky",
+        "Narek Maloyan",
+        "Bulat Nutfullin"
+      ],
+      "year": 2024,
+      "doi": "10.1007/978-3-031-80853-1_30",
+      "arxiv_id": "2406.14048v1",
+      "url": "https://arxiv.org/abs/2406.14048v1",
+      "published_at": "2024-06-20",
+      "updated_at": "2024-06-20",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2406-13352",
+      "title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
+      "authors": [
+        "Edoardo Debenedetti",
+        "Jie Zhang",
+        "Mislav Balunović",
+        "Luca Beurer-Kellner",
+        "Marc Fischer",
+        "Florian Tramèr"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2406.13352v3",
+      "url": "https://arxiv.org/abs/2406.13352v3",
+      "published_at": "2024-06-19",
+      "updated_at": "2024-11-24",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2406-11007",
+      "title": "Threat Modelling and Risk Analysis for Large Language Model (LLM)-Powered Applications",
+      "authors": [
+        "Stephen Burabari Tete"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2406.11007v1",
+      "url": "https://arxiv.org/abs/2406.11007v1",
+      "published_at": "2024-06-16",
+      "updated_at": "2024-06-16",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2406-11880",
+      "title": "Knowledge Return Oriented Prompting (KROP)",
+      "authors": [
+        "Jason Martin",
+        "Kenneth Yeung"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2406.11880v1",
+      "url": "https://arxiv.org/abs/2406.11880v1",
+      "published_at": "2024-06-11",
+      "updated_at": "2024-06-11",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2406-05498",
+      "title": "SelfDefend: LLMs Can Defend Themselves against Jailbreaking in a Practical Manner",
+      "authors": [
+        "Xunguang Wang",
+        "Daoyuan Wu",
+        "Zhenlan Ji",
+        "Zongjie Li",
+        "Pingchuan Ma",
+        "Shuai Wang",
+        "Yingjiu Li",
+        "Yang Liu",
+        "Ning Liu",
+        "Juergen Rahmel"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2406.05498v3",
+      "url": "https://arxiv.org/abs/2406.05498v3",
+      "published_at": "2024-06-08",
+      "updated_at": "2025-02-05",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2406-00799",
+      "title": "Get my drift? Catching LLM Task Drift with Activation Deltas",
+      "authors": [
+        "Sahar Abdelnabi",
+        "Aideen Fay",
+        "Giovanni Cherubin",
+        "Ahmed Salem",
+        "Mario Fritz",
+        "Andrew Paverd"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2406.00799v6",
+      "url": "https://arxiv.org/abs/2406.00799v6",
+      "published_at": "2024-06-02",
+      "updated_at": "2025-03-06",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2406-00240",
+      "title": "Exploring Vulnerabilities and Protections in Large Language Models: A Survey",
+      "authors": [
+        "Frank Weizhen Liu",
+        "Chenhui Hu"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2406.00240v1",
+      "url": "https://arxiv.org/abs/2406.00240v1",
+      "published_at": "2024-06-01",
+      "updated_at": "2024-06-01",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2406-00199",
+      "title": "Exfiltration of personal information from ChatGPT via prompt injection",
+      "authors": [
+        "Gregory Schwartzman"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2406.00199v2",
+      "url": "https://arxiv.org/abs/2406.00199v2",
+      "published_at": "2024-05-31",
+      "updated_at": "2024-06-06",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2405-20902",
+      "title": "Preemptive Answer \"Attacks\" on Chain-of-Thought Reasoning",
+      "authors": [
+        "Rongwu Xu",
+        "Zehan Qi",
+        "Wei Xu"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2405.20902v1",
+      "url": "https://arxiv.org/abs/2405.20902v1",
+      "published_at": "2024-05-31",
+      "updated_at": "2024-05-31",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2405-14490",
+      "title": "Impact of Non-Standard Unicode Characters on Security and Comprehension in Large Language Models",
+      "authors": [
+        "Johan S Daniel",
+        "Anand Pal"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2405.14490v1",
+      "url": "https://arxiv.org/abs/2405.14490v1",
+      "published_at": "2024-05-23",
+      "updated_at": "2024-05-23",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2405-12750",
+      "title": "Generative AI in Cybersecurity: A Comprehensive Review of LLM Applications and Vulnerabilities",
+      "authors": [
+        "Mohamed Amine Ferrag",
+        "Fatima Alwahedi",
+        "Ammar Battah",
+        "Bilel Cherif",
+        "Abdechakour Mechri",
+        "Norbert Tihanyi",
+        "Tamas Bisztray",
+        "Merouane Debbah"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2405.12750v2",
+      "url": "https://arxiv.org/abs/2405.12750v2",
+      "published_at": "2024-05-21",
+      "updated_at": "2025-01-17",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2405-10529",
+      "title": "Safeguarding Vision-Language Models Against Patched Visual Prompt Injectors",
+      "authors": [
+        "Jiachen Sun",
+        "Changsheng Wang",
+        "Jiongxiao Wang",
+        "Yiwei Zhang",
+        "Chaowei Xiao"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2405.10529v2",
+      "url": "https://arxiv.org/abs/2405.10529v2",
+      "published_at": "2024-05-17",
+      "updated_at": "2024-08-24",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2404-13208",
+      "title": "The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions",
+      "authors": [
+        "Eric Wallace",
+        "Kai Xiao",
+        "Reimar Leike",
+        "Lilian Weng",
+        "Johannes Heidecke",
+        "Alex Beutel"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2404.13208v1",
+      "url": "https://arxiv.org/abs/2404.13208v1",
+      "published_at": "2024-04-19",
+      "updated_at": "2024-04-19",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2404-13161",
+      "title": "CyberSecEval 2: A Wide-Ranging Cybersecurity Evaluation Suite for Large Language Models",
+      "authors": [
+        "Manish Bhatt",
+        "Sahana Chennabasappa",
+        "Yue Li",
+        "Cyrus Nikolaidis",
+        "Daniel Song",
+        "Shengye Wan",
+        "Faizan Ahmad",
+        "Cornelius Aschermann",
+        "Yaohui Chen",
+        "Dhaval Kapil",
+        "David Molnar",
+        "Spencer Whitman",
+        "Joshua Saxe"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2404.13161v1",
+      "url": "https://arxiv.org/abs/2404.13161v1",
+      "published_at": "2024-04-19",
+      "updated_at": "2024-04-19",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2404-07234",
+      "title": "Goal-guided Generative Prompt Injection Attack on Large Language Models",
+      "authors": [
+        "Chong Zhang",
+        "Mingyu Jin",
+        "Qinkai Yu",
+        "Chengzhi Liu",
+        "Haochen Xue",
+        "Xiaobo Jin"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2404.07234v4",
+      "url": "https://arxiv.org/abs/2404.07234v4",
+      "published_at": "2024-04-06",
+      "updated_at": "2024-11-09",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2404-04392",
+      "title": "Fine-Tuning, Quantization, and LLMs: Navigating Unintended Outcomes",
+      "authors": [
+        "Divyanshu Kumar",
+        "Anurakt Kumar",
+        "Sahil Agarwal",
+        "Prashanth Harshangi"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2404.04392v3",
+      "url": "https://arxiv.org/abs/2404.04392v3",
+      "published_at": "2024-04-05",
+      "updated_at": "2024-09-09",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2403-17710",
+      "title": "Optimization-based Prompt Injection Attack to LLM-as-a-Judge",
+      "authors": [
+        "Jiawen Shi",
+        "Zenghui Yuan",
+        "Yinuo Liu",
+        "Yue Huang",
+        "Pan Zhou",
+        "Lichao Sun",
+        "Neil Zhenqiang Gong"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2403.17710v5",
+      "url": "https://arxiv.org/abs/2403.17710v5",
+      "published_at": "2024-03-26",
+      "updated_at": "2025-08-24",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2403-14720",
+      "title": "Defending Against Indirect Prompt Injection Attacks With Spotlighting",
+      "authors": [
+        "Keegan Hines",
+        "Gary Lopez",
+        "Matthew Hall",
+        "Federico Zarfati",
+        "Yonatan Zunger",
+        "Emre Kiciman"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2403.14720v1",
+      "url": "https://arxiv.org/abs/2403.14720v1",
+      "published_at": "2024-03-20",
+      "updated_at": "2024-03-20",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2403-08701",
+      "title": "Review of Generative AI Methods in Cybersecurity",
+      "authors": [
+        "Yagmur Yigit",
+        "William J Buchanan",
+        "Madjid G Tehrani",
+        "Leandros Maglaras"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2403.08701v2",
+      "url": "https://arxiv.org/abs/2403.08701v2",
+      "published_at": "2024-03-13",
+      "updated_at": "2024-03-19",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2403-04957",
+      "title": "Automatic and Universal Prompt Injection Attacks against Large Language Models",
+      "authors": [
+        "Xiaogeng Liu",
+        "Zhiyuan Yu",
+        "Yizhe Zhang",
+        "Ning Zhang",
+        "Chaowei Xiao"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2403.04957v1",
+      "url": "https://arxiv.org/abs/2403.04957v1",
+      "published_at": "2024-03-07",
+      "updated_at": "2024-03-07",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2403-03792",
+      "title": "Neural Exec: Learning (and Learning from) Execution Triggers for Prompt Injection Attacks",
+      "authors": [
+        "Dario Pasquini",
+        "Martin Strohmeier",
+        "Carmela Troncoso"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2403.03792v2",
+      "url": "https://arxiv.org/abs/2403.03792v2",
+      "published_at": "2024-03-06",
+      "updated_at": "2024-05-02",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2403-02817",
+      "title": "Here Comes The AI Worm: Unleashing Zero-click Worms that Target GenAI-Powered Applications",
+      "authors": [
+        "Stav Cohen",
+        "Ron Bitton",
+        "Ben Nassi"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2403.02817v2",
+      "url": "https://arxiv.org/abs/2403.02817v2",
+      "published_at": "2024-03-05",
+      "updated_at": "2025-01-30",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2403-02691",
+      "title": "InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents",
+      "authors": [
+        "Qiusi Zhan",
+        "Zhixiang Liang",
+        "Zifan Ying",
+        "Daniel Kang"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2403.02691v3",
+      "url": "https://arxiv.org/abs/2403.02691v3",
+      "published_at": "2024-03-05",
+      "updated_at": "2024-08-04",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2402-17840",
+      "title": "Follow My Instruction and Spill the Beans: Scalable Data Extraction from Retrieval-Augmented Generation Systems",
+      "authors": [
+        "Zhenting Qi",
+        "Hanlin Zhang",
+        "Eric Xing",
+        "Sham Kakade",
+        "Himabindu Lakkaraju"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2402.17840v3",
+      "url": "https://arxiv.org/abs/2402.17840v3",
+      "published_at": "2024-02-27",
+      "updated_at": "2024-10-06",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2402-11082",
+      "title": "The AI Security Pyramid of Pain",
+      "authors": [
+        "Chris M. Ward",
+        "Josh Harguess",
+        "Julia Tao",
+        "Daniel Christman",
+        "Paul Spicer",
+        "Mike Tan"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2402.11082v1",
+      "url": "https://arxiv.org/abs/2402.11082v1",
+      "published_at": "2024-02-16",
+      "updated_at": "2024-02-16",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2402-09728",
+      "title": "AbuseGPT: Abuse of Generative AI ChatBots to Create Smishing Campaigns",
+      "authors": [
+        "Ashfak Md Shibli",
+        "Mir Mehedi A. Pritom",
+        "Maanak Gupta"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2402.09728v1",
+      "url": "https://arxiv.org/abs/2402.09728v1",
+      "published_at": "2024-02-15",
+      "updated_at": "2024-02-15",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2402-06922",
+      "title": "Whispers in the Machine: Confidentiality in Agentic Systems",
+      "authors": [
+        "Jonathan Evertz",
+        "Merlin Chlosta",
+        "Lea Schönherr",
+        "Thorsten Eisenhofer"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2402.06922v5",
+      "url": "https://arxiv.org/abs/2402.06922v5",
+      "published_at": "2024-02-10",
+      "updated_at": "2026-04-21",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2402-06363",
+      "title": "StruQ: Defending Against Prompt Injection with Structured Queries",
+      "authors": [
+        "Sizhe Chen",
+        "Julien Piet",
+        "Chawin Sitawarin",
+        "David Wagner"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2402.06363v2",
+      "url": "https://arxiv.org/abs/2402.06363v2",
+      "published_at": "2024-02-09",
+      "updated_at": "2024-09-25",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2402-05723",
+      "title": "In-Context Learning Can Re-learn Forbidden Tasks",
+      "authors": [
+        "Sophie Xhonneux",
+        "David Dobre",
+        "Jian Tang",
+        "Gauthier Gidel",
+        "Dhanya Sridhar"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2402.05723v1",
+      "url": "https://arxiv.org/abs/2402.05723v1",
+      "published_at": "2024-02-08",
+      "updated_at": "2024-02-08",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2402-00898",
+      "title": "An Early Categorization of Prompt Injection Attacks on Large Language Models",
+      "authors": [
+        "Sippo Rossi",
+        "Alisia Marianne Michel",
+        "Raghava Rao Mukkamala",
+        "Jason Bennett Thatcher"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2402.00898v1",
+      "url": "https://arxiv.org/abs/2402.00898v1",
+      "published_at": "2024-01-31",
+      "updated_at": "2024-01-31",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2401-12273",
+      "title": "The Ethics of Interaction: Mitigating Security Threats in LLMs",
+      "authors": [
+        "Ashutosh Kumar",
+        "Shiv Vignesh Murthy",
+        "Sagarika Singh",
+        "Swathy Ragupathy"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2401.12273v2",
+      "url": "https://arxiv.org/abs/2401.12273v2",
+      "published_at": "2024-01-22",
+      "updated_at": "2024-07-10",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2401-09002",
+      "title": "AttackEval: How to Evaluate the Effectiveness of Jailbreak Attacking on Large Language Models",
+      "authors": [
+        "Dong Shu",
+        "Chong Zhang",
+        "Mingyu Jin",
+        "Zihao Zhou",
+        "Lingyao Li",
+        "Yongfeng Zhang"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2401.09002v6",
+      "url": "https://arxiv.org/abs/2401.09002v6",
+      "published_at": "2024-01-17",
+      "updated_at": "2025-03-18",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2401-07612",
+      "title": "Signed-Prompt: A New Approach to Prevent Prompt Injection Attacks Against LLM-Integrated Applications",
+      "authors": [
+        "Xuchen Suo"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2401.07612v1",
+      "url": "https://arxiv.org/abs/2401.07612v1",
+      "published_at": "2024-01-15",
+      "updated_at": "2024-01-15",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2401-00991",
+      "title": "A Novel Evaluation Framework for Assessing Resilience Against Prompt Injection Attacks in Large Language Models",
+      "authors": [
+        "Daniel Wankit Yip",
+        "Aysan Esmradi",
+        "Chun Fai Chan"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2401.00991v1",
+      "url": "https://arxiv.org/abs/2401.00991v1",
+      "published_at": "2024-01-02",
+      "updated_at": "2024-01-02",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2312-17673",
+      "title": "Jatmo: Prompt Injection Defense by Task-Specific Finetuning",
+      "authors": [
+        "Julien Piet",
+        "Maha Alrashed",
+        "Chawin Sitawarin",
+        "Sizhe Chen",
+        "Zeming Wei",
+        "Elizabeth Sun",
+        "Basel Alomair",
+        "David Wagner"
+      ],
+      "year": 2023,
+      "doi": "",
+      "arxiv_id": "2312.17673v2",
+      "url": "https://arxiv.org/abs/2312.17673v2",
+      "published_at": "2023-12-29",
+      "updated_at": "2024-01-08",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2312-14197",
+      "title": "Benchmarking and Defending Against Indirect Prompt Injection Attacks on Large Language Models",
+      "authors": [
+        "Jingwei Yi",
+        "Yueqi Xie",
+        "Bin Zhu",
+        "Emre Kiciman",
+        "Guangzhong Sun",
+        "Xing Xie",
+        "Fangzhao Wu"
+      ],
+      "year": 2023,
+      "doi": "10.1145/3690624.3709179",
+      "arxiv_id": "2312.14197v4",
+      "url": "https://arxiv.org/abs/2312.14197v4",
+      "published_at": "2023-12-21",
+      "updated_at": "2025-01-27",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2312-10524",
+      "title": "Comprehensive Evaluation of ChatGPT Reliability Through Multilingual Inquiries",
+      "authors": [
+        "Poorna Chander Reddy Puttaparthi",
+        "Soham Sanjay Deo",
+        "Hakan Gul",
+        "Yiming Tang",
+        "Weiyi Shang",
+        "Zhe Yu"
+      ],
+      "year": 2023,
+      "doi": "",
+      "arxiv_id": "2312.10524v1",
+      "url": "https://arxiv.org/abs/2312.10524v1",
+      "published_at": "2023-12-16",
+      "updated_at": "2023-12-16",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2312-11513",
+      "title": "Maatphor: Automated Variant Analysis for Prompt Injection Attacks",
+      "authors": [
+        "Ahmed Salem",
+        "Andrew Paverd",
+        "Boris Köpf"
+      ],
+      "year": 2023,
+      "doi": "",
+      "arxiv_id": "2312.11513v1",
+      "url": "https://arxiv.org/abs/2312.11513v1",
+      "published_at": "2023-12-12",
+      "updated_at": "2023-12-12",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2311-11538",
+      "title": "Assessing Prompt Injection Risks in 200+ Custom GPTs",
+      "authors": [
+        "Jiahao Yu",
+        "Yuhang Wu",
+        "Dong Shu",
+        "Mingyu Jin",
+        "Sabrina Yang",
+        "Xinyu Xing"
+      ],
+      "year": 2023,
+      "doi": "",
+      "arxiv_id": "2311.11538v2",
+      "url": "https://arxiv.org/abs/2311.11538v2",
+      "published_at": "2023-11-20",
+      "updated_at": "2024-05-25",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2311-09948",
+      "title": "Hijacking Large Language Models via Adversarial In-Context Learning",
+      "authors": [
+        "Xiangyu Zhou",
+        "Yao Qiang",
+        "Saleh Zare Zade",
+        "Prashant Khanduri",
+        "Dongxiao Zhu"
+      ],
+      "year": 2023,
+      "doi": "",
+      "arxiv_id": "2311.09948v3",
+      "url": "https://arxiv.org/abs/2311.09948v3",
+      "published_at": "2023-11-16",
+      "updated_at": "2025-05-29",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2311-01011",
+      "title": "Tensor Trust: Interpretable Prompt Injection Attacks from an Online Game",
+      "authors": [
+        "Sam Toyer",
+        "Olivia Watkins",
+        "Ethan Adrian Mendes",
+        "Justin Svegliato",
+        "Luke Bailey",
+        "Tiffany Wang",
+        "Isaac Ong",
+        "Karim Elmaaroufi",
+        "Pieter Abbeel",
+        "Trevor Darrell",
+        "Alan Ritter",
+        "Stuart Russell"
+      ],
+      "year": 2023,
+      "doi": "",
+      "arxiv_id": "2311.01011v1",
+      "url": "https://arxiv.org/abs/2311.01011v1",
+      "published_at": "2023-11-02",
+      "updated_at": "2023-11-02",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2311-16119",
+      "title": "Ignore This Title and HackAPrompt: Exposing Systemic Vulnerabilities of LLMs through a Global Scale Prompt Hacking Competition",
+      "authors": [
+        "Sander Schulhoff",
+        "Jeremy Pinto",
+        "Anaum Khan",
+        "Louis-François Bouchard",
+        "Chenglei Si",
+        "Svetlina Anati",
+        "Valen Tagliabue",
+        "Anson Liu Kost",
+        "Christopher Carnahan",
+        "Jordan Boyd-Graber"
+      ],
+      "year": 2023,
+      "doi": "",
+      "arxiv_id": "2311.16119v3",
+      "url": "https://arxiv.org/abs/2311.16119v3",
+      "published_at": "2023-10-24",
+      "updated_at": "2024-03-03",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2310-12815",
+      "title": "Formalizing and Benchmarking Prompt Injection Attacks and Defenses",
+      "authors": [
+        "Yupei Liu",
+        "Yuqi Jia",
+        "Runpeng Geng",
+        "Jinyuan Jia",
+        "Neil Zhenqiang Gong"
+      ],
+      "year": 2023,
+      "doi": "",
+      "arxiv_id": "2310.12815v5",
+      "url": "https://arxiv.org/abs/2310.12815v5",
+      "published_at": "2023-10-19",
+      "updated_at": "2025-11-12",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2309-02926",
+      "title": "Demystifying RCE Vulnerabilities in LLM-Integrated Apps",
+      "authors": [
+        "Tong Liu",
+        "Zizhuang Deng",
+        "Guozhu Meng",
+        "Yuekang Li",
+        "Kai Chen"
+      ],
+      "year": 2023,
+      "doi": "10.1145/3658644.3690338",
+      "arxiv_id": "2309.02926v4",
+      "url": "https://arxiv.org/abs/2309.02926v4",
+      "published_at": "2023-09-06",
+      "updated_at": "2025-02-27",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2308-03825",
+      "title": "\"Do Anything Now\": Characterizing and Evaluating In-The-Wild Jailbreak Prompts on Large Language Models",
+      "authors": [
+        "Xinyue Shen",
+        "Zeyuan Chen",
+        "Michael Backes",
+        "Yun Shen",
+        "Yang Zhang"
+      ],
+      "year": 2023,
+      "doi": "",
+      "arxiv_id": "2308.03825v2",
+      "url": "https://arxiv.org/abs/2308.03825v2",
+      "published_at": "2023-08-07",
+      "updated_at": "2024-05-15",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2308-01990",
+      "title": "From Prompt Injections to SQL Injection Attacks: How Protected is Your LLM-Integrated Web Application?",
+      "authors": [
+        "Rodrigo Pedro",
+        "Daniel Castro",
+        "Paulo Carreira",
+        "Nuno Santos"
+      ],
+      "year": 2023,
+      "doi": "",
+      "arxiv_id": "2308.01990v4",
+      "url": "https://arxiv.org/abs/2308.01990v4",
+      "published_at": "2023-08-03",
+      "updated_at": "2025-01-27",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2307-16888",
+      "title": "Backdooring Instruction-Tuned Large Language Models with Virtual Prompt Injection",
+      "authors": [
+        "Jun Yan",
+        "Vikas Yadav",
+        "Shiyang Li",
+        "Lichang Chen",
+        "Zheng Tang",
+        "Hai Wang",
+        "Vijay Srinivasan",
+        "Xiang Ren",
+        "Hongxia Jin"
+      ],
+      "year": 2023,
+      "doi": "",
+      "arxiv_id": "2307.16888v3",
+      "url": "https://arxiv.org/abs/2307.16888v3",
+      "published_at": "2023-07-31",
+      "updated_at": "2024-04-03",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2307-00691",
+      "title": "From ChatGPT to ThreatGPT: Impact of Generative AI in Cybersecurity and Privacy",
+      "authors": [
+        "Maanak Gupta",
+        "CharanKumar Akiri",
+        "Kshitiz Aryal",
+        "Eli Parker",
+        "Lopamudra Praharaj"
+      ],
+      "year": 2023,
+      "doi": "",
+      "arxiv_id": "2307.00691v1",
+      "url": "https://arxiv.org/abs/2307.00691v1",
+      "published_at": "2023-07-03",
+      "updated_at": "2023-07-03",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2306-05499",
+      "title": "Prompt Injection attack against LLM-integrated Applications",
+      "authors": [
+        "Yi Liu",
+        "Gelei Deng",
+        "Yuekang Li",
+        "Kailong Wang",
+        "Zihao Wang",
+        "Xiaofeng Wang",
+        "Tianwei Zhang",
+        "Yepang Liu",
+        "Haoyu Wang",
+        "Yan Zheng",
+        "Leo Yu Zhang",
+        "Yang Liu"
+      ],
+      "year": 2023,
+      "doi": "",
+      "arxiv_id": "2306.05499v3",
+      "url": "https://arxiv.org/abs/2306.05499v3",
+      "published_at": "2023-06-08",
+      "updated_at": "2025-12-29",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2302-12173",
+      "title": "Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection",
+      "authors": [
+        "Kai Greshake",
+        "Sahar Abdelnabi",
+        "Shailesh Mishra",
+        "Christoph Endres",
+        "Thorsten Holz",
+        "Mario Fritz"
+      ],
+      "year": 2023,
+      "doi": "",
+      "arxiv_id": "2302.12173v2",
+      "url": "https://arxiv.org/abs/2302.12173v2",
+      "published_at": "2023-02-23",
+      "updated_at": "2023-05-05",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     }

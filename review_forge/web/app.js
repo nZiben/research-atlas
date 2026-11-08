@@ -78,7 +78,7 @@ function renderHeader() {
   $('#action-note').textContent = topic.has_review ? 'От выводов можно перейти к тезисам и первоисточникам.' : 'Библиография проверена по arXiv. Полный научный разбор ещё готовится.';
   $('#review-status').textContent = topic.has_review ? 'Редакционный выпуск' : topic.papers ? 'Библиография доступна' : 'Раздел готовится';
   $('#review-status').className = 'pill ' + (topic.has_review ? 'ready':'');
-  $('#cadence').textContent = topic.has_review ? 'Версия доступна в истории' : topic.papers ? topic.papers+' статьи · обзор готовится' : 'Материалы ещё не опубликованы';
+  $('#cadence').textContent = topic.has_review ? 'Версия доступна в истории' : topic.papers ? topic.papers+' источников · обзор готовится' : 'Материалы ещё не опубликованы';
   $('#last-updated').textContent = topic.updated_at ? 'Опубликовано: '+date(topic.updated_at) : topic.bibliography_checked_at ? 'Поиск: '+date(topic.bibliography_checked_at) : '';
   $('#source-count').textContent = topic.papers;
   document.title = `${shown.short} — Review Forge`;
@@ -96,8 +96,8 @@ function renderEmptyOverview(topic) {
     el('div',{class:'focus-heading'},el('div',{class:'panel-kicker'},'ПЛАНИРУЕМЫЙ ФОКУС'),el('span',{class:'tiny-label'},'ВОПРОС → ИССЛЕДОВАНИЕ')),
     el('h2',{},topic.topic),el('p',{class:'question-heading'},'Исследовательские вопросы раздела'),
     el('ol',{class:'questions'},topic.questions.map(question=>el('li',{},question)))),
-    el('div',{class:'focus-bottom'},el('span',{class:'empty-mark','aria-hidden':'true'},'≋'),el('div',{},el('strong',{},topic.papers ? 'Найдены первоисточники · '+topic.papers+' работы' : 'Материалы этого раздела ещё не выпущены'),el('p',{},topic.papers ? 'Во вкладке «Источники» — проверенная библиография. Концептуальный обзор ещё готовится.' : 'Сейчас показаны только тема и вопросы. Готовых научных выводов пока нет.')),el('span',{class:'small-arrow','aria-hidden':'true'},'↗')));
-  const main = el('div',{},card,el('div',{class:'topic-tags'},topic.subtopics.map(name=>el('span',{},name))));
+    el('div',{class:'focus-bottom'},el('span',{class:'empty-mark','aria-hidden':'true'},'≋'),el('div',{},el('strong',{},topic.papers ? 'Источников в корпусе: '+topic.papers : 'Материалы этого раздела ещё не выпущены'),el('p',{},topic.papers ? 'Во вкладке «Источники» — проверенная библиография. Концептуальный обзор ещё готовится.' : 'Сейчас показаны только тема и вопросы. Готовых научных выводов пока нет.')),el('span',{class:'small-arrow','aria-hidden':'true'},'↗')));
+  const main = el('div',{},card,topic.bibliography_coverage?.count ? coveragePanel(topic) : null,el('div',{class:'topic-tags'},topic.subtopics.map(name=>el('span',{},name))));
   return el('div',{class:'content-grid'},main,methodNote());
 }
 
@@ -142,26 +142,51 @@ function emptyPanel(symbol,title,description,button) {
   return el('section',{class:'empty-panel'},el('span',{class:'empty-icon','aria-hidden':'true'},symbol),el('h2',{},title),el('p',{},description),button);
 }
 
+const discoveryLabels = {relevance:'Методы и постановка задачи',recent:'Свежие публикации',earlier:'Ранние работы',evaluation:'Оценка и ограничения',seed:'Исходная подборка'};
+
+function coveragePanel(topic) {
+  const c = topic.bibliography_coverage;
+  if (!c?.count) return null;
+  return el('section',{class:'coverage-panel'},el('div',{class:'panel-kicker'},'ОХВАТ ПОИСКОВОГО КОРПУСА'),
+    el('h3',{},c.count+' записей · '+c.first_year+'–'+c.last_year),
+    el('p',{},'Годы: '+Object.entries(c.years).map(([year,count])=>year+': '+count).join(' · ')),
+    el('p',{},Object.entries(c.groups).map(([key,count])=>discoveryLabels[key]+': '+count).join(' · ')),
+    c.searches ? el('p',{},'Поисковых стратегий: '+c.searches+'. Усечённых выдач: '+c.truncated_searches+'. Дополнительные совпадения остались за пределами этого корпуса.') : null,
+    el('p',{},'Одна работа может попасть в несколько поисковых групп. Проверены метаданные. Полные тексты ещё не разобраны; полнота охвата не установлена.'),
+    el('a',{href:'./data/search-method.json',target:'_blank',rel:'noreferrer'},'Протокол поиска ↗'));
+}
+
 function renderSources(topic) {
   const papers = state.detail.papers;
-  if (!papers.length) return emptyPanel('≋','Источники появятся вместе с обзором.','Здесь будет литература, на которой основан опубликованный материал. Поиск и подготовка выполняются редакцией отдельно от сайта.');
+  if (!papers.length) return emptyPanel('≋','Источники появятся вместе с обзором.','Поиск и подготовка выполняются редакцией отдельно от сайта.');
   const list = el('ul',{class:'source-list'}), wrap = el('section');
-  const search = el('input',{type:'search',placeholder:'Фильтр по названию и автору','aria-label':'Фильтр опубликованных источников'});
-  const summary = el('span',{class:'source-summary'});
-  const labels = {core:'Основной корпус',external:'Внешняя работа',exclude:'Исключена',deferred:'Отложена по бюджету',pending:'Ожидает отбора',reading_list:'Библиография · без полного разбора'};
-  function filter() {
+  const search = el('input',{type:'search',placeholder:'Название или автор','aria-label':'Фильтр опубликованных источников'});
+  const years = [...new Set(papers.map(p=>p.year).filter(Boolean))].sort((a,b)=>b-a);
+  const year = el('select',{'aria-label':'Год публикации'},el('option',{value:''},'Все годы'),years.map(y=>el('option',{value:y},y)));
+  const group = el('select',{'aria-label':'Поисковая группа'},el('option',{value:''},'Все группы'),Object.entries(discoveryLabels).map(([key,label])=>el('option',{value:key},label)));
+  const order = el('select',{'aria-label':'Порядок источников'},el('option',{value:'newest'},'Сначала новые'),el('option',{value:'oldest'},'Сначала ранние'));
+  const summary = el('span',{class:'source-summary'}), more = el('button',{class:'button secondary',type:'button'},'Показать ещё');
+  const labels = {core:'Основной корпус',external:'Внешняя работа',reading_list:'Кандидат · метаданные проверены'};
+  let visible = 25;
+  function render() {
     const query = search.value.toLocaleLowerCase();
-    const shown = papers.filter(p=>(p.title+' '+(p.authors||[]).join(' ')).toLocaleLowerCase().includes(query));
-    summary.textContent = `${shown.length} из ${papers.length} источников в разделе`;
-    list.replaceChildren(...shown.map(paper=>{
+    const shown = papers.filter(p=>(p.title+' '+(p.authors||[]).join(' ')).toLocaleLowerCase().includes(query)
+      && (!year.value || String(p.year)===year.value) && (!group.value || (p.discovery_groups||[]).includes(group.value)))
+      .sort((a,b)=>order.value==='oldest' ? (a.published_at||String(a.year)).localeCompare(b.published_at||String(b.year)) : (b.published_at||String(b.year)).localeCompare(a.published_at||String(a.year)));
+    summary.textContent = `Показано ${Math.min(visible,shown.length)} из ${shown.length} · всего в разделе ${papers.length}`;
+    list.replaceChildren(...shown.slice(0,visible).map(paper=>{
       const url = safeURL(paper.url), title = url ? el('a',{href:url,target:'_blank',rel:'noreferrer'},paper.title+' ↗') : paper.title;
-      return el('li',{class:'source-card'},el('div',{class:'source-meta'},paper.published_at ? date(paper.published_at) : paper.year||'Год не указан',el('span',{class:'source-status'},labels[paper.decision]||paper.decision)),el('h3',{},title),el('p',{},(paper.authors||[]).join(', ')),paper.arxiv_id ? el('p',{},'arXiv: '+paper.arxiv_id+(paper.updated_at ? ' · версия обновлена '+date(paper.updated_at) : '')) : null,el('p',{},paper.reason));
+      return el('li',{class:'source-card'},el('div',{class:'source-meta'},paper.published_at ? date(paper.published_at) : paper.year||'Год не указан',el('span',{class:'source-status'},labels[paper.decision]||paper.decision)),el('h3',{},title),el('p',{},(paper.authors||[]).join(', ')),paper.arxiv_id ? el('p',{},'arXiv: '+paper.arxiv_id+(paper.updated_at ? ' · версия '+date(paper.updated_at) : '')) : null,
+        paper.discovery_groups?.length ? el('p',{},'Найдено: '+paper.discovery_groups.map(key=>discoveryLabels[key]||key).join(' · ')) : null);
     }));
-    if (!shown.length) list.append(el('li',{class:'empty-panel'},el('p',{},'В опубликованном списке нет совпадений.')));
+    if (!shown.length) list.append(el('li',{class:'empty-panel'},el('p',{},'Нет совпадений с выбранными фильтрами.')));
+    more.hidden = visible >= shown.length;
   }
-  search.addEventListener('input',filter); filter();
-  if (papers.some(p=>p.decision==='reading_list')) wrap.append(el('p',{class:'review-notice'},'Начальная подборка по теме. Проверены записи arXiv; полнота поиска, рецензирование и научные выводы не подтверждены. Дата поиска: '+date(topic.bibliography_checked_at)));
-  wrap.append(el('div',{class:'source-toolbar'},summary,search),list);
+  for (const control of [search,year,group,order]) control.addEventListener(control===search?'input':'change',()=>{visible=25;render();});
+  more.addEventListener('click',()=>{visible+=25;render();});
+  if (papers.some(p=>p.decision==='reading_list')) wrap.append(coveragePanel(topic),el('p',{class:'review-notice'},'Поисковый корпус для будущего обзора. Включение в выдачу не подтверждает научную значимость или качество работы. Дата поиска: '+date(topic.bibliography_checked_at)));
+  wrap.append(el('div',{class:'source-filters'},search,year,group,order),el('div',{class:'source-toolbar'},summary,el('a',{href:'./exports/reading-lists/'+topic.id+'/references.bib',download:'references.bib'},'Скачать BibTeX ↓')),list,more);
+  render();
   return wrap;
 }
 

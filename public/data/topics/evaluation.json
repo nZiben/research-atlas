@@ -1,6 +1,970 @@
 {
   "papers": [
     {
+      "id": "arxiv-2611-08325",
+      "title": "Decision Models as Retrieval Gates Against Injection and Pollution",
+      "authors": [
+        "Mahdi Ghadamyari",
+        "Reza Habibi"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.08325v1",
+      "url": "https://arxiv.org/abs/2611.08325v1",
+      "published_at": "2026-11-05",
+      "updated_at": "2026-11-05",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-07238",
+      "title": "How Do AI Agents Waste Your Money?",
+      "authors": [
+        "Huimin Zeng",
+        "Yuxuan Lu",
+        "Jesse Cai",
+        "Eric Hanchen Jiang",
+        "Di Wu",
+        "Po-Nien Kung",
+        "Wenbo Hu",
+        "Ziyi Wang",
+        "Dakuo Wang",
+        "Jiaxin Pei",
+        "Kai-Wei Chang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.07238v1",
+      "url": "https://arxiv.org/abs/2611.07238v1",
+      "published_at": "2026-11-04",
+      "updated_at": "2026-11-04",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-07123",
+      "title": "PromptOps: Iterative Prompt Optimization for LLM-as-a-Judge Systems",
+      "authors": [
+        "Sven Kleinkop",
+        "Tamás Janusko",
+        "Ricardo Bochnia",
+        "Gunnar Hempel",
+        "Steffen Tomschke",
+        "Jürgen Anke",
+        "Maik Thiele"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.07123v1",
+      "url": "https://arxiv.org/abs/2611.07123v1",
+      "published_at": "2026-11-04",
+      "updated_at": "2026-11-04",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-06272",
+      "title": "Evaluating Human-LLM Alignment on Visualization Preference",
+      "authors": [
+        "Tanmay Bakshi",
+        "Chenglong Wang",
+        "Simra Shahid"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.06272v1",
+      "url": "https://arxiv.org/abs/2611.06272v1",
+      "published_at": "2026-11-04",
+      "updated_at": "2026-11-04",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-05556",
+      "title": "AGORA: Reliability-Aware Aggregation of LLM Judges via Item-Response Theory",
+      "authors": [
+        "Junhyung Ahn"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.05556v1",
+      "url": "https://arxiv.org/abs/2611.05556v1",
+      "published_at": "2026-11-03",
+      "updated_at": "2026-11-03",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-05127",
+      "title": "Towards Multi-Method Evaluation of AI in Health: Integrating Benchmarks, Autoraters, and Expert Evaluation",
+      "authors": [
+        "Sarah Montgomery-Taylor",
+        "Hamsa Subramaniam",
+        "Rob Brisk",
+        "Liam Foster",
+        "Jack Ching",
+        "Andrew Marshall",
+        "Jim Taylor",
+        "John Hernandez",
+        "Jen McKay",
+        "Dillon Obika",
+        "Nnamdi Ezeanochie",
+        "Nira Goren",
+        "Tiffany Guo",
+        "Rachel Kwon",
+        "Arlene Chung",
+        "Jacqueline Shreibati",
+        "Stella Yeoum",
+        "Brett Hatfield",
+        "Zelda Gulledge",
+        "Ankit Nathu",
+        "Ferenc Kazinczi",
+        "Yun Liu",
+        "Jonathan Krause",
+        "Heather Cole-Lewis",
+        "Susan Thomas",
+        "Megan Jones Bell",
+        "Bakul Patel",
+        "Joelle Barral",
+        "Katherine Chou",
+        "Yossi Matias",
+        "Dana Gelb Safran",
+        "Elizabeth A. McGlynn",
+        "Michael Howell"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.05127v2",
+      "url": "https://arxiv.org/abs/2611.05127v2",
+      "published_at": "2026-11-03",
+      "updated_at": "2026-11-04",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-03982",
+      "title": "SLATE: A Large-Scale Benchmark for Long-Horizon API Selection in E-commerce Tool Use",
+      "authors": [
+        "Rongzhe Wei",
+        "Ge Shi",
+        "Min Cheng",
+        "Sarthak Ghosh",
+        "Vaibhav Gorde",
+        "Leman Akoglu",
+        "Pan Li",
+        "Na Zhang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.03982v1",
+      "url": "https://arxiv.org/abs/2611.03982v1",
+      "published_at": "2026-11-02",
+      "updated_at": "2026-11-02",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-02692",
+      "title": "LLMs Cannot Be Neutral: Gender Sensitivity Across Candidates, Evaluators, and Models",
+      "authors": [
+        "Danial Amin",
+        "Joni Salminen",
+        "Bernard J. Jansen"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.02692v1",
+      "url": "https://arxiv.org/abs/2611.02692v1",
+      "published_at": "2026-11-02",
+      "updated_at": "2026-11-02",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-02271",
+      "title": "Current state of LLMs for Arabic dialectal machine translation",
+      "authors": [
+        "Josef Jon",
+        "Rawan Bondok",
+        "Ondřej Bojar"
+      ],
+      "year": 2026,
+      "doi": "10.18653/v1/2026.abjadnlp-1.41",
+      "arxiv_id": "2611.02271v1",
+      "url": "https://arxiv.org/abs/2611.02271v1",
+      "published_at": "2026-11-01",
+      "updated_at": "2026-11-01",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-00926",
+      "title": "UI-UG 2: Advancing Mobile UI Understanding and Generation with Fine-Grained Supervision and Reinforcement Learning",
+      "authors": [
+        "Hao Yang",
+        "Shuoyang Liu",
+        "Xiaoyu Lin",
+        "Zhou Fang",
+        "Maji Huang",
+        "Zhaosong Huang",
+        "Ruichao Mao",
+        "Teng Guo",
+        "Hai Rao"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.00926v1",
+      "url": "https://arxiv.org/abs/2611.00926v1",
+      "published_at": "2026-10-31",
+      "updated_at": "2026-10-31",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-00505",
+      "title": "To Jev or Not to Jev: When Can System-1 Decision Models Replace LLM Judges?",
+      "authors": [
+        "Shreyas Subramanian"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.00505v1",
+      "url": "https://arxiv.org/abs/2611.00505v1",
+      "published_at": "2026-10-31",
+      "updated_at": "2026-10-31",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-00491",
+      "title": "VoirDire: Counterfactual Calibration for Reliable LLM-as-a-Judge Aggregation",
+      "authors": [
+        "Changho Shin",
+        "Frederic Sala"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.00491v1",
+      "url": "https://arxiv.org/abs/2611.00491v1",
+      "published_at": "2026-10-31",
+      "updated_at": "2026-10-31",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-00447",
+      "title": "Quantiles, Not Points: Streaming Quantile Matching for Ordinal-Aware LLM-as-a-Judge Calibration",
+      "authors": [
+        "Ilija Subasic",
+        "Andrew Rabinovich",
+        "Zhao Chen"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.00447v1",
+      "url": "https://arxiv.org/abs/2611.00447v1",
+      "published_at": "2026-10-30",
+      "updated_at": "2026-10-30",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-39782",
+      "title": "Assessing AI Companion Chatbot Safety for Vulnerable Users: A Crisis-Stage Multi-Platform Evaluation",
+      "authors": [
+        "Huanyue Liao",
+        "Seok Min Lim",
+        "Yan Ling Lim",
+        "Shi Min Cheng",
+        "Kellin Pelrine",
+        "Chen Hui Ong"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.39782v1",
+      "url": "https://arxiv.org/abs/2610.39782v1",
+      "published_at": "2026-10-29",
+      "updated_at": "2026-10-29",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-39264",
+      "title": "Online Dense Reinforcement Learning with Planning-Grounding Agent for UI Navigation on Live IOS Apps",
+      "authors": [
+        "Peitong Duan",
+        "Khashayar Gatmiry",
+        "Jeffrey Nichols",
+        "Samy Bengio",
+        "Emmanuel Abbe"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.39264v1",
+      "url": "https://arxiv.org/abs/2610.39264v1",
+      "published_at": "2026-10-29",
+      "updated_at": "2026-10-29",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-38076",
+      "title": "Prompt Lottery in LLM-as-a-Judge: Measuring and Mitigating Sensitivity to Syntactic Rephrasing",
+      "authors": [
+        "Ilija Subasic",
+        "Brett Levert",
+        "Andrew Rabinovich",
+        "Sajjad Pakdamansavoji",
+        "Zhao Chen"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.38076v1",
+      "url": "https://arxiv.org/abs/2610.38076v1",
+      "published_at": "2026-10-27",
+      "updated_at": "2026-10-27",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-37481",
+      "title": "Follow the Gradient: Tracing Safety Degradation Back to Training Data",
+      "authors": [
+        "Saket Reddy",
+        "Amro Abbas",
+        "Anshuman Suri",
+        "Ari Morcos",
+        "David Schwab",
+        "Pratyush Maini"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.37481v1",
+      "url": "https://arxiv.org/abs/2610.37481v1",
+      "published_at": "2026-10-27",
+      "updated_at": "2026-10-27",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-37229",
+      "title": "Decision Models as Judges for Hallucination Detection",
+      "authors": [
+        "Haozheng Liu",
+        "Zhaoqian Xue",
+        "Zhongyin Wang",
+        "Junting Mu",
+        "Zihui Ma",
+        "Shuya Feng",
+        "Lingyao Li"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.37229v1",
+      "url": "https://arxiv.org/abs/2610.37229v1",
+      "published_at": "2026-10-27",
+      "updated_at": "2026-10-27",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-35698",
+      "title": "From Self-Confidence to Statistical Accuracy: Scaling Human-in-the-Loop Evaluation with Direct and LLM-Assisted Auditing",
+      "authors": [
+        "Harine Choi",
+        "Chenchen Kuai",
+        "Zihao Li",
+        "Jiwan Jiang",
+        "Yunlong Zhang",
+        "Zhiwen Fan",
+        "Zhengzhong Tu",
+        "Yang Zhou"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.35698v1",
+      "url": "https://arxiv.org/abs/2610.35698v1",
+      "published_at": "2026-10-26",
+      "updated_at": "2026-10-26",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-35650",
+      "title": "FLOWSTEP: A Framework for Learning to Predict GitHub Actions Workflow STEPs",
+      "authors": [
+        "Jiangnan Huang",
+        "Bin Lin",
+        "Yutaro Kashiwa"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.35650v1",
+      "url": "https://arxiv.org/abs/2610.35650v1",
+      "published_at": "2026-10-26",
+      "updated_at": "2026-10-26",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-34875",
+      "title": "RubriX: A Fast, Fine-Tunable Non-Autoregressive Rubric Judge",
+      "authors": [
+        "Balamurugan Paramasivam",
+        "Sudalai Rajkumar"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.34875v1",
+      "url": "https://arxiv.org/abs/2610.34875v1",
+      "published_at": "2026-10-26",
+      "updated_at": "2026-10-26",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-34585",
+      "title": "Large Language Models: A Plain-Language Overview for Engineers",
+      "authors": [
+        "Bahaeddin Türkoğlu"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.34585v1",
+      "url": "https://arxiv.org/abs/2610.34585v1",
+      "published_at": "2026-10-25",
+      "updated_at": "2026-10-25",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-34080",
+      "title": "The LALA Benchmark: Evaluating Literary and Linguistic Analysis in LLMs",
+      "authors": [
+        "Michael Foster",
+        "Barbara McGillivray",
+        "Gard B. Jenset",
+        "Jakub Mácha",
+        "Jason Harding",
+        "Marcus Perlman",
+        "Devyani Sharma",
+        "Patrick Skeels",
+        "Jana Willer-Gold",
+        "Jeannette Littlemore"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.34080v1",
+      "url": "https://arxiv.org/abs/2610.34080v1",
+      "published_at": "2026-10-25",
+      "updated_at": "2026-10-25",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-33920",
+      "title": "DRILS: Dependency-based Requirement Change Impact Analysis Using LLMs",
+      "authors": [
+        "Romina Etezadi",
+        "Ikram Darif",
+        "Lionel Briand",
+        "Ramesh S",
+        "Parkish Peranandam"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.33920v1",
+      "url": "https://arxiv.org/abs/2610.33920v1",
+      "published_at": "2026-10-24",
+      "updated_at": "2026-10-24",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-33509",
+      "title": "Can Agentic Code Review Catch Vulnerabilities Before They Are Merged?",
+      "authors": [
+        "Yihan Yang",
+        "Chenyuan Yang",
+        "Zijie Zhao",
+        "Anh Nguyen Hoang",
+        "Ziqi Zhang",
+        "Weidong Wang",
+        "Zhiheng Lyu",
+        "Lingming Zhang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.33509v2",
+      "url": "https://arxiv.org/abs/2610.33509v2",
+      "published_at": "2026-10-24",
+      "updated_at": "2026-10-30",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-33355",
+      "title": "BenchBench-Cloning: Evaluating Molecular Cloning Design and Protocol Development",
+      "authors": [
+        "Aditya Sivakumar",
+        "Peter Ciaccia",
+        "Hassaan Qadir",
+        "Ian Hsu",
+        "Ashu Singhal"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.33355v1",
+      "url": "https://arxiv.org/abs/2610.33355v1",
+      "published_at": "2026-10-23",
+      "updated_at": "2026-10-23",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-31796",
+      "title": "DRAMA-Eval: A Benchmark for Context-Aware, Multi-Turn, Multi-Speaker Speech Generation",
+      "authors": [
+        "Jingbin Hu",
+        "Zihang Yang",
+        "Xiaoge Peng",
+        "Haoyu Zhang",
+        "Ziyu Zhang",
+        "Qirui Zhan",
+        "Huakang Chen",
+        "Zhao Guo",
+        "Wenjie Tian",
+        "Kangxiang Xia",
+        "Wenkang Hou",
+        "Ruonan You",
+        "Zihan Liu",
+        "Chenyi Liao",
+        "Hongyu Lyu",
+        "Zihao Bai",
+        "Jinrui Liang",
+        "Shengming Lin",
+        "Yunxiang Chen",
+        "Houdun Liu",
+        "Su Feng",
+        "Bengu Wu",
+        "Liumeng Xue",
+        "Lei Xie"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.31796v1",
+      "url": "https://arxiv.org/abs/2610.31796v1",
+      "published_at": "2026-10-22",
+      "updated_at": "2026-10-22",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-31172",
+      "title": "Prompting Strategy Effects Depend on the Judge: A Multilingual Study of LLM-as-a-Judge Robustness",
+      "authors": [
+        "Asal Mehrabi",
+        "Mohammad Aliannejadi",
+        "Clemencia Siro"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.31172v1",
+      "url": "https://arxiv.org/abs/2610.31172v1",
+      "published_at": "2026-10-22",
+      "updated_at": "2026-10-22",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-31062",
+      "title": "SCOPE: Compiling Natural-Language Policies into Neurosymbolic Predicate Programs",
+      "authors": [
+        "Arnon Mazza",
+        "Elad Levi"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.31062v1",
+      "url": "https://arxiv.org/abs/2610.31062v1",
+      "published_at": "2026-10-22",
+      "updated_at": "2026-10-22",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-30882",
+      "title": "Inherited, Not Invented: Tracing the Provenance of Wait in Reasoning Models",
+      "authors": [
+        "Zhizhuo Kou",
+        "Sizai Hou",
+        "Long Chen",
+        "Jian Yang",
+        "Junyu Luo",
+        "Jingshu Peng",
+        "Wenkai Zhang",
+        "Sirui Han",
+        "Yike Guo"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.30882v1",
+      "url": "https://arxiv.org/abs/2610.30882v1",
+      "published_at": "2026-10-22",
+      "updated_at": "2026-10-22",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-30690",
+      "title": "From Clinical Judgment to Checkable Rules: Clinician-Led Guardrails for Mental-Health Chatbots",
+      "authors": [
+        "Chenhan Lyu",
+        "Kit Wislocki",
+        "Sarah Elizabeth Stoeckl",
+        "Maitreyi Sinha",
+        "Amir Rahmani"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.30690v1",
+      "url": "https://arxiv.org/abs/2610.30690v1",
+      "published_at": "2026-10-22",
+      "updated_at": "2026-10-22",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-30016",
+      "title": "Code Comprehensor: Hierarchical Documentation and Cross-Modal Retrieval for Large Repositories",
+      "authors": [
+        "Sujoy Roychowdhury",
+        "Joseph H. R. Isaac",
+        "Jiangning Gao",
+        "Martin Klitte",
+        "Diarmuid Corcoran"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.30016v2",
+      "url": "https://arxiv.org/abs/2610.30016v2",
+      "published_at": "2026-10-21",
+      "updated_at": "2026-10-22",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-29312",
+      "title": "A Stratified Multi-Rater Evaluation of LLM-Based Virtual Standardized Patients with a Deployed Data-Generation Platform",
+      "authors": [
+        "Yongjin Yi",
+        "Jinyong Park",
+        "Sejoong Kim"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.29312v2",
+      "url": "https://arxiv.org/abs/2610.29312v2",
+      "published_at": "2026-10-21",
+      "updated_at": "2026-10-25",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-29225",
+      "title": "Beyond Binary Labels: Diagnostic Evaluation of LLM Safety with Prompt-Level Rubrics",
+      "authors": [
+        "Hongyu Li",
+        "Xinlong Huang",
+        "Zhan Yu",
+        "Jing Zhao",
+        "Zhe Zhao",
+        "Juntao Zhong",
+        "Xiong Kuang",
+        "Rui Yuan",
+        "ZhenXiang Yan",
+        "Huilin Xu",
+        "Haitao Yu",
+        "Lilin Wang",
+        "Rui Chen",
+        "Blaze Chen",
+        "Fengzong Lian",
+        "Renfen Hu"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.29225v1",
+      "url": "https://arxiv.org/abs/2610.29225v1",
+      "published_at": "2026-10-21",
+      "updated_at": "2026-10-21",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-28010",
+      "title": "RANGER: Retrieval Agent for Navigating Graphs with Semantic Evaluation Rewards",
+      "authors": [
+        "Artem Mikhaylov",
+        "Pavel Konoplev",
+        "Nikolay Efanov",
+        "Artyom Sorokin",
+        "Evgeny Burnaev"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.28010v1",
+      "url": "https://arxiv.org/abs/2610.28010v1",
+      "published_at": "2026-10-20",
+      "updated_at": "2026-10-20",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
       "id": "arxiv-2610-24320",
       "title": "The Judge Can Debias Itself: Awareness and Self-Debiasing for Reliable LLM-as-a-Judge",
       "authors": [
@@ -20,6 +984,136 @@
       "checked_at": "2026-11-08",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "seed"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-14029",
+      "title": "Can We Trust This Evaluation? Instance-Level Reliability of LLM-as-a-Judge",
+      "authors": [
+        "Yang Ba",
+        "Michelle V. Mancenido",
+        "Rong Pan"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.14029v1",
+      "url": "https://arxiv.org/abs/2610.14029v1",
+      "published_at": "2026-09-30",
+      "updated_at": "2026-09-30",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2609-06367",
+      "title": "Robust Conformal Consensus: Multi-Agent LLM-as-a-Judge Interval Evaluation with Conformal Prediction",
+      "authors": [
+        "Lihui Liu"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2609.06367v1",
+      "url": "https://arxiv.org/abs/2609.06367v1",
+      "published_at": "2026-09-06",
+      "updated_at": "2026-09-06",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2608-24314",
+      "title": "Benchmarking LLM Judges for Voice-Agent Evaluation: Reliability, Calibration, and Human Oversight",
+      "authors": [
+        "Anupam Purwar",
+        "Shashank Singh",
+        "Kritika Srivastava"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2608.24314v2",
+      "url": "https://arxiv.org/abs/2608.24314v2",
+      "published_at": "2026-08-25",
+      "updated_at": "2026-09-16",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2607-25640",
+      "title": "LLM-as-a-Judge for Evaluating System Responses in Conversational Music Recommendation",
+      "authors": [
+        "Seungheon Doh",
+        "Bruno Sguerra",
+        "Sergio Oramas",
+        "Elena V. Epure",
+        "Juhan Nam"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2607.25640v1",
+      "url": "https://arxiv.org/abs/2607.25640v1",
+      "published_at": "2026-07-28",
+      "updated_at": "2026-07-28",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2607-02235",
+      "title": "Challenges and Recommendations for LLM-as-a-Judge in Multilingual Settings and for Low-Resource Languages",
+      "authors": [
+        "A. Seza Doğruöz",
+        "Xixian Liao",
+        "Verena Blaschke",
+        "Jakob Prange",
+        "Senyu Li",
+        "David Ifeoluwa Adelani"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2607.02235v2",
+      "url": "https://arxiv.org/abs/2607.02235v2",
+      "published_at": "2026-07-02",
+      "updated_at": "2026-09-07",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -32,7 +1126,7 @@
         "D. Alex Hughes"
       ],
       "year": 2026,
-      "doi": null,
+      "doi": "",
       "arxiv_id": "2606.19544v2",
       "url": "https://arxiv.org/abs/2606.19544v2",
       "published_at": "2026-06-17",
@@ -40,6 +1134,177 @@
       "checked_at": "2026-11-08",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance",
+        "seed"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2606-01629",
+      "title": "Benchmarking LLM-as-a-Judge for Long-Form Output Evaluation",
+      "authors": [
+        "Junjie Chen",
+        "Yuxi Dong",
+        "Haitao Li",
+        "Weihang Su",
+        "Yujia Zhou",
+        "Min Zhang",
+        "Yiqun Liu",
+        "Qingyao Ai"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2606.01629v4",
+      "url": "https://arxiv.org/abs/2606.01629v4",
+      "published_at": "2026-06-01",
+      "updated_at": "2026-08-28",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2605-30568",
+      "title": "Generating and Refining Dynamic Evaluation Rubrics for LLM-as-a-Judge",
+      "authors": [
+        "Zijie Wang",
+        "Eduardo Blanco"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2605.30568v1",
+      "url": "https://arxiv.org/abs/2605.30568v1",
+      "published_at": "2026-05-28",
+      "updated_at": "2026-05-28",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2605-25273",
+      "title": "LLM-as-a-Judge in Healthcare: A Scoping Analysis of Applications, Methods, and Human Alignment",
+      "authors": [
+        "Lingyao Li",
+        "Deyi Li",
+        "Chen Chen",
+        "Renkai Ma",
+        "Runlong Yu",
+        "Mingquan Lin",
+        "Rui Yin",
+        "Lizhou Fan",
+        "Cathy Shyr",
+        "Siyuan Ma",
+        "Mei Liu",
+        "Steven Bethard"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2605.25273v1",
+      "url": "https://arxiv.org/abs/2605.25273v1",
+      "published_at": "2026-05-24",
+      "updated_at": "2026-05-24",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2605-21748",
+      "title": "RankJudge: A Multi-Turn LLM-as-a-Judge Synthetic Benchmark Generator",
+      "authors": [
+        "Zhenwei Tang",
+        "Zhaoyan Liu",
+        "Rasa Hosseinzadeh",
+        "Tongzi Wu",
+        "Keyvan Golestan",
+        "Jesse C. Cresswell"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2605.21748v1",
+      "url": "https://arxiv.org/abs/2605.21748v1",
+      "published_at": "2026-05-20",
+      "updated_at": "2026-05-20",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2605-06939",
+      "title": "Bias and Uncertainty in LLM-as-a-Judge Estimation",
+      "authors": [
+        "James Fiedler"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2605.06939v1",
+      "url": "https://arxiv.org/abs/2605.06939v1",
+      "published_at": "2026-05-07",
+      "updated_at": "2026-05-07",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2604-26679",
+      "title": "MultEval: Supporting Collaborative Alignment for LLM-as-a-Judge Evaluation Criteria",
+      "authors": [
+        "Charles Chiang",
+        "Simret Gebreegziabher",
+        "Annalisa Szymanski",
+        "Yukun Yang",
+        "Hyo Jin Do",
+        "Zahra Ashktorab",
+        "Werner Geyer",
+        "Toby Li",
+        "Diego Gomez-Zara"
+      ],
+      "year": 2026,
+      "doi": "10.1145/3808045.3808093",
+      "arxiv_id": "2604.26679v1",
+      "url": "https://arxiv.org/abs/2604.26679v1",
+      "published_at": "2026-04-29",
+      "updated_at": "2026-04-29",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -58,6 +1323,2061 @@
       "checked_at": "2026-11-08",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "seed"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2606-13685",
+      "title": "The Coin Flip Judge? Reliability and Bias in LLM-as-a-Judge Evaluation",
+      "authors": [
+        "Abel Yagubyan"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2606.13685v1",
+      "url": "https://arxiv.org/abs/2606.13685v1",
+      "published_at": "2026-04-23",
+      "updated_at": "2026-04-23",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2604-16790",
+      "title": "Bias in the Loop: Auditing LLM-as-a-Judge for Software Engineering",
+      "authors": [
+        "Zixiao Zhao",
+        "Amirreza Esmaeili",
+        "Fatemeh Fard"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2604.16790v1",
+      "url": "https://arxiv.org/abs/2604.16790v1",
+      "published_at": "2026-04-18",
+      "updated_at": "2026-04-18",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2604-05593",
+      "title": "Label Effects: Shared Heuristic Reliance in Trust Assessment by Humans and LLM-as-a-Judge",
+      "authors": [
+        "Xin Sun",
+        "Di Wu",
+        "Sijing Qin",
+        "Isao Echizen",
+        "Abdallah El Ali",
+        "Saku Sugawara"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2604.05593v1",
+      "url": "https://arxiv.org/abs/2604.05593v1",
+      "published_at": "2026-04-07",
+      "updated_at": "2026-04-07",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2604-02118",
+      "title": "TSQueryBench: LLM-as-a-Judge for Time Series Explanations",
+      "authors": [
+        "Preetham Sivalingam",
+        "Murari Mandal",
+        "Dhruv Kumar",
+        "Saurabh Deshpande"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2604.02118v2",
+      "url": "https://arxiv.org/abs/2604.02118v2",
+      "published_at": "2026-04-02",
+      "updated_at": "2026-08-18",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2603-29403",
+      "title": "Security in LLM-as-a-Judge: A Comprehensive SoK",
+      "authors": [
+        "Aiman Al Masoud",
+        "Antony Anju",
+        "Marco Arazzi",
+        "Mert Cihangiroglu",
+        "Vignesh Kumar Kembu",
+        "Serena Nicolazzo",
+        "Antonino Nocera",
+        "Vinod P.",
+        "Saraga Sakthidharan"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2603.29403v2",
+      "url": "https://arxiv.org/abs/2603.29403v2",
+      "published_at": "2026-03-31",
+      "updated_at": "2026-04-06",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2603-10287",
+      "title": "MultiwayPAM: Multiway Partitioning Around Medoids for LLM-as-a-Judge Score Analysis",
+      "authors": [
+        "Chihiro Watanabe",
+        "Jingyu Sun"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2603.10287v2",
+      "url": "https://arxiv.org/abs/2603.10287v2",
+      "published_at": "2026-03-11",
+      "updated_at": "2026-09-24",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2602-09383",
+      "title": "BiasScope: Towards Automated Detection of Bias in LLM-as-a-Judge Evaluation",
+      "authors": [
+        "Peng Lai",
+        "Zhihao Ou",
+        "Yong Wang",
+        "Longyue Wang",
+        "Jian Yang",
+        "Yun Chen",
+        "Guanhua Chen"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2602.09383v1",
+      "url": "https://arxiv.org/abs/2602.09383v1",
+      "published_at": "2026-02-10",
+      "updated_at": "2026-02-10",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2602-06625",
+      "title": "FairJudge: An Adaptive, Debiased, and Consistent LLM-as-a-Judge",
+      "authors": [
+        "Bo Yang",
+        "Lanfei Feng",
+        "Yunkui Chen",
+        "Yu Zhang",
+        "Xiao Xu",
+        "Shijian Li"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2602.06625v2",
+      "url": "https://arxiv.org/abs/2602.06625v2",
+      "published_at": "2026-02-06",
+      "updated_at": "2026-06-30",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2602-02219",
+      "title": "Am I More Pointwise or Pairwise? Revealing Position Bias in Rubric-Based LLM-as-a-Judge",
+      "authors": [
+        "Yuzheng Xu",
+        "Tosho Hirasawa",
+        "Tadashi Kozuno",
+        "Yoshitaka Ushiku"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2602.02219v3",
+      "url": "https://arxiv.org/abs/2602.02219v3",
+      "published_at": "2026-02-02",
+      "updated_at": "2026-09-09",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2602-00521",
+      "title": "Diagnosing the Reliability of LLM-as-a-Judge via Item Response Theory",
+      "authors": [
+        "Junhyuk Choi",
+        "Sohhyung Park",
+        "Chanhee Cho",
+        "Hyeonchu Park",
+        "Bugeun Kim"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2602.00521v2",
+      "url": "https://arxiv.org/abs/2602.00521v2",
+      "published_at": "2026-01-31",
+      "updated_at": "2026-05-29",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2601-13649",
+      "title": "Fairness or Fluency? An Investigation into Language Bias of Pairwise LLM-as-a-Judge",
+      "authors": [
+        "Xiaolin Zhou",
+        "Zheng Luo",
+        "Yicheng Gao",
+        "Qixuan Chen",
+        "Xiyang Hu",
+        "Yue Zhao",
+        "Ruishan Liu"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2601.13649v1",
+      "url": "https://arxiv.org/abs/2601.13649v1",
+      "published_at": "2026-01-20",
+      "updated_at": "2026-01-20",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2601-05420",
+      "title": "Efficient Inference for Noisy LLM-as-a-Judge Evaluation",
+      "authors": [
+        "Yiqun T Chen",
+        "Sizhu Lu",
+        "Sijia Li",
+        "Moran Guo",
+        "Shengyi Li"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2601.05420v1",
+      "url": "https://arxiv.org/abs/2601.05420v1",
+      "published_at": "2026-01-08",
+      "updated_at": "2026-01-08",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2601-03444",
+      "title": "Grading Scale Impact on LLM-as-a-Judge: Human-LLM Alignment Is Highest on 0-5 Grading Scale",
+      "authors": [
+        "Weiyue Li",
+        "Minda Zhao",
+        "Weixuan Dong",
+        "Jiahui Cai",
+        "Yuze Wei",
+        "Michael Pocress",
+        "Yi Li",
+        "Wanyan Yuan",
+        "Xiaoyue Wang",
+        "Ruoyu Hou",
+        "Kaiyuan Lou",
+        "Wenqi Zeng",
+        "Yutong Yang",
+        "Yilun Du",
+        "Mengyu Wang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2601.03444v1",
+      "url": "https://arxiv.org/abs/2601.03444v1",
+      "published_at": "2026-01-06",
+      "updated_at": "2026-01-06",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2512-16041",
+      "title": "Are We on the Right Way to Assessing LLM-as-a-Judge?",
+      "authors": [
+        "Yuanning Feng",
+        "Sinan Wang",
+        "Zhengxiang Cheng",
+        "Yao Wan",
+        "Dongping Chen"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2512.16041v1",
+      "url": "https://arxiv.org/abs/2512.16041v1",
+      "published_at": "2025-12-17",
+      "updated_at": "2025-12-17",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2510-24367",
+      "title": "LLM-as-a-Judge for Software Engineering: Literature Review, Vision, and the Road Ahead",
+      "authors": [
+        "Junda He",
+        "Jieke Shi",
+        "Terry Yue Zhuo",
+        "Christoph Treude",
+        "Jiamou Sun",
+        "Zhenchang Xing",
+        "Xiaoning Du",
+        "David Lo"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2510.24367v1",
+      "url": "https://arxiv.org/abs/2510.24367v1",
+      "published_at": "2025-10-28",
+      "updated_at": "2025-10-28",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2510-08120",
+      "title": "Interpreting LLM-as-a-Judge Policies via Verifiable Global Explanations",
+      "authors": [
+        "Jasmina Gajcin",
+        "Erik Miehling",
+        "Rahul Nair",
+        "Elizabeth Daly",
+        "Radu Marinescu",
+        "Seshu Tirupathi"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2510.08120v1",
+      "url": "https://arxiv.org/abs/2510.08120v1",
+      "published_at": "2025-10-09",
+      "updated_at": "2025-10-09",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2509-26072",
+      "title": "The Silent Judge: Unacknowledged Shortcut Bias in LLM-as-a-Judge",
+      "authors": [
+        "Arash Marioriyad",
+        "Mohammad Hossein Rohban",
+        "Mahdieh Soleymani Baghshah"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2509.26072v2",
+      "url": "https://arxiv.org/abs/2509.26072v2",
+      "published_at": "2025-09-30",
+      "updated_at": "2025-10-14",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2509-21117",
+      "title": "TrustJudge: Inconsistencies of LLM-as-a-Judge and How to Alleviate Them",
+      "authors": [
+        "Yidong Wang",
+        "Yunze Song",
+        "Tingyuan Zhu",
+        "Xuanwang Zhang",
+        "Zhuohao Yu",
+        "Hao Chen",
+        "Chiyu Song",
+        "Qiufeng Wang",
+        "Cunxiang Wang",
+        "Zhen Wu",
+        "Xinyu Dai",
+        "Yue Zhang",
+        "Wei Ye",
+        "Shikun Zhang"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2509.21117v2",
+      "url": "https://arxiv.org/abs/2509.21117v2",
+      "published_at": "2025-09-25",
+      "updated_at": "2025-09-26",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2508-12158",
+      "title": "LLM-as-a-Judge for Privacy Evaluation? Exploring the Alignment of Human and LLM Perceptions of Privacy in Textual Data",
+      "authors": [
+        "Stephen Meisenbacher",
+        "Alexandra Klymenko",
+        "Florian Matthes"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2508.12158v1",
+      "url": "https://arxiv.org/abs/2508.12158v1",
+      "published_at": "2025-08-16",
+      "updated_at": "2025-08-16",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2507-10535",
+      "title": "CodeJudgeBench: Benchmarking LLM-as-a-Judge for Coding Tasks",
+      "authors": [
+        "Hongchao Jiang",
+        "Yiming Chen",
+        "Yushi Cao",
+        "Hung-yi Lee",
+        "Robby T. Tan"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2507.10535v2",
+      "url": "https://arxiv.org/abs/2507.10535v2",
+      "published_at": "2025-07-14",
+      "updated_at": "2025-08-14",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2506-22316",
+      "title": "Evaluating Scoring Bias in LLM-as-a-Judge",
+      "authors": [
+        "Qingquan Li",
+        "Shaoyu Dou",
+        "Kailai Shao",
+        "Chao Chen",
+        "Haixiang Hu"
+      ],
+      "year": 2025,
+      "doi": "10.1007/978-981-92-0372-7_2",
+      "arxiv_id": "2506.22316v4",
+      "url": "https://arxiv.org/abs/2506.22316v4",
+      "published_at": "2025-06-27",
+      "updated_at": "2026-02-03",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2506-13639",
+      "title": "An Empirical Study of LLM-as-a-Judge: How Design Choices Impact Evaluation Reliability",
+      "authors": [
+        "Yusuke Yamauchi",
+        "Taro Yano",
+        "Masafumi Oyamada"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2506.13639v1",
+      "url": "https://arxiv.org/abs/2506.13639v1",
+      "published_at": "2025-06-16",
+      "updated_at": "2025-06-16",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2506-11237",
+      "title": "LLM-as-a-Judge for Reference-less Automatic Code Validation and Refinement for Natural Language to Bash in IT Automation",
+      "authors": [
+        "Ngoc Phuoc An Vo",
+        "Brent Paulovicks",
+        "Vadim Sheinin"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2506.11237v1",
+      "url": "https://arxiv.org/abs/2506.11237v1",
+      "published_at": "2025-06-12",
+      "updated_at": "2025-06-12",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2506-10403",
+      "title": "Time To Impeach LLM-as-a-Judge: Programs are the Future of Evaluation",
+      "authors": [
+        "Tzu-Heng Huang",
+        "Harit Vishwakarma",
+        "Frederic Sala"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2506.10403v1",
+      "url": "https://arxiv.org/abs/2506.10403v1",
+      "published_at": "2025-06-12",
+      "updated_at": "2025-06-12",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2506-09443",
+      "title": "LLMs Cannot Reliably Judge (Yet?): A Comprehensive Assessment on the Robustness of LLM-as-a-Judge",
+      "authors": [
+        "Songze Li",
+        "Chuokun Xu",
+        "Jiaying Wang",
+        "Xueluan Gong",
+        "Chen Chen",
+        "Jirui Zhang",
+        "Jun Wang",
+        "Kwok-Yan Lam",
+        "Shouling Ji"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2506.09443v3",
+      "url": "https://arxiv.org/abs/2506.09443v3",
+      "published_at": "2025-06-11",
+      "updated_at": "2026-08-06",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2505-15365",
+      "title": "AI vs. Human Judgment of Content Moderation: LLM-as-a-Judge and Ethics-Based Response Refusals",
+      "authors": [
+        "Stefan Pasch"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2505.15365v1",
+      "url": "https://arxiv.org/abs/2505.15365v1",
+      "published_at": "2025-05-21",
+      "updated_at": "2025-05-21",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2505-14279",
+      "title": "YESciEval: Robust LLM-as-a-Judge for Scientific Question Answering",
+      "authors": [
+        "Jennifer D'Souza",
+        "Hamed Babaei Giglou",
+        "Quentin Münch"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2505.14279v2",
+      "url": "https://arxiv.org/abs/2505.14279v2",
+      "published_at": "2025-05-20",
+      "updated_at": "2025-05-29",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2505-14268",
+      "title": "Think-J: Learning to Think for Generative LLM-as-a-Judge",
+      "authors": [
+        "Hui Huang",
+        "Yancheng He",
+        "Hongli Zhou",
+        "Rui Zhang",
+        "Wei Liu",
+        "Weixun Wang",
+        "Jiaheng Liu",
+        "Wenbo Su"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2505.14268v2",
+      "url": "https://arxiv.org/abs/2505.14268v2",
+      "published_at": "2025-05-20",
+      "updated_at": "2026-01-10",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2505-13348",
+      "title": "Investigating the Vulnerability of LLM-as-a-Judge Architectures to Prompt-Injection Attacks",
+      "authors": [
+        "Narek Maloyan",
+        "Bislan Ashinov",
+        "Dmitry Namiot"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2505.13348v1",
+      "url": "https://arxiv.org/abs/2505.13348v1",
+      "published_at": "2025-05-19",
+      "updated_at": "2025-05-19",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2505-12201",
+      "title": "How Reliable is Multilingual LLM-as-a-Judge?",
+      "authors": [
+        "Xiyan Fu",
+        "Wei Liu"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2505.12201v1",
+      "url": "https://arxiv.org/abs/2505.12201v1",
+      "published_at": "2025-05-18",
+      "updated_at": "2025-05-18",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2505-11875",
+      "title": "J1: Exploring Simple Test-Time Scaling for LLM-as-a-Judge",
+      "authors": [
+        "Chi-Min Chan",
+        "Chunpu Xu",
+        "Jiaming Ji",
+        "Zhen Ye",
+        "Pengcheng Wen",
+        "Chunyang Jiang",
+        "Yaodong Yang",
+        "Wei Xue",
+        "Sirui Han",
+        "Yike Guo"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2505.11875v1",
+      "url": "https://arxiv.org/abs/2505.11875v1",
+      "published_at": "2025-05-17",
+      "updated_at": "2025-05-17",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2504-17087",
+      "title": "Leveraging LLMs as Meta-Judges: A Multi-Agent Framework for Evaluating LLM Judgments",
+      "authors": [
+        "Yuran Li",
+        "Jama Hussein Mohamud",
+        "Chongren Sun",
+        "Di Wu",
+        "Benoit Boulet"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2504.17087v1",
+      "url": "https://arxiv.org/abs/2504.17087v1",
+      "published_at": "2025-04-23",
+      "updated_at": "2025-04-23",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2504-11972",
+      "title": "Reassessing Extractive QA Datasets at Scale: LLM-as-a-Judge and In-Depth Analyses",
+      "authors": [
+        "Xanh Ho",
+        "Jiahao Huang",
+        "Florian Boudin",
+        "Akiko Aizawa"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2504.11972v3",
+      "url": "https://arxiv.org/abs/2504.11972v3",
+      "published_at": "2025-04-16",
+      "updated_at": "2026-05-29",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2504-07887",
+      "title": "Benchmarking Adversarial Robustness to Bias Elicitation in Large Language Models: Scalable Automated Assessment with LLM-as-a-Judge",
+      "authors": [
+        "Riccardo Cantini",
+        "Alessio Orsino",
+        "Massimo Ruggiero",
+        "Domenico Talia"
+      ],
+      "year": 2025,
+      "doi": "10.1007/s10994-025-06862-6",
+      "arxiv_id": "2504.07887v2",
+      "url": "https://arxiv.org/abs/2504.07887v2",
+      "published_at": "2025-04-10",
+      "updated_at": "2025-10-16",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2503-05965",
+      "title": "Validating LLM-as-a-Judge Systems under Rating Indeterminacy",
+      "authors": [
+        "Luke Guerdan",
+        "Solon Barocas",
+        "Kenneth Holstein",
+        "Hanna Wallach",
+        "Zhiwei Steven Wu",
+        "Alexandra Chouldechova"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2503.05965v4",
+      "url": "https://arxiv.org/abs/2503.05965v4",
+      "published_at": "2025-03-07",
+      "updated_at": "2025-10-27",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2503-05061",
+      "title": "No Free Labels: Limitations of LLM-as-a-Judge Without Human Grounding",
+      "authors": [
+        "Michael Krumdick",
+        "Charles Lovering",
+        "Varshini Reddy",
+        "Seth Ebner",
+        "Chris Tanner"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2503.05061v4",
+      "url": "https://arxiv.org/abs/2503.05061v4",
+      "published_at": "2025-03-07",
+      "updated_at": "2026-09-28",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2503-04381",
+      "title": "TRACT: Regression-Aware Fine-tuning Meets Chain-of-Thought Reasoning for LLM-as-a-Judge",
+      "authors": [
+        "Cheng-Han Chiang",
+        "Hung-yi Lee",
+        "Michal Lukasik"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2503.04381v2",
+      "url": "https://arxiv.org/abs/2503.04381v2",
+      "published_at": "2025-03-06",
+      "updated_at": "2025-06-06",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2503-03064",
+      "title": "Improving LLM-as-a-Judge Inference with the Judgment Distribution",
+      "authors": [
+        "Victor Wang",
+        "Michael J. Q. Zhang",
+        "Eunsol Choi"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2503.03064v2",
+      "url": "https://arxiv.org/abs/2503.03064v2",
+      "published_at": "2025-03-04",
+      "updated_at": "2025-09-26",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2503-00596",
+      "title": "BadJudge: Backdoor Vulnerabilities of LLM-as-a-Judge",
+      "authors": [
+        "Terry Tong",
+        "Fei Wang",
+        "Zhe Zhao",
+        "Muhao Chen"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2503.00596v1",
+      "url": "https://arxiv.org/abs/2503.00596v1",
+      "published_at": "2025-03-01",
+      "updated_at": "2025-03-01",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2502-12501",
+      "title": "Crowd Comparative Reasoning: Unlocking Comprehensive Evaluations for LLM-as-a-Judge",
+      "authors": [
+        "Qiyuan Zhang",
+        "Yufei Wang",
+        "Yuxin Jiang",
+        "Liangyou Li",
+        "Chuhan Wu",
+        "Yasheng Wang",
+        "Xin Jiang",
+        "Lifeng Shang",
+        "Ruiming Tang",
+        "Fuyuan Lyu",
+        "Chen Ma"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2502.12501v2",
+      "url": "https://arxiv.org/abs/2502.12501v2",
+      "published_at": "2025-02-18",
+      "updated_at": "2025-04-07",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2502-12468",
+      "title": "MCTS-Judge: Test-Time Scaling in LLM-as-a-Judge for Code Correctness Evaluation",
+      "authors": [
+        "Yutong Wang",
+        "Pengliang Ji",
+        "Chaoqun Yang",
+        "Kaixin Li",
+        "Ming Hu",
+        "Jiaoyang Li",
+        "Guillaume Sartoretti"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2502.12468v2",
+      "url": "https://arxiv.org/abs/2502.12468v2",
+      "published_at": "2025-02-18",
+      "updated_at": "2026-05-27",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2502-11689",
+      "title": "Improve LLM-as-a-Judge Ability as a General Ability",
+      "authors": [
+        "Jiachen Yu",
+        "Shaoning Sun",
+        "Xiaohui Hu",
+        "Jiaxu Yan",
+        "Kaidong Yu",
+        "Xuelong Li"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2502.11689v2",
+      "url": "https://arxiv.org/abs/2502.11689v2",
+      "published_at": "2025-02-17",
+      "updated_at": "2025-09-07",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2502-06193",
+      "title": "Can LLMs Replace Human Evaluators? An Empirical Study of LLM-as-a-Judge in Software Engineering",
+      "authors": [
+        "Ruiqi Wang",
+        "Jiyu Guo",
+        "Cuiyun Gao",
+        "Guodong Fan",
+        "Chun Yong Chong",
+        "Xin Xia"
+      ],
+      "year": 2025,
+      "doi": "10.1145/3728963",
+      "arxiv_id": "2502.06193v3",
+      "url": "https://arxiv.org/abs/2502.06193v3",
+      "published_at": "2025-02-10",
+      "updated_at": "2025-04-21",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2502-01534",
+      "title": "Preference Leakage: A Contamination Problem in LLM-as-a-judge",
+      "authors": [
+        "Dawei Li",
+        "Renliang Sun",
+        "Yue Huang",
+        "Ming Zhong",
+        "Bohan Jiang",
+        "Jiawei Han",
+        "Xiangliang Zhang",
+        "Wei Wang",
+        "Huan Liu"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2502.01534v3",
+      "url": "https://arxiv.org/abs/2502.01534v3",
+      "published_at": "2025-02-03",
+      "updated_at": "2026-03-04",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2501-18099",
+      "title": "Learning to Plan & Reason for Evaluation with Thinking-LLM-as-a-Judge",
+      "authors": [
+        "Swarnadeep Saha",
+        "Xian Li",
+        "Marjan Ghazvininejad",
+        "Jason Weston",
+        "Tianlu Wang"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2501.18099v2",
+      "url": "https://arxiv.org/abs/2501.18099v2",
+      "published_at": "2025-01-30",
+      "updated_at": "2025-07-08",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2411-16594",
+      "title": "From Generation to Judgment: Opportunities and Challenges of LLM-as-a-judge",
+      "authors": [
+        "Dawei Li",
+        "Bohan Jiang",
+        "Liangjie Huang",
+        "Alimohammad Beigi",
+        "Chengshuai Zhao",
+        "Zhen Tan",
+        "Amrita Bhattacharjee",
+        "Yuxuan Jiang",
+        "Canyu Chen",
+        "Tianhao Wu",
+        "Kai Shu",
+        "Lu Cheng",
+        "Huan Liu"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2411.16594v7",
+      "url": "https://arxiv.org/abs/2411.16594v7",
+      "published_at": "2024-11-25",
+      "updated_at": "2025-09-29",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2411-15594",
+      "title": "A Survey on LLM-as-a-Judge",
+      "authors": [
+        "Jiawei Gu",
+        "Xuhui Jiang",
+        "Zhichao Shi",
+        "Hexiang Tan",
+        "Xuehao Zhai",
+        "Chengjin Xu",
+        "Wei Li",
+        "Yinghan Shen",
+        "Shengjie Ma",
+        "Honghao Liu",
+        "Saizhuo Wang",
+        "Kun Zhang",
+        "Yuanzhuo Wang",
+        "Wen Gao",
+        "Lionel Ni",
+        "Jian Guo"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2411.15594v6",
+      "url": "https://arxiv.org/abs/2411.15594v6",
+      "published_at": "2024-11-23",
+      "updated_at": "2025-10-19",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-21819",
+      "title": "Self-Preference Bias in LLM-as-a-Judge",
+      "authors": [
+        "Koki Wataoka",
+        "Tsubasa Takahashi",
+        "Ryokan Ri"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2410.21819v2",
+      "url": "https://arxiv.org/abs/2410.21819v2",
+      "published_at": "2024-10-29",
+      "updated_at": "2025-06-21",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-20266",
+      "title": "Limitations of the LLM-as-a-Judge Approach for Evaluating LLM Outputs in Expert Knowledge Tasks",
+      "authors": [
+        "Annalisa Szymanski",
+        "Noah Ziems",
+        "Heather A. Eicher-Miller",
+        "Toby Jia-Jun Li",
+        "Meng Jiang",
+        "Ronald A. Metoyer"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2410.20266v1",
+      "url": "https://arxiv.org/abs/2410.20266v1",
+      "published_at": "2024-10-26",
+      "updated_at": "2024-10-26",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-11594",
+      "title": "Black-box Uncertainty Quantification Method for LLM-as-a-Judge",
+      "authors": [
+        "Nico Wagner",
+        "Michael Desmond",
+        "Rahul Nair",
+        "Zahra Ashktorab",
+        "Elizabeth M. Daly",
+        "Qian Pan",
+        "Martín Santillán Cooper",
+        "James M. Johnson",
+        "Werner Geyer"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2410.11594v1",
+      "url": "https://arxiv.org/abs/2410.11594v1",
+      "published_at": "2024-10-15",
+      "updated_at": "2024-10-15",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-05193",
+      "title": "RevisEval: Improving LLM-as-a-Judge via Response-Adapted References",
+      "authors": [
+        "Qiyuan Zhang",
+        "Yufei Wang",
+        "Tiezheng YU",
+        "Yuxin Jiang",
+        "Chuhan Wu",
+        "Liangyou Li",
+        "Yasheng Wang",
+        "Xin Jiang",
+        "Lifeng Shang",
+        "Ruiming Tang",
+        "Fuyuan Lyu",
+        "Chen Ma"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2410.05193v3",
+      "url": "https://arxiv.org/abs/2410.05193v3",
+      "published_at": "2024-10-07",
+      "updated_at": "2025-04-07",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2410-02736",
+      "title": "Justice or Prejudice? Quantifying Biases in LLM-as-a-Judge",
+      "authors": [
+        "Jiayi Ye",
+        "Yanbo Wang",
+        "Yue Huang",
+        "Dongping Chen",
+        "Qihui Zhang",
+        "Nuno Moniz",
+        "Tian Gao",
+        "Werner Geyer",
+        "Chao Huang",
+        "Pin-Yu Chen",
+        "Nitesh V Chawla",
+        "Xiangliang Zhang"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2410.02736v2",
+      "url": "https://arxiv.org/abs/2410.02736v2",
+      "published_at": "2024-10-03",
+      "updated_at": "2024-10-04",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2408-13006",
+      "title": "Systematic Evaluation of LLM-as-a-Judge in LLM Alignment Tasks: Explainable Metrics and Diverse Prompt Templates",
+      "authors": [
+        "Hui Wei",
+        "Shenghua He",
+        "Tian Xia",
+        "Fei Liu",
+        "Andy Wong",
+        "Jingyang Lin",
+        "Mei Han"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2408.13006v2",
+      "url": "https://arxiv.org/abs/2408.13006v2",
+      "published_at": "2024-08-23",
+      "updated_at": "2025-03-30",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2407-03479",
+      "title": "Human-Centered Design Recommendations for LLM-as-a-Judge",
+      "authors": [
+        "Qian Pan",
+        "Zahra Ashktorab",
+        "Michael Desmond",
+        "Martin Santillan Cooper",
+        "James Johnson",
+        "Rahul Nair",
+        "Elizabeth Daly",
+        "Werner Geyer"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2407.03479v1",
+      "url": "https://arxiv.org/abs/2407.03479v1",
+      "published_at": "2024-07-03",
+      "updated_at": "2024-07-03",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2406-07791",
+      "title": "Judging the Judges: A Systematic Study of Position Bias in LLM-as-a-Judge",
+      "authors": [
+        "Lin Shi",
+        "Chiyu Ma",
+        "Wenhua Liang",
+        "Xingjian Diao",
+        "Weicheng Ma",
+        "Soroush Vosoughi"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2406.07791v9",
+      "url": "https://arxiv.org/abs/2406.07791v9",
+      "published_at": "2024-06-12",
+      "updated_at": "2025-11-11",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "evaluation"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2405-00099",
+      "title": "Creative Beam Search: LLM-as-a-Judge For Improving Response Generation",
+      "authors": [
+        "Giorgio Franceschelli",
+        "Mirco Musolesi"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2405.00099v4",
+      "url": "https://arxiv.org/abs/2405.00099v4",
+      "published_at": "2024-04-30",
+      "updated_at": "2024-10-07",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2403-18771",
+      "title": "CheckEval: A reliable LLM-as-a-Judge framework for evaluating text generation using checklists",
+      "authors": [
+        "Yukyung Lee",
+        "Joonghoon Kim",
+        "Jaehee Kim",
+        "Hyowon Cho",
+        "Jaewook Kang",
+        "Pilsung Kang",
+        "Najoung Kim"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2403.18771v3",
+      "url": "https://arxiv.org/abs/2403.18771v3",
+      "published_at": "2024-03-27",
+      "updated_at": "2025-10-31",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2403-17710",
+      "title": "Optimization-based Prompt Injection Attack to LLM-as-a-Judge",
+      "authors": [
+        "Jiawen Shi",
+        "Zenghui Yuan",
+        "Yinuo Liu",
+        "Yue Huang",
+        "Pan Zhou",
+        "Lichao Sun",
+        "Neil Zhenqiang Gong"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2403.17710v5",
+      "url": "https://arxiv.org/abs/2403.17710v5",
+      "published_at": "2024-03-26",
+      "updated_at": "2025-08-24",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2403-09032",
+      "title": "CodeUltraFeedback: An LLM-as-a-Judge Dataset for Aligning Large Language Models to Coding Preferences",
+      "authors": [
+        "Martin Weyssow",
+        "Aton Kamanda",
+        "Xin Zhou",
+        "Houari Sahraoui"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2403.09032v3",
+      "url": "https://arxiv.org/abs/2403.09032v3",
+      "published_at": "2024-03-14",
+      "updated_at": "2024-12-27",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2403-02839",
+      "title": "An Empirical Study of LLM-as-a-Judge for LLM Evaluation: Fine-tuned Judge Model is not a General Substitute for GPT-4",
+      "authors": [
+        "Hui Huang",
+        "Xingyuan Bu",
+        "Hongli Zhou",
+        "Yingqi Qu",
+        "Jing Liu",
+        "Muyun Yang",
+        "Bing Xu",
+        "Tiejun Zhao"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2403.02839v4",
+      "url": "https://arxiv.org/abs/2403.02839v4",
+      "published_at": "2024-03-05",
+      "updated_at": "2025-05-30",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2402-14016",
+      "title": "Is LLM-as-a-Judge Robust? Investigating Universal Adversarial Attacks on Zero-shot LLM Assessment",
+      "authors": [
+        "Vyas Raina",
+        "Adian Liusie",
+        "Mark Gales"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2402.14016v2",
+      "url": "https://arxiv.org/abs/2402.14016v2",
+      "published_at": "2024-02-21",
+      "updated_at": "2024-07-04",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2402-13125",
+      "title": "TreeEval: Benchmark-Free Evaluation of Large Language Models through Tree Planning",
+      "authors": [
+        "Xiang Li",
+        "Yunshi Lan",
+        "Chao Yang"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2402.13125v2",
+      "url": "https://arxiv.org/abs/2402.13125v2",
+      "published_at": "2024-02-20",
+      "updated_at": "2024-12-13",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2402-10669",
+      "title": "Humans or LLMs as the Judge? A Study on Judgement Biases",
+      "authors": [
+        "Guiming Hardy Chen",
+        "Shunian Chen",
+        "Ziche Liu",
+        "Feng Jiang",
+        "Benyou Wang"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2402.10669v5",
+      "url": "https://arxiv.org/abs/2402.10669v5",
+      "published_at": "2024-02-16",
+      "updated_at": "2024-09-26",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "evaluation",
+        "relevance"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2402-05044",
+      "title": "SALAD-Bench: A Hierarchical and Comprehensive Safety Benchmark for Large Language Models",
+      "authors": [
+        "Lijun Li",
+        "Bowen Dong",
+        "Ruohui Wang",
+        "Xuhao Hu",
+        "Wangmeng Zuo",
+        "Dahua Lin",
+        "Yu Qiao",
+        "Jing Shao"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2402.05044v4",
+      "url": "https://arxiv.org/abs/2402.05044v4",
+      "published_at": "2024-02-07",
+      "updated_at": "2024-06-07",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2402-04788",
+      "title": "MLLM-as-a-Judge: Assessing Multimodal LLM-as-a-Judge with Vision-Language Benchmark",
+      "authors": [
+        "Dongping Chen",
+        "Ruoxi Chen",
+        "Shilin Zhang",
+        "Yinuo Liu",
+        "Yaochen Wang",
+        "Huichi Zhou",
+        "Qihui Zhang",
+        "Yao Wan",
+        "Pan Zhou",
+        "Lichao Sun"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2402.04788v3",
+      "url": "https://arxiv.org/abs/2402.04788v3",
+      "published_at": "2024-02-07",
+      "updated_at": "2024-06-11",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2401-10020",
+      "title": "Self-Rewarding Language Models",
+      "authors": [
+        "Weizhe Yuan",
+        "Richard Yuanzhe Pang",
+        "Kyunghyun Cho",
+        "Xian Li",
+        "Sainbayar Sukhbaatar",
+        "Jing Xu",
+        "Jason Weston"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2401.10020v3",
+      "url": "https://arxiv.org/abs/2401.10020v3",
+      "published_at": "2024-01-18",
+      "updated_at": "2025-03-28",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2401-10019",
+      "title": "R-Judge: Benchmarking Safety Risk Awareness for LLM Agents",
+      "authors": [
+        "Tongxin Yuan",
+        "Zhiwei He",
+        "Lingzhong Dong",
+        "Yiming Wang",
+        "Ruijie Zhao",
+        "Tian Xia",
+        "Lizhen Xu",
+        "Binglin Zhou",
+        "Fangqi Li",
+        "Zhuosheng Zhang",
+        "Rui Wang",
+        "Gongshen Liu"
+      ],
+      "year": 2024,
+      "doi": "",
+      "arxiv_id": "2401.10019v3",
+      "url": "https://arxiv.org/abs/2401.10019v3",
+      "published_at": "2024-01-18",
+      "updated_at": "2024-10-05",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2311-09766",
+      "title": "LLMs as Narcissistic Evaluators: When Ego Inflates Evaluation Scores",
+      "authors": [
+        "Yiqi Liu",
+        "Nafise Sadat Moosavi",
+        "Chenghua Lin"
+      ],
+      "year": 2023,
+      "doi": "",
+      "arxiv_id": "2311.09766v4",
+      "url": "https://arxiv.org/abs/2311.09766v4",
+      "published_at": "2023-11-16",
+      "updated_at": "2024-06-07",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2311-09730",
+      "title": "Sociodemographic Prompting is Not Yet an Effective Approach for Simulating Subjective Judgments with LLMs",
+      "authors": [
+        "Huaman Sun",
+        "Jiaxin Pei",
+        "Minje Choi",
+        "David Jurgens"
+      ],
+      "year": 2023,
+      "doi": "",
+      "arxiv_id": "2311.09730v2",
+      "url": "https://arxiv.org/abs/2311.09730v2",
+      "published_at": "2023-11-16",
+      "updated_at": "2025-02-17",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2310-17631",
+      "title": "JudgeLM: Fine-tuned Large Language Models are Scalable Judges",
+      "authors": [
+        "Lianghui Zhu",
+        "Xinggang Wang",
+        "Xinlong Wang"
+      ],
+      "year": 2023,
+      "doi": "",
+      "arxiv_id": "2310.17631v2",
+      "url": "https://arxiv.org/abs/2310.17631v2",
+      "published_at": "2023-10-26",
+      "updated_at": "2025-03-01",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2310-07641",
+      "title": "Evaluating Large Language Models at Evaluating Instruction Following",
+      "authors": [
+        "Zhiyuan Zeng",
+        "Jiatong Yu",
+        "Tianyu Gao",
+        "Yu Meng",
+        "Tanya Goyal",
+        "Danqi Chen"
+      ],
+      "year": 2023,
+      "doi": "",
+      "arxiv_id": "2310.07641v2",
+      "url": "https://arxiv.org/abs/2310.07641v2",
+      "published_at": "2023-10-11",
+      "updated_at": "2024-04-16",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2309-17012",
+      "title": "Benchmarking Cognitive Biases in Large Language Models as Evaluators",
+      "authors": [
+        "Ryan Koo",
+        "Minhwa Lee",
+        "Vipul Raheja",
+        "Jong Inn Park",
+        "Zae Myung Kim",
+        "Dongyeop Kang"
+      ],
+      "year": 2023,
+      "doi": "",
+      "arxiv_id": "2309.17012v3",
+      "url": "https://arxiv.org/abs/2309.17012v3",
+      "published_at": "2023-09-29",
+      "updated_at": "2024-09-25",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2309-07462",
+      "title": "Are Large Language Model-based Evaluators the Solution to Scaling Up Multilingual Evaluation?",
+      "authors": [
+        "Rishav Hada",
+        "Varun Gumma",
+        "Adrian de Wynter",
+        "Harshita Diddee",
+        "Mohamed Ahmed",
+        "Monojit Choudhury",
+        "Kalika Bali",
+        "Sunayana Sitaram"
+      ],
+      "year": 2023,
+      "doi": "",
+      "arxiv_id": "2309.07462v2",
+      "url": "https://arxiv.org/abs/2309.07462v2",
+      "published_at": "2023-09-14",
+      "updated_at": "2024-02-13",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2307-06290",
+      "title": "Instruction Mining: Instruction Data Selection for Tuning Large Language Models",
+      "authors": [
+        "Yihan Cao",
+        "Yanbin Kang",
+        "Chi Wang",
+        "Lichao Sun"
+      ],
+      "year": 2023,
+      "doi": "",
+      "arxiv_id": "2307.06290v3",
+      "url": "https://arxiv.org/abs/2307.06290v3",
+      "published_at": "2023-07-12",
+      "updated_at": "2024-07-26",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2307-02762",
+      "title": "PRD: Peer Rank and Discussion Improve Large Language Model based Evaluations",
+      "authors": [
+        "Ruosen Li",
+        "Teerth Patel",
+        "Xinya Du"
+      ],
+      "year": 2023,
+      "doi": "",
+      "arxiv_id": "2307.02762v3",
+      "url": "https://arxiv.org/abs/2307.02762v3",
+      "published_at": "2023-07-06",
+      "updated_at": "2024-12-31",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -80,7 +3400,7 @@
         "Ion Stoica"
       ],
       "year": 2023,
-      "doi": null,
+      "doi": "",
       "arxiv_id": "2306.05685v4",
       "url": "https://arxiv.org/abs/2306.05685v4",
       "published_at": "2023-06-09",
@@ -88,6 +3408,38 @@
       "checked_at": "2026-11-08",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier",
+        "relevance",
+        "seed"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2212-11214",
+      "title": "Crowd Score: A Method for the Evaluation of Jokes using Large Language Model AI Voters as Judges",
+      "authors": [
+        "Fabricio Goes",
+        "Zisen Zhou",
+        "Piotr Sawicki",
+        "Marek Grzes",
+        "Daniel G. Brown"
+      ],
+      "year": 2022,
+      "doi": "",
+      "arxiv_id": "2212.11214v1",
+      "url": "https://arxiv.org/abs/2212.11214v1",
+      "published_at": "2022-12-21",
+      "updated_at": "2022-12-21",
+      "checked_at": "2026-11-08",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "earlier"
+      ],
+      "screening_status": "not_fulltext_reviewed",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     }
