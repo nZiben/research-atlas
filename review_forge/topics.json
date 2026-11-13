@@ -24,6 +24,58 @@
     "starter_topic": "Speculative decoding for autoregressive language models under realistic serving workloads",
     "questions": ["При каких нагрузках speculative decoding даёт выигрыш в latency и throughput?", "Как результат зависит от draft model, batch size, железа и длины ответа?"],
     "queries": ["speculative decoding language model serving latency throughput", "speculative sampling draft model benchmark"],
+    "tree": [
+      {
+        "label": "Ускорение инференса",
+        "children": [
+          {
+            "label": "Speculative decoding",
+            "children": [
+              {
+                "label": "Отдельный draft и точная коррекция",
+                "section": "mechanism"
+              },
+              {
+                "label": "Medusa, Hydra и семейство EAGLE",
+                "section": "approaches"
+              },
+              {
+                "label": "Стоимость draft и дерева",
+                "section": "cost"
+              },
+              {
+                "label": "Сравнение и serving-оценка",
+                "section": "comparison"
+              },
+              {
+                "label": "Открытые вопросы",
+                "section": "questions"
+              }
+            ]
+          },
+          {
+            "label": "Квантование"
+          },
+          {
+            "label": "KV cache и attention kernels"
+          }
+        ]
+      },
+      {
+        "label": "Эффективное обучение",
+        "children": [
+          {
+            "label": "Дистилляция"
+          },
+          {
+            "label": "Распределённое обучение"
+          },
+          {
+            "label": "Эффективное дообучение"
+          }
+        ]
+      }
+    ],
     "suggested_check_days": 7
   },
   {

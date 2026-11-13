@@ -1,0 +1,927 @@
+{
+  "schema_version": 1,
+  "kind": "editorial_review",
+  "snapshot_id": "editorial-2026-11-13",
+  "at": "2026-11-13",
+  "review": {
+    "topic": "Speculative decoding: механизмы, гарантии и реальные условия ускорения",
+    "questions": [
+      "Как draft и verification сохраняют распределение target?",
+      "Какие семейства методов существуют и что они меняют?",
+      "Когда выигрыш latency не превращается в выигрыш throughput?"
+    ]
+  },
+  "papers": [
+    {
+      "id": "arxiv-2211-17192",
+      "title": "Fast Inference from Transformers via Speculative Decoding",
+      "authors": [
+        "Yaniv Leviathan",
+        "Matan Kalman",
+        "Yossi Matias"
+      ],
+      "year": 2022,
+      "arxiv_id": "2211.17192v2",
+      "url": "https://arxiv.org/abs/2211.17192v2",
+      "doi": "",
+      "source_sha256": "8cfe24eb7dfbda877588dfb9cbbe15575a6dd152658ed2e50c23973e35ca2dbc",
+      "checked_at": "2026-11-13",
+      "read_sections": "§2.3, Algorithm 1; §3.1–3.5; Appendix A.1"
+    },
+    {
+      "id": "arxiv-2302-01318",
+      "title": "Accelerating Large Language Model Decoding with Speculative Sampling",
+      "authors": [
+        "Charlie Chen",
+        "Sebastian Borgeaud",
+        "Geoffrey Irving",
+        "Jean-Baptiste Lespiau",
+        "Laurent Sifre",
+        "John Jumper"
+      ],
+      "year": 2023,
+      "arxiv_id": "2302.01318v1",
+      "url": "https://arxiv.org/abs/2302.01318v1",
+      "doi": "",
+      "source_sha256": "5564697dbcd546d164f55ed57bb21b230ae1966beb8f95122e388fb30b84fb9f",
+      "checked_at": "2026-11-13",
+      "read_sections": "§4.2; §5; §6.1 Table 1; §6.2–6.3 Figure 1"
+    },
+    {
+      "id": "arxiv-2401-10774",
+      "title": "Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads",
+      "authors": [
+        "Tianle Cai",
+        "Yuhong Li",
+        "Zhengyang Geng",
+        "Hongwu Peng",
+        "Jason D. Lee",
+        "Deming Chen",
+        "Tri Dao"
+      ],
+      "year": 2024,
+      "arxiv_id": "2401.10774v3",
+      "url": "https://arxiv.org/abs/2401.10774v3",
+      "doi": "",
+      "source_sha256": "fa92a6cb3da9aa2b1c486b8e0a6c902e1cb671fb0f1c44504e215cd43a9d815e",
+      "checked_at": "2026-11-13",
+      "read_sections": "§2.1–2.3, особенно §2.3.1; §3; Appendix B"
+    },
+    {
+      "id": "arxiv-2402-05109",
+      "title": "Hydra: Sequentially-Dependent Draft Heads for Medusa Decoding",
+      "authors": [
+        "Zachary Ankner",
+        "Rishab Parthasarathy",
+        "Aniruddha Nrusimha",
+        "Christopher Rinard",
+        "Jonathan Ragan-Kelley",
+        "William Brandon"
+      ],
+      "year": 2024,
+      "arxiv_id": "2402.05109v1",
+      "url": "https://arxiv.org/abs/2402.05109v1",
+      "doi": "",
+      "source_sha256": "f01c644227571efaf35da2cc693486761e4d1fc115f32287aefb288d5eb85abd",
+      "checked_at": "2026-11-13",
+      "read_sections": "§3; §4–5; §7.2"
+    },
+    {
+      "id": "arxiv-2401-15077",
+      "title": "EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty",
+      "authors": [
+        "Yuhui Li",
+        "Fangyun Wei",
+        "Chao Zhang",
+        "Hongyang Zhang"
+      ],
+      "year": 2024,
+      "arxiv_id": "2401.15077v3",
+      "url": "https://arxiv.org/abs/2401.15077v3",
+      "doi": "",
+      "source_sha256": "53e29c02a473574a2948b151f346be7c5e00fe3ca6fa00872104db4d1ca5be53",
+      "checked_at": "2026-11-13",
+      "read_sections": "§3; §4 setup; §4.4 Table 7"
+    },
+    {
+      "id": "arxiv-2406-16858",
+      "title": "EAGLE-2: Faster Inference of Language Models with Dynamic Draft Trees",
+      "authors": [
+        "Yuhui Li",
+        "Fangyun Wei",
+        "Chao Zhang",
+        "Hongyang Zhang"
+      ],
+      "year": 2024,
+      "arxiv_id": "2406.16858v1",
+      "url": "https://arxiv.org/abs/2406.16858v1",
+      "doi": "",
+      "source_sha256": "8f6b7c90026c8c885f8df08d10d5c21a07610a4cb967e3df7607108b7d98c8ec",
+      "checked_at": "2026-11-13",
+      "read_sections": "§3–4; §5 setup; §5.1 Table 1"
+    },
+    {
+      "id": "arxiv-2503-01840",
+      "title": "EAGLE-3: Scaling up Inference Acceleration of Large Language Models via Training-Time Test",
+      "authors": [
+        "Yuhui Li",
+        "Fangyun Wei",
+        "Chao Zhang",
+        "Hongyang Zhang"
+      ],
+      "year": 2025,
+      "arxiv_id": "2503.01840v1",
+      "url": "https://arxiv.org/abs/2503.01840v1",
+      "doi": "",
+      "source_sha256": "227940387072122877a83ca8f88812b8950e6516c39e937bf36e9102ae409b16",
+      "checked_at": "2026-11-13",
+      "read_sections": "§3.1–3.2; §4.3 Table 3"
+    },
+    {
+      "id": "arxiv-2402-12374",
+      "title": "Sequoia: Scalable, Robust, and Hardware-aware Speculative Decoding",
+      "authors": [
+        "Zhuoming Chen",
+        "Avner May",
+        "Ruslan Svirschevski",
+        "Yuhsun Huang",
+        "Max Ryabinin",
+        "Zhihao Jia",
+        "Beidi Chen"
+      ],
+      "year": 2024,
+      "arxiv_id": "2402.12374v2",
+      "url": "https://arxiv.org/abs/2402.12374v2",
+      "doi": "",
+      "source_sha256": "3e051e527f252fca5779649209fd59ad3216e2d44705d6a56f45f88ffb2944cd",
+      "checked_at": "2026-11-13",
+      "read_sections": "§3.3; §4.1 Tables 4–5"
+    },
+    {
+      "id": "arxiv-2401-07851",
+      "title": "Unlocking Efficiency in Large Language Model Inference: A Comprehensive Survey of Speculative Decoding",
+      "authors": [
+        "Heming Xia",
+        "Zhe Yang",
+        "Qingxiu Dong",
+        "Peiyi Wang",
+        "Yongqi Li",
+        "Tao Ge",
+        "Tianyu Liu",
+        "Wenjie Li",
+        "Zhifang Sui"
+      ],
+      "year": 2024,
+      "arxiv_id": "2401.07851v3",
+      "url": "https://arxiv.org/abs/2401.07851v3",
+      "doi": "",
+      "source_sha256": "006aa8dcbef91033b597ad0177285d0c48703ce341de21348a5cced46eae28a6",
+      "checked_at": "2026-11-13",
+      "read_sections": "§5–6; §8.1–8.2 Figures 5–6; Appendix B"
+    },
+    {
+      "id": "arxiv-2604-09557",
+      "title": "SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding",
+      "authors": [
+        "Talor Abramovich",
+        "Maor Ashkenazi",
+        "Carl (Izzy) Putterman",
+        "Benjamin Chislett",
+        "Tiyasa Mitra",
+        "Bita Darvish Rouhani",
+        "Ran Zilberstein",
+        "Yonatan Geifman"
+      ],
+      "year": 2026,
+      "arxiv_id": "2604.09557v1",
+      "url": "https://arxiv.org/abs/2604.09557v1",
+      "doi": "",
+      "source_sha256": "8945e9b03bdcaf38933ced4394ab30b9a1e2219d5cc0e2018970102a90f8bf20",
+      "checked_at": "2026-11-13",
+      "read_sections": "§5–7; §8.1; §8.3–8.4; Appendix H"
+    }
+  ],
+  "cards": [
+    {
+      "paper_id": "arxiv-2211-17192",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c1",
+          "paper_id": "arxiv-2211-17192",
+          "kind": "source_finding",
+          "text": "Точный speculative sampling сохраняет распределение target. В модели времени авторов ускорение зависит от вероятности принятия α, длины черновика γ и относительной стоимости draft c; уменьшение числа вызовов target само по себе не гарантирует выигрыш времени.",
+          "conditions": [
+            "p — target, q — draft; принятие min(1, p(x)/q(x)); при отказе — нормированное max(0, p−q).",
+            "Формула времени предполагает независимые одинаково распределённые вероятности принятия, длинную генерацию и параллельную проверку без роста её времени."
+          ],
+          "limitations": [
+            "Это аналитическая модель, а не универсальная формула времени сервера.",
+            "Сохранение распределения не означает совпадения строк при одинаковом seed."
+          ],
+          "evidence": [
+            {
+              "quote": "The expected improvement factor in total walltime",
+              "url": "https://arxiv.org/html/2211.17192v2#S3.SS3",
+              "locator": "§2.3, Algorithm 1; §3.1–3.5; Appendix A.1",
+              "segment_id": "S3.SS3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2302-01318",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c2",
+          "paper_id": "arxiv-2302-01318",
+          "kind": "source_finding",
+          "text": "Chen et al. измеряют 1.92× на XSum с nucleus sampling и 2.46× на HumanEval относительно авторского autoregressive baseline. Увеличение длины draft может ухудшать время и повышать его вариативность.",
+          "conditions": [
+            "Chinchilla 70B; распределённая TPU-конфигурация авторов; batch=1; K=4 в Table 1.",
+            "XSum: top-p=0.8; HumanEval: 100-shot, top-p=0.95, temperature=0.8."
+          ],
+          "limitations": [
+            "Два набора задач и конкретный стек; результаты не переносятся численно на другой сервер.",
+            "§6.1 отдельно обсуждает расхождения последовательностей из-за numerics и обработки seed."
+          ],
+          "evidence": [
+            {
+              "quote": "at batch size 1",
+              "url": "https://arxiv.org/html/2302.01318v1#S6.SS1",
+              "locator": "§4.2; §5; §6.1 Table 1; §6.2–6.3 Figure 1",
+              "segment_id": "S6.SS1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2401-10774",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c3",
+          "paper_id": "arxiv-2401-10774",
+          "kind": "source_finding",
+          "text": "Medusa добавляет головы предсказания будущих токенов и проверяет кандидатов деревом. Medusa-1 замораживает backbone, Medusa-2 обучает его совместно с головами. Typical acceptance допускает правдоподобные продолжения вместо требования точного совпадения распределений.",
+          "conditions": [
+            "Нужны обученные дополнительные головы и поддержка tree attention.",
+            "Правило acceptance и режим обучения следует указывать отдельно от имени Medusa."
+          ],
+          "limitations": [
+            "Typical acceptance при stochastic decoding нельзя автоматически называть lossless.",
+            "При совместном обучении Medusa-2 меняется сама базовая модель; нужно уточнять, относительно какой модели проверяют качество."
+          ],
+          "evidence": [
+            {
+              "quote": "it is typically unnecessary to match the distribution of the original model",
+              "url": "https://arxiv.org/html/2401.10774v3#S2.SS3.SSS1",
+              "locator": "§2.1–2.3, особенно §2.3.1; §3; Appendix B",
+              "segment_id": "S2.SS3.SSS1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2402-05109",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c4",
+          "paper_id": "arxiv-2402-05109",
+          "kind": "source_finding",
+          "text": "Hydra делает draft heads зависимыми от уже предложенного продолжения. Так устраняется независимость голов Medusa; улучшение предсказаний нужно оценивать вместе со стоимостью дополнительных вычислений.",
+          "conditions": [
+            "Сравнение голов и обучения изложено в §4–5; расширенный Hydra++ — отдельная конфигурация."
+          ],
+          "limitations": [
+            "Hydra и Hydra++ нельзя смешивать в одной строке результатов.",
+            "Наличие последовательной зависимости не определяет гарантию распределения; требуется отдельно проверить правило acceptance."
+          ],
+          "evidence": [
+            {
+              "quote": "each head’s output be a function of the candidate continuation so far",
+              "url": "https://arxiv.org/html/2402.05109v1#S3",
+              "locator": "§3; §4–5; §7.2",
+              "segment_id": "S3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2401-15077",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c5",
+          "paper_id": "arxiv-2401-15077",
+          "kind": "source_finding",
+          "text": "EAGLE использует авторегрессию в пространстве признаков с информацией о токенах. В Table 7 выигрыш latency в целом сокращается с ростом batch; максимальный допустимый batch также отличается из-за памяти.",
+          "conditions": [
+            "Table 7: MT-bench, temperature=0, FP16; Vicuna-7B на RTX 3090 24 GB и LLaMA2-Chat-70B на 4×A100 40 GB."
+          ],
+          "limitations": [
+            "Зависимость от batch не строго монотонна: в статье есть исключение Vicuna bs=4 против bs=3.",
+            "Это конкретные конфигурации, а не утверждение о любом современном serving."
+          ],
+          "evidence": [
+            {
+              "quote": "the speedup ratio diminishes with increasing batch size",
+              "url": "https://arxiv.org/html/2401.15077v3#S4.SS4",
+              "locator": "§3; §4 setup; §4.4 Table 7",
+              "segment_id": "S4.SS4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2406-16858",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c6",
+          "paper_id": "arxiv-2406-16858",
+          "kind": "source_finding",
+          "text": "EAGLE-2 меняет статическое дерево на динамическое: расширяет и отбирает ветви с учётом уверенности draft и контекста. Авторы сравнивают walltime и acceptance length на нескольких задачах.",
+          "conditions": [
+            "§5: преимущественно batch=1; Spec-Bench; режимы temperature=0 и 1."
+          ],
+          "limitations": [
+            "Более длинный принятый префикс не равен такому же множителю ускорения.",
+            "Table 1 исключает некоторые методы при non-greedy sampling из-за разных гарантий acceptance."
+          ],
+          "evidence": [
+            {
+              "quote": "Context-Aware Dynamic Draft Tree",
+              "url": "https://arxiv.org/html/2406.16858v1#S4",
+              "locator": "§3–4; §5 setup; §5.1 Table 1",
+              "segment_id": "S4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2503-01840",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c7",
+          "paper_id": "arxiv-2503-01840",
+          "kind": "source_finding",
+          "text": "EAGLE-3 заменяет предсказание target features прямым предсказанием токенов, объединяет признаки нескольких слоёв и обучается на собственных промежуточных выходах. В отдельном throughput-опыте выигрыш EAGLE-3 относительно vLLM baseline уменьшается от 1.75× при bs=2 до 1.01× при bs=56.",
+          "conditions": [
+            "Table 3: vLLM без speculation — baseline 1.00×; цепочка с максимальной длиной 2, без дерева."
+          ],
+          "limitations": [
+            "Авторы прямо предупреждают: другой framework и режим, поэтому сравнивать эту таблицу с основными latency-экспериментами некорректно."
+          ],
+          "evidence": [
+            {
+              "quote": "comparisons with other experimental results are not meaningful",
+              "url": "https://arxiv.org/html/2503.01840v1#S4.SS3",
+              "locator": "§3.1–3.2; §4.3 Table 3",
+              "segment_id": "S4.SS3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2402-12374",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c8",
+          "paper_id": "arxiv-2402-12374",
+          "kind": "source_finding",
+          "text": "Sequoia выбирает размер и глубину дерева с учётом измеренной стоимости проверки на конкретном железе. Авторы отдельно рассматривают размещение модели на GPU и offloading.",
+          "conditions": [
+            "В §4.1: Llama2, разные draft, температура и датасеты; A100 для on-chip и L40 для offloading."
+          ],
+          "limitations": [
+            "Большой множитель относительно медленного offloading baseline не означает меньшую абсолютную latency, чем у другой конфигурации.",
+            "Стоимость дерева зависит от target, draft, hardware и реализации."
+          ],
+          "evidence": [
+            {
+              "quote": "Hardware-aware Tree Optimizer",
+              "url": "https://arxiv.org/html/2402.12374v2#S3.SS3",
+              "locator": "§3.3; §4.1 Tables 4–5",
+              "segment_id": "S3.SS3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2401-07851",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c9",
+          "paper_id": "arxiv-2401-07851",
+          "kind": "source_finding",
+          "text": "Xia et al. объединяют в Spec-Bench диалог, перевод, суммаризацию, QA, математику и RAG. Сравнение на общих настройках помогает отделить различия алгоритмов от различий тестового стека.",
+          "conditions": [
+            "Основной опыт §8: Vicuna-7B FP16, RTX 3090, batch=1; greedy и отдельные режимы температуры."
+          ],
+          "limitations": [
+            "Результат остаётся ограничен выбранными задачами и настройками.",
+            "Состав и версия бенчмарка важны: название Spec-Bench само по себе не фиксирует набор примеров."
+          ],
+          "evidence": [
+            {
+              "quote": "Spec-Bench encompasses six distinct subtasks",
+              "url": "https://arxiv.org/html/2401.07851v3#S8.SS1",
+              "locator": "§5–6; §8.1–8.2 Figures 5–6; Appendix B",
+              "segment_id": "S8.SS1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2604-09557",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c10",
+          "paper_id": "arxiv-2604-09557",
+          "kind": "source_finding",
+          "text": "SPEED-Bench разделяет разнообразие задач и throughput-нагрузки. Авторы показывают, что выбор длины draft зависит от concurrency; случайные токены могут искажать throughput, а при batch=32 некоторые n-gram конфигурации дают замедление.",
+          "conditions": [
+            "§8: цепочки, а не tree verification; в §8.1 batch=32.",
+            "Примеры §8.4: GPT-OSS 120B с EAGLE3; отдельные графики TensorRT-LLM и vLLM, разные ISL и batch."
+          ],
+          "limitations": [
+            "Это результаты авторов и их реализаций; мы их не воспроизводили.",
+            "Нельзя распространять наблюдаемое замедление n-gram на все задачи и нагрузки."
+          ],
+          "evidence": [
+            {
+              "quote": "the optimal DL shifts depending on the concurrency regime",
+              "url": "https://arxiv.org/html/2604.09557v1#S8.SS4",
+              "locator": "§5–7; §8.1; §8.3–8.4; Appendix H",
+              "segment_id": "S8.SS4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "synthesis": {
+    "title": "Speculative decoding: понять ускорение, прежде чем внедрять",
+    "sections": [
+      {
+        "key": "brief",
+        "title": "За минуту: что это и когда полезно",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Большая языковая модель обычно выдаёт токены последовательно. Speculative decoding сначала дёшево предлагает несколько токенов, затем проверяет их большой моделью за один проход. Выигрыш возможен, когда проверка нескольких позиций эффективнее обычной последовательной генерации.",
+            "claim_ids": [
+              "c1",
+              "c2"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Ключевая развилка — что именно сохраняется: greedy-ответ, распределение stochastic sampling или только качество по выбранным тестам. Это разные требования; слово «ускорение» их не различает.",
+            "claim_ids": [
+              "c1",
+              "c3"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Практический вывод: выбирать нужно связку target + draft + acceptance + engine + workload. Высокий acceptance полезен, но дополнительные вычисления и память могут съесть выигрыш.",
+            "claim_ids": [
+              "c5",
+              "c7",
+              "c10"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "scope",
+        "title": "Границы и способ подготовки",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Это концептуальный разбор 10 целенаправленно выбранных работ 2022–2026 годов, подготовленный 13 ноября 2026 года по указанным разделам полных HTML-текстов. Он объясняет механизмы и условия измерений; полнота поиска и звание лучшего современного метода не заявляются.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Отбор: две базовые работы для алгоритма и гарантии; Medusa и Hydra для draft heads; EAGLE, EAGLE-2 и EAGLE-3 для изменений представления и дерева; Sequoia для hardware-aware выбора; Spec-Bench и SPEED-Bench для оценки. Версии, разделы и SHA-256 прочитанных HTML сохранены в публичном JSON обзора. Остальной каталог статей не считается прочитанным.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "mechanism",
+        "title": "Как работает draft → verify → correct",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Обозначим распределение target через p, draft через q. Draft авторегрессивно предлагает γ токенов. Target вычисляет вероятности для предложенного продолжения, а алгоритм проверяет токены слева направо. При первом отказе остаток черновика отбрасывается.",
+            "claim_ids": [
+              "c1",
+              "c2"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "В точной схеме предложенный токен x принимается с вероятностью min(1,p(x)/q(x)). При отказе следующий токен выбирается из нормированного max(0,p−q). Если весь draft принят, добавляется ещё один токен target. Коррекция нужна для сохранения распределения, а не только для проверки правдоподобия.",
+            "claim_ids": [
+              "c1"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Сохранение распределения — математическое свойство схемы при её предпосылках. Оно не обещает побитового совпадения отдельных запусков: разные вычисления и расходование случайных чисел могут дать другие последовательности.",
+            "claim_ids": [
+              "c1",
+              "c2"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "cost",
+        "title": "Откуда берётся ускорение и где его предел",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Упрощённая модель Leviathan: S ≈ (1−α^(γ+1))/((1−α)(1+γc)), где α — средняя вероятность принятия, γ — длина draft, c — отношение времени одного шага draft к шагу target. При α=1 используется предел (γ+1)/(1+γc). Это модель при i.i.d. принятии и условно бесплатной параллельной проверке, а не предсказатель любого GPU.",
+            "claim_ids": [
+              "c1"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Повышение γ увеличивает потенциально принятый блок, но удорожает draft и verification. Chen et al. наблюдают плато или регресс времени и рост вариативности; значит, максимальная длина черновика не обязана быть оптимальной.",
+            "claim_ids": [
+              "c2"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Acceptance rate, acceptance length и walltime — разные показатели. Дерево может повысить число принятых токенов, одновременно увеличив стоимость проверки. Sequoia поэтому учитывает реальную функцию времени на данном оборудовании.",
+            "claim_ids": [
+              "c6",
+              "c8"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "approaches",
+        "title": "Семейства методов: что именно меняется",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Отдельная draft-модель: базовая схема отделяет дешёвое предложение от точной проверки. Преимущество — можно использовать готовую маленькую модель; цена — её запуск, память и необходимость хорошего согласования с target.",
+            "claim_ids": [
+              "c1",
+              "c2"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Дополнительные головы: Medusa предсказывает будущие позиции из backbone; Hydra добавляет зависимость от предложенных предыдущих токенов. Сравнивать нужно конкретные варианты обучения и acceptance, а не только имена семейств.",
+            "claim_ids": [
+              "c3",
+              "c4"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Общие представления: EAGLE строит draft на признаках и токенах; EAGLE-2 адаптирует дерево к контексту; EAGLE-3 отказывается от feature prediction loss и использует признаки разных слоёв. Это последовательность разных изменений, а не просто увеличение размера draft.",
+            "claim_ids": [
+              "c5",
+              "c6",
+              "c7"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Организация проверки: Sequoia подбирает дерево под стоимость target на данном hardware. Этот выбор пересекается с выбором draft-модели: источник кандидатов и форма проверки — отдельные оси проектирования.",
+            "claim_ids": [
+              "c8"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Без обученного draft: в сравнении Spec-Bench prompt lookup особенно полезен на задачах с совпадением входа и выхода. Более поздние serving-измерения показывают, что дешёвые n-gram предложения всё равно могут замедлять работу, если стоимость проверки не окупается.",
+            "claim_ids": [
+              "c9",
+              "c10"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "comparison",
+        "title": "Сравнение работ и условий",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Таблица ниже — карта механизмов и условий, а не leaderboard. Числа разных статей не ранжируются вместе: target, baseline, sampler, hardware и нагрузка различаются.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "disagreements",
+        "title": "Что выглядит противоречием — и как это проверить",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "«Без потери качества» и «без изменения распределения» не взаимозаменяемы. Typical acceptance Medusa ослабляет требование распределения; точный rejection sampling решает другую задачу. Поэтому сходные speedup не означают одинаковой гарантии.",
+            "claim_ids": [
+              "c1",
+              "c3",
+              "c6"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "«Много токенов за проход» и «высокий throughput сервера» также не равны. Пример EAGLE-3 показывает сокращение выигрыша при росте batch в отдельном vLLM-опыте; SPEED-Bench исследует компромисс user TPS и общего throughput.",
+            "claim_ids": [
+              "c7",
+              "c10"
+            ]
+          },
+          {
+            "kind": "editorial",
+            "text": "Различия результатов не обязательно означают ошибку одной статьи. Сначала сопоставьте версию метода, семплирование и baseline; затем batch, длины запросов, железо и engine. Только после этого имеет смысл обсуждать расхождение.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "practice",
+        "title": "Как выбрать и честно измерить у себя",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "1. Зафиксировать target checkpoint, tokenizer, precision, hardware, engine и его версию. Определить цель: время ответа одного пользователя, пропускная способность или стоимость при заданной latency.",
+            "claim_ids": []
+          },
+          {
+            "kind": "synthesis",
+            "text": "2. Собрать реальные запросы с нужными языками и доменами. Отдельно задать input/output length, sampler и concurrency. Не заменять нагрузку случайными токенами без отдельного обоснования.",
+            "claim_ids": [
+              "c10"
+            ]
+          },
+          {
+            "kind": "editorial",
+            "text": "3. Сравнить с настроенным autoregressive baseline на том же стеке. Сохранять TTFT, время на выходной токен, p50/p95 latency, общий throughput, пиковую память, стоимость draft и число принятых токенов. Это наш предлагаемый протокол измерения, а не выполненный эксперимент.",
+            "claim_ids": []
+          },
+          {
+            "kind": "synthesis",
+            "text": "4. Прогнать несколько длин draft и уровней concurrency; считать расходы памяти и подготовки draft. Проверять гарантию sampler отдельно от прикладного качества. Сохранять сырые замеры и версии — универсального множителя ускорения здесь нет.",
+            "claim_ids": [
+              "c2",
+              "c5",
+              "c10"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "questions",
+        "title": "Открытые вопросы и проверяемые эксперименты",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Адаптивная длина draft: может ли простая политика по текущей concurrency и недавнему acceptance улучшить latency–throughput компромисс? Проверка: фиксированные γ против адаптивной политики на одной последовательности запросов, с учётом стоимости самой политики. Это предложение, результат неизвестен.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Перенос draft между доменами и языками: сохраняется ли выигрыш на запросах вне его обучающей смеси? Проверка: заранее выделенные языковые и доменные группы; отдельно accuracy предложений, walltime и память. Нужны данные, а не вывод из одной средней метрики.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Дерево против цепочки под нагрузкой: где дополнительные кандидаты окупаются? Проверка: одинаковый target и draft, sweep concurrency и размеров дерева; отдельно стоимость verification. Это будущий эксперимент, мы его не запускали.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "reading",
+        "title": "Маршрут чтения",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Начать с Leviathan §2 и Appendix A.1: понять correction и гарантию. Затем Chen §6: увидеть зависимость выигрыша от задачи и длины draft.",
+            "claim_ids": [
+              "c1",
+              "c2"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Для механизмов прочитать Medusa §2, Hydra §3 и EAGLE §3; затем изменения дерева в EAGLE-2 §3–4 и архитектуры в EAGLE-3 §3.",
+            "claim_ids": [
+              "c3",
+              "c4",
+              "c5",
+              "c6",
+              "c7"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Перед внедрением: Sequoia §3.3, Spec-Bench §8 и SPEED-Bench §7–8. Они помогают составить проверку на своём стеке вместо переноса чужого speedup.",
+            "claim_ids": [
+              "c8",
+              "c9",
+              "c10"
+            ]
+          }
+        ]
+      }
+    ],
+    "concepts": [
+      {
+        "id": "draft",
+        "name": "Draft-модель",
+        "definition": {
+          "kind": "synthesis",
+          "text": "Дешёвый источник кандидатов для проверки target.",
+          "claim_ids": [
+            "c1"
+          ]
+        },
+        "statements": [],
+        "disagreements": []
+      },
+      {
+        "id": "exact",
+        "name": "Точное семплирование",
+        "definition": {
+          "kind": "synthesis",
+          "text": "Сохранение распределения target через правило принятия и коррекцию.",
+          "claim_ids": [
+            "c1",
+            "c2"
+          ]
+        },
+        "statements": [],
+        "disagreements": []
+      },
+      {
+        "id": "tree",
+        "name": "Дерево кандидатов",
+        "definition": {
+          "kind": "synthesis",
+          "text": "Несколько продолжений с общей структурой префиксов; их обработка требует соответствующей attention mask.",
+          "claim_ids": [
+            "c3",
+            "c8"
+          ]
+        },
+        "statements": [],
+        "disagreements": []
+      },
+      {
+        "id": "acceptance",
+        "name": "Acceptance и walltime",
+        "definition": {
+          "kind": "synthesis",
+          "text": "Точность предложений и итоговое время — отдельные величины; стоимость draft и verification связывает их.",
+          "claim_ids": [
+            "c5",
+            "c10"
+          ]
+        },
+        "statements": [],
+        "disagreements": []
+      }
+    ],
+    "relations": []
+  },
+  "comparison": [
+    {
+      "paper_id": "arxiv-2211-17192",
+      "method": "Отдельный draft + correction",
+      "guarantee": "Распределение target при точном sampling",
+      "setup": "Аналитическая модель: α, γ, c; не serving-прогноз",
+      "claim_ids": [
+        "c1"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2302-01318",
+      "method": "Отдельный draft в распределённом inference",
+      "guarantee": "Распределение target в пределах numerics",
+      "setup": "Chinchilla 70B, TPU, bs=1: 1.92× XSum; 2.46× HumanEval",
+      "claim_ids": [
+        "c2"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2401-10774",
+      "method": "Параллельные головы + дерево",
+      "guarantee": "Зависит от acceptance и варианта обучения",
+      "setup": "Различать Medusa-1/2 и greedy/typical acceptance",
+      "claim_ids": [
+        "c3"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2402-05109",
+      "method": "Зависимые головы",
+      "guarantee": "Зависит от используемого acceptance",
+      "setup": "Различать Hydra/Hydra++; сверять §4–5",
+      "claim_ids": [
+        "c4"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2401-15077",
+      "method": "Draft на признаках и токенах",
+      "guarantee": "Точный speculative sampling в описанной схеме",
+      "setup": "MT-bench, FP16: отдельная проверка batch и памяти",
+      "claim_ids": [
+        "c5"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2406-16858",
+      "method": "Динамическое дерево",
+      "guarantee": "Точный speculative sampling в описанной схеме",
+      "setup": "Spec-Bench, в основном bs=1, T=0/1",
+      "claim_ids": [
+        "c6"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2503-01840",
+      "method": "Многослойные признаки + обучение на своих выходах",
+      "guarantee": "Точный speculative sampling в описанной схеме",
+      "setup": "vLLM, цепочка ≤2: 1.75× bs=2; 1.01× bs=56",
+      "claim_ids": [
+        "c7"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2402-12374",
+      "method": "Hardware-aware дерево",
+      "guarantee": "Точное sampling при описанной проверке",
+      "setup": "A100 on-chip и L40 offloading — разные baseline",
+      "claim_ids": [
+        "c8"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2401-07851",
+      "method": "Общее сравнение методов",
+      "guarantee": "Различается между сравниваемыми методами",
+      "setup": "Vicuna-7B FP16, RTX 3090, bs=1",
+      "claim_ids": [
+        "c9"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2604-09557",
+      "method": "Данные и serving-режимы",
+      "guarantee": "Бенчмарк; гарантия зависит от метода",
+      "setup": "Цепочки; sweep concurrency; §8.1 bs=32",
+      "claim_ids": [
+        "c10"
+      ]
+    }
+  ],
+  "quality": {
+    "warnings": [
+      "Целенаправленный концептуальный обзор 10 работ; систематический охват литературы и актуальный SOTA-рейтинг не заявляются.",
+      "Прочитаны указанные разделы полных HTML-текстов. Цитаты сверены с сохранёнными HTML; это не независимая экспертная рецензия.",
+      "Все численные результаты принадлежат авторам статей. Собственные benchmark-эксперименты и воспроизведение кода не выполнялись.",
+      "Большой поисковый корпус сайта остаётся списком кандидатов: его наличие не означает, что все статьи прочитаны."
+    ]
+  },
+  "changes": {
+    "note": "Первый концептуальный выпуск: механизм, семейства методов, условия сравнения и маршрут чтения."
+  },
+  "publication": {
+    "released_at": "2026-11-13",
+    "note": "Первый обзор по 10 выбранным работам с разделами первоисточников; без собственного воспроизведения экспериментов.",
+    "preparation": "source_based_editorial",
+    "expert_peer_review": false
+  }
+}

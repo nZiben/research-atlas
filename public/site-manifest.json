@@ -1,12 +1,13 @@
 {
   "kind": "review-forge-public-site",
   "files": {
-    "app.js": "a211b30d3d6155d830901180053be2552e1fa3434a44c30f73ae30e1a81f2976",
-    "data/library.json": "c3dcc888ee2687530939cc9e1c8568d58e66a172f65705ffb21fcaa9f8144a93",
+    "app.js": "e6afc81a6d155ab2188b8b86a7b135c8732e1535d87abd8ccd650042e2824fe0",
+    "data/library.json": "34fa1f21319c6de2330d5be37736edcc6f2431298267f7ab42ea59a6383c0af4",
+    "data/reviews/efficiency/editorial-2026-11-13.json": "d7b714bd18fefb4eae71b7c4cda409e5b6ed604d2b1444c1f318d4d28a0c0076",
     "data/search-method.json": "92b097f609190a8931fcc33add4671d66fb45013b6b0517c4a88210193e8509e",
     "data/topics/agents.json": "151bbaf2860fdb0f6bfe8d7dc8d4d041f44ef202cb77b932dd469bab6f89c934",
     "data/topics/ai-for-science.json": "f14606c99fd8ffd805c2ad1d727d12f6d2e793f7940660a9c4b27655dcd66e79",
-    "data/topics/efficiency.json": "903e4822cbe71fffc5411204cc45b817ae4d4e3a7c2e45d4063e277585cc594a",
+    "data/topics/efficiency.json": "823d96bd269c4c8dfde5038228db1ca3c7f4e02020afe32ec86f5d41ed76aecb",
     "data/topics/evaluation.json": "4c492296dc6d12adc37a5ab5117678b63e8e44322344f38229af0e7347ec1a24",
     "data/topics/interpretability.json": "36a68621968327accb73e3071e6e267ca3c2f1a55c0c52cc6848b8d84ff1b5bd",
     "data/topics/language.json": "7138cc47ea58070e87c904b046b7193863cd49d9bc3d0f0ae8dc74312b272b78",
@@ -14,9 +15,11 @@
     "data/topics/robotics.json": "dcf3524b174b74dcef5ea9ea6f771ecb7b3f3eafe3c0ef1cff6cc72e81d82ecc",
     "data/topics/safety.json": "3f8b50bcd06da82c1356ef81291ea9ad78b1b9abb277243424662971c81c9343",
     "data/topics/vision.json": "0d02946ecf179a459c554bae677293c123c53f9dce185a72ef74abfeb33b5919",
+    "exports/efficiency/editorial-2026-11-13/index.html": "237be64c06cf8d71889bfcc2b0282e40b2b6e9b5cdb62bfa6d704fd824c7aa8e",
+    "exports/efficiency/editorial-2026-11-13/references.bib": "6fb96e14ad4ae6017200c33aeb22bf50af7791841c68aac5472cac43c9801724",
     "exports/reading-lists/agents/references.bib": "d1c7265a654f18db0e743afbf5ad92f493ca28842c6db961af8e40df43dae1c6",
     "exports/reading-lists/ai-for-science/references.bib": "346c6cb2f72aca6ed869d0bcfd9719d9426c80c86d1c1a86f6796f8fc31bca88",
-    "exports/reading-lists/efficiency/references.bib": "04db76182003f96d18193226d70cedfc05ac552a27642ccb1b0fffaca938ae00",
+    "exports/reading-lists/efficiency/references.bib": "98c4867f3e88b115eaa296538a1742d1914abd5b1fe3ac4a74037d41952d60b1",
     "exports/reading-lists/evaluation/references.bib": "dd4041325021032450dd58b6a712c6eedb2c4b3059d09a063399171028c2e65c",
     "exports/reading-lists/interpretability/references.bib": "501b8d1fb85af08cfeb1488a7d3b088e8eec42c9427218f978f9e6448daaf016",
     "exports/reading-lists/language/references.bib": "6d87783a0b202da91316e5e5f2e4054a89097183c15d0c9a1490f04fc58a9aad",
@@ -24,8 +27,9 @@
     "exports/reading-lists/robotics/references.bib": "bcd7c631bf3a4f99df493ae5554fd91c483e0dff65aae58c48febef525c4b8ff",
     "exports/reading-lists/safety/references.bib": "3bc8b51a4fc8fd883daec0847e103c84e2e765986f301e7682ab518a8a551e44",
     "exports/reading-lists/vision/references.bib": "c051129b795f9e29fa7a32df9bb54426d3b8884eedeb5b8ff81087069c682d88",
-    "index.html": "a6a35c000d951114244ae1bcdac4e6c07e8507e561710ecbc29d082addeb4cf0",
+    "index.html": "ce02646cc1f906bc1df7ebf7835ae68e6d58588b31b8eacf6ca8bd3ffd14fd0d",
     "mark.svg": "b34255b20cd7d853c4f528d13e0e48371a9189ae869ce7f40722c33fd1828e27",
-    "style.css": "0ee3d85789f78fcce2e3b62f64cf1937907a251c408b709e83846b478e563eb3"
+    "related.html": "428cd61d9074acfa817ea2e7d914bb03855a9a2cc4a84bc6faa4909b2a34660e",
+    "style.css": "af47ba5b84449375c3b003809348a56a810a939f96c007be43132b18950db019"
   }
 }

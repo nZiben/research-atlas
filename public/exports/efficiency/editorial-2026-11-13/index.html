@@ -1,0 +1,174 @@
+<!doctype html><html lang='ru'><meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta http-equiv='Content-Security-Policy' content="default-src 'none'; style-src 'unsafe-inline'">
+<title>Speculative decoding: понять ускорение, прежде чем внедрять</title>
+<style>body{margin:0;background:#f6f5f1;color:#202a31;font:17px/1.65 system-ui,sans-serif}main{max-width:960px;margin:auto;padding:48px 24px}h1{font-size:2.5em;line-height:1.15}h2{margin-top:2.5em}a{color:#176a70}.ref{font-size:.76em}nav{display:flex;gap:16px;flex-wrap:wrap}details{background:white;border:1px solid #dbe0dd;border-radius:8px;padding:16px;margin:12px 0}summary{cursor:pointer;font-weight:650}small,.muted{color:#5c676d}.badge{display:inline-block;background:#ffe5aa;border-radius:4px;padding:3px 9px}article{border-top:1px solid #ddd;padding:12px 0;scroll-margin-top:20px}blockquote{border-left:3px solid #c4d6cf;padding-left:16px}code{overflow-wrap:anywhere}footer{margin-top:50px;border-top:1px solid #ccc}</style><main>
+<span class='badge'>Редакционный выпуск · ограничения указаны ниже</span><h1>Speculative decoding: понять ускорение, прежде чем внедрять</h1>
+<p class='muted'>2026-11-13 · 10 работ</p>
+<nav><a href='#review'>Обзор</a><a href='#concepts'>Понятия</a><a href='#papers'>Статьи и доказательства</a><a href='references.bib'>BibTeX</a></nav>
+<h2>Границы и вопросы</h2><p>Speculative decoding: механизмы, гарантии и реальные условия ускорения</p><ul>
+<li>Как draft и verification сохраняют распределение target?</li>
+<li>Какие семейства методов существуют и что они меняют?</li>
+<li>Когда выигрыш latency не превращается в выигрыш throughput?</li>
+</ul><section id='review'>
+<h2>За минуту: что это и когда полезно</h2>
+<p>Большая языковая модель обычно выдаёт токены последовательно. Speculative decoding сначала дёшево предлагает несколько токенов, затем проверяет их большой моделью за один проход. Выигрыш возможен, когда проверка нескольких позиций эффективнее обычной последовательной генерации. <a class="ref" href="#c1">Fast Inference from Transformers via Speculative Decoding</a> <a class="ref" href="#c2">Accelerating Large Language Model Decoding with Speculative Sampling</a></p>
+<p>Ключевая развилка — что именно сохраняется: greedy-ответ, распределение stochastic sampling или только качество по выбранным тестам. Это разные требования; слово «ускорение» их не различает. <a class="ref" href="#c1">Fast Inference from Transformers via Speculative Decoding</a> <a class="ref" href="#c3">Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads</a></p>
+<p>Практический вывод: выбирать нужно связку target + draft + acceptance + engine + workload. Высокий acceptance полезен, но дополнительные вычисления и память могут съесть выигрыш. <a class="ref" href="#c5">EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty</a> <a class="ref" href="#c7">EAGLE-3: Scaling up Inference Acceleration of Large Language Models via Training-Time Test</a> <a class="ref" href="#c10">SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding</a></p>
+<h2>Границы и способ подготовки</h2>
+<p><strong>Редакторское предложение.</strong> Это концептуальный разбор 10 целенаправленно выбранных работ 2022–2026 годов, подготовленный 13 ноября 2026 года по указанным разделам полных HTML-текстов. Он объясняет механизмы и условия измерений; полнота поиска и звание лучшего современного метода не заявляются. </p>
+<p><strong>Редакторское предложение.</strong> Отбор: две базовые работы для алгоритма и гарантии; Medusa и Hydra для draft heads; EAGLE, EAGLE-2 и EAGLE-3 для изменений представления и дерева; Sequoia для hardware-aware выбора; Spec-Bench и SPEED-Bench для оценки. Версии, разделы и SHA-256 прочитанных HTML сохранены в публичном JSON обзора. Остальной каталог статей не считается прочитанным. </p>
+<h2>Как работает draft → verify → correct</h2>
+<p>Обозначим распределение target через p, draft через q. Draft авторегрессивно предлагает γ токенов. Target вычисляет вероятности для предложенного продолжения, а алгоритм проверяет токены слева направо. При первом отказе остаток черновика отбрасывается. <a class="ref" href="#c1">Fast Inference from Transformers via Speculative Decoding</a> <a class="ref" href="#c2">Accelerating Large Language Model Decoding with Speculative Sampling</a></p>
+<p>В точной схеме предложенный токен x принимается с вероятностью min(1,p(x)/q(x)). При отказе следующий токен выбирается из нормированного max(0,p−q). Если весь draft принят, добавляется ещё один токен target. Коррекция нужна для сохранения распределения, а не только для проверки правдоподобия. <a class="ref" href="#c1">Fast Inference from Transformers via Speculative Decoding</a></p>
+<p>Сохранение распределения — математическое свойство схемы при её предпосылках. Оно не обещает побитового совпадения отдельных запусков: разные вычисления и расходование случайных чисел могут дать другие последовательности. <a class="ref" href="#c1">Fast Inference from Transformers via Speculative Decoding</a> <a class="ref" href="#c2">Accelerating Large Language Model Decoding with Speculative Sampling</a></p>
+<h2>Откуда берётся ускорение и где его предел</h2>
+<p>Упрощённая модель Leviathan: S ≈ (1−α^(γ+1))/((1−α)(1+γc)), где α — средняя вероятность принятия, γ — длина draft, c — отношение времени одного шага draft к шагу target. При α=1 используется предел (γ+1)/(1+γc). Это модель при i.i.d. принятии и условно бесплатной параллельной проверке, а не предсказатель любого GPU. <a class="ref" href="#c1">Fast Inference from Transformers via Speculative Decoding</a></p>
+<p>Повышение γ увеличивает потенциально принятый блок, но удорожает draft и verification. Chen et al. наблюдают плато или регресс времени и рост вариативности; значит, максимальная длина черновика не обязана быть оптимальной. <a class="ref" href="#c2">Accelerating Large Language Model Decoding with Speculative Sampling</a></p>
+<p>Acceptance rate, acceptance length и walltime — разные показатели. Дерево может повысить число принятых токенов, одновременно увеличив стоимость проверки. Sequoia поэтому учитывает реальную функцию времени на данном оборудовании. <a class="ref" href="#c6">EAGLE-2: Faster Inference of Language Models with Dynamic Draft Trees</a> <a class="ref" href="#c8">Sequoia: Scalable, Robust, and Hardware-aware Speculative Decoding</a></p>
+<h2>Семейства методов: что именно меняется</h2>
+<p>Отдельная draft-модель: базовая схема отделяет дешёвое предложение от точной проверки. Преимущество — можно использовать готовую маленькую модель; цена — её запуск, память и необходимость хорошего согласования с target. <a class="ref" href="#c1">Fast Inference from Transformers via Speculative Decoding</a> <a class="ref" href="#c2">Accelerating Large Language Model Decoding with Speculative Sampling</a></p>
+<p>Дополнительные головы: Medusa предсказывает будущие позиции из backbone; Hydra добавляет зависимость от предложенных предыдущих токенов. Сравнивать нужно конкретные варианты обучения и acceptance, а не только имена семейств. <a class="ref" href="#c3">Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads</a> <a class="ref" href="#c4">Hydra: Sequentially-Dependent Draft Heads for Medusa Decoding</a></p>
+<p>Общие представления: EAGLE строит draft на признаках и токенах; EAGLE-2 адаптирует дерево к контексту; EAGLE-3 отказывается от feature prediction loss и использует признаки разных слоёв. Это последовательность разных изменений, а не просто увеличение размера draft. <a class="ref" href="#c5">EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty</a> <a class="ref" href="#c6">EAGLE-2: Faster Inference of Language Models with Dynamic Draft Trees</a> <a class="ref" href="#c7">EAGLE-3: Scaling up Inference Acceleration of Large Language Models via Training-Time Test</a></p>
+<p>Организация проверки: Sequoia подбирает дерево под стоимость target на данном hardware. Этот выбор пересекается с выбором draft-модели: источник кандидатов и форма проверки — отдельные оси проектирования. <a class="ref" href="#c8">Sequoia: Scalable, Robust, and Hardware-aware Speculative Decoding</a></p>
+<p>Без обученного draft: в сравнении Spec-Bench prompt lookup особенно полезен на задачах с совпадением входа и выхода. Более поздние serving-измерения показывают, что дешёвые n-gram предложения всё равно могут замедлять работу, если стоимость проверки не окупается. <a class="ref" href="#c9">Unlocking Efficiency in Large Language Model Inference: A Comprehensive Survey of Speculative Decoding</a> <a class="ref" href="#c10">SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding</a></p>
+<h2>Сравнение работ и условий</h2>
+<p><strong>Редакторское предложение.</strong> Таблица ниже — карта механизмов и условий, а не leaderboard. Числа разных статей не ранжируются вместе: target, baseline, sampler, hardware и нагрузка различаются. </p>
+<div style="overflow-x:auto"><table><thead><tr><th>Работа</th><th>Механизм</th><th>Гарантия</th><th>Условия</th></tr></thead><tbody>
+<tr><td>Fast Inference from Transformers via Speculative Decoding <a href="#c1">источник</a></td><td>Отдельный draft + correction</td><td>Распределение target при точном sampling</td><td>Аналитическая модель: α, γ, c; не serving-прогноз</td></tr>
+<tr><td>Accelerating Large Language Model Decoding with Speculative Sampling <a href="#c2">источник</a></td><td>Отдельный draft в распределённом inference</td><td>Распределение target в пределах numerics</td><td>Chinchilla 70B, TPU, bs=1: 1.92× XSum; 2.46× HumanEval</td></tr>
+<tr><td>Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads <a href="#c3">источник</a></td><td>Параллельные головы + дерево</td><td>Зависит от acceptance и варианта обучения</td><td>Различать Medusa-1/2 и greedy/typical acceptance</td></tr>
+<tr><td>Hydra: Sequentially-Dependent Draft Heads for Medusa Decoding <a href="#c4">источник</a></td><td>Зависимые головы</td><td>Зависит от используемого acceptance</td><td>Различать Hydra/Hydra++; сверять §4–5</td></tr>
+<tr><td>EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty <a href="#c5">источник</a></td><td>Draft на признаках и токенах</td><td>Точный speculative sampling в описанной схеме</td><td>MT-bench, FP16: отдельная проверка batch и памяти</td></tr>
+<tr><td>EAGLE-2: Faster Inference of Language Models with Dynamic Draft Trees <a href="#c6">источник</a></td><td>Динамическое дерево</td><td>Точный speculative sampling в описанной схеме</td><td>Spec-Bench, в основном bs=1, T=0/1</td></tr>
+<tr><td>EAGLE-3: Scaling up Inference Acceleration of Large Language Models via Training-Time Test <a href="#c7">источник</a></td><td>Многослойные признаки + обучение на своих выходах</td><td>Точный speculative sampling в описанной схеме</td><td>vLLM, цепочка ≤2: 1.75× bs=2; 1.01× bs=56</td></tr>
+<tr><td>Sequoia: Scalable, Robust, and Hardware-aware Speculative Decoding <a href="#c8">источник</a></td><td>Hardware-aware дерево</td><td>Точное sampling при описанной проверке</td><td>A100 on-chip и L40 offloading — разные baseline</td></tr>
+<tr><td>Unlocking Efficiency in Large Language Model Inference: A Comprehensive Survey of Speculative Decoding <a href="#c9">источник</a></td><td>Общее сравнение методов</td><td>Различается между сравниваемыми методами</td><td>Vicuna-7B FP16, RTX 3090, bs=1</td></tr>
+<tr><td>SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding <a href="#c10">источник</a></td><td>Данные и serving-режимы</td><td>Бенчмарк; гарантия зависит от метода</td><td>Цепочки; sweep concurrency; §8.1 bs=32</td></tr>
+</tbody></table></div>
+<h2>Что выглядит противоречием — и как это проверить</h2>
+<p>«Без потери качества» и «без изменения распределения» не взаимозаменяемы. Typical acceptance Medusa ослабляет требование распределения; точный rejection sampling решает другую задачу. Поэтому сходные speedup не означают одинаковой гарантии. <a class="ref" href="#c1">Fast Inference from Transformers via Speculative Decoding</a> <a class="ref" href="#c3">Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads</a> <a class="ref" href="#c6">EAGLE-2: Faster Inference of Language Models with Dynamic Draft Trees</a></p>
+<p>«Много токенов за проход» и «высокий throughput сервера» также не равны. Пример EAGLE-3 показывает сокращение выигрыша при росте batch в отдельном vLLM-опыте; SPEED-Bench исследует компромисс user TPS и общего throughput. <a class="ref" href="#c7">EAGLE-3: Scaling up Inference Acceleration of Large Language Models via Training-Time Test</a> <a class="ref" href="#c10">SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding</a></p>
+<p><strong>Редакторское предложение.</strong> Различия результатов не обязательно означают ошибку одной статьи. Сначала сопоставьте версию метода, семплирование и baseline; затем batch, длины запросов, железо и engine. Только после этого имеет смысл обсуждать расхождение. </p>
+<h2>Как выбрать и честно измерить у себя</h2>
+<p><strong>Редакторское предложение.</strong> 1. Зафиксировать target checkpoint, tokenizer, precision, hardware, engine и его версию. Определить цель: время ответа одного пользователя, пропускная способность или стоимость при заданной latency. </p>
+<p>2. Собрать реальные запросы с нужными языками и доменами. Отдельно задать input/output length, sampler и concurrency. Не заменять нагрузку случайными токенами без отдельного обоснования. <a class="ref" href="#c10">SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding</a></p>
+<p><strong>Редакторское предложение.</strong> 3. Сравнить с настроенным autoregressive baseline на том же стеке. Сохранять TTFT, время на выходной токен, p50/p95 latency, общий throughput, пиковую память, стоимость draft и число принятых токенов. Это наш предлагаемый протокол измерения, а не выполненный эксперимент. </p>
+<p>4. Прогнать несколько длин draft и уровней concurrency; считать расходы памяти и подготовки draft. Проверять гарантию sampler отдельно от прикладного качества. Сохранять сырые замеры и версии — универсального множителя ускорения здесь нет. <a class="ref" href="#c2">Accelerating Large Language Model Decoding with Speculative Sampling</a> <a class="ref" href="#c5">EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty</a> <a class="ref" href="#c10">SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding</a></p>
+<h2>Открытые вопросы и проверяемые эксперименты</h2>
+<p><strong>Редакторское предложение.</strong> Адаптивная длина draft: может ли простая политика по текущей concurrency и недавнему acceptance улучшить latency–throughput компромисс? Проверка: фиксированные γ против адаптивной политики на одной последовательности запросов, с учётом стоимости самой политики. Это предложение, результат неизвестен. </p>
+<p><strong>Редакторское предложение.</strong> Перенос draft между доменами и языками: сохраняется ли выигрыш на запросах вне его обучающей смеси? Проверка: заранее выделенные языковые и доменные группы; отдельно accuracy предложений, walltime и память. Нужны данные, а не вывод из одной средней метрики. </p>
+<p><strong>Редакторское предложение.</strong> Дерево против цепочки под нагрузкой: где дополнительные кандидаты окупаются? Проверка: одинаковый target и draft, sweep concurrency и размеров дерева; отдельно стоимость verification. Это будущий эксперимент, мы его не запускали. </p>
+<h2>Маршрут чтения</h2>
+<p>Начать с Leviathan §2 и Appendix A.1: понять correction и гарантию. Затем Chen §6: увидеть зависимость выигрыша от задачи и длины draft. <a class="ref" href="#c1">Fast Inference from Transformers via Speculative Decoding</a> <a class="ref" href="#c2">Accelerating Large Language Model Decoding with Speculative Sampling</a></p>
+<p>Для механизмов прочитать Medusa §2, Hydra §3 и EAGLE §3; затем изменения дерева в EAGLE-2 §3–4 и архитектуры в EAGLE-3 §3. <a class="ref" href="#c3">Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads</a> <a class="ref" href="#c4">Hydra: Sequentially-Dependent Draft Heads for Medusa Decoding</a> <a class="ref" href="#c5">EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty</a> <a class="ref" href="#c6">EAGLE-2: Faster Inference of Language Models with Dynamic Draft Trees</a> <a class="ref" href="#c7">EAGLE-3: Scaling up Inference Acceleration of Large Language Models via Training-Time Test</a></p>
+<p>Перед внедрением: Sequoia §3.3, Spec-Bench §8 и SPEED-Bench §7–8. Они помогают составить проверку на своём стеке вместо переноса чужого speedup. <a class="ref" href="#c8">Sequoia: Scalable, Robust, and Hardware-aware Speculative Decoding</a> <a class="ref" href="#c9">Unlocking Efficiency in Large Language Model Inference: A Comprehensive Survey of Speculative Decoding</a> <a class="ref" href="#c10">SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding</a></p>
+</section><section id='concepts'><h2>Понятия</h2>
+<details><summary>Draft-модель</summary>
+<p>Дешёвый источник кандидатов для проверки target. <a class="ref" href="#c1">Fast Inference from Transformers via Speculative Decoding</a></p>
+</details>
+<details><summary>Точное семплирование</summary>
+<p>Сохранение распределения target через правило принятия и коррекцию. <a class="ref" href="#c1">Fast Inference from Transformers via Speculative Decoding</a> <a class="ref" href="#c2">Accelerating Large Language Model Decoding with Speculative Sampling</a></p>
+</details>
+<details><summary>Дерево кандидатов</summary>
+<p>Несколько продолжений с общей структурой префиксов; их обработка требует соответствующей attention mask. <a class="ref" href="#c3">Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads</a> <a class="ref" href="#c8">Sequoia: Scalable, Robust, and Hardware-aware Speculative Decoding</a></p>
+</details>
+<details><summary>Acceptance и walltime</summary>
+<p>Точность предложений и итоговое время — отдельные величины; стоимость draft и verification связывает их. <a class="ref" href="#c5">EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty</a> <a class="ref" href="#c10">SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding</a></p>
+</details>
+</section><section id='papers'><h2>Статьи и доказательства</h2>
+<h3>Fast Inference from Transformers via Speculative Decoding</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c1"><strong>source_finding</strong><p>Точный speculative sampling сохраняет распределение target. В модели времени авторов ускорение зависит от вероятности принятия α, длины черновика γ и относительной стоимости draft c; уменьшение числа вызовов target само по себе не гарантирует выигрыш времени.</p>
+<p><small>Условия: p — target, q — draft; принятие min(1, p(x)/q(x)); при отказе — нормированное max(0, p−q).; Формула времени предполагает независимые одинаково распределённые вероятности принятия, длинную генерацию и параллельную проверку без роста её времени.</small></p>
+<p><small>Авторские ограничения: Это аналитическая модель, а не универсальная формула времени сервера.; Сохранение распределения не означает совпадения строк при одинаковом seed.</small></p>
+<blockquote>The expected improvement factor in total walltime</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2211.17192v2#S3.SS3">§2.3, Algorithm 1; §3.1–3.5; Appendix A.1</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2211.17192v2">Первоисточник</a></p>
+</article>
+<h3>Accelerating Large Language Model Decoding with Speculative Sampling</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c2"><strong>source_finding</strong><p>Chen et al. измеряют 1.92× на XSum с nucleus sampling и 2.46× на HumanEval относительно авторского autoregressive baseline. Увеличение длины draft может ухудшать время и повышать его вариативность.</p>
+<p><small>Условия: Chinchilla 70B; распределённая TPU-конфигурация авторов; batch=1; K=4 в Table 1.; XSum: top-p=0.8; HumanEval: 100-shot, top-p=0.95, temperature=0.8.</small></p>
+<p><small>Авторские ограничения: Два набора задач и конкретный стек; результаты не переносятся численно на другой сервер.; §6.1 отдельно обсуждает расхождения последовательностей из-за numerics и обработки seed.</small></p>
+<blockquote>at batch size 1</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2302.01318v1#S6.SS1">§4.2; §5; §6.1 Table 1; §6.2–6.3 Figure 1</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2302.01318v1">Первоисточник</a></p>
+</article>
+<h3>Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c3"><strong>source_finding</strong><p>Medusa добавляет головы предсказания будущих токенов и проверяет кандидатов деревом. Medusa-1 замораживает backbone, Medusa-2 обучает его совместно с головами. Typical acceptance допускает правдоподобные продолжения вместо требования точного совпадения распределений.</p>
+<p><small>Условия: Нужны обученные дополнительные головы и поддержка tree attention.; Правило acceptance и режим обучения следует указывать отдельно от имени Medusa.</small></p>
+<p><small>Авторские ограничения: Typical acceptance при stochastic decoding нельзя автоматически называть lossless.; При совместном обучении Medusa-2 меняется сама базовая модель; нужно уточнять, относительно какой модели проверяют качество.</small></p>
+<blockquote>it is typically unnecessary to match the distribution of the original model</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2401.10774v3#S2.SS3.SSS1">§2.1–2.3, особенно §2.3.1; §3; Appendix B</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2401.10774v3">Первоисточник</a></p>
+</article>
+<h3>Hydra: Sequentially-Dependent Draft Heads for Medusa Decoding</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c4"><strong>source_finding</strong><p>Hydra делает draft heads зависимыми от уже предложенного продолжения. Так устраняется независимость голов Medusa; улучшение предсказаний нужно оценивать вместе со стоимостью дополнительных вычислений.</p>
+<p><small>Условия: Сравнение голов и обучения изложено в §4–5; расширенный Hydra++ — отдельная конфигурация.</small></p>
+<p><small>Авторские ограничения: Hydra и Hydra++ нельзя смешивать в одной строке результатов.; Наличие последовательной зависимости не определяет гарантию распределения; требуется отдельно проверить правило acceptance.</small></p>
+<blockquote>each head’s output be a function of the candidate continuation so far</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2402.05109v1#S3">§3; §4–5; §7.2</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2402.05109v1">Первоисточник</a></p>
+</article>
+<h3>EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c5"><strong>source_finding</strong><p>EAGLE использует авторегрессию в пространстве признаков с информацией о токенах. В Table 7 выигрыш latency в целом сокращается с ростом batch; максимальный допустимый batch также отличается из-за памяти.</p>
+<p><small>Условия: Table 7: MT-bench, temperature=0, FP16; Vicuna-7B на RTX 3090 24 GB и LLaMA2-Chat-70B на 4×A100 40 GB.</small></p>
+<p><small>Авторские ограничения: Зависимость от batch не строго монотонна: в статье есть исключение Vicuna bs=4 против bs=3.; Это конкретные конфигурации, а не утверждение о любом современном serving.</small></p>
+<blockquote>the speedup ratio diminishes with increasing batch size</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2401.15077v3#S4.SS4">§3; §4 setup; §4.4 Table 7</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2401.15077v3">Первоисточник</a></p>
+</article>
+<h3>EAGLE-2: Faster Inference of Language Models with Dynamic Draft Trees</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c6"><strong>source_finding</strong><p>EAGLE-2 меняет статическое дерево на динамическое: расширяет и отбирает ветви с учётом уверенности draft и контекста. Авторы сравнивают walltime и acceptance length на нескольких задачах.</p>
+<p><small>Условия: §5: преимущественно batch=1; Spec-Bench; режимы temperature=0 и 1.</small></p>
+<p><small>Авторские ограничения: Более длинный принятый префикс не равен такому же множителю ускорения.; Table 1 исключает некоторые методы при non-greedy sampling из-за разных гарантий acceptance.</small></p>
+<blockquote>Context-Aware Dynamic Draft Tree</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2406.16858v1#S4">§3–4; §5 setup; §5.1 Table 1</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2406.16858v1">Первоисточник</a></p>
+</article>
+<h3>EAGLE-3: Scaling up Inference Acceleration of Large Language Models via Training-Time Test</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c7"><strong>source_finding</strong><p>EAGLE-3 заменяет предсказание target features прямым предсказанием токенов, объединяет признаки нескольких слоёв и обучается на собственных промежуточных выходах. В отдельном throughput-опыте выигрыш EAGLE-3 относительно vLLM baseline уменьшается от 1.75× при bs=2 до 1.01× при bs=56.</p>
+<p><small>Условия: Table 3: vLLM без speculation — baseline 1.00×; цепочка с максимальной длиной 2, без дерева.</small></p>
+<p><small>Авторские ограничения: Авторы прямо предупреждают: другой framework и режим, поэтому сравнивать эту таблицу с основными latency-экспериментами некорректно.</small></p>
+<blockquote>comparisons with other experimental results are not meaningful</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2503.01840v1#S4.SS3">§3.1–3.2; §4.3 Table 3</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2503.01840v1">Первоисточник</a></p>
+</article>
+<h3>Sequoia: Scalable, Robust, and Hardware-aware Speculative Decoding</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c8"><strong>source_finding</strong><p>Sequoia выбирает размер и глубину дерева с учётом измеренной стоимости проверки на конкретном железе. Авторы отдельно рассматривают размещение модели на GPU и offloading.</p>
+<p><small>Условия: В §4.1: Llama2, разные draft, температура и датасеты; A100 для on-chip и L40 для offloading.</small></p>
+<p><small>Авторские ограничения: Большой множитель относительно медленного offloading baseline не означает меньшую абсолютную latency, чем у другой конфигурации.; Стоимость дерева зависит от target, draft, hardware и реализации.</small></p>
+<blockquote>Hardware-aware Tree Optimizer</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2402.12374v2#S3.SS3">§3.3; §4.1 Tables 4–5</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2402.12374v2">Первоисточник</a></p>
+</article>
+<h3>Unlocking Efficiency in Large Language Model Inference: A Comprehensive Survey of Speculative Decoding</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c9"><strong>source_finding</strong><p>Xia et al. объединяют в Spec-Bench диалог, перевод, суммаризацию, QA, математику и RAG. Сравнение на общих настройках помогает отделить различия алгоритмов от различий тестового стека.</p>
+<p><small>Условия: Основной опыт §8: Vicuna-7B FP16, RTX 3090, batch=1; greedy и отдельные режимы температуры.</small></p>
+<p><small>Авторские ограничения: Результат остаётся ограничен выбранными задачами и настройками.; Состав и версия бенчмарка важны: название Spec-Bench само по себе не фиксирует набор примеров.</small></p>
+<blockquote>Spec-Bench encompasses six distinct subtasks</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2401.07851v3#S8.SS1">§5–6; §8.1–8.2 Figures 5–6; Appendix B</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2401.07851v3">Первоисточник</a></p>
+</article>
+<h3>SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c10"><strong>source_finding</strong><p>SPEED-Bench разделяет разнообразие задач и throughput-нагрузки. Авторы показывают, что выбор длины draft зависит от concurrency; случайные токены могут искажать throughput, а при batch=32 некоторые n-gram конфигурации дают замедление.</p>
+<p><small>Условия: §8: цепочки, а не tree verification; в §8.1 batch=32.; Примеры §8.4: GPT-OSS 120B с EAGLE3; отдельные графики TensorRT-LLM и vLLM, разные ISL и batch.</small></p>
+<p><small>Авторские ограничения: Это результаты авторов и их реализаций; мы их не воспроизводили.; Нельзя распространять наблюдаемое замедление n-gram на все задачи и нагрузки.</small></p>
+<blockquote>the optimal DL shifts depending on the concurrency regime</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2604.09557v1#S8.SS4">§5–7; §8.1; §8.3–8.4; Appendix H</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2604.09557v1">Первоисточник</a></p>
+</article>
+</section><footer><h2>Ограничения</h2>
+<p>Целенаправленный концептуальный обзор 10 работ; систематический охват литературы и актуальный SOTA-рейтинг не заявляются.</p>
+<p>Прочитаны указанные разделы полных HTML-текстов. Цитаты сверены с сохранёнными HTML; это не независимая экспертная рецензия.</p>
+<p>Все численные результаты принадлежат авторам статей. Собственные benchmark-эксперименты и воспроизведение кода не выполнялись.</p>
+<p>Большой поисковый корпус сайта остаётся списком кандидатов: его наличие не означает, что все статьи прочитаны.</p>
+</footer></main></html>

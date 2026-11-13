@@ -26,6 +26,7 @@
       "topic": "Prompt injection defenses for tool-using language model agents",
       "has_review": false,
       "snapshot_id": null,
+      "review_papers": 0,
       "papers": 215,
       "bibliography_checked_at": "2026-11-08",
       "bibliography_coverage": {
@@ -74,6 +75,7 @@
       "topic": "Faithfulness of sparse autoencoder features in language model interpretability",
       "has_review": false,
       "snapshot_id": null,
+      "review_papers": 0,
       "papers": 162,
       "bibliography_checked_at": "2026-11-08",
       "bibliography_coverage": {
@@ -113,41 +115,94 @@
       ],
       "starter_topic": "Speculative decoding for autoregressive language models under realistic serving workloads",
       "questions": [
-        "При каких нагрузках speculative decoding даёт выигрыш в latency и throughput?",
-        "Как результат зависит от draft model, batch size, железа и длины ответа?"
+        "Как draft и verification сохраняют распределение target?",
+        "Какие семейства методов существуют и что они меняют?",
+        "Когда выигрыш latency не превращается в выигрыш throughput?"
       ],
       "queries": [
         "speculative decoding language model serving latency throughput",
         "speculative sampling draft model benchmark"
       ],
+      "tree": [
+        {
+          "label": "Ускорение инференса",
+          "children": [
+            {
+              "label": "Speculative decoding",
+              "children": [
+                {
+                  "label": "Отдельный draft и точная коррекция",
+                  "section": "mechanism"
+                },
+                {
+                  "label": "Medusa, Hydra и семейство EAGLE",
+                  "section": "approaches"
+                },
+                {
+                  "label": "Стоимость draft и дерева",
+                  "section": "cost"
+                },
+                {
+                  "label": "Сравнение и serving-оценка",
+                  "section": "comparison"
+                },
+                {
+                  "label": "Открытые вопросы",
+                  "section": "questions"
+                }
+              ]
+            },
+            {
+              "label": "Квантование"
+            },
+            {
+              "label": "KV cache и attention kernels"
+            }
+          ]
+        },
+        {
+          "label": "Эффективное обучение",
+          "children": [
+            {
+              "label": "Дистилляция"
+            },
+            {
+              "label": "Распределённое обучение"
+            },
+            {
+              "label": "Эффективное дообучение"
+            }
+          ]
+        }
+      ],
       "suggested_check_days": 7,
-      "topic": "Speculative decoding for autoregressive language models under realistic serving workloads",
-      "has_review": false,
-      "snapshot_id": null,
-      "papers": 212,
+      "topic": "Speculative decoding: механизмы, гарантии и реальные условия ускорения",
+      "has_review": true,
+      "snapshot_id": "editorial-2026-11-13",
+      "review_papers": 10,
+      "papers": 214,
       "bibliography_checked_at": "2026-11-08",
       "bibliography_coverage": {
-        "count": 212,
-        "first_year": 2022,
+        "count": 204,
+        "first_year": 2023,
         "last_year": 2026,
         "years": {
-          "2022": 1,
-          "2023": 14,
-          "2024": 86,
+          "2023": 13,
+          "2024": 80,
           "2025": 33,
           "2026": 78
         },
         "groups": {
-          "relevance": 60,
+          "relevance": 58,
           "recent": 49,
-          "earlier": 99,
+          "earlier": 91,
           "evaluation": 40
         },
         "full_text_reviewed": 0,
         "searches": 4,
         "truncated_searches": 4
       },
-      "updated_at": null
+      "updated_at": "2026-11-13"
     },
     {
       "id": "language",
@@ -174,6 +229,7 @@
       "topic": "Reliability of long-context reasoning in language models",
       "has_review": false,
       "snapshot_id": null,
+      "review_papers": 0,
       "papers": 131,
       "bibliography_checked_at": "2026-11-08",
       "bibliography_coverage": {
@@ -224,6 +280,7 @@
       "topic": "Retrieval and memory mechanisms for long-horizon language model agents",
       "has_review": false,
       "snapshot_id": null,
+      "review_papers": 0,
       "papers": 240,
       "bibliography_checked_at": "2026-11-08",
       "bibliography_coverage": {
@@ -276,6 +333,7 @@
       "topic": "Temporal grounding and reasoning in video language models",
       "has_review": false,
       "snapshot_id": null,
+      "review_papers": 0,
       "papers": 189,
       "bibliography_checked_at": "2026-11-08",
       "bibliography_coverage": {
@@ -328,6 +386,7 @@
       "topic": "Cross-embodiment generalization in vision-language-action robot policies",
       "has_review": false,
       "snapshot_id": null,
+      "review_papers": 0,
       "papers": 159,
       "bibliography_checked_at": "2026-11-08",
       "bibliography_coverage": {
@@ -379,6 +438,7 @@
       "topic": "Reward hacking and reward model generalization in language model post-training",
       "has_review": false,
       "snapshot_id": null,
+      "review_papers": 0,
       "papers": 158,
       "bibliography_checked_at": "2026-11-08",
       "bibliography_coverage": {
@@ -429,6 +489,7 @@
       "topic": "Validity and bias of language models as evaluators of model-generated answers",
       "has_review": false,
       "snapshot_id": null,
+      "review_papers": 0,
       "papers": 126,
       "bibliography_checked_at": "2026-11-08",
       "bibliography_coverage": {
@@ -479,6 +540,7 @@
       "topic": "Out-of-distribution generalization of neural operators for partial differential equations",
       "has_review": false,
       "snapshot_id": null,
+      "review_papers": 0,
       "papers": 87,
       "bibliography_checked_at": "2026-11-08",
       "bibliography_coverage": {

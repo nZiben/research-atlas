@@ -9,6 +9,7 @@ from datetime import date
 from pathlib import Path
 
 from .cli import topics
+from .editorial import load_editorial
 from .export import bibliography, load_snapshot, write_html
 from .util import ReviewError, digest, locked, now, read_json, write_json, write_text
 
@@ -102,7 +103,7 @@ def build_site(library: Path, destination: Path) -> Path:
     temporary = Path(tempfile.mkdtemp(prefix=".site-", dir=destination.parent))
     backup = None
     try:
-        for name in ("index.html", "app.js", "style.css", "mark.svg"):
+        for name in ("index.html", "app.js", "style.css", "mark.svg", "related.html"):
             shutil.copyfile(WEB / name, temporary / name)
         summaries = []
         for topic in topics():
@@ -121,6 +122,17 @@ def build_site(library: Path, destination: Path) -> Path:
                            {claim["id"]: claim for card in payload["cards"] for claim in card["claims"]},
                            {paper["id"]: paper for paper in payload["papers"]}, public=True)
                 versions.append({"id": entry["snapshot_id"], "released_at": entry["released_at"], "note": entry["note"]})
+            # Tracked editorial publications are not model-run snapshots or private drafts.
+            if not current:
+                current = load_editorial(library.parent / 'reviews' / f'{topic_id}.json')
+                if current:
+                    base = temporary / 'exports' / topic_id / current['snapshot_id']
+                    write_json(temporary / 'data' / 'reviews' / topic_id / f"{current['snapshot_id']}.json", current)
+                    write_text(base / 'references.bib', bibliography(current['papers']))
+                    write_html(base, {**current, 'config': {'limits': {'export_quote_words_per_paper': 25}}},
+                               {c['id']: c for card in current['cards'] for c in card['claims']},
+                               {p['id']: p for p in current['papers']}, public=True)
+                    versions.append({'id': current['snapshot_id'], **{key: current['publication'][key] for key in ('released_at', 'note')}})
             papers = [{**paper, "decision": roles.get(paper["id"], "core"), "reason": "Источник опубликованного обзора."} for paper in current["papers"]] if current else []
             included = {re.sub(r"v\d+$", "", paper.get("arxiv_id") or "") for paper in papers}
             for paper in reading["topics"].get(topic_id, []):
@@ -143,9 +155,10 @@ def build_site(library: Path, destination: Path) -> Path:
             summary = {**topic, "topic": current["review"]["topic"] if current else topic["starter_topic"],
                        "questions": current["review"]["questions"] if current else topic["questions"],
                        "has_review": current is not None, "snapshot_id": current["snapshot_id"] if current else None,
+                       "review_papers": len(current['papers']) if current else 0,
                        "papers": len(papers), "bibliography_checked_at": reading["checked_at"] if reading["topics"].get(topic_id) else None,
                        "bibliography_coverage": coverage,
-                       "updated_at": entries[-1]["released_at"] if entries else None}
+                       "updated_at": versions[-1]["released_at"] if versions else None}
             write_json(temporary / "data" / "topics" / f"{topic_id}.json", {"papers": papers, "versions": list(reversed(versions)), "review": current})
             summaries.append(summary)
         write_json(temporary / "data" / "library.json", {"schema_version": 1, "topics": summaries})

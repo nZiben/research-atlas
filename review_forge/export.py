@@ -220,6 +220,12 @@ def write_html(destination: Path, payload: dict, claims: dict, papers: dict, pub
     for section in payload["synthesis"]["sections"]:
         parts.append("<h2>" + esc(section["title"]) + "</h2>")
         parts.extend(item(s) for s in section["items"])
+        if section['key'] == 'comparison' and payload.get('comparison'):
+            parts.append('<div style="overflow-x:auto"><table><thead><tr><th>Работа</th><th>Механизм</th><th>Гарантия</th><th>Условия</th></tr></thead><tbody>')
+            for row in payload['comparison']:
+                refs = ' '.join('<a href="#' + esc(cid) + '">источник</a>' for cid in row['claim_ids'])
+                parts.append('<tr><td>' + esc(papers[row['paper_id']]['title']) + ' ' + refs + '</td>' + ''.join('<td>' + esc(row[key]) + '</td>' for key in ('method', 'guarantee', 'setup')) + '</tr>')
+            parts.append('</tbody></table></div>')
     parts.append("</section><section id='concepts'><h2>Понятия</h2>")
     for concept in payload["synthesis"]["concepts"]:
         parts.append("<details><summary>" + esc(concept["name"]) + "</summary>")
@@ -239,6 +245,9 @@ def write_html(destination: Path, payload: dict, claims: dict, papers: dict, pub
                 if words <= remaining:
                     parts.append("<blockquote>" + esc(ev["quote"]) + "</blockquote>")
                     remaining -= words
+                if payload.get('kind') == 'editorial_review':
+                    parts.append('<small>Источник: <a rel="noreferrer" href="' + esc(web_link(ev['url'])) + '">' + esc(ev['locator']) + '</a></small>')
+                    continue
                 document = payload["documents"][card["paper_id"]]
                 segment = next(s for s in document["segments"] if s["id"] == ev["segment_id"])
                 evidence_url = web_link(document["source"].get("url", ""))
@@ -247,7 +256,7 @@ def write_html(destination: Path, payload: dict, claims: dict, papers: dict, pub
                     parts.append(f'<small>Локатор: <a rel="noreferrer" href="{esc(evidence_url)}">{esc(segment["locator"] + ", " + ev["segment_id"])}</a></small>')
                 else:
                     parts.append("<small>Локатор: " + esc(segment["locator"] + ", " + ev["segment_id"]) + "</small>")
-            source_url = web_link(payload["documents"][card["paper_id"]]["source"].get("url", "") or paper.get("url", ""))
+            source_url = web_link(payload.get('documents', {}).get(card['paper_id'], {}).get('source', {}).get('url') or paper.get("url", ""))
             if source_url:
                 parts.append(f'<p><a rel="noreferrer" href="{esc(source_url)}">Первоисточник</a></p>')
             parts.append("</article>")
