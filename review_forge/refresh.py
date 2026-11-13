@@ -30,6 +30,13 @@ def read_page(raw: bytes):
     return parse_arxiv(raw)
 
 
+def page_finished(incoming: list, total: int, offset: int, page_size: int, start: str, field: str) -> bool:
+    finished = offset + len(incoming) >= total or (bool(incoming) and min(p[field][:10] for p in incoming) < start)
+    if len(incoming) < page_size and not finished:
+        raise ReviewError('Short arXiv page before the window ended; refusing to skip records.')
+    return finished
+
+
 def merge_record(rows: dict, item: dict, checked_at: str) -> str | None:
     """Only metadata returned by arXiv can advance its verification date."""
     key = bare(item['arxiv_id'])
@@ -104,7 +111,7 @@ def refresh(plan: dict, previous: dict, cache: Path, checked_at: str, page_size=
                     if change:
                         changes[change].add(bare(item['arxiv_id']))
                     eligible += 1
-                complete = page * page_size + len(incoming) >= total or (bool(incoming) and min(p[field][:10] for p in incoming) < start.isoformat())
+                complete = page_finished(incoming, total, page * page_size, page_size, start.isoformat(), field)
                 result['searches'].append({'topic': topic, 'strategy': 'recent', 'label': 'Incremental ' + sort,
                     'url': url, 'returned': len(incoming), 'eligible_returned': eligible, 'total_matches': total,
                     'truncated': False, 'scope_excluded': len(excluded), 'scope_excluded_ids': excluded,

@@ -7,7 +7,7 @@ import unittest
 from unittest.mock import patch
 
 from review_forge.publishing import load_bibliography
-from review_forge.refresh import bare, merge_record, read_page, refresh
+from review_forge.refresh import bare, merge_record, page_finished, read_page, refresh
 from review_forge.util import ReviewError, write_json
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -60,6 +60,12 @@ class DiscoveryRefresh(unittest.TestCase):
         for raw in (b'<html><body>Unavailable</body></html>', b'<feed/>', b'not xml'):
             with self.assertRaises(ReviewError):
                 read_page(raw)
+
+    def test_short_page_must_not_skip_unseen_records(self):
+        record = incoming(self.records[0])
+        with self.assertRaises(ReviewError):
+            page_finished([record], 2, 0, 100, record['published'][:10], 'published')
+        self.assertTrue(page_finished([record], 2, 1, 100, record['published'][:10], 'published'))
 
     def test_invalid_date_or_page_limit_fails_before_network(self):
         with tempfile.TemporaryDirectory() as temp, patch('review_forge.refresh.HTTP.get', side_effect=AssertionError('No network')):
