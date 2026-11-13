@@ -1,0 +1,82 @@
+name: Refresh literature
+
+on:
+  schedule:
+    - cron: '17 2 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: literature-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: write
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+      revision: ${{ steps.commit.outputs.revision }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - name: Check invariants
+        run: python -m unittest discover -s tests -q
+      - name: Discover submissions and revised versions
+        run: python -m review_forge.refresh --force
+      - name: Validate refreshed corpus
+        run: python -m unittest discover -s tests -q
+      - name: Build read-only library
+        run: python -m review_forge build-site --library library --destination public
+      - name: Commit only public bibliography and site
+        id: commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -- bibliography/papers.json public
+          if git diff --cached --quiet; then
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git diff --cached --check
+          python - <<'PY'
+          import subprocess
+          paths = subprocess.check_output(['git', 'diff', '--cached', '--name-only'], text=True).splitlines()
+          assert all(p == 'bibliography/papers.json' or p.startswith('public/') for p in paths)
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Update literature index'
+          git push origin HEAD:main
+          echo 'changed=true' >> "$GITHUB_OUTPUT"
+          echo "revision=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - name: Discovery summary
+        if: success()
+        run: |
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          data = json.load(open('bibliography/papers.json'))
+          report = data['last_update']
+          print('Checked through ' + report['checked_at'] + '. New records are unreviewed candidates; review conclusions were not changed.\n')
+          for topic, counts in report['topics'].items():
+              print(f"- {topic}: {counts['added']} added, {counts['updated']} revised")
+          PY
+  publish:
+    needs: refresh
+    if: needs.refresh.outputs.changed == 'true'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/pages.yml
+    with:
+      revision: ${{ needs.refresh.outputs.revision }}

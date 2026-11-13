@@ -1,6 +1,330 @@
 {
   "papers": [
     {
+      "id": "arxiv-2309-08600",
+      "title": "Sparse Autoencoders Find Highly Interpretable Features in Language Models",
+      "authors": [
+        "Hoagy Cunningham",
+        "Aidan Ewart",
+        "Logan Riggs",
+        "Robert Huben",
+        "Lee Sharkey"
+      ],
+      "year": 2023,
+      "arxiv_id": "2309.08600v3",
+      "url": "https://arxiv.org/abs/2309.08600v3",
+      "doi": "",
+      "source_sha256": "445e1dcec882c98db5d685ae6f9c7c0f1d3ba2de9326adf6054491fc4cd59312",
+      "checked_at": "2026-11-13",
+      "read_sections": "S2 — 2 Taking Features out of Superposition with Sparse Dictionary Learning; связанные фрагменты метода и оценки",
+      "decision": "core",
+      "reason": "Источник опубликованного обзора."
+    },
+    {
+      "id": "arxiv-2406-04093",
+      "title": "Scaling and evaluating sparse autoencoders",
+      "authors": [
+        "Leo Gao",
+        "Tom Dupré la Tour",
+        "Henk Tillman",
+        "Gabriel Goh",
+        "Rajan Troll",
+        "Alec Radford",
+        "Ilya Sutskever",
+        "Jan Leike",
+        "Jeffrey Wu"
+      ],
+      "year": 2024,
+      "arxiv_id": "2406.04093v1",
+      "url": "https://arxiv.org/abs/2406.04093v1",
+      "doi": "",
+      "source_sha256": "bba0db2b3cecea1f0504dc59dbbc3ab7b036c4c54e9643c4e7a8a9a7420dc456",
+      "checked_at": "2026-11-13",
+      "read_sections": "S2.SS3 — 2.3 TopK activation function; связанные фрагменты метода и оценки",
+      "decision": "core",
+      "reason": "Источник опубликованного обзора."
+    },
+    {
+      "id": "arxiv-2405-12241",
+      "title": "Identifying Functionally Important Features with End-to-End Sparse Dictionary Learning",
+      "authors": [
+        "Dan Braun",
+        "Jordan Taylor",
+        "Nicholas Goldowsky-Dill",
+        "Lee Sharkey"
+      ],
+      "year": 2024,
+      "arxiv_id": "2405.12241v2",
+      "url": "https://arxiv.org/abs/2405.12241v2",
+      "doi": "",
+      "source_sha256": "7f8c26bc5d9de5b384682a62b0ce1f5856af23720ba6268386994805bed9a345",
+      "checked_at": "2026-11-13",
+      "read_sections": "S3.SS2 — 3.2 End-to-end SAEs have worse reconstruction loss at each layer despite similar output distributions; связанные фрагменты метода и оценки",
+      "decision": "core",
+      "reason": "Источник опубликованного обзора."
+    },
+    {
+      "id": "arxiv-2409-14507",
+      "title": "A is for Absorption: Studying Feature Splitting and Absorption in Sparse Autoencoders",
+      "authors": [
+        "David Chanin",
+        "James Wilken-Smith",
+        "Tomáš Dulka",
+        "Hardik Bhatnagar",
+        "Satvik Golechha",
+        "Joseph Bloom"
+      ],
+      "year": 2024,
+      "arxiv_id": "2409.14507v6",
+      "url": "https://arxiv.org/abs/2409.14507v6",
+      "doi": "",
+      "source_sha256": "ca9359fb331bec2311f0fc434cb61a5a807c70460e068da4676d6d2860fa26ef",
+      "checked_at": "2026-11-13",
+      "read_sections": "S5.SS2 — 5.2 Why do SAE latents underperform?; связанные фрагменты метода и оценки",
+      "decision": "core",
+      "reason": "Источник опубликованного обзора."
+    },
+    {
+      "id": "arxiv-2503-09532",
+      "title": "SAEBench: A Comprehensive Benchmark for Sparse Autoencoders in Language Model Interpretability",
+      "authors": [
+        "Adam Karvonen",
+        "Can Rager",
+        "Johnny Lin",
+        "Curt Tigges",
+        "Joseph Bloom",
+        "David Chanin",
+        "Yeu-Tong Lau",
+        "Eoin Farrell",
+        "Callum McDougall",
+        "Kola Ayonrinde",
+        "Demian Till",
+        "Matthew Wearden",
+        "Arthur Conmy",
+        "Samuel Marks",
+        "Neel Nanda"
+      ],
+      "year": 2025,
+      "arxiv_id": "2503.09532v4",
+      "url": "https://arxiv.org/abs/2503.09532v4",
+      "doi": "",
+      "source_sha256": "522d0aae726e0b87402cdb2193bf188bc5c5514ecc0d5b56619c52ebf716ad3a",
+      "checked_at": "2026-11-13",
+      "read_sections": "S3.SS1 — 3.1 Metrics; связанные фрагменты метода и оценки",
+      "decision": "core",
+      "reason": "Источник опубликованного обзора."
+    },
+    {
+      "id": "arxiv-2602-14111",
+      "title": "Sanity Checks for Sparse Autoencoders: Do SAEs Beat Random Baselines?",
+      "authors": [
+        "Anton Korznikov",
+        "Andrey Galichin",
+        "Alexey Dontsov",
+        "Oleg Rogov",
+        "Ivan Oseledets",
+        "Elena Tutubalina"
+      ],
+      "year": 2026,
+      "arxiv_id": "2602.14111v2",
+      "url": "https://arxiv.org/abs/2602.14111v2",
+      "doi": "",
+      "source_sha256": "8c31f305a96369033b38abd5dfc794ac122176be50ce091ff3893479e534e159",
+      "checked_at": "2026-11-13",
+      "read_sections": "S4.SS2 — 4.2 Results; связанные фрагменты метода и оценки",
+      "decision": "core",
+      "reason": "Источник опубликованного обзора."
+    },
+    {
+      "id": "arxiv-2605-18229",
+      "title": "Are Sparse Autoencoder Benchmarks Reliable?",
+      "authors": [
+        "David Chanin"
+      ],
+      "year": 2026,
+      "arxiv_id": "2605.18229v1",
+      "url": "https://arxiv.org/abs/2605.18229v1",
+      "doi": "",
+      "source_sha256": "c9283922fab3d5b4bcf26b2169eec356898a09ac8273aa8d66656b9a0321b545",
+      "checked_at": "2026-11-13",
+      "read_sections": "S3 — 3 Reseed noise on a real LLM SAE; связанные фрагменты метода и оценки",
+      "decision": "core",
+      "reason": "Источник опубликованного обзора."
+    },
+    {
+      "id": "arxiv-2611-16183",
+      "title": "Data-Efficient LLM Safety Alignment Guided by Interpretable Features",
+      "authors": [
+        "Hongyu Li",
+        "Zhan Yu",
+        "Zhe Zhao",
+        "Kimmo Yan",
+        "Xiong Kuang",
+        "Renfen Hu"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.16183v1",
+      "url": "https://arxiv.org/abs/2611.16183v1",
+      "published_at": "2026-11-12",
+      "updated_at": "2026-11-12",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-14168",
+      "title": "Representational Atoms in Neural Networks",
+      "authors": [
+        "Chenhui Hu",
+        "Pengfei Cao",
+        "Kang Liu",
+        "Jun Zhao"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.14168v1",
+      "url": "https://arxiv.org/abs/2611.14168v1",
+      "published_at": "2026-11-10",
+      "updated_at": "2026-11-10",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-11398",
+      "title": "Decomposing Earth Embeddings with Sparse Autoencoders",
+      "authors": [
+        "Vitus Benson",
+        "Fanny Yang",
+        "Markus Reichstein"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.11398v1",
+      "url": "https://arxiv.org/abs/2611.11398v1",
+      "published_at": "2026-11-08",
+      "updated_at": "2026-11-08",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-10400",
+      "title": "Detecting and Explaining Robot Policy Failures from Sparse Internal Features",
+      "authors": [
+        "Riad Ahmed",
+        "Sujosh Nag",
+        "Moniruzzaman Akash",
+        "Momotaz Begum"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.10400v1",
+      "url": "https://arxiv.org/abs/2611.10400v1",
+      "published_at": "2026-11-07",
+      "updated_at": "2026-11-07",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-08922",
+      "title": "Glyph: An Interpretability Engine for AI-Driven Scientific Discovery in Clinical Data",
+      "authors": [
+        "Robbie Holland",
+        "Ashwin Kumar",
+        "Mateus A. Esmeraldo",
+        "David Le",
+        "Andrea Fisher",
+        "Jiazhen Pan",
+        "Louisa Fay",
+        "Magdalini Paschali",
+        "Vasiliki Sideri-Lampretsa",
+        "Ates Fettahoglu",
+        "Stefania Moroianu",
+        "Philipp Wesp",
+        "Ivan Lopez",
+        "Tom Nuno Wolf",
+        "McKenzie S. White",
+        "Eduardo Pontes Reis",
+        "Fatima Rodriguez",
+        "Curtis P. Langlotz",
+        "Vasilis Syrgkanis",
+        "Imon Banerjee",
+        "Akshay S. Chaudhari",
+        "Sergios Gatidis"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.08922v1",
+      "url": "https://arxiv.org/abs/2611.08922v1",
+      "published_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-12538",
+      "title": "Language Defaults Before Content: A Causal Layer Map of Multilingual Generation",
+      "authors": [
+        "Shenbin Qian",
+        "Yves Scherrer"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.12538v1",
+      "url": "https://arxiv.org/abs/2611.12538v1",
+      "published_at": "2026-11-05",
+      "updated_at": "2026-11-05",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
       "id": "arxiv-2611-08487",
       "title": "User Embeddings are Superpositions of Interpretable Behavioral Modes",
       "authors": [
@@ -17,17 +341,18 @@
       ],
       "year": 2026,
       "doi": "",
-      "arxiv_id": "2611.08487v1",
-      "url": "https://arxiv.org/abs/2611.08487v1",
+      "arxiv_id": "2611.08487v2",
+      "url": "https://arxiv.org/abs/2611.08487v2",
       "published_at": "2026-11-05",
-      "updated_at": "2026-11-05",
-      "checked_at": "2026-11-08",
+      "updated_at": "2026-11-07",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -44,13 +369,14 @@
       "url": "https://arxiv.org/abs/2611.07283v1",
       "published_at": "2026-11-05",
       "updated_at": "2026-11-05",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -68,13 +394,14 @@
       "url": "https://arxiv.org/abs/2611.06848v1",
       "published_at": "2026-11-04",
       "updated_at": "2026-11-04",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -93,13 +420,14 @@
       "url": "https://arxiv.org/abs/2611.05655v1",
       "published_at": "2026-11-03",
       "updated_at": "2026-11-03",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -122,13 +450,14 @@
       "url": "https://arxiv.org/abs/2611.04878v2",
       "published_at": "2026-11-03",
       "updated_at": "2026-11-04",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -141,17 +470,18 @@
       ],
       "year": 2026,
       "doi": "",
-      "arxiv_id": "2611.04085v1",
-      "url": "https://arxiv.org/abs/2611.04085v1",
+      "arxiv_id": "2611.04085v2",
+      "url": "https://arxiv.org/abs/2611.04085v2",
       "published_at": "2026-11-02",
-      "updated_at": "2026-11-02",
-      "checked_at": "2026-11-08",
+      "updated_at": "2026-11-05",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -171,13 +501,14 @@
       "url": "https://arxiv.org/abs/2611.03862v1",
       "published_at": "2026-11-02",
       "updated_at": "2026-11-02",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -193,13 +524,14 @@
       "url": "https://arxiv.org/abs/2611.01378v1",
       "published_at": "2026-11-01",
       "updated_at": "2026-11-01",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -222,6 +554,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -252,6 +585,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -275,6 +609,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -298,6 +633,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -328,6 +664,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -353,6 +690,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -378,6 +716,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -401,6 +740,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -427,6 +767,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -455,6 +796,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -478,6 +820,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -501,6 +844,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -524,6 +868,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -548,6 +893,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -576,6 +922,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -605,6 +952,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -627,6 +975,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -656,6 +1005,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -681,6 +1031,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -704,6 +1055,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -729,6 +1081,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -756,6 +1109,7 @@
         "seed"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -780,6 +1134,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -806,6 +1161,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -829,6 +1185,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -856,6 +1213,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -883,6 +1241,7 @@
         "seed"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -910,6 +1269,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -935,6 +1295,33 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2608-26090",
+      "title": "Finding and using interpretable latents in a neutrino foundation model with sparse autoencoders",
+      "authors": [
+        "Raphaël Bonnet-Guerrini",
+        "Johann Ioannou-Nikolaides",
+        "Inar Timiryasov",
+        "Vincenzo Piuri"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2608.26090v2",
+      "url": "https://arxiv.org/abs/2608.26090v2",
+      "published_at": "2026-08-26",
+      "updated_at": "2026-11-06",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -959,6 +1346,36 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2608-09928",
+      "title": "Multimodal Model Diffing for Feature Discovery and Control",
+      "authors": [
+        "Hunar Batra",
+        "Lachin Naghashyar",
+        "Ashkan Khakzar",
+        "Philip Torr",
+        "Christian Schroeder de Witt",
+        "Constantin Venhoff",
+        "Ronald Clark"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2608.09928v2",
+      "url": "https://arxiv.org/abs/2608.09928v2",
+      "published_at": "2026-08-10",
+      "updated_at": "2026-11-10",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -983,6 +1400,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1006,6 +1424,30 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2606-31963",
+      "title": "Signed-Permutation Coordinate Transport for RMSNorm Transformers",
+      "authors": [
+        "John Sweeney"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2606.31963v2",
+      "url": "https://arxiv.org/abs/2606.31963v2",
+      "published_at": "2026-06-30",
+      "updated_at": "2026-11-07",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1031,6 +1473,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1057,6 +1500,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1083,6 +1527,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1106,6 +1551,32 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2607-22595",
+      "title": "OrigaMI: An LLM Serving System with First-Class Interpretability Apps",
+      "authors": [
+        "Michael Blum",
+        "Mark Silberstein",
+        "Yaniv David"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2607.22595v2",
+      "url": "https://arxiv.org/abs/2607.22595v2",
+      "published_at": "2026-06-11",
+      "updated_at": "2026-11-09",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1131,6 +1602,32 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2606-06857",
+      "title": "Interpreting Brain Responses to Language with Sparse Features from Language Models",
+      "authors": [
+        "Michael A. Lepori",
+        "Kendrick Kay",
+        "Greta Tuckute"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2606.06857v3",
+      "url": "https://arxiv.org/abs/2606.06857v3",
+      "published_at": "2026-06-05",
+      "updated_at": "2026-11-11",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1143,17 +1640,19 @@
       ],
       "year": 2026,
       "doi": "",
-      "arxiv_id": "2606.06333v1",
-      "url": "https://arxiv.org/abs/2606.06333v1",
+      "arxiv_id": "2606.06333v2",
+      "url": "https://arxiv.org/abs/2606.06333v2",
       "published_at": "2026-06-04",
-      "updated_at": "2026-06-04",
-      "checked_at": "2026-11-08",
+      "updated_at": "2026-11-06",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
+        "recent",
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1178,29 +1677,88 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
     {
-      "id": "arxiv-2605-18229",
-      "title": "Are Sparse Autoencoder Benchmarks Reliable?",
+      "id": "arxiv-2605-27354",
+      "title": "Teach the Way It Thinks: Guiding LLM Post-training Data Engineering with Sparse Autoencoders",
       "authors": [
-        "David Chanin"
+        "Yi Jing",
+        "Zao Dai",
+        "Jinwu Hu",
+        "Zijun Yao",
+        "Lei Hou",
+        "Juanzi Li",
+        "Xiaozhi Wang"
       ],
       "year": 2026,
       "doi": "",
-      "arxiv_id": "2605.18229v1",
-      "url": "https://arxiv.org/abs/2605.18229v1",
-      "published_at": "2026-05-18",
-      "updated_at": "2026-05-18",
-      "checked_at": "2026-11-08",
+      "arxiv_id": "2605.27354v2",
+      "url": "https://arxiv.org/abs/2605.27354v2",
+      "published_at": "2026-05-26",
+      "updated_at": "2026-11-05",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
-        "evaluation",
-        "seed"
+        "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2605-21849",
+      "title": "Geometry-Adaptive Explainer for Faithful Dictionary-Based Interpretability under Distribution Shift",
+      "authors": [
+        "Sungjun Lim",
+        "Heedong Kim",
+        "Andrew Lee",
+        "Kyungwoo Song"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2605.21849v2",
+      "url": "https://arxiv.org/abs/2605.21849v2",
+      "published_at": "2026-05-21",
+      "updated_at": "2026-11-04",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2605-17204",
+      "title": "Event-Grounded Sparse Autoencoders for Vision-Language-Action Policies",
+      "authors": [
+        "Xinchen Jin",
+        "Aditya Chatterjee",
+        "Pranav Kumar",
+        "Rohan Paleja"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2605.17204v2",
+      "url": "https://arxiv.org/abs/2605.17204v2",
+      "published_at": "2026-05-17",
+      "updated_at": "2026-11-05",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1226,6 +1784,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1250,6 +1809,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1274,6 +1834,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1297,6 +1858,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1319,6 +1881,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1346,33 +1909,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
-      "decision": "reading_list",
-      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
-    },
-    {
-      "id": "arxiv-2602-14111",
-      "title": "Sanity Checks for Sparse Autoencoders: Do SAEs Beat Random Baselines?",
-      "authors": [
-        "Anton Korznikov",
-        "Andrey Galichin",
-        "Alexey Dontsov",
-        "Oleg Rogov",
-        "Ivan Oseledets",
-        "Elena Tutubalina"
-      ],
-      "year": 2026,
-      "doi": null,
-      "arxiv_id": "2602.14111v2",
-      "url": "https://arxiv.org/abs/2602.14111v2",
-      "published_at": "2026-02-15",
-      "updated_at": "2026-11-02",
-      "checked_at": "2026-11-08",
-      "coverage": "metadata_only",
-      "verification": "arxiv_metadata",
-      "discovery_groups": [
-        "seed"
-      ],
-      "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1401,6 +1938,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1414,17 +1952,19 @@
       ],
       "year": 2026,
       "doi": "",
-      "arxiv_id": "2602.10437v3",
-      "url": "https://arxiv.org/abs/2602.10437v3",
+      "arxiv_id": "2602.10437v4",
+      "url": "https://arxiv.org/abs/2602.10437v4",
       "published_at": "2026-02-11",
-      "updated_at": "2026-05-03",
-      "checked_at": "2026-11-08",
+      "updated_at": "2026-11-12",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
+        "recent",
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1452,6 +1992,61 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2601-22447",
+      "title": "What Does a Sparse Autoencoder Feature Do? A Weight-Based Account",
+      "authors": [
+        "Yiting Liu",
+        "Zhi-Hong Deng"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2601.22447v2",
+      "url": "https://arxiv.org/abs/2601.22447v2",
+      "published_at": "2026-01-30",
+      "updated_at": "2026-11-06",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2601-05437",
+      "title": "Tracing Moral Foundations in Large Language Models",
+      "authors": [
+        "Chenxiao Yu",
+        "Bowen Yi",
+        "Farzan Karimi-Malekabadi",
+        "Suhaib Abdurahman",
+        "Jinyi Ye",
+        "Shrikanth Narayanan",
+        "Yue Zhao",
+        "Morteza Dehghani"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2601.05437v4",
+      "url": "https://arxiv.org/abs/2601.05437v4",
+      "published_at": "2026-01-09",
+      "updated_at": "2026-11-09",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1476,6 +2071,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1504,6 +2100,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1530,6 +2127,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1558,6 +2156,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1582,6 +2181,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1605,6 +2205,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1630,6 +2231,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1657,6 +2259,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1682,6 +2285,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1707,6 +2311,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1730,6 +2335,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1754,6 +2360,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1778,6 +2385,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1801,6 +2409,32 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2509-03738",
+      "title": "Mechanistic Interpretability with Sparse Autoencoder Neural Operators",
+      "authors": [
+        "Bahareh Tolooshams",
+        "Ailsa Shen",
+        "Anima Anandkumar"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2509.03738v5",
+      "url": "https://arxiv.org/abs/2509.03738v5",
+      "published_at": "2025-09-03",
+      "updated_at": "2026-11-07",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1826,6 +2460,34 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2508-21285",
+      "title": "A Financial Brain Scan of the LLM",
+      "authors": [
+        "Hui Chen",
+        "Antoine Didisheim",
+        "Mo Pourmohammadi",
+        "Luciano Somoza",
+        "Hanqing Tian"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2508.21285v4",
+      "url": "https://arxiv.org/abs/2508.21285v4",
+      "published_at": "2025-08-29",
+      "updated_at": "2026-11-04",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1852,6 +2514,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1876,6 +2539,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1904,6 +2568,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1927,6 +2592,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1955,6 +2621,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1979,6 +2646,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2005,6 +2673,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2032,6 +2701,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2056,6 +2726,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2083,6 +2754,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2109,6 +2781,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2134,42 +2807,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
-      "decision": "reading_list",
-      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
-    },
-    {
-      "id": "arxiv-2503-09532",
-      "title": "SAEBench: A Comprehensive Benchmark for Sparse Autoencoders in Language Model Interpretability",
-      "authors": [
-        "Adam Karvonen",
-        "Can Rager",
-        "Johnny Lin",
-        "Curt Tigges",
-        "Joseph Bloom",
-        "David Chanin",
-        "Yeu-Tong Lau",
-        "Eoin Farrell",
-        "Callum McDougall",
-        "Kola Ayonrinde",
-        "Demian Till",
-        "Matthew Wearden",
-        "Arthur Conmy",
-        "Samuel Marks",
-        "Neel Nanda"
-      ],
-      "year": 2025,
-      "doi": "",
-      "arxiv_id": "2503.09532v4",
-      "url": "https://arxiv.org/abs/2503.09532v4",
-      "published_at": "2025-03-12",
-      "updated_at": "2025-06-04",
-      "checked_at": "2026-11-08",
-      "coverage": "metadata_only",
-      "verification": "arxiv_metadata",
-      "discovery_groups": [
-        "relevance"
-      ],
-      "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2198,6 +2836,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2226,6 +2865,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2250,6 +2890,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2278,6 +2919,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2301,6 +2943,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2326,6 +2969,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2351,6 +2995,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2375,6 +3020,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2398,6 +3044,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2422,6 +3069,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2445,6 +3093,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2469,6 +3118,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2494,6 +3144,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2523,6 +3174,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2546,6 +3198,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2573,6 +3226,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2600,6 +3254,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2627,6 +3282,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2652,6 +3308,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2677,6 +3334,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2709,6 +3367,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2734,6 +3393,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2763,6 +3423,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2787,6 +3448,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2810,6 +3472,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2835,6 +3498,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2860,6 +3524,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2889,6 +3554,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2913,6 +3579,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2938,6 +3605,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2962,6 +3630,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2994,6 +3663,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3017,6 +3687,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3042,6 +3713,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3075,6 +3747,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3100,6 +3773,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3124,6 +3798,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3146,6 +3821,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3175,6 +3851,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3201,6 +3878,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3234,6 +3912,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3259,6 +3938,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3283,6 +3963,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3308,6 +3989,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3334,6 +4016,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3357,6 +4040,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3379,6 +4063,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3405,6 +4090,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3432,6 +4118,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3456,6 +4143,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3483,6 +4171,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3511,6 +4200,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3535,6 +4225,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3564,6 +4255,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3590,33 +4282,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
-      "decision": "reading_list",
-      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
-    },
-    {
-      "id": "arxiv-2409-14507",
-      "title": "A is for Absorption: Studying Feature Splitting and Absorption in Sparse Autoencoders",
-      "authors": [
-        "David Chanin",
-        "James Wilken-Smith",
-        "Tomáš Dulka",
-        "Hardik Bhatnagar",
-        "Satvik Golechha",
-        "Joseph Bloom"
-      ],
-      "year": 2024,
-      "doi": "",
-      "arxiv_id": "2409.14507v6",
-      "url": "https://arxiv.org/abs/2409.14507v6",
-      "published_at": "2024-09-22",
-      "updated_at": "2025-11-17",
-      "checked_at": "2026-11-08",
-      "coverage": "metadata_only",
-      "verification": "arxiv_metadata",
-      "discovery_groups": [
-        "earlier"
-      ],
-      "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3642,6 +4308,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3665,6 +4332,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3691,6 +4359,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3721,6 +4390,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3746,6 +4416,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3774,6 +4445,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3811,6 +4483,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3839,6 +4512,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3863,6 +4537,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3886,37 +4561,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
-      "decision": "reading_list",
-      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
-    },
-    {
-      "id": "arxiv-2406-04093",
-      "title": "Scaling and evaluating sparse autoencoders",
-      "authors": [
-        "Leo Gao",
-        "Tom Dupré la Tour",
-        "Henk Tillman",
-        "Gabriel Goh",
-        "Rajan Troll",
-        "Alec Radford",
-        "Ilya Sutskever",
-        "Jan Leike",
-        "Jeffrey Wu"
-      ],
-      "year": 2024,
-      "doi": "",
-      "arxiv_id": "2406.04093v1",
-      "url": "https://arxiv.org/abs/2406.04093v1",
-      "published_at": "2024-06-06",
-      "updated_at": "2024-06-06",
-      "checked_at": "2026-11-08",
-      "coverage": "metadata_only",
-      "verification": "arxiv_metadata",
-      "discovery_groups": [
-        "earlier",
-        "relevance"
-      ],
-      "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3939,6 +4584,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3965,6 +4611,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3992,6 +4639,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4017,31 +4665,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
-      "decision": "reading_list",
-      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
-    },
-    {
-      "id": "arxiv-2405-12241",
-      "title": "Identifying Functionally Important Features with End-to-End Sparse Dictionary Learning",
-      "authors": [
-        "Dan Braun",
-        "Jordan Taylor",
-        "Nicholas Goldowsky-Dill",
-        "Lee Sharkey"
-      ],
-      "year": 2024,
-      "doi": "",
-      "arxiv_id": "2405.12241v2",
-      "url": "https://arxiv.org/abs/2405.12241v2",
-      "published_at": "2024-05-17",
-      "updated_at": "2024-05-24",
-      "checked_at": "2026-11-08",
-      "coverage": "metadata_only",
-      "verification": "arxiv_metadata",
-      "discovery_groups": [
-        "earlier"
-      ],
-      "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4073,6 +4697,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4096,33 +4721,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
-      "decision": "reading_list",
-      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
-    },
-    {
-      "id": "arxiv-2309-08600",
-      "title": "Sparse Autoencoders Find Highly Interpretable Features in Language Models",
-      "authors": [
-        "Hoagy Cunningham",
-        "Aidan Ewart",
-        "Logan Riggs",
-        "Robert Huben",
-        "Lee Sharkey"
-      ],
-      "year": 2023,
-      "doi": "",
-      "arxiv_id": "2309.08600v3",
-      "url": "https://arxiv.org/abs/2309.08600v3",
-      "published_at": "2023-09-15",
-      "updated_at": "2023-10-04",
-      "checked_at": "2026-11-08",
-      "coverage": "metadata_only",
-      "verification": "arxiv_metadata",
-      "discovery_groups": [
-        "earlier",
-        "relevance"
-      ],
-      "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4155,10 +4754,694 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     }
   ],
-  "versions": [],
-  "review": null
+  "versions": [
+    {
+      "id": "editorial-2026-11-13",
+      "released_at": "2026-11-13",
+      "note": "Первый обзор: 7 выбранных работ, механизмы, сравнение и ограничения; без своего воспроизведения."
+    }
+  ],
+  "review": {
+    "schema_version": 1,
+    "kind": "editorial_review",
+    "snapshot_id": "editorial-2026-11-13",
+    "at": "2026-11-13",
+    "review": {
+      "topic": "Sparse autoencoders: интерпретируемость, причинность и надёжность проверки",
+      "questions": [
+        "Какие проверки отличают интерпретируемую корреляцию от причинного механизма?",
+        "Какие ограничения sparse autoencoders влияют на полноту объяснения?"
+      ]
+    },
+    "papers": [
+      {
+        "id": "arxiv-2309-08600",
+        "title": "Sparse Autoencoders Find Highly Interpretable Features in Language Models",
+        "authors": [
+          "Hoagy Cunningham",
+          "Aidan Ewart",
+          "Logan Riggs",
+          "Robert Huben",
+          "Lee Sharkey"
+        ],
+        "year": 2023,
+        "arxiv_id": "2309.08600v3",
+        "url": "https://arxiv.org/abs/2309.08600v3",
+        "doi": "",
+        "source_sha256": "445e1dcec882c98db5d685ae6f9c7c0f1d3ba2de9326adf6054491fc4cd59312",
+        "checked_at": "2026-11-13",
+        "read_sections": "S2 — 2 Taking Features out of Superposition with Sparse Dictionary Learning; связанные фрагменты метода и оценки"
+      },
+      {
+        "id": "arxiv-2406-04093",
+        "title": "Scaling and evaluating sparse autoencoders",
+        "authors": [
+          "Leo Gao",
+          "Tom Dupré la Tour",
+          "Henk Tillman",
+          "Gabriel Goh",
+          "Rajan Troll",
+          "Alec Radford",
+          "Ilya Sutskever",
+          "Jan Leike",
+          "Jeffrey Wu"
+        ],
+        "year": 2024,
+        "arxiv_id": "2406.04093v1",
+        "url": "https://arxiv.org/abs/2406.04093v1",
+        "doi": "",
+        "source_sha256": "bba0db2b3cecea1f0504dc59dbbc3ab7b036c4c54e9643c4e7a8a9a7420dc456",
+        "checked_at": "2026-11-13",
+        "read_sections": "S2.SS3 — 2.3 TopK activation function; связанные фрагменты метода и оценки"
+      },
+      {
+        "id": "arxiv-2405-12241",
+        "title": "Identifying Functionally Important Features with End-to-End Sparse Dictionary Learning",
+        "authors": [
+          "Dan Braun",
+          "Jordan Taylor",
+          "Nicholas Goldowsky-Dill",
+          "Lee Sharkey"
+        ],
+        "year": 2024,
+        "arxiv_id": "2405.12241v2",
+        "url": "https://arxiv.org/abs/2405.12241v2",
+        "doi": "",
+        "source_sha256": "7f8c26bc5d9de5b384682a62b0ce1f5856af23720ba6268386994805bed9a345",
+        "checked_at": "2026-11-13",
+        "read_sections": "S3.SS2 — 3.2 End-to-end SAEs have worse reconstruction loss at each layer despite similar output distributions; связанные фрагменты метода и оценки"
+      },
+      {
+        "id": "arxiv-2409-14507",
+        "title": "A is for Absorption: Studying Feature Splitting and Absorption in Sparse Autoencoders",
+        "authors": [
+          "David Chanin",
+          "James Wilken-Smith",
+          "Tomáš Dulka",
+          "Hardik Bhatnagar",
+          "Satvik Golechha",
+          "Joseph Bloom"
+        ],
+        "year": 2024,
+        "arxiv_id": "2409.14507v6",
+        "url": "https://arxiv.org/abs/2409.14507v6",
+        "doi": "",
+        "source_sha256": "ca9359fb331bec2311f0fc434cb61a5a807c70460e068da4676d6d2860fa26ef",
+        "checked_at": "2026-11-13",
+        "read_sections": "S5.SS2 — 5.2 Why do SAE latents underperform?; связанные фрагменты метода и оценки"
+      },
+      {
+        "id": "arxiv-2503-09532",
+        "title": "SAEBench: A Comprehensive Benchmark for Sparse Autoencoders in Language Model Interpretability",
+        "authors": [
+          "Adam Karvonen",
+          "Can Rager",
+          "Johnny Lin",
+          "Curt Tigges",
+          "Joseph Bloom",
+          "David Chanin",
+          "Yeu-Tong Lau",
+          "Eoin Farrell",
+          "Callum McDougall",
+          "Kola Ayonrinde",
+          "Demian Till",
+          "Matthew Wearden",
+          "Arthur Conmy",
+          "Samuel Marks",
+          "Neel Nanda"
+        ],
+        "year": 2025,
+        "arxiv_id": "2503.09532v4",
+        "url": "https://arxiv.org/abs/2503.09532v4",
+        "doi": "",
+        "source_sha256": "522d0aae726e0b87402cdb2193bf188bc5c5514ecc0d5b56619c52ebf716ad3a",
+        "checked_at": "2026-11-13",
+        "read_sections": "S3.SS1 — 3.1 Metrics; связанные фрагменты метода и оценки"
+      },
+      {
+        "id": "arxiv-2602-14111",
+        "title": "Sanity Checks for Sparse Autoencoders: Do SAEs Beat Random Baselines?",
+        "authors": [
+          "Anton Korznikov",
+          "Andrey Galichin",
+          "Alexey Dontsov",
+          "Oleg Rogov",
+          "Ivan Oseledets",
+          "Elena Tutubalina"
+        ],
+        "year": 2026,
+        "arxiv_id": "2602.14111v2",
+        "url": "https://arxiv.org/abs/2602.14111v2",
+        "doi": "",
+        "source_sha256": "8c31f305a96369033b38abd5dfc794ac122176be50ce091ff3893479e534e159",
+        "checked_at": "2026-11-13",
+        "read_sections": "S4.SS2 — 4.2 Results; связанные фрагменты метода и оценки"
+      },
+      {
+        "id": "arxiv-2605-18229",
+        "title": "Are Sparse Autoencoder Benchmarks Reliable?",
+        "authors": [
+          "David Chanin"
+        ],
+        "year": 2026,
+        "arxiv_id": "2605.18229v1",
+        "url": "https://arxiv.org/abs/2605.18229v1",
+        "doi": "",
+        "source_sha256": "c9283922fab3d5b4bcf26b2169eec356898a09ac8273aa8d66656b9a0321b545",
+        "checked_at": "2026-11-13",
+        "read_sections": "S3 — 3 Reseed noise on a real LLM SAE; связанные фрагменты метода и оценки"
+      }
+    ],
+    "cards": [
+      {
+        "paper_id": "arxiv-2309-08600",
+        "coverage": "selected_full_text_sections",
+        "claims": [
+          {
+            "id": "c1",
+            "paper_id": "arxiv-2309-08600",
+            "kind": "source_finding",
+            "text": "Sparse dictionary learning представляет активации модели разреженной комбинацией направлений. Это даёт кандидатов на интерпретируемые признаки при суперпозиции, но само по себе не устанавливает, что каждый latent является истинной вычислительной переменной модели.",
+            "conditions": [
+              "Активации языковой модели; разреженный словарь шире исходного пространства."
+            ],
+            "limitations": [
+              "Разложение зависит от модели, слоя, данных, ширины и sparsity; гипотеза о признаках требует дополнительной проверки."
+            ],
+            "evidence": [
+              {
+                "quote": "To take network features out of superposition, we employ",
+                "url": "https://arxiv.org/html/2309.08600v3#S2",
+                "locator": "S2 — 2 Taking Features out of Superposition with Sparse Dictionary Learning; связанные фрагменты метода и оценки",
+                "segment_id": "S2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "arxiv-2406-04093",
+        "coverage": "selected_full_text_sections",
+        "claims": [
+          {
+            "id": "c2",
+            "paper_id": "arxiv-2406-04093",
+            "kind": "source_finding",
+            "text": "TopK SAE явно ограничивает число активных latents. Работа о масштабировании рассматривает не только reconstruction/sparsity, но и downstream loss, восстановление известных признаков и объяснимость.",
+            "conditions": [
+              "TopK activation и выбранный слой модели; различные размеры словаря и sparsity."
+            ],
+            "limitations": [
+              "Лучший reconstruction trade-off не доказывает полноту механистического объяснения."
+            ],
+            "evidence": [
+              {
+                "quote": "directly controls the number of active latents",
+                "url": "https://arxiv.org/html/2406.04093v1#S2.SS3",
+                "locator": "S2.SS3 — 2.3 TopK activation function; связанные фрагменты метода и оценки",
+                "segment_id": "S2.SS3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "arxiv-2405-12241",
+        "coverage": "selected_full_text_sections",
+        "claims": [
+          {
+            "id": "c3",
+            "paper_id": "arxiv-2405-12241",
+            "kind": "source_finding",
+            "text": "End-to-end dictionary learning обучает разложение по влиянию на выход модели. Авторы показывают, что близкое выходное распределение может сочетаться с иным путём активаций; downstream reconstruction вводится как дополнительное ограничение.",
+            "conditions": [
+              "Сравнение local, e2e и e2e+downstream objectives; GPT2-small и TinyStories в экспериментах."
+            ],
+            "limitations": [
+              "Сохранить поведение на тестовых примерах недостаточно, чтобы доказать сохранение исходного вычислительного механизма."
+            ],
+            "evidence": [
+              {
+                "quote": "have much worse reconstruction error",
+                "url": "https://arxiv.org/html/2405.12241v2#S3.SS2",
+                "locator": "S3.SS2 — 3.2 End-to-end SAEs have worse reconstruction loss at each layer despite similar output distributions; связанные фрагменты метода и оценки",
+                "segment_id": "S3.SS2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "arxiv-2409-14507",
+        "coverage": "selected_full_text_sections",
+        "claims": [
+          {
+            "id": "c4",
+            "paper_id": "arxiv-2409-14507",
+            "kind": "source_finding",
+            "text": "Feature absorption показывает случай, когда ожидаемый признак не активируется, а информация о нём представлена другим latent. Красивое объяснение активных примеров может скрывать пропуски и распределённое причинное влияние.",
+            "conditions": [
+              "Признаки первой буквы токена; конкретные Gemma Scope SAEs, probes и ablations."
+            ],
+            "limitations": [
+              "Один тестовый класс признаков не исчерпывает все семантические и вычислительные признаки."
+            ],
+            "evidence": [
+              {
+                "quote": "The Gemma Scope layer 3, 16k width, 59 L0",
+                "url": "https://arxiv.org/html/2409.14507v6#S5.SS2",
+                "locator": "S5.SS2 — 5.2 Why do SAE latents underperform?; связанные фрагменты метода и оценки",
+                "segment_id": "S5.SS2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "arxiv-2503-09532",
+        "coverage": "selected_full_text_sections",
+        "claims": [
+          {
+            "id": "c5",
+            "paper_id": "arxiv-2503-09532",
+            "kind": "source_finding",
+            "text": "SAEBench разделяет обнаружение концептов, интерпретируемость, реконструкцию и disentanglement. Такой набор выявляет компромиссы, которые скрывает оптимизация одной proxy-метрики.",
+            "conditions": [
+              "Несколько архитектур, ширин и уровней sparsity; заданные модели и слои."
+            ],
+            "limitations": [
+              "Сами benchmark-метрики являются измерительными инструментами и тоже требуют проверки валидности."
+            ],
+            "evidence": [
+              {
+                "quote": "Effective sparse autoencoders should excel across multiple dimensions: they",
+                "url": "https://arxiv.org/html/2503.09532v4#S3.SS1",
+                "locator": "S3.SS1 — 3.1 Metrics; связанные фрагменты метода и оценки",
+                "segment_id": "S3.SS1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "arxiv-2602-14111",
+        "coverage": "selected_full_text_sections",
+        "claims": [
+          {
+            "id": "c6",
+            "paper_id": "arxiv-2602-14111",
+            "kind": "source_finding",
+            "text": "Sanity Checks сравнивает обученные SAEs с вариантами, где компоненты заморожены случайно. Сопоставимые benchmark-результаты в этих условиях ставят под сомнение достаточность распространённых тестов для доказательства восстановления содержательных признаков.",
+            "conditions": [
+              "Синтетические ground-truth признаки и реальные активации; отдельные frozen-component baselines."
+            ],
+            "limitations": [
+              "Синтетическая независимость признаков упрощает задачу; выводы не переносятся автоматически на transcoders и crosscoders."
+            ],
+            "evidence": [
+              {
+                "quote": "Our results, summarized in Figures 3 to 5, show",
+                "url": "https://arxiv.org/html/2602.14111v2#S4.SS2",
+                "locator": "S4.SS2 — 4.2 Results; связанные фрагменты метода и оценки",
+                "segment_id": "S4.SS2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "arxiv-2605-18229",
+        "coverage": "selected_full_text_sections",
+        "claims": [
+          {
+            "id": "c7",
+            "paper_id": "arxiv-2605-18229",
+            "kind": "source_finding",
+            "text": "Аудит SAE benchmarks повторяет оценки одного SAE с разными seeds и изучает шум метрик. Нестабильная метрика может создавать видимый прогресс без надёжного различения вариантов модели.",
+            "conditions": [
+              "Повторные независимые evaluation seeds; Gemma Scope SAE и дополнительные архитектуры."
+            ],
+            "limitations": [
+              "Малые различия нельзя интерпретировать без масштаба шума и чувствительности метрики."
+            ],
+            "evidence": [
+              {
+                "quote": "To measure reseed noise we ran each SAEBench evaluation",
+                "url": "https://arxiv.org/html/2605.18229v1#S3",
+                "locator": "S3 — 3 Reseed noise on a real LLM SAE; связанные фрагменты метода и оценки",
+                "segment_id": "S3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "synthesis": {
+      "title": "Sparse autoencoders: интерпретируемость, причинность и надёжность проверки",
+      "sections": [
+        {
+          "key": "brief",
+          "title": "За минуту: главный вопрос и вывод",
+          "items": [
+            {
+              "kind": "synthesis",
+              "text": "SAE ищет разреженные направления в активациях модели. Удобный для человека latent — полезная гипотеза, но его понятность, полнота и причинная роль являются разными свойствами.",
+              "claim_ids": [
+                "c1",
+                "c4"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "Надёжный обзор должен связать reconstruction с поведением модели, тестами концептов и вмешательствами. Один общий score может скрывать противоположные результаты.",
+              "claim_ids": [
+                "c2",
+                "c3",
+                "c5"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "Свежие контрольные исследования требуют сравнения со случайными baselines и оценки шума самих benchmarks. Их выводы ограничены исследованными моделями и протоколами.",
+              "claim_ids": [
+                "c6",
+                "c7"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "scope",
+          "title": "Границы и отбор источников",
+          "items": [
+            {
+              "kind": "editorial",
+              "text": "Обзор подготовлен 13 ноября 2026 года по выбранным фрагментам полных HTML-текстов 7 работ. Это узкий фокус внутри направления, а не энциклопедия всей области и не систематический поиск. Количество источников в общем каталоге не означает, что все они прочитаны.",
+              "claim_ids": []
+            },
+            {
+              "kind": "editorial",
+              "text": "Отбор целенаправленный: основные постановки задачи, различные семейства методов и работы, проверяющие их ограничения. Точные версии, локаторы и SHA-256 прочитанных HTML сохранены в JSON. Короткая цитата служит поисковым якорем; вывод следует сверять с контекстом раздела. Независимая экспертная рецензия и воспроизведение экспериментов не выполнялись.",
+              "claim_ids": []
+            }
+          ]
+        },
+        {
+          "key": "mechanism",
+          "title": "Понятия и механизм: что именно проверяется",
+          "items": [
+            {
+              "kind": "synthesis",
+              "text": "Разложение x≈Dz с разреженным z меняет представление активации, а не автоматически раскрывает единственную истинную систему признаков. Словарь и коэффициенты зависят от обучающей цели и ограничений.",
+              "claim_ids": [
+                "c1",
+                "c2"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "Faithfulness требует уточнения: восстановлены исходные активации, сохранён выход модели или сохранён конкретный внутренний путь? Эти критерии могут расходиться.",
+              "claim_ids": [
+                "c3"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "Интерпретируемость по выбранным активным примерам следует дополнить проверкой случаев, где признак должен проявиться, но latent молчит. Absorption делает такой контроль особенно важным.",
+              "claim_ids": [
+                "c4"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "approaches",
+          "title": "Подходы и свидетельства из работ",
+          "items": [
+            {
+              "kind": "synthesis",
+              "text": "Sparse dictionary learning представляет активации модели разреженной комбинацией направлений. Это даёт кандидатов на интерпретируемые признаки при суперпозиции, но само по себе не устанавливает, что каждый latent является истинной вычислительной переменной модели.",
+              "claim_ids": [
+                "c1"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "TopK SAE явно ограничивает число активных latents. Работа о масштабировании рассматривает не только reconstruction/sparsity, но и downstream loss, восстановление известных признаков и объяснимость.",
+              "claim_ids": [
+                "c2"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "End-to-end dictionary learning обучает разложение по влиянию на выход модели. Авторы показывают, что близкое выходное распределение может сочетаться с иным путём активаций; downstream reconstruction вводится как дополнительное ограничение.",
+              "claim_ids": [
+                "c3"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "Feature absorption показывает случай, когда ожидаемый признак не активируется, а информация о нём представлена другим latent. Красивое объяснение активных примеров может скрывать пропуски и распределённое причинное влияние.",
+              "claim_ids": [
+                "c4"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "SAEBench разделяет обнаружение концептов, интерпретируемость, реконструкцию и disentanglement. Такой набор выявляет компромиссы, которые скрывает оптимизация одной proxy-метрики.",
+              "claim_ids": [
+                "c5"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "Sanity Checks сравнивает обученные SAEs с вариантами, где компоненты заморожены случайно. Сопоставимые benchmark-результаты в этих условиях ставят под сомнение достаточность распространённых тестов для доказательства восстановления содержательных признаков.",
+              "claim_ids": [
+                "c6"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "Аудит SAE benchmarks повторяет оценки одного SAE с разными seeds и изучает шум метрик. Нестабильная метрика может создавать видимый прогресс без надёжного различения вариантов модели.",
+              "claim_ids": [
+                "c7"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "comparison",
+          "title": "Сравнение работ и условий",
+          "items": [
+            {
+              "kind": "editorial",
+              "text": "Таблица разделяет постановки, механизмы и границы выводов. Она не ранжирует работы по несопоставимым числам. Улучшение показателя в конкретной статье не доказывает преимущество во всех моделях, данных и режимах.",
+              "claim_ids": []
+            }
+          ]
+        },
+        {
+          "key": "disagreements",
+          "title": "Разногласия, ограничения и ложные обобщения",
+          "items": [
+            {
+              "kind": "synthesis",
+              "text": "Успех SAEBench и критика отдельных метрик не противоречат друг другу: benchmark расширяет измерения, а последующий аудит проверяет, насколько эти измерения надёжны.",
+              "claim_ids": [
+                "c5",
+                "c7"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "Сходство со случайным baseline не доказывает бесполезность всех SAEs. Оно показывает, что изученные оценки недостаточны для более сильного утверждения о recovered features.",
+              "claim_ids": [
+                "c6"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "Более высокое восстановление выхода не обязательно означает более точное описание исходного circuit. End-to-end цель может допустить другой внутренний путь.",
+              "claim_ids": [
+                "c3"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "practice",
+          "title": "Как читать результаты и проверить подход у себя",
+          "items": [
+            {
+              "kind": "editorial",
+              "text": "Фиксировать checkpoint, слой, словарь, sparsity, данные обучения и теста. Сравнивать варианты при согласованном бюджете; сохранять seeds и критерий выбора latents.",
+              "claim_ids": []
+            },
+            {
+              "kind": "synthesis",
+              "text": "Включить random/frozen baselines, recall на негативных случаях, downstream effect и причинные вмешательства; повторять оценку с несколькими seeds.",
+              "claim_ids": [
+                "c4",
+                "c6",
+                "c7"
+              ]
+            },
+            {
+              "kind": "editorial",
+              "text": "Отдельно подписывать качество реконструкции, интерпретацию человеком и causal effect. Не объединять их в доказательство полного понимания модели.",
+              "claim_ids": []
+            }
+          ]
+        },
+        {
+          "key": "questions",
+          "title": "Открытые вопросы и следующие эксперименты",
+          "items": [
+            {
+              "kind": "editorial",
+              "text": "Можно ли разработать оценку признаков, которая отличает обученный SAE от сильного случайного baseline и предсказывает успех целевого causal editing? Нужны заранее отложенные задачи и неизменяемый протокол.",
+              "claim_ids": []
+            },
+            {
+              "kind": "editorial",
+              "text": "Как стабильно сопоставлять признаки разных seeds и ширин при splitting/absorption? Проверка должна учитывать наборы признаков и вмешательства, а не только cosine similarity одного latent.",
+              "claim_ids": []
+            }
+          ]
+        },
+        {
+          "key": "reading",
+          "title": "Маршрут чтения",
+          "items": [
+            {
+              "kind": "editorial",
+              "text": "Сначала прочитайте первые две работы из таблицы: они задают понятия и способ измерения. Затем сравните методы в середине списка с критическими и более поздними исследованиями. Цель — понять, какое предположение меняется и что именно измеряется.",
+              "claim_ids": []
+            },
+            {
+              "kind": "editorial",
+              "text": "Для каждой работы выпишите объект переноса или оценки, используемый baseline, единицу тестирования, условия успеха и способ проверки. Цифры без этих полей недостаточны для выбора метода. Ссылки [n] раскрывают карточки доказательств; оттуда можно открыть раздел первоисточника.",
+              "claim_ids": []
+            }
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "id": "concept-1",
+          "name": "Faithfulness",
+          "definition": {
+            "kind": "synthesis",
+            "text": "Точность относительно явно выбранного объекта: активаций, поведения или вычислительного пути.",
+            "claim_ids": [
+              "c3"
+            ]
+          },
+          "statements": [],
+          "disagreements": []
+        },
+        {
+          "id": "concept-2",
+          "name": "Feature absorption",
+          "definition": {
+            "kind": "synthesis",
+            "text": "Информация о концепте проявляется в другом latent, пока ожидаемый latent не активируется.",
+            "claim_ids": [
+              "c4"
+            ]
+          },
+          "statements": [],
+          "disagreements": []
+        }
+      ],
+      "relations": []
+    },
+    "comparison": [
+      {
+        "paper_id": "arxiv-2309-08600",
+        "method": "Разреженное разложение активаций",
+        "guarantee": "Кандидаты на признаки, не доказанная полная онтология",
+        "setup": "Активации языковой модели; разреженный словарь шире исходного пространства.",
+        "claim_ids": [
+          "c1"
+        ]
+      },
+      {
+        "paper_id": "arxiv-2406-04093",
+        "method": "TopK и масштабирование",
+        "guarantee": "Сравнение качества требует нескольких метрик",
+        "setup": "TopK activation и выбранный слой модели; различные размеры словаря и sparsity.",
+        "claim_ids": [
+          "c2"
+        ]
+      },
+      {
+        "paper_id": "arxiv-2405-12241",
+        "method": "Поведенческая функция потерь",
+        "guarantee": "Output fidelity и внутренний путь различаются",
+        "setup": "Сравнение local, e2e и e2e+downstream objectives; GPT2-small и TinyStories в экспериментах.",
+        "claim_ids": [
+          "c3"
+        ]
+      },
+      {
+        "paper_id": "arxiv-2409-14507",
+        "method": "Проверка splitting и absorption",
+        "guarantee": "Требуются negative cases и причинные вмешательства",
+        "setup": "Признаки первой буквы токена; конкретные Gemma Scope SAEs, probes и ablations.",
+        "claim_ids": [
+          "c4"
+        ]
+      },
+      {
+        "paper_id": "arxiv-2503-09532",
+        "method": "Многомерная оценка SAE",
+        "guarantee": "Несколько задач вместо единого proxy score",
+        "setup": "Несколько архитектур, ширин и уровней sparsity; заданные модели и слои.",
+        "claim_ids": [
+          "c5"
+        ]
+      },
+      {
+        "paper_id": "arxiv-2602-14111",
+        "method": "Случайные контрольные разложения",
+        "guarantee": "Нужно превосходить содержательные контрольные методы",
+        "setup": "Синтетические ground-truth признаки и реальные активации; отдельные frozen-component baselines.",
+        "claim_ids": [
+          "c6"
+        ]
+      },
+      {
+        "paper_id": "arxiv-2605-18229",
+        "method": "Аудит измерительного инструмента",
+        "guarantee": "Повторяемость и различимость проверяются отдельно",
+        "setup": "Повторные независимые evaluation seeds; Gemma Scope SAE и дополнительные архитектуры.",
+        "claim_ids": [
+          "c7"
+        ]
+      }
+    ],
+    "quality": {
+      "warnings": [
+        "Целенаправленный обзор выбранного подвопроса; полный охват направления и актуальный SOTA-рейтинг не заявляются.",
+        "Разобраны выбранные фрагменты полных текстов, а не все приложения и доказательства. Цитаты сверены с сохранёнными HTML.",
+        "Результаты принадлежат авторам статей. Собственные эксперименты и независимая экспертная рецензия не выполнялись.",
+        "Автоматический поиск добавляет только кандидатов; он не подтверждает их качество и не обновляет выводы этого обзора."
+      ]
+    },
+    "changes": {
+      "note": "Первый концептуальный выпуск с условиями сравнения и доказательствами."
+    },
+    "publication": {
+      "released_at": "2026-11-13",
+      "note": "Первый обзор: 7 выбранных работ, механизмы, сравнение и ограничения; без своего воспроизведения.",
+      "preparation": "source_based_editorial",
+      "expert_peer_review": false
+    }
+  }
 }

@@ -1,0 +1,699 @@
+{
+  "schema_version": 1,
+  "kind": "editorial_review",
+  "snapshot_id": "editorial-2026-11-13",
+  "at": "2026-11-13",
+  "review": {
+    "topic": "Видео-модели: временное понимание, grounding и shortcuts в оценке",
+    "questions": [
+      "Какие тесты отделяют временное рассуждение от распознавания кадров?",
+      "Как оценка зависит от sampling кадров, длительности видео и утечки данных?"
+    ]
+  },
+  "papers": [
+    {
+      "id": "arxiv-2405-21075",
+      "title": "Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis",
+      "authors": [
+        "Chaoyou Fu",
+        "Yuhan Dai",
+        "Yongdong Luo",
+        "Lei Li",
+        "Shuhuai Ren",
+        "Renrui Zhang",
+        "Zihan Wang",
+        "Chenyu Zhou",
+        "Yunhang Shen",
+        "Mengdan Zhang",
+        "Peixian Chen",
+        "Yanwei Li",
+        "Shaohui Lin",
+        "Sirui Zhao",
+        "Ke Li",
+        "Tong Xu",
+        "Xiawu Zheng",
+        "Enhong Chen",
+        "Caifeng Shan",
+        "Ran He",
+        "Xing Sun"
+      ],
+      "year": 2024,
+      "arxiv_id": "2405.21075v3",
+      "url": "https://arxiv.org/abs/2405.21075v3",
+      "doi": "",
+      "source_sha256": "d3efc1377910f1e510d7b67fd8e9ad7b84c059283b7acfc911f26aa015d17699",
+      "checked_at": "2026-11-13",
+      "read_sections": "S3.SS1 — 3.1 Dataset Construction; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2403-00476",
+      "title": "TempCompass: Do Video LLMs Really Understand Videos?",
+      "authors": [
+        "Yuanxin Liu",
+        "Shicheng Li",
+        "Yi Liu",
+        "Yuxiang Wang",
+        "Shuhuai Ren",
+        "Lei Li",
+        "Sishuo Chen",
+        "Xu Sun",
+        "Lu Hou"
+      ],
+      "year": 2024,
+      "arxiv_id": "2403.00476v1",
+      "url": "https://arxiv.org/abs/2403.00476v1",
+      "doi": "",
+      "source_sha256": "5099142250897a799ce75514b479f5764a3cd47fd1044124a97d6b997f0c6381",
+      "checked_at": "2026-11-13",
+      "read_sections": "S3.SS1.SSS1 — 3.1.1 Temporal Aspects; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2410-10818",
+      "title": "TemporalBench: Benchmarking Fine-grained Temporal Understanding for Multimodal Video Models",
+      "authors": [
+        "Mu Cai",
+        "Reuben Tan",
+        "Jianrui Zhang",
+        "Bocheng Zou",
+        "Kai Zhang",
+        "Feng Yao",
+        "Fangrui Zhu",
+        "Jing Gu",
+        "Yiwu Zhong",
+        "Yuzhang Shang",
+        "Yao Dou",
+        "Jaden Park",
+        "Jianfeng Gao",
+        "Yong Jae Lee",
+        "Jianwei Yang"
+      ],
+      "year": 2024,
+      "arxiv_id": "2410.10818v1",
+      "url": "https://arxiv.org/abs/2410.10818v1",
+      "doi": "",
+      "source_sha256": "fccf2617c3c19c8a2af91f0c1e2164799a6b414753c5edcfba29e55fc82f3aba",
+      "checked_at": "2026-11-13",
+      "read_sections": "S3.SS3 — 3.3 A Pitfall in Multi-choice Question Answering; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2604-05015",
+      "title": "Video-MME-v2: Towards the Next Stage in Benchmarks for Comprehensive Video Understanding",
+      "authors": [
+        "Chaoyou Fu",
+        "Haozhi Yuan",
+        "Yuhao Dong",
+        "Yi-Fan Zhang",
+        "Yunhang Shen",
+        "Xiaoxing Hu",
+        "Xueying Li",
+        "Jinsen Su",
+        "Chengwu Long",
+        "Xiaoyao Xie",
+        "Yongkang Xie",
+        "Xiawu Zheng",
+        "Xue Yang",
+        "Haoyu Cao",
+        "Yunsheng Wu",
+        "Ziwei Liu",
+        "Xing Sun",
+        "Caifeng Shan",
+        "Ran He"
+      ],
+      "year": 2026,
+      "arxiv_id": "2604.05015v1",
+      "url": "https://arxiv.org/abs/2604.05015v1",
+      "doi": "",
+      "source_sha256": "6cf579987be6862b16badc38aeac94c8577f411565448e605ffdf9a300e70ae7",
+      "checked_at": "2026-11-13",
+      "read_sections": "S5 — Experiments; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2606-27828",
+      "title": "Video-MME-Logical: A Controlled Diagnostic Benchmark for Video Temporal-Logical Reasoning",
+      "authors": [
+        "Hohin Kwan",
+        "Hongyu Li",
+        "Ray Zhang",
+        "Manyuan Zhang",
+        "Xianghao Kong",
+        "Anyi Rao",
+        "Jiahao Xie",
+        "Si Liu"
+      ],
+      "year": 2026,
+      "arxiv_id": "2606.27828v1",
+      "url": "https://arxiv.org/abs/2606.27828v1",
+      "doi": "",
+      "source_sha256": "92394d4d855359dc62b018742a72bb3d37fbd152e065bb7cd0037105cc625616",
+      "checked_at": "2026-11-13",
+      "read_sections": "S3.SS3 — 3.3 Programmatic Generation Pipeline; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2606-01591",
+      "title": "TLG: Temporal-Logic Grounding for Video Question Answering via Source-Annotation Reconstruction and Category-Targeted Reasoning",
+      "authors": [
+        "Ali Alavi"
+      ],
+      "year": 2026,
+      "arxiv_id": "2606.01591v1",
+      "url": "https://arxiv.org/abs/2606.01591v1",
+      "doi": "",
+      "source_sha256": "329d463f09a07b285cff43bccd414813e73a5d46f5ecef6db3d6e94939e2fe54",
+      "checked_at": "2026-11-13",
+      "read_sections": "S3.SS2 — 3.2 Timeline reconstruction from source annotations; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2610-32268",
+      "title": "RVG-Bench: A Benchmark for Reasoning-Driven Audio-Visual Temporal Grounding",
+      "authors": [
+        "Yue Feng",
+        "Boshen Xu",
+        "Zihao Yue",
+        "Xiaokun Liu",
+        "Miao Yang",
+        "Xin Tao",
+        "Pengfei Wan",
+        "Qin Jin"
+      ],
+      "year": 2026,
+      "arxiv_id": "2610.32268v1",
+      "url": "https://arxiv.org/abs/2610.32268v1",
+      "doi": "",
+      "source_sha256": "6da48db6cca571973bc23e0e7cfc12f55925558973800351e47c4cb4f4265a74",
+      "checked_at": "2026-11-13",
+      "read_sections": "S3.SS1 — 3.1 Benchmark Design; связанные фрагменты метода и оценки"
+    }
+  ],
+  "cards": [
+    {
+      "paper_id": "arxiv-2405-21075",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c1",
+          "paper_id": "arxiv-2405-21075",
+          "kind": "source_finding",
+          "text": "Video-MME строит оценку на сборе видео, аннотации QA и проверке качества. Разные длительности и модальности требуют отдельного учёта условий подачи видео, а не только общего score.",
+          "conditions": [
+            "Видео-QA; исходные видео, аннотации и quality review; отдельные настройки visual/audio/subtitles."
+          ],
+          "limitations": [
+            "Общий video score не изолирует временное reasoning от распознавания и языковых подсказок."
+          ],
+          "evidence": [
+            {
+              "quote": "The construction of the Video-MME dataset involves three main",
+              "url": "https://arxiv.org/html/2405.21075v3#S3.SS1",
+              "locator": "S3.SS1 — 3.1 Dataset Construction; связанные фрагменты метода и оценки",
+              "segment_id": "S3.SS1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2403-00476",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c2",
+          "paper_id": "arxiv-2403-00476",
+          "kind": "source_finding",
+          "text": "TempCompass выделяет несколько аспектов temporal perception и использует разные форматы заданий. Это помогает проверить динамику отдельно от статического содержания кадра.",
+          "conditions": [
+            "Контрастные видео и различные temporal aspects; несколько task formats."
+          ],
+          "limitations": [
+            "Набор временных диагностик не охватывает всё понимание длинных естественных видео."
+          ],
+          "evidence": [
+            {
+              "quote": "In contrast to images that only contain static visual",
+              "url": "https://arxiv.org/html/2403.00476v1#S3.SS1.SSS1",
+              "locator": "S3.SS1.SSS1 — 3.1.1 Temporal Aspects; связанные фрагменты метода и оценки",
+              "segment_id": "S3.SS1.SSS1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2410-10818",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c3",
+          "paper_id": "arxiv-2410-10818",
+          "kind": "source_finding",
+          "text": "TemporalBench обсуждает shortcut multiple-choice: если неверные варианты отличаются от правильного локальными изменениями, языковая модель может найти центральное описание без просмотра видео. Дизайн distractors влияет на валидность оценки.",
+          "conditions": [
+            "Fine-grained temporal annotations; сравнения с text-only и single-frame baselines."
+          ],
+          "limitations": [
+            "Исключение конкретного shortcut не исключает все виды утечек и статистических подсказок."
+          ],
+          "evidence": [
+            {
+              "quote": "A conventional approach to evaluate large multimodal models is",
+              "url": "https://arxiv.org/html/2410.10818v1#S3.SS3",
+              "locator": "S3.SS3 — 3.3 A Pitfall in Multi-choice Question Answering; связанные фрагменты метода и оценки",
+              "segment_id": "S3.SS3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2604-05015",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c4",
+          "paper_id": "arxiv-2604-05015",
+          "kind": "source_finding",
+          "text": "Video-MME-v2 различает visual-only и режим с subtitles/audio. В экспериментах frame budgets зависят от возможностей модели, поэтому результаты нужно читать вместе с фактическим доступом к данным.",
+          "conditions": [
+            "Разные модели и режимы video processing; кадровые бюджеты фиксируются в протоколе."
+          ],
+          "limitations": [
+            "Разные числа кадров и модальности мешают приписать разницу score только reasoning-архитектуре."
+          ],
+          "evidence": [
+            {
+              "quote": "We evaluate a diverse array of state-of-the-art MLLMs, categorized",
+              "url": "https://arxiv.org/html/2604.05015v1#S5",
+              "locator": "S5 — Experiments; связанные фрагменты метода и оценки",
+              "segment_id": "S5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2606-27828",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c5",
+          "paper_id": "arxiv-2606-27828",
+          "kind": "source_finding",
+          "text": "Video-MME-Logical программно создаёт temporal transitions, сцены, metadata и видео. Это изолирует временно-логические операции от части неоднозначности естественных аннотаций.",
+          "conditions": [
+            "Управляемая сложность и исполняемые task programs; доступны промежуточные состояния для проверки."
+          ],
+          "limitations": [
+            "Синтетическая визуальная среда не заменяет теста на сложных естественных видео."
+          ],
+          "evidence": [
+            {
+              "quote": "Inspired by synthetic benchmarks such as CLEVR (Johnson et",
+              "url": "https://arxiv.org/html/2606.27828v1#S3.SS3",
+              "locator": "S3.SS3 — 3.3 Programmatic Generation Pipeline; связанные фрагменты метода и оценки",
+              "segment_id": "S3.SS3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2606-01591",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c6",
+          "paper_id": "arxiv-2606-01591",
+          "kind": "source_finding",
+          "text": "TLG восстанавливает timeline действий из исходных аннотаций и выполняет разбор вопроса над этой структурой. Такой подход проверяет вклад реконструкции и символической логики при расширенном доступе к источникам.",
+          "conditions": [
+            "Используются action boundaries и source annotations; дальнейшие категории обрабатываются отдельно."
+          ],
+          "limitations": [
+            "Это не тот же информационный режим, что end-to-end модель, получающая только сырые кадры; результаты нельзя смешивать без оговорки."
+          ],
+          "evidence": [
+            {
+              "quote": "we build a timeline",
+              "url": "https://arxiv.org/html/2606.01591v1#S3.SS2",
+              "locator": "S3.SS2 — 3.2 Timeline reconstruction from source annotations; связанные фрагменты метода и оценки",
+              "segment_id": "S3.SS2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2610-32268",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c7",
+          "paper_id": "arxiv-2610-32268",
+          "kind": "source_finding",
+          "text": "RVG-Bench различает описательное сопоставление сегмента и grounding, требующий косвенного вывода. Вопрос может указывать не на видимое действие напрямую, а на неявное свойство или отношение.",
+          "conditions": [
+            "Audio-visual temporal grounding; заданные типы связи вопроса с целевым сегментом."
+          ],
+          "limitations": [
+            "Нужно проверять и reasoning-зависимость, и точность временных границ; один QA-ответ недостаточен."
+          ],
+          "evidence": [
+            {
+              "quote": "In conventional descriptive grounding, the query directly specifies the",
+              "url": "https://arxiv.org/html/2610.32268v1#S3.SS1",
+              "locator": "S3.SS1 — 3.1 Benchmark Design; связанные фрагменты метода и оценки",
+              "segment_id": "S3.SS1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "synthesis": {
+    "title": "Видео-модели: временное понимание, grounding и shortcuts в оценке",
+    "sections": [
+      {
+        "key": "brief",
+        "title": "За минуту: главный вопрос и вывод",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Видео-модель может правильно ответить благодаря отдельному кадру, субтитрам или устройству вариантов ответа. Это ещё не свидетельство использования временной структуры.",
+            "claim_ids": [
+              "c1",
+              "c3",
+              "c4"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Temporal understanding включает различение динамики и порядка, reasoning над событиями и поиск нужного временного сегмента. Для этих требований нужны разные диагностики.",
+            "claim_ids": [
+              "c2",
+              "c5",
+              "c7"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Сравнение корректно только при одинаковом доступе к кадрам, аудио, тексту и аннотациям.",
+            "claim_ids": [
+              "c4",
+              "c6"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "scope",
+        "title": "Границы и отбор источников",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Обзор подготовлен 13 ноября 2026 года по выбранным фрагментам полных HTML-текстов 7 работ. Это узкий фокус внутри направления, а не энциклопедия всей области и не систематический поиск. Количество источников в общем каталоге не означает, что все они прочитаны.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Отбор целенаправленный: основные постановки задачи, различные семейства методов и работы, проверяющие их ограничения. Точные версии, локаторы и SHA-256 прочитанных HTML сохранены в JSON. Короткая цитата служит поисковым якорем; вывод следует сверять с контекстом раздела. Независимая экспертная рецензия и воспроизведение экспериментов не выполнялись.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "mechanism",
+        "title": "Понятия и механизм: что именно проверяется",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Temporal grounding возвращает участок временной шкалы; video QA возвращает ответ. Ошибка grounding может скрыться за угаданным ответом, поэтому нужны обе проверки.",
+            "claim_ids": [
+              "c7"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Синтетические программы позволяют знать промежуточные состояния, тогда как естественные видео лучше проверяют перенос и визуальную неоднозначность. Эти тесты дополняют друг друга.",
+            "claim_ids": [
+              "c1",
+              "c5"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "approaches",
+        "title": "Подходы и свидетельства из работ",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Video-MME строит оценку на сборе видео, аннотации QA и проверке качества. Разные длительности и модальности требуют отдельного учёта условий подачи видео, а не только общего score.",
+            "claim_ids": [
+              "c1"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "TempCompass выделяет несколько аспектов temporal perception и использует разные форматы заданий. Это помогает проверить динамику отдельно от статического содержания кадра.",
+            "claim_ids": [
+              "c2"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "TemporalBench обсуждает shortcut multiple-choice: если неверные варианты отличаются от правильного локальными изменениями, языковая модель может найти центральное описание без просмотра видео. Дизайн distractors влияет на валидность оценки.",
+            "claim_ids": [
+              "c3"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Video-MME-v2 различает visual-only и режим с subtitles/audio. В экспериментах frame budgets зависят от возможностей модели, поэтому результаты нужно читать вместе с фактическим доступом к данным.",
+            "claim_ids": [
+              "c4"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Video-MME-Logical программно создаёт temporal transitions, сцены, metadata и видео. Это изолирует временно-логические операции от части неоднозначности естественных аннотаций.",
+            "claim_ids": [
+              "c5"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "TLG восстанавливает timeline действий из исходных аннотаций и выполняет разбор вопроса над этой структурой. Такой подход проверяет вклад реконструкции и символической логики при расширенном доступе к источникам.",
+            "claim_ids": [
+              "c6"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "RVG-Bench различает описательное сопоставление сегмента и grounding, требующий косвенного вывода. Вопрос может указывать не на видимое действие напрямую, а на неявное свойство или отношение.",
+            "claim_ids": [
+              "c7"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "comparison",
+        "title": "Сравнение работ и условий",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Таблица разделяет постановки, механизмы и границы выводов. Она не ранжирует работы по несопоставимым числам. Улучшение показателя в конкретной статье не доказывает преимущество во всех моделях, данных и режимах.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "disagreements",
+        "title": "Разногласия, ограничения и ложные обобщения",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Высокий общий video score и слабая temporal diagnosis совместимы: общий набор может включать задачи, решаемые статическими или текстовыми признаками.",
+            "claim_ids": [
+              "c1",
+              "c2",
+              "c3"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Сильный результат с восстановленной по annotations timeline не доказывает, что та же модель извлечёт timeline из пикселей.",
+            "claim_ids": [
+              "c6"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Увеличение числа кадров меняет входную информацию и стоимость. Его эффект нельзя автоматически приписывать улучшению рассуждения.",
+            "claim_ids": [
+              "c4"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "practice",
+        "title": "Как читать результаты и проверить подход у себя",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Включить text-only, single-frame, shuffled-frame и visual-only baselines; зафиксировать sampling кадров, длительность видео и input budget. Перестановка должна сохранять статическое содержание и менять временную задачу осмысленно.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Разбивать ошибки на perception, temporal localization и reasoning. Для интервальных ответов сохранять границы и ground-truth, для QA — формат вариантов и правила оценивания.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "questions",
+        "title": "Открытые вопросы и следующие эксперименты",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Насколько сохраняется преимущество модели после удаления текстовых shortcuts и выравнивания frame budget? Нужны matched subsets с одинаковой сложностью.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Можно ли отделить потерю события при sampling от неспособности рассуждать о найденном событии? Проверка: сырой видеовход против проверенного event timeline на тех же вопросах.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "reading",
+        "title": "Маршрут чтения",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Сначала прочитайте первые две работы из таблицы: они задают понятия и способ измерения. Затем сравните методы в середине списка с критическими и более поздними исследованиями. Цель — понять, какое предположение меняется и что именно измеряется.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Для каждой работы выпишите объект переноса или оценки, используемый baseline, единицу тестирования, условия успеха и способ проверки. Цифры без этих полей недостаточны для выбора метода. Ссылки [n] раскрывают карточки доказательств; оттуда можно открыть раздел первоисточника.",
+            "claim_ids": []
+          }
+        ]
+      }
+    ],
+    "concepts": [
+      {
+        "id": "concept-1",
+        "name": "Temporal grounding",
+        "definition": {
+          "kind": "synthesis",
+          "text": "Поиск временного сегмента по запросу, в том числе требующему косвенного вывода.",
+          "claim_ids": [
+            "c7"
+          ]
+        },
+        "statements": [],
+        "disagreements": []
+      },
+      {
+        "id": "concept-2",
+        "name": "Shortcut",
+        "definition": {
+          "kind": "synthesis",
+          "text": "Получение правильного ответа по побочной подсказке без требуемого использования видео.",
+          "claim_ids": [
+            "c3"
+          ]
+        },
+        "statements": [],
+        "disagreements": []
+      }
+    ],
+    "relations": []
+  },
+  "comparison": [
+    {
+      "paper_id": "arxiv-2405-21075",
+      "method": "Общая video-QA оценка",
+      "guarantee": "Нужно учитывать доступные модальности",
+      "setup": "Видео-QA; исходные видео, аннотации и quality review; отдельные настройки visual/audio/subtitles.",
+      "claim_ids": [
+        "c1"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2403-00476",
+      "method": "Диагностика временных аспектов",
+      "guarantee": "Временная информация — отдельный объект оценки",
+      "setup": "Контрастные видео и различные temporal aspects; несколько task formats.",
+      "claim_ids": [
+        "c2"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2410-10818",
+      "method": "Проверка языковых shortcuts",
+      "guarantee": "Нужны text-only и single-frame контроли",
+      "setup": "Fine-grained temporal annotations; сравнения с text-only и single-frame baselines.",
+      "claim_ids": [
+        "c3"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2604-05015",
+      "method": "Иерархическая общая оценка",
+      "guarantee": "Input regime является частью сравнения",
+      "setup": "Разные модели и режимы video processing; кадровые бюджеты фиксируются в протоколе.",
+      "claim_ids": [
+        "c4"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2606-27828",
+      "method": "Контролируемая temporal logic",
+      "guarantee": "Проверяемые состояния, ограниченная среда",
+      "setup": "Управляемая сложность и исполняемые task programs; доступны промежуточные состояния для проверки.",
+      "claim_ids": [
+        "c5"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2606-01591",
+      "method": "Timeline из аннотаций и symbolic execution",
+      "guarantee": "Доступ к привилегированным данным должен быть явным",
+      "setup": "Используются action boundaries и source annotations; дальнейшие категории обрабатываются отдельно.",
+      "claim_ids": [
+        "c6"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2610-32268",
+      "method": "Reasoning-driven grounding",
+      "guarantee": "Найти интервал и ответить — разные требования",
+      "setup": "Audio-visual temporal grounding; заданные типы связи вопроса с целевым сегментом.",
+      "claim_ids": [
+        "c7"
+      ]
+    }
+  ],
+  "quality": {
+    "warnings": [
+      "Целенаправленный обзор выбранного подвопроса; полный охват направления и актуальный SOTA-рейтинг не заявляются.",
+      "Разобраны выбранные фрагменты полных текстов, а не все приложения и доказательства. Цитаты сверены с сохранёнными HTML.",
+      "Результаты принадлежат авторам статей. Собственные эксперименты и независимая экспертная рецензия не выполнялись.",
+      "Автоматический поиск добавляет только кандидатов; он не подтверждает их качество и не обновляет выводы этого обзора."
+    ]
+  },
+  "changes": {
+    "note": "Первый концептуальный выпуск с условиями сравнения и доказательствами."
+  },
+  "publication": {
+    "released_at": "2026-11-13",
+    "note": "Первый обзор: 7 выбранных работ, механизмы, сравнение и ограничения; без своего воспроизведения.",
+    "preparation": "source_based_editorial",
+    "expert_peer_review": false
+  }
+}

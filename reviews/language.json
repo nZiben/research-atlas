@@ -1,0 +1,671 @@
+{
+  "schema_version": 1,
+  "kind": "editorial_review",
+  "snapshot_id": "editorial-2026-11-13",
+  "at": "2026-11-13",
+  "review": {
+    "topic": "Длинный контекст LLM: поиск фактов, рассуждение и позиционные провалы",
+    "questions": [
+      "Что измеряют тесты long-context reasoning сверх простого поиска фрагмента?",
+      "Как длина контекста и расположение данных влияют на надёжность вывода?"
+    ]
+  },
+  "papers": [
+    {
+      "id": "arxiv-2307-03172",
+      "title": "Lost in the Middle: How Language Models Use Long Contexts",
+      "authors": [
+        "Nelson F. Liu",
+        "Kevin Lin",
+        "John Hewitt",
+        "Ashwin Paranjape",
+        "Michele Bevilacqua",
+        "Fabio Petroni",
+        "Percy Liang"
+      ],
+      "year": 2023,
+      "arxiv_id": "2307.03172v3",
+      "url": "https://arxiv.org/abs/2307.03172v3",
+      "doi": "",
+      "source_sha256": "9a9069ad7b90740b3245e80b0efc424b2e5c91601119a675536ef2193e12f701",
+      "checked_at": "2026-11-13",
+      "read_sections": "S2.SS3 — 2.3 Results and Discussion; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2308-14508",
+      "title": "LongBench: A Bilingual, Multitask Benchmark for Long Context Understanding",
+      "authors": [
+        "Yushi Bai",
+        "Xin Lv",
+        "Jiajie Zhang",
+        "Hongchang Lyu",
+        "Jiankai Tang",
+        "Zhidian Huang",
+        "Zhengxiao Du",
+        "Xiao Liu",
+        "Aohan Zeng",
+        "Lei Hou",
+        "Yuxiao Dong",
+        "Jie Tang",
+        "Juanzi Li"
+      ],
+      "year": 2023,
+      "arxiv_id": "2308.14508v2",
+      "url": "https://arxiv.org/abs/2308.14508v2",
+      "doi": "",
+      "source_sha256": "4df1a72f8d00692caf394cc7545977c347d4c951fbb0f5d9dd8ad4fb71d580d0",
+      "checked_at": "2026-11-13",
+      "read_sections": "S3.SS1 — 3.1 Problem Definition; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2404-06654",
+      "title": "RULER: What's the Real Context Size of Your Long-Context Language Models?",
+      "authors": [
+        "Cheng-Ping Hsieh",
+        "Simeng Sun",
+        "Samuel Kriman",
+        "Shantanu Acharya",
+        "Dima Rekesh",
+        "Fei Jia",
+        "Boris Ginsburg"
+      ],
+      "year": 2024,
+      "arxiv_id": "2404.06654v1",
+      "url": "https://arxiv.org/abs/2404.06654v1",
+      "doi": "",
+      "source_sha256": "ebd6cf1c544e4ffdce1148a21aa25c34a63940bcf5248187900b87891580a5b4",
+      "checked_at": "2026-11-13",
+      "read_sections": "S7 — 7 Conclusion; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2406-10149",
+      "title": "BABILong: Testing the Limits of LLMs with Long Context Reasoning-in-a-Haystack",
+      "authors": [
+        "Yuri Kuratov",
+        "Aydar Bulatov",
+        "Petr Anokhin",
+        "Ivan Rodkin",
+        "Dmitry Sorokin",
+        "Artyom Sorokin",
+        "Mikhail Burtsev"
+      ],
+      "year": 2024,
+      "arxiv_id": "2406.10149v1",
+      "url": "https://arxiv.org/abs/2406.10149v1",
+      "doi": "",
+      "source_sha256": "2c5846574b6430f10e626f371cdffca18ead047cc7d67ac27bca3f2a7161a230",
+      "checked_at": "2026-11-13",
+      "read_sections": "S2 — 2 The BABILong Benchmark for Long Context Processing; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2501-15089",
+      "title": "LongReason: A Synthetic Long-Context Reasoning Benchmark via Context Expansion",
+      "authors": [
+        "Zhan Ling",
+        "Kang Liu",
+        "Kai Yan",
+        "Yifan Yang",
+        "Weijian Lin",
+        "Ting-Han Fan",
+        "Lingfeng Shen",
+        "Zhengyin Du",
+        "Jiecao Chen"
+      ],
+      "year": 2025,
+      "arxiv_id": "2501.15089v3",
+      "url": "https://arxiv.org/abs/2501.15089v3",
+      "doi": "",
+      "source_sha256": "7a0547bc03230a525f4770aca105711380ed3b5811471548ff2fdcd80b5c4fe9",
+      "checked_at": "2026-11-13",
+      "read_sections": "S3.SS1 — 3.1 Long-context Reasoning Question Construction via Context Expansion; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2605-23170",
+      "title": "Positional Failures in Long-Context LLMs: A Blind Spot in Reasoning Benchmarks",
+      "authors": [
+        "Chuyifei Zhang",
+        "Hongyu Cui",
+        "Xiaowen Huang",
+        "Jitao Sang"
+      ],
+      "year": 2026,
+      "arxiv_id": "2605.23170v1",
+      "url": "https://arxiv.org/abs/2605.23170v1",
+      "doi": "",
+      "source_sha256": "b3c254241cefdf4dc847e1cc395fc500ad0e61be8f0284453ddbe1a34fe27106",
+      "checked_at": "2026-11-13",
+      "read_sections": "S3.SS4 — 3.4 Reasoning Tasks; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2610-22067",
+      "title": "Beyond Context Length: Characterising the Difficulty of Long-Context Reasoning",
+      "authors": [
+        "Shiwen Qin",
+        "Cameron Barker",
+        "Henry Gouk",
+        "Elliot J. Crowley",
+        "Shay B. Cohen",
+        "Mirella Lapata",
+        "Miao Li"
+      ],
+      "year": 2026,
+      "arxiv_id": "2610.22067v1",
+      "url": "https://arxiv.org/abs/2610.22067v1",
+      "doi": "",
+      "source_sha256": "7801f892c2470225ba568f1e78bb859178f8dbe12fab3829965ff81868188b3d",
+      "checked_at": "2026-11-13",
+      "read_sections": "S3 — 3 Reasoning Characterisation; связанные фрагменты метода и оценки"
+    }
+  ],
+  "cards": [
+    {
+      "paper_id": "arxiv-2307-03172",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c1",
+          "paper_id": "arxiv-2307-03172",
+          "kind": "source_finding",
+          "text": "Lost in the Middle меняет положение релевантного документа при сохранении вопроса и наблюдает зависимость качества от позиции. Заявленная длина окна поэтому не равна эффективному использованию всех его частей.",
+          "conditions": [
+            "Multi-document QA и отдельная key-value задача; позиции evidence варьируются контролируемо."
+          ],
+          "limitations": [
+            "Исторический набор моделей; величина эффекта не является оценкой любой современной модели."
+          ],
+          "evidence": [
+            {
+              "quote": "We experiment with input contexts containing 10, 20, and",
+              "url": "https://arxiv.org/html/2307.03172v3#S2.SS3",
+              "locator": "S2.SS3 — 2.3 Results and Discussion; связанные фрагменты метода и оценки",
+              "segment_id": "S2.SS3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2308-14508",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c2",
+          "paper_id": "arxiv-2308-14508",
+          "kind": "source_finding",
+          "text": "LongBench объединяет разные задачи и языки в общую схему input, context, answer. Такой набор расширяет проверку за пределы одной retrieval-задачи, но требует разбирать результаты по типам задач.",
+          "conditions": [
+            "Билингвальные и многозадачные данные; LongBench и LongBench-E имеют разные способы организации."
+          ],
+          "limitations": [
+            "Средний score смешивает задачи с разными форматами и зависимостью от длины."
+          ],
+          "evidence": [
+            {
+              "quote": "We formalize the problem of long context understanding as",
+              "url": "https://arxiv.org/html/2308.14508v2#S3.SS1",
+              "locator": "S3.SS1 — 3.1 Problem Definition; связанные фрагменты метода и оценки",
+              "segment_id": "S3.SS1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2404-06654",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c3",
+          "paper_id": "arxiv-2404-06654",
+          "kind": "source_finding",
+          "text": "RULER добавляет к needle retrieval multi-hop tracing, aggregation и QA. Авторы показывают, что прохождение простого needle-теста не гарантирует устойчивости на этих задачах при росте длины.",
+          "conditions": [
+            "Синтетические задачи с управляемой длиной; фиксированный набор моделей и протоколов."
+          ],
+          "limitations": [
+            "Синтетическая проверка изолирует способности, но не заменяет естественные пользовательские задачи."
+          ],
+          "evidence": [
+            {
+              "quote": "We present Ruler, a synthetic benchmark for evaluating long-context",
+              "url": "https://arxiv.org/html/2404.06654v1#S7",
+              "locator": "S7 — 7 Conclusion; связанные фрагменты метода и оценки",
+              "segment_id": "S7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2406-10149",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c4",
+          "paper_id": "arxiv-2406-10149",
+          "kind": "source_finding",
+          "text": "BABILong помещает необходимые для рассуждения факты среди длинного отвлекающего текста. Важны и нахождение распределённых фактов, и выполнение операции над ними.",
+          "conditions": [
+            "Различные bAbI-задачи и размеры haystack; отдельные long-context и retrieval-режимы."
+          ],
+          "limitations": [
+            "Шаблонные задачи не исчерпывают естественное рассуждение; сравнивать надо одинаковые наборы фактов и бюджеты."
+          ],
+          "evidence": [
+            {
+              "quote": "The fundamental concept behind the Benchmark for Artificial Intelligence",
+              "url": "https://arxiv.org/html/2406.10149v1#S2",
+              "locator": "S2 — 2 The BABILong Benchmark for Long Context Processing; связанные фрагменты метода и оценки",
+              "segment_id": "S2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2501-15089",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c5",
+          "paper_id": "arxiv-2501-15089",
+          "kind": "source_finding",
+          "text": "LongReason расширяет короткие reasoning-вопросы в длинные контексты, стараясь сохранить необходимую для ответа цепочку. Сложность определяется не только количеством токенов, но и тем, как построены релевантные и отвлекающие части.",
+          "conditions": [
+            "Синтетическое расширение; закрытые multiple-choice ответы и выбранные reasoning domains."
+          ],
+          "limitations": [
+            "Преобразование и модельная проверка данных могут вносить артефакты; правильный ответ не подтверждает всю заявленную цепочку."
+          ],
+          "evidence": [
+            {
+              "quote": "Problem Formulation The primary goal of LongReason is to",
+              "url": "https://arxiv.org/html/2501.15089v3#S3.SS1",
+              "locator": "S3.SS1 — 3.1 Long-context Reasoning Question Construction via Context Expansion; связанные фрагменты метода и оценки",
+              "segment_id": "S3.SS1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2605-23170",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c6",
+          "paper_id": "arxiv-2605-23170",
+          "kind": "source_finding",
+          "text": "Positional Failures проверяет положение reasoning-задач внутри заполненного контекста. Авторы различают основной math-протокол и ограниченную вспомогательную проверку другого формата.",
+          "conditions": [
+            "GSM8K и ARC-Challenge; контроль filler, длины и позиции."
+          ],
+          "limitations": [
+            "Небольшая выборка вспомогательной задачи даёт направленное, а не универсальное свидетельство."
+          ],
+          "evidence": [
+            {
+              "quote": "We evaluate on two reasoning tasks. GSM8K (Cobbe et",
+              "url": "https://arxiv.org/html/2605.23170v1#S3.SS4",
+              "locator": "S3.SS4 — 3.4 Reasoning Tasks; связанные фрагменты метода и оценки",
+              "segment_id": "S3.SS4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2610-22067",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c7",
+          "paper_id": "arxiv-2610-22067",
+          "kind": "source_finding",
+          "text": "Beyond Context Length дополнительно описывает evidence scope, evidence dispersion и reasoning depth. Два вопроса одинаковой длины могут различаться количеством необходимых фактов, их разбросом и глубиной связи.",
+          "conditions": [
+            "LURCH: evidence annotation и reasoning graphs; анализ при контроле длины."
+          ],
+          "limitations": [
+            "Автоматическая аннотация evidence и графов также является источником погрешности."
+          ],
+          "evidence": [
+            {
+              "quote": "We complement context length with three properties: evidence scope,",
+              "url": "https://arxiv.org/html/2610.22067v1#S3",
+              "locator": "S3 — 3 Reasoning Characterisation; связанные фрагменты метода и оценки",
+              "segment_id": "S3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "synthesis": {
+    "title": "Длинный контекст LLM: поиск фактов, рассуждение и позиционные провалы",
+    "sections": [
+      {
+        "key": "brief",
+        "title": "За минуту: главный вопрос и вывод",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Длинное окно означает возможность подать много токенов. Умение найти нужные фрагменты, связать их и правильно ответить — отдельные способности.",
+            "claim_ids": [
+              "c1",
+              "c3",
+              "c4"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Проверять стоит не одно число context length, а зависимость качества от позиции, объёма и разброса evidence, глубины задачи и количества отвлекающего текста.",
+            "claim_ids": [
+              "c6",
+              "c7"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Надёжная оценка сочетает контролируемые диагностики с многозадачными данными и разбивкой ошибок.",
+            "claim_ids": [
+              "c2",
+              "c3"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "scope",
+        "title": "Границы и отбор источников",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Обзор подготовлен 13 ноября 2026 года по выбранным фрагментам полных HTML-текстов 7 работ. Это узкий фокус внутри направления, а не энциклопедия всей области и не систематический поиск. Количество источников в общем каталоге не означает, что все они прочитаны.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Отбор целенаправленный: основные постановки задачи, различные семейства методов и работы, проверяющие их ограничения. Точные версии, локаторы и SHA-256 прочитанных HTML сохранены в JSON. Короткая цитата служит поисковым якорем; вывод следует сверять с контекстом раздела. Независимая экспертная рецензия и воспроизведение экспериментов не выполнялись.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "mechanism",
+        "title": "Понятия и механизм: что именно проверяется",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Retrieval может найти один фрагмент без рассуждения. Multi-hop задача требует собрать несколько посылок и применить связи между ними; провал может возникнуть на любом этапе.",
+            "claim_ids": [
+              "c3",
+              "c4"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Для анализа полезно различать общий объём контекста и требуемый evidence: длина может расти за счёт distractors либо за счёт числа необходимых посылок.",
+            "claim_ids": [
+              "c5",
+              "c7"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "approaches",
+        "title": "Подходы и свидетельства из работ",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Lost in the Middle меняет положение релевантного документа при сохранении вопроса и наблюдает зависимость качества от позиции. Заявленная длина окна поэтому не равна эффективному использованию всех его частей.",
+            "claim_ids": [
+              "c1"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "LongBench объединяет разные задачи и языки в общую схему input, context, answer. Такой набор расширяет проверку за пределы одной retrieval-задачи, но требует разбирать результаты по типам задач.",
+            "claim_ids": [
+              "c2"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "RULER добавляет к needle retrieval multi-hop tracing, aggregation и QA. Авторы показывают, что прохождение простого needle-теста не гарантирует устойчивости на этих задачах при росте длины.",
+            "claim_ids": [
+              "c3"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "BABILong помещает необходимые для рассуждения факты среди длинного отвлекающего текста. Важны и нахождение распределённых фактов, и выполнение операции над ними.",
+            "claim_ids": [
+              "c4"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "LongReason расширяет короткие reasoning-вопросы в длинные контексты, стараясь сохранить необходимую для ответа цепочку. Сложность определяется не только количеством токенов, но и тем, как построены релевантные и отвлекающие части.",
+            "claim_ids": [
+              "c5"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Positional Failures проверяет положение reasoning-задач внутри заполненного контекста. Авторы различают основной math-протокол и ограниченную вспомогательную проверку другого формата.",
+            "claim_ids": [
+              "c6"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Beyond Context Length дополнительно описывает evidence scope, evidence dispersion и reasoning depth. Два вопроса одинаковой длины могут различаться количеством необходимых фактов, их разбросом и глубиной связи.",
+            "claim_ids": [
+              "c7"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "comparison",
+        "title": "Сравнение работ и условий",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Таблица разделяет постановки, механизмы и границы выводов. Она не ранжирует работы по несопоставимым числам. Улучшение показателя в конкретной статье не доказывает преимущество во всех моделях, данных и режимах.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "disagreements",
+        "title": "Разногласия, ограничения и ложные обобщения",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Высокий needle score и низкий reasoning score совместимы: задачи требуют разных операций. Это не основание игнорировать один из результатов.",
+            "claim_ids": [
+              "c3",
+              "c4"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Позиционные эффекты нужно проверять на конкретной модели и задаче; исторический эффект нельзя автоматически переносить на все новые модели.",
+            "claim_ids": [
+              "c1",
+              "c6"
+            ]
+          },
+          {
+            "kind": "editorial",
+            "text": "Средние результаты разных benchmarks несопоставимы без контроля задачи, tokenizer, truncation и формата ответа.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "practice",
+        "title": "Как читать результаты и проверить подход у себя",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Построить матрицу: длина × позиция evidence × число посылок × distractors. Сохранять фактическую токенизацию и проверять, что вход не был скрыто обрезан.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Сравнить полный контекст с retrieval при одинаковом доступном evidence и явно учтённом бюджете. Разбирать ошибки поиска отдельно от ошибок reasoning.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "questions",
+        "title": "Открытые вопросы и следующие эксперименты",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Сохраняется ли качество при перестановке и перефразировании тех же посылок? Это проверяется matched pairs, а не подборкой разных вопросов.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Может ли evidence-aware селектор уменьшить стоимость, сохраняя все необходимые посылки? Нужны одновременно полнота evidence, качество ответа и стоимость.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "reading",
+        "title": "Маршрут чтения",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Сначала прочитайте первые две работы из таблицы: они задают понятия и способ измерения. Затем сравните методы в середине списка с критическими и более поздними исследованиями. Цель — понять, какое предположение меняется и что именно измеряется.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Для каждой работы выпишите объект переноса или оценки, используемый baseline, единицу тестирования, условия успеха и способ проверки. Цифры без этих полей недостаточны для выбора метода. Ссылки [n] раскрывают карточки доказательств; оттуда можно открыть раздел первоисточника.",
+            "claim_ids": []
+          }
+        ]
+      }
+    ],
+    "concepts": [
+      {
+        "id": "concept-1",
+        "name": "Эффективный контекст",
+        "definition": {
+          "kind": "synthesis",
+          "text": "Область длин и условий, в которой модель действительно решает выбранную задачу.",
+          "claim_ids": [
+            "c1",
+            "c3"
+          ]
+        },
+        "statements": [],
+        "disagreements": []
+      },
+      {
+        "id": "concept-2",
+        "name": "Evidence dispersion",
+        "definition": {
+          "kind": "synthesis",
+          "text": "Распределённость необходимых свидетельств внутри контекста, отдельная от общей длины.",
+          "claim_ids": [
+            "c7"
+          ]
+        },
+        "statements": [],
+        "disagreements": []
+      }
+    ],
+    "relations": []
+  },
+  "comparison": [
+    {
+      "paper_id": "arxiv-2307-03172",
+      "method": "Перестановка evidence",
+      "guarantee": "Измеряется использование контекста, а не размер окна",
+      "setup": "Multi-document QA и отдельная key-value задача; позиции evidence варьируются контролируемо.",
+      "claim_ids": [
+        "c1"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2308-14508",
+      "method": "Многозадачная оценка",
+      "guarantee": "Нужно сохранять task-level breakdown",
+      "setup": "Билингвальные и многозадачные данные; LongBench и LongBench-E имеют разные способы организации.",
+      "claim_ids": [
+        "c2"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2404-06654",
+      "method": "Контролируемые диагностические задачи",
+      "guarantee": "Простой retrieval не доказывает reasoning",
+      "setup": "Синтетические задачи с управляемой длиной; фиксированный набор моделей и протоколов.",
+      "claim_ids": [
+        "c3"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2406-10149",
+      "method": "Reasoning-in-a-haystack",
+      "guarantee": "Разделяются поиск свидетельств и решение задачи",
+      "setup": "Различные bAbI-задачи и размеры haystack; отдельные long-context и retrieval-режимы.",
+      "claim_ids": [
+        "c4"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2501-15089",
+      "method": "Расширение reasoning-контекста",
+      "guarantee": "Валидность зависит от сохранения исходной задачи",
+      "setup": "Синтетическое расширение; закрытые multiple-choice ответы и выбранные reasoning domains.",
+      "claim_ids": [
+        "c5"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2605-23170",
+      "method": "Позиционные stress tests",
+      "guarantee": "Мощность проверки и формат ответа существенны",
+      "setup": "GSM8K и ARC-Challenge; контроль filler, длины и позиции.",
+      "claim_ids": [
+        "c6"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2610-22067",
+      "method": "Характеристики evidence и глубины",
+      "guarantee": "Длина — одна из нескольких осей сложности",
+      "setup": "LURCH: evidence annotation и reasoning graphs; анализ при контроле длины.",
+      "claim_ids": [
+        "c7"
+      ]
+    }
+  ],
+  "quality": {
+    "warnings": [
+      "Целенаправленный обзор выбранного подвопроса; полный охват направления и актуальный SOTA-рейтинг не заявляются.",
+      "Разобраны выбранные фрагменты полных текстов, а не все приложения и доказательства. Цитаты сверены с сохранёнными HTML.",
+      "Результаты принадлежат авторам статей. Собственные эксперименты и независимая экспертная рецензия не выполнялись.",
+      "Автоматический поиск добавляет только кандидатов; он не подтверждает их качество и не обновляет выводы этого обзора."
+    ]
+  },
+  "changes": {
+    "note": "Первый концептуальный выпуск с условиями сравнения и доказательствами."
+  },
+  "publication": {
+    "released_at": "2026-11-13",
+    "note": "Первый обзор: 7 выбранных работ, механизмы, сравнение и ограничения; без своего воспроизведения.",
+    "preparation": "source_based_editorial",
+    "expert_peer_review": false
+  }
+}

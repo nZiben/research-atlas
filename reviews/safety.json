@@ -1,0 +1,662 @@
+{
+  "schema_version": 1,
+  "kind": "editorial_review",
+  "snapshot_id": "editorial-2026-11-13",
+  "at": "2026-11-13",
+  "review": {
+    "topic": "Prompt injection у агентов: границы доверия, защиты и адаптивная оценка",
+    "questions": [
+      "Какие модели угроз рассматривают защиты от prompt injection?",
+      "Какие атаки и условия проверки ограничивают выводы об эффективности?"
+    ]
+  },
+  "papers": [
+    {
+      "id": "arxiv-2312-14197",
+      "title": "Benchmarking and Defending Against Indirect Prompt Injection Attacks on Large Language Models",
+      "authors": [
+        "Jingwei Yi",
+        "Yueqi Xie",
+        "Bin Zhu",
+        "Emre Kiciman",
+        "Guangzhong Sun",
+        "Xing Xie",
+        "Fangzhao Wu"
+      ],
+      "year": 2023,
+      "arxiv_id": "2312.14197v4",
+      "url": "https://arxiv.org/abs/2312.14197v4",
+      "doi": "10.1145/3690624.3709179",
+      "source_sha256": "f88ece260595d57c926ccd408b678144bb648abe4d3f3a761b552c4ba1aba2f5",
+      "checked_at": "2026-11-13",
+      "read_sections": "S6.SS1 — 6.1. Black-box Defense; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2403-02691",
+      "title": "InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents",
+      "authors": [
+        "Qiusi Zhan",
+        "Zhixiang Liang",
+        "Zifan Ying",
+        "Daniel Kang"
+      ],
+      "year": 2024,
+      "arxiv_id": "2403.02691v3",
+      "url": "https://arxiv.org/abs/2403.02691v3",
+      "doi": "",
+      "source_sha256": "c9e111b1dcc91032b80cf4a43c6cffe7ca454ae5a04f0a64ec20dfa2b5867071",
+      "checked_at": "2026-11-13",
+      "read_sections": "S2.SS1 — 2.1 Problem Formalization; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2406-13352",
+      "title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
+      "authors": [
+        "Edoardo Debenedetti",
+        "Jie Zhang",
+        "Mislav Balunović",
+        "Luca Beurer-Kellner",
+        "Marc Fischer",
+        "Florian Tramèr"
+      ],
+      "year": 2024,
+      "arxiv_id": "2406.13352v3",
+      "url": "https://arxiv.org/abs/2406.13352v3",
+      "doi": "",
+      "source_sha256": "7b6e97faaedcf0e1b5f3635b92a0da33afbe8529699d54a5c44ad58ce2fa8b02",
+      "checked_at": "2026-11-13",
+      "read_sections": "S3.SS4 — 3.4 Reporting AgentDojo Results; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2402-06363",
+      "title": "StruQ: Defending Against Prompt Injection with Structured Queries",
+      "authors": [
+        "Sizhe Chen",
+        "Julien Piet",
+        "Chawin Sitawarin",
+        "David Wagner"
+      ],
+      "year": 2024,
+      "arxiv_id": "2402.06363v2",
+      "url": "https://arxiv.org/abs/2402.06363v2",
+      "doi": "",
+      "source_sha256": "5c2f529c7a43896ff5ed2be553fc31f7108ed5ac6bdd149c7ea79377f1d54858",
+      "checked_at": "2026-11-13",
+      "read_sections": "S4.SS2 — 4.2 Our Defense: A High-Level Overview; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2410-05451",
+      "title": "SecAlign: Defending Against Prompt Injection with Preference Optimization",
+      "authors": [
+        "Sizhe Chen",
+        "Arman Zharmagambetov",
+        "Saeed Mahloujifar",
+        "Kamalika Chaudhuri",
+        "David Wagner",
+        "Chuan Guo"
+      ],
+      "year": 2024,
+      "arxiv_id": "2410.05451v3",
+      "url": "https://arxiv.org/abs/2410.05451v3",
+      "doi": "10.1145/3719027.3744836",
+      "source_sha256": "2845db609079ca9a95d9c6ea5373d47cb8d280d6bbf915aefc534b7405ef0b63",
+      "checked_at": "2026-11-13",
+      "read_sections": "S6 — 6. Conclusion and Discussions; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2503-00061",
+      "title": "Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on LLM Agents",
+      "authors": [
+        "Qiusi Zhan",
+        "Richard Fang",
+        "Henil Shalin Panchal",
+        "Daniel Kang"
+      ],
+      "year": 2025,
+      "arxiv_id": "2503.00061v2",
+      "url": "https://arxiv.org/abs/2503.00061v2",
+      "doi": "",
+      "source_sha256": "8855ef1a24f56f5bbc004c580074aa1bee3763e669ee2fc1dde14e3ae1299fd4",
+      "checked_at": "2026-11-13",
+      "read_sections": "S5.SS2 — 5.2 Experiment Results; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2606-26479",
+      "title": "Adaptive Evaluation of Out-of-Band Defenses Against Prompt Injection in LLM Agents",
+      "authors": [
+        "Praneeth Narisetty",
+        "Shiva Nagendra Babu Kore",
+        "Uday Kumar Reddy Kattamanchi",
+        "Jayaram Kumarapu"
+      ],
+      "year": 2026,
+      "arxiv_id": "2606.26479v1",
+      "url": "https://arxiv.org/abs/2606.26479v1",
+      "doi": "",
+      "source_sha256": "cf18d00fb4012f6caff6fe2c5c697bdd3619671164f2b85f40346d0c577af22e",
+      "checked_at": "2026-11-13",
+      "read_sections": "S0.SSx6 — 6. A systematization of out-of-band defenses; связанные фрагменты метода и оценки"
+    }
+  ],
+  "cards": [
+    {
+      "paper_id": "arxiv-2312-14197",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c1",
+          "paper_id": "arxiv-2312-14197",
+          "kind": "source_finding",
+          "text": "BIPIA связывает indirect injection с путаницей между внешними данными и инструкциями. Авторы исследуют явные напоминания и способы обозначения границ контекста; white-box вариант дополнительно обучает модель игнорировать команды во внешнем содержимом.",
+          "conditions": [
+            "Внешний текст попадает в контекст приложения; §5 задаёт оценку и ASR."
+          ],
+          "limitations": [
+            "Эффективность напоминания на данном наборе атак не является гарантией против адаптивного противника."
+          ],
+          "evidence": [
+            {
+              "quote": "Black-box defense refers to a collection of defense strategies",
+              "url": "https://arxiv.org/html/2312.14197v4#S6.SS1",
+              "locator": "S6.SS1 — 6.1. Black-box Defense; связанные фрагменты метода и оценки",
+              "segment_id": "S6.SS1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2403-02691",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c2",
+          "paper_id": "arxiv-2403-02691",
+          "kind": "source_finding",
+          "text": "InjecAgent переводит угрозу в действия инструментального агента: вред пользователю или извлечение и передачу данных. В анализе авторы связывают уязвимость с тем, насколько свободным может быть содержимое атакуемого поля ответа инструмента.",
+          "conditions": [
+            "Атакующий изменяет внешний tool response; успех определяется последующими действиями агента."
+          ],
+          "limitations": [
+            "Часть состояния и ответов инструментов моделируется; это не измерение любого реального приложения."
+          ],
+          "evidence": [
+            {
+              "quote": "InjecAgent aims to evaluate the vulnerability of an LLM",
+              "url": "https://arxiv.org/html/2403.02691v3#S2.SS1",
+              "locator": "S2.SS1 — 2.1 Problem Formalization; связанные фрагменты метода и оценки",
+              "segment_id": "S2.SS1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2406-13352",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c3",
+          "paper_id": "arxiv-2406-13352",
+          "kind": "source_finding",
+          "text": "AgentDojo разделяет benign utility, utility under attack и targeted ASR. Это позволяет заметить защиту, которая снижает успешность атак лишь потому, что агент перестаёт решать полезные задачи.",
+          "conditions": [
+            "Динамическое окружение задач и security cases; проверяются завершение задачи и побочные действия."
+          ],
+          "limitations": [
+            "Набор приложений, права атакующего и критерии успеха ограничивают перенос результатов."
+          ],
+          "evidence": [
+            {
+              "quote": "Utility Under Attack: the fraction of security cases (i.e.,",
+              "url": "https://arxiv.org/html/2406.13352v3#S3.SS4",
+              "locator": "S3.SS4 — 3.4 Reporting AgentDojo Results; связанные фрагменты метода и оценки",
+              "segment_id": "S3.SS4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2402-06363",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c4",
+          "paper_id": "arxiv-2402-06363",
+          "kind": "source_finding",
+          "text": "StruQ объединяет front-end со специальными разделителями и фильтрацией этих токенов в данных со structured instruction tuning. Защита опирается на обученное различение instruction и data, а не только на текстовый совет модели.",
+          "conditions": [
+            "Нужны контроль формата входа, зарезервированные токены и собственное обучение."
+          ],
+          "limitations": [
+            "Проверка этой конструкции не доказывает безопасность всех многошаговых инструментальных траекторий."
+          ],
+          "evidence": [
+            {
+              "quote": "Our main approach in StruQ is to combine a",
+              "url": "https://arxiv.org/html/2402.06363v2#S4.SS2",
+              "locator": "S4.SS2 — 4.2 Our Defense: A High-Level Overview; связанные фрагменты метода и оценки",
+              "segment_id": "S4.SS2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2410-05451",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c5",
+          "paper_id": "arxiv-2410-05451",
+          "kind": "source_finding",
+          "text": "SecAlign использует preference optimization для выбора корректного поведения при конфликте инструкций и внешнего текста. Авторы отдельно ограничивают применимость явным разделением instruction/data и не обещают стопроцентной безопасности.",
+          "conditions": [
+            "Сценарии с чётко отделёнными инструкциями и данными; требуется fine-tuning."
+          ],
+          "limitations": [
+            "В статье отмечены непроверенные будущие атаки и неясный перенос на многошаговые web agents."
+          ],
+          "evidence": [
+            {
+              "quote": "We present SecAlign, a SOTA fine-tuning-based defense for securing",
+              "url": "https://arxiv.org/html/2410.05451v3#S6",
+              "locator": "S6 — 6. Conclusion and Discussions; связанные фрагменты метода и оценки",
+              "segment_id": "S6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2503-00061",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c6",
+          "paper_id": "arxiv-2503-00061",
+          "kind": "source_finding",
+          "text": "Работа об adaptive attacks показывает обход исследованных защит после адаптации атаки к ним. Низкий ASR для исходного фиксированного набора атак поэтому нельзя считать достаточным свидетельством робастности.",
+          "conditions": [
+            "Атакующий знает защиты и имеет white-box доступ в описанном threat model; сравниваются конкретные агенты."
+          ],
+          "limitations": [
+            "Вывод относится к изученным защитам и правам атакующего; он не доказывает невозможность любых защит."
+          ],
+          "evidence": [
+            {
+              "quote": "We present the overall results in Figure 2. The",
+              "url": "https://arxiv.org/html/2503.00061v2#S5.SS2",
+              "locator": "S5.SS2 — 5.2 Experiment Results; связанные фрагменты метода и оценки",
+              "segment_id": "S5.SS2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2606-26479",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c7",
+          "paper_id": "arxiv-2606-26479",
+          "kind": "source_finding",
+          "text": "Исследование out-of-band защит рассматривает enforcement вне модели: ограничения полномочий, отслеживание происхождения данных и проверки разрешённых действий. Надёжность зависит от назначения provenance и полноты политики, а не только от распознавания вредного текста.",
+          "conditions": [
+            "Обзор архитектур и собственная ограниченная адаптивная проверка; детали и границы — §10–12."
+          ],
+          "limitations": [
+            "Не все архитектуры независимо воспроизведены; угрозы in-the-loop и неявные потоки требуют отдельных условий."
+          ],
+          "evidence": [
+            {
+              "quote": "We compare the principal defenses on eight dimensions: (D1)",
+              "url": "https://arxiv.org/html/2606.26479v1#S0.SSx6",
+              "locator": "S0.SSx6 — 6. A systematization of out-of-band defenses; связанные фрагменты метода и оценки",
+              "segment_id": "S0.SSx6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "synthesis": {
+    "title": "Prompt injection у агентов: границы доверия, защиты и адаптивная оценка",
+    "sections": [
+      {
+        "key": "brief",
+        "title": "За минуту: главный вопрос и вывод",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Prompt injection возникает, когда недоверенные данные начинают управлять агентом как инструкция. Для инструментального агента ущерб — это не только плохой ответ, но и неразрешённое действие или передача данных.",
+            "claim_ids": [
+              "c1",
+              "c2"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Полезно различать три слоя: обозначение границы данных, обучение устойчивому поведению и внешнее ограничение допустимых действий. Они защищают разные части системы и не заменяют друг друга автоматически.",
+            "claim_ids": [
+              "c4",
+              "c5",
+              "c7"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Главная проверка — сохраняет ли защита полезность при атаках, адаптированных к ней. Одного низкого ASR на фиксированной подборке недостаточно.",
+            "claim_ids": [
+              "c3",
+              "c6"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "scope",
+        "title": "Границы и отбор источников",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Обзор подготовлен 13 ноября 2026 года по выбранным фрагментам полных HTML-текстов 7 работ. Это узкий фокус внутри направления, а не энциклопедия всей области и не систематический поиск. Количество источников в общем каталоге не означает, что все они прочитаны.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Отбор целенаправленный: основные постановки задачи, различные семейства методов и работы, проверяющие их ограничения. Точные версии, локаторы и SHA-256 прочитанных HTML сохранены в JSON. Короткая цитата служит поисковым якорем; вывод следует сверять с контекстом раздела. Независимая экспертная рецензия и воспроизведение экспериментов не выполнялись.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "mechanism",
+        "title": "Понятия и механизм: что именно проверяется",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Модель угроз должна назвать контролируемый атакующим источник, момент внедрения, доступные инструменты и запрещённое действие. Подмена письма и полный контроль системного промпта — разные эксперименты.",
+            "claim_ids": [
+              "c2",
+              "c7"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Данные могут содержать повелительные фразы по законной причине. Поэтому классификация текста и решение о полномочиях — разные задачи: можно пропустить опасный текст, но заблокировать действие, либо ошибочно остановить полезную задачу.",
+            "claim_ids": [
+              "c3",
+              "c7"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "approaches",
+        "title": "Подходы и свидетельства из работ",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "BIPIA связывает indirect injection с путаницей между внешними данными и инструкциями. Авторы исследуют явные напоминания и способы обозначения границ контекста; white-box вариант дополнительно обучает модель игнорировать команды во внешнем содержимом.",
+            "claim_ids": [
+              "c1"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "InjecAgent переводит угрозу в действия инструментального агента: вред пользователю или извлечение и передачу данных. В анализе авторы связывают уязвимость с тем, насколько свободным может быть содержимое атакуемого поля ответа инструмента.",
+            "claim_ids": [
+              "c2"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "AgentDojo разделяет benign utility, utility under attack и targeted ASR. Это позволяет заметить защиту, которая снижает успешность атак лишь потому, что агент перестаёт решать полезные задачи.",
+            "claim_ids": [
+              "c3"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "StruQ объединяет front-end со специальными разделителями и фильтрацией этих токенов в данных со structured instruction tuning. Защита опирается на обученное различение instruction и data, а не только на текстовый совет модели.",
+            "claim_ids": [
+              "c4"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "SecAlign использует preference optimization для выбора корректного поведения при конфликте инструкций и внешнего текста. Авторы отдельно ограничивают применимость явным разделением instruction/data и не обещают стопроцентной безопасности.",
+            "claim_ids": [
+              "c5"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Работа об adaptive attacks показывает обход исследованных защит после адаптации атаки к ним. Низкий ASR для исходного фиксированного набора атак поэтому нельзя считать достаточным свидетельством робастности.",
+            "claim_ids": [
+              "c6"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Исследование out-of-band защит рассматривает enforcement вне модели: ограничения полномочий, отслеживание происхождения данных и проверки разрешённых действий. Надёжность зависит от назначения provenance и полноты политики, а не только от распознавания вредного текста.",
+            "claim_ids": [
+              "c7"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "comparison",
+        "title": "Сравнение работ и условий",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Таблица разделяет постановки, механизмы и границы выводов. Она не ранжирует работы по несопоставимым числам. Улучшение показателя в конкретной статье не доказывает преимущество во всех моделях, данных и режимах.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "disagreements",
+        "title": "Разногласия, ограничения и ложные обобщения",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Положительные результаты обучаемых защит и успешные adaptive attacks совместимы: изменились атаки и доступ противника. Сначала сверяйте threat model и условия дообучения, затем проценты.",
+            "claim_ids": [
+              "c4",
+              "c5",
+              "c6"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Защита, которая всегда прекращает выполнение, может иметь низкий targeted ASR и низкую полезность. Поэтому результат без benign utility и utility under attack неполон.",
+            "claim_ids": [
+              "c3"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Внешний reference monitor переносит часть доверия в код и политику. Это полезное изменение архитектуры, но корректность provenance и разрешений всё равно нуждается в проверке.",
+            "claim_ids": [
+              "c7"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "practice",
+        "title": "Как читать результаты и проверить подход у себя",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Перед тестом зафиксировать версии моделей, инструменты, права противника и критерии запрещённого действия. Сохранить исходную задачу, чистую траекторию, атакуемое поле и результат проверки.",
+            "claim_ids": []
+          },
+          {
+            "kind": "synthesis",
+            "text": "Измерять вместе benign utility, полезность под атакой и targeted ASR; отдельно учитывать ложные остановки и расходы защиты. Затем повторить испытания с адаптивными атаками при фиксированном бюджете.",
+            "claim_ids": [
+              "c3",
+              "c6"
+            ]
+          },
+          {
+            "kind": "editorial",
+            "text": "Разбирать ошибки по первопричине: неверное доверие к тексту, избыточное разрешение инструмента, ошибочный enforcement или недостаточный тест. Это предлагаемый порядок анализа, не выполненный нами эксперимент.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "questions",
+        "title": "Открытые вопросы и следующие эксперименты",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Как меняется компромисс utility/security при совместном использовании обученной защиты и внешнего контроля действий? Проверка: одна и та же среда, одинаковые права атакующего и бюджет, абляции каждого слоя.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Какие ошибки provenance остаются при нескольких агентах и передаче данных между инструментами? Нужны тесты, где контроль распространяется на всю цепочку, а не только на последний ответ.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "reading",
+        "title": "Маршрут чтения",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Сначала прочитайте первые две работы из таблицы: они задают понятия и способ измерения. Затем сравните методы в середине списка с критическими и более поздними исследованиями. Цель — понять, какое предположение меняется и что именно измеряется.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Для каждой работы выпишите объект переноса или оценки, используемый baseline, единицу тестирования, условия успеха и способ проверки. Цифры без этих полей недостаточны для выбора метода. Ссылки [n] раскрывают карточки доказательств; оттуда можно открыть раздел первоисточника.",
+            "claim_ids": []
+          }
+        ]
+      }
+    ],
+    "concepts": [
+      {
+        "id": "concept-1",
+        "name": "Граница доверия",
+        "definition": {
+          "kind": "synthesis",
+          "text": "Разделение полномочных инструкций и внешних данных, контролируемых третьей стороной.",
+          "claim_ids": [
+            "c1",
+            "c4"
+          ]
+        },
+        "statements": [],
+        "disagreements": []
+      },
+      {
+        "id": "concept-2",
+        "name": "Адаптивная атака",
+        "definition": {
+          "kind": "synthesis",
+          "text": "Атака, разработанная с учётом конкретной защиты и доступных противнику знаний.",
+          "claim_ids": [
+            "c6"
+          ]
+        },
+        "statements": [],
+        "disagreements": []
+      }
+    ],
+    "relations": []
+  },
+  "comparison": [
+    {
+      "paper_id": "arxiv-2312-14197",
+      "method": "Границы данных и напоминания",
+      "guarantee": "Эмпирическая устойчивость в выбранном threat model",
+      "setup": "Внешний текст попадает в контекст приложения; §5 задаёт оценку и ASR.",
+      "claim_ids": [
+        "c1"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2403-02691",
+      "method": "Tool-response injection",
+      "guarantee": "Критерий вредного действия в заданном сценарии",
+      "setup": "Атакующий изменяет внешний tool response; успех определяется последующими действиями агента.",
+      "claim_ids": [
+        "c2"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2406-13352",
+      "method": "Интерактивная оценка агента",
+      "guarantee": "Полезность и безопасность измеряются раздельно",
+      "setup": "Динамическое окружение задач и security cases; проверяются завершение задачи и побочные действия.",
+      "claim_ids": [
+        "c3"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2402-06363",
+      "method": "Структурированный формат и обучение",
+      "guarantee": "Условия корректного front-end входят в доверенную базу",
+      "setup": "Нужны контроль формата входа, зарезервированные токены и собственное обучение.",
+      "claim_ids": [
+        "c4"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2410-05451",
+      "method": "Обучение предпочтению доверенных инструкций",
+      "guarantee": "Эмпирическая защита, не универсальная гарантия",
+      "setup": "Сценарии с чётко отделёнными инструкциями и данными; требуется fine-tuning.",
+      "claim_ids": [
+        "c5"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2503-00061",
+      "method": "Адаптивная оценка",
+      "guarantee": "Сила противника должна совпадать при сравнении",
+      "setup": "Атакующий знает защиты и имеет white-box доступ в описанном threat model; сравниваются конкретные агенты.",
+      "claim_ids": [
+        "c6"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2606-26479",
+      "method": "Внешний контроль действий",
+      "guarantee": "Гарантии условны относительно политики и доверенной базы",
+      "setup": "Обзор архитектур и собственная ограниченная адаптивная проверка; детали и границы — §10–12.",
+      "claim_ids": [
+        "c7"
+      ]
+    }
+  ],
+  "quality": {
+    "warnings": [
+      "Целенаправленный обзор выбранного подвопроса; полный охват направления и актуальный SOTA-рейтинг не заявляются.",
+      "Разобраны выбранные фрагменты полных текстов, а не все приложения и доказательства. Цитаты сверены с сохранёнными HTML.",
+      "Результаты принадлежат авторам статей. Собственные эксперименты и независимая экспертная рецензия не выполнялись.",
+      "Автоматический поиск добавляет только кандидатов; он не подтверждает их качество и не обновляет выводы этого обзора."
+    ]
+  },
+  "changes": {
+    "note": "Первый концептуальный выпуск с условиями сравнения и доказательствами."
+  },
+  "publication": {
+    "released_at": "2026-11-13",
+    "note": "Первый обзор: 7 выбранных работ, механизмы, сравнение и ограничения; без своего воспроизведения.",
+    "preparation": "source_based_editorial",
+    "expert_peer_review": false
+  }
+}

@@ -62,7 +62,7 @@ function renderNav() {
       el('span',{class:'topic-number'},topic.has_review ? 'Читать' : String(index+1).padStart(2,'0')));
     nav.append(item);
   });
-  $('#library-count').textContent = `${state.data.topics.filter(topic=>topic.has_review).length} обзор`;
+  $('#library-count').textContent = 'Обзоров: '+state.data.topics.filter(topic=>topic.has_review).length;
   if (window.matchMedia('(max-width: 640px)').matches) nav.querySelector('.active')?.scrollIntoView({block:'nearest',inline:'center'});
 }
 
@@ -180,6 +180,7 @@ function coveragePanel(topic) {
   const c = topic.bibliography_coverage;
   if (!c?.count) return null;
   return el('section',{class:'coverage-panel'},el('div',{class:'panel-kicker'},'ОХВАТ ПОИСКОВОГО КОРПУСА'),
+    topic.discovery ? el('p',{},'Последняя проверка: '+date(topic.bibliography_checked_at)+' · Новых кандидатов: '+topic.discovery.added+'; новых версий: '+topic.discovery.updated+'. Выводы обзора автоматически не менялись.') : null,
     el('h3',{},c.count+' записей · '+c.first_year+'–'+c.last_year),
     el('p',{},'Годы: '+Object.entries(c.years).map(([year,count])=>year+': '+count).join(' · ')),
     el('p',{},Object.entries(c.groups).map(([key,count])=>discoveryLabels[key]+': '+count).join(' · ')),
@@ -209,7 +210,9 @@ function renderSources(topic) {
     list.replaceChildren(...shown.slice(0,visible).map(paper=>{
       const url = safeURL(paper.url), title = url ? el('a',{href:url,target:'_blank',rel:'noreferrer'},paper.title+' ↗') : paper.title;
       return el('li',{class:'source-card'},el('div',{class:'source-meta'},paper.published_at ? date(paper.published_at) : paper.year||'Год не указан',el('span',{class:'source-status'},labels[paper.decision]||paper.decision)),el('h3',{},title),el('p',{},(paper.authors||[]).join(', ')),paper.arxiv_id ? el('p',{},'arXiv: '+paper.arxiv_id+(paper.updated_at ? ' · версия '+date(paper.updated_at) : '')) : null,
-        paper.discovery_groups?.length ? el('p',{},'Найдено: '+paper.discovery_groups.map(key=>discoveryLabels[key]||key).join(' · ')) : null);
+        paper.discovery_groups?.length ? el('p',{},'Найдено: '+paper.discovery_groups.map(key=>discoveryLabels[key]||key).join(' · ')) : null,
+        paper.added_at ? el('p',{},'Добавлено в каталог: '+date(paper.added_at)) : null,
+        paper.available_arxiv_id ? el('p',{class:'review-notice'},'Обзор использует '+paper.arxiv_id+'. Доступна более новая версия: ',el('a',{href:'https://arxiv.org/abs/'+paper.available_arxiv_id,target:'_blank',rel:'noreferrer'},paper.available_arxiv_id+' ↗')) : null);
     }));
     if (!shown.length) list.append(el('li',{class:'empty-panel'},el('p',{},'Нет совпадений с выбранными фильтрами.')));
     more.hidden = visible >= shown.length;

@@ -1,0 +1,130 @@
+<!doctype html><html lang='ru'><meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta http-equiv='Content-Security-Policy' content="default-src 'none'; style-src 'unsafe-inline'">
+<title>LLM-as-a-judge: валидность, смещения и проверка оценщика</title>
+<style>body{margin:0;background:#f6f5f1;color:#202a31;font:17px/1.65 system-ui,sans-serif}main{max-width:960px;margin:auto;padding:48px 24px}h1{font-size:2.5em;line-height:1.15}h2{margin-top:2.5em}a{color:#176a70}.ref{font-size:.76em}nav{display:flex;gap:16px;flex-wrap:wrap}details{background:white;border:1px solid #dbe0dd;border-radius:8px;padding:16px;margin:12px 0}summary{cursor:pointer;font-weight:650}small,.muted{color:#5c676d}.badge{display:inline-block;background:#ffe5aa;border-radius:4px;padding:3px 9px}article{border-top:1px solid #ddd;padding:12px 0;scroll-margin-top:20px}blockquote{border-left:3px solid #c4d6cf;padding-left:16px}code{overflow-wrap:anywhere}footer{margin-top:50px;border-top:1px solid #ccc}</style><main>
+<span class='badge'>Редакционный выпуск · ограничения указаны ниже</span><h1>LLM-as-a-judge: валидность, смещения и проверка оценщика</h1>
+<p class='muted'>2026-11-13 · 7 работ</p>
+<nav><a href='#review'>Обзор</a><a href='#concepts'>Понятия</a><a href='#papers'>Статьи и доказательства</a><a href='references.bib'>BibTeX</a></nav>
+<h2>Границы и вопросы</h2><p>LLM-as-a-judge: валидность, смещения и проверка оценщика</p><ul>
+<li>Когда LLM-as-a-judge согласуется с независимой человеческой оценкой?</li>
+<li>Какие позиционные, стилевые и модельные смещения выявлены и как они измерены?</li>
+</ul><section id='review'>
+<h2>За минуту: главный вопрос и вывод</h2>
+<p>Judge — измерительный инструмент. Нужно проверить, какое качество он оценивает и насколько его решения совпадают с подходящим человеческим или проверяемым критерием. <a class="ref" href="#c1">Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena</a> <a class="ref" href="#c5">No Free Labels: Limitations of LLM-as-a-Judge Without Human Grounding</a></p>
+<p>Повторяемость, согласие с человеком и устойчивость к позиции или стилю — разные свойства. Высокое значение одного не гарантирует остальные. <a class="ref" href="#c2">Judging the Judges: A Systematic Study of Position Bias in LLM-as-a-Judge</a> <a class="ref" href="#c3">Self-Preference Bias in LLM-as-a-Judge</a></p>
+<p>Перестановка ответов и self-debiasing могут помогать в конкретном режиме, но требуют проверки конечного verdict, расходов и побочных ошибок. <a class="ref" href="#c6">The Judge Can Debias Itself: Awareness and Self-Debiasing for Reliable LLM-as-a-Judge</a> <a class="ref" href="#c7">Judging the Judges: A Systematic Evaluation of Bias Mitigation Strategies in LLM-as-a-Judge Pipelines</a></p>
+<h2>Границы и отбор источников</h2>
+<p><strong>Редакторское предложение.</strong> Обзор подготовлен 13 ноября 2026 года по выбранным фрагментам полных HTML-текстов 7 работ. Это узкий фокус внутри направления, а не энциклопедия всей области и не систематический поиск. Количество источников в общем каталоге не означает, что все они прочитаны. </p>
+<p><strong>Редакторское предложение.</strong> Отбор целенаправленный: основные постановки задачи, различные семейства методов и работы, проверяющие их ограничения. Точные версии, локаторы и SHA-256 прочитанных HTML сохранены в JSON. Короткая цитата служит поисковым якорем; вывод следует сверять с контекстом раздела. Независимая экспертная рецензия и воспроизведение экспериментов не выполнялись. </p>
+<h2>Понятия и механизм: что именно проверяется</h2>
+<p>Pairwise judge выбирает между ответами; pointwise выставляет независимую оценку. Эти режимы имеют разные требования к калибровке и агрегации, поэтому их показатели нельзя смешивать. <a class="ref" href="#c1">Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena</a></p>
+<p>Качество оценщика зависит от rubric, формата входа, кандидатов и происхождения данных. Модель, обученная на synthetic outputs, может получить незаслуженное преимущество у связанного judge. <a class="ref" href="#c4">Preference Leakage: A Contamination Problem in LLM-as-a-judge</a> <a class="ref" href="#c5">No Free Labels: Limitations of LLM-as-a-Judge Without Human Grounding</a></p>
+<h2>Подходы и свидетельства из работ</h2>
+<p>MT-Bench/Chatbot Arena исследует модельное судейство вместе с ограничениями, включая position bias. Согласие с человеком измеряется на определённой задаче и наборе ответов, а не устанавливается раз и навсегда. <a class="ref" href="#c1">Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena</a></p>
+<p>Систематическая работа о position bias различает repetition stability, position consistency и preference fairness. Стабильный при повторении judge всё ещё может систематически предпочитать позицию ответа. <a class="ref" href="#c2">Judging the Judges: A Systematic Study of Position Bias in LLM-as-a-Judge</a></p>
+<p>Self-Preference Bias измеряет отклонение от человеческих предпочтений отдельно для собственных и чужих ответов judge. Само авторство ответа становится проверяемым фактором оценки. <a class="ref" href="#c3">Self-Preference Bias in LLM-as-a-Judge</a></p>
+<p>Preference Leakage описывает завышение оценок student, если synthetic-data generator связан с judge. Стиль и формулировки могут переноситься из генератора в обученную модель и становиться побочной подсказкой. <a class="ref" href="#c4">Preference Leakage: A Contamination Problem in LLM-as-a-judge</a></p>
+<p>No Free Labels сравнивает judge с человеческой разметкой и baselines на различных задачах оценки. Человеческое основание нужно для проверки того, что модельный verdict измеряет целевое качество. <a class="ref" href="#c5">No Free Labels: Limitations of LLM-as-a-Judge Without Human Grounding</a></p>
+<p>The Judge Can Debias Itself предлагает двухпроходную self-debiasing схему: анализ возможного bias и пересмотр исходного решения. Это дополнительный механизм, который требует отдельной оценки эффекта и расходов. <a class="ref" href="#c6">The Judge Can Debias Itself: Awareness and Self-Debiasing for Reliable LLM-as-a-Judge</a></p>
+<p>Систематическая оценка bias mitigation пересекает модели, стратегии, benchmarks и типы bias в factorial experiment. Это помогает увидеть зависимость эффективности коррекции от модели и сценария. <a class="ref" href="#c7">Judging the Judges: A Systematic Evaluation of Bias Mitigation Strategies in LLM-as-a-Judge Pipelines</a></p>
+<h2>Сравнение работ и условий</h2>
+<p><strong>Редакторское предложение.</strong> Таблица разделяет постановки, механизмы и границы выводов. Она не ранжирует работы по несопоставимым числам. Улучшение показателя в конкретной статье не доказывает преимущество во всех моделях, данных и режимах. </p>
+<div style="overflow-x:auto"><table><thead><tr><th>Работа</th><th>Механизм</th><th>Гарантия</th><th>Условия</th></tr></thead><tbody>
+<tr><td>Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena <a href="#c1">источник</a></td><td>Базовые режимы судейства</td><td>Agreement привязан к задаче и выборке</td><td>Single-answer и pairwise режимы; конкретные prompts, judge и human comparisons.</td></tr>
+<tr><td>Judging the Judges: A Systematic Study of Position Bias in LLM-as-a-Judge <a href="#c2">источник</a></td><td>Раздельные метрики устойчивости</td><td>Повторяемость не равна отсутствию bias</td><td>Pairwise и list-wise сравнения; переменные judge, candidate и task.</td></tr>
+<tr><td>Self-Preference Bias in LLM-as-a-Judge <a href="#c3">источник</a></td><td>Аудит self-preference</td><td>Принадлежность модели может влиять на оценку</td><td>Equal-opportunity подход относительно human-preferred labels; конкретные модели и ответы.</td></tr>
+<tr><td>Preference Leakage: A Contamination Problem in LLM-as-a-judge <a href="#c4">источник</a></td><td>Контаминация оценивания</td><td>Независимость judge требует проверки происхождения данных</td><td>Явно различаются generator, student и judge; анализируется их relatedness.</td></tr>
+<tr><td>No Free Labels: Limitations of LLM-as-a-Judge Without Human Grounding <a href="#c5">источник</a></td><td>Human-grounded validation</td><td>Нужно валидировать измеряемое качество</td><td>VERDICTS и производные judgment tasks; agreement с human annotators.</td></tr>
+<tr><td>The Judge Can Debias Itself: Awareness and Self-Debiasing for Reliable LLM-as-a-Judge <a href="#c6">источник</a></td><td>Self-debiasing</td><td>Проверять итоговое качество, а не наличие reasoning</td><td>Bias-aware prompting и self-debiasing; фиксированные задачи и judge models.</td></tr>
+<tr><td>Judging the Judges: A Systematic Evaluation of Bias Mitigation Strategies in LLM-as-a-Judge Pipelines <a href="#c7">источник</a></td><td>Контролируемые сравнения mitigations</td><td>Вердикт и промежуточные scores не взаимозаменяемы</td><td>Pairwise JSON verdict A/B/tie; рассуждение и rubric scores отделены от записанного verdict.</td></tr>
+</tbody></table></div>
+<h2>Разногласия, ограничения и ложные обобщения</h2>
+<p>Стабильный verdict может быть стабильно смещённым. Repetition stability поэтому следует читать вместе с position consistency и human agreement. <a class="ref" href="#c2">Judging the Judges: A Systematic Study of Position Bias in LLM-as-a-Judge</a></p>
+<p>Больше reasoning в self-debiasing не является автоматическим доказательством лучшего judgment. Проверять надо точность решения после коррекции. <a class="ref" href="#c6">The Judge Can Debias Itself: Awareness and Self-Debiasing for Reliable LLM-as-a-Judge</a></p>
+<p>Разные стратегии debiasing могут менять ошибки по-разному у разных judges; средняя победа не гарантирует перенос на новый домен. <a class="ref" href="#c7">Judging the Judges: A Systematic Evaluation of Bias Mitigation Strategies in LLM-as-a-Judge Pipelines</a></p>
+<h2>Как читать результаты и проверить подход у себя</h2>
+<p><strong>Редакторское предложение.</strong> Собрать отложенную human-grounded выборку, зафиксировать rubric и сохранять сырые verdicts, ошибки парсинга и ties. Проверить согласие людей до интерпретации disagreement с моделью. </p>
+<p><strong>Редакторское предложение.</strong> Использовать matched pairs с перестановкой порядка, изменением стиля при сохранении смысла и контролем качества. Отдельно аудировать родство generator/student/judge и стоимость повторных оценок. </p>
+<h2>Открытые вопросы и следующие эксперименты</h2>
+<p><strong>Редакторское предложение.</strong> Какой небольшой human audit лучше предсказывает ошибки judge в новом домене? Нужен заранее заданный отбор случаев и отдельный тест после калибровки. </p>
+<p><strong>Редакторское предложение.</strong> Сохраняется ли эффект self-debiasing при одинаковом token/call budget с простым повторным судейством? Это сравнение отделит метод от дополнительных вычислений. </p>
+<h2>Маршрут чтения</h2>
+<p><strong>Редакторское предложение.</strong> Сначала прочитайте первые две работы из таблицы: они задают понятия и способ измерения. Затем сравните методы в середине списка с критическими и более поздними исследованиями. Цель — понять, какое предположение меняется и что именно измеряется. </p>
+<p><strong>Редакторское предложение.</strong> Для каждой работы выпишите объект переноса или оценки, используемый baseline, единицу тестирования, условия успеха и способ проверки. Цифры без этих полей недостаточны для выбора метода. Ссылки [n] раскрывают карточки доказательств; оттуда можно открыть раздел первоисточника. </p>
+</section><section id='concepts'><h2>Понятия</h2>
+<details><summary>Валидность</summary>
+<p>Соответствие оценки целевому качеству, проверяемое на human-grounded задачах. <a class="ref" href="#c5">No Free Labels: Limitations of LLM-as-a-Judge Without Human Grounding</a></p>
+</details>
+<details><summary>Position consistency</summary>
+<p>Устойчивость предпочтения к перестановке мест кандидатов. <a class="ref" href="#c2">Judging the Judges: A Systematic Study of Position Bias in LLM-as-a-Judge</a></p>
+</details>
+</section><section id='papers'><h2>Статьи и доказательства</h2>
+<h3>Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c1"><strong>source_finding</strong><p>MT-Bench/Chatbot Arena исследует модельное судейство вместе с ограничениями, включая position bias. Согласие с человеком измеряется на определённой задаче и наборе ответов, а не устанавливается раз и навсегда.</p>
+<p><small>Условия: Single-answer и pairwise режимы; конкретные prompts, judge и human comparisons.</small></p>
+<p><small>Авторские ограничения: Результаты conversational judging не гарантируют корректность в экспертных и новых доменах.</small></p>
+<blockquote>We identify certain biases and limitations of LLM judges.</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2306.05685v4#S3.SS3">S3.SS3 — 3.3 Limitations of LLM-as-a-Judge; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2306.05685v4">Первоисточник</a></p>
+</article>
+<h3>Judging the Judges: A Systematic Study of Position Bias in LLM-as-a-Judge</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c2"><strong>source_finding</strong><p>Систематическая работа о position bias различает repetition stability, position consistency и preference fairness. Стабильный при повторении judge всё ещё может систематически предпочитать позицию ответа.</p>
+<p><small>Условия: Pairwise и list-wise сравнения; переменные judge, candidate и task.</small></p>
+<p><small>Авторские ограничения: Анализ факторов post hoc не заменяет контрольный причинный эксперимент.</small></p>
+<blockquote>In our study, we first verify whether capable LLM</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2406.07791v9#S2.SS2">S2.SS2 — 2.2 Evaluation Metrics; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2406.07791v9">Первоисточник</a></p>
+</article>
+<h3>Self-Preference Bias in LLM-as-a-Judge</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c3"><strong>source_finding</strong><p>Self-Preference Bias измеряет отклонение от человеческих предпочтений отдельно для собственных и чужих ответов judge. Само авторство ответа становится проверяемым фактором оценки.</p>
+<p><small>Условия: Equal-opportunity подход относительно human-preferred labels; конкретные модели и ответы.</small></p>
+<p><small>Авторские ограничения: Нужны качественные человеческие метки и учёт различий качества сравниваемых ответов.</small></p>
+<blockquote>To measure the extent to which an LLM’s evaluation</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2410.21819v2#S4.SS1">S4.SS1 — 4.1 Self-preference Bias Metric; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2410.21819v2">Первоисточник</a></p>
+</article>
+<h3>Preference Leakage: A Contamination Problem in LLM-as-a-judge</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c4"><strong>source_finding</strong><p>Preference Leakage описывает завышение оценок student, если synthetic-data generator связан с judge. Стиль и формулировки могут переноситься из генератора в обученную модель и становиться побочной подсказкой.</p>
+<p><small>Условия: Явно различаются generator, student и judge; анализируется их relatedness.</small></p>
+<p><small>Авторские ограничения: Связь генератора и судьи нужно исследовать, а не выводить только из общего поставщика.</small></p>
+<blockquote>Preference leakage occurs when the evaluation score</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2502.01534v3#S3.SS2">S3.SS2 — 3.2 Defining Preference Leakage in LLM-based Evaluation; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2502.01534v3">Первоисточник</a></p>
+</article>
+<h3>No Free Labels: Limitations of LLM-as-a-Judge Without Human Grounding</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c5"><strong>source_finding</strong><p>No Free Labels сравнивает judge с человеческой разметкой и baselines на различных задачах оценки. Человеческое основание нужно для проверки того, что модельный verdict измеряет целевое качество.</p>
+<p><small>Условия: VERDICTS и производные judgment tasks; agreement с human annotators.</small></p>
+<p><small>Авторские ограничения: Human labels могут быть неоднозначными; agreement зависит от rubric и состава задач.</small></p>
+<blockquote>We experiment on two judgment tasks derived from our</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2503.05061v4#S4">S4 — 4 Experimental Setup; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2503.05061v4">Первоисточник</a></p>
+</article>
+<h3>The Judge Can Debias Itself: Awareness and Self-Debiasing for Reliable LLM-as-a-Judge</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c6"><strong>source_finding</strong><p>The Judge Can Debias Itself предлагает двухпроходную self-debiasing схему: анализ возможного bias и пересмотр исходного решения. Это дополнительный механизм, который требует отдельной оценки эффекта и расходов.</p>
+<p><small>Условия: Bias-aware prompting и self-debiasing; фиксированные задачи и judge models.</small></p>
+<p><small>Авторские ограничения: Самокритика без ground truth не доказывает правильность нового решения; добавляется стоимость вызовов.</small></p>
+<blockquote>A two-pass approach: (1) the model analyzes its initial</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.24320v1#S3.SS2.SSS0.Px2">S3.SS2.SSS0.Px2 — Strategy 2: Self-Debiasing.; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2610.24320v1">Первоисточник</a></p>
+</article>
+<h3>Judging the Judges: A Systematic Evaluation of Bias Mitigation Strategies in LLM-as-a-Judge Pipelines</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c7"><strong>source_finding</strong><p>Систематическая оценка bias mitigation пересекает модели, стратегии, benchmarks и типы bias в factorial experiment. Это помогает увидеть зависимость эффективности коррекции от модели и сценария.</p>
+<p><small>Условия: Pairwise JSON verdict A/B/tie; рассуждение и rubric scores отделены от записанного verdict.</small></p>
+<p><small>Авторские ограничения: Нельзя объявлять одну debiasing стратегию универсально лучшей без проверки взаимодействий и statistical uncertainty.</small></p>
+<blockquote>We design a factorial experiment crossing four dimensions: judge</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2604.23178v2#S3.SS1">S3.SS1 — 3.1 Experimental Framework; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2604.23178v2">Первоисточник</a></p>
+</article>
+</section><footer><h2>Ограничения</h2>
+<p>Целенаправленный обзор выбранного подвопроса; полный охват направления и актуальный SOTA-рейтинг не заявляются.</p>
+<p>Разобраны выбранные фрагменты полных текстов, а не все приложения и доказательства. Цитаты сверены с сохранёнными HTML.</p>
+<p>Результаты принадлежат авторам статей. Собственные эксперименты и независимая экспертная рецензия не выполнялись.</p>
+<p>Автоматический поиск добавляет только кандидатов; он не подтверждает их качество и не обновляет выводы этого обзора.</p>
+</footer></main></html>

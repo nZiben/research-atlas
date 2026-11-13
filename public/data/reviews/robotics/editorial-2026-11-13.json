@@ -1,0 +1,934 @@
+{
+  "schema_version": 1,
+  "kind": "editorial_review",
+  "snapshot_id": "editorial-2026-11-13",
+  "at": "2026-11-13",
+  "review": {
+    "topic": "VLA и перенос между роботами: что именно обобщается",
+    "questions": [
+      "Что именно переносится между embodiment, задачами и средами?",
+      "Какие реальные роботические эксперименты подтверждают перенос и где он нарушается?"
+    ]
+  },
+  "papers": [
+    {
+      "id": "arxiv-2307-15818",
+      "title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
+      "authors": [
+        "Anthony Brohan",
+        "Noah Brown",
+        "Justice Carbajal",
+        "Yevgen Chebotar",
+        "Xi Chen",
+        "Krzysztof Choromanski",
+        "Tianli Ding",
+        "Danny Driess",
+        "Avinava Dubey",
+        "Chelsea Finn",
+        "Pete Florence",
+        "Chuyuan Fu",
+        "Montse Gonzalez Arenas",
+        "Keerthana Gopalakrishnan",
+        "Kehang Han",
+        "Karol Hausman",
+        "Alexander Herzog",
+        "Jasmine Hsu",
+        "Brian Ichter",
+        "Alex Irpan",
+        "Nikhil Joshi",
+        "Ryan Julian",
+        "Dmitry Kalashnikov",
+        "Yuheng Kuang",
+        "Isabel Leal",
+        "Lisa Lee",
+        "Tsang-Wei Edward Lee",
+        "Sergey Levine",
+        "Yao Lu",
+        "Henryk Michalewski",
+        "Igor Mordatch",
+        "Karl Pertsch",
+        "Kanishka Rao",
+        "Krista Reymann",
+        "Michael Ryoo",
+        "Grecia Salazar",
+        "Pannag Sanketi",
+        "Pierre Sermanet",
+        "Jaspiar Singh",
+        "Anikait Singh",
+        "Radu Soricut",
+        "Huong Tran",
+        "Vincent Vanhoucke",
+        "Quan Vuong",
+        "Ayzaan Wahid",
+        "Stefan Welker",
+        "Paul Wohlhart",
+        "Jialin Wu",
+        "Fei Xia",
+        "Ted Xiao",
+        "Peng Xu",
+        "Sichun Xu",
+        "Tianhe Yu",
+        "Brianna Zitkovich"
+      ],
+      "year": 2023,
+      "arxiv_id": "2307.15818v1",
+      "url": "https://arxiv.org/abs/2307.15818v1",
+      "doi": "",
+      "source_sha256": "7029c47cbce39692871f9e94ff1f54bf4e02a2aa382f998996deda89bc4d1656",
+      "checked_at": "2026-11-13",
+      "read_sections": "S3.SS2 — 3.2 Robot-Action Fine-tuning; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2310-08864",
+      "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
+      "authors": [
+        "Abhishek Padalkar",
+        "Acorn Pooley",
+        "Ajinkya Jain",
+        "Alex Bewley",
+        "Alex Herzog",
+        "Alex Irpan",
+        "Alexander Khazatsky",
+        "Anant Rai",
+        "Anikait Singh",
+        "Anthony Brohan",
+        "Antonin Raffin",
+        "Ayzaan Wahid",
+        "Ben Burgess-Limerick",
+        "Beomjoon Kim",
+        "Bernhard Schölkopf",
+        "Brian Ichter",
+        "Cewu Lu",
+        "Charles Xu",
+        "Chelsea Finn",
+        "Chenfeng Xu",
+        "Cheng Chi",
+        "Chenguang Huang",
+        "Christine Chan",
+        "Chuer Pan",
+        "Chuyuan Fu",
+        "Coline Devin",
+        "Danny Driess",
+        "Deepak Pathak",
+        "Dhruv Shah",
+        "Dieter Büchler",
+        "Dmitry Kalashnikov",
+        "Dorsa Sadigh",
+        "Edward Johns",
+        "Federico Ceola",
+        "Fei Xia",
+        "Freek Stulp",
+        "Gaoyue Zhou",
+        "Gaurav S. Sukhatme",
+        "Gautam Salhotra",
+        "Ge Yan",
+        "Giulio Schiavi",
+        "Gregory Kahn",
+        "Hao Su",
+        "Hao-Shu Fang",
+        "Haochen Shi",
+        "Heni Ben Amor",
+        "Henrik I Christensen",
+        "Hiroki Furuta",
+        "Homer Walke",
+        "Hongjie Fang",
+        "Igor Mordatch",
+        "Ilija Radosavovic",
+        "Isabel Leal",
+        "Jacky Liang",
+        "Jad Abou-Chakra",
+        "Jaehyung Kim",
+        "Jan Peters",
+        "Jan Schneider",
+        "Jasmine Hsu",
+        "Jeannette Bohg",
+        "Jeffrey Bingham",
+        "Jiajun Wu",
+        "Jialin Wu",
+        "Jianlan Luo",
+        "Jiayuan Gu",
+        "Jie Tan",
+        "Jihoon Oh",
+        "Jitendra Malik",
+        "Jonathan Tompson",
+        "Jonathan Yang",
+        "Joseph J. Lim",
+        "João Silvério",
+        "Junhyek Han",
+        "Kanishka Rao",
+        "Karl Pertsch",
+        "Karol Hausman",
+        "Keegan Go",
+        "Keerthana Gopalakrishnan",
+        "Ken Goldberg",
+        "Kendra Byrne",
+        "Kenneth Oslund",
+        "Kento Kawaharazuka",
+        "Kevin Zhang",
+        "Krishan Rana",
+        "Krishnan Srinivasan",
+        "Lawrence Yunliang Chen",
+        "Lerrel Pinto",
+        "Liam Tan",
+        "Lionel Ott",
+        "Lisa Lee",
+        "Masayoshi Tomizuka",
+        "Maximilian Du",
+        "Michael Ahn",
+        "Mingtong Zhang",
+        "Mingyu Ding",
+        "Mohan Kumar Srirama",
+        "Mohit Sharma",
+        "Moo Jin Kim",
+        "Naoaki Kanazawa",
+        "Nicklas Hansen",
+        "Nicolas Heess",
+        "Nikhil J Joshi",
+        "Niko Suenderhauf",
+        "Norman Di Palo",
+        "Nur Muhammad Mahi Shafiullah",
+        "Oier Mees",
+        "Oliver Kroemer",
+        "Pannag R Sanketi",
+        "Paul Wohlhart",
+        "Peng Xu",
+        "Pierre Sermanet",
+        "Priya Sundaresan",
+        "Quan Vuong",
+        "Rafael Rafailov",
+        "Ran Tian",
+        "Ria Doshi",
+        "Roberto Martín-Martín",
+        "Russell Mendonca",
+        "Rutav Shah",
+        "Ryan Hoque",
+        "Ryan Julian",
+        "Samuel Bustamante",
+        "Sean Kirmani",
+        "Sergey Levine",
+        "Sherry Moore",
+        "Shikhar Bahl",
+        "Shivin Dass",
+        "Shubham Sonawani",
+        "Shuran Song",
+        "Sichun Xu",
+        "Siddhant Haldar",
+        "Simeon Adebola",
+        "Simon Guist",
+        "Soroush Nasiriany",
+        "Stefan Schaal",
+        "Stefan Welker",
+        "Stephen Tian",
+        "Sudeep Dasari",
+        "Suneel Belkhale",
+        "Takayuki Osa",
+        "Tatsuya Harada",
+        "Tatsuya Matsushima",
+        "Ted Xiao",
+        "Tianhe Yu",
+        "Tianli Ding",
+        "Todor Davchev",
+        "Tony Z. Zhao",
+        "Travis Armstrong",
+        "Trevor Darrell",
+        "Vidhi Jain",
+        "Vincent Vanhoucke",
+        "Wei Zhan",
+        "Wenxuan Zhou",
+        "Wolfram Burgard",
+        "Xi Chen",
+        "Xiaolong Wang",
+        "Xinghao Zhu",
+        "Xuanlin Li",
+        "Yao Lu",
+        "Yevgen Chebotar",
+        "Yifan Zhou",
+        "Yifeng Zhu",
+        "Ying Xu",
+        "Yixuan Wang",
+        "Yonatan Bisk",
+        "Yoonyoung Cho",
+        "Youngwoon Lee",
+        "Yuchen Cui",
+        "Yueh-Hua Wu",
+        "Yujin Tang",
+        "Yuke Zhu",
+        "Yunzhu Li",
+        "Yusuke Iwasawa",
+        "Yutaka Matsuo",
+        "Zhuo Xu",
+        "Zichen Jeff Cui"
+      ],
+      "year": 2023,
+      "arxiv_id": "2310.08864v1",
+      "url": "https://arxiv.org/abs/2310.08864v1",
+      "doi": "",
+      "source_sha256": "cdf49e93988e63d6c417d1a11aa328ec507c09f6fd5edbbda220b6aabe699bf5",
+      "checked_at": "2026-11-13",
+      "read_sections": "S5 — V Experimental Results; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2405-12213",
+      "title": "Octo: An Open-Source Generalist Robot Policy",
+      "authors": [
+        " Octo Model Team",
+        "Dibya Ghosh",
+        "Homer Walke",
+        "Karl Pertsch",
+        "Kevin Black",
+        "Oier Mees",
+        "Sudeep Dasari",
+        "Joey Hejna",
+        "Tobias Kreiman",
+        "Charles Xu",
+        "Jianlan Luo",
+        "You Liang Tan",
+        "Pannag Sanketi",
+        "Quan Vuong",
+        "Ted Xiao",
+        "Dorsa Sadigh",
+        "Chelsea Finn",
+        "Sergey Levine"
+      ],
+      "year": 2024,
+      "arxiv_id": "2405.12213v1",
+      "url": "https://arxiv.org/abs/2405.12213v1",
+      "doi": "",
+      "source_sha256": "b87d6644722cee385d862345e76acce09057aa9d42d90fcb325a26fd4d8ddf1c",
+      "checked_at": "2026-11-13",
+      "read_sections": "S4.SS0.SSS0.Px1 — Evaluation setups; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2406-09246",
+      "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
+      "authors": [
+        "Moo Jin Kim",
+        "Karl Pertsch",
+        "Siddharth Karamcheti",
+        "Ted Xiao",
+        "Ashwin Balakrishna",
+        "Suraj Nair",
+        "Rafael Rafailov",
+        "Ethan Foster",
+        "Grace Lam",
+        "Pannag Sanketi",
+        "Quan Vuong",
+        "Thomas Kollar",
+        "Benjamin Burchfiel",
+        "Russ Tedrake",
+        "Dorsa Sadigh",
+        "Sergey Levine",
+        "Percy Liang",
+        "Chelsea Finn"
+      ],
+      "year": 2024,
+      "arxiv_id": "2406.09246v3",
+      "url": "https://arxiv.org/abs/2406.09246v3",
+      "doi": "",
+      "source_sha256": "4140a5a011b44be7f3d79951b238452ed1a765fffefd9735b4824b136e3ebaf0",
+      "checked_at": "2026-11-13",
+      "read_sections": "S3.SS2 — 3.2 OpenVLA Training Procedure; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2410-24164",
+      "title": "$π_0$: A Vision-Language-Action Flow Model for General Robot Control",
+      "authors": [
+        "Kevin Black",
+        "Noah Brown",
+        "Danny Driess",
+        "Adnan Esmail",
+        "Michael Equi",
+        "Chelsea Finn",
+        "Niccolo Fusai",
+        "Lachy Groom",
+        "Karol Hausman",
+        "Brian Ichter",
+        "Szymon Jakubczak",
+        "Tim Jones",
+        "Liyiming Ke",
+        "Sergey Levine",
+        "Adrian Li-Bell",
+        "Mohith Mothukuri",
+        "Suraj Nair",
+        "Karl Pertsch",
+        "Lucy Xiaoyang Shi",
+        "James Tanner",
+        "Quan Vuong",
+        "Anna Walling",
+        "Haohuan Wang",
+        "Ury Zhilinsky"
+      ],
+      "year": 2024,
+      "arxiv_id": "2410.24164v1",
+      "url": "https://arxiv.org/abs/2410.24164v1",
+      "doi": "",
+      "source_sha256": "3e0641909f7b6325d36047ddad8957278599e76bb4a9cc5fd52692552e495cf5",
+      "checked_at": "2026-11-13",
+      "read_sections": "S4 — IV The π0\\pi_{0} Model; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2609-02546",
+      "title": "ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop Manipulation",
+      "authors": [
+        "Mi Yan",
+        "Wenhao Zhang",
+        "Zhiqi Zhang",
+        "Yu Peng",
+        "Tangxinyu Wang",
+        "Lingfei Zhai",
+        "Jiayi Su",
+        "Shengliang Deng",
+        "Lin Peng",
+        "Yaowei Liu",
+        "Yuxing Chen",
+        "Zhiyuan Wei",
+        "Jilong Wang",
+        "Jiayi Chen",
+        "Jiangran Lyu",
+        "Zhizheng Zhang",
+        "He Wang"
+      ],
+      "year": 2026,
+      "arxiv_id": "2609.02546v3",
+      "url": "https://arxiv.org/abs/2609.02546v3",
+      "doi": "",
+      "source_sha256": "f3b21b96d21a0886004dba853570f0525f95e9d4ec98972aa421b640cc2b3932",
+      "checked_at": "2026-11-13",
+      "read_sections": "S2.SS3 — 2.3 Zero-Shot Cross-Embodiment Evaluation and Benchmarks; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2610-33685",
+      "title": "EXE: Egocentric Cross-Embodiment Pretraining via Factorized Latent Actions for VLA Models",
+      "authors": [
+        "Qingyuan Cai",
+        "Bo Zhang",
+        "Yongzhen Huang",
+        "Jianyu Chen"
+      ],
+      "year": 2026,
+      "arxiv_id": "2610.33685v1",
+      "url": "https://arxiv.org/abs/2610.33685v1",
+      "doi": "",
+      "source_sha256": "760febdc984973f402a0a3d29e1f3e7485c4c7ed2c6babfdb71fd5985289c554",
+      "checked_at": "2026-11-13",
+      "read_sections": "S3 — III Method; связанные фрагменты метода и оценки"
+    }
+  ],
+  "cards": [
+    {
+      "paper_id": "arxiv-2307-15818",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c1",
+          "paper_id": "arxiv-2307-15818",
+          "kind": "source_finding",
+          "text": "RT-2 представляет robot actions как дискретные токены и обучает vision-language модель выдавать их. Перенос знаний из web data в роботическое управление не следует путать с доказанным zero-shot переносом на любой новый embodiment.",
+          "conditions": [
+            "Action space задаётся end-effector перемещением, gripper и termination; robot data сочетаются с VLM data."
+          ],
+          "limitations": [
+            "Обобщение на объекты и фоны не равно смене кинематики или интерфейса управления."
+          ],
+          "evidence": [
+            {
+              "quote": "To enable vision-language models to control a robot, they",
+              "url": "https://arxiv.org/html/2307.15818v1#S3.SS2",
+              "locator": "S3.SS2 — 3.2 Robot-Action Fine-tuning; связанные фрагменты метода и оценки",
+              "segment_id": "S3.SS2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2310-08864",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c2",
+          "paper_id": "arxiv-2310-08864",
+          "kind": "source_finding",
+          "text": "Open X-Embodiment объединяет роботические данные и оценивает положительный перенос при co-training, новые задачи и влияние дизайна смеси. Это разные исследовательские вопросы с разными контрольными условиями.",
+          "conditions": [
+            "Мульти-роботические демонстрации; RT-X и консолидация формата данных."
+          ],
+          "limitations": [
+            "Сам факт обучения на многих роботах не доказывает перенос на робота, полностью исключённого из обучения."
+          ],
+          "evidence": [
+            {
+              "quote": "Our experiments answer three questions about the effect of",
+              "url": "https://arxiv.org/html/2310.08864v1#S5",
+              "locator": "S5 — V Experimental Results; связанные фрагменты метода и оценки",
+              "segment_id": "S5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2405-12213",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c3",
+          "paper_id": "arxiv-2405-12213",
+          "kind": "source_finding",
+          "text": "Octo различает out-of-the-box управление знакомыми по pretraining setup и data-efficient fine-tuning к новым наблюдениям, действиям и embodiment. Эти режимы нельзя объединять под одним словом generalization.",
+          "conditions": [
+            "Модульная transformer policy; zero-shot и fine-tuning проверяются отдельно."
+          ],
+          "limitations": [
+            "Сравнение должно учитывать целевые демонстрации и изменения observation/action interfaces."
+          ],
+          "evidence": [
+            {
+              "quote": "We evaluate Octo’s capabilities across a representative spectrum of",
+              "url": "https://arxiv.org/html/2405.12213v1#S4.SS0.SSS0.Px1",
+              "locator": "S4.SS0.SSS0.Px1 — Evaluation setups; связанные фрагменты метода и оценки",
+              "segment_id": "S4.SS0.SSS0.Px1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2406-09246",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c4",
+          "paper_id": "arxiv-2406-09246",
+          "kind": "source_finding",
+          "text": "OpenVLA дообучает VLM для предсказания действий и дискретизирует каждую непрерывную action dimension по распределению обучающих данных. Нормализация и action representation являются частью переносимой системы.",
+          "conditions": [
+            "Prismatic backbone, изображения и языковая инструкция; дискретные action tokens."
+          ],
+          "limitations": [
+            "Перенос требует согласования action space, статистик нормализации и доступных наблюдений."
+          ],
+          "evidence": [
+            {
+              "quote": "To train OpenVLA, we fine-tune a pretrained Prismatic-7B VLM",
+              "url": "https://arxiv.org/html/2406.09246v3#S3.SS2",
+              "locator": "S3.SS2 — 3.2 OpenVLA Training Procedure; связанные фрагменты метода и оценки",
+              "segment_id": "S3.SS2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2410-24164",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c5",
+          "paper_id": "arxiv-2410-24164",
+          "kind": "source_finding",
+          "text": "π0 использует conditional flow matching для непрерывного распределения действий вместе с VLM backbone и proprioception. Выбор непрерывной action head меняет механизм генерации управления.",
+          "conditions": [
+            "Преобучение и post-training; сравнения base policy и downstream adaptation различаются."
+          ],
+          "limitations": [
+            "Нужно учитывать action chunk, частоту управления и целевые данные, а не только размер backbone."
+          ],
+          "evidence": [
+            {
+              "quote": "uses conditional flow matching",
+              "url": "https://arxiv.org/html/2410.24164v1#S4",
+              "locator": "S4 — IV The π0\\pi_{0} Model; связанные фрагменты метода и оценки",
+              "segment_id": "S4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2609-02546",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c6",
+          "paper_id": "arxiv-2609-02546",
+          "kind": "source_finding",
+          "text": "ZETA различает strict zero-shot и случай, когда target был виден в pretraining, но не post-training. Исследование старается отделить embodiment shift от изменений сцены, камеры, задачи и бюджета данных.",
+          "conditions": [
+            "Согласованные задачи; appearance-, gripper-, arm- и full-embodiment shifts."
+          ],
+          "limitations": [
+            "Контролируемый tabletop протокол не исчерпывает другие роботы и среды."
+          ],
+          "evidence": [
+            {
+              "quote": "Prior benchmarks and studies examine cross-embodiment generalization, including manipulation",
+              "url": "https://arxiv.org/html/2609.02546v3#S2.SS3",
+              "locator": "S2.SS3 — 2.3 Zero-Shot Cross-Embodiment Evaluation and Benchmarks; связанные фрагменты метода и оценки",
+              "segment_id": "S2.SS3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2610-33685",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c7",
+          "paper_id": "arxiv-2610-33685",
+          "kind": "source_finding",
+          "text": "EXE разделяет positional и embodiment-specific kinematic части latent actions. Далее использует совместное pretraining на human video и robot demonstrations перед VLA fine-tuning.",
+          "conditions": [
+            "Трёхстадийное обучение; отдельные shared и kinematic codebooks."
+          ],
+          "limitations": [
+            "Нужно отделять вклад представления от объёма human/robot data и downstream обучения."
+          ],
+          "evidence": [
+            {
+              "quote": "EXE transfers manipulation knowledge from egocentric human video to",
+              "url": "https://arxiv.org/html/2610.33685v1#S3",
+              "locator": "S3 — III Method; связанные фрагменты метода и оценки",
+              "segment_id": "S3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "synthesis": {
+    "title": "VLA и перенос между роботами: что именно обобщается",
+    "sections": [
+      {
+        "key": "brief",
+        "title": "За минуту: главный вопрос и вывод",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Перенос VLA бывает разным: новые объекты, задачи, камеры, action interface или физически новый робот. Успех в одном случае не доказывает остальные.",
+            "claim_ids": [
+              "c1",
+              "c3",
+              "c6"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Multi-robot pretraining, дискретные action tokens, непрерывные action heads и факторизованные действия решают разные части задачи.",
+            "claim_ids": [
+              "c2",
+              "c4",
+              "c5",
+              "c7"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Главная проверка — какие данные target были доступны и какие факторы изменились между обучением и тестом.",
+            "claim_ids": [
+              "c3",
+              "c6"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "scope",
+        "title": "Границы и отбор источников",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Обзор подготовлен 13 ноября 2026 года по выбранным фрагментам полных HTML-текстов 7 работ. Это узкий фокус внутри направления, а не энциклопедия всей области и не систематический поиск. Количество источников в общем каталоге не означает, что все они прочитаны.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Отбор целенаправленный: основные постановки задачи, различные семейства методов и работы, проверяющие их ограничения. Точные версии, локаторы и SHA-256 прочитанных HTML сохранены в JSON. Короткая цитата служит поисковым якорем; вывод следует сверять с контекстом раздела. Независимая экспертная рецензия и воспроизведение экспериментов не выполнялись.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "mechanism",
+        "title": "Понятия и механизм: что именно проверяется",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Embodiment включает кинематику, actuator/control interface, сенсоры и допустимые действия. Даже общая семантика команды не устраняет необходимость согласовать эти элементы.",
+            "claim_ids": [
+              "c1",
+              "c4",
+              "c6"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Zero-shot требует явного определения: target мог отсутствовать только в fine-tuning либо во всём обучении. Эти определения дают разную силу утверждения о переносе.",
+            "claim_ids": [
+              "c3",
+              "c6"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "approaches",
+        "title": "Подходы и свидетельства из работ",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "RT-2 представляет robot actions как дискретные токены и обучает vision-language модель выдавать их. Перенос знаний из web data в роботическое управление не следует путать с доказанным zero-shot переносом на любой новый embodiment.",
+            "claim_ids": [
+              "c1"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Open X-Embodiment объединяет роботические данные и оценивает положительный перенос при co-training, новые задачи и влияние дизайна смеси. Это разные исследовательские вопросы с разными контрольными условиями.",
+            "claim_ids": [
+              "c2"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Octo различает out-of-the-box управление знакомыми по pretraining setup и data-efficient fine-tuning к новым наблюдениям, действиям и embodiment. Эти режимы нельзя объединять под одним словом generalization.",
+            "claim_ids": [
+              "c3"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "OpenVLA дообучает VLM для предсказания действий и дискретизирует каждую непрерывную action dimension по распределению обучающих данных. Нормализация и action representation являются частью переносимой системы.",
+            "claim_ids": [
+              "c4"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "π0 использует conditional flow matching для непрерывного распределения действий вместе с VLM backbone и proprioception. Выбор непрерывной action head меняет механизм генерации управления.",
+            "claim_ids": [
+              "c5"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "ZETA различает strict zero-shot и случай, когда target был виден в pretraining, но не post-training. Исследование старается отделить embodiment shift от изменений сцены, камеры, задачи и бюджета данных.",
+            "claim_ids": [
+              "c6"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "EXE разделяет positional и embodiment-specific kinematic части latent actions. Далее использует совместное pretraining на human video и robot demonstrations перед VLA fine-tuning.",
+            "claim_ids": [
+              "c7"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "comparison",
+        "title": "Сравнение работ и условий",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Таблица разделяет постановки, механизмы и границы выводов. Она не ранжирует работы по несопоставимым числам. Улучшение показателя в конкретной статье не доказывает преимущество во всех моделях, данных и режимах.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "disagreements",
+        "title": "Разногласия, ограничения и ложные обобщения",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Web knowledge transfer RT-2 и cross-embodiment transfer не являются синонимами. Первое может улучшать семантическую реакцию в прежнем control setup.",
+            "claim_ids": [
+              "c1"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Сравнение generalist policy и fine-tuned specialist без учёта целевых демонстраций смешивает режимы обучения.",
+            "claim_ids": [
+              "c3",
+              "c5"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Новая action representation и дополнительные данные могут давать совместный эффект. Без абляций нельзя приписывать весь прирост только архитектуре.",
+            "claim_ids": [
+              "c2",
+              "c7"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "practice",
+        "title": "Как читать результаты и проверить подход у себя",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Зафиксировать robot, sensors, control frequency, action representation, normalization, task definition и все стадии обучения. Для target отдельно перечислить доступные демонстрации и присутствие в pretraining.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Сравнивать при одинаковом task/data budget; повторять испытания на согласованных состояниях и сообщать критерий успеха, число попыток, разброс и опасные ошибки. Здесь эксперименты с роботами не запускались.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "questions",
+        "title": "Открытые вопросы и следующие эксперименты",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Что даёт перенос на невиданный embodiment при неизменных задачах и сценах? Нужен leave-one-embodiment-out протокол и проверка всей цепочки pretraining.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Улучшает ли факторизация action space перенос при фиксированной смеси данных? Нужны раздельные абляции codebooks, объёма human video и target demonstrations.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "reading",
+        "title": "Маршрут чтения",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Сначала прочитайте первые две работы из таблицы: они задают понятия и способ измерения. Затем сравните методы в середине списка с критическими и более поздними исследованиями. Цель — понять, какое предположение меняется и что именно измеряется.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Для каждой работы выпишите объект переноса или оценки, используемый baseline, единицу тестирования, условия успеха и способ проверки. Цифры без этих полей недостаточны для выбора метода. Ссылки [n] раскрывают карточки доказательств; оттуда можно открыть раздел первоисточника.",
+            "claim_ids": []
+          }
+        ]
+      }
+    ],
+    "concepts": [
+      {
+        "id": "concept-1",
+        "name": "Embodiment shift",
+        "definition": {
+          "kind": "synthesis",
+          "text": "Изменение робота или его наблюдательно-управляющего интерфейса, отделяемое от смены задачи.",
+          "claim_ids": [
+            "c6"
+          ]
+        },
+        "statements": [],
+        "disagreements": []
+      },
+      {
+        "id": "concept-2",
+        "name": "Action representation",
+        "definition": {
+          "kind": "synthesis",
+          "text": "Способ связать выход модели с управлением: дискретные токены, непрерывные головы либо latent actions.",
+          "claim_ids": [
+            "c4",
+            "c5",
+            "c7"
+          ]
+        },
+        "statements": [],
+        "disagreements": []
+      }
+    ],
+    "relations": []
+  },
+  "comparison": [
+    {
+      "paper_id": "arxiv-2307-15818",
+      "method": "VLM → action tokens",
+      "guarantee": "Семантический перенос и embodiment transfer различны",
+      "setup": "Action space задаётся end-effector перемещением, gripper и termination; robot data сочетаются с VLM data.",
+      "claim_ids": [
+        "c1"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2310-08864",
+      "method": "Смесь multi-robot данных",
+      "guarantee": "Экспозиция target в pretraining должна быть известна",
+      "setup": "Мульти-роботические демонстрации; RT-X и консолидация формата данных.",
+      "claim_ids": [
+        "c2"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2405-12213",
+      "method": "Модульная generalist policy",
+      "guarantee": "Zero-shot и адаптация измеряются раздельно",
+      "setup": "Модульная transformer policy; zero-shot и fine-tuning проверяются отдельно.",
+      "claim_ids": [
+        "c3"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2406-09246",
+      "method": "Открытая VLA с action tokens",
+      "guarantee": "Интерфейс управления входит в предпосылки",
+      "setup": "Prismatic backbone, изображения и языковая инструкция; дискретные action tokens.",
+      "claim_ids": [
+        "c4"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2410-24164",
+      "method": "Непрерывная flow action head",
+      "guarantee": "Режим адаптации и control loop существенны",
+      "setup": "Преобучение и post-training; сравнения base policy и downstream adaptation различаются.",
+      "claim_ids": [
+        "c5"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2609-02546",
+      "method": "Контроль факторов переноса",
+      "guarantee": "Строгое определение zero-shot",
+      "setup": "Согласованные задачи; appearance-, gripper-, arm- и full-embodiment shifts.",
+      "claim_ids": [
+        "c6"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2610-33685",
+      "method": "Факторизация latent actions",
+      "guarantee": "Representation transfer проверяется с абляциями данных",
+      "setup": "Трёхстадийное обучение; отдельные shared и kinematic codebooks.",
+      "claim_ids": [
+        "c7"
+      ]
+    }
+  ],
+  "quality": {
+    "warnings": [
+      "Целенаправленный обзор выбранного подвопроса; полный охват направления и актуальный SOTA-рейтинг не заявляются.",
+      "Разобраны выбранные фрагменты полных текстов, а не все приложения и доказательства. Цитаты сверены с сохранёнными HTML.",
+      "Результаты принадлежат авторам статей. Собственные эксперименты и независимая экспертная рецензия не выполнялись.",
+      "Автоматический поиск добавляет только кандидатов; он не подтверждает их качество и не обновляет выводы этого обзора."
+    ]
+  },
+  "changes": {
+    "note": "Первый концептуальный выпуск с условиями сравнения и доказательствами."
+  },
+  "publication": {
+    "released_at": "2026-11-13",
+    "note": "Первый обзор: 7 выбранных работ, механизмы, сравнение и ограничения; без своего воспроизведения.",
+    "preparation": "source_based_editorial",
+    "expert_peer_review": false
+  }
+}

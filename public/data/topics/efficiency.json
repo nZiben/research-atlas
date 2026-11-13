@@ -80,7 +80,8 @@
       "checked_at": "2026-11-13",
       "read_sections": "§3; §4–5; §7.2",
       "decision": "core",
-      "reason": "Источник опубликованного обзора."
+      "reason": "Источник опубликованного обзора.",
+      "available_arxiv_id": "2402.05109v2"
     },
     {
       "id": "arxiv-2401-15077",
@@ -118,7 +119,8 @@
       "checked_at": "2026-11-13",
       "read_sections": "§3–4; §5 setup; §5.1 Table 1",
       "decision": "core",
-      "reason": "Источник опубликованного обзора."
+      "reason": "Источник опубликованного обзора.",
+      "available_arxiv_id": "2406.16858v2"
     },
     {
       "id": "arxiv-2503-01840",
@@ -159,7 +161,8 @@
       "checked_at": "2026-11-13",
       "read_sections": "§3.3; §4.1 Tables 4–5",
       "decision": "core",
-      "reason": "Источник опубликованного обзора."
+      "reason": "Источник опубликованного обзора.",
+      "available_arxiv_id": "2402.12374v3"
     },
     {
       "id": "arxiv-2401-07851",
@@ -209,6 +212,209 @@
       "reason": "Источник опубликованного обзора."
     },
     {
+      "id": "arxiv-2611-16714",
+      "title": "Towards Green Text Generation: Memory-Based Speculative Decoding",
+      "authors": [
+        "Antal van den Bosch"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.16714v1",
+      "url": "https://arxiv.org/abs/2611.16714v1",
+      "published_at": "2026-11-12",
+      "updated_at": "2026-11-12",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-14844",
+      "title": "AutoAssumption: Searching over Assumptions Discovers ML-Systems Algorithms",
+      "authors": [
+        "Igor Sadalski",
+        "Minghao Guo",
+        "Benjamin Jones",
+        "Wojciech Matusik"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.14844v1",
+      "url": "https://arxiv.org/abs/2611.14844v1",
+      "published_at": "2026-11-10",
+      "updated_at": "2026-11-10",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-14399",
+      "title": "REAL Loss: Optimizing Real Expected Acceptance Length for Speculative Decoding",
+      "authors": [
+        "Yu Tian"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.14399v1",
+      "url": "https://arxiv.org/abs/2611.14399v1",
+      "published_at": "2026-11-10",
+      "updated_at": "2026-11-10",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-13442",
+      "title": "ForeSpark: Joint Draft and Verification Budget Scheduling for Parallel Speculative Decoding",
+      "authors": [
+        "Jaeyong Song",
+        "Daniel Wang",
+        "Pratyush Patel",
+        "Jonny Kong",
+        "Preyas Shah",
+        "Shobhit Kanaujia"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.13442v1",
+      "url": "https://arxiv.org/abs/2611.13442v1",
+      "published_at": "2026-11-10",
+      "updated_at": "2026-11-10",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-12737",
+      "title": "Inference Validation for Regulated AI: A Governed Decision Pipeline for LLM Serving",
+      "authors": [
+        "Dev Akre",
+        "Roman Bobalo",
+        "Manoj Dobbali"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.12737v2",
+      "url": "https://arxiv.org/abs/2611.12737v2",
+      "published_at": "2026-11-09",
+      "updated_at": "2026-11-11",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-12356",
+      "title": "DForkTree: Accelerating Speculative Decoding with Fork-Aware Block Diffusion Draft Trees",
+      "authors": [
+        "Zhicheng Zheng",
+        "Cheng Zhang",
+        "Chenkai Tang",
+        "Tianxiang Zhao"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.12356v2",
+      "url": "https://arxiv.org/abs/2611.12356v2",
+      "published_at": "2026-11-09",
+      "updated_at": "2026-11-12",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-10634",
+      "title": "Coverage-Verified Sparse Attention: Closed-Loop Quality Control for Long-Context LLM Decoding",
+      "authors": [
+        "Yan-Cheng Li",
+        "Chun-Yi Lee"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.10634v1",
+      "url": "https://arxiv.org/abs/2611.10634v1",
+      "published_at": "2026-11-07",
+      "updated_at": "2026-11-07",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-08669",
+      "title": "ChainFlow: Few-Step Latent Flow Matching for Speculative Decoding",
+      "authors": [
+        "Selim Aktas",
+        "Yusuf Erdem Erdem",
+        "Ahmed Zeer",
+        "Himmet Toprak Kesgin",
+        "Muzaffer Kaan Yuce",
+        "Mehmet Fatih Amasyali"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.08669v1",
+      "url": "https://arxiv.org/abs/2611.08669v1",
+      "published_at": "2026-11-05",
+      "updated_at": "2026-11-05",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
       "id": "arxiv-2611-07634",
       "title": "AiXapply: Fast and Reliable Full-File Code Integration with Specialized Small Models for IDE Workflows",
       "authors": [
@@ -230,13 +436,14 @@
       "url": "https://arxiv.org/abs/2611.07634v1",
       "published_at": "2026-11-05",
       "updated_at": "2026-11-05",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -271,13 +478,14 @@
       "url": "https://arxiv.org/abs/2611.07542v1",
       "published_at": "2026-11-05",
       "updated_at": "2026-11-05",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -301,13 +509,14 @@
       "url": "https://arxiv.org/abs/2611.06982v1",
       "published_at": "2026-11-04",
       "updated_at": "2026-11-04",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -328,13 +537,14 @@
       "url": "https://arxiv.org/abs/2611.05894v1",
       "published_at": "2026-11-04",
       "updated_at": "2026-11-04",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -358,13 +568,14 @@
       "url": "https://arxiv.org/abs/2611.05724v1",
       "published_at": "2026-11-03",
       "updated_at": "2026-11-03",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -381,7 +592,7 @@
       "url": "https://arxiv.org/abs/2611.05611v1",
       "published_at": "2026-11-03",
       "updated_at": "2026-11-03",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -390,6 +601,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -412,13 +624,14 @@
       "url": "https://arxiv.org/abs/2611.05345v1",
       "published_at": "2026-11-03",
       "updated_at": "2026-11-03",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -447,13 +660,14 @@
       "url": "https://arxiv.org/abs/2611.04032v1",
       "published_at": "2026-11-02",
       "updated_at": "2026-11-02",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -483,13 +697,14 @@
       "url": "https://arxiv.org/abs/2611.02846v1",
       "published_at": "2026-11-02",
       "updated_at": "2026-11-02",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -503,17 +718,18 @@
       ],
       "year": 2026,
       "doi": "",
-      "arxiv_id": "2611.02780v1",
-      "url": "https://arxiv.org/abs/2611.02780v1",
+      "arxiv_id": "2611.02780v2",
+      "url": "https://arxiv.org/abs/2611.02780v2",
       "published_at": "2026-11-02",
-      "updated_at": "2026-11-02",
-      "checked_at": "2026-11-08",
+      "updated_at": "2026-11-06",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -538,7 +754,7 @@
       "url": "https://arxiv.org/abs/2611.02501v1",
       "published_at": "2026-11-02",
       "updated_at": "2026-11-02",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -546,6 +762,7 @@
         "seed"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -563,13 +780,14 @@
       "url": "https://arxiv.org/abs/2611.02297v1",
       "published_at": "2026-11-01",
       "updated_at": "2026-11-01",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -587,17 +805,18 @@
       ],
       "year": 2026,
       "doi": "",
-      "arxiv_id": "2611.01617v1",
-      "url": "https://arxiv.org/abs/2611.01617v1",
+      "arxiv_id": "2611.01617v2",
+      "url": "https://arxiv.org/abs/2611.01617v2",
       "published_at": "2026-11-01",
-      "updated_at": "2026-11-01",
-      "checked_at": "2026-11-08",
+      "updated_at": "2026-11-06",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -622,6 +841,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -644,6 +864,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -661,17 +882,18 @@
       ],
       "year": 2026,
       "doi": "",
-      "arxiv_id": "2610.41177v1",
-      "url": "https://arxiv.org/abs/2610.41177v1",
+      "arxiv_id": "2610.41177v2",
+      "url": "https://arxiv.org/abs/2610.41177v2",
       "published_at": "2026-10-30",
-      "updated_at": "2026-10-30",
-      "checked_at": "2026-11-08",
+      "updated_at": "2026-11-06",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -707,6 +929,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -735,6 +958,7 @@
         "seed"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -760,6 +984,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -777,13 +1002,14 @@
       "url": "https://arxiv.org/abs/2610.38968v2",
       "published_at": "2026-10-28",
       "updated_at": "2026-11-02",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -806,6 +1032,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -836,6 +1063,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -862,6 +1090,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -888,6 +1117,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -907,13 +1137,14 @@
       "url": "https://arxiv.org/abs/2610.34103v2",
       "published_at": "2026-10-25",
       "updated_at": "2026-11-01",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -937,6 +1168,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -963,6 +1195,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -988,6 +1221,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1017,6 +1251,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1039,13 +1274,14 @@
       "url": "https://arxiv.org/abs/2610.31338v2",
       "published_at": "2026-10-22",
       "updated_at": "2026-11-05",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1074,6 +1310,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1099,6 +1336,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1127,6 +1365,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1154,6 +1393,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1183,6 +1423,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1211,6 +1452,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1233,6 +1475,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1265,6 +1508,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1291,6 +1535,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1322,6 +1567,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1349,6 +1595,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1374,6 +1621,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1402,6 +1650,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1429,6 +1678,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1462,6 +1712,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1489,6 +1740,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1515,6 +1767,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1542,6 +1795,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1569,6 +1823,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1594,6 +1849,46 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-02665",
+      "title": "Large Language Continuous Diffusion Models",
+      "authors": [
+        "Zhihan Yang",
+        "Wei Guo",
+        "Jean-Marie Lemercier",
+        "Simon Welker",
+        "Mohammad Mahdi Kamani",
+        "Yonggan Fu",
+        "Sajad Norouzi",
+        "Julius Berner",
+        "Tomas Geffner",
+        "Karsten Kreis",
+        "Yongxin Chen",
+        "Molei Tao",
+        "John Thickstun",
+        "Pavlo Molchanov",
+        "Ante Jukić",
+        "Arash Vahdat",
+        "Morteza Mardani"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.02665v2",
+      "url": "https://arxiv.org/abs/2610.02665v2",
+      "published_at": "2026-10-02",
+      "updated_at": "2026-11-12",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1621,6 +1916,35 @@
         "seed"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2609-24150",
+      "title": "Acceptance-Aware Draft Model Training for Speculative Decoding",
+      "authors": [
+        "Tianhua Xia",
+        "Mugilan Ganesan",
+        "Yifei Feng",
+        "Haiyu Wang",
+        "Maximilian Egger",
+        "Sai Qian Zhang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2609.24150v2",
+      "url": "https://arxiv.org/abs/2609.24150v2",
+      "published_at": "2026-09-21",
+      "updated_at": "2026-11-10",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1647,6 +1971,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1673,6 +1998,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1702,6 +2028,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1731,6 +2058,47 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2608-22788",
+      "title": "TailSieve: Partial-Rollout-Guided Tail Routing for LLM Rollouts",
+      "authors": [
+        "Tianqi Xu",
+        "Lu Lv",
+        "Haoyang Huang",
+        "Wenjie Huang",
+        "Zhanming Shen",
+        "Yuhao Shen",
+        "Baolin Zhang",
+        "Xinyi Hu",
+        "Shuang Ge",
+        "Jun Dai",
+        "Tianyu Liu",
+        "Suorong Yang",
+        "Zhikai Li",
+        "Ye Bai",
+        "Jun Zhang",
+        "Lei Chen",
+        "Yue Li",
+        "Mingchen Wan"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2608.22788v3",
+      "url": "https://arxiv.org/abs/2608.22788v3",
+      "published_at": "2026-08-24",
+      "updated_at": "2026-11-06",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1757,6 +2125,41 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2608-01651",
+      "title": "Twig: Parallel and Memory-Efficient Tree Speculative Decoding for Hybrid-Attention LLMs",
+      "authors": [
+        "Li Wang",
+        "Yi Su",
+        "Xiabao Wu",
+        "Chiran You",
+        "Yongchao Liu",
+        "Zhan Qiu",
+        "Juelu Zhang",
+        "Jiajun Zheng",
+        "Fangxin Liu",
+        "Jie Zhang",
+        "Chen Tian",
+        "Chengying Huan"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2608.01651v2",
+      "url": "https://arxiv.org/abs/2608.01651v2",
+      "published_at": "2026-08-03",
+      "updated_at": "2026-11-05",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1788,6 +2191,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1817,6 +2221,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1841,6 +2246,32 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2606-11552",
+      "title": "Teaching Diffusion to Speculate Left-to-Right",
+      "authors": [
+        "Lexington Whalen",
+        "Yuki Ito",
+        "Ryo Sakamoto"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2606.11552v3",
+      "url": "https://arxiv.org/abs/2606.11552v3",
+      "published_at": "2026-06-10",
+      "updated_at": "2026-11-04",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1874,6 +2305,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1899,6 +2331,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1924,6 +2357,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1953,6 +2387,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1981,6 +2416,7 @@
         "seed"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2006,6 +2442,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2036,6 +2473,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2060,6 +2498,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2085,6 +2524,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2108,13 +2548,15 @@
       "url": "https://arxiv.org/abs/2604.14626v3",
       "published_at": "2026-04-16",
       "updated_at": "2026-11-03",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
-        "evaluation"
+        "evaluation",
+        "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2141,6 +2583,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2177,6 +2620,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2199,6 +2643,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2222,6 +2667,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2250,6 +2696,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2275,6 +2722,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2304,6 +2752,41 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2601-23180",
+      "title": "TriSpec: Ternary Speculative Decoding via Lightweight Proxy Verification",
+      "authors": [
+        "Haoyun Jiang",
+        "Junqi He",
+        "Feng Hong",
+        "Xinlong Yang",
+        "Jianwei Zhang",
+        "Zhengyang Zhuge",
+        "Zheng Li",
+        "Xiaofeng Cao",
+        "Zhiyong Chen",
+        "Bo Han",
+        "Junyang Lin",
+        "Jiangchao Yao"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2601.23180v2",
+      "url": "https://arxiv.org/abs/2601.23180v2",
+      "published_at": "2026-01-30",
+      "updated_at": "2026-11-07",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2328,6 +2811,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2359,6 +2843,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2386,6 +2871,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2411,6 +2897,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2436,6 +2923,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2461,6 +2949,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2489,6 +2978,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2521,6 +3011,39 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2511-05963",
+      "title": "Next-Latent Prediction Transformers Learn Compact World Models",
+      "authors": [
+        "Jayden Teoh",
+        "Manan Tomar",
+        "Kwangjun Ahn",
+        "Edward S. Hu",
+        "Tim Pearce",
+        "Pratyusha Sharma",
+        "Akshay Krishnamurthy",
+        "Riashat Islam",
+        "Alex Lamb",
+        "John Langford"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2511.05963v5",
+      "url": "https://arxiv.org/abs/2511.05963v5",
+      "published_at": "2025-11-08",
+      "updated_at": "2026-11-11",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2544,6 +3067,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2571,6 +3095,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2597,6 +3122,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2622,6 +3148,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2649,6 +3176,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2677,6 +3205,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2703,6 +3232,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2729,6 +3259,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2761,6 +3292,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2785,6 +3317,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2844,6 +3377,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2868,6 +3402,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2901,6 +3436,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2931,6 +3467,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2961,6 +3498,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2986,6 +3524,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3000,17 +3539,19 @@
       ],
       "year": 2025,
       "doi": "",
-      "arxiv_id": "2505.14260v1",
-      "url": "https://arxiv.org/abs/2505.14260v1",
+      "arxiv_id": "2505.14260v2",
+      "url": "https://arxiv.org/abs/2505.14260v2",
       "published_at": "2025-05-20",
-      "updated_at": "2025-05-20",
-      "checked_at": "2026-11-08",
+      "updated_at": "2026-11-09",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
+        "recent",
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3035,6 +3576,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3061,6 +3603,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3087,6 +3630,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3114,6 +3658,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3141,6 +3686,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3167,6 +3713,37 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2502-18779",
+      "title": "Towards Optimal Multi-draft Speculative Decoding",
+      "authors": [
+        "Zhengmian Hu",
+        "Tong Zheng",
+        "Vignesh Viswanathan",
+        "Ziyi Chen",
+        "Ryan A. Rossi",
+        "Yihan Wu",
+        "Dinesh Manocha",
+        "Heng Huang"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2502.18779v2",
+      "url": "https://arxiv.org/abs/2502.18779v2",
+      "published_at": "2025-02-26",
+      "updated_at": "2026-11-02",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3194,6 +3771,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3227,6 +3805,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3256,6 +3835,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3291,6 +3871,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3315,6 +3896,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3342,6 +3924,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3368,6 +3951,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3394,6 +3978,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3423,6 +4008,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3452,6 +4038,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3478,6 +4065,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3507,6 +4095,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3536,6 +4125,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3566,6 +4156,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3597,6 +4188,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3623,6 +4215,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3649,6 +4242,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3675,6 +4269,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3702,6 +4297,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3727,6 +4323,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3752,6 +4349,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3778,6 +4376,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3810,6 +4409,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3838,6 +4438,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3863,6 +4464,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3887,6 +4489,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3915,6 +4518,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3946,6 +4550,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3973,6 +4578,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3997,6 +4603,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4022,6 +4629,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4044,6 +4652,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4074,6 +4683,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4101,6 +4711,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4129,6 +4740,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4158,6 +4770,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4184,6 +4797,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4214,6 +4828,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4243,6 +4858,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4270,6 +4886,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4304,6 +4921,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4335,6 +4953,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4363,6 +4982,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4389,6 +5009,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4419,6 +5040,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4444,6 +5066,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4472,6 +5095,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4502,6 +5126,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4525,6 +5150,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4549,6 +5175,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4578,6 +5205,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4606,6 +5234,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4634,6 +5263,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4660,6 +5290,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4687,6 +5318,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4715,6 +5347,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4744,6 +5377,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4772,6 +5406,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4799,6 +5434,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4833,6 +5469,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4863,6 +5500,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4887,6 +5525,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4916,6 +5555,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4942,6 +5582,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4970,6 +5611,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4998,6 +5640,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -5021,6 +5664,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -5049,6 +5693,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -5076,6 +5721,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -5104,6 +5750,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -5132,6 +5779,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -5166,6 +5814,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -5194,6 +5843,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -5225,6 +5875,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -5252,6 +5903,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -5279,6 +5931,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -5307,6 +5960,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -5331,6 +5985,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -5363,6 +6018,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -5388,6 +6044,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -5414,6 +6071,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -5439,6 +6097,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -5466,6 +6125,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -5491,6 +6151,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -5518,6 +6179,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -5543,6 +6205,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -5567,6 +6230,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -5593,6 +6257,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -5619,6 +6284,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -5645,6 +6311,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -5672,6 +6339,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -5701,6 +6369,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -5733,6 +6402,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -5763,6 +6433,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -5791,6 +6462,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -5816,6 +6488,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -5844,6 +6517,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     }

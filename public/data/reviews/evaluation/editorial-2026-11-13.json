@@ -1,0 +1,657 @@
+{
+  "schema_version": 1,
+  "kind": "editorial_review",
+  "snapshot_id": "editorial-2026-11-13",
+  "at": "2026-11-13",
+  "review": {
+    "topic": "LLM-as-a-judge: валидность, смещения и проверка оценщика",
+    "questions": [
+      "Когда LLM-as-a-judge согласуется с независимой человеческой оценкой?",
+      "Какие позиционные, стилевые и модельные смещения выявлены и как они измерены?"
+    ]
+  },
+  "papers": [
+    {
+      "id": "arxiv-2306-05685",
+      "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+      "authors": [
+        "Lianmin Zheng",
+        "Wei-Lin Chiang",
+        "Ying Sheng",
+        "Siyuan Zhuang",
+        "Zhanghao Wu",
+        "Yonghao Zhuang",
+        "Zi Lin",
+        "Zhuohan Li",
+        "Dacheng Li",
+        "Eric P. Xing",
+        "Hao Zhang",
+        "Joseph E. Gonzalez",
+        "Ion Stoica"
+      ],
+      "year": 2023,
+      "arxiv_id": "2306.05685v4",
+      "url": "https://arxiv.org/abs/2306.05685v4",
+      "doi": "",
+      "source_sha256": "a1768d348815995e70fe3c49c1164e220a74fbd2c35211cffea1861b6ed4e30f",
+      "checked_at": "2026-11-13",
+      "read_sections": "S3.SS3 — 3.3 Limitations of LLM-as-a-Judge; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2406-07791",
+      "title": "Judging the Judges: A Systematic Study of Position Bias in LLM-as-a-Judge",
+      "authors": [
+        "Lin Shi",
+        "Chiyu Ma",
+        "Wenhua Liang",
+        "Xingjian Diao",
+        "Weicheng Ma",
+        "Soroush Vosoughi"
+      ],
+      "year": 2024,
+      "arxiv_id": "2406.07791v9",
+      "url": "https://arxiv.org/abs/2406.07791v9",
+      "doi": "",
+      "source_sha256": "dfacc936ba59b0fadd31998e9c32e71ec0873be7f5734814f145ae54dc5e1f81",
+      "checked_at": "2026-11-13",
+      "read_sections": "S2.SS2 — 2.2 Evaluation Metrics; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2410-21819",
+      "title": "Self-Preference Bias in LLM-as-a-Judge",
+      "authors": [
+        "Koki Wataoka",
+        "Tsubasa Takahashi",
+        "Ryokan Ri"
+      ],
+      "year": 2024,
+      "arxiv_id": "2410.21819v2",
+      "url": "https://arxiv.org/abs/2410.21819v2",
+      "doi": "",
+      "source_sha256": "2f8af959aa7bde84497a7c8575996b9382522a99af14f1f7d7b94e57586bfd08",
+      "checked_at": "2026-11-13",
+      "read_sections": "S4.SS1 — 4.1 Self-preference Bias Metric; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2502-01534",
+      "title": "Preference Leakage: A Contamination Problem in LLM-as-a-judge",
+      "authors": [
+        "Dawei Li",
+        "Renliang Sun",
+        "Yue Huang",
+        "Ming Zhong",
+        "Bohan Jiang",
+        "Jiawei Han",
+        "Xiangliang Zhang",
+        "Wei Wang",
+        "Huan Liu"
+      ],
+      "year": 2025,
+      "arxiv_id": "2502.01534v3",
+      "url": "https://arxiv.org/abs/2502.01534v3",
+      "doi": "",
+      "source_sha256": "7913aeb9d5cdf8356156bde3ed4c8bcec1d255cb9938ff279742a04d956a6d82",
+      "checked_at": "2026-11-13",
+      "read_sections": "S3.SS2 — 3.2 Defining Preference Leakage in LLM-based Evaluation; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2503-05061",
+      "title": "No Free Labels: Limitations of LLM-as-a-Judge Without Human Grounding",
+      "authors": [
+        "Michael Krumdick",
+        "Charles Lovering",
+        "Varshini Reddy",
+        "Seth Ebner",
+        "Chris Tanner"
+      ],
+      "year": 2025,
+      "arxiv_id": "2503.05061v4",
+      "url": "https://arxiv.org/abs/2503.05061v4",
+      "doi": "",
+      "source_sha256": "eb9c2e5c084a321afefd5b0abcb84d6c9f6ea8d4c345ad0c85c750021e9c98df",
+      "checked_at": "2026-11-13",
+      "read_sections": "S4 — 4 Experimental Setup; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2610-24320",
+      "title": "The Judge Can Debias Itself: Awareness and Self-Debiasing for Reliable LLM-as-a-Judge",
+      "authors": [
+        "Youbing Yin",
+        "Jingyu Wu",
+        "Anoop Kumar",
+        "Scott Novotney",
+        "Daben Liu",
+        "Erin Babinsky"
+      ],
+      "year": 2026,
+      "arxiv_id": "2610.24320v1",
+      "url": "https://arxiv.org/abs/2610.24320v1",
+      "doi": "",
+      "source_sha256": "5e058f72a946af0df5f57b371bc9ac17dcf547af27e69f74789f420b310227bf",
+      "checked_at": "2026-11-13",
+      "read_sections": "S3.SS2.SSS0.Px2 — Strategy 2: Self-Debiasing.; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2604-23178",
+      "title": "Judging the Judges: A Systematic Evaluation of Bias Mitigation Strategies in LLM-as-a-Judge Pipelines",
+      "authors": [
+        "Sadman Kabir Soumik"
+      ],
+      "year": 2026,
+      "arxiv_id": "2604.23178v2",
+      "url": "https://arxiv.org/abs/2604.23178v2",
+      "doi": "",
+      "source_sha256": "abcc2610acc20b0b7e786a68e6ee4463b22d91b12e1e0e58454af13e1ec787a2",
+      "checked_at": "2026-11-13",
+      "read_sections": "S3.SS1 — 3.1 Experimental Framework; связанные фрагменты метода и оценки"
+    }
+  ],
+  "cards": [
+    {
+      "paper_id": "arxiv-2306-05685",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c1",
+          "paper_id": "arxiv-2306-05685",
+          "kind": "source_finding",
+          "text": "MT-Bench/Chatbot Arena исследует модельное судейство вместе с ограничениями, включая position bias. Согласие с человеком измеряется на определённой задаче и наборе ответов, а не устанавливается раз и навсегда.",
+          "conditions": [
+            "Single-answer и pairwise режимы; конкретные prompts, judge и human comparisons."
+          ],
+          "limitations": [
+            "Результаты conversational judging не гарантируют корректность в экспертных и новых доменах."
+          ],
+          "evidence": [
+            {
+              "quote": "We identify certain biases and limitations of LLM judges.",
+              "url": "https://arxiv.org/html/2306.05685v4#S3.SS3",
+              "locator": "S3.SS3 — 3.3 Limitations of LLM-as-a-Judge; связанные фрагменты метода и оценки",
+              "segment_id": "S3.SS3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2406-07791",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c2",
+          "paper_id": "arxiv-2406-07791",
+          "kind": "source_finding",
+          "text": "Систематическая работа о position bias различает repetition stability, position consistency и preference fairness. Стабильный при повторении judge всё ещё может систематически предпочитать позицию ответа.",
+          "conditions": [
+            "Pairwise и list-wise сравнения; переменные judge, candidate и task."
+          ],
+          "limitations": [
+            "Анализ факторов post hoc не заменяет контрольный причинный эксперимент."
+          ],
+          "evidence": [
+            {
+              "quote": "In our study, we first verify whether capable LLM",
+              "url": "https://arxiv.org/html/2406.07791v9#S2.SS2",
+              "locator": "S2.SS2 — 2.2 Evaluation Metrics; связанные фрагменты метода и оценки",
+              "segment_id": "S2.SS2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2410-21819",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c3",
+          "paper_id": "arxiv-2410-21819",
+          "kind": "source_finding",
+          "text": "Self-Preference Bias измеряет отклонение от человеческих предпочтений отдельно для собственных и чужих ответов judge. Само авторство ответа становится проверяемым фактором оценки.",
+          "conditions": [
+            "Equal-opportunity подход относительно human-preferred labels; конкретные модели и ответы."
+          ],
+          "limitations": [
+            "Нужны качественные человеческие метки и учёт различий качества сравниваемых ответов."
+          ],
+          "evidence": [
+            {
+              "quote": "To measure the extent to which an LLM’s evaluation",
+              "url": "https://arxiv.org/html/2410.21819v2#S4.SS1",
+              "locator": "S4.SS1 — 4.1 Self-preference Bias Metric; связанные фрагменты метода и оценки",
+              "segment_id": "S4.SS1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2502-01534",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c4",
+          "paper_id": "arxiv-2502-01534",
+          "kind": "source_finding",
+          "text": "Preference Leakage описывает завышение оценок student, если synthetic-data generator связан с judge. Стиль и формулировки могут переноситься из генератора в обученную модель и становиться побочной подсказкой.",
+          "conditions": [
+            "Явно различаются generator, student и judge; анализируется их relatedness."
+          ],
+          "limitations": [
+            "Связь генератора и судьи нужно исследовать, а не выводить только из общего поставщика."
+          ],
+          "evidence": [
+            {
+              "quote": "Preference leakage occurs when the evaluation score",
+              "url": "https://arxiv.org/html/2502.01534v3#S3.SS2",
+              "locator": "S3.SS2 — 3.2 Defining Preference Leakage in LLM-based Evaluation; связанные фрагменты метода и оценки",
+              "segment_id": "S3.SS2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2503-05061",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c5",
+          "paper_id": "arxiv-2503-05061",
+          "kind": "source_finding",
+          "text": "No Free Labels сравнивает judge с человеческой разметкой и baselines на различных задачах оценки. Человеческое основание нужно для проверки того, что модельный verdict измеряет целевое качество.",
+          "conditions": [
+            "VERDICTS и производные judgment tasks; agreement с human annotators."
+          ],
+          "limitations": [
+            "Human labels могут быть неоднозначными; agreement зависит от rubric и состава задач."
+          ],
+          "evidence": [
+            {
+              "quote": "We experiment on two judgment tasks derived from our",
+              "url": "https://arxiv.org/html/2503.05061v4#S4",
+              "locator": "S4 — 4 Experimental Setup; связанные фрагменты метода и оценки",
+              "segment_id": "S4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2610-24320",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c6",
+          "paper_id": "arxiv-2610-24320",
+          "kind": "source_finding",
+          "text": "The Judge Can Debias Itself предлагает двухпроходную self-debiasing схему: анализ возможного bias и пересмотр исходного решения. Это дополнительный механизм, который требует отдельной оценки эффекта и расходов.",
+          "conditions": [
+            "Bias-aware prompting и self-debiasing; фиксированные задачи и judge models."
+          ],
+          "limitations": [
+            "Самокритика без ground truth не доказывает правильность нового решения; добавляется стоимость вызовов."
+          ],
+          "evidence": [
+            {
+              "quote": "A two-pass approach: (1) the model analyzes its initial",
+              "url": "https://arxiv.org/html/2610.24320v1#S3.SS2.SSS0.Px2",
+              "locator": "S3.SS2.SSS0.Px2 — Strategy 2: Self-Debiasing.; связанные фрагменты метода и оценки",
+              "segment_id": "S3.SS2.SSS0.Px2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2604-23178",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c7",
+          "paper_id": "arxiv-2604-23178",
+          "kind": "source_finding",
+          "text": "Систематическая оценка bias mitigation пересекает модели, стратегии, benchmarks и типы bias в factorial experiment. Это помогает увидеть зависимость эффективности коррекции от модели и сценария.",
+          "conditions": [
+            "Pairwise JSON verdict A/B/tie; рассуждение и rubric scores отделены от записанного verdict."
+          ],
+          "limitations": [
+            "Нельзя объявлять одну debiasing стратегию универсально лучшей без проверки взаимодействий и statistical uncertainty."
+          ],
+          "evidence": [
+            {
+              "quote": "We design a factorial experiment crossing four dimensions: judge",
+              "url": "https://arxiv.org/html/2604.23178v2#S3.SS1",
+              "locator": "S3.SS1 — 3.1 Experimental Framework; связанные фрагменты метода и оценки",
+              "segment_id": "S3.SS1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "synthesis": {
+    "title": "LLM-as-a-judge: валидность, смещения и проверка оценщика",
+    "sections": [
+      {
+        "key": "brief",
+        "title": "За минуту: главный вопрос и вывод",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Judge — измерительный инструмент. Нужно проверить, какое качество он оценивает и насколько его решения совпадают с подходящим человеческим или проверяемым критерием.",
+            "claim_ids": [
+              "c1",
+              "c5"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Повторяемость, согласие с человеком и устойчивость к позиции или стилю — разные свойства. Высокое значение одного не гарантирует остальные.",
+            "claim_ids": [
+              "c2",
+              "c3"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Перестановка ответов и self-debiasing могут помогать в конкретном режиме, но требуют проверки конечного verdict, расходов и побочных ошибок.",
+            "claim_ids": [
+              "c6",
+              "c7"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "scope",
+        "title": "Границы и отбор источников",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Обзор подготовлен 13 ноября 2026 года по выбранным фрагментам полных HTML-текстов 7 работ. Это узкий фокус внутри направления, а не энциклопедия всей области и не систематический поиск. Количество источников в общем каталоге не означает, что все они прочитаны.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Отбор целенаправленный: основные постановки задачи, различные семейства методов и работы, проверяющие их ограничения. Точные версии, локаторы и SHA-256 прочитанных HTML сохранены в JSON. Короткая цитата служит поисковым якорем; вывод следует сверять с контекстом раздела. Независимая экспертная рецензия и воспроизведение экспериментов не выполнялись.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "mechanism",
+        "title": "Понятия и механизм: что именно проверяется",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Pairwise judge выбирает между ответами; pointwise выставляет независимую оценку. Эти режимы имеют разные требования к калибровке и агрегации, поэтому их показатели нельзя смешивать.",
+            "claim_ids": [
+              "c1"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Качество оценщика зависит от rubric, формата входа, кандидатов и происхождения данных. Модель, обученная на synthetic outputs, может получить незаслуженное преимущество у связанного judge.",
+            "claim_ids": [
+              "c4",
+              "c5"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "approaches",
+        "title": "Подходы и свидетельства из работ",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "MT-Bench/Chatbot Arena исследует модельное судейство вместе с ограничениями, включая position bias. Согласие с человеком измеряется на определённой задаче и наборе ответов, а не устанавливается раз и навсегда.",
+            "claim_ids": [
+              "c1"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Систематическая работа о position bias различает repetition stability, position consistency и preference fairness. Стабильный при повторении judge всё ещё может систематически предпочитать позицию ответа.",
+            "claim_ids": [
+              "c2"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Self-Preference Bias измеряет отклонение от человеческих предпочтений отдельно для собственных и чужих ответов judge. Само авторство ответа становится проверяемым фактором оценки.",
+            "claim_ids": [
+              "c3"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Preference Leakage описывает завышение оценок student, если synthetic-data generator связан с judge. Стиль и формулировки могут переноситься из генератора в обученную модель и становиться побочной подсказкой.",
+            "claim_ids": [
+              "c4"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "No Free Labels сравнивает judge с человеческой разметкой и baselines на различных задачах оценки. Человеческое основание нужно для проверки того, что модельный verdict измеряет целевое качество.",
+            "claim_ids": [
+              "c5"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "The Judge Can Debias Itself предлагает двухпроходную self-debiasing схему: анализ возможного bias и пересмотр исходного решения. Это дополнительный механизм, который требует отдельной оценки эффекта и расходов.",
+            "claim_ids": [
+              "c6"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Систематическая оценка bias mitigation пересекает модели, стратегии, benchmarks и типы bias в factorial experiment. Это помогает увидеть зависимость эффективности коррекции от модели и сценария.",
+            "claim_ids": [
+              "c7"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "comparison",
+        "title": "Сравнение работ и условий",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Таблица разделяет постановки, механизмы и границы выводов. Она не ранжирует работы по несопоставимым числам. Улучшение показателя в конкретной статье не доказывает преимущество во всех моделях, данных и режимах.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "disagreements",
+        "title": "Разногласия, ограничения и ложные обобщения",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Стабильный verdict может быть стабильно смещённым. Repetition stability поэтому следует читать вместе с position consistency и human agreement.",
+            "claim_ids": [
+              "c2"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Больше reasoning в self-debiasing не является автоматическим доказательством лучшего judgment. Проверять надо точность решения после коррекции.",
+            "claim_ids": [
+              "c6"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Разные стратегии debiasing могут менять ошибки по-разному у разных judges; средняя победа не гарантирует перенос на новый домен.",
+            "claim_ids": [
+              "c7"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "practice",
+        "title": "Как читать результаты и проверить подход у себя",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Собрать отложенную human-grounded выборку, зафиксировать rubric и сохранять сырые verdicts, ошибки парсинга и ties. Проверить согласие людей до интерпретации disagreement с моделью.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Использовать matched pairs с перестановкой порядка, изменением стиля при сохранении смысла и контролем качества. Отдельно аудировать родство generator/student/judge и стоимость повторных оценок.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "questions",
+        "title": "Открытые вопросы и следующие эксперименты",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Какой небольшой human audit лучше предсказывает ошибки judge в новом домене? Нужен заранее заданный отбор случаев и отдельный тест после калибровки.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Сохраняется ли эффект self-debiasing при одинаковом token/call budget с простым повторным судейством? Это сравнение отделит метод от дополнительных вычислений.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "reading",
+        "title": "Маршрут чтения",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Сначала прочитайте первые две работы из таблицы: они задают понятия и способ измерения. Затем сравните методы в середине списка с критическими и более поздними исследованиями. Цель — понять, какое предположение меняется и что именно измеряется.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Для каждой работы выпишите объект переноса или оценки, используемый baseline, единицу тестирования, условия успеха и способ проверки. Цифры без этих полей недостаточны для выбора метода. Ссылки [n] раскрывают карточки доказательств; оттуда можно открыть раздел первоисточника.",
+            "claim_ids": []
+          }
+        ]
+      }
+    ],
+    "concepts": [
+      {
+        "id": "concept-1",
+        "name": "Валидность",
+        "definition": {
+          "kind": "synthesis",
+          "text": "Соответствие оценки целевому качеству, проверяемое на human-grounded задачах.",
+          "claim_ids": [
+            "c5"
+          ]
+        },
+        "statements": [],
+        "disagreements": []
+      },
+      {
+        "id": "concept-2",
+        "name": "Position consistency",
+        "definition": {
+          "kind": "synthesis",
+          "text": "Устойчивость предпочтения к перестановке мест кандидатов.",
+          "claim_ids": [
+            "c2"
+          ]
+        },
+        "statements": [],
+        "disagreements": []
+      }
+    ],
+    "relations": []
+  },
+  "comparison": [
+    {
+      "paper_id": "arxiv-2306-05685",
+      "method": "Базовые режимы судейства",
+      "guarantee": "Agreement привязан к задаче и выборке",
+      "setup": "Single-answer и pairwise режимы; конкретные prompts, judge и human comparisons.",
+      "claim_ids": [
+        "c1"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2406-07791",
+      "method": "Раздельные метрики устойчивости",
+      "guarantee": "Повторяемость не равна отсутствию bias",
+      "setup": "Pairwise и list-wise сравнения; переменные judge, candidate и task.",
+      "claim_ids": [
+        "c2"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2410-21819",
+      "method": "Аудит self-preference",
+      "guarantee": "Принадлежность модели может влиять на оценку",
+      "setup": "Equal-opportunity подход относительно human-preferred labels; конкретные модели и ответы.",
+      "claim_ids": [
+        "c3"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2502-01534",
+      "method": "Контаминация оценивания",
+      "guarantee": "Независимость judge требует проверки происхождения данных",
+      "setup": "Явно различаются generator, student и judge; анализируется их relatedness.",
+      "claim_ids": [
+        "c4"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2503-05061",
+      "method": "Human-grounded validation",
+      "guarantee": "Нужно валидировать измеряемое качество",
+      "setup": "VERDICTS и производные judgment tasks; agreement с human annotators.",
+      "claim_ids": [
+        "c5"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2610-24320",
+      "method": "Self-debiasing",
+      "guarantee": "Проверять итоговое качество, а не наличие reasoning",
+      "setup": "Bias-aware prompting и self-debiasing; фиксированные задачи и judge models.",
+      "claim_ids": [
+        "c6"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2604-23178",
+      "method": "Контролируемые сравнения mitigations",
+      "guarantee": "Вердикт и промежуточные scores не взаимозаменяемы",
+      "setup": "Pairwise JSON verdict A/B/tie; рассуждение и rubric scores отделены от записанного verdict.",
+      "claim_ids": [
+        "c7"
+      ]
+    }
+  ],
+  "quality": {
+    "warnings": [
+      "Целенаправленный обзор выбранного подвопроса; полный охват направления и актуальный SOTA-рейтинг не заявляются.",
+      "Разобраны выбранные фрагменты полных текстов, а не все приложения и доказательства. Цитаты сверены с сохранёнными HTML.",
+      "Результаты принадлежат авторам статей. Собственные эксперименты и независимая экспертная рецензия не выполнялись.",
+      "Автоматический поиск добавляет только кандидатов; он не подтверждает их качество и не обновляет выводы этого обзора."
+    ]
+  },
+  "changes": {
+    "note": "Первый концептуальный выпуск с условиями сравнения и доказательствами."
+  },
+  "publication": {
+    "released_at": "2026-11-13",
+    "note": "Первый обзор: 7 выбранных работ, механизмы, сравнение и ограничения; без своего воспроизведения.",
+    "preparation": "source_based_editorial",
+    "expert_peer_review": false
+  }
+}

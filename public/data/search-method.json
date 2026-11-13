@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-08",
-  "method": "Bounded multi-strategy arXiv search, explicit title/abstract scope filters, retained seeds and deduplication. Bibliographic metadata only; relevance and full texts require screening. All eligible returned records retained, no equal per-topic quota.",
-  "plan_sha256": "f5c5daefa13012e7c01d4da2666f1fa06f7fb10e615e75b3e565ab0d5c8c39e2",
+  "checked_at": "2026-11-13",
+  "method": "Retained initial bounded corpus plus incremental, paginated arXiv submission/update discovery with a seven-day overlap. Explicit title/abstract filters; metadata-only candidates. No automatic scientific synthesis or review changes.",
+  "plan_sha256": "770c3161a630fa83a47ce4d8c1e3d34e3bc6393cfda5f6ea2d235f202258bd25",
   "searches": [
     {
       "topic": "safety",
@@ -14,7 +14,11 @@
       "truncated": true,
       "scope_excluded": 0,
       "scope_excluded_ids": [],
-      "response_sha256": "af2450b34d7d3a828424f82d692846345e04cf8468a39c365fb95787eb4fb130"
+      "response_sha256": "af2450b34d7d3a828424f82d692846345e04cf8468a39c365fb95787eb4fb130",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "safety",
@@ -34,7 +38,11 @@
         "2610.39109v1",
         "2610.31376v1"
       ],
-      "response_sha256": "20a3ff8ece8ac4c906f38121c3f503a47ef324cef82bc4eb6b5bd3d9acc85532"
+      "response_sha256": "20a3ff8ece8ac4c906f38121c3f503a47ef324cef82bc4eb6b5bd3d9acc85532",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "safety",
@@ -52,7 +60,11 @@
         "2408.03837v3",
         "2410.12123v3"
       ],
-      "response_sha256": "2cff5707e9f35dc97b072a662c9d4c3c16b89d99f0e4deb08bdfdac161ef0ab5"
+      "response_sha256": "2cff5707e9f35dc97b072a662c9d4c3c16b89d99f0e4deb08bdfdac161ef0ab5",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "safety",
@@ -67,7 +79,11 @@
       "scope_excluded_ids": [
         "2605.26999v1"
       ],
-      "response_sha256": "a17d7151de5b419ddee82feed7c4b59990cf0d74fcf019d18f8723cb92cdc8d6"
+      "response_sha256": "a17d7151de5b419ddee82feed7c4b59990cf0d74fcf019d18f8723cb92cdc8d6",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "interpretability",
@@ -88,7 +104,11 @@
         "2610.04925v1",
         "2610.40905v1"
       ],
-      "response_sha256": "629d5b7f4943444a1f6ab17c96e7ce9c0d1ff27e71447f54278813fa8abf6aab"
+      "response_sha256": "629d5b7f4943444a1f6ab17c96e7ce9c0d1ff27e71447f54278813fa8abf6aab",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "interpretability",
@@ -118,7 +138,11 @@
         "2610.18462v2",
         "2610.37676v1"
       ],
-      "response_sha256": "79a9c285fb1bef8bf425a377fd4b66a05de87d36dbb20adad8bf14defa80c0b9"
+      "response_sha256": "79a9c285fb1bef8bf425a377fd4b66a05de87d36dbb20adad8bf14defa80c0b9",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "interpretability",
@@ -161,7 +185,11 @@
         "2502.04382v3",
         "2502.03714v2"
       ],
-      "response_sha256": "7b16e617979a4778724f1d86430854b436f76e8bdb54670d69dafae5ea601583"
+      "response_sha256": "7b16e617979a4778724f1d86430854b436f76e8bdb54670d69dafae5ea601583",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "interpretability",
@@ -185,7 +213,11 @@
         "2507.20973v2",
         "2610.21261v1"
       ],
-      "response_sha256": "b1473b89afbe6952f246d604f079b01a1a15738d1500e6cd6c3bb6b5c1c06f86"
+      "response_sha256": "b1473b89afbe6952f246d604f079b01a1a15738d1500e6cd6c3bb6b5c1c06f86",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "efficiency",
@@ -198,7 +230,11 @@
       "truncated": true,
       "scope_excluded": 0,
       "scope_excluded_ids": [],
-      "response_sha256": "9d947bf40a32831820026c8f5466d176970e514ffa9cf9bd489437e7f203757b"
+      "response_sha256": "9d947bf40a32831820026c8f5466d176970e514ffa9cf9bd489437e7f203757b",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "efficiency",
@@ -213,7 +249,11 @@
       "scope_excluded_ids": [
         "2610.34436v2"
       ],
-      "response_sha256": "7f3d11b044768bda261e7e10caf3755816a902bb16c1503a0c20e6304205d311"
+      "response_sha256": "7f3d11b044768bda261e7e10caf3755816a902bb16c1503a0c20e6304205d311",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "efficiency",
@@ -228,7 +268,11 @@
       "scope_excluded_ids": [
         "2010.08318v2"
       ],
-      "response_sha256": "ba0792a7ec76d31b9653d10ede8ec8b34bb3a96f7afd98105c3e846a4aae45f5"
+      "response_sha256": "ba0792a7ec76d31b9653d10ede8ec8b34bb3a96f7afd98105c3e846a4aae45f5",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "efficiency",
@@ -241,7 +285,11 @@
       "truncated": true,
       "scope_excluded": 0,
       "scope_excluded_ids": [],
-      "response_sha256": "ad1b140ad7494d132f17e024dca7071dce8f79cdb074b6a1c0e9b6abc2398615"
+      "response_sha256": "ad1b140ad7494d132f17e024dca7071dce8f79cdb074b6a1c0e9b6abc2398615",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "language",
@@ -266,7 +314,11 @@
         "2508.00305v1",
         "2507.04723v1"
       ],
-      "response_sha256": "3aee7e41f8f28d96a7c41d7ac5218e3d2ea59cb4b8f87b541f5ac2689527223d"
+      "response_sha256": "3aee7e41f8f28d96a7c41d7ac5218e3d2ea59cb4b8f87b541f5ac2689527223d",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "language",
@@ -308,7 +360,11 @@
         "2610.25463v2",
         "2610.25431v1"
       ],
-      "response_sha256": "fb4016c3f6b77c879aa38027297f93cc6a5274767490d77dec1f83b056404855"
+      "response_sha256": "fb4016c3f6b77c879aa38027297f93cc6a5274767490d77dec1f83b056404855",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "language",
@@ -377,7 +433,11 @@
         "2403.19887v2",
         "2403.20262v3"
       ],
-      "response_sha256": "b9e0c83f1aabe6e481746ba26176ee5743772af133bccc71c2d153b6522df7ee"
+      "response_sha256": "b9e0c83f1aabe6e481746ba26176ee5743772af133bccc71c2d153b6522df7ee",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "language",
@@ -390,7 +450,11 @@
       "truncated": true,
       "scope_excluded": 0,
       "scope_excluded_ids": [],
-      "response_sha256": "7479f430e1331505a5cedefd41d12b9d4538149e2ae8d08d2da3ad5300887087"
+      "response_sha256": "7479f430e1331505a5cedefd41d12b9d4538149e2ae8d08d2da3ad5300887087",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "agents",
@@ -405,7 +469,11 @@
       "scope_excluded_ids": [
         "2610.07118v1"
       ],
-      "response_sha256": "75be683bff470f16a3dd472ae57350b9ed2a81831f3cdbff0fdd714d231e1bf1"
+      "response_sha256": "75be683bff470f16a3dd472ae57350b9ed2a81831f3cdbff0fdd714d231e1bf1",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "agents",
@@ -420,7 +488,11 @@
       "scope_excluded_ids": [
         "2611.06445v1"
       ],
-      "response_sha256": "cbd3aa6b189e88fde7851a2f68c84d637c322245a323b925e9cb91fab842ddf7"
+      "response_sha256": "cbd3aa6b189e88fde7851a2f68c84d637c322245a323b925e9cb91fab842ddf7",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "agents",
@@ -439,7 +511,11 @@
         "2309.13543v1",
         "2312.16233v1"
       ],
-      "response_sha256": "be10b9f510b96f6f4ff9ed467bbd71df39d171f9de375dc06e6a80f8d9a8d7f6"
+      "response_sha256": "be10b9f510b96f6f4ff9ed467bbd71df39d171f9de375dc06e6a80f8d9a8d7f6",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "agents",
@@ -454,7 +530,11 @@
       "scope_excluded_ids": [
         "2609.28575v1"
       ],
-      "response_sha256": "0a9c6d9663916650a52f48404393465ff1accc9ed23e1a9e21dd65b375dc66ea"
+      "response_sha256": "0a9c6d9663916650a52f48404393465ff1accc9ed23e1a9e21dd65b375dc66ea",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "vision",
@@ -469,7 +549,11 @@
       "scope_excluded_ids": [
         "2505.11326v2"
       ],
-      "response_sha256": "89e479c5b19fc24a1c90ca065fe99bd5235fb09ae6d628b255bd2d23cd075e27"
+      "response_sha256": "89e479c5b19fc24a1c90ca065fe99bd5235fb09ae6d628b255bd2d23cd075e27",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "vision",
@@ -493,7 +577,11 @@
         "2610.26910v1",
         "2610.19823v1"
       ],
-      "response_sha256": "9fc1cdadc8e92efa7b1effad45c8284376a21f7329bc1313af911f11aaa77fa9"
+      "response_sha256": "9fc1cdadc8e92efa7b1effad45c8284376a21f7329bc1313af911f11aaa77fa9",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "vision",
@@ -532,7 +620,11 @@
         "2403.00436v1",
         "2403.17935v1"
       ],
-      "response_sha256": "7f1480c2a5866e5560f31c968e6cdf13e267c46d4741b0c56ab3071e556b031a"
+      "response_sha256": "7f1480c2a5866e5560f31c968e6cdf13e267c46d4741b0c56ab3071e556b031a",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "vision",
@@ -556,7 +648,11 @@
         "2605.02623v1",
         "2610.16357v1"
       ],
-      "response_sha256": "aff3956fb34450c1c3e79468f81e2c4df38a11db63f137774579a076b2d42692"
+      "response_sha256": "aff3956fb34450c1c3e79468f81e2c4df38a11db63f137774579a076b2d42692",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "robotics",
@@ -593,7 +689,11 @@
         "2506.01844v1",
         "2610.01741v1"
       ],
-      "response_sha256": "491c74ada22afea71695a3c3ee1f6475a726bd8344213b2a472a57d47b6434e7"
+      "response_sha256": "491c74ada22afea71695a3c3ee1f6475a726bd8344213b2a472a57d47b6434e7",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "robotics",
@@ -637,7 +737,11 @@
         "2610.40430v1",
         "2610.40373v1"
       ],
-      "response_sha256": "b2bd18475f6d9bdcf59084b7154c82b19bd911e16f3468e48f12582e46915ab7"
+      "response_sha256": "b2bd18475f6d9bdcf59084b7154c82b19bd911e16f3468e48f12582e46915ab7",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "robotics",
@@ -686,7 +790,11 @@
         "2505.03174v1",
         "2505.03912v1"
       ],
-      "response_sha256": "55ea566b993b85b72e5049d040cf2df96f146e5cfeb8cf91f30aad812fb7b165"
+      "response_sha256": "55ea566b993b85b72e5049d040cf2df96f146e5cfeb8cf91f30aad812fb7b165",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "robotics",
@@ -699,7 +807,11 @@
       "truncated": true,
       "scope_excluded": 0,
       "scope_excluded_ids": [],
-      "response_sha256": "35b6cc616a8d41e3b57d08513c889deb1dd4486f923ca1e9f24ffbf96f0f3173"
+      "response_sha256": "35b6cc616a8d41e3b57d08513c889deb1dd4486f923ca1e9f24ffbf96f0f3173",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "reinforcement-learning",
@@ -722,7 +834,11 @@
         "2512.22170v3",
         "2605.13537v1"
       ],
-      "response_sha256": "84c08b1ff07e8afdeeb189850d39b382ec6f6b3cdabf45173ac97b53355436b8"
+      "response_sha256": "84c08b1ff07e8afdeeb189850d39b382ec6f6b3cdabf45173ac97b53355436b8",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "reinforcement-learning",
@@ -748,7 +864,11 @@
         "2609.38526v1",
         "2609.36245v1"
       ],
-      "response_sha256": "af49e88ce5c16e2acc792259aebb30da0bd5232e3ae27acee2033b3892fea064"
+      "response_sha256": "af49e88ce5c16e2acc792259aebb30da0bd5232e3ae27acee2033b3892fea064",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "reinforcement-learning",
@@ -777,7 +897,11 @@
         "2505.17910v1",
         "2506.05294v2"
       ],
-      "response_sha256": "0200352985fbfa99a83841abd2e974eccb05ae3afefeff4989d75e88af149372"
+      "response_sha256": "0200352985fbfa99a83841abd2e974eccb05ae3afefeff4989d75e88af149372",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "reinforcement-learning",
@@ -809,7 +933,11 @@
         "2510.18596v1",
         "2605.07872v2"
       ],
-      "response_sha256": "23292eec6f21c0028a081eb56b9c07839d5d5e22832ea9bd15bbcb7e7ea4bd74"
+      "response_sha256": "23292eec6f21c0028a081eb56b9c07839d5d5e22832ea9bd15bbcb7e7ea4bd74",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "evaluation",
@@ -824,7 +952,11 @@
       "scope_excluded_ids": [
         "2609.10996v1"
       ],
-      "response_sha256": "312fb13c85069600b3e39b8f360fbd1d31b7bee06a0204f793f99228e77bd1b7"
+      "response_sha256": "312fb13c85069600b3e39b8f360fbd1d31b7bee06a0204f793f99228e77bd1b7",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "evaluation",
@@ -853,7 +985,11 @@
         "2610.29143v1",
         "2610.28976v1"
       ],
-      "response_sha256": "4649bdf4bf4f86bade46ad2faa3da3a61b9235100cfab598158f54ce800c0123"
+      "response_sha256": "4649bdf4bf4f86bade46ad2faa3da3a61b9235100cfab598158f54ce800c0123",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "evaluation",
@@ -946,7 +1082,11 @@
         "2403.08763v4",
         "2403.20266v2"
       ],
-      "response_sha256": "061648823a267ec728f6b6c29fea9a0addbc3152051eddbc94b9f511b6989446"
+      "response_sha256": "061648823a267ec728f6b6c29fea9a0addbc3152051eddbc94b9f511b6989446",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "evaluation",
@@ -959,7 +1099,11 @@
       "truncated": true,
       "scope_excluded": 0,
       "scope_excluded_ids": [],
-      "response_sha256": "f1976c4ed07007df1b48aa9320eb07b494ae2eb20487e9b191260d1fe201713f"
+      "response_sha256": "f1976c4ed07007df1b48aa9320eb07b494ae2eb20487e9b191260d1fe201713f",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "ai-for-science",
@@ -999,7 +1143,11 @@
         "2411.01763v1",
         "2605.22182v1"
       ],
-      "response_sha256": "97321982830f2c8f6a1fe0497b674ad4aaabd2bc3a18efc4f0c31b105d1e44fc"
+      "response_sha256": "97321982830f2c8f6a1fe0497b674ad4aaabd2bc3a18efc4f0c31b105d1e44fc",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "ai-for-science",
@@ -1055,7 +1203,11 @@
         "2610.09255v1",
         "2610.07811v1"
       ],
-      "response_sha256": "a83d0a50262f38f36fb4988b8270f684dd7a5d9029b336487bbe16306fd56f2f"
+      "response_sha256": "a83d0a50262f38f36fb4988b8270f684dd7a5d9029b336487bbe16306fd56f2f",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "ai-for-science",
@@ -1137,7 +1289,11 @@
         "2301.12538v2",
         "2302.00658v1"
       ],
-      "response_sha256": "9454abd3e2d1e98f037a63a0c4ac8ff986367fb4cc5f955aa298d8913accf18a"
+      "response_sha256": "9454abd3e2d1e98f037a63a0c4ac8ff986367fb4cc5f955aa298d8913accf18a",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
     },
     {
       "topic": "ai-for-science",
@@ -1172,7 +1328,724 @@
         "2607.05134v1",
         "2411.06587v1"
       ],
-      "response_sha256": "ff8f653cdd99cd9c92c827047b3eb41ea1fa5dddbca0128e78c11c0157b274b2"
+      "response_sha256": "ff8f653cdd99cd9c92c827047b3eb41ea1fa5dddbca0128e78c11c0157b274b2",
+      "incremental": null,
+      "complete": null,
+      "window_start": null,
+      "page": null
+    },
+    {
+      "topic": "safety",
+      "strategy": "recent",
+      "label": "Incremental submittedDate",
+      "url": "https://export.arxiv.org/api/query?search_query=%28%28all%3A%22prompt+injection%22%29+AND+%28all%3Aagent+OR+all%3Atool+OR+all%3Adefense+OR+all%3Adefence+OR+all%3Asecurity%29%29+AND+submittedDate%3A%5B201701010000+TO+202611132359%5D+AND+submittedDate%3A%5B202611010000+TO+202611132359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending",
+      "returned": 35,
+      "eligible_returned": 31,
+      "total_matches": 35,
+      "truncated": false,
+      "scope_excluded": 4,
+      "scope_excluded_ids": [
+        "2611.10559v1",
+        "2611.08428v1",
+        "2611.02484v1",
+        "2611.02332v1"
+      ],
+      "response_sha256": "97bb3db06e313e161277b1ea7bf13f12a6aa46a99e77729307063df31c9aa1b8",
+      "incremental": true,
+      "complete": true,
+      "window_start": "2026-11-01",
+      "page": 0
+    },
+    {
+      "topic": "safety",
+      "strategy": "recent",
+      "label": "Incremental lastUpdatedDate",
+      "url": "https://export.arxiv.org/api/query?search_query=%28%28all%3A%22prompt+injection%22%29+AND+%28all%3Aagent+OR+all%3Atool+OR+all%3Adefense+OR+all%3Adefence+OR+all%3Asecurity%29%29+AND+submittedDate%3A%5B201701010000+TO+202611132359%5D&start=0&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
+      "returned": 100,
+      "eligible_returned": 43,
+      "total_matches": 1056,
+      "truncated": false,
+      "scope_excluded": 5,
+      "scope_excluded_ids": [
+        "2611.10559v1",
+        "2611.08428v1",
+        "2611.02484v1",
+        "2606.11806v2",
+        "2611.02332v1"
+      ],
+      "response_sha256": "21fa0c801f0a036876bcc0b7d555a2e5e89cf337b7b672cfdf8c40e125af95ca",
+      "incremental": true,
+      "complete": true,
+      "window_start": "2026-11-01",
+      "page": 0
+    },
+    {
+      "topic": "interpretability",
+      "strategy": "recent",
+      "label": "Incremental submittedDate",
+      "url": "https://export.arxiv.org/api/query?search_query=%28%28all%3A%22sparse+autoencoder%22+OR+all%3A%22sparse+autoencoders%22%29+AND+%28all%3A%22language+model%22+OR+all%3Ainterpretability%29%29+AND+submittedDate%3A%5B201701010000+TO+202611132359%5D+AND+submittedDate%3A%5B202611010000+TO+202611132359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending",
+      "returned": 22,
+      "eligible_returned": 14,
+      "total_matches": 22,
+      "truncated": false,
+      "scope_excluded": 8,
+      "scope_excluded_ids": [
+        "2611.10503v1",
+        "2611.09196v1",
+        "2611.08089v1",
+        "2611.08551v1",
+        "2611.07756v1",
+        "2611.05522v1",
+        "2611.03420v1",
+        "2611.01981v1"
+      ],
+      "response_sha256": "ff690e4b03021e5e4b23bc8f804d83507f9911f43961ae142df5aa6194405ae8",
+      "incremental": true,
+      "complete": true,
+      "window_start": "2026-11-01",
+      "page": 0
+    },
+    {
+      "topic": "interpretability",
+      "strategy": "recent",
+      "label": "Incremental lastUpdatedDate",
+      "url": "https://export.arxiv.org/api/query?search_query=%28%28all%3A%22sparse+autoencoder%22+OR+all%3A%22sparse+autoencoders%22%29+AND+%28all%3A%22language+model%22+OR+all%3Ainterpretability%29%29+AND+submittedDate%3A%5B201701010000+TO+202611132359%5D&start=0&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
+      "returned": 100,
+      "eligible_returned": 28,
+      "total_matches": 847,
+      "truncated": false,
+      "scope_excluded": 11,
+      "scope_excluded_ids": [
+        "2611.10503v1",
+        "2611.09196v1",
+        "2611.08089v1",
+        "2611.08551v1",
+        "2611.07756v1",
+        "2611.05522v1",
+        "2605.31245v2",
+        "2609.34091v2",
+        "2611.03420v1",
+        "2602.14111v2",
+        "2611.01981v1"
+      ],
+      "response_sha256": "df120bb5c4de2781e0a92df010ea577c6c8f881ff77f68cb6a36daf3d63dc558",
+      "incremental": true,
+      "complete": true,
+      "window_start": "2026-11-01",
+      "page": 0
+    },
+    {
+      "topic": "efficiency",
+      "strategy": "recent",
+      "label": "Incremental submittedDate",
+      "url": "https://export.arxiv.org/api/query?search_query=%28%28all%3A%22speculative+decoding%22+OR+all%3A%22speculative+sampling%22%29+AND+%28all%3A%22language+model%22+OR+all%3ALLM%29%29+AND+submittedDate%3A%5B201701010000+TO+202611132359%5D+AND+submittedDate%3A%5B202611010000+TO+202611132359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending",
+      "returned": 21,
+      "eligible_returned": 21,
+      "total_matches": 21,
+      "truncated": false,
+      "scope_excluded": 0,
+      "scope_excluded_ids": [],
+      "response_sha256": "478bc801cb19b33e88fd11c005ac2667b866ae89c453d6bcb567af20ef7cbd73",
+      "incremental": true,
+      "complete": true,
+      "window_start": "2026-11-01",
+      "page": 0
+    },
+    {
+      "topic": "efficiency",
+      "strategy": "recent",
+      "label": "Incremental lastUpdatedDate",
+      "url": "https://export.arxiv.org/api/query?search_query=%28%28all%3A%22speculative+decoding%22+OR+all%3A%22speculative+sampling%22%29+AND+%28all%3A%22language+model%22+OR+all%3ALLM%29%29+AND+submittedDate%3A%5B201701010000+TO+202611132359%5D&start=0&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
+      "returned": 100,
+      "eligible_returned": 35,
+      "total_matches": 749,
+      "truncated": false,
+      "scope_excluded": 0,
+      "scope_excluded_ids": [],
+      "response_sha256": "080d1aa5f0ff9bb18a71ec29b1480c0f63026c6c3497b68954d16fc225a1571e",
+      "incremental": true,
+      "complete": true,
+      "window_start": "2026-11-01",
+      "page": 0
+    },
+    {
+      "topic": "language",
+      "strategy": "recent",
+      "label": "Incremental submittedDate",
+      "url": "https://export.arxiv.org/api/query?search_query=%28%28all%3A%22long+context%22+OR+all%3A%22long-context%22%29+AND+%28all%3Areasoning+OR+all%3Aevaluation+OR+all%3Abenchmark%29+AND+%28all%3A%22language+model%22+OR+all%3ALLM%29%29+AND+submittedDate%3A%5B201701010000+TO+202611132359%5D+AND+submittedDate%3A%5B202611010000+TO+202611132359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending",
+      "returned": 31,
+      "eligible_returned": 14,
+      "total_matches": 31,
+      "truncated": false,
+      "scope_excluded": 17,
+      "scope_excluded_ids": [
+        "2611.16488v1",
+        "2611.13578v1",
+        "2611.13293v1",
+        "2611.11266v1",
+        "2611.10824v1",
+        "2611.10156v1",
+        "2611.09722v1",
+        "2611.08290v1",
+        "2611.07256v1",
+        "2611.06854v1",
+        "2611.04671v1",
+        "2611.03998v1",
+        "2611.03200v1",
+        "2611.03094v1",
+        "2611.02975v2",
+        "2611.02258v1",
+        "2611.01715v1"
+      ],
+      "response_sha256": "cfa6b60c0824486fda7dbfc7b44a1d7a6af8febd9c0f9d528b54c80c8334a6c3",
+      "incremental": true,
+      "complete": true,
+      "window_start": "2026-11-01",
+      "page": 0
+    },
+    {
+      "topic": "language",
+      "strategy": "recent",
+      "label": "Incremental lastUpdatedDate",
+      "url": "https://export.arxiv.org/api/query?search_query=%28%28all%3A%22long+context%22+OR+all%3A%22long-context%22%29+AND+%28all%3Areasoning+OR+all%3Aevaluation+OR+all%3Abenchmark%29+AND+%28all%3A%22language+model%22+OR+all%3ALLM%29%29+AND+submittedDate%3A%5B201701010000+TO+202611132359%5D&start=0&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
+      "returned": 100,
+      "eligible_returned": 30,
+      "total_matches": 1809,
+      "truncated": false,
+      "scope_excluded": 24,
+      "scope_excluded_ids": [
+        "2609.39329v4",
+        "2611.16488v1",
+        "2609.33135v2",
+        "2611.13578v1",
+        "2611.13293v1",
+        "2611.11266v1",
+        "2601.06562v2",
+        "2611.10824v1",
+        "2607.14499v2",
+        "2611.10156v1",
+        "2611.09722v1",
+        "2611.02975v2",
+        "2611.08290v1",
+        "2611.07256v1",
+        "2611.06854v1",
+        "2607.09153v2",
+        "2611.04671v1",
+        "2610.21375v3",
+        "2611.03998v1",
+        "2611.03200v1",
+        "2611.03094v1",
+        "2509.14594v3",
+        "2611.02258v1",
+        "2611.01715v1"
+      ],
+      "response_sha256": "d9625908c2fe346251af5cf2ecb4b88c0bffdf0203646a6a9830df8c8a1e0a9b",
+      "incremental": true,
+      "complete": true,
+      "window_start": "2026-11-01",
+      "page": 0
+    },
+    {
+      "topic": "agents",
+      "strategy": "recent",
+      "label": "Incremental submittedDate",
+      "url": "https://export.arxiv.org/api/query?search_query=%28%28all%3A%22language+model%22+OR+all%3ALLM%29+AND+%28all%3Aagent+OR+all%3Aagents%29+AND+%28all%3Amemory+OR+all%3A%22long+horizon%22+OR+all%3A%22long-horizon%22%29%29+AND+submittedDate%3A%5B201701010000+TO+202611132359%5D+AND+submittedDate%3A%5B202611010000+TO+202611132359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending",
+      "returned": 100,
+      "eligible_returned": 95,
+      "total_matches": 141,
+      "truncated": false,
+      "scope_excluded": 5,
+      "scope_excluded_ids": [
+        "2611.15644v1",
+        "2611.14009v2",
+        "2611.11533v1",
+        "2611.09472v1",
+        "2611.06445v1"
+      ],
+      "response_sha256": "1f32d33d294a65b823dbef7032decaa8161048863e56df6e3a25b4e801204e47",
+      "incremental": true,
+      "complete": false,
+      "window_start": "2026-11-01",
+      "page": 0
+    },
+    {
+      "topic": "agents",
+      "strategy": "recent",
+      "label": "Incremental submittedDate",
+      "url": "https://export.arxiv.org/api/query?search_query=%28%28all%3A%22language+model%22+OR+all%3ALLM%29+AND+%28all%3Aagent+OR+all%3Aagents%29+AND+%28all%3Amemory+OR+all%3A%22long+horizon%22+OR+all%3A%22long-horizon%22%29%29+AND+submittedDate%3A%5B201701010000+TO+202611132359%5D+AND+submittedDate%3A%5B202611010000+TO+202611132359%5D&start=100&max_results=100&sortBy=submittedDate&sortOrder=descending",
+      "returned": 41,
+      "eligible_returned": 40,
+      "total_matches": 141,
+      "truncated": false,
+      "scope_excluded": 1,
+      "scope_excluded_ids": [
+        "2611.01918v1"
+      ],
+      "response_sha256": "3bd68f9fc07193e0a0fb9e6545a62f2b9921651966d429ca346ee2440303e9e0",
+      "incremental": true,
+      "complete": true,
+      "window_start": "2026-11-01",
+      "page": 1
+    },
+    {
+      "topic": "agents",
+      "strategy": "recent",
+      "label": "Incremental lastUpdatedDate",
+      "url": "https://export.arxiv.org/api/query?search_query=%28%28all%3A%22language+model%22+OR+all%3ALLM%29+AND+%28all%3Aagent+OR+all%3Aagents%29+AND+%28all%3Amemory+OR+all%3A%22long+horizon%22+OR+all%3A%22long-horizon%22%29%29+AND+submittedDate%3A%5B201701010000+TO+202611132359%5D&start=0&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
+      "returned": 100,
+      "eligible_returned": 94,
+      "total_matches": 4504,
+      "truncated": false,
+      "scope_excluded": 6,
+      "scope_excluded_ids": [
+        "2611.14009v2",
+        "2611.15644v1",
+        "2610.05037v2",
+        "2609.32313v2",
+        "2611.11533v1",
+        "2611.09472v1"
+      ],
+      "response_sha256": "7d70c202422815f3f20170fa24fd2d706ad3d74b7ac5240fd20982bd6ecc2082",
+      "incremental": true,
+      "complete": false,
+      "window_start": "2026-11-01",
+      "page": 0
+    },
+    {
+      "topic": "agents",
+      "strategy": "recent",
+      "label": "Incremental lastUpdatedDate",
+      "url": "https://export.arxiv.org/api/query?search_query=%28%28all%3A%22language+model%22+OR+all%3ALLM%29+AND+%28all%3Aagent+OR+all%3Aagents%29+AND+%28all%3Amemory+OR+all%3A%22long+horizon%22+OR+all%3A%22long-horizon%22%29%29+AND+submittedDate%3A%5B201701010000+TO+202611132359%5D&start=100&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
+      "returned": 100,
+      "eligible_returned": 96,
+      "total_matches": 4504,
+      "truncated": false,
+      "scope_excluded": 4,
+      "scope_excluded_ids": [
+        "2610.35160v2",
+        "2611.06445v1",
+        "2610.30218v2",
+        "2610.41672v2"
+      ],
+      "response_sha256": "f8fa437d9ceef4b0c8d2febf4d3084c2e01736bce3942e33b19a7799e13cc30e",
+      "incremental": true,
+      "complete": false,
+      "window_start": "2026-11-01",
+      "page": 1
+    },
+    {
+      "topic": "agents",
+      "strategy": "recent",
+      "label": "Incremental lastUpdatedDate",
+      "url": "https://export.arxiv.org/api/query?search_query=%28%28all%3A%22language+model%22+OR+all%3ALLM%29+AND+%28all%3Aagent+OR+all%3Aagents%29+AND+%28all%3Amemory+OR+all%3A%22long+horizon%22+OR+all%3A%22long-horizon%22%29%29+AND+submittedDate%3A%5B201701010000+TO+202611132359%5D&start=200&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
+      "returned": 100,
+      "eligible_returned": 15,
+      "total_matches": 4504,
+      "truncated": false,
+      "scope_excluded": 1,
+      "scope_excluded_ids": [
+        "2611.01918v1"
+      ],
+      "response_sha256": "bd42e8f27b7fec0492252b28735ba139eec5ccdb38d55a33414eea8d9d58ae41",
+      "incremental": true,
+      "complete": true,
+      "window_start": "2026-11-01",
+      "page": 2
+    },
+    {
+      "topic": "vision",
+      "strategy": "recent",
+      "label": "Incremental submittedDate",
+      "url": "https://export.arxiv.org/api/query?search_query=%28all%3Avideo+AND+all%3Atemporal+AND+%28all%3Areasoning+OR+all%3Agrounding%29+AND+%28all%3A%22language+model%22+OR+all%3Amultimodal+OR+all%3A%22vision-language%22%29%29+AND+submittedDate%3A%5B201701010000+TO+202611132359%5D+AND+submittedDate%3A%5B202611010000+TO+202611132359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending",
+      "returned": 17,
+      "eligible_returned": 12,
+      "total_matches": 17,
+      "truncated": false,
+      "scope_excluded": 5,
+      "scope_excluded_ids": [
+        "2611.16452v1",
+        "2611.13540v1",
+        "2611.10609v1",
+        "2611.06854v1",
+        "2611.03622v1"
+      ],
+      "response_sha256": "dc5606ce86cb7fb4b4ced10ca40815948d54bae8a2225c860dd41a73bfb39507",
+      "incremental": true,
+      "complete": true,
+      "window_start": "2026-11-01",
+      "page": 0
+    },
+    {
+      "topic": "vision",
+      "strategy": "recent",
+      "label": "Incremental lastUpdatedDate",
+      "url": "https://export.arxiv.org/api/query?search_query=%28all%3Avideo+AND+all%3Atemporal+AND+%28all%3Areasoning+OR+all%3Agrounding%29+AND+%28all%3A%22language+model%22+OR+all%3Amultimodal+OR+all%3A%22vision-language%22%29%29+AND+submittedDate%3A%5B201701010000+TO+202611132359%5D&start=0&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
+      "returned": 100,
+      "eligible_returned": 27,
+      "total_matches": 1323,
+      "truncated": false,
+      "scope_excluded": 10,
+      "scope_excluded_ids": [
+        "2611.16452v1",
+        "2608.10932v2",
+        "2606.16175v2",
+        "2611.13540v1",
+        "2605.10819v3",
+        "2611.10609v1",
+        "2611.06854v1",
+        "2511.17481v2",
+        "2503.15846v4",
+        "2611.03622v1"
+      ],
+      "response_sha256": "549712e54285c1e6e20f95b901712a7dd9665998802f7db78b16bb677df1e9db",
+      "incremental": true,
+      "complete": true,
+      "window_start": "2026-11-01",
+      "page": 0
+    },
+    {
+      "topic": "robotics",
+      "strategy": "recent",
+      "label": "Incremental submittedDate",
+      "url": "https://export.arxiv.org/api/query?search_query=%28%28all%3A%22vision-language-action%22+OR+all%3A%22vision+language+action%22+OR+all%3AVLA%29+AND+%28all%3Arobot+OR+all%3Arobotic+OR+all%3Arobotics%29+AND+%28all%3Aembodiment+OR+all%3Ageneralization+OR+all%3Atransfer%29%29+AND+submittedDate%3A%5B201701010000+TO+202611132359%5D+AND+submittedDate%3A%5B202611010000+TO+202611132359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending",
+      "returned": 72,
+      "eligible_returned": 29,
+      "total_matches": 72,
+      "truncated": false,
+      "scope_excluded": 43,
+      "scope_excluded_ids": [
+        "2611.16246v1",
+        "2611.15937v1",
+        "2611.15651v1",
+        "2611.15381v1",
+        "2611.15117v1",
+        "2611.14969v1",
+        "2611.14834v1",
+        "2611.12806v1",
+        "2611.12676v1",
+        "2611.12382v1",
+        "2611.12295v1",
+        "2611.12286v1",
+        "2611.13039v1",
+        "2611.12136v1",
+        "2611.11098v2",
+        "2611.11089v2",
+        "2611.11023v1",
+        "2611.10872v1",
+        "2611.10769v1",
+        "2611.09892v1",
+        "2611.09672v2",
+        "2611.09376v1",
+        "2611.09124v1",
+        "2611.09041v1",
+        "2611.08698v2",
+        "2611.08425v1",
+        "2611.08156v1",
+        "2611.07712v1",
+        "2611.07513v1",
+        "2611.06475v1",
+        "2611.05567v1",
+        "2611.05155v1",
+        "2611.05093v1",
+        "2611.04972v1",
+        "2611.04527v2",
+        "2611.04226v1",
+        "2611.04166v1",
+        "2611.03850v1",
+        "2611.03103v1",
+        "2611.01713v1",
+        "2611.01600v1",
+        "2611.01560v2",
+        "2611.01404v1"
+      ],
+      "response_sha256": "99bd069a94c2be1f29251ef508c53b48d4bd2130c014c22dc4445034895e02ee",
+      "incremental": true,
+      "complete": true,
+      "window_start": "2026-11-01",
+      "page": 0
+    },
+    {
+      "topic": "robotics",
+      "strategy": "recent",
+      "label": "Incremental lastUpdatedDate",
+      "url": "https://export.arxiv.org/api/query?search_query=%28%28all%3A%22vision-language-action%22+OR+all%3A%22vision+language+action%22+OR+all%3AVLA%29+AND+%28all%3Arobot+OR+all%3Arobotic+OR+all%3Arobotics%29+AND+%28all%3Aembodiment+OR+all%3Ageneralization+OR+all%3Atransfer%29%29+AND+submittedDate%3A%5B201701010000+TO+202611132359%5D&start=0&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
+      "returned": 100,
+      "eligible_returned": 46,
+      "total_matches": 1945,
+      "truncated": false,
+      "scope_excluded": 54,
+      "scope_excluded_ids": [
+        "2611.16246v1",
+        "2611.15937v1",
+        "2611.15651v1",
+        "2611.15381v1",
+        "2611.11098v2",
+        "2611.15117v1",
+        "2611.14969v1",
+        "2611.14834v1",
+        "2611.08698v2",
+        "2611.09672v2",
+        "2611.11089v2",
+        "2605.14201v3",
+        "2611.12806v1",
+        "2611.12676v1",
+        "2611.12382v1",
+        "2611.12295v1",
+        "2611.12286v1",
+        "2611.13039v1",
+        "2611.12136v1",
+        "2605.30326v2",
+        "2606.20135v2",
+        "2607.14698v2",
+        "2611.11023v1",
+        "2611.10872v1",
+        "2611.10769v1",
+        "2611.09892v1",
+        "2611.09376v1",
+        "2611.09124v1",
+        "2610.08220v2",
+        "2611.09041v1",
+        "2611.08425v1",
+        "2611.08156v1",
+        "2611.07712v1",
+        "2611.07513v1",
+        "2611.01215v2",
+        "2611.06475v1",
+        "2611.04527v2",
+        "2606.12109v3",
+        "2610.37381v3",
+        "2611.05567v1",
+        "2606.09258v2",
+        "2611.01560v2",
+        "2611.05155v1",
+        "2611.05093v1",
+        "2611.04972v1",
+        "2610.39528v2",
+        "2605.30350v2",
+        "2611.04226v1",
+        "2611.04166v1",
+        "2611.03850v1",
+        "2603.19233v6",
+        "2610.32888v2",
+        "2610.41275v2",
+        "2611.03103v1"
+      ],
+      "response_sha256": "542ccc925bfb2bbdfb10826148949372a1e08d8f37056b1eda0fce8d55f68057",
+      "incremental": true,
+      "complete": false,
+      "window_start": "2026-11-01",
+      "page": 0
+    },
+    {
+      "topic": "robotics",
+      "strategy": "recent",
+      "label": "Incremental lastUpdatedDate",
+      "url": "https://export.arxiv.org/api/query?search_query=%28%28all%3A%22vision-language-action%22+OR+all%3A%22vision+language+action%22+OR+all%3AVLA%29+AND+%28all%3Arobot+OR+all%3Arobotic+OR+all%3Arobotics%29+AND+%28all%3Aembodiment+OR+all%3Ageneralization+OR+all%3Atransfer%29%29+AND+submittedDate%3A%5B201701010000+TO+202611132359%5D&start=100&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
+      "returned": 100,
+      "eligible_returned": 3,
+      "total_matches": 1945,
+      "truncated": false,
+      "scope_excluded": 6,
+      "scope_excluded_ids": [
+        "2610.40016v3",
+        "2511.00917v3",
+        "2611.01713v1",
+        "2610.34356v2",
+        "2611.01600v1",
+        "2611.01404v1"
+      ],
+      "response_sha256": "654fc0fed7782022835eeff6856c26eec8829ef8245cd74705af91e81a116efd",
+      "incremental": true,
+      "complete": true,
+      "window_start": "2026-11-01",
+      "page": 1
+    },
+    {
+      "topic": "reinforcement-learning",
+      "strategy": "recent",
+      "label": "Incremental submittedDate",
+      "url": "https://export.arxiv.org/api/query?search_query=%28%28all%3A%22reward+hacking%22+OR+all%3A%22reward+overoptimization%22+OR+all%3A%22reward+model+overoptimization%22+OR+all%3A%22reward+gaming%22%29+AND+%28all%3A%22language+model%22+OR+all%3ARLHF+OR+all%3A%22reward+model%22%29%29+AND+submittedDate%3A%5B201701010000+TO+202611132359%5D+AND+submittedDate%3A%5B202611010000+TO+202611132359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending",
+      "returned": 6,
+      "eligible_returned": 5,
+      "total_matches": 6,
+      "truncated": false,
+      "scope_excluded": 1,
+      "scope_excluded_ids": [
+        "2611.06244v1"
+      ],
+      "response_sha256": "6d9631d8cbed124a2e6164fac5336df304c2a1cb29abea13289a7361aa187da2",
+      "incremental": true,
+      "complete": true,
+      "window_start": "2026-11-01",
+      "page": 0
+    },
+    {
+      "topic": "reinforcement-learning",
+      "strategy": "recent",
+      "label": "Incremental lastUpdatedDate",
+      "url": "https://export.arxiv.org/api/query?search_query=%28%28all%3A%22reward+hacking%22+OR+all%3A%22reward+overoptimization%22+OR+all%3A%22reward+model+overoptimization%22+OR+all%3A%22reward+gaming%22%29+AND+%28all%3A%22language+model%22+OR+all%3ARLHF+OR+all%3A%22reward+model%22%29%29+AND+submittedDate%3A%5B201701010000+TO+202611132359%5D&start=0&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
+      "returned": 100,
+      "eligible_returned": 11,
+      "total_matches": 433,
+      "truncated": false,
+      "scope_excluded": 3,
+      "scope_excluded_ids": [
+        "2605.28751v2",
+        "2611.06244v1",
+        "2610.10942v2"
+      ],
+      "response_sha256": "c0d59718d8dcc89eb726d651dcca7e19733316fe6af5ef6b9af86ae026a26c32",
+      "incremental": true,
+      "complete": true,
+      "window_start": "2026-11-01",
+      "page": 0
+    },
+    {
+      "topic": "evaluation",
+      "strategy": "recent",
+      "label": "Incremental submittedDate",
+      "url": "https://export.arxiv.org/api/query?search_query=%28%28all%3A%22LLM-as-a-judge%22+OR+all%3A%22LLM+as+a+judge%22+OR+all%3A%22language+models+as+evaluators%22+OR+all%3A%22language+model+judges%22%29%29+AND+submittedDate%3A%5B201701010000+TO+202611132359%5D+AND+submittedDate%3A%5B202611010000+TO+202611132359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending",
+      "returned": 29,
+      "eligible_returned": 18,
+      "total_matches": 29,
+      "truncated": false,
+      "scope_excluded": 11,
+      "scope_excluded_ids": [
+        "2611.15729v1",
+        "2611.14209v1",
+        "2611.13960v1",
+        "2611.13531v1",
+        "2611.11470v1",
+        "2611.11074v1",
+        "2611.09223v1",
+        "2611.04566v1",
+        "2611.03412v3",
+        "2611.02905v1",
+        "2611.01572v1"
+      ],
+      "response_sha256": "89dc652232cb059d02477da68677546e373ce8563295af28ebd9bdae465c6779",
+      "incremental": true,
+      "complete": true,
+      "window_start": "2026-11-01",
+      "page": 0
+    },
+    {
+      "topic": "evaluation",
+      "strategy": "recent",
+      "label": "Incremental lastUpdatedDate",
+      "url": "https://export.arxiv.org/api/query?search_query=%28%28all%3A%22LLM-as-a-judge%22+OR+all%3A%22LLM+as+a+judge%22+OR+all%3A%22language+models+as+evaluators%22+OR+all%3A%22language+model+judges%22%29%29+AND+submittedDate%3A%5B201701010000+TO+202611132359%5D&start=0&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
+      "returned": 100,
+      "eligible_returned": 35,
+      "total_matches": 1778,
+      "truncated": false,
+      "scope_excluded": 17,
+      "scope_excluded_ids": [
+        "2611.15729v1",
+        "2602.13961v2",
+        "2611.14209v1",
+        "2611.13960v1",
+        "2611.13531v1",
+        "2611.03412v3",
+        "2608.20413v2",
+        "2601.22230v2",
+        "2611.11470v1",
+        "2609.06951v4",
+        "2611.11074v1",
+        "2511.15974v5",
+        "2611.09223v1",
+        "2611.04566v1",
+        "2607.27384v3",
+        "2611.02905v1",
+        "2611.01572v1"
+      ],
+      "response_sha256": "f03e7549c83e19d5cf8aa7150842b29893f3a9cefedfe1d02b9d63b316b2b7fa",
+      "incremental": true,
+      "complete": true,
+      "window_start": "2026-11-01",
+      "page": 0
+    },
+    {
+      "topic": "ai-for-science",
+      "strategy": "recent",
+      "label": "Incremental submittedDate",
+      "url": "https://export.arxiv.org/api/query?search_query=%28%28all%3A%22neural+operator%22+OR+all%3A%22neural+operators%22+OR+all%3ADeepONet%29+AND+%28all%3Ageneralization+OR+all%3A%22distribution+shift%22+OR+all%3Aextrapolation+OR+all%3A%22out-of-distribution%22%29%29+AND+submittedDate%3A%5B201701010000+TO+202611132359%5D+AND+submittedDate%3A%5B202611010000+TO+202611132359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending",
+      "returned": 21,
+      "eligible_returned": 6,
+      "total_matches": 21,
+      "truncated": false,
+      "scope_excluded": 15,
+      "scope_excluded_ids": [
+        "2611.16650v1",
+        "2611.16341v1",
+        "2611.16240v1",
+        "2611.15002v1",
+        "2611.10945v1",
+        "2611.10468v1",
+        "2611.14561v1",
+        "2611.10029v1",
+        "2611.07059v2",
+        "2611.06597v1",
+        "2611.05876v1",
+        "2611.05790v1",
+        "2611.04517v1",
+        "2611.03595v1",
+        "2611.03473v1"
+      ],
+      "response_sha256": "19e34d6e86e23ba21d164217f36a85f11f7ffaa067debf9c3e3069a51e0e9d0b",
+      "incremental": true,
+      "complete": true,
+      "window_start": "2026-11-01",
+      "page": 0
+    },
+    {
+      "topic": "ai-for-science",
+      "strategy": "recent",
+      "label": "Incremental lastUpdatedDate",
+      "url": "https://export.arxiv.org/api/query?search_query=%28%28all%3A%22neural+operator%22+OR+all%3A%22neural+operators%22+OR+all%3ADeepONet%29+AND+%28all%3Ageneralization+OR+all%3A%22distribution+shift%22+OR+all%3Aextrapolation+OR+all%3A%22out-of-distribution%22%29%29+AND+submittedDate%3A%5B201701010000+TO+202611132359%5D&start=0&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
+      "returned": 100,
+      "eligible_returned": 9,
+      "total_matches": 1035,
+      "truncated": false,
+      "scope_excluded": 32,
+      "scope_excluded_ids": [
+        "2510.13047v2",
+        "2611.16650v1",
+        "2611.16341v1",
+        "2611.16240v1",
+        "2611.15002v1",
+        "2605.09288v2",
+        "2609.32797v2",
+        "2605.11970v3",
+        "2411.16890v2",
+        "2512.13197v3",
+        "2410.04655v3",
+        "2603.29264v3",
+        "2611.10945v1",
+        "2608.18495v2",
+        "2611.10468v1",
+        "2509.03738v5",
+        "2603.24500v2",
+        "2605.19823v3",
+        "2611.07059v2",
+        "2604.18261v2",
+        "2611.14561v1",
+        "2601.01632v3",
+        "2611.10029v1",
+        "2511.07235v2",
+        "2611.06597v1",
+        "2611.05876v1",
+        "2611.05790v1",
+        "2611.04517v1",
+        "2611.03595v1",
+        "2611.03473v1",
+        "2606.08343v9",
+        "2512.04434v2"
+      ],
+      "response_sha256": "2f81b603034a490c7034f6fbc70fd25fa5f290df993af2f309a55d3f2b857a3c",
+      "incremental": true,
+      "complete": true,
+      "window_start": "2026-11-01",
+      "page": 0
     }
   ]
 }

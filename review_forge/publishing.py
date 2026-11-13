@@ -38,8 +38,10 @@ def load_bibliography(path: Path) -> dict:
             published = date.fromisoformat(paper["published_at"])
             checked = date.fromisoformat(paper["checked_at"])
             updated = date.fromisoformat(paper["updated_at"])
-            if not published <= updated <= checked or checked.isoformat() != data["checked_at"] or paper["year"] != published.year or paper["id"] in seen:
+            if not published <= updated <= checked or checked.isoformat() > data["checked_at"] or paper["year"] != published.year or paper["id"] in seen:
                 raise ReviewError("Inconsistent dates, year or duplicate ID in public bibliography.")
+            if paper.get('added_at') and not published <= date.fromisoformat(paper['added_at']) <= date.fromisoformat(data['checked_at']):
+                raise ReviewError('Invalid discovery date.')
             seen.add(paper["id"])
             if "discovery_groups" in paper and (not isinstance(paper["discovery_groups"], list)
                     or set(paper["discovery_groups"]) - {"seed", "relevance", "recent", "earlier", "evaluation"}):
@@ -137,9 +139,13 @@ def build_site(library: Path, destination: Path) -> Path:
             included = {re.sub(r"v\d+$", "", paper.get("arxiv_id") or "") for paper in papers}
             for paper in reading["topics"].get(topic_id, []):
                 if re.sub(r"v\d+$", "", paper["arxiv_id"]) not in included:
-                    fields = ("id", "title", "authors", "year", "doi", "arxiv_id", "url", "published_at", "updated_at", "checked_at", "coverage", "verification", "discovery_groups", "screening_status")
+                    fields = ("id", "title", "authors", "year", "doi", "arxiv_id", "url", "published_at", "updated_at", "checked_at", "coverage", "verification", "discovery_groups", "screening_status", "added_at")
                     papers.append({**{key: paper.get(key) for key in fields}, "decision": "reading_list",
                                    "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."})
+                else:
+                    reviewed = next(p for p in papers if re.sub(r'v\d+$', '', p.get('arxiv_id') or '') == re.sub(r'v\d+$', '', paper['arxiv_id']))
+                    if int(paper['arxiv_id'].split('v')[1]) > int(reviewed['arxiv_id'].split('v')[1]):
+                        reviewed['available_arxiv_id'] = paper['arxiv_id']
             reading_papers = [paper for paper in papers if paper["decision"] == "reading_list"]
             years = sorted({paper["year"] for paper in reading_papers})
             coverage = {"count": len(reading_papers), "first_year": min(years) if years else None,
@@ -158,14 +164,19 @@ def build_site(library: Path, destination: Path) -> Path:
                        "review_papers": len(current['papers']) if current else 0,
                        "papers": len(papers), "bibliography_checked_at": reading["checked_at"] if reading["topics"].get(topic_id) else None,
                        "bibliography_coverage": coverage,
+                       "discovery": reading.get('last_update', {}).get('topics', {}).get(topic_id),
                        "updated_at": versions[-1]["released_at"] if versions else None}
             write_json(temporary / "data" / "topics" / f"{topic_id}.json", {"papers": papers, "versions": list(reversed(versions)), "review": current})
             summaries.append(summary)
         write_json(temporary / "data" / "library.json", {"schema_version": 1, "topics": summaries})
-        search_fields = ("topic", "strategy", "label", "url", "returned", "eligible_returned", "total_matches", "truncated", "scope_excluded", "scope_excluded_ids", "response_sha256")
+        search_fields = ("topic", "strategy", "label", "url", "returned", "eligible_returned", "total_matches", "truncated", "scope_excluded", "scope_excluded_ids", "response_sha256", "incremental", "complete", "window_start", "page")
         write_json(temporary / "data" / "search-method.json", {"checked_at": reading["checked_at"],
                    "method": reading.get("method"), "plan_sha256": reading.get("plan_sha256"),
                    "searches": [{key: row.get(key) for key in search_fields} for row in reading.get("searches", [])]})
+        if reading.get('last_update'):
+            report = reading['last_update']
+            write_json(temporary / 'data' / 'discovery.json', {'checked_at': report['checked_at'], 'window_start': report['window_start'],
+                'topics': {key: {field: value[field] for field in ('added', 'updated', 'added_ids', 'updated_ids')} for key, value in report['topics'].items()}})
         files = {str(p.relative_to(temporary)): digest(p.read_bytes()) for p in sorted(temporary.rglob("*")) if p.is_file()}
         write_json(temporary / "site-manifest.json", {"kind": "review-forge-public-site", "files": files})
         # These files are explicitly public; a separate static-server user must be able to read them.

@@ -1,0 +1,130 @@
+<!doctype html><html lang='ru'><meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta http-equiv='Content-Security-Policy' content="default-src 'none'; style-src 'unsafe-inline'">
+<title>Видео-модели: временное понимание, grounding и shortcuts в оценке</title>
+<style>body{margin:0;background:#f6f5f1;color:#202a31;font:17px/1.65 system-ui,sans-serif}main{max-width:960px;margin:auto;padding:48px 24px}h1{font-size:2.5em;line-height:1.15}h2{margin-top:2.5em}a{color:#176a70}.ref{font-size:.76em}nav{display:flex;gap:16px;flex-wrap:wrap}details{background:white;border:1px solid #dbe0dd;border-radius:8px;padding:16px;margin:12px 0}summary{cursor:pointer;font-weight:650}small,.muted{color:#5c676d}.badge{display:inline-block;background:#ffe5aa;border-radius:4px;padding:3px 9px}article{border-top:1px solid #ddd;padding:12px 0;scroll-margin-top:20px}blockquote{border-left:3px solid #c4d6cf;padding-left:16px}code{overflow-wrap:anywhere}footer{margin-top:50px;border-top:1px solid #ccc}</style><main>
+<span class='badge'>Редакционный выпуск · ограничения указаны ниже</span><h1>Видео-модели: временное понимание, grounding и shortcuts в оценке</h1>
+<p class='muted'>2026-11-13 · 7 работ</p>
+<nav><a href='#review'>Обзор</a><a href='#concepts'>Понятия</a><a href='#papers'>Статьи и доказательства</a><a href='references.bib'>BibTeX</a></nav>
+<h2>Границы и вопросы</h2><p>Видео-модели: временное понимание, grounding и shortcuts в оценке</p><ul>
+<li>Какие тесты отделяют временное рассуждение от распознавания кадров?</li>
+<li>Как оценка зависит от sampling кадров, длительности видео и утечки данных?</li>
+</ul><section id='review'>
+<h2>За минуту: главный вопрос и вывод</h2>
+<p>Видео-модель может правильно ответить благодаря отдельному кадру, субтитрам или устройству вариантов ответа. Это ещё не свидетельство использования временной структуры. <a class="ref" href="#c1">Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis</a> <a class="ref" href="#c3">TemporalBench: Benchmarking Fine-grained Temporal Understanding for Multimodal Video Models</a> <a class="ref" href="#c4">Video-MME-v2: Towards the Next Stage in Benchmarks for Comprehensive Video Understanding</a></p>
+<p>Temporal understanding включает различение динамики и порядка, reasoning над событиями и поиск нужного временного сегмента. Для этих требований нужны разные диагностики. <a class="ref" href="#c2">TempCompass: Do Video LLMs Really Understand Videos?</a> <a class="ref" href="#c5">Video-MME-Logical: A Controlled Diagnostic Benchmark for Video Temporal-Logical Reasoning</a> <a class="ref" href="#c7">RVG-Bench: A Benchmark for Reasoning-Driven Audio-Visual Temporal Grounding</a></p>
+<p>Сравнение корректно только при одинаковом доступе к кадрам, аудио, тексту и аннотациям. <a class="ref" href="#c4">Video-MME-v2: Towards the Next Stage in Benchmarks for Comprehensive Video Understanding</a> <a class="ref" href="#c6">TLG: Temporal-Logic Grounding for Video Question Answering via Source-Annotation Reconstruction and Category-Targeted Reasoning</a></p>
+<h2>Границы и отбор источников</h2>
+<p><strong>Редакторское предложение.</strong> Обзор подготовлен 13 ноября 2026 года по выбранным фрагментам полных HTML-текстов 7 работ. Это узкий фокус внутри направления, а не энциклопедия всей области и не систематический поиск. Количество источников в общем каталоге не означает, что все они прочитаны. </p>
+<p><strong>Редакторское предложение.</strong> Отбор целенаправленный: основные постановки задачи, различные семейства методов и работы, проверяющие их ограничения. Точные версии, локаторы и SHA-256 прочитанных HTML сохранены в JSON. Короткая цитата служит поисковым якорем; вывод следует сверять с контекстом раздела. Независимая экспертная рецензия и воспроизведение экспериментов не выполнялись. </p>
+<h2>Понятия и механизм: что именно проверяется</h2>
+<p>Temporal grounding возвращает участок временной шкалы; video QA возвращает ответ. Ошибка grounding может скрыться за угаданным ответом, поэтому нужны обе проверки. <a class="ref" href="#c7">RVG-Bench: A Benchmark for Reasoning-Driven Audio-Visual Temporal Grounding</a></p>
+<p>Синтетические программы позволяют знать промежуточные состояния, тогда как естественные видео лучше проверяют перенос и визуальную неоднозначность. Эти тесты дополняют друг друга. <a class="ref" href="#c1">Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis</a> <a class="ref" href="#c5">Video-MME-Logical: A Controlled Diagnostic Benchmark for Video Temporal-Logical Reasoning</a></p>
+<h2>Подходы и свидетельства из работ</h2>
+<p>Video-MME строит оценку на сборе видео, аннотации QA и проверке качества. Разные длительности и модальности требуют отдельного учёта условий подачи видео, а не только общего score. <a class="ref" href="#c1">Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis</a></p>
+<p>TempCompass выделяет несколько аспектов temporal perception и использует разные форматы заданий. Это помогает проверить динамику отдельно от статического содержания кадра. <a class="ref" href="#c2">TempCompass: Do Video LLMs Really Understand Videos?</a></p>
+<p>TemporalBench обсуждает shortcut multiple-choice: если неверные варианты отличаются от правильного локальными изменениями, языковая модель может найти центральное описание без просмотра видео. Дизайн distractors влияет на валидность оценки. <a class="ref" href="#c3">TemporalBench: Benchmarking Fine-grained Temporal Understanding for Multimodal Video Models</a></p>
+<p>Video-MME-v2 различает visual-only и режим с subtitles/audio. В экспериментах frame budgets зависят от возможностей модели, поэтому результаты нужно читать вместе с фактическим доступом к данным. <a class="ref" href="#c4">Video-MME-v2: Towards the Next Stage in Benchmarks for Comprehensive Video Understanding</a></p>
+<p>Video-MME-Logical программно создаёт temporal transitions, сцены, metadata и видео. Это изолирует временно-логические операции от части неоднозначности естественных аннотаций. <a class="ref" href="#c5">Video-MME-Logical: A Controlled Diagnostic Benchmark for Video Temporal-Logical Reasoning</a></p>
+<p>TLG восстанавливает timeline действий из исходных аннотаций и выполняет разбор вопроса над этой структурой. Такой подход проверяет вклад реконструкции и символической логики при расширенном доступе к источникам. <a class="ref" href="#c6">TLG: Temporal-Logic Grounding for Video Question Answering via Source-Annotation Reconstruction and Category-Targeted Reasoning</a></p>
+<p>RVG-Bench различает описательное сопоставление сегмента и grounding, требующий косвенного вывода. Вопрос может указывать не на видимое действие напрямую, а на неявное свойство или отношение. <a class="ref" href="#c7">RVG-Bench: A Benchmark for Reasoning-Driven Audio-Visual Temporal Grounding</a></p>
+<h2>Сравнение работ и условий</h2>
+<p><strong>Редакторское предложение.</strong> Таблица разделяет постановки, механизмы и границы выводов. Она не ранжирует работы по несопоставимым числам. Улучшение показателя в конкретной статье не доказывает преимущество во всех моделях, данных и режимах. </p>
+<div style="overflow-x:auto"><table><thead><tr><th>Работа</th><th>Механизм</th><th>Гарантия</th><th>Условия</th></tr></thead><tbody>
+<tr><td>Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis <a href="#c1">источник</a></td><td>Общая video-QA оценка</td><td>Нужно учитывать доступные модальности</td><td>Видео-QA; исходные видео, аннотации и quality review; отдельные настройки visual/audio/subtitles.</td></tr>
+<tr><td>TempCompass: Do Video LLMs Really Understand Videos? <a href="#c2">источник</a></td><td>Диагностика временных аспектов</td><td>Временная информация — отдельный объект оценки</td><td>Контрастные видео и различные temporal aspects; несколько task formats.</td></tr>
+<tr><td>TemporalBench: Benchmarking Fine-grained Temporal Understanding for Multimodal Video Models <a href="#c3">источник</a></td><td>Проверка языковых shortcuts</td><td>Нужны text-only и single-frame контроли</td><td>Fine-grained temporal annotations; сравнения с text-only и single-frame baselines.</td></tr>
+<tr><td>Video-MME-v2: Towards the Next Stage in Benchmarks for Comprehensive Video Understanding <a href="#c4">источник</a></td><td>Иерархическая общая оценка</td><td>Input regime является частью сравнения</td><td>Разные модели и режимы video processing; кадровые бюджеты фиксируются в протоколе.</td></tr>
+<tr><td>Video-MME-Logical: A Controlled Diagnostic Benchmark for Video Temporal-Logical Reasoning <a href="#c5">источник</a></td><td>Контролируемая temporal logic</td><td>Проверяемые состояния, ограниченная среда</td><td>Управляемая сложность и исполняемые task programs; доступны промежуточные состояния для проверки.</td></tr>
+<tr><td>TLG: Temporal-Logic Grounding for Video Question Answering via Source-Annotation Reconstruction and Category-Targeted Reasoning <a href="#c6">источник</a></td><td>Timeline из аннотаций и symbolic execution</td><td>Доступ к привилегированным данным должен быть явным</td><td>Используются action boundaries и source annotations; дальнейшие категории обрабатываются отдельно.</td></tr>
+<tr><td>RVG-Bench: A Benchmark for Reasoning-Driven Audio-Visual Temporal Grounding <a href="#c7">источник</a></td><td>Reasoning-driven grounding</td><td>Найти интервал и ответить — разные требования</td><td>Audio-visual temporal grounding; заданные типы связи вопроса с целевым сегментом.</td></tr>
+</tbody></table></div>
+<h2>Разногласия, ограничения и ложные обобщения</h2>
+<p>Высокий общий video score и слабая temporal diagnosis совместимы: общий набор может включать задачи, решаемые статическими или текстовыми признаками. <a class="ref" href="#c1">Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis</a> <a class="ref" href="#c2">TempCompass: Do Video LLMs Really Understand Videos?</a> <a class="ref" href="#c3">TemporalBench: Benchmarking Fine-grained Temporal Understanding for Multimodal Video Models</a></p>
+<p>Сильный результат с восстановленной по annotations timeline не доказывает, что та же модель извлечёт timeline из пикселей. <a class="ref" href="#c6">TLG: Temporal-Logic Grounding for Video Question Answering via Source-Annotation Reconstruction and Category-Targeted Reasoning</a></p>
+<p>Увеличение числа кадров меняет входную информацию и стоимость. Его эффект нельзя автоматически приписывать улучшению рассуждения. <a class="ref" href="#c4">Video-MME-v2: Towards the Next Stage in Benchmarks for Comprehensive Video Understanding</a></p>
+<h2>Как читать результаты и проверить подход у себя</h2>
+<p><strong>Редакторское предложение.</strong> Включить text-only, single-frame, shuffled-frame и visual-only baselines; зафиксировать sampling кадров, длительность видео и input budget. Перестановка должна сохранять статическое содержание и менять временную задачу осмысленно. </p>
+<p><strong>Редакторское предложение.</strong> Разбивать ошибки на perception, temporal localization и reasoning. Для интервальных ответов сохранять границы и ground-truth, для QA — формат вариантов и правила оценивания. </p>
+<h2>Открытые вопросы и следующие эксперименты</h2>
+<p><strong>Редакторское предложение.</strong> Насколько сохраняется преимущество модели после удаления текстовых shortcuts и выравнивания frame budget? Нужны matched subsets с одинаковой сложностью. </p>
+<p><strong>Редакторское предложение.</strong> Можно ли отделить потерю события при sampling от неспособности рассуждать о найденном событии? Проверка: сырой видеовход против проверенного event timeline на тех же вопросах. </p>
+<h2>Маршрут чтения</h2>
+<p><strong>Редакторское предложение.</strong> Сначала прочитайте первые две работы из таблицы: они задают понятия и способ измерения. Затем сравните методы в середине списка с критическими и более поздними исследованиями. Цель — понять, какое предположение меняется и что именно измеряется. </p>
+<p><strong>Редакторское предложение.</strong> Для каждой работы выпишите объект переноса или оценки, используемый baseline, единицу тестирования, условия успеха и способ проверки. Цифры без этих полей недостаточны для выбора метода. Ссылки [n] раскрывают карточки доказательств; оттуда можно открыть раздел первоисточника. </p>
+</section><section id='concepts'><h2>Понятия</h2>
+<details><summary>Temporal grounding</summary>
+<p>Поиск временного сегмента по запросу, в том числе требующему косвенного вывода. <a class="ref" href="#c7">RVG-Bench: A Benchmark for Reasoning-Driven Audio-Visual Temporal Grounding</a></p>
+</details>
+<details><summary>Shortcut</summary>
+<p>Получение правильного ответа по побочной подсказке без требуемого использования видео. <a class="ref" href="#c3">TemporalBench: Benchmarking Fine-grained Temporal Understanding for Multimodal Video Models</a></p>
+</details>
+</section><section id='papers'><h2>Статьи и доказательства</h2>
+<h3>Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c1"><strong>source_finding</strong><p>Video-MME строит оценку на сборе видео, аннотации QA и проверке качества. Разные длительности и модальности требуют отдельного учёта условий подачи видео, а не только общего score.</p>
+<p><small>Условия: Видео-QA; исходные видео, аннотации и quality review; отдельные настройки visual/audio/subtitles.</small></p>
+<p><small>Авторские ограничения: Общий video score не изолирует временное reasoning от распознавания и языковых подсказок.</small></p>
+<blockquote>The construction of the Video-MME dataset involves three main</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2405.21075v3#S3.SS1">S3.SS1 — 3.1 Dataset Construction; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2405.21075v3">Первоисточник</a></p>
+</article>
+<h3>TempCompass: Do Video LLMs Really Understand Videos?</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c2"><strong>source_finding</strong><p>TempCompass выделяет несколько аспектов temporal perception и использует разные форматы заданий. Это помогает проверить динамику отдельно от статического содержания кадра.</p>
+<p><small>Условия: Контрастные видео и различные temporal aspects; несколько task formats.</small></p>
+<p><small>Авторские ограничения: Набор временных диагностик не охватывает всё понимание длинных естественных видео.</small></p>
+<blockquote>In contrast to images that only contain static visual</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2403.00476v1#S3.SS1.SSS1">S3.SS1.SSS1 — 3.1.1 Temporal Aspects; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2403.00476v1">Первоисточник</a></p>
+</article>
+<h3>TemporalBench: Benchmarking Fine-grained Temporal Understanding for Multimodal Video Models</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c3"><strong>source_finding</strong><p>TemporalBench обсуждает shortcut multiple-choice: если неверные варианты отличаются от правильного локальными изменениями, языковая модель может найти центральное описание без просмотра видео. Дизайн distractors влияет на валидность оценки.</p>
+<p><small>Условия: Fine-grained temporal annotations; сравнения с text-only и single-frame baselines.</small></p>
+<p><small>Авторские ограничения: Исключение конкретного shortcut не исключает все виды утечек и статистических подсказок.</small></p>
+<blockquote>A conventional approach to evaluate large multimodal models is</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2410.10818v1#S3.SS3">S3.SS3 — 3.3 A Pitfall in Multi-choice Question Answering; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2410.10818v1">Первоисточник</a></p>
+</article>
+<h3>Video-MME-v2: Towards the Next Stage in Benchmarks for Comprehensive Video Understanding</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c4"><strong>source_finding</strong><p>Video-MME-v2 различает visual-only и режим с subtitles/audio. В экспериментах frame budgets зависят от возможностей модели, поэтому результаты нужно читать вместе с фактическим доступом к данным.</p>
+<p><small>Условия: Разные модели и режимы video processing; кадровые бюджеты фиксируются в протоколе.</small></p>
+<p><small>Авторские ограничения: Разные числа кадров и модальности мешают приписать разницу score только reasoning-архитектуре.</small></p>
+<blockquote>We evaluate a diverse array of state-of-the-art MLLMs, categorized</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2604.05015v1#S5">S5 — Experiments; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2604.05015v1">Первоисточник</a></p>
+</article>
+<h3>Video-MME-Logical: A Controlled Diagnostic Benchmark for Video Temporal-Logical Reasoning</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c5"><strong>source_finding</strong><p>Video-MME-Logical программно создаёт temporal transitions, сцены, metadata и видео. Это изолирует временно-логические операции от части неоднозначности естественных аннотаций.</p>
+<p><small>Условия: Управляемая сложность и исполняемые task programs; доступны промежуточные состояния для проверки.</small></p>
+<p><small>Авторские ограничения: Синтетическая визуальная среда не заменяет теста на сложных естественных видео.</small></p>
+<blockquote>Inspired by synthetic benchmarks such as CLEVR (Johnson et</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2606.27828v1#S3.SS3">S3.SS3 — 3.3 Programmatic Generation Pipeline; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2606.27828v1">Первоисточник</a></p>
+</article>
+<h3>TLG: Temporal-Logic Grounding for Video Question Answering via Source-Annotation Reconstruction and Category-Targeted Reasoning</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c6"><strong>source_finding</strong><p>TLG восстанавливает timeline действий из исходных аннотаций и выполняет разбор вопроса над этой структурой. Такой подход проверяет вклад реконструкции и символической логики при расширенном доступе к источникам.</p>
+<p><small>Условия: Используются action boundaries и source annotations; дальнейшие категории обрабатываются отдельно.</small></p>
+<p><small>Авторские ограничения: Это не тот же информационный режим, что end-to-end модель, получающая только сырые кадры; результаты нельзя смешивать без оговорки.</small></p>
+<blockquote>we build a timeline</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2606.01591v1#S3.SS2">S3.SS2 — 3.2 Timeline reconstruction from source annotations; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2606.01591v1">Первоисточник</a></p>
+</article>
+<h3>RVG-Bench: A Benchmark for Reasoning-Driven Audio-Visual Temporal Grounding</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c7"><strong>source_finding</strong><p>RVG-Bench различает описательное сопоставление сегмента и grounding, требующий косвенного вывода. Вопрос может указывать не на видимое действие напрямую, а на неявное свойство или отношение.</p>
+<p><small>Условия: Audio-visual temporal grounding; заданные типы связи вопроса с целевым сегментом.</small></p>
+<p><small>Авторские ограничения: Нужно проверять и reasoning-зависимость, и точность временных границ; один QA-ответ недостаточен.</small></p>
+<blockquote>In conventional descriptive grounding, the query directly specifies the</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.32268v1#S3.SS1">S3.SS1 — 3.1 Benchmark Design; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2610.32268v1">Первоисточник</a></p>
+</article>
+</section><footer><h2>Ограничения</h2>
+<p>Целенаправленный обзор выбранного подвопроса; полный охват направления и актуальный SOTA-рейтинг не заявляются.</p>
+<p>Разобраны выбранные фрагменты полных текстов, а не все приложения и доказательства. Цитаты сверены с сохранёнными HTML.</p>
+<p>Результаты принадлежат авторам статей. Собственные эксперименты и независимая экспертная рецензия не выполнялись.</p>
+<p>Автоматический поиск добавляет только кандидатов; он не подтверждает их качество и не обновляет выводы этого обзора.</p>
+</footer></main></html>

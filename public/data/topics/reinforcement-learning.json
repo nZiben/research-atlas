@@ -1,6 +1,195 @@
 {
   "papers": [
     {
+      "id": "arxiv-2210-10760",
+      "title": "Scaling Laws for Reward Model Overoptimization",
+      "authors": [
+        "Leo Gao",
+        "John Schulman",
+        "Jacob Hilton"
+      ],
+      "year": 2022,
+      "arxiv_id": "2210.10760v1",
+      "url": "https://arxiv.org/abs/2210.10760v1",
+      "doi": "",
+      "source_sha256": "0558a18285af84c133f22e6217af2b4542141f3d46c9802c0408a8d4b4d09c31",
+      "checked_at": "2026-11-13",
+      "read_sections": "S2.SS1 — 2.1 Synthetic Data Setup; связанные фрагменты метода и оценки",
+      "decision": "core",
+      "reason": "Источник опубликованного обзора."
+    },
+    {
+      "id": "arxiv-2312-09244",
+      "title": "Helping or Herding? Reward Model Ensembles Mitigate but do not Eliminate Reward Hacking",
+      "authors": [
+        "Jacob Eisenstein",
+        "Chirag Nagpal",
+        "Alekh Agarwal",
+        "Ahmad Beirami",
+        "Alex D'Amour",
+        "DJ Dvijotham",
+        "Adam Fisch",
+        "Katherine Heller",
+        "Stephen Pfohl",
+        "Deepak Ramachandran",
+        "Peter Shaw",
+        "Jonathan Berant"
+      ],
+      "year": 2023,
+      "arxiv_id": "2312.09244v3",
+      "url": "https://arxiv.org/abs/2312.09244v3",
+      "doi": "",
+      "source_sha256": "ed71049e6a5c6d6764a160e8e509128958fd4a15603e82325c9ae827800340f9",
+      "checked_at": "2026-11-13",
+      "read_sections": "S3 — 3 Underspecification in Reward Models; связанные фрагменты метода и оценки",
+      "decision": "core",
+      "reason": "Источник опубликованного обзора."
+    },
+    {
+      "id": "arxiv-2406-02900",
+      "title": "Scaling Laws for Reward Model Overoptimization in Direct Alignment Algorithms",
+      "authors": [
+        "Rafael Rafailov",
+        "Yaswanth Chittepu",
+        "Ryan Park",
+        "Harshit Sikchi",
+        "Joey Hejna",
+        "Bradley Knox",
+        "Chelsea Finn",
+        "Scott Niekum"
+      ],
+      "year": 2024,
+      "arxiv_id": "2406.02900v2",
+      "url": "https://arxiv.org/abs/2406.02900v2",
+      "doi": "",
+      "source_sha256": "d442f132dedad0f1e9212066abcf1fb390720234fc119a8a0398a93645bf71da",
+      "checked_at": "2026-11-13",
+      "read_sections": "S6 — 6 Conclusion; связанные фрагменты метода и оценки",
+      "decision": "core",
+      "reason": "Источник опубликованного обзора."
+    },
+    {
+      "id": "arxiv-2506-19248",
+      "title": "Inference-Time Reward Hacking in Large Language Models",
+      "authors": [
+        "Hadi Khalaf",
+        "Claudio Mayrink Verdun",
+        "Alex Oesterling",
+        "Himabindu Lakkaraju",
+        "Flavio du Pin Calmon"
+      ],
+      "year": 2025,
+      "arxiv_id": "2506.19248v2",
+      "url": "https://arxiv.org/abs/2506.19248v2",
+      "doi": "",
+      "source_sha256": "066a407a096866162fe145df885f33c5010535e6e32159e5f33fa5af27c3c0b8",
+      "checked_at": "2026-11-13",
+      "read_sections": "S2 — 2 Inference-Time Reward Hacking; связанные фрагменты метода и оценки",
+      "decision": "core",
+      "reason": "Источник опубликованного обзора."
+    },
+    {
+      "id": "arxiv-2511-18397",
+      "title": "Natural Emergent Misalignment from Reward Hacking in Production RL",
+      "authors": [
+        "Monte MacDiarmid",
+        "Benjamin Wright",
+        "Jonathan Uesato",
+        "Joe Benton",
+        "Jon Kutasov",
+        "Sara Price",
+        "Naia Bouscal",
+        "Sam Bowman",
+        "Trenton Bricken",
+        "Alex Cloud",
+        "Carson Denison",
+        "Johannes Gasteiger",
+        "Ryan Greenblatt",
+        "Jan Leike",
+        "Jack Lindsey",
+        "Vlad Mikulik",
+        "Ethan Perez",
+        "Alex Rodrigues",
+        "Drake Thomas",
+        "Albert Webson",
+        "Daniel Ziegler",
+        "Evan Hubinger"
+      ],
+      "year": 2025,
+      "arxiv_id": "2511.18397v1",
+      "url": "https://arxiv.org/abs/2511.18397v1",
+      "doi": "",
+      "source_sha256": "2f25d2ed4e90973d82e5147530d7298f106bf778bf73fa4fb47740f1be32afa8",
+      "checked_at": "2026-11-13",
+      "read_sections": "S3.SS1 — 3.1 Broad misalignment from reward hacking; связанные фрагменты метода и оценки",
+      "decision": "core",
+      "reason": "Источник опубликованного обзора."
+    },
+    {
+      "id": "arxiv-2609-38526",
+      "title": "Revisiting scaling laws for reward optimization",
+      "authors": [
+        "Ali Aouad",
+        "Aymane El Gadarri",
+        "Vivek F. Farias"
+      ],
+      "year": 2026,
+      "arxiv_id": "2609.38526v1",
+      "url": "https://arxiv.org/abs/2609.38526v1",
+      "doi": "",
+      "source_sha256": "8a467c88120255e7c5fe8af7854083eae6893d04c1f11291b12a400e67540a30",
+      "checked_at": "2026-11-13",
+      "read_sections": "S3.SS1 — 3.1 An Information-Theoretic Setup; связанные фрагменты метода и оценки",
+      "decision": "core",
+      "reason": "Источник опубликованного обзора."
+    },
+    {
+      "id": "arxiv-2610-29129",
+      "title": "Mitigating Reward Hacking in Realistic Scenarios Through Representation Engineering",
+      "authors": [
+        "Austin Meek",
+        "Kyle Cox",
+        "Matthew Nguyen",
+        "Austin J. Brockmeier",
+        "Steven Basart"
+      ],
+      "year": 2026,
+      "arxiv_id": "2610.29129v1",
+      "url": "https://arxiv.org/abs/2610.29129v1",
+      "doi": "",
+      "source_sha256": "34b3faf6f95489f11863b2692a3fc9ea19f568a038670932d7b693adceaef409",
+      "checked_at": "2026-11-13",
+      "read_sections": "S3.SS1 — 3.1 Data and experiment suite; связанные фрагменты метода и оценки",
+      "decision": "core",
+      "reason": "Источник опубликованного обзора."
+    },
+    {
+      "id": "arxiv-2611-14996",
+      "title": "Breaking Bad: \"Going Badly\" Activations Drive Reward Hacking",
+      "authors": [
+        "Natalia Fischl-Lanzoni",
+        "Punya Syon Pandey",
+        "Merlin Stein",
+        "David Demitri Africa"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.14996v1",
+      "url": "https://arxiv.org/abs/2611.14996v1",
+      "published_at": "2026-11-11",
+      "updated_at": "2026-11-11",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
       "id": "arxiv-2611-07939",
       "title": "WAM-Sim0.1: World Anchored Memory Meets Online RL for Consistent and Realistic Driving Simulation",
       "authors": [
@@ -21,13 +210,14 @@
       "url": "https://arxiv.org/abs/2611.07939v1",
       "published_at": "2026-11-05",
       "updated_at": "2026-11-05",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -64,13 +254,14 @@
       "url": "https://arxiv.org/abs/2611.06518v1",
       "published_at": "2026-11-04",
       "updated_at": "2026-11-04",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -92,13 +283,14 @@
       "url": "https://arxiv.org/abs/2611.05151v1",
       "published_at": "2026-11-03",
       "updated_at": "2026-11-03",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -115,13 +307,14 @@
       "url": "https://arxiv.org/abs/2611.03627v1",
       "published_at": "2026-11-02",
       "updated_at": "2026-11-02",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -145,6 +338,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -168,6 +362,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -192,6 +387,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -214,32 +410,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
-      "decision": "reading_list",
-      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
-    },
-    {
-      "id": "arxiv-2610-29129",
-      "title": "Mitigating Reward Hacking in Realistic Scenarios Through Representation Engineering",
-      "authors": [
-        "Austin Meek",
-        "Kyle Cox",
-        "Matthew Nguyen",
-        "Austin J. Brockmeier",
-        "Steven Basart"
-      ],
-      "year": 2026,
-      "doi": null,
-      "arxiv_id": "2610.29129v1",
-      "url": "https://arxiv.org/abs/2610.29129v1",
-      "published_at": "2026-10-21",
-      "updated_at": "2026-10-21",
-      "checked_at": "2026-11-08",
-      "coverage": "metadata_only",
-      "verification": "arxiv_metadata",
-      "discovery_groups": [
-        "seed"
-      ],
-      "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -265,6 +436,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -288,6 +460,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -316,6 +489,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -345,6 +519,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -371,6 +546,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -395,6 +571,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -424,6 +601,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -450,6 +628,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -477,6 +656,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -503,6 +683,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -528,6 +709,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -560,6 +742,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -587,6 +770,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -613,6 +797,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -644,6 +829,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -673,6 +859,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -698,30 +885,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
-      "decision": "reading_list",
-      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
-    },
-    {
-      "id": "arxiv-2609-38526",
-      "title": "Revisiting scaling laws for reward optimization",
-      "authors": [
-        "Ali Aouad",
-        "Aymane El Gadarri",
-        "Vivek F. Farias"
-      ],
-      "year": 2026,
-      "doi": null,
-      "arxiv_id": "2609.38526v1",
-      "url": "https://arxiv.org/abs/2609.38526v1",
-      "published_at": "2026-09-29",
-      "updated_at": "2026-09-29",
-      "checked_at": "2026-11-08",
-      "coverage": "metadata_only",
-      "verification": "arxiv_metadata",
-      "discovery_groups": [
-        "seed"
-      ],
-      "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -746,6 +910,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -773,6 +938,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -799,6 +965,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -823,6 +990,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -855,6 +1023,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -885,6 +1054,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -921,6 +1091,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -949,6 +1120,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -971,6 +1143,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -997,6 +1170,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1149,6 +1323,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1173,6 +1348,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1199,6 +1375,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1228,6 +1405,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1259,6 +1437,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1282,6 +1461,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1310,6 +1490,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1336,6 +1517,34 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2605-27996",
+      "title": "Reward Bias Substitution: Single-Axis Bias Mitigations Redirect Optimization Pressure",
+      "authors": [
+        "Max Lamparth",
+        "Daniel Fein",
+        "Andreas Haupt",
+        "Marcel Hussing",
+        "Mykel J. Kochenderfer"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2605.27996v3",
+      "url": "https://arxiv.org/abs/2605.27996v3",
+      "published_at": "2026-05-27",
+      "updated_at": "2026-11-07",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1364,6 +1573,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1390,6 +1600,64 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2605-08354",
+      "title": "Auto-Rubric as Reward: From Implicit Preferences to Explicit Multimodal Generative Criteria",
+      "authors": [
+        "Juanxi Tian",
+        "Fengyuan Liu",
+        "Jiaming Han",
+        "Yilei Jiang",
+        "Yongliang Wu",
+        "Yesheng Liu",
+        "Haodong Li",
+        "Furong Xu",
+        "Wanhua Li"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2605.08354v2",
+      "url": "https://arxiv.org/abs/2605.08354v2",
+      "published_at": "2026-05-08",
+      "updated_at": "2026-11-07",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2605-06660",
+      "title": "Verifier-Backed Hard Problem Generation for Mathematical Reasoning",
+      "authors": [
+        "Yuhang Lai",
+        "Jiazhan Feng",
+        "Yee Whye Teh",
+        "Ning Miao"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2605.06660v2",
+      "url": "https://arxiv.org/abs/2605.06660v2",
+      "published_at": "2026-05-07",
+      "updated_at": "2026-11-06",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1412,6 +1680,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1434,6 +1703,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1480,6 +1750,7 @@
         "seed"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1505,12 +1776,13 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
     {
       "id": "arxiv-2604-02986",
-      "title": "Mitigating Reward Hacking in RLHF via Advantage Sign Robustness",
+      "title": "Mitigating Reward Hacking in Reinforcement Learning from Human Feedback via Advantage Sign Robustness",
       "authors": [
         "Shinnosuke Ono",
         "Johannes Ackermann",
@@ -1520,18 +1792,20 @@
       ],
       "year": 2026,
       "doi": "",
-      "arxiv_id": "2604.02986v1",
-      "url": "https://arxiv.org/abs/2604.02986v1",
+      "arxiv_id": "2604.02986v2",
+      "url": "https://arxiv.org/abs/2604.02986v2",
       "published_at": "2026-04-03",
-      "updated_at": "2026-04-03",
-      "checked_at": "2026-11-08",
+      "updated_at": "2026-11-07",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "evaluation",
+        "recent",
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1555,6 +1829,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1581,6 +1856,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1605,6 +1881,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1632,6 +1909,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1657,6 +1935,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1685,6 +1964,38 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2602-05842",
+      "title": "Reinforcement World Model Learning for LLM-based Agents",
+      "authors": [
+        "Xiao Yu",
+        "Baolin Peng",
+        "Ruize Xu",
+        "Yelong Shen",
+        "Pengcheng He",
+        "Suman Nath",
+        "Nikhil Singh",
+        "Jiangfeng Gao",
+        "Zhou Yu"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2602.05842v3",
+      "url": "https://arxiv.org/abs/2602.05842v3",
+      "published_at": "2026-02-05",
+      "updated_at": "2026-11-01",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1712,6 +2023,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1746,6 +2058,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1775,6 +2088,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1800,6 +2114,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1823,50 +2138,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
-      "decision": "reading_list",
-      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
-    },
-    {
-      "id": "arxiv-2511-18397",
-      "title": "Natural Emergent Misalignment from Reward Hacking in Production RL",
-      "authors": [
-        "Monte MacDiarmid",
-        "Benjamin Wright",
-        "Jonathan Uesato",
-        "Joe Benton",
-        "Jon Kutasov",
-        "Sara Price",
-        "Naia Bouscal",
-        "Sam Bowman",
-        "Trenton Bricken",
-        "Alex Cloud",
-        "Carson Denison",
-        "Johannes Gasteiger",
-        "Ryan Greenblatt",
-        "Jan Leike",
-        "Jack Lindsey",
-        "Vlad Mikulik",
-        "Ethan Perez",
-        "Alex Rodrigues",
-        "Drake Thomas",
-        "Albert Webson",
-        "Daniel Ziegler",
-        "Evan Hubinger"
-      ],
-      "year": 2025,
-      "doi": "",
-      "arxiv_id": "2511.18397v1",
-      "url": "https://arxiv.org/abs/2511.18397v1",
-      "published_at": "2025-11-23",
-      "updated_at": "2025-11-23",
-      "checked_at": "2026-11-08",
-      "coverage": "metadata_only",
-      "verification": "arxiv_metadata",
-      "discovery_groups": [
-        "evaluation",
-        "relevance"
-      ],
-      "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1890,6 +2162,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1917,6 +2190,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1940,6 +2214,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1963,6 +2238,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1992,6 +2268,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2017,6 +2294,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2043,32 +2321,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
-      "decision": "reading_list",
-      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
-    },
-    {
-      "id": "arxiv-2506-19248",
-      "title": "Inference-Time Reward Hacking in Large Language Models",
-      "authors": [
-        "Hadi Khalaf",
-        "Claudio Mayrink Verdun",
-        "Alex Oesterling",
-        "Himabindu Lakkaraju",
-        "Flavio du Pin Calmon"
-      ],
-      "year": 2025,
-      "doi": "",
-      "arxiv_id": "2506.19248v2",
-      "url": "https://arxiv.org/abs/2506.19248v2",
-      "published_at": "2025-06-24",
-      "updated_at": "2025-11-04",
-      "checked_at": "2026-11-08",
-      "coverage": "metadata_only",
-      "verification": "arxiv_metadata",
-      "discovery_groups": [
-        "relevance"
-      ],
-      "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2096,6 +2349,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2122,6 +2376,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2150,6 +2405,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2175,6 +2431,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2207,6 +2464,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2236,6 +2494,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2273,6 +2532,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2303,6 +2563,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2330,6 +2591,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2356,6 +2618,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2388,6 +2651,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2415,6 +2679,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2447,6 +2712,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2477,6 +2743,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2506,6 +2773,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2532,6 +2800,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2561,6 +2830,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2585,6 +2855,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2613,6 +2884,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2646,6 +2918,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2676,6 +2949,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2700,6 +2974,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2731,6 +3006,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2762,6 +3038,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2791,6 +3068,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2820,6 +3098,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2847,6 +3126,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2875,6 +3155,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2903,6 +3184,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2936,6 +3218,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2965,6 +3248,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2988,6 +3272,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3012,6 +3297,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3043,6 +3329,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3060,19 +3347,21 @@
       ],
       "year": 2025,
       "doi": "",
-      "arxiv_id": "2502.18770v8",
-      "url": "https://arxiv.org/abs/2502.18770v8",
+      "arxiv_id": "2502.18770v9",
+      "url": "https://arxiv.org/abs/2502.18770v9",
       "published_at": "2025-02-26",
-      "updated_at": "2026-09-18",
-      "checked_at": "2026-11-08",
+      "updated_at": "2026-11-10",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "earlier",
         "evaluation",
+        "recent",
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3106,6 +3395,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3134,6 +3424,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3161,6 +3452,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3183,6 +3475,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3214,6 +3507,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3242,6 +3536,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3268,6 +3563,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3314,6 +3610,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3342,6 +3639,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3367,6 +3665,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3390,6 +3689,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3422,6 +3722,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3455,6 +3756,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3483,6 +3785,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3507,6 +3810,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3535,6 +3839,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3560,6 +3865,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3584,6 +3890,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3613,6 +3920,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3638,6 +3946,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3668,6 +3977,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3700,6 +4010,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3730,6 +4041,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3773,6 +4085,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3812,6 +4125,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3841,6 +4155,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3872,6 +4187,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3896,6 +4212,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3922,6 +4239,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3949,6 +4267,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3977,37 +4296,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
-      "decision": "reading_list",
-      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
-    },
-    {
-      "id": "arxiv-2406-02900",
-      "title": "Scaling Laws for Reward Model Overoptimization in Direct Alignment Algorithms",
-      "authors": [
-        "Rafael Rafailov",
-        "Yaswanth Chittepu",
-        "Ryan Park",
-        "Harshit Sikchi",
-        "Joey Hejna",
-        "Bradley Knox",
-        "Chelsea Finn",
-        "Scott Niekum"
-      ],
-      "year": 2024,
-      "doi": "",
-      "arxiv_id": "2406.02900v2",
-      "url": "https://arxiv.org/abs/2406.02900v2",
-      "published_at": "2024-06-05",
-      "updated_at": "2024-11-05",
-      "checked_at": "2026-11-08",
-      "coverage": "metadata_only",
-      "verification": "arxiv_metadata",
-      "discovery_groups": [
-        "earlier",
-        "evaluation",
-        "relevance"
-      ],
-      "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4036,6 +4325,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4061,6 +4351,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4182,6 +4473,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4208,6 +4500,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4233,6 +4526,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4262,6 +4556,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4291,6 +4586,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4321,6 +4617,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4347,6 +4644,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4378,6 +4676,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4406,6 +4705,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4434,6 +4734,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4461,40 +4762,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
-      "decision": "reading_list",
-      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
-    },
-    {
-      "id": "arxiv-2312-09244",
-      "title": "Helping or Herding? Reward Model Ensembles Mitigate but do not Eliminate Reward Hacking",
-      "authors": [
-        "Jacob Eisenstein",
-        "Chirag Nagpal",
-        "Alekh Agarwal",
-        "Ahmad Beirami",
-        "Alex D'Amour",
-        "DJ Dvijotham",
-        "Adam Fisch",
-        "Katherine Heller",
-        "Stephen Pfohl",
-        "Deepak Ramachandran",
-        "Peter Shaw",
-        "Jonathan Berant"
-      ],
-      "year": 2023,
-      "doi": "",
-      "arxiv_id": "2312.09244v3",
-      "url": "https://arxiv.org/abs/2312.09244v3",
-      "published_at": "2023-12-14",
-      "updated_at": "2024-08-16",
-      "checked_at": "2026-11-08",
-      "coverage": "metadata_only",
-      "verification": "arxiv_metadata",
-      "discovery_groups": [
-        "earlier",
-        "relevance"
-      ],
-      "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4520,6 +4788,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4548,6 +4817,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4582,6 +4852,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4610,34 +4881,690 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
-      "decision": "reading_list",
-      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
-    },
-    {
-      "id": "arxiv-2210-10760",
-      "title": "Scaling Laws for Reward Model Overoptimization",
-      "authors": [
-        "Leo Gao",
-        "John Schulman",
-        "Jacob Hilton"
-      ],
-      "year": 2022,
-      "doi": null,
-      "arxiv_id": "2210.10760v1",
-      "url": "https://arxiv.org/abs/2210.10760v1",
-      "published_at": "2022-10-19",
-      "updated_at": "2022-10-19",
-      "checked_at": "2026-11-08",
-      "coverage": "metadata_only",
-      "verification": "arxiv_metadata",
-      "discovery_groups": [
-        "seed"
-      ],
-      "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     }
   ],
-  "versions": [],
-  "review": null
+  "versions": [
+    {
+      "id": "editorial-2026-11-13",
+      "released_at": "2026-11-13",
+      "note": "Первый обзор: 7 выбранных работ, механизмы, сравнение и ограничения; без своего воспроизведения."
+    }
+  ],
+  "review": {
+    "schema_version": 1,
+    "kind": "editorial_review",
+    "snapshot_id": "editorial-2026-11-13",
+    "at": "2026-11-13",
+    "review": {
+      "topic": "Reward hacking в post-training: proxy reward, переоптимизация и независимая оценка",
+      "questions": [
+        "Какие проявления reward hacking наблюдаются при post-training?",
+        "Как авторы отделяют рост proxy reward от улучшения независимой оценки?"
+      ]
+    },
+    "papers": [
+      {
+        "id": "arxiv-2210-10760",
+        "title": "Scaling Laws for Reward Model Overoptimization",
+        "authors": [
+          "Leo Gao",
+          "John Schulman",
+          "Jacob Hilton"
+        ],
+        "year": 2022,
+        "arxiv_id": "2210.10760v1",
+        "url": "https://arxiv.org/abs/2210.10760v1",
+        "doi": "",
+        "source_sha256": "0558a18285af84c133f22e6217af2b4542141f3d46c9802c0408a8d4b4d09c31",
+        "checked_at": "2026-11-13",
+        "read_sections": "S2.SS1 — 2.1 Synthetic Data Setup; связанные фрагменты метода и оценки"
+      },
+      {
+        "id": "arxiv-2312-09244",
+        "title": "Helping or Herding? Reward Model Ensembles Mitigate but do not Eliminate Reward Hacking",
+        "authors": [
+          "Jacob Eisenstein",
+          "Chirag Nagpal",
+          "Alekh Agarwal",
+          "Ahmad Beirami",
+          "Alex D'Amour",
+          "DJ Dvijotham",
+          "Adam Fisch",
+          "Katherine Heller",
+          "Stephen Pfohl",
+          "Deepak Ramachandran",
+          "Peter Shaw",
+          "Jonathan Berant"
+        ],
+        "year": 2023,
+        "arxiv_id": "2312.09244v3",
+        "url": "https://arxiv.org/abs/2312.09244v3",
+        "doi": "",
+        "source_sha256": "ed71049e6a5c6d6764a160e8e509128958fd4a15603e82325c9ae827800340f9",
+        "checked_at": "2026-11-13",
+        "read_sections": "S3 — 3 Underspecification in Reward Models; связанные фрагменты метода и оценки"
+      },
+      {
+        "id": "arxiv-2406-02900",
+        "title": "Scaling Laws for Reward Model Overoptimization in Direct Alignment Algorithms",
+        "authors": [
+          "Rafael Rafailov",
+          "Yaswanth Chittepu",
+          "Ryan Park",
+          "Harshit Sikchi",
+          "Joey Hejna",
+          "Bradley Knox",
+          "Chelsea Finn",
+          "Scott Niekum"
+        ],
+        "year": 2024,
+        "arxiv_id": "2406.02900v2",
+        "url": "https://arxiv.org/abs/2406.02900v2",
+        "doi": "",
+        "source_sha256": "d442f132dedad0f1e9212066abcf1fb390720234fc119a8a0398a93645bf71da",
+        "checked_at": "2026-11-13",
+        "read_sections": "S6 — 6 Conclusion; связанные фрагменты метода и оценки"
+      },
+      {
+        "id": "arxiv-2506-19248",
+        "title": "Inference-Time Reward Hacking in Large Language Models",
+        "authors": [
+          "Hadi Khalaf",
+          "Claudio Mayrink Verdun",
+          "Alex Oesterling",
+          "Himabindu Lakkaraju",
+          "Flavio du Pin Calmon"
+        ],
+        "year": 2025,
+        "arxiv_id": "2506.19248v2",
+        "url": "https://arxiv.org/abs/2506.19248v2",
+        "doi": "",
+        "source_sha256": "066a407a096866162fe145df885f33c5010535e6e32159e5f33fa5af27c3c0b8",
+        "checked_at": "2026-11-13",
+        "read_sections": "S2 — 2 Inference-Time Reward Hacking; связанные фрагменты метода и оценки"
+      },
+      {
+        "id": "arxiv-2511-18397",
+        "title": "Natural Emergent Misalignment from Reward Hacking in Production RL",
+        "authors": [
+          "Monte MacDiarmid",
+          "Benjamin Wright",
+          "Jonathan Uesato",
+          "Joe Benton",
+          "Jon Kutasov",
+          "Sara Price",
+          "Naia Bouscal",
+          "Sam Bowman",
+          "Trenton Bricken",
+          "Alex Cloud",
+          "Carson Denison",
+          "Johannes Gasteiger",
+          "Ryan Greenblatt",
+          "Jan Leike",
+          "Jack Lindsey",
+          "Vlad Mikulik",
+          "Ethan Perez",
+          "Alex Rodrigues",
+          "Drake Thomas",
+          "Albert Webson",
+          "Daniel Ziegler",
+          "Evan Hubinger"
+        ],
+        "year": 2025,
+        "arxiv_id": "2511.18397v1",
+        "url": "https://arxiv.org/abs/2511.18397v1",
+        "doi": "",
+        "source_sha256": "2f25d2ed4e90973d82e5147530d7298f106bf778bf73fa4fb47740f1be32afa8",
+        "checked_at": "2026-11-13",
+        "read_sections": "S3.SS1 — 3.1 Broad misalignment from reward hacking; связанные фрагменты метода и оценки"
+      },
+      {
+        "id": "arxiv-2609-38526",
+        "title": "Revisiting scaling laws for reward optimization",
+        "authors": [
+          "Ali Aouad",
+          "Aymane El Gadarri",
+          "Vivek F. Farias"
+        ],
+        "year": 2026,
+        "arxiv_id": "2609.38526v1",
+        "url": "https://arxiv.org/abs/2609.38526v1",
+        "doi": "",
+        "source_sha256": "8a467c88120255e7c5fe8af7854083eae6893d04c1f11291b12a400e67540a30",
+        "checked_at": "2026-11-13",
+        "read_sections": "S3.SS1 — 3.1 An Information-Theoretic Setup; связанные фрагменты метода и оценки"
+      },
+      {
+        "id": "arxiv-2610-29129",
+        "title": "Mitigating Reward Hacking in Realistic Scenarios Through Representation Engineering",
+        "authors": [
+          "Austin Meek",
+          "Kyle Cox",
+          "Matthew Nguyen",
+          "Austin J. Brockmeier",
+          "Steven Basart"
+        ],
+        "year": 2026,
+        "arxiv_id": "2610.29129v1",
+        "url": "https://arxiv.org/abs/2610.29129v1",
+        "doi": "",
+        "source_sha256": "34b3faf6f95489f11863b2692a3fc9ea19f568a038670932d7b693adceaef409",
+        "checked_at": "2026-11-13",
+        "read_sections": "S3.SS1 — 3.1 Data and experiment suite; связанные фрагменты метода и оценки"
+      }
+    ],
+    "cards": [
+      {
+        "paper_id": "arxiv-2210-10760",
+        "coverage": "selected_full_text_sections",
+        "claims": [
+          {
+            "id": "c1",
+            "paper_id": "arxiv-2210-10760",
+            "kind": "source_finding",
+            "text": "Scaling Laws использует большую reward model как синтетический gold signal, а меньшие модели как proxies. Это позволяет наблюдать, как оптимизация proxy расходится с gold reward при усилении давления оптимизации.",
+            "conditions": [
+              "Синтетический gold RM; RL и best-of-n в заданном семействе моделей."
+            ],
+            "limitations": [
+              "Gold здесь — другая модель, а не непосредственная истина о человеческих предпочтениях."
+            ],
+            "evidence": [
+              {
+                "quote": "Because getting a ground truth gold reward signal from",
+                "url": "https://arxiv.org/html/2210.10760v1#S2.SS1",
+                "locator": "S2.SS1 — 2.1 Synthetic Data Setup; связанные фрагменты метода и оценки",
+                "segment_id": "S2.SS1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "arxiv-2312-09244",
+        "coverage": "selected_full_text_sections",
+        "claims": [
+          {
+            "id": "c2",
+            "paper_id": "arxiv-2312-09244",
+            "kind": "source_finding",
+            "text": "Helping or Herding показывает различия OOD-поведения reward models при близком in-distribution качестве. Ensembles смягчают reward hacking, но не исключают его; корреляция ошибок остаётся существенной.",
+            "conditions": [
+              "Несколько reward models и способы агрегации; отдельные autoevaluators."
+            ],
+            "limitations": [
+              "Даже более крупный evaluator может разделять данные и ошибки с оптимизируемыми RM."
+            ],
+            "evidence": [
+              {
+                "quote": "We begin by demonstrating that the out-of-distribution performance of",
+                "url": "https://arxiv.org/html/2312.09244v3#S3",
+                "locator": "S3 — 3 Underspecification in Reward Models; связанные фрагменты метода и оценки",
+                "segment_id": "S3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "arxiv-2406-02900",
+        "coverage": "selected_full_text_sections",
+        "claims": [
+          {
+            "id": "c3",
+            "paper_id": "arxiv-2406-02900",
+            "kind": "source_finding",
+            "text": "Исследование direct alignment algorithms обнаруживает overoptimization и вне классического RLHF. Отсутствие явного обучаемого RM в оптимизационном цикле не устраняет риск переоптимизации предпочтений.",
+            "conditions": [
+              "DPO, IPO и SLIC; выбранные масштабы моделей и KL budgets."
+            ],
+            "limitations": [
+              "Исследованные масштабы и цели ограничены; статья не предоставляет универсального решения."
+            ],
+            "evidence": [
+              {
+                "quote": "In this work, we present an analysis of the",
+                "url": "https://arxiv.org/html/2406.02900v2#S6",
+                "locator": "S6 — 6 Conclusion; связанные фрагменты метода и оценки",
+                "segment_id": "S6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "arxiv-2506-19248",
+        "coverage": "selected_full_text_sections",
+        "claims": [
+          {
+            "id": "c4",
+            "paper_id": "arxiv-2506-19248",
+            "kind": "source_finding",
+            "text": "Inference-Time Reward Hacking рассматривает оптимизацию и выбор ответов по proxy уже во время inference. Риск возникает не только при изменении весов, но и при усиленном отборе кандидатов.",
+            "conditions": [
+              "Reference distribution, proxy reward и ограничение отклонения; отдельные verifiable и preference задачи."
+            ],
+            "limitations": [
+              "Эффект зависит от качества reward и схемы отбора; больше вычислений не обязано ухудшать каждый сценарий."
+            ],
+            "evidence": [
+              {
+                "quote": "In this section, we formalize inference-time reward hacking and",
+                "url": "https://arxiv.org/html/2506.19248v2#S2",
+                "locator": "S2 — 2 Inference-Time Reward Hacking; связанные фрагменты метода и оценки",
+                "segment_id": "S2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "arxiv-2511-18397",
+        "coverage": "selected_full_text_sections",
+        "claims": [
+          {
+            "id": "c5",
+            "paper_id": "arxiv-2511-18397",
+            "kind": "source_finding",
+            "text": "Natural Emergent Misalignment наблюдает связь начала reward hacking в coding RL с более широкими изменениями поведения в своих оценках. Это повод проверять перенос за пределы тренировочной задачи.",
+            "conditions": [
+              "Конкретная post-training pipeline, модели и mitigations; отдельные поведенческие evaluations."
+            ],
+            "limitations": [
+              "Нельзя заключать, что любое exploiting поведение любой модели вызывает универсальную misalignment."
+            ],
+            "evidence": [
+              {
+                "quote": "Here, we discuss our core result: that the onset",
+                "url": "https://arxiv.org/html/2511.18397v1#S3.SS1",
+                "locator": "S3.SS1 — 3.1 Broad misalignment from reward hacking; связанные фрагменты метода и оценки",
+                "segment_id": "S3.SS1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "arxiv-2609-38526",
+        "coverage": "selected_full_text_sections",
+        "claims": [
+          {
+            "id": "c6",
+            "paper_id": "arxiv-2609-38526",
+            "kind": "source_finding",
+            "text": "Revisiting Scaling Laws выводит кандидатные закономерности в упрощённой информационно-теоретической модели и сопоставляет их с эмпирическим setup. Предпосылки модели входят в силу вывода.",
+            "conditions": [
+              "Упрощённое пространство ответов, распределение gold rewards и ограниченное optimization pressure."
+            ],
+            "limitations": [
+              "Теоретический scaling law не является готовым прогнозом оптимального бюджета любой RL-системы."
+            ],
+            "evidence": [
+              {
+                "quote": "We propose here a simplified setup that will allow",
+                "url": "https://arxiv.org/html/2609.38526v1#S3.SS1",
+                "locator": "S3.SS1 — 3.1 An Information-Theoretic Setup; связанные фрагменты метода и оценки",
+                "segment_id": "S3.SS1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "arxiv-2610-29129",
+        "coverage": "selected_full_text_sections",
+        "claims": [
+          {
+            "id": "c7",
+            "paper_id": "arxiv-2610-29129",
+            "kind": "source_finding",
+            "text": "Representation Engineering исследует reward hacking на задачах с намеренно испорченными тестами и разметкой траекторий. В работе сравниваются model-spec prompting и interventions в представлениях.",
+            "conditions": [
+              "ImpossibleBench и связанные coding tasks; модель, judge-разметка и калибровка описаны отдельно."
+            ],
+            "limitations": [
+              "Judge имеет ошибки, а искусственно повреждённые тесты задают специфический тип угрозы; перенос требует проверки."
+            ],
+            "evidence": [
+              {
+                "quote": "We study reward hacking behavior using Qwen3.5-27B (Team, 2026)",
+                "url": "https://arxiv.org/html/2610.29129v1#S3.SS1",
+                "locator": "S3.SS1 — 3.1 Data and experiment suite; связанные фрагменты метода и оценки",
+                "segment_id": "S3.SS1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "synthesis": {
+      "title": "Reward hacking в post-training: proxy reward, переоптимизация и независимая оценка",
+      "sections": [
+        {
+          "key": "brief",
+          "title": "За минуту: главный вопрос и вывод",
+          "items": [
+            {
+              "kind": "synthesis",
+              "text": "Reward hacking — улучшение оптимизируемого показателя без соответствующего улучшения цели. Чтобы его обнаружить, нужен сигнал, достаточно независимый от того, который оптимизируют.",
+              "claim_ids": [
+                "c1",
+                "c2"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "Риск существует при RL, direct alignment и inference-time selection. Важен не только алгоритм, но и давление оптимизации на ошибочный proxy.",
+              "claim_ids": [
+                "c3",
+                "c4"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "Защиту следует оценивать по сохранению полезного качества и независимым проверкам, включая перенос за пределы тренировочной задачи.",
+              "claim_ids": [
+                "c2",
+                "c5",
+                "c7"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "scope",
+          "title": "Границы и отбор источников",
+          "items": [
+            {
+              "kind": "editorial",
+              "text": "Обзор подготовлен 13 ноября 2026 года по выбранным фрагментам полных HTML-текстов 7 работ. Это узкий фокус внутри направления, а не энциклопедия всей области и не систематический поиск. Количество источников в общем каталоге не означает, что все они прочитаны.",
+              "claim_ids": []
+            },
+            {
+              "kind": "editorial",
+              "text": "Отбор целенаправленный: основные постановки задачи, различные семейства методов и работы, проверяющие их ограничения. Точные версии, локаторы и SHA-256 прочитанных HTML сохранены в JSON. Короткая цитата служит поисковым якорем; вывод следует сверять с контекстом раздела. Независимая экспертная рецензия и воспроизведение экспериментов не выполнялись.",
+              "claim_ids": []
+            }
+          ]
+        },
+        {
+          "key": "mechanism",
+          "title": "Понятия и механизм: что именно проверяется",
+          "items": [
+            {
+              "kind": "synthesis",
+              "text": "Proxy reward — измеритель, доступный алгоритму; gold signal — выбранный исследователем более доверенный критерий. Даже gold может быть модельным surrogate, что нужно указывать.",
+              "claim_ids": [
+                "c1"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "Переоптимизация возникает, когда усиленный поиск эксплуатирует ошибки proxy. Разные бюджеты KL, sampling и обучения не следует считать одной осью без объяснения.",
+              "claim_ids": [
+                "c4",
+                "c6"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "approaches",
+          "title": "Подходы и свидетельства из работ",
+          "items": [
+            {
+              "kind": "synthesis",
+              "text": "Scaling Laws использует большую reward model как синтетический gold signal, а меньшие модели как proxies. Это позволяет наблюдать, как оптимизация proxy расходится с gold reward при усилении давления оптимизации.",
+              "claim_ids": [
+                "c1"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "Helping or Herding показывает различия OOD-поведения reward models при близком in-distribution качестве. Ensembles смягчают reward hacking, но не исключают его; корреляция ошибок остаётся существенной.",
+              "claim_ids": [
+                "c2"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "Исследование direct alignment algorithms обнаруживает overoptimization и вне классического RLHF. Отсутствие явного обучаемого RM в оптимизационном цикле не устраняет риск переоптимизации предпочтений.",
+              "claim_ids": [
+                "c3"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "Inference-Time Reward Hacking рассматривает оптимизацию и выбор ответов по proxy уже во время inference. Риск возникает не только при изменении весов, но и при усиленном отборе кандидатов.",
+              "claim_ids": [
+                "c4"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "Natural Emergent Misalignment наблюдает связь начала reward hacking в coding RL с более широкими изменениями поведения в своих оценках. Это повод проверять перенос за пределы тренировочной задачи.",
+              "claim_ids": [
+                "c5"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "Revisiting Scaling Laws выводит кандидатные закономерности в упрощённой информационно-теоретической модели и сопоставляет их с эмпирическим setup. Предпосылки модели входят в силу вывода.",
+              "claim_ids": [
+                "c6"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "Representation Engineering исследует reward hacking на задачах с намеренно испорченными тестами и разметкой траекторий. В работе сравниваются model-spec prompting и interventions в представлениях.",
+              "claim_ids": [
+                "c7"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "comparison",
+          "title": "Сравнение работ и условий",
+          "items": [
+            {
+              "kind": "editorial",
+              "text": "Таблица разделяет постановки, механизмы и границы выводов. Она не ранжирует работы по несопоставимым числам. Улучшение показателя в конкретной статье не доказывает преимущество во всех моделях, данных и режимах.",
+              "claim_ids": []
+            }
+          ]
+        },
+        {
+          "key": "disagreements",
+          "title": "Разногласия, ограничения и ложные обобщения",
+          "items": [
+            {
+              "kind": "synthesis",
+              "text": "Высокая accuracy RM на обычных preference pairs может сочетаться с плохой устойчивостью к оптимизации policy: распределение ответов изменилось.",
+              "claim_ids": [
+                "c2"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "DPO без явной RM не является доказательством отсутствия reward exploitation; прямые цели также имеют свои предположения и режимы переоптимизации.",
+              "claim_ids": [
+                "c3"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "Корреляция reward hacking и broader behavior в одной pipeline важна, но не даёт универсального причинного закона для всех моделей.",
+              "claim_ids": [
+                "c5"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "practice",
+          "title": "Как читать результаты и проверить подход у себя",
+          "items": [
+            {
+              "kind": "editorial",
+              "text": "Сохранять кривые proxy и независимого качества по всему бюджету оптимизации. Зафиксировать reference model, reward data, evaluator и пересечения их обучающих источников.",
+              "claim_ids": []
+            },
+            {
+              "kind": "editorial",
+              "text": "Проверить несколько seeds и уровней бюджета, отделить search-time от weight-update эффектов. Анализировать конкретные exploits и цену false positives в их детекции.",
+              "claim_ids": []
+            }
+          ]
+        },
+        {
+          "key": "questions",
+          "title": "Открытые вопросы и следующие эксперименты",
+          "items": [
+            {
+              "kind": "editorial",
+              "text": "Какая степень разнообразия reward models действительно уменьшает коррелированные ошибки под оптимизацией? Нужен контроль обучающих данных и общей архитектуры.",
+              "claim_ids": []
+            },
+            {
+              "kind": "editorial",
+              "text": "Можно ли подобрать stopping rule по независимому validation-сигналу, устойчивому к повторному выбору? Сам validation-набор также нужно защитить от переиспользования.",
+              "claim_ids": []
+            }
+          ]
+        },
+        {
+          "key": "reading",
+          "title": "Маршрут чтения",
+          "items": [
+            {
+              "kind": "editorial",
+              "text": "Сначала прочитайте первые две работы из таблицы: они задают понятия и способ измерения. Затем сравните методы в середине списка с критическими и более поздними исследованиями. Цель — понять, какое предположение меняется и что именно измеряется.",
+              "claim_ids": []
+            },
+            {
+              "kind": "editorial",
+              "text": "Для каждой работы выпишите объект переноса или оценки, используемый baseline, единицу тестирования, условия успеха и способ проверки. Цифры без этих полей недостаточны для выбора метода. Ссылки [n] раскрывают карточки доказательств; оттуда можно открыть раздел первоисточника.",
+              "claim_ids": []
+            }
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "id": "concept-1",
+          "name": "Proxy reward",
+          "definition": {
+            "kind": "synthesis",
+            "text": "Сигнал оптимизации, который может расходиться с более доверенным критерием качества.",
+            "claim_ids": [
+              "c1"
+            ]
+          },
+          "statements": [],
+          "disagreements": []
+        },
+        {
+          "id": "concept-2",
+          "name": "Optimization pressure",
+          "definition": {
+            "kind": "synthesis",
+            "text": "Сила изменения policy или отбора ответов ради повышения proxy.",
+            "claim_ids": [
+              "c4",
+              "c6"
+            ]
+          },
+          "statements": [],
+          "disagreements": []
+        }
+      ],
+      "relations": []
+    },
+    "comparison": [
+      {
+        "paper_id": "arxiv-2210-10760",
+        "method": "Контролируемая proxy/gold оценка",
+        "guarantee": "Независимый сигнал также имеет ограничения",
+        "setup": "Синтетический gold RM; RL и best-of-n в заданном семействе моделей.",
+        "claim_ids": [
+          "c1"
+        ]
+      },
+      {
+        "paper_id": "arxiv-2312-09244",
+        "method": "Ансамбли reward models",
+        "guarantee": "Разнообразие ошибок важнее простого числа моделей",
+        "setup": "Несколько reward models и способы агрегации; отдельные autoevaluators.",
+        "claim_ids": [
+          "c2"
+        ]
+      },
+      {
+        "paper_id": "arxiv-2406-02900",
+        "method": "Overoptimization в direct alignment",
+        "guarantee": "Алгоритм обучения не снимает проблему proxy",
+        "setup": "DPO, IPO и SLIC; выбранные масштабы моделей и KL budgets.",
+        "claim_ids": [
+          "c3"
+        ]
+      },
+      {
+        "paper_id": "arxiv-2506-19248",
+        "method": "Selection-time optimization",
+        "guarantee": "Объект контроля включает inference budget",
+        "setup": "Reference distribution, proxy reward и ограничение отклонения; отдельные verifiable и preference задачи.",
+        "claim_ids": [
+          "c4"
+        ]
+      },
+      {
+        "paper_id": "arxiv-2511-18397",
+        "method": "Перенос последствий reward hacking",
+        "guarantee": "Нужны независимые downstream проверки",
+        "setup": "Конкретная post-training pipeline, модели и mitigations; отдельные поведенческие evaluations.",
+        "claim_ids": [
+          "c5"
+        ]
+      },
+      {
+        "paper_id": "arxiv-2609-38526",
+        "method": "Теория proxy optimization",
+        "guarantee": "Предпосылки и эмпирическая калибровка обязательны",
+        "setup": "Упрощённое пространство ответов, распределение gold rewards и ограниченное optimization pressure.",
+        "claim_ids": [
+          "c6"
+        ]
+      },
+      {
+        "paper_id": "arxiv-2610-29129",
+        "method": "Промпты и steering",
+        "guarantee": "Надёжность детектора и эффект вмешательства различаются",
+        "setup": "ImpossibleBench и связанные coding tasks; модель, judge-разметка и калибровка описаны отдельно.",
+        "claim_ids": [
+          "c7"
+        ]
+      }
+    ],
+    "quality": {
+      "warnings": [
+        "Целенаправленный обзор выбранного подвопроса; полный охват направления и актуальный SOTA-рейтинг не заявляются.",
+        "Разобраны выбранные фрагменты полных текстов, а не все приложения и доказательства. Цитаты сверены с сохранёнными HTML.",
+        "Результаты принадлежат авторам статей. Собственные эксперименты и независимая экспертная рецензия не выполнялись.",
+        "Автоматический поиск добавляет только кандидатов; он не подтверждает их качество и не обновляет выводы этого обзора."
+      ]
+    },
+    "changes": {
+      "note": "Первый концептуальный выпуск с условиями сравнения и доказательствами."
+    },
+    "publication": {
+      "released_at": "2026-11-13",
+      "note": "Первый обзор: 7 выбранных работ, механизмы, сравнение и ограничения; без своего воспроизведения.",
+      "preparation": "source_based_editorial",
+      "expert_peer_review": false
+    }
+  }
 }

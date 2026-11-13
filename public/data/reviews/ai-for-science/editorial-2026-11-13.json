@@ -1,0 +1,649 @@
+{
+  "schema_version": 1,
+  "kind": "editorial_review",
+  "snapshot_id": "editorial-2026-11-13",
+  "at": "2026-11-13",
+  "review": {
+    "topic": "Neural operators для PDE: что означает обобщение вне распределения",
+    "questions": [
+      "Какие виды смены распределения проверяются у neural operators?",
+      "Как сравниваются точность, вычислительная стоимость и физическая корректность?"
+    ]
+  },
+  "papers": [
+    {
+      "id": "arxiv-1910-03193",
+      "title": "DeepONet: Learning nonlinear operators for identifying differential equations based on the universal approximation theorem of operators",
+      "authors": [
+        "Lu Lu",
+        "Pengzhan Jin",
+        "George Em Karniadakis"
+      ],
+      "year": 2019,
+      "arxiv_id": "1910.03193v3",
+      "url": "https://arxiv.org/abs/1910.03193v3",
+      "doi": "10.1038/s42256-021-00302-5",
+      "source_sha256": "d4e51c8a9c703b335e1c39c97cfb851cd24dc47cf226e0d3a53d32d9089ee9bb",
+      "checked_at": "2026-11-13",
+      "read_sections": "S2.SS1 — 2.1 Deep operator networks (DeepONets); связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2010-08895",
+      "title": "Fourier Neural Operator for Parametric Partial Differential Equations",
+      "authors": [
+        "Zongyi Li",
+        "Nikola Kovachki",
+        "Kamyar Azizzadenesheli",
+        "Burigede Liu",
+        "Kaushik Bhattacharya",
+        "Andrew Stuart",
+        "Anima Anandkumar"
+      ],
+      "year": 2020,
+      "arxiv_id": "2010.08895v3",
+      "url": "https://arxiv.org/abs/2010.08895v3",
+      "doi": "",
+      "source_sha256": "0f7214654682f269a9b0076f6908db7488bdb5383f5ac0d773406791250b7914",
+      "checked_at": "2026-11-13",
+      "read_sections": "S5 — 5 Numerical experiments; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2108-08481",
+      "title": "Neural Operator: Learning Maps Between Function Spaces",
+      "authors": [
+        "Nikola Kovachki",
+        "Zongyi Li",
+        "Burigede Liu",
+        "Kamyar Azizzadenesheli",
+        "Kaushik Bhattacharya",
+        "Andrew Stuart",
+        "Anima Anandkumar"
+      ],
+      "year": 2021,
+      "arxiv_id": "2108.08481v6",
+      "url": "https://arxiv.org/abs/2108.08481v6",
+      "doi": "10.5555/3648699.3648788",
+      "source_sha256": "09d7757361cd659a382e4c97e0522606e2a824854967109668a092eb3025f9de",
+      "checked_at": "2026-11-13",
+      "read_sections": "S2.SS3 — 2.3 Discretization; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2301-11509",
+      "title": "Out-of-distributional risk bounds for neural operators with applications to the Helmholtz equation",
+      "authors": [
+        "J. Antonio Lara Benitez",
+        "Takashi Furuya",
+        "Florian Faucher",
+        "Anastasis Kratsios",
+        "Xavier Tricoche",
+        "Maarten V. de Hoop"
+      ],
+      "year": 2023,
+      "arxiv_id": "2301.11509v3",
+      "url": "https://arxiv.org/abs/2301.11509v3",
+      "doi": "10.1016/j.jcp.2024.113168",
+      "source_sha256": "f1080555971edfb9b1a5f44cdf0a3df4a2faea1364cab8b0db69c449a120d351",
+      "checked_at": "2026-11-13",
+      "read_sections": "S5 — 5 Testing out-of-distribution analysis (OOD) for 𝓖\\bm{\\mathcal{G}}; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2406-08473",
+      "title": "Strategies for Pretraining Neural Operators",
+      "authors": [
+        "Anthony Zhou",
+        "Cooper Lorsung",
+        "AmirPouya Hemmasian",
+        "Amir Barati Farimani"
+      ],
+      "year": 2024,
+      "arxiv_id": "2406.08473v2",
+      "url": "https://arxiv.org/abs/2406.08473v2",
+      "doi": "",
+      "source_sha256": "5e145dba607349e45882f49b9b1f44e44773a9149c01fc18d4f20d4ab4c97f92",
+      "checked_at": "2026-11-13",
+      "read_sections": "S5 — 5 Results; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2602-00884",
+      "title": "Test-time Generalization for Physics through Neural Operator Splitting",
+      "authors": [
+        "Louis Serrano",
+        "Jiequn Han",
+        "Edouard Oyallon",
+        "Shirley Ho",
+        "Rudy Morel"
+      ],
+      "year": 2026,
+      "arxiv_id": "2602.00884v2",
+      "url": "https://arxiv.org/abs/2602.00884v2",
+      "doi": "",
+      "source_sha256": "9c8f1d1c354bc403f672f42291403311bcade5e74477c68fe25ce7b9959709e8",
+      "checked_at": "2026-11-13",
+      "read_sections": "S4.SS2 — 4.2 Operator Composition Search; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2609-23529",
+      "title": "Predicting Out-of-Distribution Generalization of Neural Operators via Observable Spectral Error Decomposition",
+      "authors": [
+        "Hang-Cheng Dong",
+        "Pengcheng Cheng"
+      ],
+      "year": 2026,
+      "arxiv_id": "2609.23529v1",
+      "url": "https://arxiv.org/abs/2609.23529v1",
+      "doi": "",
+      "source_sha256": "54b0e1ae6c067575996b0a53c19619464eb1cb3d973c98174d6a9f16acbf572c",
+      "checked_at": "2026-11-13",
+      "read_sections": "S3.SS1 — III-A Elliptic Model Problem on a Fixed Geometry; связанные фрагменты метода и оценки"
+    }
+  ],
+  "cards": [
+    {
+      "paper_id": "arxiv-1910-03193",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c1",
+          "paper_id": "arxiv-1910-03193",
+          "kind": "source_finding",
+          "text": "DeepONet обучает отображение от входной функции, заданной в сенсорах, к значениям выходной функции в запрошенных координатах. Теорема аппроксимации обосновывает выразительность класса, но не обещает успешного обучения на любых данных.",
+          "conditions": [
+            "Входные sensor evaluations и координата выхода; заданное семейство операторных задач."
+          ],
+          "limitations": [
+            "Аппроксимационная теорема не является гарантией finite-data OOD качества."
+          ],
+          "evidence": [
+            {
+              "quote": "We focus on learning operators in a more general",
+              "url": "https://arxiv.org/html/1910.03193v3#S2.SS1",
+              "locator": "S2.SS1 — 2.1 Deep operator networks (DeepONets); связанные фрагменты метода и оценки",
+              "segment_id": "S2.SS1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2010-08895",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c2",
+          "paper_id": "arxiv-2010-08895",
+          "kind": "source_finding",
+          "text": "FNO сравнивается на Burgers, Darcy и Navier–Stokes, включая transfer по разрешению. В численных экспериментах авторы отдельно описывают data generation и baselines.",
+          "conditions": [
+            "Fourier integral layers; заданные распределения коэффициентов и начальных условий."
+          ],
+          "limitations": [
+            "Смена разрешения не эквивалентна смене физики; setup не представляет универсальное сравнение со всеми традиционными solvers."
+          ],
+          "evidence": [
+            {
+              "quote": "In this section, we compare the proposed Fourier neural",
+              "url": "https://arxiv.org/html/2010.08895v3#S5",
+              "locator": "S5 — 5 Numerical experiments; связанные фрагменты метода и оценки",
+              "segment_id": "S5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2108-08481",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c3",
+          "paper_id": "arxiv-2108-08481",
+          "kind": "source_finding",
+          "text": "Neural Operator формализует обучение отображений между пространствами функций и их численные дискретизации. Согласованность параметризации при изменении сетки отличается от устойчивости к изменению распределения входных функций.",
+          "conditions": [
+            "Point-wise observations функций и дискретизации области; разные operator parameterizations."
+          ],
+          "limitations": [
+            "Discretization invariance не доказывает перенос на новую геометрию, граничные условия или PDE."
+          ],
+          "evidence": [
+            {
+              "quote": "to work with them numerically",
+              "url": "https://arxiv.org/html/2108.08481v6#S2.SS3",
+              "locator": "S2.SS3 — 2.3 Discretization; связанные фрагменты метода и оценки",
+              "segment_id": "S2.SS3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2301-11509",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c4",
+          "paper_id": "arxiv-2301-11509",
+          "kind": "source_finding",
+          "text": "Работа о OOD risk bounds исследует возмущения covariance operators гауссовских полей в Helmholtz-задаче. Теоретический и численный анализ относятся к явно заданной смене распределения.",
+          "conditions": [
+            "Gaussian measures, wave-speed fields и конкретные сетевые архитектуры."
+          ],
+          "limitations": [
+            "Утверждения не распространяются автоматически на произвольные негауссовские или геометрические shifts."
+          ],
+          "evidence": [
+            {
+              "quote": "In this section, we study the out-of-distribution (OOD for",
+              "url": "https://arxiv.org/html/2301.11509v3#S5",
+              "locator": "S5 — 5 Testing out-of-distribution analysis (OOD) for 𝓖\\bm{\\mathcal{G}}; связанные фрагменты метода и оценки",
+              "segment_id": "S5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2406-08473",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c5",
+          "paper_id": "arxiv-2406-08473",
+          "kind": "source_finding",
+          "text": "Strategies for Pretraining Neural Operators сравнивает pretraining и data augmentations на разных PDE и архитектурах. Результат оценивается в заданных autoregressive и fixed-future режимах.",
+          "conditions": [
+            "Relative L2 error; выбранные datasets, architectures и transfer tasks."
+          ],
+          "limitations": [
+            "Улучшение fine-tuning не равно zero-shot OOD; режим и целевой бюджет должны быть указаны."
+          ],
+          "evidence": [
+            {
+              "quote": "We now systematically benchmark our pretraining and data augmentation",
+              "url": "https://arxiv.org/html/2406.08473v2#S5",
+              "locator": "S5 — 5 Results; связанные фрагменты метода и оценки",
+              "segment_id": "S5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2602-00884",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c6",
+          "paper_id": "arxiv-2602-00884",
+          "kind": "source_finding",
+          "text": "Neural Operator Splitting подбирает композицию операторов из словаря по тестовой траектории. Это явный способ test-time адаптации через доступное наблюдение, а не отсутствие какой-либо информации о target.",
+          "conditions": [
+            "Тестовая наблюдаемая траектория и dictionary of operators; composition search."
+          ],
+          "limitations": [
+            "Успех ограничен выразительностью словаря и качеством короткого наблюдения; поиск тоже имеет стоимость."
+          ],
+          "evidence": [
+            {
+              "quote": "our goal is to approximate the underlying system",
+              "url": "https://arxiv.org/html/2602.00884v2#S4.SS2",
+              "locator": "S4.SS2 — 4.2 Operator Composition Search; связанные фрагменты метода и оценки",
+              "segment_id": "S4.SS2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2609-23529",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c7",
+          "paper_id": "arxiv-2609-23529",
+          "kind": "source_finding",
+          "text": "Spectral Error Decomposition рассматривает эллиптическую задачу на фиксированной геометрии и ограниченный спектральный класс операторов. Такая структура делает анализ ошибок интерпретируемым в рамках этих предпосылок.",
+          "conditions": [
+            "Фиксированное compact manifold, Poisson problem, zero-mean условия и spectral filters."
+          ],
+          "limitations": [
+            "Это не универсальная OOD-гарантия для любых neural operators, нелинейных PDE или изменяющейся геометрии."
+          ],
+          "evidence": [
+            {
+              "quote": "is treated as fixed in this work",
+              "url": "https://arxiv.org/html/2609.23529v1#S3.SS1",
+              "locator": "S3.SS1 — III-A Elliptic Model Problem on a Fixed Geometry; связанные фрагменты метода и оценки",
+              "segment_id": "S3.SS1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "synthesis": {
+    "title": "Neural operators для PDE: что означает обобщение вне распределения",
+    "sections": [
+      {
+        "key": "brief",
+        "title": "За минуту: главный вопрос и вывод",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Neural operator учит отображение между функциями, например от начальных условий к решению PDE. Его удобство не снимает вопрос: на каком семействе задач и данных он проверен?",
+            "claim_ids": [
+              "c1",
+              "c3"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Обобщение по сетке, коэффициентам, начальным условиям, геометрии и физическим законам — разные виды переноса. Их нельзя объединять одним словом OOD.",
+            "claim_ids": [
+              "c2",
+              "c4",
+              "c7"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Нужно отличать zero-shot, fine-tuning и test-time использование target trajectories; каждый режим имеет свой информационный и вычислительный бюджет.",
+            "claim_ids": [
+              "c5",
+              "c6"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "scope",
+        "title": "Границы и отбор источников",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Обзор подготовлен 13 ноября 2026 года по выбранным фрагментам полных HTML-текстов 7 работ. Это узкий фокус внутри направления, а не энциклопедия всей области и не систематический поиск. Количество источников в общем каталоге не означает, что все они прочитаны.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Отбор целенаправленный: основные постановки задачи, различные семейства методов и работы, проверяющие их ограничения. Точные версии, локаторы и SHA-256 прочитанных HTML сохранены в JSON. Короткая цитата служит поисковым якорем; вывод следует сверять с контекстом раздела. Независимая экспертная рецензия и воспроизведение экспериментов не выполнялись.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "mechanism",
+        "title": "Понятия и механизм: что именно проверяется",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Функциональный оператор и его дискретная реализация — разные уровни. Возможность вычислить ответ на другой сетке ещё не гарантирует нужной точности для новой входной функции.",
+            "claim_ids": [
+              "c2",
+              "c3"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Теоретическая граница риска применима при своих предположениях о функции, мере и операторе. Проверка этих предположений нужна до переноса вывода на реальную задачу.",
+            "claim_ids": [
+              "c4",
+              "c7"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "approaches",
+        "title": "Подходы и свидетельства из работ",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "DeepONet обучает отображение от входной функции, заданной в сенсорах, к значениям выходной функции в запрошенных координатах. Теорема аппроксимации обосновывает выразительность класса, но не обещает успешного обучения на любых данных.",
+            "claim_ids": [
+              "c1"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "FNO сравнивается на Burgers, Darcy и Navier–Stokes, включая transfer по разрешению. В численных экспериментах авторы отдельно описывают data generation и baselines.",
+            "claim_ids": [
+              "c2"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Neural Operator формализует обучение отображений между пространствами функций и их численные дискретизации. Согласованность параметризации при изменении сетки отличается от устойчивости к изменению распределения входных функций.",
+            "claim_ids": [
+              "c3"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Работа о OOD risk bounds исследует возмущения covariance operators гауссовских полей в Helmholtz-задаче. Теоретический и численный анализ относятся к явно заданной смене распределения.",
+            "claim_ids": [
+              "c4"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Strategies for Pretraining Neural Operators сравнивает pretraining и data augmentations на разных PDE и архитектурах. Результат оценивается в заданных autoregressive и fixed-future режимах.",
+            "claim_ids": [
+              "c5"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Neural Operator Splitting подбирает композицию операторов из словаря по тестовой траектории. Это явный способ test-time адаптации через доступное наблюдение, а не отсутствие какой-либо информации о target.",
+            "claim_ids": [
+              "c6"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Spectral Error Decomposition рассматривает эллиптическую задачу на фиксированной геометрии и ограниченный спектральный класс операторов. Такая структура делает анализ ошибок интерпретируемым в рамках этих предпосылок.",
+            "claim_ids": [
+              "c7"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "comparison",
+        "title": "Сравнение работ и условий",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Таблица разделяет постановки, механизмы и границы выводов. Она не ранжирует работы по несопоставимым числам. Улучшение показателя в конкретной статье не доказывает преимущество во всех моделях, данных и режимах.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "disagreements",
+        "title": "Разногласия, ограничения и ложные обобщения",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Теорема универсальной аппроксимации и плохой OOD тест не противоречат друг другу: выразительность класса не определяет результат конкретного обучения.",
+            "claim_ids": [
+              "c1"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Resolution transfer FNO и distribution shift Gaussian fields исследуют разные изменения. Сравнение требует назвать точную ось переноса.",
+            "claim_ids": [
+              "c2",
+              "c4"
+            ]
+          },
+          {
+            "kind": "editorial",
+            "text": "Снижение relative L2 на коротком горизонте не доказывает сохранение устойчивости и физической корректности при долгом rollout. Это требует отдельного протокола.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "practice",
+        "title": "Как читать результаты и проверить подход у себя",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Разделить train/validation/test по физическим параметрам и независимым траекториям, а не случайным временным срезам. Зафиксировать solver, сетку, boundary conditions, seed и data generation.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Измерять ошибку, долгосрочную устойчивость, физические residuals и стоимость вместе с reference solver при согласованной точности. Учитывать обучение, preprocessing и test-time search.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "questions",
+        "title": "Открытые вопросы и следующие эксперименты",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Как надёжно обнаруживать непригодность surrogate до дорогого downstream решения? Нужна калибровка uncertainty на заранее выделенных shifts и проверка false confidence.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Когда operator composition покрывает новую физическую комбинацию, а когда словарь принципиально недостаточен? Нужны задачи внутри и вне его выразимого класса.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "reading",
+        "title": "Маршрут чтения",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Сначала прочитайте первые две работы из таблицы: они задают понятия и способ измерения. Затем сравните методы в середине списка с критическими и более поздними исследованиями. Цель — понять, какое предположение меняется и что именно измеряется.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Для каждой работы выпишите объект переноса или оценки, используемый baseline, единицу тестирования, условия успеха и способ проверки. Цифры без этих полей недостаточны для выбора метода. Ссылки [n] раскрывают карточки доказательств; оттуда можно открыть раздел первоисточника.",
+            "claim_ids": []
+          }
+        ]
+      }
+    ],
+    "concepts": [
+      {
+        "id": "concept-1",
+        "name": "Discretization transfer",
+        "definition": {
+          "kind": "synthesis",
+          "text": "Применение обученного функционального отображения при другой численной сетке.",
+          "claim_ids": [
+            "c3"
+          ]
+        },
+        "statements": [],
+        "disagreements": []
+      },
+      {
+        "id": "concept-2",
+        "name": "Distribution shift",
+        "definition": {
+          "kind": "synthesis",
+          "text": "Изменение распределения входных функций или параметров; его вид должен быть задан явно.",
+          "claim_ids": [
+            "c4"
+          ]
+        },
+        "statements": [],
+        "disagreements": []
+      }
+    ],
+    "relations": []
+  },
+  "comparison": [
+    {
+      "paper_id": "arxiv-1910-03193",
+      "method": "Branch/trunk operator learning",
+      "guarantee": "Выразительность и обобщение различаются",
+      "setup": "Входные sensor evaluations и координата выхода; заданное семейство операторных задач.",
+      "claim_ids": [
+        "c1"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2010-08895",
+      "method": "Fourier operator layers",
+      "guarantee": "Resolution transfer имеет конкретные условия",
+      "setup": "Fourier integral layers; заданные распределения коэффициентов и начальных условий.",
+      "claim_ids": [
+        "c2"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2108-08481",
+      "method": "Операторы и дискретизации",
+      "guarantee": "Функциональный объект отделяется от сетки",
+      "setup": "Point-wise observations функций и дискретизации области; разные operator parameterizations.",
+      "claim_ids": [
+        "c3"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2301-11509",
+      "method": "Контролируемый distribution shift",
+      "guarantee": "Теоретические предпосылки задают область гарантии",
+      "setup": "Gaussian measures, wave-speed fields и конкретные сетевые архитектуры.",
+      "claim_ids": [
+        "c4"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2406-08473",
+      "method": "Pretraining и augmentation",
+      "guarantee": "Адаптация и zero-shot — разные результаты",
+      "setup": "Relative L2 error; выбранные datasets, architectures и transfer tasks.",
+      "claim_ids": [
+        "c5"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2602-00884",
+      "method": "Композиция операторов во время теста",
+      "guarantee": "Доступ к target evidence существенен",
+      "setup": "Тестовая наблюдаемая траектория и dictionary of operators; composition search.",
+      "claim_ids": [
+        "c6"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2609-23529",
+      "method": "Структурированный спектральный анализ",
+      "guarantee": "Условия задачи принципиальны для вывода",
+      "setup": "Фиксированное compact manifold, Poisson problem, zero-mean условия и spectral filters.",
+      "claim_ids": [
+        "c7"
+      ]
+    }
+  ],
+  "quality": {
+    "warnings": [
+      "Целенаправленный обзор выбранного подвопроса; полный охват направления и актуальный SOTA-рейтинг не заявляются.",
+      "Разобраны выбранные фрагменты полных текстов, а не все приложения и доказательства. Цитаты сверены с сохранёнными HTML.",
+      "Результаты принадлежат авторам статей. Собственные эксперименты и независимая экспертная рецензия не выполнялись.",
+      "Автоматический поиск добавляет только кандидатов; он не подтверждает их качество и не обновляет выводы этого обзора."
+    ]
+  },
+  "changes": {
+    "note": "Первый концептуальный выпуск с условиями сравнения и доказательствами."
+  },
+  "publication": {
+    "released_at": "2026-11-13",
+    "note": "Первый обзор: 7 выбранных работ, механизмы, сравнение и ограничения; без своего воспроизведения.",
+    "preparation": "source_based_editorial",
+    "expert_peer_review": false
+  }
+}

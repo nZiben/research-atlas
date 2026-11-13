@@ -1,0 +1,130 @@
+<!doctype html><html lang='ru'><meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta http-equiv='Content-Security-Policy' content="default-src 'none'; style-src 'unsafe-inline'">
+<title>Neural operators для PDE: что означает обобщение вне распределения</title>
+<style>body{margin:0;background:#f6f5f1;color:#202a31;font:17px/1.65 system-ui,sans-serif}main{max-width:960px;margin:auto;padding:48px 24px}h1{font-size:2.5em;line-height:1.15}h2{margin-top:2.5em}a{color:#176a70}.ref{font-size:.76em}nav{display:flex;gap:16px;flex-wrap:wrap}details{background:white;border:1px solid #dbe0dd;border-radius:8px;padding:16px;margin:12px 0}summary{cursor:pointer;font-weight:650}small,.muted{color:#5c676d}.badge{display:inline-block;background:#ffe5aa;border-radius:4px;padding:3px 9px}article{border-top:1px solid #ddd;padding:12px 0;scroll-margin-top:20px}blockquote{border-left:3px solid #c4d6cf;padding-left:16px}code{overflow-wrap:anywhere}footer{margin-top:50px;border-top:1px solid #ccc}</style><main>
+<span class='badge'>Редакционный выпуск · ограничения указаны ниже</span><h1>Neural operators для PDE: что означает обобщение вне распределения</h1>
+<p class='muted'>2026-11-13 · 7 работ</p>
+<nav><a href='#review'>Обзор</a><a href='#concepts'>Понятия</a><a href='#papers'>Статьи и доказательства</a><a href='references.bib'>BibTeX</a></nav>
+<h2>Границы и вопросы</h2><p>Neural operators для PDE: что означает обобщение вне распределения</p><ul>
+<li>Какие виды смены распределения проверяются у neural operators?</li>
+<li>Как сравниваются точность, вычислительная стоимость и физическая корректность?</li>
+</ul><section id='review'>
+<h2>За минуту: главный вопрос и вывод</h2>
+<p>Neural operator учит отображение между функциями, например от начальных условий к решению PDE. Его удобство не снимает вопрос: на каком семействе задач и данных он проверен? <a class="ref" href="#c1">DeepONet: Learning nonlinear operators for identifying differential equations based on the universal approximation theorem of operators</a> <a class="ref" href="#c3">Neural Operator: Learning Maps Between Function Spaces</a></p>
+<p>Обобщение по сетке, коэффициентам, начальным условиям, геометрии и физическим законам — разные виды переноса. Их нельзя объединять одним словом OOD. <a class="ref" href="#c2">Fourier Neural Operator for Parametric Partial Differential Equations</a> <a class="ref" href="#c4">Out-of-distributional risk bounds for neural operators with applications to the Helmholtz equation</a> <a class="ref" href="#c7">Predicting Out-of-Distribution Generalization of Neural Operators via Observable Spectral Error Decomposition</a></p>
+<p>Нужно отличать zero-shot, fine-tuning и test-time использование target trajectories; каждый режим имеет свой информационный и вычислительный бюджет. <a class="ref" href="#c5">Strategies for Pretraining Neural Operators</a> <a class="ref" href="#c6">Test-time Generalization for Physics through Neural Operator Splitting</a></p>
+<h2>Границы и отбор источников</h2>
+<p><strong>Редакторское предложение.</strong> Обзор подготовлен 13 ноября 2026 года по выбранным фрагментам полных HTML-текстов 7 работ. Это узкий фокус внутри направления, а не энциклопедия всей области и не систематический поиск. Количество источников в общем каталоге не означает, что все они прочитаны. </p>
+<p><strong>Редакторское предложение.</strong> Отбор целенаправленный: основные постановки задачи, различные семейства методов и работы, проверяющие их ограничения. Точные версии, локаторы и SHA-256 прочитанных HTML сохранены в JSON. Короткая цитата служит поисковым якорем; вывод следует сверять с контекстом раздела. Независимая экспертная рецензия и воспроизведение экспериментов не выполнялись. </p>
+<h2>Понятия и механизм: что именно проверяется</h2>
+<p>Функциональный оператор и его дискретная реализация — разные уровни. Возможность вычислить ответ на другой сетке ещё не гарантирует нужной точности для новой входной функции. <a class="ref" href="#c2">Fourier Neural Operator for Parametric Partial Differential Equations</a> <a class="ref" href="#c3">Neural Operator: Learning Maps Between Function Spaces</a></p>
+<p>Теоретическая граница риска применима при своих предположениях о функции, мере и операторе. Проверка этих предположений нужна до переноса вывода на реальную задачу. <a class="ref" href="#c4">Out-of-distributional risk bounds for neural operators with applications to the Helmholtz equation</a> <a class="ref" href="#c7">Predicting Out-of-Distribution Generalization of Neural Operators via Observable Spectral Error Decomposition</a></p>
+<h2>Подходы и свидетельства из работ</h2>
+<p>DeepONet обучает отображение от входной функции, заданной в сенсорах, к значениям выходной функции в запрошенных координатах. Теорема аппроксимации обосновывает выразительность класса, но не обещает успешного обучения на любых данных. <a class="ref" href="#c1">DeepONet: Learning nonlinear operators for identifying differential equations based on the universal approximation theorem of operators</a></p>
+<p>FNO сравнивается на Burgers, Darcy и Navier–Stokes, включая transfer по разрешению. В численных экспериментах авторы отдельно описывают data generation и baselines. <a class="ref" href="#c2">Fourier Neural Operator for Parametric Partial Differential Equations</a></p>
+<p>Neural Operator формализует обучение отображений между пространствами функций и их численные дискретизации. Согласованность параметризации при изменении сетки отличается от устойчивости к изменению распределения входных функций. <a class="ref" href="#c3">Neural Operator: Learning Maps Between Function Spaces</a></p>
+<p>Работа о OOD risk bounds исследует возмущения covariance operators гауссовских полей в Helmholtz-задаче. Теоретический и численный анализ относятся к явно заданной смене распределения. <a class="ref" href="#c4">Out-of-distributional risk bounds for neural operators with applications to the Helmholtz equation</a></p>
+<p>Strategies for Pretraining Neural Operators сравнивает pretraining и data augmentations на разных PDE и архитектурах. Результат оценивается в заданных autoregressive и fixed-future режимах. <a class="ref" href="#c5">Strategies for Pretraining Neural Operators</a></p>
+<p>Neural Operator Splitting подбирает композицию операторов из словаря по тестовой траектории. Это явный способ test-time адаптации через доступное наблюдение, а не отсутствие какой-либо информации о target. <a class="ref" href="#c6">Test-time Generalization for Physics through Neural Operator Splitting</a></p>
+<p>Spectral Error Decomposition рассматривает эллиптическую задачу на фиксированной геометрии и ограниченный спектральный класс операторов. Такая структура делает анализ ошибок интерпретируемым в рамках этих предпосылок. <a class="ref" href="#c7">Predicting Out-of-Distribution Generalization of Neural Operators via Observable Spectral Error Decomposition</a></p>
+<h2>Сравнение работ и условий</h2>
+<p><strong>Редакторское предложение.</strong> Таблица разделяет постановки, механизмы и границы выводов. Она не ранжирует работы по несопоставимым числам. Улучшение показателя в конкретной статье не доказывает преимущество во всех моделях, данных и режимах. </p>
+<div style="overflow-x:auto"><table><thead><tr><th>Работа</th><th>Механизм</th><th>Гарантия</th><th>Условия</th></tr></thead><tbody>
+<tr><td>DeepONet: Learning nonlinear operators for identifying differential equations based on the universal approximation theorem of operators <a href="#c1">источник</a></td><td>Branch/trunk operator learning</td><td>Выразительность и обобщение различаются</td><td>Входные sensor evaluations и координата выхода; заданное семейство операторных задач.</td></tr>
+<tr><td>Fourier Neural Operator for Parametric Partial Differential Equations <a href="#c2">источник</a></td><td>Fourier operator layers</td><td>Resolution transfer имеет конкретные условия</td><td>Fourier integral layers; заданные распределения коэффициентов и начальных условий.</td></tr>
+<tr><td>Neural Operator: Learning Maps Between Function Spaces <a href="#c3">источник</a></td><td>Операторы и дискретизации</td><td>Функциональный объект отделяется от сетки</td><td>Point-wise observations функций и дискретизации области; разные operator parameterizations.</td></tr>
+<tr><td>Out-of-distributional risk bounds for neural operators with applications to the Helmholtz equation <a href="#c4">источник</a></td><td>Контролируемый distribution shift</td><td>Теоретические предпосылки задают область гарантии</td><td>Gaussian measures, wave-speed fields и конкретные сетевые архитектуры.</td></tr>
+<tr><td>Strategies for Pretraining Neural Operators <a href="#c5">источник</a></td><td>Pretraining и augmentation</td><td>Адаптация и zero-shot — разные результаты</td><td>Relative L2 error; выбранные datasets, architectures и transfer tasks.</td></tr>
+<tr><td>Test-time Generalization for Physics through Neural Operator Splitting <a href="#c6">источник</a></td><td>Композиция операторов во время теста</td><td>Доступ к target evidence существенен</td><td>Тестовая наблюдаемая траектория и dictionary of operators; composition search.</td></tr>
+<tr><td>Predicting Out-of-Distribution Generalization of Neural Operators via Observable Spectral Error Decomposition <a href="#c7">источник</a></td><td>Структурированный спектральный анализ</td><td>Условия задачи принципиальны для вывода</td><td>Фиксированное compact manifold, Poisson problem, zero-mean условия и spectral filters.</td></tr>
+</tbody></table></div>
+<h2>Разногласия, ограничения и ложные обобщения</h2>
+<p>Теорема универсальной аппроксимации и плохой OOD тест не противоречат друг другу: выразительность класса не определяет результат конкретного обучения. <a class="ref" href="#c1">DeepONet: Learning nonlinear operators for identifying differential equations based on the universal approximation theorem of operators</a></p>
+<p>Resolution transfer FNO и distribution shift Gaussian fields исследуют разные изменения. Сравнение требует назвать точную ось переноса. <a class="ref" href="#c2">Fourier Neural Operator for Parametric Partial Differential Equations</a> <a class="ref" href="#c4">Out-of-distributional risk bounds for neural operators with applications to the Helmholtz equation</a></p>
+<p><strong>Редакторское предложение.</strong> Снижение relative L2 на коротком горизонте не доказывает сохранение устойчивости и физической корректности при долгом rollout. Это требует отдельного протокола. </p>
+<h2>Как читать результаты и проверить подход у себя</h2>
+<p><strong>Редакторское предложение.</strong> Разделить train/validation/test по физическим параметрам и независимым траекториям, а не случайным временным срезам. Зафиксировать solver, сетку, boundary conditions, seed и data generation. </p>
+<p><strong>Редакторское предложение.</strong> Измерять ошибку, долгосрочную устойчивость, физические residuals и стоимость вместе с reference solver при согласованной точности. Учитывать обучение, preprocessing и test-time search. </p>
+<h2>Открытые вопросы и следующие эксперименты</h2>
+<p><strong>Редакторское предложение.</strong> Как надёжно обнаруживать непригодность surrogate до дорогого downstream решения? Нужна калибровка uncertainty на заранее выделенных shifts и проверка false confidence. </p>
+<p><strong>Редакторское предложение.</strong> Когда operator composition покрывает новую физическую комбинацию, а когда словарь принципиально недостаточен? Нужны задачи внутри и вне его выразимого класса. </p>
+<h2>Маршрут чтения</h2>
+<p><strong>Редакторское предложение.</strong> Сначала прочитайте первые две работы из таблицы: они задают понятия и способ измерения. Затем сравните методы в середине списка с критическими и более поздними исследованиями. Цель — понять, какое предположение меняется и что именно измеряется. </p>
+<p><strong>Редакторское предложение.</strong> Для каждой работы выпишите объект переноса или оценки, используемый baseline, единицу тестирования, условия успеха и способ проверки. Цифры без этих полей недостаточны для выбора метода. Ссылки [n] раскрывают карточки доказательств; оттуда можно открыть раздел первоисточника. </p>
+</section><section id='concepts'><h2>Понятия</h2>
+<details><summary>Discretization transfer</summary>
+<p>Применение обученного функционального отображения при другой численной сетке. <a class="ref" href="#c3">Neural Operator: Learning Maps Between Function Spaces</a></p>
+</details>
+<details><summary>Distribution shift</summary>
+<p>Изменение распределения входных функций или параметров; его вид должен быть задан явно. <a class="ref" href="#c4">Out-of-distributional risk bounds for neural operators with applications to the Helmholtz equation</a></p>
+</details>
+</section><section id='papers'><h2>Статьи и доказательства</h2>
+<h3>DeepONet: Learning nonlinear operators for identifying differential equations based on the universal approximation theorem of operators</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c1"><strong>source_finding</strong><p>DeepONet обучает отображение от входной функции, заданной в сенсорах, к значениям выходной функции в запрошенных координатах. Теорема аппроксимации обосновывает выразительность класса, но не обещает успешного обучения на любых данных.</p>
+<p><small>Условия: Входные sensor evaluations и координата выхода; заданное семейство операторных задач.</small></p>
+<p><small>Авторские ограничения: Аппроксимационная теорема не является гарантией finite-data OOD качества.</small></p>
+<blockquote>We focus on learning operators in a more general</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/1910.03193v3#S2.SS1">S2.SS1 — 2.1 Deep operator networks (DeepONets); связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/1910.03193v3">Первоисточник</a></p>
+</article>
+<h3>Fourier Neural Operator for Parametric Partial Differential Equations</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c2"><strong>source_finding</strong><p>FNO сравнивается на Burgers, Darcy и Navier–Stokes, включая transfer по разрешению. В численных экспериментах авторы отдельно описывают data generation и baselines.</p>
+<p><small>Условия: Fourier integral layers; заданные распределения коэффициентов и начальных условий.</small></p>
+<p><small>Авторские ограничения: Смена разрешения не эквивалентна смене физики; setup не представляет универсальное сравнение со всеми традиционными solvers.</small></p>
+<blockquote>In this section, we compare the proposed Fourier neural</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2010.08895v3#S5">S5 — 5 Numerical experiments; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2010.08895v3">Первоисточник</a></p>
+</article>
+<h3>Neural Operator: Learning Maps Between Function Spaces</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c3"><strong>source_finding</strong><p>Neural Operator формализует обучение отображений между пространствами функций и их численные дискретизации. Согласованность параметризации при изменении сетки отличается от устойчивости к изменению распределения входных функций.</p>
+<p><small>Условия: Point-wise observations функций и дискретизации области; разные operator parameterizations.</small></p>
+<p><small>Авторские ограничения: Discretization invariance не доказывает перенос на новую геометрию, граничные условия или PDE.</small></p>
+<blockquote>to work with them numerically</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2108.08481v6#S2.SS3">S2.SS3 — 2.3 Discretization; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2108.08481v6">Первоисточник</a></p>
+</article>
+<h3>Out-of-distributional risk bounds for neural operators with applications to the Helmholtz equation</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c4"><strong>source_finding</strong><p>Работа о OOD risk bounds исследует возмущения covariance operators гауссовских полей в Helmholtz-задаче. Теоретический и численный анализ относятся к явно заданной смене распределения.</p>
+<p><small>Условия: Gaussian measures, wave-speed fields и конкретные сетевые архитектуры.</small></p>
+<p><small>Авторские ограничения: Утверждения не распространяются автоматически на произвольные негауссовские или геометрические shifts.</small></p>
+<blockquote>In this section, we study the out-of-distribution (OOD for</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2301.11509v3#S5">S5 — 5 Testing out-of-distribution analysis (OOD) for 𝓖\bm{\mathcal{G}}; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2301.11509v3">Первоисточник</a></p>
+</article>
+<h3>Strategies for Pretraining Neural Operators</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c5"><strong>source_finding</strong><p>Strategies for Pretraining Neural Operators сравнивает pretraining и data augmentations на разных PDE и архитектурах. Результат оценивается в заданных autoregressive и fixed-future режимах.</p>
+<p><small>Условия: Relative L2 error; выбранные datasets, architectures и transfer tasks.</small></p>
+<p><small>Авторские ограничения: Улучшение fine-tuning не равно zero-shot OOD; режим и целевой бюджет должны быть указаны.</small></p>
+<blockquote>We now systematically benchmark our pretraining and data augmentation</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2406.08473v2#S5">S5 — 5 Results; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2406.08473v2">Первоисточник</a></p>
+</article>
+<h3>Test-time Generalization for Physics through Neural Operator Splitting</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c6"><strong>source_finding</strong><p>Neural Operator Splitting подбирает композицию операторов из словаря по тестовой траектории. Это явный способ test-time адаптации через доступное наблюдение, а не отсутствие какой-либо информации о target.</p>
+<p><small>Условия: Тестовая наблюдаемая траектория и dictionary of operators; composition search.</small></p>
+<p><small>Авторские ограничения: Успех ограничен выразительностью словаря и качеством короткого наблюдения; поиск тоже имеет стоимость.</small></p>
+<blockquote>our goal is to approximate the underlying system</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2602.00884v2#S4.SS2">S4.SS2 — 4.2 Operator Composition Search; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2602.00884v2">Первоисточник</a></p>
+</article>
+<h3>Predicting Out-of-Distribution Generalization of Neural Operators via Observable Spectral Error Decomposition</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c7"><strong>source_finding</strong><p>Spectral Error Decomposition рассматривает эллиптическую задачу на фиксированной геометрии и ограниченный спектральный класс операторов. Такая структура делает анализ ошибок интерпретируемым в рамках этих предпосылок.</p>
+<p><small>Условия: Фиксированное compact manifold, Poisson problem, zero-mean условия и spectral filters.</small></p>
+<p><small>Авторские ограничения: Это не универсальная OOD-гарантия для любых neural operators, нелинейных PDE или изменяющейся геометрии.</small></p>
+<blockquote>is treated as fixed in this work</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.23529v1#S3.SS1">S3.SS1 — III-A Elliptic Model Problem on a Fixed Geometry; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2609.23529v1">Первоисточник</a></p>
+</article>
+</section><footer><h2>Ограничения</h2>
+<p>Целенаправленный обзор выбранного подвопроса; полный охват направления и актуальный SOTA-рейтинг не заявляются.</p>
+<p>Разобраны выбранные фрагменты полных текстов, а не все приложения и доказательства. Цитаты сверены с сохранёнными HTML.</p>
+<p>Результаты принадлежат авторам статей. Собственные эксперименты и независимая экспертная рецензия не выполнялись.</p>
+<p>Автоматический поиск добавляет только кандидатов; он не подтверждает их качество и не обновляет выводы этого обзора.</p>
+</footer></main></html>

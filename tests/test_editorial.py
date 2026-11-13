@@ -83,5 +83,21 @@ class EditorialPublication(unittest.TestCase):
         check(next(t for t in topics() if t['id'] == 'efficiency')['tree'])
 
 
+class AllPublishedReviews(unittest.TestCase):
+    def test_every_direction_has_a_real_evidence_linked_review_and_tree(self):
+        for topic in topics():
+            data = load_editorial(ROOT / 'reviews' / (topic['id'] + '.json'))
+            self.assertIsNotNone(data, topic['id'])
+            self.assertGreaterEqual(len(data['papers']), 7)
+            sections = {s['key'] for s in data['synthesis']['sections']}
+            def check(nodes):
+                for node in nodes:
+                    if 'section' in node:
+                        self.assertIn(node['section'], sections)
+                    check(node.get('children', []))
+            self.assertTrue(topic.get('tree'))
+            check(topic['tree'])
+
+
 if __name__ == '__main__':
     unittest.main()

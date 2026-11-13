@@ -1,0 +1,132 @@
+<!doctype html><html lang='ru'><meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta http-equiv='Content-Security-Policy' content="default-src 'none'; style-src 'unsafe-inline'">
+<title>Sparse autoencoders: интерпретируемость, причинность и надёжность проверки</title>
+<style>body{margin:0;background:#f6f5f1;color:#202a31;font:17px/1.65 system-ui,sans-serif}main{max-width:960px;margin:auto;padding:48px 24px}h1{font-size:2.5em;line-height:1.15}h2{margin-top:2.5em}a{color:#176a70}.ref{font-size:.76em}nav{display:flex;gap:16px;flex-wrap:wrap}details{background:white;border:1px solid #dbe0dd;border-radius:8px;padding:16px;margin:12px 0}summary{cursor:pointer;font-weight:650}small,.muted{color:#5c676d}.badge{display:inline-block;background:#ffe5aa;border-radius:4px;padding:3px 9px}article{border-top:1px solid #ddd;padding:12px 0;scroll-margin-top:20px}blockquote{border-left:3px solid #c4d6cf;padding-left:16px}code{overflow-wrap:anywhere}footer{margin-top:50px;border-top:1px solid #ccc}</style><main>
+<span class='badge'>Редакционный выпуск · ограничения указаны ниже</span><h1>Sparse autoencoders: интерпретируемость, причинность и надёжность проверки</h1>
+<p class='muted'>2026-11-13 · 7 работ</p>
+<nav><a href='#review'>Обзор</a><a href='#concepts'>Понятия</a><a href='#papers'>Статьи и доказательства</a><a href='references.bib'>BibTeX</a></nav>
+<h2>Границы и вопросы</h2><p>Sparse autoencoders: интерпретируемость, причинность и надёжность проверки</p><ul>
+<li>Какие проверки отличают интерпретируемую корреляцию от причинного механизма?</li>
+<li>Какие ограничения sparse autoencoders влияют на полноту объяснения?</li>
+</ul><section id='review'>
+<h2>За минуту: главный вопрос и вывод</h2>
+<p>SAE ищет разреженные направления в активациях модели. Удобный для человека latent — полезная гипотеза, но его понятность, полнота и причинная роль являются разными свойствами. <a class="ref" href="#c1">Sparse Autoencoders Find Highly Interpretable Features in Language Models</a> <a class="ref" href="#c4">A is for Absorption: Studying Feature Splitting and Absorption in Sparse Autoencoders</a></p>
+<p>Надёжный обзор должен связать reconstruction с поведением модели, тестами концептов и вмешательствами. Один общий score может скрывать противоположные результаты. <a class="ref" href="#c2">Scaling and evaluating sparse autoencoders</a> <a class="ref" href="#c3">Identifying Functionally Important Features with End-to-End Sparse Dictionary Learning</a> <a class="ref" href="#c5">SAEBench: A Comprehensive Benchmark for Sparse Autoencoders in Language Model Interpretability</a></p>
+<p>Свежие контрольные исследования требуют сравнения со случайными baselines и оценки шума самих benchmarks. Их выводы ограничены исследованными моделями и протоколами. <a class="ref" href="#c6">Sanity Checks for Sparse Autoencoders: Do SAEs Beat Random Baselines?</a> <a class="ref" href="#c7">Are Sparse Autoencoder Benchmarks Reliable?</a></p>
+<h2>Границы и отбор источников</h2>
+<p><strong>Редакторское предложение.</strong> Обзор подготовлен 13 ноября 2026 года по выбранным фрагментам полных HTML-текстов 7 работ. Это узкий фокус внутри направления, а не энциклопедия всей области и не систематический поиск. Количество источников в общем каталоге не означает, что все они прочитаны. </p>
+<p><strong>Редакторское предложение.</strong> Отбор целенаправленный: основные постановки задачи, различные семейства методов и работы, проверяющие их ограничения. Точные версии, локаторы и SHA-256 прочитанных HTML сохранены в JSON. Короткая цитата служит поисковым якорем; вывод следует сверять с контекстом раздела. Независимая экспертная рецензия и воспроизведение экспериментов не выполнялись. </p>
+<h2>Понятия и механизм: что именно проверяется</h2>
+<p>Разложение x≈Dz с разреженным z меняет представление активации, а не автоматически раскрывает единственную истинную систему признаков. Словарь и коэффициенты зависят от обучающей цели и ограничений. <a class="ref" href="#c1">Sparse Autoencoders Find Highly Interpretable Features in Language Models</a> <a class="ref" href="#c2">Scaling and evaluating sparse autoencoders</a></p>
+<p>Faithfulness требует уточнения: восстановлены исходные активации, сохранён выход модели или сохранён конкретный внутренний путь? Эти критерии могут расходиться. <a class="ref" href="#c3">Identifying Functionally Important Features with End-to-End Sparse Dictionary Learning</a></p>
+<p>Интерпретируемость по выбранным активным примерам следует дополнить проверкой случаев, где признак должен проявиться, но latent молчит. Absorption делает такой контроль особенно важным. <a class="ref" href="#c4">A is for Absorption: Studying Feature Splitting and Absorption in Sparse Autoencoders</a></p>
+<h2>Подходы и свидетельства из работ</h2>
+<p>Sparse dictionary learning представляет активации модели разреженной комбинацией направлений. Это даёт кандидатов на интерпретируемые признаки при суперпозиции, но само по себе не устанавливает, что каждый latent является истинной вычислительной переменной модели. <a class="ref" href="#c1">Sparse Autoencoders Find Highly Interpretable Features in Language Models</a></p>
+<p>TopK SAE явно ограничивает число активных latents. Работа о масштабировании рассматривает не только reconstruction/sparsity, но и downstream loss, восстановление известных признаков и объяснимость. <a class="ref" href="#c2">Scaling and evaluating sparse autoencoders</a></p>
+<p>End-to-end dictionary learning обучает разложение по влиянию на выход модели. Авторы показывают, что близкое выходное распределение может сочетаться с иным путём активаций; downstream reconstruction вводится как дополнительное ограничение. <a class="ref" href="#c3">Identifying Functionally Important Features with End-to-End Sparse Dictionary Learning</a></p>
+<p>Feature absorption показывает случай, когда ожидаемый признак не активируется, а информация о нём представлена другим latent. Красивое объяснение активных примеров может скрывать пропуски и распределённое причинное влияние. <a class="ref" href="#c4">A is for Absorption: Studying Feature Splitting and Absorption in Sparse Autoencoders</a></p>
+<p>SAEBench разделяет обнаружение концептов, интерпретируемость, реконструкцию и disentanglement. Такой набор выявляет компромиссы, которые скрывает оптимизация одной proxy-метрики. <a class="ref" href="#c5">SAEBench: A Comprehensive Benchmark for Sparse Autoencoders in Language Model Interpretability</a></p>
+<p>Sanity Checks сравнивает обученные SAEs с вариантами, где компоненты заморожены случайно. Сопоставимые benchmark-результаты в этих условиях ставят под сомнение достаточность распространённых тестов для доказательства восстановления содержательных признаков. <a class="ref" href="#c6">Sanity Checks for Sparse Autoencoders: Do SAEs Beat Random Baselines?</a></p>
+<p>Аудит SAE benchmarks повторяет оценки одного SAE с разными seeds и изучает шум метрик. Нестабильная метрика может создавать видимый прогресс без надёжного различения вариантов модели. <a class="ref" href="#c7">Are Sparse Autoencoder Benchmarks Reliable?</a></p>
+<h2>Сравнение работ и условий</h2>
+<p><strong>Редакторское предложение.</strong> Таблица разделяет постановки, механизмы и границы выводов. Она не ранжирует работы по несопоставимым числам. Улучшение показателя в конкретной статье не доказывает преимущество во всех моделях, данных и режимах. </p>
+<div style="overflow-x:auto"><table><thead><tr><th>Работа</th><th>Механизм</th><th>Гарантия</th><th>Условия</th></tr></thead><tbody>
+<tr><td>Sparse Autoencoders Find Highly Interpretable Features in Language Models <a href="#c1">источник</a></td><td>Разреженное разложение активаций</td><td>Кандидаты на признаки, не доказанная полная онтология</td><td>Активации языковой модели; разреженный словарь шире исходного пространства.</td></tr>
+<tr><td>Scaling and evaluating sparse autoencoders <a href="#c2">источник</a></td><td>TopK и масштабирование</td><td>Сравнение качества требует нескольких метрик</td><td>TopK activation и выбранный слой модели; различные размеры словаря и sparsity.</td></tr>
+<tr><td>Identifying Functionally Important Features with End-to-End Sparse Dictionary Learning <a href="#c3">источник</a></td><td>Поведенческая функция потерь</td><td>Output fidelity и внутренний путь различаются</td><td>Сравнение local, e2e и e2e+downstream objectives; GPT2-small и TinyStories в экспериментах.</td></tr>
+<tr><td>A is for Absorption: Studying Feature Splitting and Absorption in Sparse Autoencoders <a href="#c4">источник</a></td><td>Проверка splitting и absorption</td><td>Требуются negative cases и причинные вмешательства</td><td>Признаки первой буквы токена; конкретные Gemma Scope SAEs, probes и ablations.</td></tr>
+<tr><td>SAEBench: A Comprehensive Benchmark for Sparse Autoencoders in Language Model Interpretability <a href="#c5">источник</a></td><td>Многомерная оценка SAE</td><td>Несколько задач вместо единого proxy score</td><td>Несколько архитектур, ширин и уровней sparsity; заданные модели и слои.</td></tr>
+<tr><td>Sanity Checks for Sparse Autoencoders: Do SAEs Beat Random Baselines? <a href="#c6">источник</a></td><td>Случайные контрольные разложения</td><td>Нужно превосходить содержательные контрольные методы</td><td>Синтетические ground-truth признаки и реальные активации; отдельные frozen-component baselines.</td></tr>
+<tr><td>Are Sparse Autoencoder Benchmarks Reliable? <a href="#c7">источник</a></td><td>Аудит измерительного инструмента</td><td>Повторяемость и различимость проверяются отдельно</td><td>Повторные независимые evaluation seeds; Gemma Scope SAE и дополнительные архитектуры.</td></tr>
+</tbody></table></div>
+<h2>Разногласия, ограничения и ложные обобщения</h2>
+<p>Успех SAEBench и критика отдельных метрик не противоречат друг другу: benchmark расширяет измерения, а последующий аудит проверяет, насколько эти измерения надёжны. <a class="ref" href="#c5">SAEBench: A Comprehensive Benchmark for Sparse Autoencoders in Language Model Interpretability</a> <a class="ref" href="#c7">Are Sparse Autoencoder Benchmarks Reliable?</a></p>
+<p>Сходство со случайным baseline не доказывает бесполезность всех SAEs. Оно показывает, что изученные оценки недостаточны для более сильного утверждения о recovered features. <a class="ref" href="#c6">Sanity Checks for Sparse Autoencoders: Do SAEs Beat Random Baselines?</a></p>
+<p>Более высокое восстановление выхода не обязательно означает более точное описание исходного circuit. End-to-end цель может допустить другой внутренний путь. <a class="ref" href="#c3">Identifying Functionally Important Features with End-to-End Sparse Dictionary Learning</a></p>
+<h2>Как читать результаты и проверить подход у себя</h2>
+<p><strong>Редакторское предложение.</strong> Фиксировать checkpoint, слой, словарь, sparsity, данные обучения и теста. Сравнивать варианты при согласованном бюджете; сохранять seeds и критерий выбора latents. </p>
+<p>Включить random/frozen baselines, recall на негативных случаях, downstream effect и причинные вмешательства; повторять оценку с несколькими seeds. <a class="ref" href="#c4">A is for Absorption: Studying Feature Splitting and Absorption in Sparse Autoencoders</a> <a class="ref" href="#c6">Sanity Checks for Sparse Autoencoders: Do SAEs Beat Random Baselines?</a> <a class="ref" href="#c7">Are Sparse Autoencoder Benchmarks Reliable?</a></p>
+<p><strong>Редакторское предложение.</strong> Отдельно подписывать качество реконструкции, интерпретацию человеком и causal effect. Не объединять их в доказательство полного понимания модели. </p>
+<h2>Открытые вопросы и следующие эксперименты</h2>
+<p><strong>Редакторское предложение.</strong> Можно ли разработать оценку признаков, которая отличает обученный SAE от сильного случайного baseline и предсказывает успех целевого causal editing? Нужны заранее отложенные задачи и неизменяемый протокол. </p>
+<p><strong>Редакторское предложение.</strong> Как стабильно сопоставлять признаки разных seeds и ширин при splitting/absorption? Проверка должна учитывать наборы признаков и вмешательства, а не только cosine similarity одного latent. </p>
+<h2>Маршрут чтения</h2>
+<p><strong>Редакторское предложение.</strong> Сначала прочитайте первые две работы из таблицы: они задают понятия и способ измерения. Затем сравните методы в середине списка с критическими и более поздними исследованиями. Цель — понять, какое предположение меняется и что именно измеряется. </p>
+<p><strong>Редакторское предложение.</strong> Для каждой работы выпишите объект переноса или оценки, используемый baseline, единицу тестирования, условия успеха и способ проверки. Цифры без этих полей недостаточны для выбора метода. Ссылки [n] раскрывают карточки доказательств; оттуда можно открыть раздел первоисточника. </p>
+</section><section id='concepts'><h2>Понятия</h2>
+<details><summary>Faithfulness</summary>
+<p>Точность относительно явно выбранного объекта: активаций, поведения или вычислительного пути. <a class="ref" href="#c3">Identifying Functionally Important Features with End-to-End Sparse Dictionary Learning</a></p>
+</details>
+<details><summary>Feature absorption</summary>
+<p>Информация о концепте проявляется в другом latent, пока ожидаемый latent не активируется. <a class="ref" href="#c4">A is for Absorption: Studying Feature Splitting and Absorption in Sparse Autoencoders</a></p>
+</details>
+</section><section id='papers'><h2>Статьи и доказательства</h2>
+<h3>Sparse Autoencoders Find Highly Interpretable Features in Language Models</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c1"><strong>source_finding</strong><p>Sparse dictionary learning представляет активации модели разреженной комбинацией направлений. Это даёт кандидатов на интерпретируемые признаки при суперпозиции, но само по себе не устанавливает, что каждый latent является истинной вычислительной переменной модели.</p>
+<p><small>Условия: Активации языковой модели; разреженный словарь шире исходного пространства.</small></p>
+<p><small>Авторские ограничения: Разложение зависит от модели, слоя, данных, ширины и sparsity; гипотеза о признаках требует дополнительной проверки.</small></p>
+<blockquote>To take network features out of superposition, we employ</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2309.08600v3#S2">S2 — 2 Taking Features out of Superposition with Sparse Dictionary Learning; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2309.08600v3">Первоисточник</a></p>
+</article>
+<h3>Scaling and evaluating sparse autoencoders</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c2"><strong>source_finding</strong><p>TopK SAE явно ограничивает число активных latents. Работа о масштабировании рассматривает не только reconstruction/sparsity, но и downstream loss, восстановление известных признаков и объяснимость.</p>
+<p><small>Условия: TopK activation и выбранный слой модели; различные размеры словаря и sparsity.</small></p>
+<p><small>Авторские ограничения: Лучший reconstruction trade-off не доказывает полноту механистического объяснения.</small></p>
+<blockquote>directly controls the number of active latents</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2406.04093v1#S2.SS3">S2.SS3 — 2.3 TopK activation function; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2406.04093v1">Первоисточник</a></p>
+</article>
+<h3>Identifying Functionally Important Features with End-to-End Sparse Dictionary Learning</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c3"><strong>source_finding</strong><p>End-to-end dictionary learning обучает разложение по влиянию на выход модели. Авторы показывают, что близкое выходное распределение может сочетаться с иным путём активаций; downstream reconstruction вводится как дополнительное ограничение.</p>
+<p><small>Условия: Сравнение local, e2e и e2e+downstream objectives; GPT2-small и TinyStories в экспериментах.</small></p>
+<p><small>Авторские ограничения: Сохранить поведение на тестовых примерах недостаточно, чтобы доказать сохранение исходного вычислительного механизма.</small></p>
+<blockquote>have much worse reconstruction error</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2405.12241v2#S3.SS2">S3.SS2 — 3.2 End-to-end SAEs have worse reconstruction loss at each layer despite similar output distributions; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2405.12241v2">Первоисточник</a></p>
+</article>
+<h3>A is for Absorption: Studying Feature Splitting and Absorption in Sparse Autoencoders</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c4"><strong>source_finding</strong><p>Feature absorption показывает случай, когда ожидаемый признак не активируется, а информация о нём представлена другим latent. Красивое объяснение активных примеров может скрывать пропуски и распределённое причинное влияние.</p>
+<p><small>Условия: Признаки первой буквы токена; конкретные Gemma Scope SAEs, probes и ablations.</small></p>
+<p><small>Авторские ограничения: Один тестовый класс признаков не исчерпывает все семантические и вычислительные признаки.</small></p>
+<blockquote>The Gemma Scope layer 3, 16k width, 59 L0</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2409.14507v6#S5.SS2">S5.SS2 — 5.2 Why do SAE latents underperform?; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2409.14507v6">Первоисточник</a></p>
+</article>
+<h3>SAEBench: A Comprehensive Benchmark for Sparse Autoencoders in Language Model Interpretability</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c5"><strong>source_finding</strong><p>SAEBench разделяет обнаружение концептов, интерпретируемость, реконструкцию и disentanglement. Такой набор выявляет компромиссы, которые скрывает оптимизация одной proxy-метрики.</p>
+<p><small>Условия: Несколько архитектур, ширин и уровней sparsity; заданные модели и слои.</small></p>
+<p><small>Авторские ограничения: Сами benchmark-метрики являются измерительными инструментами и тоже требуют проверки валидности.</small></p>
+<blockquote>Effective sparse autoencoders should excel across multiple dimensions: they</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2503.09532v4#S3.SS1">S3.SS1 — 3.1 Metrics; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2503.09532v4">Первоисточник</a></p>
+</article>
+<h3>Sanity Checks for Sparse Autoencoders: Do SAEs Beat Random Baselines?</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c6"><strong>source_finding</strong><p>Sanity Checks сравнивает обученные SAEs с вариантами, где компоненты заморожены случайно. Сопоставимые benchmark-результаты в этих условиях ставят под сомнение достаточность распространённых тестов для доказательства восстановления содержательных признаков.</p>
+<p><small>Условия: Синтетические ground-truth признаки и реальные активации; отдельные frozen-component baselines.</small></p>
+<p><small>Авторские ограничения: Синтетическая независимость признаков упрощает задачу; выводы не переносятся автоматически на transcoders и crosscoders.</small></p>
+<blockquote>Our results, summarized in Figures 3 to 5, show</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2602.14111v2#S4.SS2">S4.SS2 — 4.2 Results; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2602.14111v2">Первоисточник</a></p>
+</article>
+<h3>Are Sparse Autoencoder Benchmarks Reliable?</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c7"><strong>source_finding</strong><p>Аудит SAE benchmarks повторяет оценки одного SAE с разными seeds и изучает шум метрик. Нестабильная метрика может создавать видимый прогресс без надёжного различения вариантов модели.</p>
+<p><small>Условия: Повторные независимые evaluation seeds; Gemma Scope SAE и дополнительные архитектуры.</small></p>
+<p><small>Авторские ограничения: Малые различия нельзя интерпретировать без масштаба шума и чувствительности метрики.</small></p>
+<blockquote>To measure reseed noise we ran each SAEBench evaluation</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2605.18229v1#S3">S3 — 3 Reseed noise on a real LLM SAE; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2605.18229v1">Первоисточник</a></p>
+</article>
+</section><footer><h2>Ограничения</h2>
+<p>Целенаправленный обзор выбранного подвопроса; полный охват направления и актуальный SOTA-рейтинг не заявляются.</p>
+<p>Разобраны выбранные фрагменты полных текстов, а не все приложения и доказательства. Цитаты сверены с сохранёнными HTML.</p>
+<p>Результаты принадлежат авторам статей. Собственные эксперименты и независимая экспертная рецензия не выполнялись.</p>
+<p>Автоматический поиск добавляет только кандидатов; он не подтверждает их качество и не обновляет выводы этого обзора.</p>
+</footer></main></html>

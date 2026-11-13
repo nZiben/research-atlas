@@ -1,0 +1,130 @@
+<!doctype html><html lang='ru'><meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta http-equiv='Content-Security-Policy' content="default-src 'none'; style-src 'unsafe-inline'">
+<title>VLA и перенос между роботами: что именно обобщается</title>
+<style>body{margin:0;background:#f6f5f1;color:#202a31;font:17px/1.65 system-ui,sans-serif}main{max-width:960px;margin:auto;padding:48px 24px}h1{font-size:2.5em;line-height:1.15}h2{margin-top:2.5em}a{color:#176a70}.ref{font-size:.76em}nav{display:flex;gap:16px;flex-wrap:wrap}details{background:white;border:1px solid #dbe0dd;border-radius:8px;padding:16px;margin:12px 0}summary{cursor:pointer;font-weight:650}small,.muted{color:#5c676d}.badge{display:inline-block;background:#ffe5aa;border-radius:4px;padding:3px 9px}article{border-top:1px solid #ddd;padding:12px 0;scroll-margin-top:20px}blockquote{border-left:3px solid #c4d6cf;padding-left:16px}code{overflow-wrap:anywhere}footer{margin-top:50px;border-top:1px solid #ccc}</style><main>
+<span class='badge'>Редакционный выпуск · ограничения указаны ниже</span><h1>VLA и перенос между роботами: что именно обобщается</h1>
+<p class='muted'>2026-11-13 · 7 работ</p>
+<nav><a href='#review'>Обзор</a><a href='#concepts'>Понятия</a><a href='#papers'>Статьи и доказательства</a><a href='references.bib'>BibTeX</a></nav>
+<h2>Границы и вопросы</h2><p>VLA и перенос между роботами: что именно обобщается</p><ul>
+<li>Что именно переносится между embodiment, задачами и средами?</li>
+<li>Какие реальные роботические эксперименты подтверждают перенос и где он нарушается?</li>
+</ul><section id='review'>
+<h2>За минуту: главный вопрос и вывод</h2>
+<p>Перенос VLA бывает разным: новые объекты, задачи, камеры, action interface или физически новый робот. Успех в одном случае не доказывает остальные. <a class="ref" href="#c1">RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control</a> <a class="ref" href="#c3">Octo: An Open-Source Generalist Robot Policy</a> <a class="ref" href="#c6">ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop Manipulation</a></p>
+<p>Multi-robot pretraining, дискретные action tokens, непрерывные action heads и факторизованные действия решают разные части задачи. <a class="ref" href="#c2">Open X-Embodiment: Robotic Learning Datasets and RT-X Models</a> <a class="ref" href="#c4">OpenVLA: An Open-Source Vision-Language-Action Model</a> <a class="ref" href="#c5">$π_0$: A Vision-Language-Action Flow Model for General Robot Control</a> <a class="ref" href="#c7">EXE: Egocentric Cross-Embodiment Pretraining via Factorized Latent Actions for VLA Models</a></p>
+<p>Главная проверка — какие данные target были доступны и какие факторы изменились между обучением и тестом. <a class="ref" href="#c3">Octo: An Open-Source Generalist Robot Policy</a> <a class="ref" href="#c6">ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop Manipulation</a></p>
+<h2>Границы и отбор источников</h2>
+<p><strong>Редакторское предложение.</strong> Обзор подготовлен 13 ноября 2026 года по выбранным фрагментам полных HTML-текстов 7 работ. Это узкий фокус внутри направления, а не энциклопедия всей области и не систематический поиск. Количество источников в общем каталоге не означает, что все они прочитаны. </p>
+<p><strong>Редакторское предложение.</strong> Отбор целенаправленный: основные постановки задачи, различные семейства методов и работы, проверяющие их ограничения. Точные версии, локаторы и SHA-256 прочитанных HTML сохранены в JSON. Короткая цитата служит поисковым якорем; вывод следует сверять с контекстом раздела. Независимая экспертная рецензия и воспроизведение экспериментов не выполнялись. </p>
+<h2>Понятия и механизм: что именно проверяется</h2>
+<p>Embodiment включает кинематику, actuator/control interface, сенсоры и допустимые действия. Даже общая семантика команды не устраняет необходимость согласовать эти элементы. <a class="ref" href="#c1">RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control</a> <a class="ref" href="#c4">OpenVLA: An Open-Source Vision-Language-Action Model</a> <a class="ref" href="#c6">ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop Manipulation</a></p>
+<p>Zero-shot требует явного определения: target мог отсутствовать только в fine-tuning либо во всём обучении. Эти определения дают разную силу утверждения о переносе. <a class="ref" href="#c3">Octo: An Open-Source Generalist Robot Policy</a> <a class="ref" href="#c6">ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop Manipulation</a></p>
+<h2>Подходы и свидетельства из работ</h2>
+<p>RT-2 представляет robot actions как дискретные токены и обучает vision-language модель выдавать их. Перенос знаний из web data в роботическое управление не следует путать с доказанным zero-shot переносом на любой новый embodiment. <a class="ref" href="#c1">RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control</a></p>
+<p>Open X-Embodiment объединяет роботические данные и оценивает положительный перенос при co-training, новые задачи и влияние дизайна смеси. Это разные исследовательские вопросы с разными контрольными условиями. <a class="ref" href="#c2">Open X-Embodiment: Robotic Learning Datasets and RT-X Models</a></p>
+<p>Octo различает out-of-the-box управление знакомыми по pretraining setup и data-efficient fine-tuning к новым наблюдениям, действиям и embodiment. Эти режимы нельзя объединять под одним словом generalization. <a class="ref" href="#c3">Octo: An Open-Source Generalist Robot Policy</a></p>
+<p>OpenVLA дообучает VLM для предсказания действий и дискретизирует каждую непрерывную action dimension по распределению обучающих данных. Нормализация и action representation являются частью переносимой системы. <a class="ref" href="#c4">OpenVLA: An Open-Source Vision-Language-Action Model</a></p>
+<p>π0 использует conditional flow matching для непрерывного распределения действий вместе с VLM backbone и proprioception. Выбор непрерывной action head меняет механизм генерации управления. <a class="ref" href="#c5">$π_0$: A Vision-Language-Action Flow Model for General Robot Control</a></p>
+<p>ZETA различает strict zero-shot и случай, когда target был виден в pretraining, но не post-training. Исследование старается отделить embodiment shift от изменений сцены, камеры, задачи и бюджета данных. <a class="ref" href="#c6">ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop Manipulation</a></p>
+<p>EXE разделяет positional и embodiment-specific kinematic части latent actions. Далее использует совместное pretraining на human video и robot demonstrations перед VLA fine-tuning. <a class="ref" href="#c7">EXE: Egocentric Cross-Embodiment Pretraining via Factorized Latent Actions for VLA Models</a></p>
+<h2>Сравнение работ и условий</h2>
+<p><strong>Редакторское предложение.</strong> Таблица разделяет постановки, механизмы и границы выводов. Она не ранжирует работы по несопоставимым числам. Улучшение показателя в конкретной статье не доказывает преимущество во всех моделях, данных и режимах. </p>
+<div style="overflow-x:auto"><table><thead><tr><th>Работа</th><th>Механизм</th><th>Гарантия</th><th>Условия</th></tr></thead><tbody>
+<tr><td>RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control <a href="#c1">источник</a></td><td>VLM → action tokens</td><td>Семантический перенос и embodiment transfer различны</td><td>Action space задаётся end-effector перемещением, gripper и termination; robot data сочетаются с VLM data.</td></tr>
+<tr><td>Open X-Embodiment: Robotic Learning Datasets and RT-X Models <a href="#c2">источник</a></td><td>Смесь multi-robot данных</td><td>Экспозиция target в pretraining должна быть известна</td><td>Мульти-роботические демонстрации; RT-X и консолидация формата данных.</td></tr>
+<tr><td>Octo: An Open-Source Generalist Robot Policy <a href="#c3">источник</a></td><td>Модульная generalist policy</td><td>Zero-shot и адаптация измеряются раздельно</td><td>Модульная transformer policy; zero-shot и fine-tuning проверяются отдельно.</td></tr>
+<tr><td>OpenVLA: An Open-Source Vision-Language-Action Model <a href="#c4">источник</a></td><td>Открытая VLA с action tokens</td><td>Интерфейс управления входит в предпосылки</td><td>Prismatic backbone, изображения и языковая инструкция; дискретные action tokens.</td></tr>
+<tr><td>$π_0$: A Vision-Language-Action Flow Model for General Robot Control <a href="#c5">источник</a></td><td>Непрерывная flow action head</td><td>Режим адаптации и control loop существенны</td><td>Преобучение и post-training; сравнения base policy и downstream adaptation различаются.</td></tr>
+<tr><td>ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop Manipulation <a href="#c6">источник</a></td><td>Контроль факторов переноса</td><td>Строгое определение zero-shot</td><td>Согласованные задачи; appearance-, gripper-, arm- и full-embodiment shifts.</td></tr>
+<tr><td>EXE: Egocentric Cross-Embodiment Pretraining via Factorized Latent Actions for VLA Models <a href="#c7">источник</a></td><td>Факторизация latent actions</td><td>Representation transfer проверяется с абляциями данных</td><td>Трёхстадийное обучение; отдельные shared и kinematic codebooks.</td></tr>
+</tbody></table></div>
+<h2>Разногласия, ограничения и ложные обобщения</h2>
+<p>Web knowledge transfer RT-2 и cross-embodiment transfer не являются синонимами. Первое может улучшать семантическую реакцию в прежнем control setup. <a class="ref" href="#c1">RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control</a></p>
+<p>Сравнение generalist policy и fine-tuned specialist без учёта целевых демонстраций смешивает режимы обучения. <a class="ref" href="#c3">Octo: An Open-Source Generalist Robot Policy</a> <a class="ref" href="#c5">$π_0$: A Vision-Language-Action Flow Model for General Robot Control</a></p>
+<p>Новая action representation и дополнительные данные могут давать совместный эффект. Без абляций нельзя приписывать весь прирост только архитектуре. <a class="ref" href="#c2">Open X-Embodiment: Robotic Learning Datasets and RT-X Models</a> <a class="ref" href="#c7">EXE: Egocentric Cross-Embodiment Pretraining via Factorized Latent Actions for VLA Models</a></p>
+<h2>Как читать результаты и проверить подход у себя</h2>
+<p><strong>Редакторское предложение.</strong> Зафиксировать robot, sensors, control frequency, action representation, normalization, task definition и все стадии обучения. Для target отдельно перечислить доступные демонстрации и присутствие в pretraining. </p>
+<p><strong>Редакторское предложение.</strong> Сравнивать при одинаковом task/data budget; повторять испытания на согласованных состояниях и сообщать критерий успеха, число попыток, разброс и опасные ошибки. Здесь эксперименты с роботами не запускались. </p>
+<h2>Открытые вопросы и следующие эксперименты</h2>
+<p><strong>Редакторское предложение.</strong> Что даёт перенос на невиданный embodiment при неизменных задачах и сценах? Нужен leave-one-embodiment-out протокол и проверка всей цепочки pretraining. </p>
+<p><strong>Редакторское предложение.</strong> Улучшает ли факторизация action space перенос при фиксированной смеси данных? Нужны раздельные абляции codebooks, объёма human video и target demonstrations. </p>
+<h2>Маршрут чтения</h2>
+<p><strong>Редакторское предложение.</strong> Сначала прочитайте первые две работы из таблицы: они задают понятия и способ измерения. Затем сравните методы в середине списка с критическими и более поздними исследованиями. Цель — понять, какое предположение меняется и что именно измеряется. </p>
+<p><strong>Редакторское предложение.</strong> Для каждой работы выпишите объект переноса или оценки, используемый baseline, единицу тестирования, условия успеха и способ проверки. Цифры без этих полей недостаточны для выбора метода. Ссылки [n] раскрывают карточки доказательств; оттуда можно открыть раздел первоисточника. </p>
+</section><section id='concepts'><h2>Понятия</h2>
+<details><summary>Embodiment shift</summary>
+<p>Изменение робота или его наблюдательно-управляющего интерфейса, отделяемое от смены задачи. <a class="ref" href="#c6">ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop Manipulation</a></p>
+</details>
+<details><summary>Action representation</summary>
+<p>Способ связать выход модели с управлением: дискретные токены, непрерывные головы либо latent actions. <a class="ref" href="#c4">OpenVLA: An Open-Source Vision-Language-Action Model</a> <a class="ref" href="#c5">$π_0$: A Vision-Language-Action Flow Model for General Robot Control</a> <a class="ref" href="#c7">EXE: Egocentric Cross-Embodiment Pretraining via Factorized Latent Actions for VLA Models</a></p>
+</details>
+</section><section id='papers'><h2>Статьи и доказательства</h2>
+<h3>RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c1"><strong>source_finding</strong><p>RT-2 представляет robot actions как дискретные токены и обучает vision-language модель выдавать их. Перенос знаний из web data в роботическое управление не следует путать с доказанным zero-shot переносом на любой новый embodiment.</p>
+<p><small>Условия: Action space задаётся end-effector перемещением, gripper и termination; robot data сочетаются с VLM data.</small></p>
+<p><small>Авторские ограничения: Обобщение на объекты и фоны не равно смене кинематики или интерфейса управления.</small></p>
+<blockquote>To enable vision-language models to control a robot, they</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2307.15818v1#S3.SS2">S3.SS2 — 3.2 Robot-Action Fine-tuning; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2307.15818v1">Первоисточник</a></p>
+</article>
+<h3>Open X-Embodiment: Robotic Learning Datasets and RT-X Models</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c2"><strong>source_finding</strong><p>Open X-Embodiment объединяет роботические данные и оценивает положительный перенос при co-training, новые задачи и влияние дизайна смеси. Это разные исследовательские вопросы с разными контрольными условиями.</p>
+<p><small>Условия: Мульти-роботические демонстрации; RT-X и консолидация формата данных.</small></p>
+<p><small>Авторские ограничения: Сам факт обучения на многих роботах не доказывает перенос на робота, полностью исключённого из обучения.</small></p>
+<blockquote>Our experiments answer three questions about the effect of</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2310.08864v1#S5">S5 — V Experimental Results; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2310.08864v1">Первоисточник</a></p>
+</article>
+<h3>Octo: An Open-Source Generalist Robot Policy</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c3"><strong>source_finding</strong><p>Octo различает out-of-the-box управление знакомыми по pretraining setup и data-efficient fine-tuning к новым наблюдениям, действиям и embodiment. Эти режимы нельзя объединять под одним словом generalization.</p>
+<p><small>Условия: Модульная transformer policy; zero-shot и fine-tuning проверяются отдельно.</small></p>
+<p><small>Авторские ограничения: Сравнение должно учитывать целевые демонстрации и изменения observation/action interfaces.</small></p>
+<blockquote>We evaluate Octo’s capabilities across a representative spectrum of</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2405.12213v1#S4.SS0.SSS0.Px1">S4.SS0.SSS0.Px1 — Evaluation setups; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2405.12213v1">Первоисточник</a></p>
+</article>
+<h3>OpenVLA: An Open-Source Vision-Language-Action Model</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c4"><strong>source_finding</strong><p>OpenVLA дообучает VLM для предсказания действий и дискретизирует каждую непрерывную action dimension по распределению обучающих данных. Нормализация и action representation являются частью переносимой системы.</p>
+<p><small>Условия: Prismatic backbone, изображения и языковая инструкция; дискретные action tokens.</small></p>
+<p><small>Авторские ограничения: Перенос требует согласования action space, статистик нормализации и доступных наблюдений.</small></p>
+<blockquote>To train OpenVLA, we fine-tune a pretrained Prismatic-7B VLM</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2406.09246v3#S3.SS2">S3.SS2 — 3.2 OpenVLA Training Procedure; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2406.09246v3">Первоисточник</a></p>
+</article>
+<h3>$π_0$: A Vision-Language-Action Flow Model for General Robot Control</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c5"><strong>source_finding</strong><p>π0 использует conditional flow matching для непрерывного распределения действий вместе с VLM backbone и proprioception. Выбор непрерывной action head меняет механизм генерации управления.</p>
+<p><small>Условия: Преобучение и post-training; сравнения base policy и downstream adaptation различаются.</small></p>
+<p><small>Авторские ограничения: Нужно учитывать action chunk, частоту управления и целевые данные, а не только размер backbone.</small></p>
+<blockquote>uses conditional flow matching</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2410.24164v1#S4">S4 — IV The π0\pi_{0} Model; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2410.24164v1">Первоисточник</a></p>
+</article>
+<h3>ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop Manipulation</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c6"><strong>source_finding</strong><p>ZETA различает strict zero-shot и случай, когда target был виден в pretraining, но не post-training. Исследование старается отделить embodiment shift от изменений сцены, камеры, задачи и бюджета данных.</p>
+<p><small>Условия: Согласованные задачи; appearance-, gripper-, arm- и full-embodiment shifts.</small></p>
+<p><small>Авторские ограничения: Контролируемый tabletop протокол не исчерпывает другие роботы и среды.</small></p>
+<blockquote>Prior benchmarks and studies examine cross-embodiment generalization, including manipulation</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.02546v3#S2.SS3">S2.SS3 — 2.3 Zero-Shot Cross-Embodiment Evaluation and Benchmarks; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2609.02546v3">Первоисточник</a></p>
+</article>
+<h3>EXE: Egocentric Cross-Embodiment Pretraining via Factorized Latent Actions for VLA Models</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c7"><strong>source_finding</strong><p>EXE разделяет positional и embodiment-specific kinematic части latent actions. Далее использует совместное pretraining на human video и robot demonstrations перед VLA fine-tuning.</p>
+<p><small>Условия: Трёхстадийное обучение; отдельные shared и kinematic codebooks.</small></p>
+<p><small>Авторские ограничения: Нужно отделять вклад представления от объёма human/robot data и downstream обучения.</small></p>
+<blockquote>EXE transfers manipulation knowledge from egocentric human video to</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.33685v1#S3">S3 — III Method; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2610.33685v1">Первоисточник</a></p>
+</article>
+</section><footer><h2>Ограничения</h2>
+<p>Целенаправленный обзор выбранного подвопроса; полный охват направления и актуальный SOTA-рейтинг не заявляются.</p>
+<p>Разобраны выбранные фрагменты полных текстов, а не все приложения и доказательства. Цитаты сверены с сохранёнными HTML.</p>
+<p>Результаты принадлежат авторам статей. Собственные эксперименты и независимая экспертная рецензия не выполнялись.</p>
+<p>Автоматический поиск добавляет только кандидатов; он не подтверждает их качество и не обновляет выводы этого обзора.</p>
+</footer></main></html>

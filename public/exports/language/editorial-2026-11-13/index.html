@@ -1,0 +1,130 @@
+<!doctype html><html lang='ru'><meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta http-equiv='Content-Security-Policy' content="default-src 'none'; style-src 'unsafe-inline'">
+<title>Длинный контекст LLM: поиск фактов, рассуждение и позиционные провалы</title>
+<style>body{margin:0;background:#f6f5f1;color:#202a31;font:17px/1.65 system-ui,sans-serif}main{max-width:960px;margin:auto;padding:48px 24px}h1{font-size:2.5em;line-height:1.15}h2{margin-top:2.5em}a{color:#176a70}.ref{font-size:.76em}nav{display:flex;gap:16px;flex-wrap:wrap}details{background:white;border:1px solid #dbe0dd;border-radius:8px;padding:16px;margin:12px 0}summary{cursor:pointer;font-weight:650}small,.muted{color:#5c676d}.badge{display:inline-block;background:#ffe5aa;border-radius:4px;padding:3px 9px}article{border-top:1px solid #ddd;padding:12px 0;scroll-margin-top:20px}blockquote{border-left:3px solid #c4d6cf;padding-left:16px}code{overflow-wrap:anywhere}footer{margin-top:50px;border-top:1px solid #ccc}</style><main>
+<span class='badge'>Редакционный выпуск · ограничения указаны ниже</span><h1>Длинный контекст LLM: поиск фактов, рассуждение и позиционные провалы</h1>
+<p class='muted'>2026-11-13 · 7 работ</p>
+<nav><a href='#review'>Обзор</a><a href='#concepts'>Понятия</a><a href='#papers'>Статьи и доказательства</a><a href='references.bib'>BibTeX</a></nav>
+<h2>Границы и вопросы</h2><p>Длинный контекст LLM: поиск фактов, рассуждение и позиционные провалы</p><ul>
+<li>Что измеряют тесты long-context reasoning сверх простого поиска фрагмента?</li>
+<li>Как длина контекста и расположение данных влияют на надёжность вывода?</li>
+</ul><section id='review'>
+<h2>За минуту: главный вопрос и вывод</h2>
+<p>Длинное окно означает возможность подать много токенов. Умение найти нужные фрагменты, связать их и правильно ответить — отдельные способности. <a class="ref" href="#c1">Lost in the Middle: How Language Models Use Long Contexts</a> <a class="ref" href="#c3">RULER: What&#x27;s the Real Context Size of Your Long-Context Language Models?</a> <a class="ref" href="#c4">BABILong: Testing the Limits of LLMs with Long Context Reasoning-in-a-Haystack</a></p>
+<p>Проверять стоит не одно число context length, а зависимость качества от позиции, объёма и разброса evidence, глубины задачи и количества отвлекающего текста. <a class="ref" href="#c6">Positional Failures in Long-Context LLMs: A Blind Spot in Reasoning Benchmarks</a> <a class="ref" href="#c7">Beyond Context Length: Characterising the Difficulty of Long-Context Reasoning</a></p>
+<p>Надёжная оценка сочетает контролируемые диагностики с многозадачными данными и разбивкой ошибок. <a class="ref" href="#c2">LongBench: A Bilingual, Multitask Benchmark for Long Context Understanding</a> <a class="ref" href="#c3">RULER: What&#x27;s the Real Context Size of Your Long-Context Language Models?</a></p>
+<h2>Границы и отбор источников</h2>
+<p><strong>Редакторское предложение.</strong> Обзор подготовлен 13 ноября 2026 года по выбранным фрагментам полных HTML-текстов 7 работ. Это узкий фокус внутри направления, а не энциклопедия всей области и не систематический поиск. Количество источников в общем каталоге не означает, что все они прочитаны. </p>
+<p><strong>Редакторское предложение.</strong> Отбор целенаправленный: основные постановки задачи, различные семейства методов и работы, проверяющие их ограничения. Точные версии, локаторы и SHA-256 прочитанных HTML сохранены в JSON. Короткая цитата служит поисковым якорем; вывод следует сверять с контекстом раздела. Независимая экспертная рецензия и воспроизведение экспериментов не выполнялись. </p>
+<h2>Понятия и механизм: что именно проверяется</h2>
+<p>Retrieval может найти один фрагмент без рассуждения. Multi-hop задача требует собрать несколько посылок и применить связи между ними; провал может возникнуть на любом этапе. <a class="ref" href="#c3">RULER: What&#x27;s the Real Context Size of Your Long-Context Language Models?</a> <a class="ref" href="#c4">BABILong: Testing the Limits of LLMs with Long Context Reasoning-in-a-Haystack</a></p>
+<p>Для анализа полезно различать общий объём контекста и требуемый evidence: длина может расти за счёт distractors либо за счёт числа необходимых посылок. <a class="ref" href="#c5">LongReason: A Synthetic Long-Context Reasoning Benchmark via Context Expansion</a> <a class="ref" href="#c7">Beyond Context Length: Characterising the Difficulty of Long-Context Reasoning</a></p>
+<h2>Подходы и свидетельства из работ</h2>
+<p>Lost in the Middle меняет положение релевантного документа при сохранении вопроса и наблюдает зависимость качества от позиции. Заявленная длина окна поэтому не равна эффективному использованию всех его частей. <a class="ref" href="#c1">Lost in the Middle: How Language Models Use Long Contexts</a></p>
+<p>LongBench объединяет разные задачи и языки в общую схему input, context, answer. Такой набор расширяет проверку за пределы одной retrieval-задачи, но требует разбирать результаты по типам задач. <a class="ref" href="#c2">LongBench: A Bilingual, Multitask Benchmark for Long Context Understanding</a></p>
+<p>RULER добавляет к needle retrieval multi-hop tracing, aggregation и QA. Авторы показывают, что прохождение простого needle-теста не гарантирует устойчивости на этих задачах при росте длины. <a class="ref" href="#c3">RULER: What&#x27;s the Real Context Size of Your Long-Context Language Models?</a></p>
+<p>BABILong помещает необходимые для рассуждения факты среди длинного отвлекающего текста. Важны и нахождение распределённых фактов, и выполнение операции над ними. <a class="ref" href="#c4">BABILong: Testing the Limits of LLMs with Long Context Reasoning-in-a-Haystack</a></p>
+<p>LongReason расширяет короткие reasoning-вопросы в длинные контексты, стараясь сохранить необходимую для ответа цепочку. Сложность определяется не только количеством токенов, но и тем, как построены релевантные и отвлекающие части. <a class="ref" href="#c5">LongReason: A Synthetic Long-Context Reasoning Benchmark via Context Expansion</a></p>
+<p>Positional Failures проверяет положение reasoning-задач внутри заполненного контекста. Авторы различают основной math-протокол и ограниченную вспомогательную проверку другого формата. <a class="ref" href="#c6">Positional Failures in Long-Context LLMs: A Blind Spot in Reasoning Benchmarks</a></p>
+<p>Beyond Context Length дополнительно описывает evidence scope, evidence dispersion и reasoning depth. Два вопроса одинаковой длины могут различаться количеством необходимых фактов, их разбросом и глубиной связи. <a class="ref" href="#c7">Beyond Context Length: Characterising the Difficulty of Long-Context Reasoning</a></p>
+<h2>Сравнение работ и условий</h2>
+<p><strong>Редакторское предложение.</strong> Таблица разделяет постановки, механизмы и границы выводов. Она не ранжирует работы по несопоставимым числам. Улучшение показателя в конкретной статье не доказывает преимущество во всех моделях, данных и режимах. </p>
+<div style="overflow-x:auto"><table><thead><tr><th>Работа</th><th>Механизм</th><th>Гарантия</th><th>Условия</th></tr></thead><tbody>
+<tr><td>Lost in the Middle: How Language Models Use Long Contexts <a href="#c1">источник</a></td><td>Перестановка evidence</td><td>Измеряется использование контекста, а не размер окна</td><td>Multi-document QA и отдельная key-value задача; позиции evidence варьируются контролируемо.</td></tr>
+<tr><td>LongBench: A Bilingual, Multitask Benchmark for Long Context Understanding <a href="#c2">источник</a></td><td>Многозадачная оценка</td><td>Нужно сохранять task-level breakdown</td><td>Билингвальные и многозадачные данные; LongBench и LongBench-E имеют разные способы организации.</td></tr>
+<tr><td>RULER: What&#x27;s the Real Context Size of Your Long-Context Language Models? <a href="#c3">источник</a></td><td>Контролируемые диагностические задачи</td><td>Простой retrieval не доказывает reasoning</td><td>Синтетические задачи с управляемой длиной; фиксированный набор моделей и протоколов.</td></tr>
+<tr><td>BABILong: Testing the Limits of LLMs with Long Context Reasoning-in-a-Haystack <a href="#c4">источник</a></td><td>Reasoning-in-a-haystack</td><td>Разделяются поиск свидетельств и решение задачи</td><td>Различные bAbI-задачи и размеры haystack; отдельные long-context и retrieval-режимы.</td></tr>
+<tr><td>LongReason: A Synthetic Long-Context Reasoning Benchmark via Context Expansion <a href="#c5">источник</a></td><td>Расширение reasoning-контекста</td><td>Валидность зависит от сохранения исходной задачи</td><td>Синтетическое расширение; закрытые multiple-choice ответы и выбранные reasoning domains.</td></tr>
+<tr><td>Positional Failures in Long-Context LLMs: A Blind Spot in Reasoning Benchmarks <a href="#c6">источник</a></td><td>Позиционные stress tests</td><td>Мощность проверки и формат ответа существенны</td><td>GSM8K и ARC-Challenge; контроль filler, длины и позиции.</td></tr>
+<tr><td>Beyond Context Length: Characterising the Difficulty of Long-Context Reasoning <a href="#c7">источник</a></td><td>Характеристики evidence и глубины</td><td>Длина — одна из нескольких осей сложности</td><td>LURCH: evidence annotation и reasoning graphs; анализ при контроле длины.</td></tr>
+</tbody></table></div>
+<h2>Разногласия, ограничения и ложные обобщения</h2>
+<p>Высокий needle score и низкий reasoning score совместимы: задачи требуют разных операций. Это не основание игнорировать один из результатов. <a class="ref" href="#c3">RULER: What&#x27;s the Real Context Size of Your Long-Context Language Models?</a> <a class="ref" href="#c4">BABILong: Testing the Limits of LLMs with Long Context Reasoning-in-a-Haystack</a></p>
+<p>Позиционные эффекты нужно проверять на конкретной модели и задаче; исторический эффект нельзя автоматически переносить на все новые модели. <a class="ref" href="#c1">Lost in the Middle: How Language Models Use Long Contexts</a> <a class="ref" href="#c6">Positional Failures in Long-Context LLMs: A Blind Spot in Reasoning Benchmarks</a></p>
+<p><strong>Редакторское предложение.</strong> Средние результаты разных benchmarks несопоставимы без контроля задачи, tokenizer, truncation и формата ответа. </p>
+<h2>Как читать результаты и проверить подход у себя</h2>
+<p><strong>Редакторское предложение.</strong> Построить матрицу: длина × позиция evidence × число посылок × distractors. Сохранять фактическую токенизацию и проверять, что вход не был скрыто обрезан. </p>
+<p><strong>Редакторское предложение.</strong> Сравнить полный контекст с retrieval при одинаковом доступном evidence и явно учтённом бюджете. Разбирать ошибки поиска отдельно от ошибок reasoning. </p>
+<h2>Открытые вопросы и следующие эксперименты</h2>
+<p><strong>Редакторское предложение.</strong> Сохраняется ли качество при перестановке и перефразировании тех же посылок? Это проверяется matched pairs, а не подборкой разных вопросов. </p>
+<p><strong>Редакторское предложение.</strong> Может ли evidence-aware селектор уменьшить стоимость, сохраняя все необходимые посылки? Нужны одновременно полнота evidence, качество ответа и стоимость. </p>
+<h2>Маршрут чтения</h2>
+<p><strong>Редакторское предложение.</strong> Сначала прочитайте первые две работы из таблицы: они задают понятия и способ измерения. Затем сравните методы в середине списка с критическими и более поздними исследованиями. Цель — понять, какое предположение меняется и что именно измеряется. </p>
+<p><strong>Редакторское предложение.</strong> Для каждой работы выпишите объект переноса или оценки, используемый baseline, единицу тестирования, условия успеха и способ проверки. Цифры без этих полей недостаточны для выбора метода. Ссылки [n] раскрывают карточки доказательств; оттуда можно открыть раздел первоисточника. </p>
+</section><section id='concepts'><h2>Понятия</h2>
+<details><summary>Эффективный контекст</summary>
+<p>Область длин и условий, в которой модель действительно решает выбранную задачу. <a class="ref" href="#c1">Lost in the Middle: How Language Models Use Long Contexts</a> <a class="ref" href="#c3">RULER: What&#x27;s the Real Context Size of Your Long-Context Language Models?</a></p>
+</details>
+<details><summary>Evidence dispersion</summary>
+<p>Распределённость необходимых свидетельств внутри контекста, отдельная от общей длины. <a class="ref" href="#c7">Beyond Context Length: Characterising the Difficulty of Long-Context Reasoning</a></p>
+</details>
+</section><section id='papers'><h2>Статьи и доказательства</h2>
+<h3>Lost in the Middle: How Language Models Use Long Contexts</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c1"><strong>source_finding</strong><p>Lost in the Middle меняет положение релевантного документа при сохранении вопроса и наблюдает зависимость качества от позиции. Заявленная длина окна поэтому не равна эффективному использованию всех его частей.</p>
+<p><small>Условия: Multi-document QA и отдельная key-value задача; позиции evidence варьируются контролируемо.</small></p>
+<p><small>Авторские ограничения: Исторический набор моделей; величина эффекта не является оценкой любой современной модели.</small></p>
+<blockquote>We experiment with input contexts containing 10, 20, and</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2307.03172v3#S2.SS3">S2.SS3 — 2.3 Results and Discussion; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2307.03172v3">Первоисточник</a></p>
+</article>
+<h3>LongBench: A Bilingual, Multitask Benchmark for Long Context Understanding</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c2"><strong>source_finding</strong><p>LongBench объединяет разные задачи и языки в общую схему input, context, answer. Такой набор расширяет проверку за пределы одной retrieval-задачи, но требует разбирать результаты по типам задач.</p>
+<p><small>Условия: Билингвальные и многозадачные данные; LongBench и LongBench-E имеют разные способы организации.</small></p>
+<p><small>Авторские ограничения: Средний score смешивает задачи с разными форматами и зависимостью от длины.</small></p>
+<blockquote>We formalize the problem of long context understanding as</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2308.14508v2#S3.SS1">S3.SS1 — 3.1 Problem Definition; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2308.14508v2">Первоисточник</a></p>
+</article>
+<h3>RULER: What&#x27;s the Real Context Size of Your Long-Context Language Models?</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c3"><strong>source_finding</strong><p>RULER добавляет к needle retrieval multi-hop tracing, aggregation и QA. Авторы показывают, что прохождение простого needle-теста не гарантирует устойчивости на этих задачах при росте длины.</p>
+<p><small>Условия: Синтетические задачи с управляемой длиной; фиксированный набор моделей и протоколов.</small></p>
+<p><small>Авторские ограничения: Синтетическая проверка изолирует способности, но не заменяет естественные пользовательские задачи.</small></p>
+<blockquote>We present Ruler, a synthetic benchmark for evaluating long-context</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2404.06654v1#S7">S7 — 7 Conclusion; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2404.06654v1">Первоисточник</a></p>
+</article>
+<h3>BABILong: Testing the Limits of LLMs with Long Context Reasoning-in-a-Haystack</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c4"><strong>source_finding</strong><p>BABILong помещает необходимые для рассуждения факты среди длинного отвлекающего текста. Важны и нахождение распределённых фактов, и выполнение операции над ними.</p>
+<p><small>Условия: Различные bAbI-задачи и размеры haystack; отдельные long-context и retrieval-режимы.</small></p>
+<p><small>Авторские ограничения: Шаблонные задачи не исчерпывают естественное рассуждение; сравнивать надо одинаковые наборы фактов и бюджеты.</small></p>
+<blockquote>The fundamental concept behind the Benchmark for Artificial Intelligence</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2406.10149v1#S2">S2 — 2 The BABILong Benchmark for Long Context Processing; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2406.10149v1">Первоисточник</a></p>
+</article>
+<h3>LongReason: A Synthetic Long-Context Reasoning Benchmark via Context Expansion</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c5"><strong>source_finding</strong><p>LongReason расширяет короткие reasoning-вопросы в длинные контексты, стараясь сохранить необходимую для ответа цепочку. Сложность определяется не только количеством токенов, но и тем, как построены релевантные и отвлекающие части.</p>
+<p><small>Условия: Синтетическое расширение; закрытые multiple-choice ответы и выбранные reasoning domains.</small></p>
+<p><small>Авторские ограничения: Преобразование и модельная проверка данных могут вносить артефакты; правильный ответ не подтверждает всю заявленную цепочку.</small></p>
+<blockquote>Problem Formulation The primary goal of LongReason is to</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2501.15089v3#S3.SS1">S3.SS1 — 3.1 Long-context Reasoning Question Construction via Context Expansion; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2501.15089v3">Первоисточник</a></p>
+</article>
+<h3>Positional Failures in Long-Context LLMs: A Blind Spot in Reasoning Benchmarks</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c6"><strong>source_finding</strong><p>Positional Failures проверяет положение reasoning-задач внутри заполненного контекста. Авторы различают основной math-протокол и ограниченную вспомогательную проверку другого формата.</p>
+<p><small>Условия: GSM8K и ARC-Challenge; контроль filler, длины и позиции.</small></p>
+<p><small>Авторские ограничения: Небольшая выборка вспомогательной задачи даёт направленное, а не универсальное свидетельство.</small></p>
+<blockquote>We evaluate on two reasoning tasks. GSM8K (Cobbe et</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2605.23170v1#S3.SS4">S3.SS4 — 3.4 Reasoning Tasks; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2605.23170v1">Первоисточник</a></p>
+</article>
+<h3>Beyond Context Length: Characterising the Difficulty of Long-Context Reasoning</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c7"><strong>source_finding</strong><p>Beyond Context Length дополнительно описывает evidence scope, evidence dispersion и reasoning depth. Два вопроса одинаковой длины могут различаться количеством необходимых фактов, их разбросом и глубиной связи.</p>
+<p><small>Условия: LURCH: evidence annotation и reasoning graphs; анализ при контроле длины.</small></p>
+<p><small>Авторские ограничения: Автоматическая аннотация evidence и графов также является источником погрешности.</small></p>
+<blockquote>We complement context length with three properties: evidence scope,</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.22067v1#S3">S3 — 3 Reasoning Characterisation; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2610.22067v1">Первоисточник</a></p>
+</article>
+</section><footer><h2>Ограничения</h2>
+<p>Целенаправленный обзор выбранного подвопроса; полный охват направления и актуальный SOTA-рейтинг не заявляются.</p>
+<p>Разобраны выбранные фрагменты полных текстов, а не все приложения и доказательства. Цитаты сверены с сохранёнными HTML.</p>
+<p>Результаты принадлежат авторам статей. Собственные эксперименты и независимая экспертная рецензия не выполнялись.</p>
+<p>Автоматический поиск добавляет только кандидатов; он не подтверждает их качество и не обновляет выводы этого обзора.</p>
+</footer></main></html>

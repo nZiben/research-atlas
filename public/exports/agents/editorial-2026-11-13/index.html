@@ -1,0 +1,130 @@
+<!doctype html><html lang='ru'><meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta http-equiv='Content-Security-Policy' content="default-src 'none'; style-src 'unsafe-inline'">
+<title>Память LLM-агентов: что хранить, как извлекать и как измерять пользу</title>
+<style>body{margin:0;background:#f6f5f1;color:#202a31;font:17px/1.65 system-ui,sans-serif}main{max-width:960px;margin:auto;padding:48px 24px}h1{font-size:2.5em;line-height:1.15}h2{margin-top:2.5em}a{color:#176a70}.ref{font-size:.76em}nav{display:flex;gap:16px;flex-wrap:wrap}details{background:white;border:1px solid #dbe0dd;border-radius:8px;padding:16px;margin:12px 0}summary{cursor:pointer;font-weight:650}small,.muted{color:#5c676d}.badge{display:inline-block;background:#ffe5aa;border-radius:4px;padding:3px 9px}article{border-top:1px solid #ddd;padding:12px 0;scroll-margin-top:20px}blockquote{border-left:3px solid #c4d6cf;padding-left:16px}code{overflow-wrap:anywhere}footer{margin-top:50px;border-top:1px solid #ccc}</style><main>
+<span class='badge'>Редакционный выпуск · ограничения указаны ниже</span><h1>Память LLM-агентов: что хранить, как извлекать и как измерять пользу</h1>
+<p class='muted'>2026-11-13 · 7 работ</p>
+<nav><a href='#review'>Обзор</a><a href='#concepts'>Понятия</a><a href='#papers'>Статьи и доказательства</a><a href='references.bib'>BibTeX</a></nav>
+<h2>Границы и вопросы</h2><p>Память LLM-агентов: что хранить, как извлекать и как измерять пользу</p><ul>
+<li>Какие виды памяти помогают на длинных задачах и как это проверено?</li>
+<li>Отделён ли вклад памяти от дополнительных вызовов модели и retrieval?</li>
+</ul><section id='review'>
+<h2>За минуту: главный вопрос и вывод</h2>
+<p>Память агента — это весь процесс записи, отбора, извлечения, обновления и использования информации, а не просто векторная база. <a class="ref" href="#c1">MemGPT: Towards LLMs as Operating Systems</a> <a class="ref" href="#c3">MemoryBank: Enhancing Large Language Models with Long-Term Memory</a> <a class="ref" href="#c5">Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads</a></p>
+<p>Разные задачи требуют разной памяти: фактов о пользователе, эпизодов действий, навыков и предпочтений. Улучшение conversational recall не гарантирует улучшения долгой инструментальной задачи. <a class="ref" href="#c4">LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory</a> <a class="ref" href="#c6">Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents</a> <a class="ref" href="#c7">Agentic Memory Management Is the Next Frontier of Information Retrieval</a></p>
+<p>Для полезного сравнения нужно учитывать качество решения, память и стоимость всего жизненного цикла. <a class="ref" href="#c5">Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads</a> <a class="ref" href="#c6">Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents</a></p>
+<h2>Границы и отбор источников</h2>
+<p><strong>Редакторское предложение.</strong> Обзор подготовлен 13 ноября 2026 года по выбранным фрагментам полных HTML-текстов 7 работ. Это узкий фокус внутри направления, а не энциклопедия всей области и не систематический поиск. Количество источников в общем каталоге не означает, что все они прочитаны. </p>
+<p><strong>Редакторское предложение.</strong> Отбор целенаправленный: основные постановки задачи, различные семейства методов и работы, проверяющие их ограничения. Точные версии, локаторы и SHA-256 прочитанных HTML сохранены в JSON. Короткая цитата служит поисковым якорем; вывод следует сверять с контекстом раздела. Независимая экспертная рецензия и воспроизведение экспериментов не выполнялись. </p>
+<h2>Понятия и механизм: что именно проверяется</h2>
+<p>Persistent store и рабочий контекст — разные уровни. Retrieval и prompt assembly определяют, какую часть сохранённого агент реально увидит. <a class="ref" href="#c1">MemGPT: Towards LLMs as Operating Systems</a> <a class="ref" href="#c5">Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads</a></p>
+<p>Сводки и reflection могут сократить историю, но добавляют этап преобразования; их вклад нужно отделять от дополнительных вызовов и бюджета. <a class="ref" href="#c2">Generative Agents: Interactive Simulacra of Human Behavior</a> <a class="ref" href="#c6">Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents</a></p>
+<h2>Подходы и свидетельства из работ</h2>
+<p>MemGPT разделяет main context и external context. Внешняя информация должна быть явно перенесена в окно модели через функции управления памятью; наличие записи в хранилище само по себе не означает её использования. <a class="ref" href="#c1">MemGPT: Towards LLMs as Operating Systems</a></p>
+<p>Generative Agents объединяет наблюдения, retrieval, reflection и planning для поведения в sandbox. Обобщения из опыта используются наряду с конкретными эпизодами. <a class="ref" href="#c2">Generative Agents: Interactive Simulacra of Human Behavior</a></p>
+<p>MemoryBank разделяет хранение, retrieval и updating. Разговорные записи и сводки поддерживаются вместе с механизмом изменения значимости воспоминаний. <a class="ref" href="#c3">MemoryBank: Enhancing Large Language Models with Long-Term Memory</a></p>
+<p>LongMemEval задаёт последовательность датированных сессий и последующий вопрос. Это позволяет исследовать память через время, а не только retrieval из одного документа. <a class="ref" href="#c4">LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory</a></p>
+<p>Characterization of Agent Memory раскладывает жизненный цикл на ingestion, construction, storage, retrieval, prompt assembly, generation и maintenance. Такой разбор показывает, где именно система тратит ресурсы. <a class="ref" href="#c5">Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads</a></p>
+<p>Harness the Memory сравнивает memory substrates как конфигурации с компромиссами. Авторы отделяют user-centric задачи извлечения из истории от agent-centric задач последовательных решений. <a class="ref" href="#c6">Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents</a></p>
+<p>Agentic Memory Management предлагает различать факты, навыки и операторы предпочтений: для них нужны разные правила matching и обновления. Это концептуальная рамка, а не измеренное превосходство новой системы. <a class="ref" href="#c7">Agentic Memory Management Is the Next Frontier of Information Retrieval</a></p>
+<h2>Сравнение работ и условий</h2>
+<p><strong>Редакторское предложение.</strong> Таблица разделяет постановки, механизмы и границы выводов. Она не ранжирует работы по несопоставимым числам. Улучшение показателя в конкретной статье не доказывает преимущество во всех моделях, данных и режимах. </p>
+<div style="overflow-x:auto"><table><thead><tr><th>Работа</th><th>Механизм</th><th>Гарантия</th><th>Условия</th></tr></thead><tbody>
+<tr><td>MemGPT: Towards LLMs as Operating Systems <a href="#c1">источник</a></td><td>Управляемая иерархия памяти</td><td>Доступность записи отличается от доступности модели</td><td>Иерархия контекста и function calls; задачи диалога и анализа документов.</td></tr>
+<tr><td>Generative Agents: Interactive Simulacra of Human Behavior <a href="#c2">источник</a></td><td>Эпизоды, reflection и planning</td><td>Критерий успеха связан с задачей симуляции</td><td>Симулированный социальный мир и оценка правдоподобия поведения.</td></tr>
+<tr><td>MemoryBank: Enhancing Large Language Models with Long-Term Memory <a href="#c3">источник</a></td><td>Хранение и забывание</td><td>Обновление памяти — часть метода</td><td>Долговременный диалог и персонализация; собственный механизм обновления.</td></tr>
+<tr><td>LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory <a href="#c4">источник</a></td><td>Проверка межсессионной памяти</td><td>Семантика времени и обновлений важна</td><td>История наблюдается последовательно; вопрос может требовать краткий ответ либо выполнение rubric.</td></tr>
+<tr><td>Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads <a href="#c5">источник</a></td><td>Профилирование жизненного цикла</td><td>Учитывается стоимость записи, а не только ответа</td><td>Профилирование stateful workloads и указанных memory systems; hardware и serving setup фиксируются отдельно.</td></tr>
+<tr><td>Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents <a href="#c6">источник</a></td><td>Контролируемое сравнение substrates</td><td>Тип задачи и конфигурация существенны</td><td>Единый harness, разные substrates и задачи; фиксируются параметры и бюджеты.</td></tr>
+<tr><td>Agentic Memory Management Is the Next Frontier of Information Retrieval <a href="#c7">источник</a></td><td>IR-взгляд на содержимое памяти</td><td>Концептуальное предложение отделено от эмпирики</td><td>Position paper, связь задач памяти с information retrieval.</td></tr>
+</tbody></table></div>
+<h2>Разногласия, ограничения и ложные обобщения</h2>
+<p>Результаты социального sandbox, диалогового QA и agent tasks нельзя объединить в единый рейтинг памяти: различаются цель и критерии успеха. <a class="ref" href="#c2">Generative Agents: Interactive Simulacra of Human Behavior</a> <a class="ref" href="#c4">LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory</a> <a class="ref" href="#c6">Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents</a></p>
+<p>Больше сохранённых записей может означать больше затрат на construction и maintenance; полноту накопления следует отличать от полезности retrieved context. <a class="ref" href="#c5">Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads</a></p>
+<p>Идеи новых таксономий полезны для проектирования, но их нельзя представлять как доказанное улучшение качества. <a class="ref" href="#c7">Agentic Memory Management Is the Next Frontier of Information Retrieval</a></p>
+<h2>Как читать результаты и проверить подход у себя</h2>
+<p><strong>Редакторское предложение.</strong> Сравнить no-memory, полный контекст и простой retrieval с исследуемой системой при фиксированных моделях, историях и бюджетах. Записывать стоимость создания памяти отдельно от стоимости запросов. </p>
+<p><strong>Редакторское предложение.</strong> Проверять исправления устаревших фактов, временные вопросы, отказ при отсутствии evidence и влияние ошибочной записи. Сохранять provenance и версии состояния. </p>
+<h2>Открытые вопросы и следующие эксперименты</h2>
+<p><strong>Редакторское предложение.</strong> Когда структурированная память окупает стоимость построения по сравнению с простым retrieval? Нужны повторные запросы к одной истории и оценка break-even по числу обращений. </p>
+<p><strong>Редакторское предложение.</strong> Как надёжно исправить предпочтение, не удаляя нужный опыт? Проверка должна включать противоречивые записи, даты и последующие действия. </p>
+<h2>Маршрут чтения</h2>
+<p><strong>Редакторское предложение.</strong> Сначала прочитайте первые две работы из таблицы: они задают понятия и способ измерения. Затем сравните методы в середине списка с критическими и более поздними исследованиями. Цель — понять, какое предположение меняется и что именно измеряется. </p>
+<p><strong>Редакторское предложение.</strong> Для каждой работы выпишите объект переноса или оценки, используемый baseline, единицу тестирования, условия успеха и способ проверки. Цифры без этих полей недостаточны для выбора метода. Ссылки [n] раскрывают карточки доказательств; оттуда можно открыть раздел первоисточника. </p>
+</section><section id='concepts'><h2>Понятия</h2>
+<details><summary>Рабочий контекст</summary>
+<p>Информация, доступная модели при текущем вызове; внешние записи нужно сначала извлечь. <a class="ref" href="#c1">MemGPT: Towards LLMs as Operating Systems</a></p>
+</details>
+<details><summary>Жизненный цикл памяти</summary>
+<p>Путь от ingestion и construction до retrieval, использования и maintenance. <a class="ref" href="#c5">Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads</a></p>
+</details>
+</section><section id='papers'><h2>Статьи и доказательства</h2>
+<h3>MemGPT: Towards LLMs as Operating Systems</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c1"><strong>source_finding</strong><p>MemGPT разделяет main context и external context. Внешняя информация должна быть явно перенесена в окно модели через функции управления памятью; наличие записи в хранилище само по себе не означает её использования.</p>
+<p><small>Условия: Иерархия контекста и function calls; задачи диалога и анализа документов.</small></p>
+<p><small>Авторские ограничения: Дополнительные вызовы и стратегия переноса входят в систему; выигрыш нельзя приписывать только объёму памяти.</small></p>
+<blockquote>MemGPT’s OS-inspired multi-level memory architecture delineates between two primary</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2310.08560v2#S2">S2 — 2 MemGPT (MemoryGPT); связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2310.08560v2">Первоисточник</a></p>
+</article>
+<h3>Generative Agents: Interactive Simulacra of Human Behavior</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c2"><strong>source_finding</strong><p>Generative Agents объединяет наблюдения, retrieval, reflection и planning для поведения в sandbox. Обобщения из опыта используются наряду с конкретными эпизодами.</p>
+<p><small>Условия: Симулированный социальный мир и оценка правдоподобия поведения.</small></p>
+<p><small>Авторские ограничения: Правдоподобная симуляция не равна надёжному выполнению произвольных пользовательских поручений.</small></p>
+<blockquote>Generative agents aim to provide a framework for behavior</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2304.03442v1#S4">S4 — 4. Generative Agent Architecture; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2304.03442v1">Первоисточник</a></p>
+</article>
+<h3>MemoryBank: Enhancing Large Language Models with Long-Term Memory</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c3"><strong>source_finding</strong><p>MemoryBank разделяет хранение, retrieval и updating. Разговорные записи и сводки поддерживаются вместе с механизмом изменения значимости воспоминаний.</p>
+<p><small>Условия: Долговременный диалог и персонализация; собственный механизм обновления.</small></p>
+<p><small>Авторские ограничения: Метафора человеческого забывания не является доказательством оптимальности политики хранения.</small></p>
+<blockquote>In this section, we provide a detailed description of</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2305.10250v3#S2">S2 — 2 MemoryBank: A Novel Memory Mechanism Tailored for LLMs; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2305.10250v3">Первоисточник</a></p>
+</article>
+<h3>LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c4"><strong>source_finding</strong><p>LongMemEval задаёт последовательность датированных сессий и последующий вопрос. Это позволяет исследовать память через время, а не только retrieval из одного документа.</p>
+<p><small>Условия: История наблюдается последовательно; вопрос может требовать краткий ответ либо выполнение rubric.</small></p>
+<p><small>Авторские ограничения: Оценка conversational memory не исчерпывает память навыков и успешность действий агента.</small></p>
+<blockquote>The evaluation of LongMemEval requires an instance of 4-tuple</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2410.10813v1#S3.SS1">S3.SS1 — 3.1 Problem Formulation; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2410.10813v1">Первоисточник</a></p>
+</article>
+<h3>Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c5"><strong>source_finding</strong><p>Characterization of Agent Memory раскладывает жизненный цикл на ingestion, construction, storage, retrieval, prompt assembly, generation и maintenance. Такой разбор показывает, где именно система тратит ресурсы.</p>
+<p><small>Условия: Профилирование stateful workloads и указанных memory systems; hardware и serving setup фиксируются отдельно.</small></p>
+<p><small>Авторские ограничения: Стоимость измерена в выбранном стеке; нельзя переносить её доли на любое развёртывание.</small></p>
+<blockquote>Agent memory systems transform an interaction stream into persistent</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2606.06448v2#S2.SS1">S2.SS1 — 2.1 Agent Memory Execution Pipeline; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2606.06448v2">Первоисточник</a></p>
+</article>
+<h3>Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c6"><strong>source_finding</strong><p>Harness the Memory сравнивает memory substrates как конфигурации с компромиссами. Авторы отделяют user-centric задачи извлечения из истории от agent-centric задач последовательных решений.</p>
+<p><small>Условия: Единый harness, разные substrates и задачи; фиксируются параметры и бюджеты.</small></p>
+<p><small>Авторские ограничения: Рейтинг конфигураций зависит от задачи и режима; универсальный победитель не установлен одним средним score.</small></p>
+<blockquote>Memory system configurations are highly complex, with many tunable</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2608.15008v2#S2">S2 — 2 Memory Substrates and Configuration; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2608.15008v2">Первоисточник</a></p>
+</article>
+<h3>Agentic Memory Management Is the Next Frontier of Information Retrieval</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c7"><strong>source_finding</strong><p>Agentic Memory Management предлагает различать факты, навыки и операторы предпочтений: для них нужны разные правила matching и обновления. Это концептуальная рамка, а не измеренное превосходство новой системы.</p>
+<p><small>Условия: Position paper, связь задач памяти с information retrieval.</small></p>
+<p><small>Авторские ограничения: Предложенная классификация не является готовым benchmark-результатом или единственной таксономией.</small></p>
+<blockquote>What information does an agent store? A common answer</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.32464v1#S4.SS2">S4.SS2 — 4.2. Objects: Constants, Functions, and Operators; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2610.32464v1">Первоисточник</a></p>
+</article>
+</section><footer><h2>Ограничения</h2>
+<p>Целенаправленный обзор выбранного подвопроса; полный охват направления и актуальный SOTA-рейтинг не заявляются.</p>
+<p>Разобраны выбранные фрагменты полных текстов, а не все приложения и доказательства. Цитаты сверены с сохранёнными HTML.</p>
+<p>Результаты принадлежат авторам статей. Собственные эксперименты и независимая экспертная рецензия не выполнялись.</p>
+<p>Автоматический поиск добавляет только кандидатов; он не подтверждает их качество и не обновляет выводы этого обзора.</p>
+</footer></main></html>

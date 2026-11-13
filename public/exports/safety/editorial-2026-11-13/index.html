@@ -1,0 +1,131 @@
+<!doctype html><html lang='ru'><meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta http-equiv='Content-Security-Policy' content="default-src 'none'; style-src 'unsafe-inline'">
+<title>Prompt injection у агентов: границы доверия, защиты и адаптивная оценка</title>
+<style>body{margin:0;background:#f6f5f1;color:#202a31;font:17px/1.65 system-ui,sans-serif}main{max-width:960px;margin:auto;padding:48px 24px}h1{font-size:2.5em;line-height:1.15}h2{margin-top:2.5em}a{color:#176a70}.ref{font-size:.76em}nav{display:flex;gap:16px;flex-wrap:wrap}details{background:white;border:1px solid #dbe0dd;border-radius:8px;padding:16px;margin:12px 0}summary{cursor:pointer;font-weight:650}small,.muted{color:#5c676d}.badge{display:inline-block;background:#ffe5aa;border-radius:4px;padding:3px 9px}article{border-top:1px solid #ddd;padding:12px 0;scroll-margin-top:20px}blockquote{border-left:3px solid #c4d6cf;padding-left:16px}code{overflow-wrap:anywhere}footer{margin-top:50px;border-top:1px solid #ccc}</style><main>
+<span class='badge'>Редакционный выпуск · ограничения указаны ниже</span><h1>Prompt injection у агентов: границы доверия, защиты и адаптивная оценка</h1>
+<p class='muted'>2026-11-13 · 7 работ</p>
+<nav><a href='#review'>Обзор</a><a href='#concepts'>Понятия</a><a href='#papers'>Статьи и доказательства</a><a href='references.bib'>BibTeX</a></nav>
+<h2>Границы и вопросы</h2><p>Prompt injection у агентов: границы доверия, защиты и адаптивная оценка</p><ul>
+<li>Какие модели угроз рассматривают защиты от prompt injection?</li>
+<li>Какие атаки и условия проверки ограничивают выводы об эффективности?</li>
+</ul><section id='review'>
+<h2>За минуту: главный вопрос и вывод</h2>
+<p>Prompt injection возникает, когда недоверенные данные начинают управлять агентом как инструкция. Для инструментального агента ущерб — это не только плохой ответ, но и неразрешённое действие или передача данных. <a class="ref" href="#c1">Benchmarking and Defending Against Indirect Prompt Injection Attacks on Large Language Models</a> <a class="ref" href="#c2">InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents</a></p>
+<p>Полезно различать три слоя: обозначение границы данных, обучение устойчивому поведению и внешнее ограничение допустимых действий. Они защищают разные части системы и не заменяют друг друга автоматически. <a class="ref" href="#c4">StruQ: Defending Against Prompt Injection with Structured Queries</a> <a class="ref" href="#c5">SecAlign: Defending Against Prompt Injection with Preference Optimization</a> <a class="ref" href="#c7">Adaptive Evaluation of Out-of-Band Defenses Against Prompt Injection in LLM Agents</a></p>
+<p>Главная проверка — сохраняет ли защита полезность при атаках, адаптированных к ней. Одного низкого ASR на фиксированной подборке недостаточно. <a class="ref" href="#c3">AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents</a> <a class="ref" href="#c6">Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on LLM Agents</a></p>
+<h2>Границы и отбор источников</h2>
+<p><strong>Редакторское предложение.</strong> Обзор подготовлен 13 ноября 2026 года по выбранным фрагментам полных HTML-текстов 7 работ. Это узкий фокус внутри направления, а не энциклопедия всей области и не систематический поиск. Количество источников в общем каталоге не означает, что все они прочитаны. </p>
+<p><strong>Редакторское предложение.</strong> Отбор целенаправленный: основные постановки задачи, различные семейства методов и работы, проверяющие их ограничения. Точные версии, локаторы и SHA-256 прочитанных HTML сохранены в JSON. Короткая цитата служит поисковым якорем; вывод следует сверять с контекстом раздела. Независимая экспертная рецензия и воспроизведение экспериментов не выполнялись. </p>
+<h2>Понятия и механизм: что именно проверяется</h2>
+<p>Модель угроз должна назвать контролируемый атакующим источник, момент внедрения, доступные инструменты и запрещённое действие. Подмена письма и полный контроль системного промпта — разные эксперименты. <a class="ref" href="#c2">InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents</a> <a class="ref" href="#c7">Adaptive Evaluation of Out-of-Band Defenses Against Prompt Injection in LLM Agents</a></p>
+<p>Данные могут содержать повелительные фразы по законной причине. Поэтому классификация текста и решение о полномочиях — разные задачи: можно пропустить опасный текст, но заблокировать действие, либо ошибочно остановить полезную задачу. <a class="ref" href="#c3">AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents</a> <a class="ref" href="#c7">Adaptive Evaluation of Out-of-Band Defenses Against Prompt Injection in LLM Agents</a></p>
+<h2>Подходы и свидетельства из работ</h2>
+<p>BIPIA связывает indirect injection с путаницей между внешними данными и инструкциями. Авторы исследуют явные напоминания и способы обозначения границ контекста; white-box вариант дополнительно обучает модель игнорировать команды во внешнем содержимом. <a class="ref" href="#c1">Benchmarking and Defending Against Indirect Prompt Injection Attacks on Large Language Models</a></p>
+<p>InjecAgent переводит угрозу в действия инструментального агента: вред пользователю или извлечение и передачу данных. В анализе авторы связывают уязвимость с тем, насколько свободным может быть содержимое атакуемого поля ответа инструмента. <a class="ref" href="#c2">InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents</a></p>
+<p>AgentDojo разделяет benign utility, utility under attack и targeted ASR. Это позволяет заметить защиту, которая снижает успешность атак лишь потому, что агент перестаёт решать полезные задачи. <a class="ref" href="#c3">AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents</a></p>
+<p>StruQ объединяет front-end со специальными разделителями и фильтрацией этих токенов в данных со structured instruction tuning. Защита опирается на обученное различение instruction и data, а не только на текстовый совет модели. <a class="ref" href="#c4">StruQ: Defending Against Prompt Injection with Structured Queries</a></p>
+<p>SecAlign использует preference optimization для выбора корректного поведения при конфликте инструкций и внешнего текста. Авторы отдельно ограничивают применимость явным разделением instruction/data и не обещают стопроцентной безопасности. <a class="ref" href="#c5">SecAlign: Defending Against Prompt Injection with Preference Optimization</a></p>
+<p>Работа об adaptive attacks показывает обход исследованных защит после адаптации атаки к ним. Низкий ASR для исходного фиксированного набора атак поэтому нельзя считать достаточным свидетельством робастности. <a class="ref" href="#c6">Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on LLM Agents</a></p>
+<p>Исследование out-of-band защит рассматривает enforcement вне модели: ограничения полномочий, отслеживание происхождения данных и проверки разрешённых действий. Надёжность зависит от назначения provenance и полноты политики, а не только от распознавания вредного текста. <a class="ref" href="#c7">Adaptive Evaluation of Out-of-Band Defenses Against Prompt Injection in LLM Agents</a></p>
+<h2>Сравнение работ и условий</h2>
+<p><strong>Редакторское предложение.</strong> Таблица разделяет постановки, механизмы и границы выводов. Она не ранжирует работы по несопоставимым числам. Улучшение показателя в конкретной статье не доказывает преимущество во всех моделях, данных и режимах. </p>
+<div style="overflow-x:auto"><table><thead><tr><th>Работа</th><th>Механизм</th><th>Гарантия</th><th>Условия</th></tr></thead><tbody>
+<tr><td>Benchmarking and Defending Against Indirect Prompt Injection Attacks on Large Language Models <a href="#c1">источник</a></td><td>Границы данных и напоминания</td><td>Эмпирическая устойчивость в выбранном threat model</td><td>Внешний текст попадает в контекст приложения; §5 задаёт оценку и ASR.</td></tr>
+<tr><td>InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents <a href="#c2">источник</a></td><td>Tool-response injection</td><td>Критерий вредного действия в заданном сценарии</td><td>Атакующий изменяет внешний tool response; успех определяется последующими действиями агента.</td></tr>
+<tr><td>AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents <a href="#c3">источник</a></td><td>Интерактивная оценка агента</td><td>Полезность и безопасность измеряются раздельно</td><td>Динамическое окружение задач и security cases; проверяются завершение задачи и побочные действия.</td></tr>
+<tr><td>StruQ: Defending Against Prompt Injection with Structured Queries <a href="#c4">источник</a></td><td>Структурированный формат и обучение</td><td>Условия корректного front-end входят в доверенную базу</td><td>Нужны контроль формата входа, зарезервированные токены и собственное обучение.</td></tr>
+<tr><td>SecAlign: Defending Against Prompt Injection with Preference Optimization <a href="#c5">источник</a></td><td>Обучение предпочтению доверенных инструкций</td><td>Эмпирическая защита, не универсальная гарантия</td><td>Сценарии с чётко отделёнными инструкциями и данными; требуется fine-tuning.</td></tr>
+<tr><td>Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on LLM Agents <a href="#c6">источник</a></td><td>Адаптивная оценка</td><td>Сила противника должна совпадать при сравнении</td><td>Атакующий знает защиты и имеет white-box доступ в описанном threat model; сравниваются конкретные агенты.</td></tr>
+<tr><td>Adaptive Evaluation of Out-of-Band Defenses Against Prompt Injection in LLM Agents <a href="#c7">источник</a></td><td>Внешний контроль действий</td><td>Гарантии условны относительно политики и доверенной базы</td><td>Обзор архитектур и собственная ограниченная адаптивная проверка; детали и границы — §10–12.</td></tr>
+</tbody></table></div>
+<h2>Разногласия, ограничения и ложные обобщения</h2>
+<p>Положительные результаты обучаемых защит и успешные adaptive attacks совместимы: изменились атаки и доступ противника. Сначала сверяйте threat model и условия дообучения, затем проценты. <a class="ref" href="#c4">StruQ: Defending Against Prompt Injection with Structured Queries</a> <a class="ref" href="#c5">SecAlign: Defending Against Prompt Injection with Preference Optimization</a> <a class="ref" href="#c6">Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on LLM Agents</a></p>
+<p>Защита, которая всегда прекращает выполнение, может иметь низкий targeted ASR и низкую полезность. Поэтому результат без benign utility и utility under attack неполон. <a class="ref" href="#c3">AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents</a></p>
+<p>Внешний reference monitor переносит часть доверия в код и политику. Это полезное изменение архитектуры, но корректность provenance и разрешений всё равно нуждается в проверке. <a class="ref" href="#c7">Adaptive Evaluation of Out-of-Band Defenses Against Prompt Injection in LLM Agents</a></p>
+<h2>Как читать результаты и проверить подход у себя</h2>
+<p><strong>Редакторское предложение.</strong> Перед тестом зафиксировать версии моделей, инструменты, права противника и критерии запрещённого действия. Сохранить исходную задачу, чистую траекторию, атакуемое поле и результат проверки. </p>
+<p>Измерять вместе benign utility, полезность под атакой и targeted ASR; отдельно учитывать ложные остановки и расходы защиты. Затем повторить испытания с адаптивными атаками при фиксированном бюджете. <a class="ref" href="#c3">AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents</a> <a class="ref" href="#c6">Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on LLM Agents</a></p>
+<p><strong>Редакторское предложение.</strong> Разбирать ошибки по первопричине: неверное доверие к тексту, избыточное разрешение инструмента, ошибочный enforcement или недостаточный тест. Это предлагаемый порядок анализа, не выполненный нами эксперимент. </p>
+<h2>Открытые вопросы и следующие эксперименты</h2>
+<p><strong>Редакторское предложение.</strong> Как меняется компромисс utility/security при совместном использовании обученной защиты и внешнего контроля действий? Проверка: одна и та же среда, одинаковые права атакующего и бюджет, абляции каждого слоя. </p>
+<p><strong>Редакторское предложение.</strong> Какие ошибки provenance остаются при нескольких агентах и передаче данных между инструментами? Нужны тесты, где контроль распространяется на всю цепочку, а не только на последний ответ. </p>
+<h2>Маршрут чтения</h2>
+<p><strong>Редакторское предложение.</strong> Сначала прочитайте первые две работы из таблицы: они задают понятия и способ измерения. Затем сравните методы в середине списка с критическими и более поздними исследованиями. Цель — понять, какое предположение меняется и что именно измеряется. </p>
+<p><strong>Редакторское предложение.</strong> Для каждой работы выпишите объект переноса или оценки, используемый baseline, единицу тестирования, условия успеха и способ проверки. Цифры без этих полей недостаточны для выбора метода. Ссылки [n] раскрывают карточки доказательств; оттуда можно открыть раздел первоисточника. </p>
+</section><section id='concepts'><h2>Понятия</h2>
+<details><summary>Граница доверия</summary>
+<p>Разделение полномочных инструкций и внешних данных, контролируемых третьей стороной. <a class="ref" href="#c1">Benchmarking and Defending Against Indirect Prompt Injection Attacks on Large Language Models</a> <a class="ref" href="#c4">StruQ: Defending Against Prompt Injection with Structured Queries</a></p>
+</details>
+<details><summary>Адаптивная атака</summary>
+<p>Атака, разработанная с учётом конкретной защиты и доступных противнику знаний. <a class="ref" href="#c6">Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on LLM Agents</a></p>
+</details>
+</section><section id='papers'><h2>Статьи и доказательства</h2>
+<h3>Benchmarking and Defending Against Indirect Prompt Injection Attacks on Large Language Models</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c1"><strong>source_finding</strong><p>BIPIA связывает indirect injection с путаницей между внешними данными и инструкциями. Авторы исследуют явные напоминания и способы обозначения границ контекста; white-box вариант дополнительно обучает модель игнорировать команды во внешнем содержимом.</p>
+<p><small>Условия: Внешний текст попадает в контекст приложения; §5 задаёт оценку и ASR.</small></p>
+<p><small>Авторские ограничения: Эффективность напоминания на данном наборе атак не является гарантией против адаптивного противника.</small></p>
+<blockquote>Black-box defense refers to a collection of defense strategies</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2312.14197v4#S6.SS1">S6.SS1 — 6.1. Black-box Defense; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2312.14197v4">Первоисточник</a></p>
+</article>
+<h3>InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c2"><strong>source_finding</strong><p>InjecAgent переводит угрозу в действия инструментального агента: вред пользователю или извлечение и передачу данных. В анализе авторы связывают уязвимость с тем, насколько свободным может быть содержимое атакуемого поля ответа инструмента.</p>
+<p><small>Условия: Атакующий изменяет внешний tool response; успех определяется последующими действиями агента.</small></p>
+<p><small>Авторские ограничения: Часть состояния и ответов инструментов моделируется; это не измерение любого реального приложения.</small></p>
+<blockquote>InjecAgent aims to evaluate the vulnerability of an LLM</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2403.02691v3#S2.SS1">S2.SS1 — 2.1 Problem Formalization; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2403.02691v3">Первоисточник</a></p>
+</article>
+<h3>AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c3"><strong>source_finding</strong><p>AgentDojo разделяет benign utility, utility under attack и targeted ASR. Это позволяет заметить защиту, которая снижает успешность атак лишь потому, что агент перестаёт решать полезные задачи.</p>
+<p><small>Условия: Динамическое окружение задач и security cases; проверяются завершение задачи и побочные действия.</small></p>
+<p><small>Авторские ограничения: Набор приложений, права атакующего и критерии успеха ограничивают перенос результатов.</small></p>
+<blockquote>Utility Under Attack: the fraction of security cases (i.e.,</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2406.13352v3#S3.SS4">S3.SS4 — 3.4 Reporting AgentDojo Results; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2406.13352v3">Первоисточник</a></p>
+</article>
+<h3>StruQ: Defending Against Prompt Injection with Structured Queries</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c4"><strong>source_finding</strong><p>StruQ объединяет front-end со специальными разделителями и фильтрацией этих токенов в данных со structured instruction tuning. Защита опирается на обученное различение instruction и data, а не только на текстовый совет модели.</p>
+<p><small>Условия: Нужны контроль формата входа, зарезервированные токены и собственное обучение.</small></p>
+<p><small>Авторские ограничения: Проверка этой конструкции не доказывает безопасность всех многошаговых инструментальных траекторий.</small></p>
+<blockquote>Our main approach in StruQ is to combine a</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2402.06363v2#S4.SS2">S4.SS2 — 4.2 Our Defense: A High-Level Overview; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2402.06363v2">Первоисточник</a></p>
+</article>
+<h3>SecAlign: Defending Against Prompt Injection with Preference Optimization</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c5"><strong>source_finding</strong><p>SecAlign использует preference optimization для выбора корректного поведения при конфликте инструкций и внешнего текста. Авторы отдельно ограничивают применимость явным разделением instruction/data и не обещают стопроцентной безопасности.</p>
+<p><small>Условия: Сценарии с чётко отделёнными инструкциями и данными; требуется fine-tuning.</small></p>
+<p><small>Авторские ограничения: В статье отмечены непроверенные будущие атаки и неясный перенос на многошаговые web agents.</small></p>
+<blockquote>We present SecAlign, a SOTA fine-tuning-based defense for securing</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2410.05451v3#S6">S6 — 6. Conclusion and Discussions; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2410.05451v3">Первоисточник</a></p>
+</article>
+<h3>Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on LLM Agents</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c6"><strong>source_finding</strong><p>Работа об adaptive attacks показывает обход исследованных защит после адаптации атаки к ним. Низкий ASR для исходного фиксированного набора атак поэтому нельзя считать достаточным свидетельством робастности.</p>
+<p><small>Условия: Атакующий знает защиты и имеет white-box доступ в описанном threat model; сравниваются конкретные агенты.</small></p>
+<p><small>Авторские ограничения: Вывод относится к изученным защитам и правам атакующего; он не доказывает невозможность любых защит.</small></p>
+<blockquote>We present the overall results in Figure 2. The</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2503.00061v2#S5.SS2">S5.SS2 — 5.2 Experiment Results; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2503.00061v2">Первоисточник</a></p>
+</article>
+<h3>Adaptive Evaluation of Out-of-Band Defenses Against Prompt Injection in LLM Agents</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c7"><strong>source_finding</strong><p>Исследование out-of-band защит рассматривает enforcement вне модели: ограничения полномочий, отслеживание происхождения данных и проверки разрешённых действий. Надёжность зависит от назначения provenance и полноты политики, а не только от распознавания вредного текста.</p>
+<p><small>Условия: Обзор архитектур и собственная ограниченная адаптивная проверка; детали и границы — §10–12.</small></p>
+<p><small>Авторские ограничения: Не все архитектуры независимо воспроизведены; угрозы in-the-loop и неявные потоки требуют отдельных условий.</small></p>
+<blockquote>We compare the principal defenses on eight dimensions: (D1)</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2606.26479v1#S0.SSx6">S0.SSx6 — 6. A systematization of out-of-band defenses; связанные фрагменты метода и оценки</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2606.26479v1">Первоисточник</a></p>
+</article>
+</section><footer><h2>Ограничения</h2>
+<p>Целенаправленный обзор выбранного подвопроса; полный охват направления и актуальный SOTA-рейтинг не заявляются.</p>
+<p>Разобраны выбранные фрагменты полных текстов, а не все приложения и доказательства. Цитаты сверены с сохранёнными HTML.</p>
+<p>Результаты принадлежат авторам статей. Собственные эксперименты и независимая экспертная рецензия не выполнялись.</p>
+<p>Автоматический поиск добавляет только кандидатов; он не подтверждает их качество и не обновляет выводы этого обзора.</p>
+</footer></main></html>

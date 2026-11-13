@@ -1,6 +1,847 @@
 {
   "papers": [
     {
+      "id": "arxiv-2307-15818",
+      "title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
+      "authors": [
+        "Anthony Brohan",
+        "Noah Brown",
+        "Justice Carbajal",
+        "Yevgen Chebotar",
+        "Xi Chen",
+        "Krzysztof Choromanski",
+        "Tianli Ding",
+        "Danny Driess",
+        "Avinava Dubey",
+        "Chelsea Finn",
+        "Pete Florence",
+        "Chuyuan Fu",
+        "Montse Gonzalez Arenas",
+        "Keerthana Gopalakrishnan",
+        "Kehang Han",
+        "Karol Hausman",
+        "Alexander Herzog",
+        "Jasmine Hsu",
+        "Brian Ichter",
+        "Alex Irpan",
+        "Nikhil Joshi",
+        "Ryan Julian",
+        "Dmitry Kalashnikov",
+        "Yuheng Kuang",
+        "Isabel Leal",
+        "Lisa Lee",
+        "Tsang-Wei Edward Lee",
+        "Sergey Levine",
+        "Yao Lu",
+        "Henryk Michalewski",
+        "Igor Mordatch",
+        "Karl Pertsch",
+        "Kanishka Rao",
+        "Krista Reymann",
+        "Michael Ryoo",
+        "Grecia Salazar",
+        "Pannag Sanketi",
+        "Pierre Sermanet",
+        "Jaspiar Singh",
+        "Anikait Singh",
+        "Radu Soricut",
+        "Huong Tran",
+        "Vincent Vanhoucke",
+        "Quan Vuong",
+        "Ayzaan Wahid",
+        "Stefan Welker",
+        "Paul Wohlhart",
+        "Jialin Wu",
+        "Fei Xia",
+        "Ted Xiao",
+        "Peng Xu",
+        "Sichun Xu",
+        "Tianhe Yu",
+        "Brianna Zitkovich"
+      ],
+      "year": 2023,
+      "arxiv_id": "2307.15818v1",
+      "url": "https://arxiv.org/abs/2307.15818v1",
+      "doi": "",
+      "source_sha256": "7029c47cbce39692871f9e94ff1f54bf4e02a2aa382f998996deda89bc4d1656",
+      "checked_at": "2026-11-13",
+      "read_sections": "S3.SS2 — 3.2 Robot-Action Fine-tuning; связанные фрагменты метода и оценки",
+      "decision": "core",
+      "reason": "Источник опубликованного обзора."
+    },
+    {
+      "id": "arxiv-2310-08864",
+      "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
+      "authors": [
+        "Abhishek Padalkar",
+        "Acorn Pooley",
+        "Ajinkya Jain",
+        "Alex Bewley",
+        "Alex Herzog",
+        "Alex Irpan",
+        "Alexander Khazatsky",
+        "Anant Rai",
+        "Anikait Singh",
+        "Anthony Brohan",
+        "Antonin Raffin",
+        "Ayzaan Wahid",
+        "Ben Burgess-Limerick",
+        "Beomjoon Kim",
+        "Bernhard Schölkopf",
+        "Brian Ichter",
+        "Cewu Lu",
+        "Charles Xu",
+        "Chelsea Finn",
+        "Chenfeng Xu",
+        "Cheng Chi",
+        "Chenguang Huang",
+        "Christine Chan",
+        "Chuer Pan",
+        "Chuyuan Fu",
+        "Coline Devin",
+        "Danny Driess",
+        "Deepak Pathak",
+        "Dhruv Shah",
+        "Dieter Büchler",
+        "Dmitry Kalashnikov",
+        "Dorsa Sadigh",
+        "Edward Johns",
+        "Federico Ceola",
+        "Fei Xia",
+        "Freek Stulp",
+        "Gaoyue Zhou",
+        "Gaurav S. Sukhatme",
+        "Gautam Salhotra",
+        "Ge Yan",
+        "Giulio Schiavi",
+        "Gregory Kahn",
+        "Hao Su",
+        "Hao-Shu Fang",
+        "Haochen Shi",
+        "Heni Ben Amor",
+        "Henrik I Christensen",
+        "Hiroki Furuta",
+        "Homer Walke",
+        "Hongjie Fang",
+        "Igor Mordatch",
+        "Ilija Radosavovic",
+        "Isabel Leal",
+        "Jacky Liang",
+        "Jad Abou-Chakra",
+        "Jaehyung Kim",
+        "Jan Peters",
+        "Jan Schneider",
+        "Jasmine Hsu",
+        "Jeannette Bohg",
+        "Jeffrey Bingham",
+        "Jiajun Wu",
+        "Jialin Wu",
+        "Jianlan Luo",
+        "Jiayuan Gu",
+        "Jie Tan",
+        "Jihoon Oh",
+        "Jitendra Malik",
+        "Jonathan Tompson",
+        "Jonathan Yang",
+        "Joseph J. Lim",
+        "João Silvério",
+        "Junhyek Han",
+        "Kanishka Rao",
+        "Karl Pertsch",
+        "Karol Hausman",
+        "Keegan Go",
+        "Keerthana Gopalakrishnan",
+        "Ken Goldberg",
+        "Kendra Byrne",
+        "Kenneth Oslund",
+        "Kento Kawaharazuka",
+        "Kevin Zhang",
+        "Krishan Rana",
+        "Krishnan Srinivasan",
+        "Lawrence Yunliang Chen",
+        "Lerrel Pinto",
+        "Liam Tan",
+        "Lionel Ott",
+        "Lisa Lee",
+        "Masayoshi Tomizuka",
+        "Maximilian Du",
+        "Michael Ahn",
+        "Mingtong Zhang",
+        "Mingyu Ding",
+        "Mohan Kumar Srirama",
+        "Mohit Sharma",
+        "Moo Jin Kim",
+        "Naoaki Kanazawa",
+        "Nicklas Hansen",
+        "Nicolas Heess",
+        "Nikhil J Joshi",
+        "Niko Suenderhauf",
+        "Norman Di Palo",
+        "Nur Muhammad Mahi Shafiullah",
+        "Oier Mees",
+        "Oliver Kroemer",
+        "Pannag R Sanketi",
+        "Paul Wohlhart",
+        "Peng Xu",
+        "Pierre Sermanet",
+        "Priya Sundaresan",
+        "Quan Vuong",
+        "Rafael Rafailov",
+        "Ran Tian",
+        "Ria Doshi",
+        "Roberto Martín-Martín",
+        "Russell Mendonca",
+        "Rutav Shah",
+        "Ryan Hoque",
+        "Ryan Julian",
+        "Samuel Bustamante",
+        "Sean Kirmani",
+        "Sergey Levine",
+        "Sherry Moore",
+        "Shikhar Bahl",
+        "Shivin Dass",
+        "Shubham Sonawani",
+        "Shuran Song",
+        "Sichun Xu",
+        "Siddhant Haldar",
+        "Simeon Adebola",
+        "Simon Guist",
+        "Soroush Nasiriany",
+        "Stefan Schaal",
+        "Stefan Welker",
+        "Stephen Tian",
+        "Sudeep Dasari",
+        "Suneel Belkhale",
+        "Takayuki Osa",
+        "Tatsuya Harada",
+        "Tatsuya Matsushima",
+        "Ted Xiao",
+        "Tianhe Yu",
+        "Tianli Ding",
+        "Todor Davchev",
+        "Tony Z. Zhao",
+        "Travis Armstrong",
+        "Trevor Darrell",
+        "Vidhi Jain",
+        "Vincent Vanhoucke",
+        "Wei Zhan",
+        "Wenxuan Zhou",
+        "Wolfram Burgard",
+        "Xi Chen",
+        "Xiaolong Wang",
+        "Xinghao Zhu",
+        "Xuanlin Li",
+        "Yao Lu",
+        "Yevgen Chebotar",
+        "Yifan Zhou",
+        "Yifeng Zhu",
+        "Ying Xu",
+        "Yixuan Wang",
+        "Yonatan Bisk",
+        "Yoonyoung Cho",
+        "Youngwoon Lee",
+        "Yuchen Cui",
+        "Yueh-Hua Wu",
+        "Yujin Tang",
+        "Yuke Zhu",
+        "Yunzhu Li",
+        "Yusuke Iwasawa",
+        "Yutaka Matsuo",
+        "Zhuo Xu",
+        "Zichen Jeff Cui"
+      ],
+      "year": 2023,
+      "arxiv_id": "2310.08864v1",
+      "url": "https://arxiv.org/abs/2310.08864v1",
+      "doi": "",
+      "source_sha256": "cdf49e93988e63d6c417d1a11aa328ec507c09f6fd5edbbda220b6aabe699bf5",
+      "checked_at": "2026-11-13",
+      "read_sections": "S5 — V Experimental Results; связанные фрагменты метода и оценки",
+      "decision": "core",
+      "reason": "Источник опубликованного обзора."
+    },
+    {
+      "id": "arxiv-2405-12213",
+      "title": "Octo: An Open-Source Generalist Robot Policy",
+      "authors": [
+        " Octo Model Team",
+        "Dibya Ghosh",
+        "Homer Walke",
+        "Karl Pertsch",
+        "Kevin Black",
+        "Oier Mees",
+        "Sudeep Dasari",
+        "Joey Hejna",
+        "Tobias Kreiman",
+        "Charles Xu",
+        "Jianlan Luo",
+        "You Liang Tan",
+        "Pannag Sanketi",
+        "Quan Vuong",
+        "Ted Xiao",
+        "Dorsa Sadigh",
+        "Chelsea Finn",
+        "Sergey Levine"
+      ],
+      "year": 2024,
+      "arxiv_id": "2405.12213v1",
+      "url": "https://arxiv.org/abs/2405.12213v1",
+      "doi": "",
+      "source_sha256": "b87d6644722cee385d862345e76acce09057aa9d42d90fcb325a26fd4d8ddf1c",
+      "checked_at": "2026-11-13",
+      "read_sections": "S4.SS0.SSS0.Px1 — Evaluation setups; связанные фрагменты метода и оценки",
+      "decision": "core",
+      "reason": "Источник опубликованного обзора."
+    },
+    {
+      "id": "arxiv-2406-09246",
+      "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
+      "authors": [
+        "Moo Jin Kim",
+        "Karl Pertsch",
+        "Siddharth Karamcheti",
+        "Ted Xiao",
+        "Ashwin Balakrishna",
+        "Suraj Nair",
+        "Rafael Rafailov",
+        "Ethan Foster",
+        "Grace Lam",
+        "Pannag Sanketi",
+        "Quan Vuong",
+        "Thomas Kollar",
+        "Benjamin Burchfiel",
+        "Russ Tedrake",
+        "Dorsa Sadigh",
+        "Sergey Levine",
+        "Percy Liang",
+        "Chelsea Finn"
+      ],
+      "year": 2024,
+      "arxiv_id": "2406.09246v3",
+      "url": "https://arxiv.org/abs/2406.09246v3",
+      "doi": "",
+      "source_sha256": "4140a5a011b44be7f3d79951b238452ed1a765fffefd9735b4824b136e3ebaf0",
+      "checked_at": "2026-11-13",
+      "read_sections": "S3.SS2 — 3.2 OpenVLA Training Procedure; связанные фрагменты метода и оценки",
+      "decision": "core",
+      "reason": "Источник опубликованного обзора."
+    },
+    {
+      "id": "arxiv-2410-24164",
+      "title": "$π_0$: A Vision-Language-Action Flow Model for General Robot Control",
+      "authors": [
+        "Kevin Black",
+        "Noah Brown",
+        "Danny Driess",
+        "Adnan Esmail",
+        "Michael Equi",
+        "Chelsea Finn",
+        "Niccolo Fusai",
+        "Lachy Groom",
+        "Karol Hausman",
+        "Brian Ichter",
+        "Szymon Jakubczak",
+        "Tim Jones",
+        "Liyiming Ke",
+        "Sergey Levine",
+        "Adrian Li-Bell",
+        "Mohith Mothukuri",
+        "Suraj Nair",
+        "Karl Pertsch",
+        "Lucy Xiaoyang Shi",
+        "James Tanner",
+        "Quan Vuong",
+        "Anna Walling",
+        "Haohuan Wang",
+        "Ury Zhilinsky"
+      ],
+      "year": 2024,
+      "arxiv_id": "2410.24164v1",
+      "url": "https://arxiv.org/abs/2410.24164v1",
+      "doi": "",
+      "source_sha256": "3e0641909f7b6325d36047ddad8957278599e76bb4a9cc5fd52692552e495cf5",
+      "checked_at": "2026-11-13",
+      "read_sections": "S4 — IV The π0\\pi_{0} Model; связанные фрагменты метода и оценки",
+      "decision": "core",
+      "reason": "Источник опубликованного обзора.",
+      "available_arxiv_id": "2410.24164v4"
+    },
+    {
+      "id": "arxiv-2609-02546",
+      "title": "ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop Manipulation",
+      "authors": [
+        "Mi Yan",
+        "Wenhao Zhang",
+        "Zhiqi Zhang",
+        "Yu Peng",
+        "Tangxinyu Wang",
+        "Lingfei Zhai",
+        "Jiayi Su",
+        "Shengliang Deng",
+        "Lin Peng",
+        "Yaowei Liu",
+        "Yuxing Chen",
+        "Zhiyuan Wei",
+        "Jilong Wang",
+        "Jiayi Chen",
+        "Jiangran Lyu",
+        "Zhizheng Zhang",
+        "He Wang"
+      ],
+      "year": 2026,
+      "arxiv_id": "2609.02546v3",
+      "url": "https://arxiv.org/abs/2609.02546v3",
+      "doi": "",
+      "source_sha256": "f3b21b96d21a0886004dba853570f0525f95e9d4ec98972aa421b640cc2b3932",
+      "checked_at": "2026-11-13",
+      "read_sections": "S2.SS3 — 2.3 Zero-Shot Cross-Embodiment Evaluation and Benchmarks; связанные фрагменты метода и оценки",
+      "decision": "core",
+      "reason": "Источник опубликованного обзора."
+    },
+    {
+      "id": "arxiv-2610-33685",
+      "title": "EXE: Egocentric Cross-Embodiment Pretraining via Factorized Latent Actions for VLA Models",
+      "authors": [
+        "Qingyuan Cai",
+        "Bo Zhang",
+        "Yongzhen Huang",
+        "Jianyu Chen"
+      ],
+      "year": 2026,
+      "arxiv_id": "2610.33685v1",
+      "url": "https://arxiv.org/abs/2610.33685v1",
+      "doi": "",
+      "source_sha256": "760febdc984973f402a0a3d29e1f3e7485c4c7ed2c6babfdb71fd5985289c554",
+      "checked_at": "2026-11-13",
+      "read_sections": "S3 — III Method; связанные фрагменты метода и оценки",
+      "decision": "core",
+      "reason": "Источник опубликованного обзора."
+    },
+    {
+      "id": "arxiv-2611-15490",
+      "title": "ActionCodec2: A Streaming Action Tokenizer",
+      "authors": [
+        "Zibin Dong",
+        "Yicheng Liu",
+        "Shiduo Zhang",
+        "Tianyuan Yuan",
+        "Baijun Ye",
+        "Jinqiu Wang",
+        "Hang Zhao"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.15490v1",
+      "url": "https://arxiv.org/abs/2611.15490v1",
+      "published_at": "2026-11-11",
+      "updated_at": "2026-11-11",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-14092",
+      "title": "DexSeed: Expanding Human Hand-Object Interactions into Robot Demonstrations for Dexterous Policy Learning",
+      "authors": [
+        "Huaijin Pi",
+        "Zehong Shen",
+        "Yong Wang",
+        "Kechun Xu",
+        "Changpeng Wang",
+        "Dingkun Wei",
+        "Xueyang Wang",
+        "Wenjia Wang",
+        "Xing Zhu",
+        "Yujun Shen",
+        "Taku Komura"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.14092v1",
+      "url": "https://arxiv.org/abs/2611.14092v1",
+      "published_at": "2026-11-10",
+      "updated_at": "2026-11-10",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-13160",
+      "title": "How Much of Your VLA Is kNN",
+      "authors": [
+        "Denis Grachev",
+        "Damien LaRocque",
+        "Omar Moured"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.13160v1",
+      "url": "https://arxiv.org/abs/2611.13160v1",
+      "published_at": "2026-11-09",
+      "updated_at": "2026-11-09",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-13030",
+      "title": "APS-VLA: Action-Guided and Future-Aware Token Pruning for Efficient Vision-Language-Action Models",
+      "authors": [
+        "Xiaoyang Xing",
+        "Chun-Mei Feng",
+        "Anthony Cohn",
+        "Xiaoliang Gong",
+        "Asoke Nandi"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.13030v1",
+      "url": "https://arxiv.org/abs/2611.13030v1",
+      "published_at": "2026-11-09",
+      "updated_at": "2026-11-09",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-11981",
+      "title": "Thermo-VLA: A Thermal-Aware Vision-Language-Action Model with Gated Residual Modulation for Robotic Manipulation",
+      "authors": [
+        "Jingxuan Chen",
+        "Junshi Luo",
+        "Chencheng Dong",
+        "Xiaojian Nie",
+        "Tongge Huang",
+        "Qiang Huang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.11981v1",
+      "url": "https://arxiv.org/abs/2611.11981v1",
+      "published_at": "2026-11-09",
+      "updated_at": "2026-11-09",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-11856",
+      "title": "DeltaForge: A Post-hoc Mixture-of-Experts VLA for Multi-Domain Autonomous Driving",
+      "authors": [
+        "Bingzhang Wang",
+        "Mo Poorsartep",
+        "Yasaman Esfandiari"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.11856v1",
+      "url": "https://arxiv.org/abs/2611.11856v1",
+      "published_at": "2026-11-09",
+      "updated_at": "2026-11-09",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-11798",
+      "title": "PAIR: Proprioception-Aligned Image-Ray Representations for Viewpoint-Robust Manipulation",
+      "authors": [
+        "Sung-Wook Lee",
+        "Xuhui Kang",
+        "Dylan Losey",
+        "Yen-Ling Kuo"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.11798v1",
+      "url": "https://arxiv.org/abs/2611.11798v1",
+      "published_at": "2026-11-09",
+      "updated_at": "2026-11-09",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-11554",
+      "title": "Kimodo-Policy: Learning Kinematic Action Models for Humanoid Loco-Manipulation",
+      "authors": [
+        "Yunheng Wang",
+        "Jiaxi Zhang",
+        "Wei Lu",
+        "Yuetong Fang",
+        "Taowen Wang",
+        "Yixiao Feng",
+        "Shuning Zhang",
+        "Junzhe Xu",
+        "Yichi Wang",
+        "Zizhao Yuan",
+        "Kailun Huang",
+        "Lusong Li",
+        "Mingqian Zhou",
+        "Zecui Zeng",
+        "Renjing Xu"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.11554v1",
+      "url": "https://arxiv.org/abs/2611.11554v1",
+      "published_at": "2026-11-08",
+      "updated_at": "2026-11-08",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-11123",
+      "title": "HARP-Bench: Benchmarking Robot Manipulation Around Active Humans",
+      "authors": [
+        "Qinhong Zhou",
+        "Riley Zong",
+        "Chunru Lin",
+        "Diyi Hu",
+        "Shivraj Singh Bhatti",
+        "Hongxin Zhang",
+        "Lin Qiu",
+        "Hanqing Zeng",
+        "Chuang Gan"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.11123v1",
+      "url": "https://arxiv.org/abs/2611.11123v1",
+      "published_at": "2026-11-08",
+      "updated_at": "2026-11-08",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-10894",
+      "title": "Zero-Shot VLA Adaptation with Retrieved Guidance",
+      "authors": [
+        "Subin Kim",
+        "Anh-Quan Pham",
+        "Dinesh Jayaraman"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.10894v1",
+      "url": "https://arxiv.org/abs/2611.10894v1",
+      "published_at": "2026-11-07",
+      "updated_at": "2026-11-07",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-10443",
+      "title": "Spatial Representation Distillation and Knowledge Routing for Vision-Language-Action Models",
+      "authors": [
+        "Jungin Park",
+        "Chaoran Zhu",
+        "Changjae Oh",
+        "Kwanghoon Sohn"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.10443v1",
+      "url": "https://arxiv.org/abs/2611.10443v1",
+      "published_at": "2026-11-07",
+      "updated_at": "2026-11-07",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-09355",
+      "title": "HiMEM: Hippocampus-Inspired Memory Consolidation, Pruning, and Composition for Vision-Language-Action Models in 3D Scenes",
+      "authors": [
+        "Boran Zhao",
+        "Yanbin Hu",
+        "Jun Ye",
+        "Zhenxian Hu",
+        "Yuxin Zhai",
+        "Jin Cui",
+        "Pengju Ren"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.09355v1",
+      "url": "https://arxiv.org/abs/2611.09355v1",
+      "published_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-08987",
+      "title": "VLA Handover: Failure-Prediction-Based Switching from On-Robot to Server VLA Models",
+      "authors": [
+        "Takayuki Nishio"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.08987v1",
+      "url": "https://arxiv.org/abs/2611.08987v1",
+      "published_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-08577",
+      "title": "Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation",
+      "authors": [
+        " Meituan Robotics Team",
+        "Caicheng Wang",
+        "Chen Zhao",
+        "Chengpeng Jin",
+        "Duo Xu",
+        "Fengjiao Chen",
+        "Guanglu Wan",
+        "Heqing Yang",
+        "Jia Wang",
+        "Jiacong Zhou",
+        "Jie Hu",
+        "Jiyuan Ru",
+        "Lingfeng Zhang",
+        "Linjiang Huang",
+        "Manyuan Zhang",
+        "Ningchu Liu",
+        "Shijie Zhou",
+        "Si Liu",
+        "Shuo Li",
+        "Tianyi Zhang",
+        "Xi Zhang",
+        "Xin Chen",
+        "Xuezhi Cao",
+        "Xunliang Cai",
+        "Yanbin Zeng",
+        "Yang Yang",
+        "Yang Yi",
+        "Yanli Tan",
+        "Yifu Xu",
+        "Yimeng Jia",
+        "Yuchen Tang",
+        "Yuchen Xie",
+        "Yuxiang Zheng",
+        "Zerwei Chng",
+        "Zilong Huang",
+        "Zipeng Ye",
+        "Ziyuan Qin",
+        "Ziqin Wang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.08577v3",
+      "url": "https://arxiv.org/abs/2611.08577v3",
+      "published_at": "2026-11-05",
+      "updated_at": "2026-11-12",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
       "id": "arxiv-2611-08462",
       "title": "OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions",
       "authors": [
@@ -18,13 +859,14 @@
       "url": "https://arxiv.org/abs/2611.08462v1",
       "published_at": "2026-11-05",
       "updated_at": "2026-11-05",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -49,13 +891,14 @@
       "url": "https://arxiv.org/abs/2611.08373v1",
       "published_at": "2026-11-05",
       "updated_at": "2026-11-05",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -71,13 +914,14 @@
       "url": "https://arxiv.org/abs/2611.07411v1",
       "published_at": "2026-11-05",
       "updated_at": "2026-11-05",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -100,6 +944,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -116,13 +961,14 @@
       "url": "https://arxiv.org/abs/2611.06710v1",
       "published_at": "2026-11-04",
       "updated_at": "2026-11-04",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -139,17 +985,18 @@
       ],
       "year": 2026,
       "doi": "",
-      "arxiv_id": "2611.06447v1",
-      "url": "https://arxiv.org/abs/2611.06447v1",
+      "arxiv_id": "2611.06447v2",
+      "url": "https://arxiv.org/abs/2611.06447v2",
       "published_at": "2026-11-04",
-      "updated_at": "2026-11-04",
-      "checked_at": "2026-11-08",
+      "updated_at": "2026-11-10",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -169,13 +1016,14 @@
       "url": "https://arxiv.org/abs/2611.05372v1",
       "published_at": "2026-11-03",
       "updated_at": "2026-11-03",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -194,13 +1042,14 @@
       "url": "https://arxiv.org/abs/2611.05080v1",
       "published_at": "2026-11-03",
       "updated_at": "2026-11-03",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -221,13 +1070,14 @@
       "url": "https://arxiv.org/abs/2611.04522v1",
       "published_at": "2026-11-03",
       "updated_at": "2026-11-03",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -243,13 +1093,14 @@
       "url": "https://arxiv.org/abs/2611.04392v1",
       "published_at": "2026-11-03",
       "updated_at": "2026-11-03",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -269,13 +1120,14 @@
       "url": "https://arxiv.org/abs/2611.04391v1",
       "published_at": "2026-11-03",
       "updated_at": "2026-11-03",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -310,13 +1162,14 @@
       "url": "https://arxiv.org/abs/2611.03815v1",
       "published_at": "2026-11-02",
       "updated_at": "2026-11-02",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -345,13 +1198,14 @@
       "url": "https://arxiv.org/abs/2611.02777v1",
       "published_at": "2026-11-02",
       "updated_at": "2026-11-02",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -370,13 +1224,14 @@
       "url": "https://arxiv.org/abs/2611.02660v1",
       "published_at": "2026-11-02",
       "updated_at": "2026-11-02",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -418,13 +1273,14 @@
       "url": "https://arxiv.org/abs/2611.02497v1",
       "published_at": "2026-11-02",
       "updated_at": "2026-11-02",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -451,13 +1307,14 @@
       "url": "https://arxiv.org/abs/2611.01729v1",
       "published_at": "2026-11-01",
       "updated_at": "2026-11-01",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -484,6 +1341,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -513,6 +1371,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -542,6 +1401,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -565,6 +1425,7 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -594,31 +1455,86 @@
         "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
     {
-      "id": "arxiv-2610-33685",
-      "title": "EXE: Egocentric Cross-Embodiment Pretraining via Factorized Latent Actions for VLA Models",
+      "id": "arxiv-2610-35817",
+      "title": "Pretraining Knows What, Simulation Teaches How: Compositional Generalization for Agentic Robotics",
       "authors": [
-        "Qingyuan Cai",
-        "Bo Zhang",
-        "Yongzhen Huang",
-        "Jianyu Chen"
+        "Benjamin Pikus",
+        "Daniel Saunders",
+        "Mircea Mironenco",
+        "Salman Mohammadi",
+        "Mathew Mathew",
+        "Sirou Zhu",
+        "Divya Makkar",
+        "Xuhua Huang",
+        "Qinbo Li",
+        "Supreeth Narasimhaswamy",
+        "Siyuan Cen",
+        "Dejia Xu",
+        "Shyamal Buch",
+        "Thomas Neff"
       ],
       "year": 2026,
-      "doi": null,
-      "arxiv_id": "2610.33685v1",
-      "url": "https://arxiv.org/abs/2610.33685v1",
-      "published_at": "2026-10-24",
-      "updated_at": "2026-10-24",
-      "checked_at": "2026-11-08",
+      "doi": "",
+      "arxiv_id": "2610.35817v3",
+      "url": "https://arxiv.org/abs/2610.35817v3",
+      "published_at": "2026-10-26",
+      "updated_at": "2026-11-03",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
-        "seed"
+        "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-35252",
+      "title": "Labference: Benchmarking the Reasoning-Action Connection in Robotic Laboratories",
+      "authors": [
+        "Shitong Liu",
+        "Xu Yang",
+        "Jingwei Zhang",
+        "Sheng Lian",
+        "Xinyu Zhuang",
+        "Kaiwen Guo",
+        "Quan Liu",
+        "Chunhai Zhao",
+        "Jiaxin He",
+        "Fan Yang",
+        "Manli Tao",
+        "Tingyu Yuan",
+        "Hongwei Shi",
+        "Chaomin Guo",
+        "Xiao-jing Liu",
+        "Zhuang Xiong",
+        "Feichan Yang",
+        "Xiangyu Zhu",
+        "Jinqiao Wang",
+        "Chaoyang Zhao",
+        "Zhiyong Liu"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.35252v2",
+      "url": "https://arxiv.org/abs/2610.35252v2",
+      "published_at": "2026-10-26",
+      "updated_at": "2026-11-02",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -646,6 +1562,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -671,6 +1588,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -700,6 +1618,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -728,6 +1647,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -761,6 +1681,90 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-06598",
+      "title": "SimForcing: Distilling Simulation Motion Priors into Real-Domain Robot World Models",
+      "authors": [
+        "Xiaodong Wang",
+        "Tianle Li",
+        "Chuanxin Song",
+        "Junliang Xie",
+        "Zhanmi Zhong",
+        "Suiying Wu",
+        "Peixi Peng"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.06598v2",
+      "url": "https://arxiv.org/abs/2610.06598v2",
+      "published_at": "2026-10-05",
+      "updated_at": "2026-11-04",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-04391",
+      "title": "AgenticTactileVLA: Contact-Guided Execution-Time Supervision for Generalizable Dexterous Manipulation without VLA Retraining",
+      "authors": [
+        "Elizaveta Semenyakina",
+        "Ivan Snegirev",
+        "Mikhail Kiselev",
+        "Miguel Altamirano Cabrera",
+        "Artem Lykov",
+        "Hajira Amjad",
+        "Dzmitry Tsetserukou"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.04391v2",
+      "url": "https://arxiv.org/abs/2610.04391v2",
+      "published_at": "2026-10-03",
+      "updated_at": "2026-11-11",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2609-34982",
+      "title": "ActionUNet: Improving Robustness of VLA Models with Efficient Multi-scale Fine-tuning",
+      "authors": [
+        "Di Zhu",
+        "Ziheng Yan",
+        "Fang Wan"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2609.34982v3",
+      "url": "https://arxiv.org/abs/2609.34982v3",
+      "published_at": "2026-09-28",
+      "updated_at": "2026-11-11",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -787,6 +1791,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -813,45 +1818,93 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
     {
-      "id": "arxiv-2609-02546",
-      "title": "ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop Manipulation",
+      "id": "arxiv-2609-05178",
+      "title": "LIBERO-RECOVER: Beyond Task Success Towards Failure Recovery in Robotic Manipulation Models",
       "authors": [
-        "Mi Yan",
-        "Wenhao Zhang",
-        "Zhiqi Zhang",
-        "Yu Peng",
-        "Tangxinyu Wang",
-        "Lingfei Zhai",
-        "Jiayi Su",
-        "Shengliang Deng",
-        "Lin Peng",
-        "Yaowei Liu",
-        "Yuxing Chen",
-        "Zhiyuan Wei",
-        "Jilong Wang",
-        "Jiayi Chen",
-        "Jiangran Lyu",
-        "Zhizheng Zhang",
-        "He Wang"
+        "Lin Liu",
+        "Zhicheng Bao",
+        "Lu Zhang",
+        "Ziying Song",
+        "Wu Yang",
+        "Yuzheng Zhuang",
+        "Shuai Tao",
+        "Wulong Liu",
+        "Caiyan Jia",
+        "Huchuan Lu"
       ],
       "year": 2026,
       "doi": "",
-      "arxiv_id": "2609.02546v3",
-      "url": "https://arxiv.org/abs/2609.02546v3",
-      "published_at": "2026-09-02",
-      "updated_at": "2026-10-11",
-      "checked_at": "2026-11-08",
+      "arxiv_id": "2609.05178v4",
+      "url": "https://arxiv.org/abs/2609.05178v4",
+      "published_at": "2026-09-04",
+      "updated_at": "2026-11-03",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
-        "evaluation",
-        "seed"
+        "recent"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2609-03681",
+      "title": "WISE: World-model-guided Imagination Scheduling for Efficient Post-training of Vision-Language-Action Models",
+      "authors": [
+        "Chenhao Zhang",
+        "Hanyu Zhao",
+        "Zihan Que",
+        "Hang Cheng",
+        "Tengfei Pan",
+        "Long Zeng"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2609.03681v2",
+      "url": "https://arxiv.org/abs/2609.03681v2",
+      "published_at": "2026-09-03",
+      "updated_at": "2026-11-12",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2609-02341",
+      "title": "Towards Zero-Shot Transfer Across Embodiments For Driving VLAs",
+      "authors": [
+        "Caio Azevedo",
+        "Stefano Sabatini",
+        "Sascha Hornauer",
+        "Fabien Moutarde"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2609.02341v2",
+      "url": "https://arxiv.org/abs/2609.02341v2",
+      "published_at": "2026-09-02",
+      "updated_at": "2026-11-02",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -876,6 +1929,34 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2608-19490",
+      "title": "Fine-Tuning VLAs with Self-Demonstrated Generative Control for Multi-Task Manipulation",
+      "authors": [
+        "Prachi Garg",
+        "Steve Xing",
+        "Prahit Yaugand",
+        "Saurabh Gupta",
+        "Derek Hoiem"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2608.19490v2",
+      "url": "https://arxiv.org/abs/2608.19490v2",
+      "published_at": "2026-08-19",
+      "updated_at": "2026-11-03",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -912,6 +1993,7 @@
         "seed"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -939,6 +2021,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -994,6 +2077,37 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2607-08974",
+      "title": "CLAP: Direct VLM-to-VLA Adaptation via Language-Action Grounding",
+      "authors": [
+        "Yuri Ishitoya",
+        "Jeremy Siburian",
+        "Masashi Hamaya",
+        "Haruto Suzuki",
+        "Kuniaki Saito",
+        "Toshihiko Fukushima",
+        "Cristian C. Beltran-Hernandez",
+        "Mai Nishimura"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2607.08974v2",
+      "url": "https://arxiv.org/abs/2607.08974v2",
+      "published_at": "2026-07-09",
+      "updated_at": "2026-11-03",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1020,6 +2134,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1047,6 +2162,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1077,6 +2193,38 @@
         "seed"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2606-22174",
+      "title": "OpenHLM: An Empirical Recipe for Whole-Body Humanoid Loco-Manipulation",
+      "authors": [
+        "Yingdong Hu",
+        "Haodong Zhu",
+        "Boyuan Zheng",
+        "Yihang Hu",
+        "Tong Zhang",
+        "Zunhao Chen",
+        "Junming Zhao",
+        "Ruiqian Nai",
+        "Yang Gao"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2606.22174v2",
+      "url": "https://arxiv.org/abs/2606.22174v2",
+      "published_at": "2026-06-20",
+      "updated_at": "2026-11-02",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1108,6 +2256,79 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2606-14084",
+      "title": "Test-Time Improvement of VLA Policies via Selected Diffusion Noise for Spurious-Robust Action Smoothing",
+      "authors": [
+        "Duc Minh Nguyen",
+        "Bao-Ngoc Dao",
+        "Tung M. Luu",
+        "Binh Gia Nguyen",
+        "Vinh Tong",
+        "Anji Liu",
+        "Vu N. Duong",
+        "Dung D. Le",
+        "Daniel Sonntag",
+        "Trung Le",
+        "Ngan Le",
+        "Jan Peter",
+        "An Thai Le",
+        "Minh Nhat Vu",
+        "Mathias Niepert",
+        "Khoa D. Doan",
+        "Duy M. H. Nguyen",
+        "Vien Anh Ngo"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2606.14084v2",
+      "url": "https://arxiv.org/abs/2606.14084v2",
+      "published_at": "2026-06-12",
+      "updated_at": "2026-11-04",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2606-11901",
+      "title": "DuoBench: A Reproducible Benchmark for Bimanual Manipulation in Simulation and the Real World",
+      "authors": [
+        "Tobias Jülg",
+        "Seongjin Bien",
+        "Simon Hilber",
+        "Yannik Blei",
+        "Pierre Krack",
+        "Maximilian Li",
+        "Sven Parusel",
+        "Rudolf Lioutikov",
+        "Florian Walter",
+        "Wolfram Burgard"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2606.11901v2",
+      "url": "https://arxiv.org/abs/2606.11901v2",
+      "published_at": "2026-06-10",
+      "updated_at": "2026-11-02",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1134,6 +2355,62 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2606-03159",
+      "title": "NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation",
+      "authors": [
+        "Aarti Basant",
+        "Amlan Kar",
+        "Despoina Paschalidou",
+        "Fangyin Wei",
+        "Francesco Ferroni",
+        "Guillermo Garcia Cobo",
+        "Haithem Turki",
+        "Huan Ling",
+        "Jaewoo Seo",
+        "James Lucas",
+        "Jay Zhangjie Wu",
+        "Jialiang Wang",
+        "Jonathan Lorraine",
+        "Jun Gao",
+        "Kai He",
+        "Katarina Tothova",
+        "Kevin Xie",
+        "Michal Tyszkiewicz",
+        "Qi Wu",
+        "Riccardo de Lutio",
+        "Ruilong Li",
+        "Sanja Fidler",
+        "Seung Wook Kim",
+        "Tianchang Shen",
+        "Tianshi Cao",
+        "Tobias Pfaff",
+        "William Lew",
+        "Xindi Wu",
+        "Xuanchi Ren",
+        "Yifan Lu",
+        "Yuxuan Zhang",
+        "Zan Gojcic",
+        "Zian Wang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2606.03159v4",
+      "url": "https://arxiv.org/abs/2606.03159v4",
+      "published_at": "2026-06-02",
+      "updated_at": "2026-11-12",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1163,6 +2440,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1188,6 +2466,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1249,6 +2528,63 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2605-25829",
+      "title": "OASIS: Observation-Action Space Alignment via SE(3) Trajectory Prediction for Robotic Manipulation",
+      "authors": [
+        "Xinzhe Chen",
+        "Sihua Ren",
+        "Liqi Huang",
+        "Haowen Sun",
+        "Mingyang Li",
+        "Zeyang Liu",
+        "Xingyu Chen",
+        "Xuguang Lan"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2605.25829v2",
+      "url": "https://arxiv.org/abs/2605.25829v2",
+      "published_at": "2026-05-25",
+      "updated_at": "2026-11-07",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2605-17204",
+      "title": "Event-Grounded Sparse Autoencoders for Vision-Language-Action Policies",
+      "authors": [
+        "Xinchen Jin",
+        "Aditya Chatterjee",
+        "Pranav Kumar",
+        "Rohan Paleja"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2605.17204v2",
+      "url": "https://arxiv.org/abs/2605.17204v2",
+      "published_at": "2026-05-17",
+      "updated_at": "2026-11-05",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1275,6 +2611,43 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2605-10819",
+      "title": "ALAM: Algebraically Consistent Latent Action Model for Vision-Language-Action Models",
+      "authors": [
+        "Zuojin Tang",
+        "Haoyun Liu",
+        "Xinyuan Chang",
+        "Changjie Wu",
+        "Dongjie Huo",
+        "Yandan Yang",
+        "Bin Liu",
+        "Zhejia Cai",
+        "Feng Xiong",
+        "Mu Xu",
+        "jiachen Luo",
+        "De Ma",
+        "Zhiheng Ma",
+        "Gang Pan"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2605.10819v3",
+      "url": "https://arxiv.org/abs/2605.10819v3",
+      "published_at": "2026-05-11",
+      "updated_at": "2026-11-07",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1303,6 +2676,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1328,6 +2702,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1354,6 +2729,43 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2603-23481",
+      "title": "VTAM: Efficient Visuo-Tactile World-Action Models for Contact-Rich Manipulation without Tactile Pretraining",
+      "authors": [
+        "Haoran Yuan",
+        "Weigang Yi",
+        "Zhenyu Zhang",
+        "Wendi Chen",
+        "Yuchen Mo",
+        "Jiashi Yin",
+        "Xinzhuo Li",
+        "Yue Luo",
+        "Jialin Li",
+        "Xiangyu Zeng",
+        "Chuan Wen",
+        "Cewu Lu",
+        "Katherine Driggs-Campbell",
+        "Ismini Lourentzou"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2603.23481v2",
+      "url": "https://arxiv.org/abs/2603.23481v2",
+      "published_at": "2026-03-24",
+      "updated_at": "2026-11-05",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1383,6 +2795,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1404,17 +2817,19 @@
       ],
       "year": 2026,
       "doi": "",
-      "arxiv_id": "2603.09542v3",
-      "url": "https://arxiv.org/abs/2603.09542v3",
+      "arxiv_id": "2603.09542v4",
+      "url": "https://arxiv.org/abs/2603.09542v4",
       "published_at": "2026-03-10",
-      "updated_at": "2026-09-11",
-      "checked_at": "2026-11-08",
+      "updated_at": "2026-11-11",
+      "checked_at": "2026-11-13",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
+        "recent",
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1439,6 +2854,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1471,6 +2887,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1500,6 +2917,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1525,6 +2943,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1553,6 +2972,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1597,6 +3017,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1646,6 +3067,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1673,6 +3095,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1699,6 +3122,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1732,6 +3156,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1760,6 +3185,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1795,6 +3221,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1824,6 +3251,38 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2512-20276",
+      "title": "ActionFlow: A Pipelined Action Acceleration for Vision Language Models on Edge",
+      "authors": [
+        "Yuntao Dai",
+        "Hang Gu",
+        "Teng Wang",
+        "Qianyu Cheng",
+        "Yifei Zheng",
+        "Zhiyong Qiu",
+        "Lei Gong",
+        "Wenqi Lou",
+        "Xuehai Zhou"
+      ],
+      "year": 2025,
+      "doi": "10.1145/3770743.3804155",
+      "arxiv_id": "2512.20276v2",
+      "url": "https://arxiv.org/abs/2512.20276v2",
+      "published_at": "2025-12-23",
+      "updated_at": "2026-11-01",
+      "checked_at": "2026-11-13",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-13",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1856,6 +3315,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1885,6 +3345,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1914,6 +3375,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1941,6 +3403,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1968,6 +3431,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -1997,6 +3461,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2022,6 +3487,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2045,6 +3511,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2083,6 +3550,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2110,6 +3578,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2147,6 +3616,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2175,6 +3645,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2368,6 +3839,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2395,6 +3867,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2421,6 +3894,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2448,6 +3922,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2475,6 +3950,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2503,6 +3979,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2534,6 +4011,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2561,6 +4039,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2586,6 +4065,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2612,6 +4092,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2636,6 +4117,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2660,6 +4142,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2685,6 +4168,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2712,6 +4196,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2737,6 +4222,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2774,6 +4260,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2796,6 +4283,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2830,6 +4318,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2862,6 +4351,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2919,6 +4409,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2946,6 +4437,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2982,6 +4474,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3014,6 +4507,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3041,6 +4535,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3067,6 +4562,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3093,6 +4589,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3121,6 +4618,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3157,6 +4655,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3181,6 +4680,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3209,6 +4709,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3236,6 +4737,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3260,6 +4762,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3292,6 +4795,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3321,6 +4825,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3350,6 +4855,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3378,6 +4884,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3405,6 +4912,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3438,6 +4946,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3462,6 +4971,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3492,6 +5002,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3518,6 +5029,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3546,6 +5058,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3572,6 +5085,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3599,6 +5113,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3632,6 +5147,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3656,6 +5172,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3693,6 +5210,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3721,6 +5239,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3748,6 +5267,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3780,6 +5300,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3812,6 +5333,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3840,6 +5362,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3875,6 +5398,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3934,6 +5458,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3962,6 +5487,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -3991,6 +5517,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4021,6 +5548,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4053,6 +5581,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4085,6 +5614,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4124,6 +5654,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4155,6 +5686,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4181,6 +5713,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4207,51 +5740,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
-      "decision": "reading_list",
-      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
-    },
-    {
-      "id": "arxiv-2410-24164",
-      "title": "$π_0$: A Vision-Language-Action Flow Model for General Robot Control",
-      "authors": [
-        "Kevin Black",
-        "Noah Brown",
-        "Danny Driess",
-        "Adnan Esmail",
-        "Michael Equi",
-        "Chelsea Finn",
-        "Niccolo Fusai",
-        "Lachy Groom",
-        "Karol Hausman",
-        "Brian Ichter",
-        "Szymon Jakubczak",
-        "Tim Jones",
-        "Liyiming Ke",
-        "Sergey Levine",
-        "Adrian Li-Bell",
-        "Mohith Mothukuri",
-        "Suraj Nair",
-        "Karl Pertsch",
-        "Lucy Xiaoyang Shi",
-        "James Tanner",
-        "Quan Vuong",
-        "Anna Walling",
-        "Haohuan Wang",
-        "Ury Zhilinsky"
-      ],
-      "year": 2024,
-      "doi": "",
-      "arxiv_id": "2410.24164v4",
-      "url": "https://arxiv.org/abs/2410.24164v4",
-      "published_at": "2024-10-31",
-      "updated_at": "2026-01-08",
-      "checked_at": "2026-11-08",
-      "coverage": "metadata_only",
-      "verification": "arxiv_metadata",
-      "discovery_groups": [
-        "earlier"
-      ],
-      "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4282,6 +5771,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4308,6 +5798,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4345,6 +5836,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4374,6 +5866,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4400,6 +5893,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4434,6 +5928,7 @@
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4462,6 +5957,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4488,6 +5984,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4515,6 +6012,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4547,6 +6045,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4574,6 +6073,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4605,45 +6105,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
-      "decision": "reading_list",
-      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
-    },
-    {
-      "id": "arxiv-2406-09246",
-      "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
-      "authors": [
-        "Moo Jin Kim",
-        "Karl Pertsch",
-        "Siddharth Karamcheti",
-        "Ted Xiao",
-        "Ashwin Balakrishna",
-        "Suraj Nair",
-        "Rafael Rafailov",
-        "Ethan Foster",
-        "Grace Lam",
-        "Pannag Sanketi",
-        "Quan Vuong",
-        "Thomas Kollar",
-        "Benjamin Burchfiel",
-        "Russ Tedrake",
-        "Dorsa Sadigh",
-        "Sergey Levine",
-        "Percy Liang",
-        "Chelsea Finn"
-      ],
-      "year": 2024,
-      "doi": "",
-      "arxiv_id": "2406.09246v3",
-      "url": "https://arxiv.org/abs/2406.09246v3",
-      "published_at": "2024-06-13",
-      "updated_at": "2024-09-05",
-      "checked_at": "2026-11-08",
-      "coverage": "metadata_only",
-      "verification": "arxiv_metadata",
-      "discovery_groups": [
-        "earlier"
-      ],
-      "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4669,6 +6131,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4700,6 +6163,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4726,6 +6190,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4762,82 +6227,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
-      "decision": "reading_list",
-      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
-    },
-    {
-      "id": "arxiv-2307-15818",
-      "title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
-      "authors": [
-        "Anthony Brohan",
-        "Noah Brown",
-        "Justice Carbajal",
-        "Yevgen Chebotar",
-        "Xi Chen",
-        "Krzysztof Choromanski",
-        "Tianli Ding",
-        "Danny Driess",
-        "Avinava Dubey",
-        "Chelsea Finn",
-        "Pete Florence",
-        "Chuyuan Fu",
-        "Montse Gonzalez Arenas",
-        "Keerthana Gopalakrishnan",
-        "Kehang Han",
-        "Karol Hausman",
-        "Alexander Herzog",
-        "Jasmine Hsu",
-        "Brian Ichter",
-        "Alex Irpan",
-        "Nikhil Joshi",
-        "Ryan Julian",
-        "Dmitry Kalashnikov",
-        "Yuheng Kuang",
-        "Isabel Leal",
-        "Lisa Lee",
-        "Tsang-Wei Edward Lee",
-        "Sergey Levine",
-        "Yao Lu",
-        "Henryk Michalewski",
-        "Igor Mordatch",
-        "Karl Pertsch",
-        "Kanishka Rao",
-        "Krista Reymann",
-        "Michael Ryoo",
-        "Grecia Salazar",
-        "Pannag Sanketi",
-        "Pierre Sermanet",
-        "Jaspiar Singh",
-        "Anikait Singh",
-        "Radu Soricut",
-        "Huong Tran",
-        "Vincent Vanhoucke",
-        "Quan Vuong",
-        "Ayzaan Wahid",
-        "Stefan Welker",
-        "Paul Wohlhart",
-        "Jialin Wu",
-        "Fei Xia",
-        "Ted Xiao",
-        "Peng Xu",
-        "Sichun Xu",
-        "Tianhe Yu",
-        "Brianna Zitkovich"
-      ],
-      "year": 2023,
-      "doi": "",
-      "arxiv_id": "2307.15818v1",
-      "url": "https://arxiv.org/abs/2307.15818v1",
-      "published_at": "2023-07-28",
-      "updated_at": "2023-07-28",
-      "checked_at": "2026-11-08",
-      "coverage": "metadata_only",
-      "verification": "arxiv_metadata",
-      "discovery_groups": [
-        "earlier",
-        "relevance"
-      ],
-      "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4864,6 +6254,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4892,6 +6283,7 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4919,6 +6311,7 @@
         "evaluation"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4945,10 +6338,950 @@
         "earlier"
       ],
       "screening_status": "not_fulltext_reviewed",
+      "added_at": null,
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     }
   ],
-  "versions": [],
-  "review": null
+  "versions": [
+    {
+      "id": "editorial-2026-11-13",
+      "released_at": "2026-11-13",
+      "note": "Первый обзор: 7 выбранных работ, механизмы, сравнение и ограничения; без своего воспроизведения."
+    }
+  ],
+  "review": {
+    "schema_version": 1,
+    "kind": "editorial_review",
+    "snapshot_id": "editorial-2026-11-13",
+    "at": "2026-11-13",
+    "review": {
+      "topic": "VLA и перенос между роботами: что именно обобщается",
+      "questions": [
+        "Что именно переносится между embodiment, задачами и средами?",
+        "Какие реальные роботические эксперименты подтверждают перенос и где он нарушается?"
+      ]
+    },
+    "papers": [
+      {
+        "id": "arxiv-2307-15818",
+        "title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
+        "authors": [
+          "Anthony Brohan",
+          "Noah Brown",
+          "Justice Carbajal",
+          "Yevgen Chebotar",
+          "Xi Chen",
+          "Krzysztof Choromanski",
+          "Tianli Ding",
+          "Danny Driess",
+          "Avinava Dubey",
+          "Chelsea Finn",
+          "Pete Florence",
+          "Chuyuan Fu",
+          "Montse Gonzalez Arenas",
+          "Keerthana Gopalakrishnan",
+          "Kehang Han",
+          "Karol Hausman",
+          "Alexander Herzog",
+          "Jasmine Hsu",
+          "Brian Ichter",
+          "Alex Irpan",
+          "Nikhil Joshi",
+          "Ryan Julian",
+          "Dmitry Kalashnikov",
+          "Yuheng Kuang",
+          "Isabel Leal",
+          "Lisa Lee",
+          "Tsang-Wei Edward Lee",
+          "Sergey Levine",
+          "Yao Lu",
+          "Henryk Michalewski",
+          "Igor Mordatch",
+          "Karl Pertsch",
+          "Kanishka Rao",
+          "Krista Reymann",
+          "Michael Ryoo",
+          "Grecia Salazar",
+          "Pannag Sanketi",
+          "Pierre Sermanet",
+          "Jaspiar Singh",
+          "Anikait Singh",
+          "Radu Soricut",
+          "Huong Tran",
+          "Vincent Vanhoucke",
+          "Quan Vuong",
+          "Ayzaan Wahid",
+          "Stefan Welker",
+          "Paul Wohlhart",
+          "Jialin Wu",
+          "Fei Xia",
+          "Ted Xiao",
+          "Peng Xu",
+          "Sichun Xu",
+          "Tianhe Yu",
+          "Brianna Zitkovich"
+        ],
+        "year": 2023,
+        "arxiv_id": "2307.15818v1",
+        "url": "https://arxiv.org/abs/2307.15818v1",
+        "doi": "",
+        "source_sha256": "7029c47cbce39692871f9e94ff1f54bf4e02a2aa382f998996deda89bc4d1656",
+        "checked_at": "2026-11-13",
+        "read_sections": "S3.SS2 — 3.2 Robot-Action Fine-tuning; связанные фрагменты метода и оценки"
+      },
+      {
+        "id": "arxiv-2310-08864",
+        "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
+        "authors": [
+          "Abhishek Padalkar",
+          "Acorn Pooley",
+          "Ajinkya Jain",
+          "Alex Bewley",
+          "Alex Herzog",
+          "Alex Irpan",
+          "Alexander Khazatsky",
+          "Anant Rai",
+          "Anikait Singh",
+          "Anthony Brohan",
+          "Antonin Raffin",
+          "Ayzaan Wahid",
+          "Ben Burgess-Limerick",
+          "Beomjoon Kim",
+          "Bernhard Schölkopf",
+          "Brian Ichter",
+          "Cewu Lu",
+          "Charles Xu",
+          "Chelsea Finn",
+          "Chenfeng Xu",
+          "Cheng Chi",
+          "Chenguang Huang",
+          "Christine Chan",
+          "Chuer Pan",
+          "Chuyuan Fu",
+          "Coline Devin",
+          "Danny Driess",
+          "Deepak Pathak",
+          "Dhruv Shah",
+          "Dieter Büchler",
+          "Dmitry Kalashnikov",
+          "Dorsa Sadigh",
+          "Edward Johns",
+          "Federico Ceola",
+          "Fei Xia",
+          "Freek Stulp",
+          "Gaoyue Zhou",
+          "Gaurav S. Sukhatme",
+          "Gautam Salhotra",
+          "Ge Yan",
+          "Giulio Schiavi",
+          "Gregory Kahn",
+          "Hao Su",
+          "Hao-Shu Fang",
+          "Haochen Shi",
+          "Heni Ben Amor",
+          "Henrik I Christensen",
+          "Hiroki Furuta",
+          "Homer Walke",
+          "Hongjie Fang",
+          "Igor Mordatch",
+          "Ilija Radosavovic",
+          "Isabel Leal",
+          "Jacky Liang",
+          "Jad Abou-Chakra",
+          "Jaehyung Kim",
+          "Jan Peters",
+          "Jan Schneider",
+          "Jasmine Hsu",
+          "Jeannette Bohg",
+          "Jeffrey Bingham",
+          "Jiajun Wu",
+          "Jialin Wu",
+          "Jianlan Luo",
+          "Jiayuan Gu",
+          "Jie Tan",
+          "Jihoon Oh",
+          "Jitendra Malik",
+          "Jonathan Tompson",
+          "Jonathan Yang",
+          "Joseph J. Lim",
+          "João Silvério",
+          "Junhyek Han",
+          "Kanishka Rao",
+          "Karl Pertsch",
+          "Karol Hausman",
+          "Keegan Go",
+          "Keerthana Gopalakrishnan",
+          "Ken Goldberg",
+          "Kendra Byrne",
+          "Kenneth Oslund",
+          "Kento Kawaharazuka",
+          "Kevin Zhang",
+          "Krishan Rana",
+          "Krishnan Srinivasan",
+          "Lawrence Yunliang Chen",
+          "Lerrel Pinto",
+          "Liam Tan",
+          "Lionel Ott",
+          "Lisa Lee",
+          "Masayoshi Tomizuka",
+          "Maximilian Du",
+          "Michael Ahn",
+          "Mingtong Zhang",
+          "Mingyu Ding",
+          "Mohan Kumar Srirama",
+          "Mohit Sharma",
+          "Moo Jin Kim",
+          "Naoaki Kanazawa",
+          "Nicklas Hansen",
+          "Nicolas Heess",
+          "Nikhil J Joshi",
+          "Niko Suenderhauf",
+          "Norman Di Palo",
+          "Nur Muhammad Mahi Shafiullah",
+          "Oier Mees",
+          "Oliver Kroemer",
+          "Pannag R Sanketi",
+          "Paul Wohlhart",
+          "Peng Xu",
+          "Pierre Sermanet",
+          "Priya Sundaresan",
+          "Quan Vuong",
+          "Rafael Rafailov",
+          "Ran Tian",
+          "Ria Doshi",
+          "Roberto Martín-Martín",
+          "Russell Mendonca",
+          "Rutav Shah",
+          "Ryan Hoque",
+          "Ryan Julian",
+          "Samuel Bustamante",
+          "Sean Kirmani",
+          "Sergey Levine",
+          "Sherry Moore",
+          "Shikhar Bahl",
+          "Shivin Dass",
+          "Shubham Sonawani",
+          "Shuran Song",
+          "Sichun Xu",
+          "Siddhant Haldar",
+          "Simeon Adebola",
+          "Simon Guist",
+          "Soroush Nasiriany",
+          "Stefan Schaal",
+          "Stefan Welker",
+          "Stephen Tian",
+          "Sudeep Dasari",
+          "Suneel Belkhale",
+          "Takayuki Osa",
+          "Tatsuya Harada",
+          "Tatsuya Matsushima",
+          "Ted Xiao",
+          "Tianhe Yu",
+          "Tianli Ding",
+          "Todor Davchev",
+          "Tony Z. Zhao",
+          "Travis Armstrong",
+          "Trevor Darrell",
+          "Vidhi Jain",
+          "Vincent Vanhoucke",
+          "Wei Zhan",
+          "Wenxuan Zhou",
+          "Wolfram Burgard",
+          "Xi Chen",
+          "Xiaolong Wang",
+          "Xinghao Zhu",
+          "Xuanlin Li",
+          "Yao Lu",
+          "Yevgen Chebotar",
+          "Yifan Zhou",
+          "Yifeng Zhu",
+          "Ying Xu",
+          "Yixuan Wang",
+          "Yonatan Bisk",
+          "Yoonyoung Cho",
+          "Youngwoon Lee",
+          "Yuchen Cui",
+          "Yueh-Hua Wu",
+          "Yujin Tang",
+          "Yuke Zhu",
+          "Yunzhu Li",
+          "Yusuke Iwasawa",
+          "Yutaka Matsuo",
+          "Zhuo Xu",
+          "Zichen Jeff Cui"
+        ],
+        "year": 2023,
+        "arxiv_id": "2310.08864v1",
+        "url": "https://arxiv.org/abs/2310.08864v1",
+        "doi": "",
+        "source_sha256": "cdf49e93988e63d6c417d1a11aa328ec507c09f6fd5edbbda220b6aabe699bf5",
+        "checked_at": "2026-11-13",
+        "read_sections": "S5 — V Experimental Results; связанные фрагменты метода и оценки"
+      },
+      {
+        "id": "arxiv-2405-12213",
+        "title": "Octo: An Open-Source Generalist Robot Policy",
+        "authors": [
+          " Octo Model Team",
+          "Dibya Ghosh",
+          "Homer Walke",
+          "Karl Pertsch",
+          "Kevin Black",
+          "Oier Mees",
+          "Sudeep Dasari",
+          "Joey Hejna",
+          "Tobias Kreiman",
+          "Charles Xu",
+          "Jianlan Luo",
+          "You Liang Tan",
+          "Pannag Sanketi",
+          "Quan Vuong",
+          "Ted Xiao",
+          "Dorsa Sadigh",
+          "Chelsea Finn",
+          "Sergey Levine"
+        ],
+        "year": 2024,
+        "arxiv_id": "2405.12213v1",
+        "url": "https://arxiv.org/abs/2405.12213v1",
+        "doi": "",
+        "source_sha256": "b87d6644722cee385d862345e76acce09057aa9d42d90fcb325a26fd4d8ddf1c",
+        "checked_at": "2026-11-13",
+        "read_sections": "S4.SS0.SSS0.Px1 — Evaluation setups; связанные фрагменты метода и оценки"
+      },
+      {
+        "id": "arxiv-2406-09246",
+        "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
+        "authors": [
+          "Moo Jin Kim",
+          "Karl Pertsch",
+          "Siddharth Karamcheti",
+          "Ted Xiao",
+          "Ashwin Balakrishna",
+          "Suraj Nair",
+          "Rafael Rafailov",
+          "Ethan Foster",
+          "Grace Lam",
+          "Pannag Sanketi",
+          "Quan Vuong",
+          "Thomas Kollar",
+          "Benjamin Burchfiel",
+          "Russ Tedrake",
+          "Dorsa Sadigh",
+          "Sergey Levine",
+          "Percy Liang",
+          "Chelsea Finn"
+        ],
+        "year": 2024,
+        "arxiv_id": "2406.09246v3",
+        "url": "https://arxiv.org/abs/2406.09246v3",
+        "doi": "",
+        "source_sha256": "4140a5a011b44be7f3d79951b238452ed1a765fffefd9735b4824b136e3ebaf0",
+        "checked_at": "2026-11-13",
+        "read_sections": "S3.SS2 — 3.2 OpenVLA Training Procedure; связанные фрагменты метода и оценки"
+      },
+      {
+        "id": "arxiv-2410-24164",
+        "title": "$π_0$: A Vision-Language-Action Flow Model for General Robot Control",
+        "authors": [
+          "Kevin Black",
+          "Noah Brown",
+          "Danny Driess",
+          "Adnan Esmail",
+          "Michael Equi",
+          "Chelsea Finn",
+          "Niccolo Fusai",
+          "Lachy Groom",
+          "Karol Hausman",
+          "Brian Ichter",
+          "Szymon Jakubczak",
+          "Tim Jones",
+          "Liyiming Ke",
+          "Sergey Levine",
+          "Adrian Li-Bell",
+          "Mohith Mothukuri",
+          "Suraj Nair",
+          "Karl Pertsch",
+          "Lucy Xiaoyang Shi",
+          "James Tanner",
+          "Quan Vuong",
+          "Anna Walling",
+          "Haohuan Wang",
+          "Ury Zhilinsky"
+        ],
+        "year": 2024,
+        "arxiv_id": "2410.24164v1",
+        "url": "https://arxiv.org/abs/2410.24164v1",
+        "doi": "",
+        "source_sha256": "3e0641909f7b6325d36047ddad8957278599e76bb4a9cc5fd52692552e495cf5",
+        "checked_at": "2026-11-13",
+        "read_sections": "S4 — IV The π0\\pi_{0} Model; связанные фрагменты метода и оценки"
+      },
+      {
+        "id": "arxiv-2609-02546",
+        "title": "ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop Manipulation",
+        "authors": [
+          "Mi Yan",
+          "Wenhao Zhang",
+          "Zhiqi Zhang",
+          "Yu Peng",
+          "Tangxinyu Wang",
+          "Lingfei Zhai",
+          "Jiayi Su",
+          "Shengliang Deng",
+          "Lin Peng",
+          "Yaowei Liu",
+          "Yuxing Chen",
+          "Zhiyuan Wei",
+          "Jilong Wang",
+          "Jiayi Chen",
+          "Jiangran Lyu",
+          "Zhizheng Zhang",
+          "He Wang"
+        ],
+        "year": 2026,
+        "arxiv_id": "2609.02546v3",
+        "url": "https://arxiv.org/abs/2609.02546v3",
+        "doi": "",
+        "source_sha256": "f3b21b96d21a0886004dba853570f0525f95e9d4ec98972aa421b640cc2b3932",
+        "checked_at": "2026-11-13",
+        "read_sections": "S2.SS3 — 2.3 Zero-Shot Cross-Embodiment Evaluation and Benchmarks; связанные фрагменты метода и оценки"
+      },
+      {
+        "id": "arxiv-2610-33685",
+        "title": "EXE: Egocentric Cross-Embodiment Pretraining via Factorized Latent Actions for VLA Models",
+        "authors": [
+          "Qingyuan Cai",
+          "Bo Zhang",
+          "Yongzhen Huang",
+          "Jianyu Chen"
+        ],
+        "year": 2026,
+        "arxiv_id": "2610.33685v1",
+        "url": "https://arxiv.org/abs/2610.33685v1",
+        "doi": "",
+        "source_sha256": "760febdc984973f402a0a3d29e1f3e7485c4c7ed2c6babfdb71fd5985289c554",
+        "checked_at": "2026-11-13",
+        "read_sections": "S3 — III Method; связанные фрагменты метода и оценки"
+      }
+    ],
+    "cards": [
+      {
+        "paper_id": "arxiv-2307-15818",
+        "coverage": "selected_full_text_sections",
+        "claims": [
+          {
+            "id": "c1",
+            "paper_id": "arxiv-2307-15818",
+            "kind": "source_finding",
+            "text": "RT-2 представляет robot actions как дискретные токены и обучает vision-language модель выдавать их. Перенос знаний из web data в роботическое управление не следует путать с доказанным zero-shot переносом на любой новый embodiment.",
+            "conditions": [
+              "Action space задаётся end-effector перемещением, gripper и termination; robot data сочетаются с VLM data."
+            ],
+            "limitations": [
+              "Обобщение на объекты и фоны не равно смене кинематики или интерфейса управления."
+            ],
+            "evidence": [
+              {
+                "quote": "To enable vision-language models to control a robot, they",
+                "url": "https://arxiv.org/html/2307.15818v1#S3.SS2",
+                "locator": "S3.SS2 — 3.2 Robot-Action Fine-tuning; связанные фрагменты метода и оценки",
+                "segment_id": "S3.SS2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "arxiv-2310-08864",
+        "coverage": "selected_full_text_sections",
+        "claims": [
+          {
+            "id": "c2",
+            "paper_id": "arxiv-2310-08864",
+            "kind": "source_finding",
+            "text": "Open X-Embodiment объединяет роботические данные и оценивает положительный перенос при co-training, новые задачи и влияние дизайна смеси. Это разные исследовательские вопросы с разными контрольными условиями.",
+            "conditions": [
+              "Мульти-роботические демонстрации; RT-X и консолидация формата данных."
+            ],
+            "limitations": [
+              "Сам факт обучения на многих роботах не доказывает перенос на робота, полностью исключённого из обучения."
+            ],
+            "evidence": [
+              {
+                "quote": "Our experiments answer three questions about the effect of",
+                "url": "https://arxiv.org/html/2310.08864v1#S5",
+                "locator": "S5 — V Experimental Results; связанные фрагменты метода и оценки",
+                "segment_id": "S5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "arxiv-2405-12213",
+        "coverage": "selected_full_text_sections",
+        "claims": [
+          {
+            "id": "c3",
+            "paper_id": "arxiv-2405-12213",
+            "kind": "source_finding",
+            "text": "Octo различает out-of-the-box управление знакомыми по pretraining setup и data-efficient fine-tuning к новым наблюдениям, действиям и embodiment. Эти режимы нельзя объединять под одним словом generalization.",
+            "conditions": [
+              "Модульная transformer policy; zero-shot и fine-tuning проверяются отдельно."
+            ],
+            "limitations": [
+              "Сравнение должно учитывать целевые демонстрации и изменения observation/action interfaces."
+            ],
+            "evidence": [
+              {
+                "quote": "We evaluate Octo’s capabilities across a representative spectrum of",
+                "url": "https://arxiv.org/html/2405.12213v1#S4.SS0.SSS0.Px1",
+                "locator": "S4.SS0.SSS0.Px1 — Evaluation setups; связанные фрагменты метода и оценки",
+                "segment_id": "S4.SS0.SSS0.Px1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "arxiv-2406-09246",
+        "coverage": "selected_full_text_sections",
+        "claims": [
+          {
+            "id": "c4",
+            "paper_id": "arxiv-2406-09246",
+            "kind": "source_finding",
+            "text": "OpenVLA дообучает VLM для предсказания действий и дискретизирует каждую непрерывную action dimension по распределению обучающих данных. Нормализация и action representation являются частью переносимой системы.",
+            "conditions": [
+              "Prismatic backbone, изображения и языковая инструкция; дискретные action tokens."
+            ],
+            "limitations": [
+              "Перенос требует согласования action space, статистик нормализации и доступных наблюдений."
+            ],
+            "evidence": [
+              {
+                "quote": "To train OpenVLA, we fine-tune a pretrained Prismatic-7B VLM",
+                "url": "https://arxiv.org/html/2406.09246v3#S3.SS2",
+                "locator": "S3.SS2 — 3.2 OpenVLA Training Procedure; связанные фрагменты метода и оценки",
+                "segment_id": "S3.SS2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "arxiv-2410-24164",
+        "coverage": "selected_full_text_sections",
+        "claims": [
+          {
+            "id": "c5",
+            "paper_id": "arxiv-2410-24164",
+            "kind": "source_finding",
+            "text": "π0 использует conditional flow matching для непрерывного распределения действий вместе с VLM backbone и proprioception. Выбор непрерывной action head меняет механизм генерации управления.",
+            "conditions": [
+              "Преобучение и post-training; сравнения base policy и downstream adaptation различаются."
+            ],
+            "limitations": [
+              "Нужно учитывать action chunk, частоту управления и целевые данные, а не только размер backbone."
+            ],
+            "evidence": [
+              {
+                "quote": "uses conditional flow matching",
+                "url": "https://arxiv.org/html/2410.24164v1#S4",
+                "locator": "S4 — IV The π0\\pi_{0} Model; связанные фрагменты метода и оценки",
+                "segment_id": "S4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "arxiv-2609-02546",
+        "coverage": "selected_full_text_sections",
+        "claims": [
+          {
+            "id": "c6",
+            "paper_id": "arxiv-2609-02546",
+            "kind": "source_finding",
+            "text": "ZETA различает strict zero-shot и случай, когда target был виден в pretraining, но не post-training. Исследование старается отделить embodiment shift от изменений сцены, камеры, задачи и бюджета данных.",
+            "conditions": [
+              "Согласованные задачи; appearance-, gripper-, arm- и full-embodiment shifts."
+            ],
+            "limitations": [
+              "Контролируемый tabletop протокол не исчерпывает другие роботы и среды."
+            ],
+            "evidence": [
+              {
+                "quote": "Prior benchmarks and studies examine cross-embodiment generalization, including manipulation",
+                "url": "https://arxiv.org/html/2609.02546v3#S2.SS3",
+                "locator": "S2.SS3 — 2.3 Zero-Shot Cross-Embodiment Evaluation and Benchmarks; связанные фрагменты метода и оценки",
+                "segment_id": "S2.SS3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "arxiv-2610-33685",
+        "coverage": "selected_full_text_sections",
+        "claims": [
+          {
+            "id": "c7",
+            "paper_id": "arxiv-2610-33685",
+            "kind": "source_finding",
+            "text": "EXE разделяет positional и embodiment-specific kinematic части latent actions. Далее использует совместное pretraining на human video и robot demonstrations перед VLA fine-tuning.",
+            "conditions": [
+              "Трёхстадийное обучение; отдельные shared и kinematic codebooks."
+            ],
+            "limitations": [
+              "Нужно отделять вклад представления от объёма human/robot data и downstream обучения."
+            ],
+            "evidence": [
+              {
+                "quote": "EXE transfers manipulation knowledge from egocentric human video to",
+                "url": "https://arxiv.org/html/2610.33685v1#S3",
+                "locator": "S3 — III Method; связанные фрагменты метода и оценки",
+                "segment_id": "S3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "synthesis": {
+      "title": "VLA и перенос между роботами: что именно обобщается",
+      "sections": [
+        {
+          "key": "brief",
+          "title": "За минуту: главный вопрос и вывод",
+          "items": [
+            {
+              "kind": "synthesis",
+              "text": "Перенос VLA бывает разным: новые объекты, задачи, камеры, action interface или физически новый робот. Успех в одном случае не доказывает остальные.",
+              "claim_ids": [
+                "c1",
+                "c3",
+                "c6"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "Multi-robot pretraining, дискретные action tokens, непрерывные action heads и факторизованные действия решают разные части задачи.",
+              "claim_ids": [
+                "c2",
+                "c4",
+                "c5",
+                "c7"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "Главная проверка — какие данные target были доступны и какие факторы изменились между обучением и тестом.",
+              "claim_ids": [
+                "c3",
+                "c6"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "scope",
+          "title": "Границы и отбор источников",
+          "items": [
+            {
+              "kind": "editorial",
+              "text": "Обзор подготовлен 13 ноября 2026 года по выбранным фрагментам полных HTML-текстов 7 работ. Это узкий фокус внутри направления, а не энциклопедия всей области и не систематический поиск. Количество источников в общем каталоге не означает, что все они прочитаны.",
+              "claim_ids": []
+            },
+            {
+              "kind": "editorial",
+              "text": "Отбор целенаправленный: основные постановки задачи, различные семейства методов и работы, проверяющие их ограничения. Точные версии, локаторы и SHA-256 прочитанных HTML сохранены в JSON. Короткая цитата служит поисковым якорем; вывод следует сверять с контекстом раздела. Независимая экспертная рецензия и воспроизведение экспериментов не выполнялись.",
+              "claim_ids": []
+            }
+          ]
+        },
+        {
+          "key": "mechanism",
+          "title": "Понятия и механизм: что именно проверяется",
+          "items": [
+            {
+              "kind": "synthesis",
+              "text": "Embodiment включает кинематику, actuator/control interface, сенсоры и допустимые действия. Даже общая семантика команды не устраняет необходимость согласовать эти элементы.",
+              "claim_ids": [
+                "c1",
+                "c4",
+                "c6"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "Zero-shot требует явного определения: target мог отсутствовать только в fine-tuning либо во всём обучении. Эти определения дают разную силу утверждения о переносе.",
+              "claim_ids": [
+                "c3",
+                "c6"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "approaches",
+          "title": "Подходы и свидетельства из работ",
+          "items": [
+            {
+              "kind": "synthesis",
+              "text": "RT-2 представляет robot actions как дискретные токены и обучает vision-language модель выдавать их. Перенос знаний из web data в роботическое управление не следует путать с доказанным zero-shot переносом на любой новый embodiment.",
+              "claim_ids": [
+                "c1"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "Open X-Embodiment объединяет роботические данные и оценивает положительный перенос при co-training, новые задачи и влияние дизайна смеси. Это разные исследовательские вопросы с разными контрольными условиями.",
+              "claim_ids": [
+                "c2"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "Octo различает out-of-the-box управление знакомыми по pretraining setup и data-efficient fine-tuning к новым наблюдениям, действиям и embodiment. Эти режимы нельзя объединять под одним словом generalization.",
+              "claim_ids": [
+                "c3"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "OpenVLA дообучает VLM для предсказания действий и дискретизирует каждую непрерывную action dimension по распределению обучающих данных. Нормализация и action representation являются частью переносимой системы.",
+              "claim_ids": [
+                "c4"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "π0 использует conditional flow matching для непрерывного распределения действий вместе с VLM backbone и proprioception. Выбор непрерывной action head меняет механизм генерации управления.",
+              "claim_ids": [
+                "c5"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "ZETA различает strict zero-shot и случай, когда target был виден в pretraining, но не post-training. Исследование старается отделить embodiment shift от изменений сцены, камеры, задачи и бюджета данных.",
+              "claim_ids": [
+                "c6"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "EXE разделяет positional и embodiment-specific kinematic части latent actions. Далее использует совместное pretraining на human video и robot demonstrations перед VLA fine-tuning.",
+              "claim_ids": [
+                "c7"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "comparison",
+          "title": "Сравнение работ и условий",
+          "items": [
+            {
+              "kind": "editorial",
+              "text": "Таблица разделяет постановки, механизмы и границы выводов. Она не ранжирует работы по несопоставимым числам. Улучшение показателя в конкретной статье не доказывает преимущество во всех моделях, данных и режимах.",
+              "claim_ids": []
+            }
+          ]
+        },
+        {
+          "key": "disagreements",
+          "title": "Разногласия, ограничения и ложные обобщения",
+          "items": [
+            {
+              "kind": "synthesis",
+              "text": "Web knowledge transfer RT-2 и cross-embodiment transfer не являются синонимами. Первое может улучшать семантическую реакцию в прежнем control setup.",
+              "claim_ids": [
+                "c1"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "Сравнение generalist policy и fine-tuned specialist без учёта целевых демонстраций смешивает режимы обучения.",
+              "claim_ids": [
+                "c3",
+                "c5"
+              ]
+            },
+            {
+              "kind": "synthesis",
+              "text": "Новая action representation и дополнительные данные могут давать совместный эффект. Без абляций нельзя приписывать весь прирост только архитектуре.",
+              "claim_ids": [
+                "c2",
+                "c7"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "practice",
+          "title": "Как читать результаты и проверить подход у себя",
+          "items": [
+            {
+              "kind": "editorial",
+              "text": "Зафиксировать robot, sensors, control frequency, action representation, normalization, task definition и все стадии обучения. Для target отдельно перечислить доступные демонстрации и присутствие в pretraining.",
+              "claim_ids": []
+            },
+            {
+              "kind": "editorial",
+              "text": "Сравнивать при одинаковом task/data budget; повторять испытания на согласованных состояниях и сообщать критерий успеха, число попыток, разброс и опасные ошибки. Здесь эксперименты с роботами не запускались.",
+              "claim_ids": []
+            }
+          ]
+        },
+        {
+          "key": "questions",
+          "title": "Открытые вопросы и следующие эксперименты",
+          "items": [
+            {
+              "kind": "editorial",
+              "text": "Что даёт перенос на невиданный embodiment при неизменных задачах и сценах? Нужен leave-one-embodiment-out протокол и проверка всей цепочки pretraining.",
+              "claim_ids": []
+            },
+            {
+              "kind": "editorial",
+              "text": "Улучшает ли факторизация action space перенос при фиксированной смеси данных? Нужны раздельные абляции codebooks, объёма human video и target demonstrations.",
+              "claim_ids": []
+            }
+          ]
+        },
+        {
+          "key": "reading",
+          "title": "Маршрут чтения",
+          "items": [
+            {
+              "kind": "editorial",
+              "text": "Сначала прочитайте первые две работы из таблицы: они задают понятия и способ измерения. Затем сравните методы в середине списка с критическими и более поздними исследованиями. Цель — понять, какое предположение меняется и что именно измеряется.",
+              "claim_ids": []
+            },
+            {
+              "kind": "editorial",
+              "text": "Для каждой работы выпишите объект переноса или оценки, используемый baseline, единицу тестирования, условия успеха и способ проверки. Цифры без этих полей недостаточны для выбора метода. Ссылки [n] раскрывают карточки доказательств; оттуда можно открыть раздел первоисточника.",
+              "claim_ids": []
+            }
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "id": "concept-1",
+          "name": "Embodiment shift",
+          "definition": {
+            "kind": "synthesis",
+            "text": "Изменение робота или его наблюдательно-управляющего интерфейса, отделяемое от смены задачи.",
+            "claim_ids": [
+              "c6"
+            ]
+          },
+          "statements": [],
+          "disagreements": []
+        },
+        {
+          "id": "concept-2",
+          "name": "Action representation",
+          "definition": {
+            "kind": "synthesis",
+            "text": "Способ связать выход модели с управлением: дискретные токены, непрерывные головы либо latent actions.",
+            "claim_ids": [
+              "c4",
+              "c5",
+              "c7"
+            ]
+          },
+          "statements": [],
+          "disagreements": []
+        }
+      ],
+      "relations": []
+    },
+    "comparison": [
+      {
+        "paper_id": "arxiv-2307-15818",
+        "method": "VLM → action tokens",
+        "guarantee": "Семантический перенос и embodiment transfer различны",
+        "setup": "Action space задаётся end-effector перемещением, gripper и termination; robot data сочетаются с VLM data.",
+        "claim_ids": [
+          "c1"
+        ]
+      },
+      {
+        "paper_id": "arxiv-2310-08864",
+        "method": "Смесь multi-robot данных",
+        "guarantee": "Экспозиция target в pretraining должна быть известна",
+        "setup": "Мульти-роботические демонстрации; RT-X и консолидация формата данных.",
+        "claim_ids": [
+          "c2"
+        ]
+      },
+      {
+        "paper_id": "arxiv-2405-12213",
+        "method": "Модульная generalist policy",
+        "guarantee": "Zero-shot и адаптация измеряются раздельно",
+        "setup": "Модульная transformer policy; zero-shot и fine-tuning проверяются отдельно.",
+        "claim_ids": [
+          "c3"
+        ]
+      },
+      {
+        "paper_id": "arxiv-2406-09246",
+        "method": "Открытая VLA с action tokens",
+        "guarantee": "Интерфейс управления входит в предпосылки",
+        "setup": "Prismatic backbone, изображения и языковая инструкция; дискретные action tokens.",
+        "claim_ids": [
+          "c4"
+        ]
+      },
+      {
+        "paper_id": "arxiv-2410-24164",
+        "method": "Непрерывная flow action head",
+        "guarantee": "Режим адаптации и control loop существенны",
+        "setup": "Преобучение и post-training; сравнения base policy и downstream adaptation различаются.",
+        "claim_ids": [
+          "c5"
+        ]
+      },
+      {
+        "paper_id": "arxiv-2609-02546",
+        "method": "Контроль факторов переноса",
+        "guarantee": "Строгое определение zero-shot",
+        "setup": "Согласованные задачи; appearance-, gripper-, arm- и full-embodiment shifts.",
+        "claim_ids": [
+          "c6"
+        ]
+      },
+      {
+        "paper_id": "arxiv-2610-33685",
+        "method": "Факторизация latent actions",
+        "guarantee": "Representation transfer проверяется с абляциями данных",
+        "setup": "Трёхстадийное обучение; отдельные shared и kinematic codebooks.",
+        "claim_ids": [
+          "c7"
+        ]
+      }
+    ],
+    "quality": {
+      "warnings": [
+        "Целенаправленный обзор выбранного подвопроса; полный охват направления и актуальный SOTA-рейтинг не заявляются.",
+        "Разобраны выбранные фрагменты полных текстов, а не все приложения и доказательства. Цитаты сверены с сохранёнными HTML.",
+        "Результаты принадлежат авторам статей. Собственные эксперименты и независимая экспертная рецензия не выполнялись.",
+        "Автоматический поиск добавляет только кандидатов; он не подтверждает их качество и не обновляет выводы этого обзора."
+      ]
+    },
+    "changes": {
+      "note": "Первый концептуальный выпуск с условиями сравнения и доказательствами."
+    },
+    "publication": {
+      "released_at": "2026-11-13",
+      "note": "Первый обзор: 7 выбранных работ, механизмы, сравнение и ограничения; без своего воспроизведения.",
+      "preparation": "source_based_editorial",
+      "expert_peer_review": false
+    }
+  }
 }

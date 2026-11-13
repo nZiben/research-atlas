@@ -1,0 +1,668 @@
+{
+  "schema_version": 1,
+  "kind": "editorial_review",
+  "snapshot_id": "editorial-2026-11-13",
+  "at": "2026-11-13",
+  "review": {
+    "topic": "Память LLM-агентов: что хранить, как извлекать и как измерять пользу",
+    "questions": [
+      "Какие виды памяти помогают на длинных задачах и как это проверено?",
+      "Отделён ли вклад памяти от дополнительных вызовов модели и retrieval?"
+    ]
+  },
+  "papers": [
+    {
+      "id": "arxiv-2310-08560",
+      "title": "MemGPT: Towards LLMs as Operating Systems",
+      "authors": [
+        "Charles Packer",
+        "Sarah Wooders",
+        "Kevin Lin",
+        "Vivian Fang",
+        "Shishir G. Patil",
+        "Ion Stoica",
+        "Joseph E. Gonzalez"
+      ],
+      "year": 2023,
+      "arxiv_id": "2310.08560v2",
+      "url": "https://arxiv.org/abs/2310.08560v2",
+      "doi": "",
+      "source_sha256": "454a01f499215ee1a7c4de220f41fee6f32869510b2851d88a1004c51ab3e1b2",
+      "checked_at": "2026-11-13",
+      "read_sections": "S2 — 2 MemGPT (MemoryGPT); связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2304-03442",
+      "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+      "authors": [
+        "Joon Sung Park",
+        "Joseph C. O'Brien",
+        "Carrie J. Cai",
+        "Meredith Ringel Morris",
+        "Percy Liang",
+        "Michael S. Bernstein"
+      ],
+      "year": 2023,
+      "arxiv_id": "2304.03442v1",
+      "url": "https://arxiv.org/abs/2304.03442v1",
+      "doi": "",
+      "source_sha256": "790f4274289226b23726fd1e882eefb20f8fefdf09578ea103e0679400ab2f80",
+      "checked_at": "2026-11-13",
+      "read_sections": "S4 — 4. Generative Agent Architecture; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2305-10250",
+      "title": "MemoryBank: Enhancing Large Language Models with Long-Term Memory",
+      "authors": [
+        "Wanjun Zhong",
+        "Lianghong Guo",
+        "Qiqi Gao",
+        "He Ye",
+        "Yanlin Wang"
+      ],
+      "year": 2023,
+      "arxiv_id": "2305.10250v3",
+      "url": "https://arxiv.org/abs/2305.10250v3",
+      "doi": "",
+      "source_sha256": "5c1dccf2d660541aaf09fde247c52260218d91eee82b4ced5816471cc0bd9e0f",
+      "checked_at": "2026-11-13",
+      "read_sections": "S2 — 2 MemoryBank: A Novel Memory Mechanism Tailored for LLMs; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2410-10813",
+      "title": "LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory",
+      "authors": [
+        "Di Wu",
+        "Hongwei Wang",
+        "Wenhao Yu",
+        "Yuwei Zhang",
+        "Kai-Wei Chang",
+        "Dong Yu"
+      ],
+      "year": 2024,
+      "arxiv_id": "2410.10813v1",
+      "url": "https://arxiv.org/abs/2410.10813v1",
+      "doi": "",
+      "source_sha256": "1ffade1aa305a9801a410e0a18f821d591de399e525192847c45a7de1cf1d508",
+      "checked_at": "2026-11-13",
+      "read_sections": "S3.SS1 — 3.1 Problem Formulation; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2606-06448",
+      "title": "Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads",
+      "authors": [
+        "Yasmine Omri",
+        "Ziyu Gan",
+        "Zachary Broveak",
+        "Robin Geens",
+        "Zexue He",
+        "Alex Pentland",
+        "Marian Verhelst",
+        "Tsachy Weissman",
+        "Thierry Tambe"
+      ],
+      "year": 2026,
+      "arxiv_id": "2606.06448v2",
+      "url": "https://arxiv.org/abs/2606.06448v2",
+      "doi": "",
+      "source_sha256": "013c58c8c46e7e6e4f40e9a8b40d0c006437f7bb04124fd2a6753759f71ba0e1",
+      "checked_at": "2026-11-13",
+      "read_sections": "S2.SS1 — 2.1 Agent Memory Execution Pipeline; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2608-15008",
+      "title": "Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents",
+      "authors": [
+        "Wei-Chieh Huang",
+        "Weizhi Zhang",
+        "Yuchen Wu",
+        "Yankai Chen",
+        "Eric Hanchen Jiang",
+        "Wooseong Yang",
+        "Yiwei Yang",
+        "Henry Peng Zou",
+        "Hanrong Zhang",
+        "Ying Nian Wu",
+        "Haolun Wu",
+        "Kai-Wei Chang",
+        "Philip S. Yu",
+        "Xue Liu",
+        "Aylin Caliskan"
+      ],
+      "year": 2026,
+      "arxiv_id": "2608.15008v2",
+      "url": "https://arxiv.org/abs/2608.15008v2",
+      "doi": "",
+      "source_sha256": "fd0579b894cd1a0057f333e52018ec63660e10ffb6a3956957a54b875352df36",
+      "checked_at": "2026-11-13",
+      "read_sections": "S2 — 2 Memory Substrates and Configuration; связанные фрагменты метода и оценки"
+    },
+    {
+      "id": "arxiv-2610-32464",
+      "title": "Agentic Memory Management Is the Next Frontier of Information Retrieval",
+      "authors": [
+        "Qingyao Ai"
+      ],
+      "year": 2026,
+      "arxiv_id": "2610.32464v1",
+      "url": "https://arxiv.org/abs/2610.32464v1",
+      "doi": "",
+      "source_sha256": "f8815ca9bfdf04144553d69d618c19e18c810f9ed8d49df3b272bb30fec8d791",
+      "checked_at": "2026-11-13",
+      "read_sections": "S4.SS2 — 4.2. Objects: Constants, Functions, and Operators; связанные фрагменты метода и оценки"
+    }
+  ],
+  "cards": [
+    {
+      "paper_id": "arxiv-2310-08560",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c1",
+          "paper_id": "arxiv-2310-08560",
+          "kind": "source_finding",
+          "text": "MemGPT разделяет main context и external context. Внешняя информация должна быть явно перенесена в окно модели через функции управления памятью; наличие записи в хранилище само по себе не означает её использования.",
+          "conditions": [
+            "Иерархия контекста и function calls; задачи диалога и анализа документов."
+          ],
+          "limitations": [
+            "Дополнительные вызовы и стратегия переноса входят в систему; выигрыш нельзя приписывать только объёму памяти."
+          ],
+          "evidence": [
+            {
+              "quote": "MemGPT’s OS-inspired multi-level memory architecture delineates between two primary",
+              "url": "https://arxiv.org/html/2310.08560v2#S2",
+              "locator": "S2 — 2 MemGPT (MemoryGPT); связанные фрагменты метода и оценки",
+              "segment_id": "S2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2304-03442",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c2",
+          "paper_id": "arxiv-2304-03442",
+          "kind": "source_finding",
+          "text": "Generative Agents объединяет наблюдения, retrieval, reflection и planning для поведения в sandbox. Обобщения из опыта используются наряду с конкретными эпизодами.",
+          "conditions": [
+            "Симулированный социальный мир и оценка правдоподобия поведения."
+          ],
+          "limitations": [
+            "Правдоподобная симуляция не равна надёжному выполнению произвольных пользовательских поручений."
+          ],
+          "evidence": [
+            {
+              "quote": "Generative agents aim to provide a framework for behavior",
+              "url": "https://arxiv.org/html/2304.03442v1#S4",
+              "locator": "S4 — 4. Generative Agent Architecture; связанные фрагменты метода и оценки",
+              "segment_id": "S4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2305-10250",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c3",
+          "paper_id": "arxiv-2305-10250",
+          "kind": "source_finding",
+          "text": "MemoryBank разделяет хранение, retrieval и updating. Разговорные записи и сводки поддерживаются вместе с механизмом изменения значимости воспоминаний.",
+          "conditions": [
+            "Долговременный диалог и персонализация; собственный механизм обновления."
+          ],
+          "limitations": [
+            "Метафора человеческого забывания не является доказательством оптимальности политики хранения."
+          ],
+          "evidence": [
+            {
+              "quote": "In this section, we provide a detailed description of",
+              "url": "https://arxiv.org/html/2305.10250v3#S2",
+              "locator": "S2 — 2 MemoryBank: A Novel Memory Mechanism Tailored for LLMs; связанные фрагменты метода и оценки",
+              "segment_id": "S2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2410-10813",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c4",
+          "paper_id": "arxiv-2410-10813",
+          "kind": "source_finding",
+          "text": "LongMemEval задаёт последовательность датированных сессий и последующий вопрос. Это позволяет исследовать память через время, а не только retrieval из одного документа.",
+          "conditions": [
+            "История наблюдается последовательно; вопрос может требовать краткий ответ либо выполнение rubric."
+          ],
+          "limitations": [
+            "Оценка conversational memory не исчерпывает память навыков и успешность действий агента."
+          ],
+          "evidence": [
+            {
+              "quote": "The evaluation of LongMemEval requires an instance of 4-tuple",
+              "url": "https://arxiv.org/html/2410.10813v1#S3.SS1",
+              "locator": "S3.SS1 — 3.1 Problem Formulation; связанные фрагменты метода и оценки",
+              "segment_id": "S3.SS1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2606-06448",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c5",
+          "paper_id": "arxiv-2606-06448",
+          "kind": "source_finding",
+          "text": "Characterization of Agent Memory раскладывает жизненный цикл на ingestion, construction, storage, retrieval, prompt assembly, generation и maintenance. Такой разбор показывает, где именно система тратит ресурсы.",
+          "conditions": [
+            "Профилирование stateful workloads и указанных memory systems; hardware и serving setup фиксируются отдельно."
+          ],
+          "limitations": [
+            "Стоимость измерена в выбранном стеке; нельзя переносить её доли на любое развёртывание."
+          ],
+          "evidence": [
+            {
+              "quote": "Agent memory systems transform an interaction stream into persistent",
+              "url": "https://arxiv.org/html/2606.06448v2#S2.SS1",
+              "locator": "S2.SS1 — 2.1 Agent Memory Execution Pipeline; связанные фрагменты метода и оценки",
+              "segment_id": "S2.SS1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2608-15008",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c6",
+          "paper_id": "arxiv-2608-15008",
+          "kind": "source_finding",
+          "text": "Harness the Memory сравнивает memory substrates как конфигурации с компромиссами. Авторы отделяют user-centric задачи извлечения из истории от agent-centric задач последовательных решений.",
+          "conditions": [
+            "Единый harness, разные substrates и задачи; фиксируются параметры и бюджеты."
+          ],
+          "limitations": [
+            "Рейтинг конфигураций зависит от задачи и режима; универсальный победитель не установлен одним средним score."
+          ],
+          "evidence": [
+            {
+              "quote": "Memory system configurations are highly complex, with many tunable",
+              "url": "https://arxiv.org/html/2608.15008v2#S2",
+              "locator": "S2 — 2 Memory Substrates and Configuration; связанные фрагменты метода и оценки",
+              "segment_id": "S2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2610-32464",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c7",
+          "paper_id": "arxiv-2610-32464",
+          "kind": "source_finding",
+          "text": "Agentic Memory Management предлагает различать факты, навыки и операторы предпочтений: для них нужны разные правила matching и обновления. Это концептуальная рамка, а не измеренное превосходство новой системы.",
+          "conditions": [
+            "Position paper, связь задач памяти с information retrieval."
+          ],
+          "limitations": [
+            "Предложенная классификация не является готовым benchmark-результатом или единственной таксономией."
+          ],
+          "evidence": [
+            {
+              "quote": "What information does an agent store? A common answer",
+              "url": "https://arxiv.org/html/2610.32464v1#S4.SS2",
+              "locator": "S4.SS2 — 4.2. Objects: Constants, Functions, and Operators; связанные фрагменты метода и оценки",
+              "segment_id": "S4.SS2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "synthesis": {
+    "title": "Память LLM-агентов: что хранить, как извлекать и как измерять пользу",
+    "sections": [
+      {
+        "key": "brief",
+        "title": "За минуту: главный вопрос и вывод",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Память агента — это весь процесс записи, отбора, извлечения, обновления и использования информации, а не просто векторная база.",
+            "claim_ids": [
+              "c1",
+              "c3",
+              "c5"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Разные задачи требуют разной памяти: фактов о пользователе, эпизодов действий, навыков и предпочтений. Улучшение conversational recall не гарантирует улучшения долгой инструментальной задачи.",
+            "claim_ids": [
+              "c4",
+              "c6",
+              "c7"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Для полезного сравнения нужно учитывать качество решения, память и стоимость всего жизненного цикла.",
+            "claim_ids": [
+              "c5",
+              "c6"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "scope",
+        "title": "Границы и отбор источников",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Обзор подготовлен 13 ноября 2026 года по выбранным фрагментам полных HTML-текстов 7 работ. Это узкий фокус внутри направления, а не энциклопедия всей области и не систематический поиск. Количество источников в общем каталоге не означает, что все они прочитаны.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Отбор целенаправленный: основные постановки задачи, различные семейства методов и работы, проверяющие их ограничения. Точные версии, локаторы и SHA-256 прочитанных HTML сохранены в JSON. Короткая цитата служит поисковым якорем; вывод следует сверять с контекстом раздела. Независимая экспертная рецензия и воспроизведение экспериментов не выполнялись.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "mechanism",
+        "title": "Понятия и механизм: что именно проверяется",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Persistent store и рабочий контекст — разные уровни. Retrieval и prompt assembly определяют, какую часть сохранённого агент реально увидит.",
+            "claim_ids": [
+              "c1",
+              "c5"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Сводки и reflection могут сократить историю, но добавляют этап преобразования; их вклад нужно отделять от дополнительных вызовов и бюджета.",
+            "claim_ids": [
+              "c2",
+              "c6"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "approaches",
+        "title": "Подходы и свидетельства из работ",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "MemGPT разделяет main context и external context. Внешняя информация должна быть явно перенесена в окно модели через функции управления памятью; наличие записи в хранилище само по себе не означает её использования.",
+            "claim_ids": [
+              "c1"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Generative Agents объединяет наблюдения, retrieval, reflection и planning для поведения в sandbox. Обобщения из опыта используются наряду с конкретными эпизодами.",
+            "claim_ids": [
+              "c2"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "MemoryBank разделяет хранение, retrieval и updating. Разговорные записи и сводки поддерживаются вместе с механизмом изменения значимости воспоминаний.",
+            "claim_ids": [
+              "c3"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "LongMemEval задаёт последовательность датированных сессий и последующий вопрос. Это позволяет исследовать память через время, а не только retrieval из одного документа.",
+            "claim_ids": [
+              "c4"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Characterization of Agent Memory раскладывает жизненный цикл на ingestion, construction, storage, retrieval, prompt assembly, generation и maintenance. Такой разбор показывает, где именно система тратит ресурсы.",
+            "claim_ids": [
+              "c5"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Harness the Memory сравнивает memory substrates как конфигурации с компромиссами. Авторы отделяют user-centric задачи извлечения из истории от agent-centric задач последовательных решений.",
+            "claim_ids": [
+              "c6"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Agentic Memory Management предлагает различать факты, навыки и операторы предпочтений: для них нужны разные правила matching и обновления. Это концептуальная рамка, а не измеренное превосходство новой системы.",
+            "claim_ids": [
+              "c7"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "comparison",
+        "title": "Сравнение работ и условий",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Таблица разделяет постановки, механизмы и границы выводов. Она не ранжирует работы по несопоставимым числам. Улучшение показателя в конкретной статье не доказывает преимущество во всех моделях, данных и режимах.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "disagreements",
+        "title": "Разногласия, ограничения и ложные обобщения",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Результаты социального sandbox, диалогового QA и agent tasks нельзя объединить в единый рейтинг памяти: различаются цель и критерии успеха.",
+            "claim_ids": [
+              "c2",
+              "c4",
+              "c6"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Больше сохранённых записей может означать больше затрат на construction и maintenance; полноту накопления следует отличать от полезности retrieved context.",
+            "claim_ids": [
+              "c5"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Идеи новых таксономий полезны для проектирования, но их нельзя представлять как доказанное улучшение качества.",
+            "claim_ids": [
+              "c7"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "practice",
+        "title": "Как читать результаты и проверить подход у себя",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Сравнить no-memory, полный контекст и простой retrieval с исследуемой системой при фиксированных моделях, историях и бюджетах. Записывать стоимость создания памяти отдельно от стоимости запросов.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Проверять исправления устаревших фактов, временные вопросы, отказ при отсутствии evidence и влияние ошибочной записи. Сохранять provenance и версии состояния.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "questions",
+        "title": "Открытые вопросы и следующие эксперименты",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Когда структурированная память окупает стоимость построения по сравнению с простым retrieval? Нужны повторные запросы к одной истории и оценка break-even по числу обращений.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Как надёжно исправить предпочтение, не удаляя нужный опыт? Проверка должна включать противоречивые записи, даты и последующие действия.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "reading",
+        "title": "Маршрут чтения",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Сначала прочитайте первые две работы из таблицы: они задают понятия и способ измерения. Затем сравните методы в середине списка с критическими и более поздними исследованиями. Цель — понять, какое предположение меняется и что именно измеряется.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Для каждой работы выпишите объект переноса или оценки, используемый baseline, единицу тестирования, условия успеха и способ проверки. Цифры без этих полей недостаточны для выбора метода. Ссылки [n] раскрывают карточки доказательств; оттуда можно открыть раздел первоисточника.",
+            "claim_ids": []
+          }
+        ]
+      }
+    ],
+    "concepts": [
+      {
+        "id": "concept-1",
+        "name": "Рабочий контекст",
+        "definition": {
+          "kind": "synthesis",
+          "text": "Информация, доступная модели при текущем вызове; внешние записи нужно сначала извлечь.",
+          "claim_ids": [
+            "c1"
+          ]
+        },
+        "statements": [],
+        "disagreements": []
+      },
+      {
+        "id": "concept-2",
+        "name": "Жизненный цикл памяти",
+        "definition": {
+          "kind": "synthesis",
+          "text": "Путь от ingestion и construction до retrieval, использования и maintenance.",
+          "claim_ids": [
+            "c5"
+          ]
+        },
+        "statements": [],
+        "disagreements": []
+      }
+    ],
+    "relations": []
+  },
+  "comparison": [
+    {
+      "paper_id": "arxiv-2310-08560",
+      "method": "Управляемая иерархия памяти",
+      "guarantee": "Доступность записи отличается от доступности модели",
+      "setup": "Иерархия контекста и function calls; задачи диалога и анализа документов.",
+      "claim_ids": [
+        "c1"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2304-03442",
+      "method": "Эпизоды, reflection и planning",
+      "guarantee": "Критерий успеха связан с задачей симуляции",
+      "setup": "Симулированный социальный мир и оценка правдоподобия поведения.",
+      "claim_ids": [
+        "c2"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2305-10250",
+      "method": "Хранение и забывание",
+      "guarantee": "Обновление памяти — часть метода",
+      "setup": "Долговременный диалог и персонализация; собственный механизм обновления.",
+      "claim_ids": [
+        "c3"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2410-10813",
+      "method": "Проверка межсессионной памяти",
+      "guarantee": "Семантика времени и обновлений важна",
+      "setup": "История наблюдается последовательно; вопрос может требовать краткий ответ либо выполнение rubric.",
+      "claim_ids": [
+        "c4"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2606-06448",
+      "method": "Профилирование жизненного цикла",
+      "guarantee": "Учитывается стоимость записи, а не только ответа",
+      "setup": "Профилирование stateful workloads и указанных memory systems; hardware и serving setup фиксируются отдельно.",
+      "claim_ids": [
+        "c5"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2608-15008",
+      "method": "Контролируемое сравнение substrates",
+      "guarantee": "Тип задачи и конфигурация существенны",
+      "setup": "Единый harness, разные substrates и задачи; фиксируются параметры и бюджеты.",
+      "claim_ids": [
+        "c6"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2610-32464",
+      "method": "IR-взгляд на содержимое памяти",
+      "guarantee": "Концептуальное предложение отделено от эмпирики",
+      "setup": "Position paper, связь задач памяти с information retrieval.",
+      "claim_ids": [
+        "c7"
+      ]
+    }
+  ],
+  "quality": {
+    "warnings": [
+      "Целенаправленный обзор выбранного подвопроса; полный охват направления и актуальный SOTA-рейтинг не заявляются.",
+      "Разобраны выбранные фрагменты полных текстов, а не все приложения и доказательства. Цитаты сверены с сохранёнными HTML.",
+      "Результаты принадлежат авторам статей. Собственные эксперименты и независимая экспертная рецензия не выполнялись.",
+      "Автоматический поиск добавляет только кандидатов; он не подтверждает их качество и не обновляет выводы этого обзора."
+    ]
+  },
+  "changes": {
+    "note": "Первый концептуальный выпуск с условиями сравнения и доказательствами."
+  },
+  "publication": {
+    "released_at": "2026-11-13",
+    "note": "Первый обзор: 7 выбранных работ, механизмы, сравнение и ограничения; без своего воспроизведения.",
+    "preparation": "source_based_editorial",
+    "expert_peer_review": false
+  }
+}
