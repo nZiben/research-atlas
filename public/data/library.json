@@ -78,21 +78,21 @@
       "has_review": true,
       "snapshot_id": "editorial-2026-11-13",
       "review_papers": 7,
-      "papers": 243,
-      "bibliography_checked_at": "2026-11-13",
+      "papers": 244,
+      "bibliography_checked_at": "2026-11-16",
       "bibliography_coverage": {
-        "count": 236,
+        "count": 237,
         "first_year": 2023,
         "last_year": 2026,
         "years": {
           "2023": 15,
           "2024": 76,
           "2025": 34,
-          "2026": 111
+          "2026": 112
         },
         "groups": {
           "relevance": 55,
-          "recent": 73,
+          "recent": 74,
           "earlier": 91,
           "evaluation": 35
         },
@@ -101,9 +101,11 @@
         "truncated_searches": 4
       },
       "discovery": {
-        "added": 0,
+        "added": 1,
         "updated": 0,
-        "added_ids": [],
+        "added_ids": [
+          "2606.29142"
+        ],
         "updated_ids": []
       },
       "updated_at": "2026-11-13"
@@ -181,21 +183,21 @@
       "has_review": true,
       "snapshot_id": "editorial-2026-11-13",
       "review_papers": 7,
-      "papers": 180,
-      "bibliography_checked_at": "2026-11-13",
+      "papers": 183,
+      "bibliography_checked_at": "2026-11-16",
       "bibliography_coverage": {
-        "count": 173,
+        "count": 176,
         "first_year": 2023,
         "last_year": 2026,
         "years": {
           "2023": 2,
           "2024": 50,
           "2025": 49,
-          "2026": 72
+          "2026": 75
         },
         "groups": {
           "relevance": 50,
-          "recent": 54,
+          "recent": 57,
           "earlier": 67,
           "evaluation": 29
         },
@@ -204,9 +206,13 @@
         "truncated_searches": 4
       },
       "discovery": {
-        "added": 0,
+        "added": 3,
         "updated": 0,
-        "added_ids": [],
+        "added_ids": [
+          "2611.17856",
+          "2611.18089",
+          "2611.18274"
+        ],
         "updated_ids": []
       },
       "updated_at": "2026-11-13"
@@ -291,21 +297,21 @@
       "has_review": true,
       "snapshot_id": "editorial-2026-11-13",
       "review_papers": 10,
-      "papers": 230,
-      "bibliography_checked_at": "2026-11-13",
+      "papers": 232,
+      "bibliography_checked_at": "2026-11-16",
       "bibliography_coverage": {
-        "count": 220,
+        "count": 222,
         "first_year": 2023,
         "last_year": 2026,
         "years": {
           "2023": 13,
           "2024": 80,
           "2025": 35,
-          "2026": 92
+          "2026": 94
         },
         "groups": {
           "relevance": 58,
-          "recent": 67,
+          "recent": 69,
           "earlier": 91,
           "evaluation": 40
         },
@@ -314,10 +320,15 @@
         "truncated_searches": 4
       },
       "discovery": {
-        "added": 0,
-        "updated": 0,
-        "added_ids": [],
-        "updated_ids": []
+        "added": 2,
+        "updated": 1,
+        "added_ids": [
+          "2603.09527",
+          "2611.18482"
+        ],
+        "updated_ids": [
+          "2611.13442"
+        ]
       },
       "updated_at": "2026-11-13"
     },
@@ -398,22 +409,22 @@
       "has_review": true,
       "snapshot_id": "editorial-2026-11-13",
       "review_papers": 7,
-      "papers": 153,
-      "bibliography_checked_at": "2026-11-13",
+      "papers": 154,
+      "bibliography_checked_at": "2026-11-16",
       "bibliography_coverage": {
-        "count": 146,
+        "count": 147,
         "first_year": 2022,
         "last_year": 2026,
         "years": {
           "2022": 2,
           "2023": 18,
           "2024": 37,
-          "2025": 31,
+          "2025": 32,
           "2026": 58
         },
         "groups": {
           "relevance": 47,
-          "recent": 44,
+          "recent": 45,
           "earlier": 43,
           "evaluation": 39
         },
@@ -422,9 +433,11 @@
         "truncated_searches": 4
       },
       "discovery": {
-        "added": 0,
+        "added": 1,
         "updated": 0,
-        "added_ids": [],
+        "added_ids": [
+          "2510.18691"
+        ],
         "updated_ids": []
       },
       "updated_at": "2026-11-13"
@@ -506,10 +519,10 @@
       "has_review": true,
       "snapshot_id": "editorial-2026-11-13",
       "review_papers": 7,
-      "papers": 398,
-      "bibliography_checked_at": "2026-11-13",
+      "papers": 411,
+      "bibliography_checked_at": "2026-11-16",
       "bibliography_coverage": {
-        "count": 391,
+        "count": 404,
         "first_year": 2019,
         "last_year": 2026,
         "years": {
@@ -518,12 +531,12 @@
           "2022": 5,
           "2023": 70,
           "2024": 20,
-          "2025": 17,
-          "2026": 275
+          "2025": 18,
+          "2026": 287
         },
         "groups": {
           "relevance": 59,
-          "recent": 206,
+          "recent": 220,
           "earlier": 94,
           "evaluation": 39
         },
@@ -532,10 +545,26 @@
         "truncated_searches": 4
       },
       "discovery": {
-        "added": 0,
-        "updated": 0,
-        "added_ids": [],
-        "updated_ids": []
+        "added": 13,
+        "updated": 1,
+        "added_ids": [
+          "2508.00910",
+          "2602.20659",
+          "2605.22781",
+          "2606.32034",
+          "2610.30499",
+          "2611.17515",
+          "2611.17696",
+          "2611.17808",
+          "2611.17933",
+          "2611.18067",
+          "2611.18133",
+          "2611.18150",
+          "2611.18235"
+        ],
+        "updated_ids": [
+          "2606.16613"
+        ]
       },
       "updated_at": "2026-11-13"
     },
@@ -617,7 +646,7 @@
       "snapshot_id": "editorial-2026-11-13",
       "review_papers": 7,
       "papers": 212,
-      "bibliography_checked_at": "2026-11-13",
+      "bibliography_checked_at": "2026-11-16",
       "bibliography_coverage": {
         "count": 205,
         "first_year": 2020,
@@ -643,9 +672,11 @@
       },
       "discovery": {
         "added": 0,
-        "updated": 0,
+        "updated": 1,
         "added_ids": [],
-        "updated_ids": []
+        "updated_ids": [
+          "2611.13213"
+        ]
       },
       "updated_at": "2026-11-13"
     },
@@ -726,10 +757,10 @@
       "has_review": true,
       "snapshot_id": "editorial-2026-11-13",
       "review_papers": 7,
-      "papers": 194,
-      "bibliography_checked_at": "2026-11-13",
+      "papers": 196,
+      "bibliography_checked_at": "2026-11-16",
       "bibliography_coverage": {
-        "count": 187,
+        "count": 189,
         "first_year": 2020,
         "last_year": 2026,
         "years": {
@@ -737,12 +768,12 @@
           "2021": 1,
           "2023": 3,
           "2024": 29,
-          "2025": 63,
-          "2026": 90
+          "2025": 64,
+          "2026": 91
         },
         "groups": {
           "relevance": 36,
-          "recent": 54,
+          "recent": 56,
           "earlier": 62,
           "evaluation": 39
         },
@@ -751,9 +782,12 @@
         "truncated_searches": 4
       },
       "discovery": {
-        "added": 0,
+        "added": 2,
         "updated": 0,
-        "added_ids": [],
+        "added_ids": [
+          "2511.21542",
+          "2611.18562"
+        ],
         "updated_ids": []
       },
       "updated_at": "2026-11-13"
@@ -836,7 +870,7 @@
       "snapshot_id": "editorial-2026-11-13",
       "review_papers": 7,
       "papers": 163,
-      "bibliography_checked_at": "2026-11-13",
+      "bibliography_checked_at": "2026-11-16",
       "bibliography_coverage": {
         "count": 156,
         "first_year": 2023,
@@ -942,22 +976,22 @@
       "has_review": true,
       "snapshot_id": "editorial-2026-11-13",
       "review_papers": 7,
-      "papers": 150,
-      "bibliography_checked_at": "2026-11-13",
+      "papers": 154,
+      "bibliography_checked_at": "2026-11-16",
       "bibliography_coverage": {
-        "count": 143,
+        "count": 147,
         "first_year": 2022,
         "last_year": 2026,
         "years": {
           "2022": 1,
           "2023": 8,
           "2024": 20,
-          "2025": 32,
-          "2026": 82
+          "2025": 33,
+          "2026": 85
         },
         "groups": {
           "relevance": 57,
-          "recent": 60,
+          "recent": 64,
           "earlier": 20,
           "evaluation": 36
         },
@@ -966,9 +1000,14 @@
         "truncated_searches": 4
       },
       "discovery": {
-        "added": 0,
+        "added": 4,
         "updated": 0,
-        "added_ids": [],
+        "added_ids": [
+          "2506.10903",
+          "2603.16411",
+          "2611.17931",
+          "2611.18067"
+        ],
         "updated_ids": []
       },
       "updated_at": "2026-11-13"
@@ -1050,10 +1089,10 @@
       "has_review": true,
       "snapshot_id": "editorial-2026-11-13",
       "review_papers": 7,
-      "papers": 93,
-      "bibliography_checked_at": "2026-11-13",
+      "papers": 94,
+      "bibliography_checked_at": "2026-11-16",
       "bibliography_coverage": {
-        "count": 86,
+        "count": 87,
         "first_year": 2020,
         "last_year": 2026,
         "years": {
@@ -1063,11 +1102,11 @@
           "2023": 3,
           "2024": 10,
           "2025": 20,
-          "2026": 26
+          "2026": 27
         },
         "groups": {
           "relevance": 29,
-          "recent": 14,
+          "recent": 15,
           "earlier": 28,
           "evaluation": 19
         },
@@ -1076,9 +1115,11 @@
         "truncated_searches": 4
       },
       "discovery": {
-        "added": 0,
+        "added": 1,
         "updated": 0,
-        "added_ids": [],
+        "added_ids": [
+          "2611.18007"
+        ],
         "updated_ids": []
       },
       "updated_at": "2026-11-13"

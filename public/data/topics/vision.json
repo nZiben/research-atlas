@@ -204,7 +204,7 @@
       "url": "https://arxiv.org/abs/2611.15225v1",
       "published_at": "2026-11-11",
       "updated_at": "2026-11-11",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -236,7 +236,7 @@
       "url": "https://arxiv.org/abs/2611.15161v1",
       "published_at": "2026-11-11",
       "updated_at": "2026-11-11",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -260,11 +260,11 @@
       ],
       "year": 2026,
       "doi": "",
-      "arxiv_id": "2611.13213v1",
-      "url": "https://arxiv.org/abs/2611.13213v1",
+      "arxiv_id": "2611.13213v2",
+      "url": "https://arxiv.org/abs/2611.13213v2",
       "published_at": "2026-11-09",
-      "updated_at": "2026-11-09",
-      "checked_at": "2026-11-13",
+      "updated_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -304,7 +304,7 @@
       "url": "https://arxiv.org/abs/2611.10626v1",
       "published_at": "2026-11-07",
       "updated_at": "2026-11-07",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -328,7 +328,7 @@
       "url": "https://arxiv.org/abs/2611.09092v1",
       "published_at": "2026-11-06",
       "updated_at": "2026-11-06",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -361,7 +361,7 @@
       "url": "https://arxiv.org/abs/2611.08976v1",
       "published_at": "2026-11-06",
       "updated_at": "2026-11-06",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -386,7 +386,7 @@
       "url": "https://arxiv.org/abs/2611.08950v2",
       "published_at": "2026-11-06",
       "updated_at": "2026-11-09",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -850,7 +850,7 @@
       "url": "https://arxiv.org/abs/2610.31471v2",
       "published_at": "2026-10-22",
       "updated_at": "2026-11-06",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1243,7 +1243,7 @@
       "url": "https://arxiv.org/abs/2610.24122v2",
       "published_at": "2026-10-16",
       "updated_at": "2026-11-12",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1868,7 +1868,7 @@
       "url": "https://arxiv.org/abs/2608.10317v4",
       "published_at": "2026-08-10",
       "updated_at": "2026-11-07",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1958,7 +1958,7 @@
       "url": "https://arxiv.org/abs/2606.28593v2",
       "published_at": "2026-06-26",
       "updated_at": "2026-11-08",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -2381,7 +2381,7 @@
       "url": "https://arxiv.org/abs/2605.00496v3",
       "published_at": "2026-05-01",
       "updated_at": "2026-11-10",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [

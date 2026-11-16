@@ -1,47 +1,81 @@
 {
-  "checked_at": "2026-11-13",
+  "checked_at": "2026-11-16",
   "window_start": "2026-11-06",
   "topics": {
     "safety": {
-      "added": 0,
+      "added": 1,
       "updated": 0,
-      "added_ids": [],
+      "added_ids": [
+        "2606.29142"
+      ],
       "updated_ids": []
     },
     "interpretability": {
-      "added": 0,
+      "added": 3,
       "updated": 0,
-      "added_ids": [],
+      "added_ids": [
+        "2611.17856",
+        "2611.18089",
+        "2611.18274"
+      ],
       "updated_ids": []
     },
     "efficiency": {
-      "added": 0,
-      "updated": 0,
-      "added_ids": [],
-      "updated_ids": []
+      "added": 2,
+      "updated": 1,
+      "added_ids": [
+        "2603.09527",
+        "2611.18482"
+      ],
+      "updated_ids": [
+        "2611.13442"
+      ]
     },
     "language": {
-      "added": 0,
+      "added": 1,
       "updated": 0,
-      "added_ids": [],
+      "added_ids": [
+        "2510.18691"
+      ],
       "updated_ids": []
     },
     "agents": {
-      "added": 0,
-      "updated": 0,
-      "added_ids": [],
-      "updated_ids": []
+      "added": 13,
+      "updated": 1,
+      "added_ids": [
+        "2508.00910",
+        "2602.20659",
+        "2605.22781",
+        "2606.32034",
+        "2610.30499",
+        "2611.17515",
+        "2611.17696",
+        "2611.17808",
+        "2611.17933",
+        "2611.18067",
+        "2611.18133",
+        "2611.18150",
+        "2611.18235"
+      ],
+      "updated_ids": [
+        "2606.16613"
+      ]
     },
     "vision": {
       "added": 0,
-      "updated": 0,
+      "updated": 1,
       "added_ids": [],
-      "updated_ids": []
+      "updated_ids": [
+        "2611.13213"
+      ]
     },
     "robotics": {
-      "added": 0,
+      "added": 2,
       "updated": 0,
-      "added_ids": [],
+      "added_ids": [
+        "2511.21542",
+        "2611.18562"
+      ],
       "updated_ids": []
     },
     "reinforcement-learning": {
@@ -51,15 +85,22 @@
       "updated_ids": []
     },
     "evaluation": {
-      "added": 0,
+      "added": 4,
       "updated": 0,
-      "added_ids": [],
+      "added_ids": [
+        "2506.10903",
+        "2603.16411",
+        "2611.17931",
+        "2611.18067"
+      ],
       "updated_ids": []
     },
     "ai-for-science": {
-      "added": 0,
+      "added": 1,
       "updated": 0,
-      "added_ids": [],
+      "added_ids": [
+        "2611.18007"
+      ],
       "updated_ids": []
     }
   }

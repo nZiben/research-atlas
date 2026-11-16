@@ -212,6 +212,33 @@
       "reason": "Источник опубликованного обзора."
     },
     {
+      "id": "arxiv-2611-18482",
+      "title": "MMFlash: Faster Speculative Decoding for Vision-Language Models",
+      "authors": [
+        "Sicheng Feng",
+        "Zigeng Chen",
+        "Song Wang",
+        "Gongfan Fang",
+        "Xinchao Wang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.18482v1",
+      "url": "https://arxiv.org/abs/2611.18482v1",
+      "published_at": "2026-11-13",
+      "updated_at": "2026-11-13",
+      "checked_at": "2026-11-16",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-16",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
       "id": "arxiv-2611-16714",
       "title": "Towards Green Text Generation: Memory-Based Speculative Decoding",
       "authors": [
@@ -223,7 +250,7 @@
       "url": "https://arxiv.org/abs/2611.16714v1",
       "published_at": "2026-11-12",
       "updated_at": "2026-11-12",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -249,7 +276,7 @@
       "url": "https://arxiv.org/abs/2611.14844v1",
       "published_at": "2026-11-10",
       "updated_at": "2026-11-10",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -272,7 +299,7 @@
       "url": "https://arxiv.org/abs/2611.14399v1",
       "published_at": "2026-11-10",
       "updated_at": "2026-11-10",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -296,11 +323,11 @@
       ],
       "year": 2026,
       "doi": "",
-      "arxiv_id": "2611.13442v1",
-      "url": "https://arxiv.org/abs/2611.13442v1",
+      "arxiv_id": "2611.13442v2",
+      "url": "https://arxiv.org/abs/2611.13442v2",
       "published_at": "2026-11-10",
-      "updated_at": "2026-11-10",
-      "checked_at": "2026-11-13",
+      "updated_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -325,7 +352,7 @@
       "url": "https://arxiv.org/abs/2611.12737v2",
       "published_at": "2026-11-09",
       "updated_at": "2026-11-11",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -351,7 +378,7 @@
       "url": "https://arxiv.org/abs/2611.12356v2",
       "published_at": "2026-11-09",
       "updated_at": "2026-11-12",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -375,7 +402,7 @@
       "url": "https://arxiv.org/abs/2611.10634v1",
       "published_at": "2026-11-07",
       "updated_at": "2026-11-07",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -722,7 +749,7 @@
       "url": "https://arxiv.org/abs/2611.02780v2",
       "published_at": "2026-11-02",
       "updated_at": "2026-11-06",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -809,7 +836,7 @@
       "url": "https://arxiv.org/abs/2611.01617v2",
       "published_at": "2026-11-01",
       "updated_at": "2026-11-06",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -886,7 +913,7 @@
       "url": "https://arxiv.org/abs/2610.41177v2",
       "published_at": "2026-10-30",
       "updated_at": "2026-11-06",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1881,7 +1908,7 @@
       "url": "https://arxiv.org/abs/2610.02665v2",
       "published_at": "2026-10-02",
       "updated_at": "2026-11-12",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1937,7 +1964,7 @@
       "url": "https://arxiv.org/abs/2609.24150v2",
       "published_at": "2026-09-21",
       "updated_at": "2026-11-10",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -2091,7 +2118,7 @@
       "url": "https://arxiv.org/abs/2608.22788v3",
       "published_at": "2026-08-24",
       "updated_at": "2026-11-06",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -2625,6 +2652,36 @@
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
     {
+      "id": "arxiv-2603-09527",
+      "title": "Efficiently Aligning Draft Models via Parameter- and Data-Efficient Adaptation",
+      "authors": [
+        "Luxi Lin",
+        "Zhihang Lin",
+        "Zhanpeng Zeng",
+        "Yuhao Chen",
+        "Qingyu Zhang",
+        "Jixiang Luo",
+        "Xuelong Li",
+        "Rongrong Ji"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2603.09527v2",
+      "url": "https://arxiv.org/abs/2603.09527v2",
+      "published_at": "2026-03-10",
+      "updated_at": "2026-11-13",
+      "checked_at": "2026-11-16",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-16",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
       "id": "arxiv-2603-05210",
       "title": "Balancing Coverage and Draft Latency in Vocabulary Trimming for Faster Speculative Decoding",
       "authors": [
@@ -2779,7 +2836,7 @@
       "url": "https://arxiv.org/abs/2601.23180v2",
       "published_at": "2026-01-30",
       "updated_at": "2026-11-07",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -3036,7 +3093,7 @@
       "url": "https://arxiv.org/abs/2511.05963v5",
       "published_at": "2025-11-08",
       "updated_at": "2026-11-11",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -3543,7 +3600,7 @@
       "url": "https://arxiv.org/abs/2505.14260v2",
       "published_at": "2025-05-20",
       "updated_at": "2026-11-09",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [

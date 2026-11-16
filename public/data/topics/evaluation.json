@@ -149,6 +149,69 @@
       "reason": "Источник опубликованного обзора."
     },
     {
+      "id": "arxiv-2611-18067",
+      "title": "Agent-as-a-Judge",
+      "authors": [
+        "Runyang You",
+        "Hongru Cai",
+        "Caiqi Zhang",
+        "Qiancheng Xu",
+        "Meng Liu",
+        "Tiezheng Yu",
+        "Yongqi Li",
+        "Wenjie Li"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.18067v1",
+      "url": "https://arxiv.org/abs/2611.18067v1",
+      "published_at": "2026-11-13",
+      "updated_at": "2026-11-13",
+      "checked_at": "2026-11-16",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-16",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-17931",
+      "title": "MineralExp: Benchmarking LLM Agents for Experimental Design in Real-World Mineral Exploration",
+      "authors": [
+        "Bing Wang",
+        "Mingyang Wang",
+        "Yuanhang Mi",
+        "Yue Xu",
+        "Kaibo Su",
+        "Li'ang Xiao",
+        "Chunguo Wu",
+        "Changchun Li",
+        "Ximing Li",
+        "Kun-Feng Qiu",
+        "Bo Yang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.17931v1",
+      "url": "https://arxiv.org/abs/2611.17931v1",
+      "published_at": "2026-11-13",
+      "updated_at": "2026-11-13",
+      "checked_at": "2026-11-16",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-16",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
       "id": "arxiv-2611-14581",
       "title": "When Evaluators of AI Agents Disagree: An Empirical Study of Native Scoring, LLM Judges, and Commit-Boundary Checks on tau2-bench",
       "authors": [
@@ -160,7 +223,7 @@
       "url": "https://arxiv.org/abs/2611.14581v1",
       "published_at": "2026-11-10",
       "updated_at": "2026-11-10",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -184,7 +247,7 @@
       "url": "https://arxiv.org/abs/2611.14480v1",
       "published_at": "2026-11-10",
       "updated_at": "2026-11-10",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -210,7 +273,7 @@
       "url": "https://arxiv.org/abs/2611.13186v1",
       "published_at": "2026-11-09",
       "updated_at": "2026-11-09",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -235,7 +298,7 @@
       "url": "https://arxiv.org/abs/2611.11952v1",
       "published_at": "2026-11-09",
       "updated_at": "2026-11-09",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -262,7 +325,7 @@
       "url": "https://arxiv.org/abs/2611.11030v1",
       "published_at": "2026-11-08",
       "updated_at": "2026-11-08",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -293,7 +356,7 @@
       "url": "https://arxiv.org/abs/2611.10831v1",
       "published_at": "2026-11-07",
       "updated_at": "2026-11-07",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -324,7 +387,7 @@
       "url": "https://arxiv.org/abs/2611.10277v1",
       "published_at": "2026-11-06",
       "updated_at": "2026-11-06",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -354,7 +417,7 @@
       "url": "https://arxiv.org/abs/2611.10156v1",
       "published_at": "2026-11-06",
       "updated_at": "2026-11-06",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -383,7 +446,7 @@
       "url": "https://arxiv.org/abs/2611.09061v1",
       "published_at": "2026-11-06",
       "updated_at": "2026-11-06",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -517,7 +580,7 @@
       "url": "https://arxiv.org/abs/2611.05556v2",
       "published_at": "2026-11-03",
       "updated_at": "2026-11-11",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1433,7 +1496,7 @@
       "url": "https://arxiv.org/abs/2609.30849v2",
       "published_at": "2026-09-25",
       "updated_at": "2026-11-07",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1562,7 +1625,7 @@
       "url": "https://arxiv.org/abs/2611.06922v2",
       "published_at": "2026-07-12",
       "updated_at": "2026-11-06",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1770,7 +1833,7 @@
       "url": "https://arxiv.org/abs/2605.23362v2",
       "published_at": "2026-05-22",
       "updated_at": "2026-11-06",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1831,7 +1894,7 @@
       "url": "https://arxiv.org/abs/2605.13481v5",
       "published_at": "2026-05-13",
       "updated_at": "2026-11-06",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1968,7 +2031,7 @@
       "url": "https://arxiv.org/abs/2604.23515v2",
       "published_at": "2026-04-26",
       "updated_at": "2026-11-10",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -2048,7 +2111,7 @@
       "url": "https://arxiv.org/abs/2604.06277v2",
       "published_at": "2026-04-07",
       "updated_at": "2026-11-08",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -2143,6 +2206,30 @@
       ],
       "screening_status": "not_fulltext_reviewed",
       "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2603-16411",
+      "title": "RECOVER: Robust Entity Correction via agentic Orchestration of hypothesis Variants for Evidence-based Recovery",
+      "authors": [
+        "Abhishek Kumar",
+        "Aashraya Sachdeva"
+      ],
+      "year": 2026,
+      "doi": "10.18653/2026.emnlp-industry.173",
+      "arxiv_id": "2603.16411v2",
+      "url": "https://arxiv.org/abs/2603.16411v2",
+      "published_at": "2026-03-17",
+      "updated_at": "2026-11-13",
+      "checked_at": "2026-11-16",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-16",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -2384,7 +2471,7 @@
       "url": "https://arxiv.org/abs/2601.15312v2",
       "published_at": "2026-01-14",
       "updated_at": "2026-11-10",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -2499,7 +2586,7 @@
       "url": "https://arxiv.org/abs/2511.05766v2",
       "published_at": "2025-11-07",
       "updated_at": "2026-11-07",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -2729,7 +2816,7 @@
       "url": "https://arxiv.org/abs/2506.15253v3",
       "published_at": "2025-06-18",
       "updated_at": "2026-11-11",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -2787,6 +2874,32 @@
       ],
       "screening_status": "not_fulltext_reviewed",
       "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2506-10903",
+      "title": "Beyond Gold Standards: Epistemic Ensemble of LLM Judges for Formal Mathematical Reasoning",
+      "authors": [
+        "Lan Zhang",
+        "Marco Valentino",
+        "Jordan Meadows",
+        "André Freitas"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2506.10903v3",
+      "url": "https://arxiv.org/abs/2506.10903v3",
+      "published_at": "2025-06-12",
+      "updated_at": "2026-11-13",
+      "checked_at": "2026-11-16",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-16",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },

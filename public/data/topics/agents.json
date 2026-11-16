@@ -155,6 +155,232 @@
       "reason": "Источник опубликованного обзора."
     },
     {
+      "id": "arxiv-2611-18235",
+      "title": "NeoResearch: Literature- and Experience-Guided Autonomous Time Series Model Discovery",
+      "authors": [
+        "Ze Guo",
+        "Mingyue Cheng",
+        "Xiaoyu Tao",
+        "Shuo Yu",
+        "Shangtong Ye"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.18235v1",
+      "url": "https://arxiv.org/abs/2611.18235v1",
+      "published_at": "2026-11-13",
+      "updated_at": "2026-11-13",
+      "checked_at": "2026-11-16",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-16",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-18150",
+      "title": "Who Should Be on the Panel? Task-Conditioned Persona Selection for LLM Trading Agents",
+      "authors": [
+        "Boming Yang",
+        "Yuquan Wang",
+        "Jiaxian Guo",
+        "Yusuke Iwasawa",
+        "Yutaka Matsuo"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.18150v1",
+      "url": "https://arxiv.org/abs/2611.18150v1",
+      "published_at": "2026-11-13",
+      "updated_at": "2026-11-13",
+      "checked_at": "2026-11-16",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-16",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-18133",
+      "title": "Forget the Lineage: Forward-Secure, Lineage-Complete Cryptographic Erasure for LLM-Agent Memory",
+      "authors": [
+        "Yulliwas Ameur",
+        "Billal Mokhtari",
+        "Samia Bouzefrane"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.18133v1",
+      "url": "https://arxiv.org/abs/2611.18133v1",
+      "published_at": "2026-11-13",
+      "updated_at": "2026-11-13",
+      "checked_at": "2026-11-16",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-16",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-18067",
+      "title": "Agent-as-a-Judge",
+      "authors": [
+        "Runyang You",
+        "Hongru Cai",
+        "Caiqi Zhang",
+        "Qiancheng Xu",
+        "Meng Liu",
+        "Tiezheng Yu",
+        "Yongqi Li",
+        "Wenjie Li"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.18067v1",
+      "url": "https://arxiv.org/abs/2611.18067v1",
+      "published_at": "2026-11-13",
+      "updated_at": "2026-11-13",
+      "checked_at": "2026-11-16",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-16",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-17933",
+      "title": "OutfitterBench: Evaluating LLM Agents on Long-Horizon Resource Allocation and Commitment Coordination",
+      "authors": [
+        "Jie Huang",
+        "Yuecheng Hong",
+        "Yao Chen",
+        "Shengding Jiao",
+        "Xudong Liu",
+        "Qiang Ye"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.17933v1",
+      "url": "https://arxiv.org/abs/2611.17933v1",
+      "published_at": "2026-11-13",
+      "updated_at": "2026-11-13",
+      "checked_at": "2026-11-16",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-16",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-17808",
+      "title": "CarryOn: Learning What to Keep in Context for Long-Horizon LLM Agents",
+      "authors": [
+        "Lihuan Li",
+        "Ruiyi Yang",
+        "Jiru Wang",
+        "Yifan Duan",
+        "Xiachong Lin",
+        "Hao Xue",
+        "Yang Song",
+        "Flora Salim"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.17808v1",
+      "url": "https://arxiv.org/abs/2611.17808v1",
+      "published_at": "2026-11-13",
+      "updated_at": "2026-11-13",
+      "checked_at": "2026-11-16",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-16",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-17696",
+      "title": "Co-Sight Harness: Externalized Control Assets and Deterministic Enforcement for Long-Horizon Business Agents",
+      "authors": [
+        "Luyao Wang",
+        "Xijun Zhu",
+        "Zhaohui Hao",
+        "Xiwen Zhang",
+        "Xingyu Wen",
+        "Weishan Li",
+        "Yuyang Liao",
+        "Yanqin Gao",
+        "Yongsheng Du",
+        "Lingjun Huang",
+        "Shaowei Zhao",
+        "Gang Li",
+        "Qifan Yu",
+        "Baoli Wang"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.17696v1",
+      "url": "https://arxiv.org/abs/2611.17696v1",
+      "published_at": "2026-11-13",
+      "updated_at": "2026-11-13",
+      "checked_at": "2026-11-16",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-16",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2611-17515",
+      "title": "A Push Down the Mountain: Framing Effects and Internal State Interventions on Collusive Behavior in a Long-Horizon LLM Agent",
+      "authors": [
+        "Harrison C. Margolin"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.17515v1",
+      "url": "https://arxiv.org/abs/2611.17515v1",
+      "published_at": "2026-11-12",
+      "updated_at": "2026-11-12",
+      "checked_at": "2026-11-16",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-16",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
       "id": "arxiv-2611-17167",
       "title": "Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents",
       "authors": [
@@ -175,7 +401,7 @@
       "url": "https://arxiv.org/abs/2611.17167v1",
       "published_at": "2026-11-12",
       "updated_at": "2026-11-12",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -205,7 +431,7 @@
       "url": "https://arxiv.org/abs/2611.17068v1",
       "published_at": "2026-11-12",
       "updated_at": "2026-11-12",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -231,7 +457,7 @@
       "url": "https://arxiv.org/abs/2611.17007v1",
       "published_at": "2026-11-12",
       "updated_at": "2026-11-12",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -268,7 +494,7 @@
       "url": "https://arxiv.org/abs/2611.16861v1",
       "published_at": "2026-11-12",
       "updated_at": "2026-11-12",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -300,7 +526,7 @@
       "url": "https://arxiv.org/abs/2611.16693v1",
       "published_at": "2026-11-12",
       "updated_at": "2026-11-12",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -331,7 +557,7 @@
       "url": "https://arxiv.org/abs/2611.16661v1",
       "published_at": "2026-11-12",
       "updated_at": "2026-11-12",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -360,7 +586,7 @@
       "url": "https://arxiv.org/abs/2611.16433v1",
       "published_at": "2026-11-12",
       "updated_at": "2026-11-12",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -388,7 +614,7 @@
       "url": "https://arxiv.org/abs/2611.16143v1",
       "published_at": "2026-11-12",
       "updated_at": "2026-11-12",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -419,7 +645,7 @@
       "url": "https://arxiv.org/abs/2611.15766v1",
       "published_at": "2026-11-11",
       "updated_at": "2026-11-11",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -445,7 +671,7 @@
       "url": "https://arxiv.org/abs/2611.15729v1",
       "published_at": "2026-11-11",
       "updated_at": "2026-11-11",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -474,7 +700,7 @@
       "url": "https://arxiv.org/abs/2611.15600v1",
       "published_at": "2026-11-11",
       "updated_at": "2026-11-11",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -497,7 +723,7 @@
       "url": "https://arxiv.org/abs/2611.15515v1",
       "published_at": "2026-11-11",
       "updated_at": "2026-11-11",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -525,7 +751,7 @@
       "url": "https://arxiv.org/abs/2611.15006v1",
       "published_at": "2026-11-11",
       "updated_at": "2026-11-11",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -551,7 +777,7 @@
       "url": "https://arxiv.org/abs/2611.14996v1",
       "published_at": "2026-11-11",
       "updated_at": "2026-11-11",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -584,7 +810,7 @@
       "url": "https://arxiv.org/abs/2611.14949v1",
       "published_at": "2026-11-11",
       "updated_at": "2026-11-11",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -612,7 +838,7 @@
       "url": "https://arxiv.org/abs/2611.14945v1",
       "published_at": "2026-11-11",
       "updated_at": "2026-11-11",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -644,7 +870,7 @@
       "url": "https://arxiv.org/abs/2611.14848v1",
       "published_at": "2026-11-10",
       "updated_at": "2026-11-10",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -673,7 +899,7 @@
       "url": "https://arxiv.org/abs/2611.14326v1",
       "published_at": "2026-11-10",
       "updated_at": "2026-11-10",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -699,7 +925,7 @@
       "url": "https://arxiv.org/abs/2611.14320v1",
       "published_at": "2026-11-10",
       "updated_at": "2026-11-10",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -728,7 +954,7 @@
       "url": "https://arxiv.org/abs/2611.14220v1",
       "published_at": "2026-11-10",
       "updated_at": "2026-11-10",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -754,7 +980,7 @@
       "url": "https://arxiv.org/abs/2611.13966v1",
       "published_at": "2026-11-10",
       "updated_at": "2026-11-10",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -784,7 +1010,7 @@
       "url": "https://arxiv.org/abs/2611.13946v1",
       "published_at": "2026-11-10",
       "updated_at": "2026-11-10",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -813,7 +1039,7 @@
       "url": "https://arxiv.org/abs/2611.13776v1",
       "published_at": "2026-11-10",
       "updated_at": "2026-11-10",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -837,7 +1063,7 @@
       "url": "https://arxiv.org/abs/2611.13696v1",
       "published_at": "2026-11-10",
       "updated_at": "2026-11-10",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -865,7 +1091,7 @@
       "url": "https://arxiv.org/abs/2611.13669v1",
       "published_at": "2026-11-10",
       "updated_at": "2026-11-10",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -892,7 +1118,7 @@
       "url": "https://arxiv.org/abs/2611.13426v1",
       "published_at": "2026-11-10",
       "updated_at": "2026-11-10",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -916,7 +1142,7 @@
       "url": "https://arxiv.org/abs/2611.13413v1",
       "published_at": "2026-11-10",
       "updated_at": "2026-11-10",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -940,7 +1166,7 @@
       "url": "https://arxiv.org/abs/2611.13329v1",
       "published_at": "2026-11-09",
       "updated_at": "2026-11-09",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -966,7 +1192,7 @@
       "url": "https://arxiv.org/abs/2611.13254v1",
       "published_at": "2026-11-09",
       "updated_at": "2026-11-09",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -992,7 +1218,7 @@
       "url": "https://arxiv.org/abs/2611.13176v1",
       "published_at": "2026-11-09",
       "updated_at": "2026-11-09",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1026,7 +1252,7 @@
       "url": "https://arxiv.org/abs/2611.13020v1",
       "published_at": "2026-11-09",
       "updated_at": "2026-11-09",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1061,7 +1287,7 @@
       "url": "https://arxiv.org/abs/2611.12856v1",
       "published_at": "2026-11-09",
       "updated_at": "2026-11-09",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1084,7 +1310,7 @@
       "url": "https://arxiv.org/abs/2611.12545v1",
       "published_at": "2026-11-09",
       "updated_at": "2026-11-09",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1114,7 +1340,7 @@
       "url": "https://arxiv.org/abs/2611.12412v1",
       "published_at": "2026-11-09",
       "updated_at": "2026-11-09",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1140,7 +1366,7 @@
       "url": "https://arxiv.org/abs/2611.12269v1",
       "published_at": "2026-11-09",
       "updated_at": "2026-11-09",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1171,7 +1397,7 @@
       "url": "https://arxiv.org/abs/2611.12125v2",
       "published_at": "2026-11-09",
       "updated_at": "2026-11-12",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1194,7 +1420,7 @@
       "url": "https://arxiv.org/abs/2611.12120v1",
       "published_at": "2026-11-09",
       "updated_at": "2026-11-09",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1218,7 +1444,7 @@
       "url": "https://arxiv.org/abs/2611.12079v2",
       "published_at": "2026-11-09",
       "updated_at": "2026-11-11",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1245,7 +1471,7 @@
       "url": "https://arxiv.org/abs/2611.12068v1",
       "published_at": "2026-11-09",
       "updated_at": "2026-11-09",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1275,7 +1501,7 @@
       "url": "https://arxiv.org/abs/2611.11929v1",
       "published_at": "2026-11-09",
       "updated_at": "2026-11-09",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1308,7 +1534,7 @@
       "url": "https://arxiv.org/abs/2611.11560v1",
       "published_at": "2026-11-08",
       "updated_at": "2026-11-08",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1341,7 +1567,7 @@
       "url": "https://arxiv.org/abs/2611.11558v1",
       "published_at": "2026-11-08",
       "updated_at": "2026-11-08",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1371,7 +1597,7 @@
       "url": "https://arxiv.org/abs/2611.11509v1",
       "published_at": "2026-11-08",
       "updated_at": "2026-11-08",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1397,7 +1623,7 @@
       "url": "https://arxiv.org/abs/2611.11455v1",
       "published_at": "2026-11-08",
       "updated_at": "2026-11-08",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1424,7 +1650,7 @@
       "url": "https://arxiv.org/abs/2611.11319v1",
       "published_at": "2026-11-08",
       "updated_at": "2026-11-08",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1451,7 +1677,7 @@
       "url": "https://arxiv.org/abs/2611.11064v1",
       "published_at": "2026-11-08",
       "updated_at": "2026-11-08",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1480,7 +1706,7 @@
       "url": "https://arxiv.org/abs/2611.10884v1",
       "published_at": "2026-11-07",
       "updated_at": "2026-11-07",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1508,7 +1734,7 @@
       "url": "https://arxiv.org/abs/2611.10843v1",
       "published_at": "2026-11-07",
       "updated_at": "2026-11-07",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1536,7 +1762,7 @@
       "url": "https://arxiv.org/abs/2611.10748v1",
       "published_at": "2026-11-07",
       "updated_at": "2026-11-07",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1564,7 +1790,7 @@
       "url": "https://arxiv.org/abs/2611.10628v1",
       "published_at": "2026-11-07",
       "updated_at": "2026-11-07",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1593,7 +1819,7 @@
       "url": "https://arxiv.org/abs/2611.10542v1",
       "published_at": "2026-11-07",
       "updated_at": "2026-11-07",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1617,7 +1843,7 @@
       "url": "https://arxiv.org/abs/2611.10477v1",
       "published_at": "2026-11-07",
       "updated_at": "2026-11-07",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1644,7 +1870,7 @@
       "url": "https://arxiv.org/abs/2611.10439v1",
       "published_at": "2026-11-07",
       "updated_at": "2026-11-07",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1672,7 +1898,7 @@
       "url": "https://arxiv.org/abs/2611.10411v1",
       "published_at": "2026-11-07",
       "updated_at": "2026-11-07",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1698,7 +1924,7 @@
       "url": "https://arxiv.org/abs/2611.10394v1",
       "published_at": "2026-11-07",
       "updated_at": "2026-11-07",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1730,7 +1956,7 @@
       "url": "https://arxiv.org/abs/2611.10382v1",
       "published_at": "2026-11-07",
       "updated_at": "2026-11-07",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1753,7 +1979,7 @@
       "url": "https://arxiv.org/abs/2611.10240v1",
       "published_at": "2026-11-06",
       "updated_at": "2026-11-06",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1779,7 +2005,7 @@
       "url": "https://arxiv.org/abs/2611.10178v1",
       "published_at": "2026-11-06",
       "updated_at": "2026-11-06",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1804,7 +2030,7 @@
       "url": "https://arxiv.org/abs/2611.10096v1",
       "published_at": "2026-11-06",
       "updated_at": "2026-11-06",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1831,7 +2057,7 @@
       "url": "https://arxiv.org/abs/2611.09721v1",
       "published_at": "2026-11-06",
       "updated_at": "2026-11-06",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1858,7 +2084,7 @@
       "url": "https://arxiv.org/abs/2611.09254v1",
       "published_at": "2026-11-06",
       "updated_at": "2026-11-06",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1882,7 +2108,7 @@
       "url": "https://arxiv.org/abs/2611.09092v1",
       "published_at": "2026-11-06",
       "updated_at": "2026-11-06",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1926,7 +2152,7 @@
       "url": "https://arxiv.org/abs/2611.08946v1",
       "published_at": "2026-11-06",
       "updated_at": "2026-11-06",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1951,7 +2177,7 @@
       "url": "https://arxiv.org/abs/2611.08932v1",
       "published_at": "2026-11-06",
       "updated_at": "2026-11-06",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1979,7 +2205,7 @@
       "url": "https://arxiv.org/abs/2611.08914v1",
       "published_at": "2026-11-06",
       "updated_at": "2026-11-06",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -2874,7 +3100,7 @@
       "url": "https://arxiv.org/abs/2611.04483v2",
       "published_at": "2026-11-03",
       "updated_at": "2026-11-07",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -3427,7 +3653,7 @@
       "url": "https://arxiv.org/abs/2611.02975v2",
       "published_at": "2026-11-02",
       "updated_at": "2026-11-06",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -4149,7 +4375,7 @@
       "url": "https://arxiv.org/abs/2610.41260v2",
       "published_at": "2026-10-30",
       "updated_at": "2026-11-09",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -4182,7 +4408,7 @@
       "url": "https://arxiv.org/abs/2610.41216v2",
       "published_at": "2026-10-30",
       "updated_at": "2026-11-12",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -4408,7 +4634,7 @@
       "url": "https://arxiv.org/abs/2610.32477v3",
       "published_at": "2026-10-23",
       "updated_at": "2026-11-12",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -4416,6 +4642,30 @@
       ],
       "screening_status": "not_fulltext_reviewed",
       "added_at": "2026-11-13",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2610-30499",
+      "title": "Can LLMs Improve Their Own Harness? A Controlled Study on ARC-AGI-3",
+      "authors": [
+        "Jens Lehmann",
+        "Sahar Vahdati"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2610.30499v2",
+      "url": "https://arxiv.org/abs/2610.30499v2",
+      "published_at": "2026-10-21",
+      "updated_at": "2026-11-13",
+      "checked_at": "2026-11-16",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-16",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -4500,7 +4750,7 @@
       "url": "https://arxiv.org/abs/2610.19423v2",
       "published_at": "2026-10-14",
       "updated_at": "2026-11-12",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -4667,7 +4917,7 @@
       "url": "https://arxiv.org/abs/2610.09074v2",
       "published_at": "2026-10-06",
       "updated_at": "2026-11-11",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -4691,7 +4941,7 @@
       "url": "https://arxiv.org/abs/2610.06190v2",
       "published_at": "2026-10-05",
       "updated_at": "2026-11-10",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -4772,7 +5022,7 @@
       "url": "https://arxiv.org/abs/2609.36457v2",
       "published_at": "2026-09-29",
       "updated_at": "2026-11-11",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -4857,7 +5107,7 @@
       "url": "https://arxiv.org/abs/2609.34064v2",
       "published_at": "2026-09-28",
       "updated_at": "2026-11-10",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -4908,7 +5158,7 @@
       "url": "https://arxiv.org/abs/2609.28870v3",
       "published_at": "2026-09-24",
       "updated_at": "2026-11-07",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -5185,7 +5435,7 @@
       "url": "https://arxiv.org/abs/2608.28553v5",
       "published_at": "2026-08-28",
       "updated_at": "2026-11-11",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -5214,7 +5464,7 @@
       "url": "https://arxiv.org/abs/2608.23670v2",
       "published_at": "2026-08-24",
       "updated_at": "2026-11-12",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -5272,7 +5522,7 @@
       "url": "https://arxiv.org/abs/2608.21810v2",
       "published_at": "2026-08-22",
       "updated_at": "2026-11-07",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -5402,7 +5652,7 @@
       "url": "https://arxiv.org/abs/2608.10875v3",
       "published_at": "2026-08-11",
       "updated_at": "2026-11-06",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -5498,7 +5748,7 @@
       "url": "https://arxiv.org/abs/2608.02391v2",
       "published_at": "2026-08-03",
       "updated_at": "2026-11-07",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -5566,7 +5816,7 @@
       "url": "https://arxiv.org/abs/2608.00967v2",
       "published_at": "2026-08-02",
       "updated_at": "2026-11-07",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -5889,7 +6139,7 @@
       "url": "https://arxiv.org/abs/2607.19395v2",
       "published_at": "2026-07-03",
       "updated_at": "2026-11-06",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -5929,6 +6179,34 @@
       ],
       "screening_status": "not_fulltext_reviewed",
       "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2606-32034",
+      "title": "QVal: Evaluating Dense Supervision Signals for Long-Horizon LLM Agents",
+      "authors": [
+        "Sergio Hernández-Gutiérrez",
+        "Matteo Merler",
+        "Ilze Amanda Auzina",
+        "Joschka Strüber",
+        "Ameya Prabhu",
+        "Matthias Bethge"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2606.32034v2",
+      "url": "https://arxiv.org/abs/2606.32034v2",
+      "published_at": "2026-06-30",
+      "updated_at": "2026-11-13",
+      "checked_at": "2026-11-16",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-16",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -6038,7 +6316,7 @@
       "url": "https://arxiv.org/abs/2606.25632v2",
       "published_at": "2026-06-24",
       "updated_at": "2026-11-09",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -6205,18 +6483,19 @@
       ],
       "year": 2026,
       "doi": "",
-      "arxiv_id": "2606.16613v1",
-      "url": "https://arxiv.org/abs/2606.16613v1",
+      "arxiv_id": "2606.16613v2",
+      "url": "https://arxiv.org/abs/2606.16613v2",
       "published_at": "2026-06-15",
-      "updated_at": "2026-06-15",
-      "checked_at": "2026-11-08",
+      "updated_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
+        "recent",
         "relevance"
       ],
       "screening_status": "not_fulltext_reviewed",
-      "added_at": null,
+      "added_at": "2026-11-08",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
@@ -6244,7 +6523,7 @@
       "url": "https://arxiv.org/abs/2606.16190v2",
       "published_at": "2026-06-15",
       "updated_at": "2026-11-06",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -6413,7 +6692,7 @@
       "url": "https://arxiv.org/abs/2606.00866v2",
       "published_at": "2026-05-30",
       "updated_at": "2026-11-11",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -6639,6 +6918,38 @@
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
     {
+      "id": "arxiv-2605-22781",
+      "title": "DeltaBox: Millisecond-Scale Sandbox Checkpoint and Rollback for Stateful AI Agents",
+      "authors": [
+        "Yunpeng Dong",
+        "Jingkai He",
+        "Shiqi Liu",
+        "Yuze Hou",
+        "Dong Du",
+        "Zhonghu Xu",
+        "Si Yu",
+        "Baochuan Yang",
+        "Yubin Xia",
+        "Haibo Chen"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2605.22781v3",
+      "url": "https://arxiv.org/abs/2605.22781v3",
+      "published_at": "2026-05-21",
+      "updated_at": "2026-11-13",
+      "checked_at": "2026-11-16",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-16",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
       "id": "arxiv-2605-21768",
       "title": "Memory-R2: Fair Credit Assignment for Long-Horizon Memory-Augmented LLM Agents",
       "authors": [
@@ -6739,7 +7050,7 @@
       "url": "https://arxiv.org/abs/2605.12477v2",
       "published_at": "2026-05-12",
       "updated_at": "2026-11-11",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -6839,7 +7150,7 @@
       "url": "https://arxiv.org/abs/2605.05980v3",
       "published_at": "2026-05-07",
       "updated_at": "2026-11-10",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -7006,7 +7317,7 @@
       "url": "https://arxiv.org/abs/2604.20133v5",
       "published_at": "2026-04-22",
       "updated_at": "2026-11-09",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -7058,7 +7369,7 @@
       "url": "https://arxiv.org/abs/2604.16682v2",
       "published_at": "2026-04-17",
       "updated_at": "2026-11-10",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -7122,7 +7433,7 @@
       "url": "https://arxiv.org/abs/2604.26963v3",
       "published_at": "2026-04-14",
       "updated_at": "2026-11-10",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -7246,7 +7557,7 @@
       "url": "https://arxiv.org/abs/2603.16843v2",
       "published_at": "2026-03-17",
       "updated_at": "2026-11-06",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -7497,6 +7808,31 @@
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
     {
+      "id": "arxiv-2602-20659",
+      "title": "Recursive Belief Vision Language Action Models",
+      "authors": [
+        "Vaidehi Bagaria",
+        "Bijo Sebastian",
+        "Nirav Kumar Patel"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2602.20659v3",
+      "url": "https://arxiv.org/abs/2602.20659v3",
+      "published_at": "2026-02-24",
+      "updated_at": "2026-11-13",
+      "checked_at": "2026-11-16",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-16",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
       "id": "arxiv-2602-16901",
       "title": "AgentLAB: Benchmarking LLM Agents against Long-Horizon Attacks",
       "authors": [
@@ -7615,7 +7951,7 @@
       "url": "https://arxiv.org/abs/2602.13807v3",
       "published_at": "2026-02-14",
       "updated_at": "2026-11-08",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -7671,7 +8007,7 @@
       "url": "https://arxiv.org/abs/2602.03784v5",
       "published_at": "2026-02-03",
       "updated_at": "2026-11-07",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -7699,7 +8035,7 @@
       "url": "https://arxiv.org/abs/2602.02711v4",
       "published_at": "2026-02-02",
       "updated_at": "2026-11-10",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -7728,7 +8064,7 @@
       "url": "https://arxiv.org/abs/2602.02474v3",
       "published_at": "2026-02-02",
       "updated_at": "2026-11-06",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -8097,7 +8433,7 @@
       "url": "https://arxiv.org/abs/2512.20237v2",
       "published_at": "2025-12-23",
       "updated_at": "2026-11-06",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -8390,7 +8726,7 @@
       "url": "https://arxiv.org/abs/2510.05107v6",
       "published_at": "2025-09-23",
       "updated_at": "2026-11-10",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -8467,6 +8803,33 @@
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },
     {
+      "id": "arxiv-2508-00910",
+      "title": "Cyber-Zero: Training Cybersecurity Agents without Runtime",
+      "authors": [
+        "Terry Yue Zhuo",
+        "Dingmin Wang",
+        "Hantian Ding",
+        "Varun Kumar",
+        "Zijian Wang"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2508.00910v3",
+      "url": "https://arxiv.org/abs/2508.00910v3",
+      "published_at": "2025-07-29",
+      "updated_at": "2026-11-13",
+      "checked_at": "2026-11-16",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-16",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
       "id": "arxiv-2507-05257",
       "title": "Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions",
       "authors": [
@@ -8509,7 +8872,7 @@
       "url": "https://arxiv.org/abs/2506.15253v3",
       "published_at": "2025-06-18",
       "updated_at": "2026-11-11",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [

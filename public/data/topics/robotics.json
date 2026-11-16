@@ -418,6 +418,39 @@
       "reason": "Источник опубликованного обзора."
     },
     {
+      "id": "arxiv-2611-18562",
+      "title": "Training Reasoning Models in Simulation to Natively Use Real Robots",
+      "authors": [
+        "Jiaming Tang",
+        "Zhuoyang Zhang",
+        "Junxian Guo",
+        "Fangzhou Zhao",
+        "Yilong Zhao",
+        "Zekai Li",
+        "Xingyang Li",
+        "Yuyang Zhao",
+        "Song Bian",
+        "Zhijian Liu",
+        "Song Han"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.18562v1",
+      "url": "https://arxiv.org/abs/2611.18562v1",
+      "published_at": "2026-11-13",
+      "updated_at": "2026-11-13",
+      "checked_at": "2026-11-16",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-16",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
       "id": "arxiv-2611-15490",
       "title": "ActionCodec2: A Streaming Action Tokenizer",
       "authors": [
@@ -435,7 +468,7 @@
       "url": "https://arxiv.org/abs/2611.15490v1",
       "published_at": "2026-11-11",
       "updated_at": "2026-11-11",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -468,7 +501,7 @@
       "url": "https://arxiv.org/abs/2611.14092v1",
       "published_at": "2026-11-10",
       "updated_at": "2026-11-10",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -493,7 +526,7 @@
       "url": "https://arxiv.org/abs/2611.13160v1",
       "published_at": "2026-11-09",
       "updated_at": "2026-11-09",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -520,7 +553,7 @@
       "url": "https://arxiv.org/abs/2611.13030v1",
       "published_at": "2026-11-09",
       "updated_at": "2026-11-09",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -548,7 +581,7 @@
       "url": "https://arxiv.org/abs/2611.11981v1",
       "published_at": "2026-11-09",
       "updated_at": "2026-11-09",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -573,7 +606,7 @@
       "url": "https://arxiv.org/abs/2611.11856v1",
       "published_at": "2026-11-09",
       "updated_at": "2026-11-09",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -599,7 +632,7 @@
       "url": "https://arxiv.org/abs/2611.11798v1",
       "published_at": "2026-11-09",
       "updated_at": "2026-11-09",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -636,7 +669,7 @@
       "url": "https://arxiv.org/abs/2611.11554v1",
       "published_at": "2026-11-08",
       "updated_at": "2026-11-08",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -667,7 +700,7 @@
       "url": "https://arxiv.org/abs/2611.11123v1",
       "published_at": "2026-11-08",
       "updated_at": "2026-11-08",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -692,7 +725,7 @@
       "url": "https://arxiv.org/abs/2611.10894v1",
       "published_at": "2026-11-07",
       "updated_at": "2026-11-07",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -718,7 +751,7 @@
       "url": "https://arxiv.org/abs/2611.10443v1",
       "published_at": "2026-11-07",
       "updated_at": "2026-11-07",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -747,7 +780,7 @@
       "url": "https://arxiv.org/abs/2611.09355v1",
       "published_at": "2026-11-06",
       "updated_at": "2026-11-06",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -770,7 +803,7 @@
       "url": "https://arxiv.org/abs/2611.08987v1",
       "published_at": "2026-11-06",
       "updated_at": "2026-11-06",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -830,7 +863,7 @@
       "url": "https://arxiv.org/abs/2611.08577v3",
       "published_at": "2026-11-05",
       "updated_at": "2026-11-12",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -989,7 +1022,7 @@
       "url": "https://arxiv.org/abs/2611.06447v2",
       "published_at": "2026-11-04",
       "updated_at": "2026-11-10",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1732,7 +1765,7 @@
       "url": "https://arxiv.org/abs/2610.04391v2",
       "published_at": "2026-10-03",
       "updated_at": "2026-11-11",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1757,7 +1790,7 @@
       "url": "https://arxiv.org/abs/2609.34982v3",
       "published_at": "2026-09-28",
       "updated_at": "2026-11-11",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -1871,7 +1904,7 @@
       "url": "https://arxiv.org/abs/2609.03681v2",
       "published_at": "2026-09-03",
       "updated_at": "2026-11-12",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -2403,7 +2436,7 @@
       "url": "https://arxiv.org/abs/2606.03159v4",
       "published_at": "2026-06-02",
       "updated_at": "2026-11-12",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -2551,7 +2584,7 @@
       "url": "https://arxiv.org/abs/2605.25829v2",
       "published_at": "2026-05-25",
       "updated_at": "2026-11-07",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -2640,7 +2673,7 @@
       "url": "https://arxiv.org/abs/2605.10819v3",
       "published_at": "2026-05-11",
       "updated_at": "2026-11-07",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -2821,7 +2854,7 @@
       "url": "https://arxiv.org/abs/2603.09542v4",
       "published_at": "2026-03-10",
       "updated_at": "2026-11-11",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -3376,6 +3409,41 @@
       ],
       "screening_status": "not_fulltext_reviewed",
       "added_at": null,
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
+      "id": "arxiv-2511-21542",
+      "title": "E0: Expressive Fine-Grained Discrete Action Prediction for Vision-Language-Action Models via Tweedie Discrete Diffusion",
+      "authors": [
+        "Zhihao Zhan",
+        "Jiaying Zhou",
+        "Likui Zhang",
+        "Qinhan Lyu",
+        "Hao Liu",
+        "Weizheng Li",
+        "Jusheng Zhang",
+        "Ziliang Chen",
+        "Tianshui Chen",
+        "Ruifeng Zhai",
+        "Keze Wang",
+        "Liang Lin",
+        "Guangrun Wang"
+      ],
+      "year": 2025,
+      "doi": "",
+      "arxiv_id": "2511.21542v3",
+      "url": "https://arxiv.org/abs/2511.21542v3",
+      "published_at": "2025-11-26",
+      "updated_at": "2026-11-13",
+      "checked_at": "2026-11-16",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-16",
       "decision": "reading_list",
       "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
     },

@@ -140,6 +140,30 @@
       "reason": "Источник опубликованного обзора."
     },
     {
+      "id": "arxiv-2611-18007",
+      "title": "Emulating spatially extended systems using Fourier Neural Operator",
+      "authors": [
+        "Gabriele Poccianti",
+        "Duccio Fanelli"
+      ],
+      "year": 2026,
+      "doi": "",
+      "arxiv_id": "2611.18007v1",
+      "url": "https://arxiv.org/abs/2611.18007v1",
+      "published_at": "2026-11-13",
+      "updated_at": "2026-11-13",
+      "checked_at": "2026-11-16",
+      "coverage": "metadata_only",
+      "verification": "arxiv_metadata",
+      "discovery_groups": [
+        "recent"
+      ],
+      "screening_status": "not_fulltext_reviewed",
+      "added_at": "2026-11-16",
+      "decision": "reading_list",
+      "reason": "Проверена библиографическая запись arXiv. Полный текст и научные выводы ещё не разобраны; работа не является доказательством выводов обзора."
+    },
+    {
       "id": "arxiv-2611-11805",
       "title": "Operator Learning of Microstructure-Dependent Internal-Variable Models for Inelastic Homogenization: Approximation and Complexity",
       "authors": [
@@ -153,7 +177,7 @@
       "url": "https://arxiv.org/abs/2611.11805v1",
       "published_at": "2026-11-09",
       "updated_at": "2026-11-09",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -177,7 +201,7 @@
       "url": "https://arxiv.org/abs/2611.10217v1",
       "published_at": "2026-11-06",
       "updated_at": "2026-11-06",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -428,7 +452,7 @@
       "url": "https://arxiv.org/abs/2610.05570v3",
       "published_at": "2026-10-04",
       "updated_at": "2026-11-07",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
@@ -582,7 +606,7 @@
       "url": "https://arxiv.org/abs/2605.26358v3",
       "published_at": "2026-05-25",
       "updated_at": "2026-11-09",
-      "checked_at": "2026-11-13",
+      "checked_at": "2026-11-16",
       "coverage": "metadata_only",
       "verification": "arxiv_metadata",
       "discovery_groups": [
