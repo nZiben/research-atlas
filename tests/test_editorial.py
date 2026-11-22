@@ -54,6 +54,16 @@ class EditorialPublication(unittest.TestCase):
             changed['cards'][0]['claims'][0]['evidence'][0]['url'] = url
             self.reject(changed)
 
+    def test_pinned_pdf_page_is_supported_and_wrong_versions_are_rejected(self):
+        evidence = self.data['cards'][0]['claims'][0]['evidence'][0]
+        evidence.update(segment_id='page.68', locator='PDF, page 68', url='https://arxiv.org/pdf/2211.17192v2#page=68')
+        write_json(self.path, self.data)
+        self.assertIsNotNone(load_editorial(self.path))
+        evidence['url'] = 'https://arxiv.org/pdf/2211.17192v1#page=68'
+        self.reject(self.data)
+        evidence['url'] = 'https://example.org/document.pdf#page=68'
+        self.reject(self.data)
+
     def test_quote_budget_and_private_metadata_are_rejected(self):
         changed = copy.deepcopy(self.data)
         changed['cards'][0]['claims'][0]['evidence'][0]['quote'] = 'word ' * 26

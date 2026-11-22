@@ -46,7 +46,10 @@ def load_editorial(path: Path) -> dict | None:
             for evidence in claim['evidence']:
                 need(set(evidence) == {'quote', 'url', 'locator', 'segment_id'}, 'Unexpected evidence metadata.')
                 need(re.fullmatch(r'[A-Za-z0-9.]+', evidence['segment_id']), 'Invalid source anchor.')
-                need(evidence['url'] == base + evidence['segment_id'] and evidence['locator'], 'Evidence must link to the pinned source section.')
+                anchor = evidence['segment_id']
+                expected = ('https://arxiv.org/pdf/' + papers[card['paper_id']]['arxiv_id'] + '#page=' + anchor[5:]
+                            if re.fullmatch(r'page\.[1-9][0-9]*', anchor) else base + anchor)
+                need(evidence['url'] == expected and evidence['locator'], 'Evidence must link to the pinned source section or PDF page.')
                 need(evidence['quote'].strip(), 'Missing evidence quote.')
                 quote_words += len(evidence['quote'].split())
         need(quote_words <= 25, 'Editorial quote budget exceeded.')

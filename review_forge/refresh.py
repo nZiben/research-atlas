@@ -130,8 +130,8 @@ def refresh(plan: dict, previous: dict, cache: Path, checked_at: str, page_size=
         papers = result['topics'][topic]
         years = sorted({p['year'] for p in papers})
         result.setdefault('coverage', {})[topic] = {**previous.get('coverage', {}).get(topic, {}),
-            'papers': len(papers), 'first_publication': min(p['published_at'] for p in papers),
-            'last_publication': max(p['published_at'] for p in papers),
+            'papers': len(papers), 'first_publication': min((p['published_at'] for p in papers), default=None),
+            'last_publication': max((p['published_at'] for p in papers), default=None),
             'years': {str(y): sum(p['year'] == y for p in papers) for y in years},
             'groups': {g: sum(g in p['discovery_groups'] for p in papers) for g in ('relevance', 'recent', 'earlier', 'evaluation')},
             'systematic_search_complete': False, 'full_text_reviewed': 0}

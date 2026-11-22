@@ -44,11 +44,12 @@ class StaticLibrary(unittest.TestCase):
         response = connection.getresponse()
         return response.status, response.read(), dict(response.getheaders())
 
-    def test_ten_empty_published_sections_without_draft_leakage(self):
+    def test_empty_published_sections_without_draft_leakage(self):
         code, body, _ = self.request('GET', '/data/library.json')
         self.assertEqual(code, 200)
         data = json.loads(body)
-        self.assertEqual(len(data['topics']), 10)
+        self.assertEqual(len(data['topics']), 12)
+        self.assertEqual(sum(bool(t.get('focus')) for t in data['topics']), 2)
         self.assertFalse(any(topic['has_review'] for topic in data['topics']))
         self.assertNotIn('settings', data)
         self.assertNotIn('csrf_token', data)

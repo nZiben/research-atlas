@@ -53836,7 +53836,9 @@
         ],
         "screening_status": "not_fulltext_reviewed"
       }
-    ]
+    ],
+    "human-agency": [],
+    "shared-memory": []
   },
   "searches": [
     {
@@ -55819,6 +55821,22 @@
       "scope_filter_exclusions": 157,
       "full_text_reviewed": 0,
       "systematic_search_complete": false
+    },
+    "human-agency": {
+      "papers": 0,
+      "first_year": null,
+      "last_year": null,
+      "years": {},
+      "groups": {},
+      "note": "Automatic candidate scan not yet run for this new focus; reviewed sources are in its review."
+    },
+    "shared-memory": {
+      "papers": 0,
+      "first_year": null,
+      "last_year": null,
+      "years": {},
+      "groups": {},
+      "note": "Automatic candidate scan not yet run for this new focus; reviewed sources are in its review."
     }
   },
   "plan_sha256": "97b575903f8069550ba0542f8ba1d30a6d89c44a5d47c10226e9dce467b332d2",

@@ -736,5 +736,91 @@
         ]
       }
     ]
+  },
+  {
+    "id": "human-agency",
+    "name": "Человек и ИИ",
+    "focus": true,
+    "reader_title": "Как помощь ИИ влияет на самостоятельность суждений?",
+    "description": "Как советы ИИ влияют на решения, доверие к информации и освоение новых навыков.",
+    "subtopics": [
+      "human AI overreliance cognitive forcing skill formation",
+      "AI assistance independent judgment critical thinking"
+    ],
+    "starter_topic": "Как помощь ИИ влияет на самостоятельность суждений?",
+    "questions": [
+      "Как помощь ИИ влияет на самостоятельность суждений?"
+    ],
+    "queries": [
+      "human AI overreliance cognitive forcing skill formation",
+      "AI assistance independent judgment critical thinking"
+    ],
+    "suggested_check_days": 7,
+    "tree": [
+      {
+        "label": "Механизм",
+        "section": "mechanism"
+      },
+      {
+        "label": "Подходы",
+        "section": "approaches"
+      },
+      {
+        "label": "Ограничения",
+        "section": "disagreements"
+      },
+      {
+        "label": "Следующая проверка",
+        "section": "questions"
+      }
+    ],
+    "reader_goals": [
+      "Когда люди принимают ошибочный совет и как помогают его заметить.",
+      "Почему результат с ИИ и навык без ИИ измеряют отдельно.",
+      "Что исследования говорят о самостоятельной проверке информации."
+    ]
+  },
+  {
+    "id": "shared-memory",
+    "name": "Общая память агентов",
+    "focus": true,
+    "reader_title": "Как агентам делиться опытом, не распространяя ошибки?",
+    "description": "Как несколько агентов сохраняют и используют общий опыт при решении задач.",
+    "subtopics": [
+      "multi agent collaborative shared memory experience transfer",
+      "language agents memory admission provenance access control"
+    ],
+    "starter_topic": "Как агентам делиться опытом, не распространяя ошибки?",
+    "questions": [
+      "Как агентам делиться опытом, не распространяя ошибки?"
+    ],
+    "queries": [
+      "multi agent collaborative shared memory experience transfer",
+      "language agents memory admission provenance access control"
+    ],
+    "suggested_check_days": 7,
+    "tree": [
+      {
+        "label": "Механизм",
+        "section": "mechanism"
+      },
+      {
+        "label": "Подходы",
+        "section": "approaches"
+      },
+      {
+        "label": "Ограничения",
+        "section": "disagreements"
+      },
+      {
+        "label": "Следующая проверка",
+        "section": "questions"
+      }
+    ],
+    "reader_goals": [
+      "Чем обмен опытом через память отличается от обучения весов модели.",
+      "Как отбирают полезные записи и передают их другим агентам.",
+      "Что делать с ошибками, устаревшей информацией и правами доступа."
+    ]
   }
 ]

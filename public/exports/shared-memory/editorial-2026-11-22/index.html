@@ -1,0 +1,133 @@
+<!doctype html><html lang='ru'><meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta http-equiv='Content-Security-Policy' content="default-src 'none'; style-src 'unsafe-inline'">
+<title>Как агентам делиться опытом, не распространяя ошибки?</title>
+<style>body{margin:0;background:#f6f5f1;color:#202a31;font:17px/1.65 system-ui,sans-serif}main{max-width:960px;margin:auto;padding:48px 24px}h1{font-size:2.5em;line-height:1.15}h2{margin-top:2.5em}a{color:#176a70}.ref{font-size:.76em}nav{display:flex;gap:16px;flex-wrap:wrap}details{background:white;border:1px solid #dbe0dd;border-radius:8px;padding:16px;margin:12px 0}summary{cursor:pointer;font-weight:650}small,.muted{color:#5c676d}.badge{display:inline-block;background:#ffe5aa;border-radius:4px;padding:3px 9px}article{border-top:1px solid #ddd;padding:12px 0;scroll-margin-top:20px}blockquote{border-left:3px solid #c4d6cf;padding-left:16px}code{overflow-wrap:anywhere}footer{margin-top:50px;border-top:1px solid #ccc}</style><main>
+<span class='badge'>Редакционный выпуск · ограничения указаны ниже</span><h1>Как агентам делиться опытом, не распространяя ошибки?</h1>
+<p class='muted'>2026-11-22 · 7 работ</p>
+<nav><a href='#review'>Обзор</a><a href='#concepts'>Понятия</a><a href='#papers'>Статьи и доказательства</a><a href='references.bib'>BibTeX</a></nav>
+<h2>Границы и вопросы</h2><p>Как агентам делиться опытом, не распространяя ошибки?</p><ul>
+<li>Как агентам делиться опытом, не распространяя ошибки?</li>
+</ul><section id='review'>
+<h2>Короткий ответ</h2>
+<p>Общая память может означать обмен промежуточными результатами внутри одной задачи, перенос опыта между задачами или обмен знаниями между пользователями. Эти механизмы требуют разных проверок. <a class="ref" href="#c1">INMS: Memory Sharing for Large Language Model based Agents</a> <a class="ref" href="#c3">Learning to Share: Selective Memory for Efficient Parallel Agentic Systems</a> <a class="ref" href="#c4">MemCollab: Cross-Agent Memory Collaboration via Contrastive Trajectory Distillation</a> <a class="ref" href="#c5">Learning from Others, Acting for You: Cross-User Memory Sharing for LLM Agents</a></p>
+<p>Отбор полезного опыта и контроль того, кому он доступен, — разные задачи. Retrieval сам по себе не решает права доступа, устаревание и перенос чужих предпочтений. <a class="ref" href="#c2">Collaborative Memory: Multi-User Memory Sharing in LLM Agents with Dynamic Access Control</a> <a class="ref" href="#c5">Learning from Others, Acting for You: Cross-User Memory Sharing for LLM Agents</a> <a class="ref" href="#c6">Governed Shared Memory for Multi-Agent LLM Systems</a></p>
+<p><strong>Редакторское предложение.</strong> Цель разбора — выбрать механизм и честный эксперимент для коллективного накопления опыта, а не просто подключить всем агентам одну базу. </p>
+<h2>Границы: память или обучение?</h2>
+<p><strong>Редакторское предложение.</strong> Мы рассматриваем collaborative learning через внешнюю память LLM-агентов: write, retrieval, consolidation и revision. Federated learning, обмен градиентами и совместное обновление весов остаются вне этого разбора. </p>
+<p><strong>Редакторское предложение.</strong> Поиск 22 ноября 2026 года: первичные работы о shared/collaborative/cross-agent memory; выбраны семь механизмов и типов проверки. Это начальная подборка; новые ноябрьские кандидаты и более широкий корпус требуют отдельного разбора. </p>
+<h2>Жизненный цикл общего опыта</h2>
+<p>Записать: INMS отбирает ответы scorer-ом, Learning to Share учит admission-политику, MemCollab извлекает guidance из контраста траекторий. Эти три способа не взаимозаменяемы. <a class="ref" href="#c1">INMS: Memory Sharing for Large Language Model based Agents</a> <a class="ref" href="#c3">Learning to Share: Selective Memory for Efficient Parallel Agentic Systems</a> <a class="ref" href="#c4">MemCollab: Cross-Agent Memory Collaboration via Contrastive Trajectory Distillation</a></p>
+<p>Извлечь: запрос должен учитывать scope, роль и текущие предпочтения получателя. Похожесть текста не означает право доступа или применимость процедуры. <a class="ref" href="#c2">Collaborative Memory: Multi-User Memory Sharing in LLM Agents with Dynamic Access Control</a> <a class="ref" href="#c5">Learning from Others, Acting for You: Cross-User Memory Sharing for LLM Agents</a></p>
+<p>Пересмотреть: новое свидетельство может отменить старую интерпретацию; происхождение и зависимости нужны, чтобы обновлять следующие выводы. <a class="ref" href="#c6">Governed Shared Memory for Multi-Agent LLM Systems</a> <a class="ref" href="#c7">Collaborative Memory for Multi-Agent VLM Systems</a></p>
+<h2>Три задачи, три семейства</h2>
+<p>Сократить повторные вычисления сейчас: общий буфер параллельных команд. Проверять wall-clock и успех при одинаковом числе команд; не приписывать ему накопление долгосрочного опыта. <a class="ref" href="#c3">Learning to Share: Selective Memory for Efficient Parallel Agentic Systems</a></p>
+<p>Перенести опыт на будущие задачи: отбор ответов или обобщение контраста успешных и ошибочных траекторий. Нужны раздельные задачи создания памяти и тестирования. <a class="ref" href="#c1">INMS: Memory Sharing for Large Language Model based Agents</a> <a class="ref" href="#c4">MemCollab: Cross-Agent Memory Collaboration via Contrastive Trajectory Distillation</a></p>
+<p>Передать опыт другому пользователю: отделить общую процедуру от персональных значений, применять права чтения и записи, учитывать изменение полномочий. <a class="ref" href="#c2">Collaborative Memory: Multi-User Memory Sharing in LLM Agents with Dynamic Access Control</a> <a class="ref" href="#c5">Learning from Others, Acting for You: Cross-User Memory Sharing for LLM Agents</a></p>
+<p>Сохранить корректность общей базы: проверять supersession, provenance и зависимые выводы. Продуктовые probes и концептуальные схемы имеют иной статус, чем сравнительный benchmark. <a class="ref" href="#c6">Governed Shared Memory for Multi-Agent LLM Systems</a> <a class="ref" href="#c7">Collaborative Memory for Multi-Agent VLM Systems</a></p>
+<h2>Что реально сравнивалось</h2>
+<p><strong>Редакторское предложение.</strong> Общего leaderboard здесь нет: latency одной задачи, reasoning accuracy и корректность доступа не являются одной метрикой. </p>
+<div style="overflow-x:auto"><table><thead><tr><th>Работа</th><th>Механизм</th><th>Гарантия</th><th>Условия</th></tr></thead><tbody>
+<tr><td>INMS: Memory Sharing for Large Language Model based Agents <a href="#c1">источник</a></td><td>Общий пул отфильтрованных ответов и retrieval.</td><td>Повторное использование опыта через контекст, а не синхронизация весов.</td><td>Эксперименты на задачах генерации; разбор ограничений отдельно.</td></tr>
+<tr><td>Collaborative Memory: Multi-User Memory Sharing in LLM Agents with Dynamic Access Control <a href="#c2">источник</a></td><td>Private/shared-память и динамические права на пользователей, агентов и ресурсы.</td><td>Демонстрация механизма в заданных сценариях; не формальное доказательство отсутствия утечек.</td><td>Контролируемые сценарии полного, асимметричного и изменяемого доступа.</td></tr>
+<tr><td>Learning to Share: Selective Memory for Efficient Parallel Agentic Systems <a href="#c3">источник</a></td><td>Выученная политика записи в общий буфер одной задачи.</td><td>Меньше дублирования в изученной системе; не доказательство долгосрочного коллективного обучения.</td><td>Сравнение с memory-free parallel baseline, add-all и абляциями обучения контроллера.</td></tr>
+<tr><td>MemCollab: Cross-Agent Memory Collaboration via Contrastive Trajectory Distillation <a href="#c4">источник</a></td><td>Контраст траекторий, структурированные ограничения, task-aware retrieval.</td><td>Перенос guidance между проверенными конфигурациями; не гарантия переноса произвольного опыта.</td><td>Сравнение моделей и источников памяти, retrieval-абляции и оценка стоимости inference.</td></tr>
+<tr><td>Learning from Others, Acting for You: Cross-User Memory Sharing for LLM Agents <a href="#c5">источник</a></td><td>Двухэтапная консолидация опыта; предпочтения остаются у пользователя.</td><td>Авторские результаты на трёх средах; нет универсальной гарантии против отрицательного переноса.</td><td>Local против shared, одинаковый retrieval budget и абляции отдельных каналов.</td></tr>
+<tr><td>Governed Shared Memory for Multi-Agent LLM Systems <a href="#c6">источник</a></td><td>Контроль scope и происхождения; явное замещение устаревших фактов.</td><td>Отрицательные результаты важны для архитектуры; межсистемное превосходство не проверено.</td><td>Live-service probes с опубликованными авторами трассами; без comparand.</td></tr>
+<tr><td>Collaborative Memory for Multi-Agent VLM Systems <a href="#c7">источник</a></td><td>Общая визуальная память с зависимостями утверждений и revision.</td><td>Исследовательская гипотеза об организации памяти, не продемонстрированный performance gain.</td><td>Концептуальная работа и иллюстративный сценарий; новый benchmark-эксперимент не представлен.</td></tr>
+</tbody></table></div>
+<h2>Где общий опыт становится проблемой</h2>
+<p>Много записей не обязательно лучше: шумный admission увеличивает контекст, а исходный опыт может быть неправильным или содержать неприменимые предпочтения. Сравнивать следует при одном retrieval budget. <a class="ref" href="#c3">Learning to Share: Selective Memory for Efficient Parallel Agentic Systems</a> <a class="ref" href="#c5">Learning from Others, Acting for You: Cross-User Memory Sharing for LLM Agents</a></p>
+<p>Дедупликация и обновление фактов могут конфликтовать: похожая новая запись бывает именно исправлением. В production-исследовании synchronous near-duplicate gate мог не пропустить запись до проверки противоречия. <a class="ref" href="#c6">Governed Shared Memory for Multi-Agent LLM Systems</a></p>
+<p>Согласие нескольких агентов не является независимым подтверждением, если все прочитали одну ошибочную память. Для визуальных задач важно хранить исходное свидетельство и контекст наблюдения. <a class="ref" href="#c7">Collaborative Memory for Multi-Agent VLM Systems</a></p>
+<p>Признаки переноса на reasoning benchmarks не доказывают безопасное применение между пользователями. Успех задачи, отсутствие утечек и верное разрешение конфликта надо проверять отдельно. <a class="ref" href="#c2">Collaborative Memory: Multi-User Memory Sharing in LLM Agents with Dynamic Access Control</a> <a class="ref" href="#c4">MemCollab: Cross-Agent Memory Collaboration via Contrastive Trajectory Distillation</a> <a class="ref" href="#c6">Governed Shared Memory for Multi-Agent LLM Systems</a></p>
+<h2>Минимальная честная проверка</h2>
+<p><strong>Редакторское предложение.</strong> Сравнить без памяти, локальную память, общий пул без фильтра и общий пул с отбором. Зафиксировать модели, инструменты, число агентов и бюджет retrieval/calls; учесть стоимость записи и консолидации. </p>
+<p><strong>Редакторское предложение.</strong> Разделить донорские и тестовые задачи до построения памяти, проверить пересечение по содержанию. Создать тесты на смену предпочтений, противоречащую запись, отзыв доступа и повторную выдачу старого факта. </p>
+<p><strong>Редакторское предложение.</strong> Сохранять success, latency, tokens и memory size отдельно от leakage, stale-read и отрицательного переноса. Мы не запускали этот эксперимент; это предлагаемый протокол. </p>
+<h2>Следующая проверяемая гипотеза</h2>
+<p><strong>Редакторское предложение.</strong> Гипотеза: переносить проверенные обобщённые процедуры с явным scope полезнее, чем целые ответы. Условия: одинаковые донорские траектории, замороженный тест, одинаковый retrieval budget; контроль — локальная память и сырой общий пул. </p>
+<p><strong>Редакторское предложение.</strong> Опровержение: выигрыш пропадает после удаления похожих тестовых задач или учёта расходов consolidation; либо появляются утечки и отрицательный перенос сверх заранее установленного порога. Отдельная проверка — исправление ошибочного донора и зависимых записей. </p>
+<h2>Маршрут чтения</h2>
+<p>INMS — базовый общий пул; Learning to Share — learned admission внутри одной задачи; MemCollab — обобщение переносимого опыта. <a class="ref" href="#c1">INMS: Memory Sharing for Large Language Model based Agents</a> <a class="ref" href="#c3">Learning to Share: Selective Memory for Efficient Parallel Agentic Systems</a> <a class="ref" href="#c4">MemCollab: Cross-Agent Memory Collaboration via Contrastive Trajectory Distillation</a></p>
+<p>Затем Collaborative Memory и ShareMem для пользовательских границ. Завершить отрицательными результатами Governed Shared Memory и вопросом независимости свидетельств в VLM-памяти. <a class="ref" href="#c2">Collaborative Memory: Multi-User Memory Sharing in LLM Agents with Dynamic Access Control</a> <a class="ref" href="#c5">Learning from Others, Acting for You: Cross-User Memory Sharing for LLM Agents</a> <a class="ref" href="#c6">Governed Shared Memory for Multi-Agent LLM Systems</a> <a class="ref" href="#c7">Collaborative Memory for Multi-Agent VLM Systems</a></p>
+</section><section id='concepts'><h2>Понятия</h2>
+<details><summary>Admission</summary>
+<p>Политика отбора записей для общего пула. <a class="ref" href="#c1">INMS: Memory Sharing for Large Language Model based Agents</a> <a class="ref" href="#c3">Learning to Share: Selective Memory for Efficient Parallel Agentic Systems</a></p>
+</details>
+<details><summary>Scope и provenance</summary>
+<p>Границы применимости и доступа вместе с происхождением записи. <a class="ref" href="#c2">Collaborative Memory: Multi-User Memory Sharing in LLM Agents with Dynamic Access Control</a> <a class="ref" href="#c6">Governed Shared Memory for Multi-Agent LLM Systems</a></p>
+</details>
+<details><summary>Перенос опыта</summary>
+<p>Применение внешней guidance другой моделью или пользователем без обязательного обновления весов. <a class="ref" href="#c4">MemCollab: Cross-Agent Memory Collaboration via Contrastive Trajectory Distillation</a> <a class="ref" href="#c5">Learning from Others, Acting for You: Cross-User Memory Sharing for LLM Agents</a></p>
+</details>
+</section><section id='papers'><h2>Статьи и доказательства</h2>
+<h3>INMS: Memory Sharing for Large Language Model based Agents</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c1"><strong>source_finding</strong><p>INMS хранит отобранные пары Prompt–Answer в общем пуле и извлекает их для следующих запросов. Качество общего опыта зависит от scorer и retrieval; добавление записи не обновляет веса всех агентов.</p>
+<p><small>Условия: Текстовая реализация и механизм §3, эксперименты §4, ограничения §6; версия v3.</small></p>
+<p><small>Авторские ограничения: Оценка на выбранных доменах; scorer может наследовать ошибки моделей. Не продемонстрирована полноценная система разграничения доступа.</small></p>
+<blockquote>All agents share the same Memory Pool</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2404.09982v3#S3">Раздел S3</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2404.09982v3">Первоисточник</a></p>
+</article>
+<h3>Collaborative Memory: Multi-User Memory Sharing in LLM Agents with Dynamic Access Control</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c2"><strong>source_finding</strong><p>Collaborative Memory разделяет private/shared-фрагменты, сохраняет provenance и фильтрует чтение по динамическим графам доступа. Политика чтения и записи — часть механизма, а не просто параметр общего vector store.</p>
+<p><small>Условия: Механизм §3–4, три сценария §5 и ограничения §6; MultiHop-RAG и синтетические задачи с различающимися правами.</small></p>
+<p><small>Авторские ограничения: Успех в заданных сценариях не доказывает безопасность при всех атаках. В части открытых задач нет ground truth для проверки качества.</small></p>
+<blockquote>Each fragment</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2505.18279v1#S3.SS2">Раздел S3.SS2</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2505.18279v1">Первоисточник</a></p>
+</article>
+<h3>Learning to Share: Selective Memory for Efficient Parallel Agentic Systems</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c3"><strong>source_finding</strong><p>Learning to Share обучает admission-контроллер выбирать промежуточные результаты для общего буфера параллельных команд. Память создаётся на одну задачу и не сохраняется между задачами: это обмен рабочим состоянием, не lifelong learning.</p>
+<p><small>Условия: §3–4.5: AssistantBench и GAIA, фиксированный parallel-agent framework и анализ стоимости контроллера.</small></p>
+<p><small>Авторские ограничения: Не изучены накопление опыта между задачами, удаление и revision. Выигрыш wall-clock зависит от параллелизма и serving-условий.</small></p>
+<blockquote>does not persist across problem instances.</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2602.05965v1#S4.SS5">Раздел S4.SS5</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2602.05965v1">Первоисточник</a></p>
+</article>
+<h3>MemCollab: Cross-Agent Memory Collaboration via Contrastive Trajectory Distillation</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c4"><strong>source_finding</strong><p>MemCollab сравнивает успешные и неуспешные траектории агентов для построения переносимых подсказок, затем извлекает их под новую задачу. Метод требует проверки правильности исходных решений.</p>
+<p><small>Условия: §3–4 и Appendix A/C: reasoning и code, разделение задач построения памяти и оценки, сравнение источников памяти.</small></p>
+<p><small>Авторские ограничения: Проверяемые математические и кодовые задачи отличаются от открытых исследований. Требуется аудит train/test overlap; в тексте есть неоднозначные формулировки размера MATH500, поэтому дизайн нужно сверять с кодом.</small></p>
+<blockquote>we collect a pair of trajectories</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2603.23234v1#S3.SS2">Раздел S3.SS2</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2603.23234v1">Первоисточник</a></p>
+</article>
+<h3>Learning from Others, Acting for You: Cross-User Memory Sharing for LLM Agents</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c5"><strong>source_finding</strong><p>ShareMem разделяет повторно используемые процедуры и личные предпочтения: общий опыт направляет действие, значения предпочтений берутся у принимающего пользователя. Local/shared retrieval сравнивается при общем бюджете записей.</p>
+<p><small>Условия: §3–5: Mind2Web, VitaBench 2.0, MemoryCode; абляции consolidation и preference retrieval.</small></p>
+<p><small>Авторские ограничения: Перенос ограничен качеством опыта, scope и доступом к пользовательским требованиям; архитектурное разделение не равно доказательству приватности.</small></p>
+<blockquote>Preferences are maintained from each user’s history separately from experience consolidation</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.32511v1#S3.SS1">Раздел S3.SS1</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2609.32511v1">Первоисточник</a></p>
+</article>
+<h3>Governed Shared Memory for Multi-Agent LLM Systems</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c6"><strong>source_finding</strong><p>Governed Shared Memory описывает scope, supersession, provenance и propagation в живом сервисе. Авторы показывают, что дедупликация может отсечь противоречащую запись раньше проверки конфликта, и отдельно признают отсутствие сравнительного baseline.</p>
+<p><small>Условия: Прочитаны failure modes §4, механизм §5, метод/результаты §7–8, проблемы §9 и ограничения §10.</small></p>
+<p><small>Авторские ограничения: Самооценка собственного сервиса, один tenant, ограниченные пробы; это не независимый аудит и не сравнительный рейтинг систем.</small></p>
+<blockquote>We do not compare against a baseline</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2606.24535v1#S10.SS0.SSS0.Px7">Раздел S10.SS0.SSS0.Px7</a></small>
+<blockquote>can reject a write before the asynchronous detector ever sees it</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2606.24535v1#S9.SS2">§9.2 Deduplication Starves Contradiction Detection</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2606.24535v1">Первоисточник</a></p>
+</article>
+<h3>Collaborative Memory for Multi-Agent VLM Systems</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c7"><strong>source_finding</strong><p>Collaborative Memory for Multi-Agent VLM Systems предлагает хранить связи наблюдение–интерпретация–вывод и пересматривать зависимые утверждения при изменении визуального свидетельства. Согласие агентов не считается независимым подтверждением.</p>
+<p><small>Условия: Концептуальная схема §2–4 и будущие направления §6: visual evidence, provenance, reconciliation.</small></p>
+<p><small>Авторские ограничения: Архитектурное предложение без сопоставимой экспериментальной оценки выигрыша; не следует включать в leaderboard эффективности.</small></p>
+<blockquote>Agreement alone does not constitute independent confirmation</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.17921v1#S4">Раздел S4</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2609.17921v1">Первоисточник</a></p>
+</article>
+</section><footer><h2>Ограничения</h2>
+<p>Стартовый концептуальный разбор семи целенаправленно выбранных работ; не систематический и не исчерпывающий обзор.</p>
+<p>Прочитаны выбранные разделы указанных версий, а не все приложения. Эксперименты не воспроизводились, независимой экспертной рецензии нет.</p>
+<p>Аргументы из концептуальных работ отделены от эмпирических результатов. Предлагаемые проверки не выполнялись.</p>
+</footer></main></html>

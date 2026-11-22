@@ -2,7 +2,7 @@
   "schema_version": 1,
   "through": "2026-11-08",
   "year_from": 2017,
-  "scope": "Ten narrow starter questions, not complete coverage of all AI research.",
+  "scope": "Two focused research questions plus ten archived starter reviews. New focus candidate scans start after publication; initial reviews use targeted source selection.",
   "strategies": [
     {
       "id": "relevance",
@@ -118,6 +118,22 @@
         "neural operator|deeponet",
         "generaliz|out.of.distribution|distribution shift|extrapolat|robust",
         "\\bPDEs?\\b|partial differential|operator learning"
+      ]
+    },
+    "human-agency": {
+      "main": "(all:\"overreliance\" OR all:\"cognitive forcing\" OR all:\"skill formation\" OR all:\"critical thinking\") AND (all:\"AI\" OR all:\"artificial intelligence\")",
+      "evaluation": "all:\"overreliance\" AND all:\"evaluation\"",
+      "must_match": [
+        "overreliance|cognitive[ -]+forcing|skill[ -]+formation|critical[ -]+thinking",
+        "AI|artificial intelligence"
+      ]
+    },
+    "shared-memory": {
+      "main": "(all:\"shared memory\" OR all:\"collaborative memory\" OR all:\"memory sharing\") AND (all:\"agent\" OR all:\"agents\")",
+      "evaluation": "all:\"memory\" AND all:\"agent\" AND all:\"evaluation\"",
+      "must_match": [
+        "shared.memory|collaborative.memory|memory.sharing",
+        "agent"
       ]
     }
   }

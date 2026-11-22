@@ -73,6 +73,17 @@ class DiscoveryRefresh(unittest.TestCase):
                 with self.assertRaises(ReviewError):
                     refresh(self.plan, self.data, Path(temp), self.checked, **kwargs)
 
+    def test_new_topic_with_no_matches_is_valid_and_preserves_other_records(self):
+        before = copy.deepcopy(self.data)
+        # Technical empty-result boundary, not a publication or a claimed live API run.
+        with tempfile.TemporaryDirectory() as temp, patch('review_forge.refresh.HTTP.get', return_value=b''), patch('review_forge.refresh.read_page', return_value=([], 0)):
+            result = refresh(self.plan, self.data, Path(temp), self.checked)
+        self.assertEqual(result['topics'], before['topics'])
+        for topic in ('human-agency', 'shared-memory'):
+            self.assertIsNone(result['coverage'][topic]['first_publication'])
+            self.assertEqual(result['last_update']['topics'][topic]['added'], 0)
+        self.assertEqual(self.data, before)
+
     def test_discovery_failure_does_not_mutate_input_corpus(self):
         before = copy.deepcopy(self.data)
         with tempfile.TemporaryDirectory() as temp, patch('review_forge.refresh.HTTP.get', side_effect=ReviewError('Unavailable')):

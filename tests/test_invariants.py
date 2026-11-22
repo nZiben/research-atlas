@@ -41,8 +41,8 @@ class Invariants(unittest.TestCase):
                 "conditions": [], "limitations": [], "concepts": ["technical fixture"],
                 "evidence": [{"segment_id": "text-b0001", "quote": "Alpha beta gamma"}]}
 
-    def test_all_ten_presets_initialize_offline(self):
-        self.assertEqual(len(topics()), 10)
+    def test_all_presets_initialize_offline(self):
+        self.assertEqual(len(topics()), 12)
         for entry in topics():
             root = self.base / entry["id"]
             initialize(argparse.Namespace(topic=None, preset=entry["id"], dir=str(root)))
