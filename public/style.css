@@ -176,3 +176,5 @@ dialog{padding:24px}
 
 
 .home-intro h1{font-size:clamp(32px,3.5vw,44px);max-width:950px}.home-intro{padding-top:34px}.reader-goals{padding-left:20px;margin:4px 0 24px;font-size:15px;line-height:1.8;color:var(--muted)}.reader-goals li{margin:7px 0}
+
+.study-type{font-size:13px!important;font-weight:400;color:var(--muted);line-height:1.6!important}.comparison-table .study-type{min-width:180px}

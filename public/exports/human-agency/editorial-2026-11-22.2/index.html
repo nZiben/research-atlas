@@ -1,0 +1,734 @@
+<!doctype html><html lang='ru'><meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta http-equiv='Content-Security-Policy' content="default-src 'none'; style-src 'unsafe-inline'">
+<title>Как помощь ИИ влияет на самостоятельность суждений?</title>
+<style>body{margin:0;background:#f6f5f1;color:#202a31;font:17px/1.65 system-ui,sans-serif}main{max-width:960px;margin:auto;padding:48px 24px}h1{font-size:2.5em;line-height:1.15}h2{margin-top:2.5em}a{color:#176a70}.ref{font-size:.76em}nav{display:flex;gap:16px;flex-wrap:wrap}details{background:white;border:1px solid #dbe0dd;border-radius:8px;padding:16px;margin:12px 0}summary{cursor:pointer;font-weight:650}small,.muted{color:#5c676d}.badge{display:inline-block;background:#ffe5aa;border-radius:4px;padding:3px 9px}article{border-top:1px solid #ddd;padding:12px 0;scroll-margin-top:20px}blockquote{border-left:3px solid #c4d6cf;padding-left:16px}code{overflow-wrap:anywhere}footer{margin-top:50px;border-top:1px solid #ccc}</style><main>
+<span class='badge'>Редакционный выпуск · ограничения указаны ниже</span><h1>Как помощь ИИ влияет на самостоятельность суждений?</h1>
+<p class='muted'>2026-11-22 · 50 работ</p>
+<nav><a href='#review'>Обзор</a><a href='#concepts'>Понятия</a><a href='#papers'>Статьи и доказательства</a><a href='references.bib'>BibTeX</a></nav>
+<h2>Границы и вопросы</h2><p>Как помощь ИИ влияет на самостоятельность суждений?</p><ul>
+<li>Как помощь ИИ влияет на самостоятельность суждений?</li>
+</ul><section id='review'>
+<h2>Короткий ответ</h2>
+<p>Качество результата с ИИ, доверие к совету и способность решить задачу без инструмента — разные величины. Их нельзя оценить одной метрикой удобства или скорости. <a class="ref" href="#c2">When Are Combinations of Humans and AI Useful?</a> <a class="ref" href="#c6">How AI Impacts Skill Formation</a> <a class="ref" href="#c38">Confidence Without Competence in AI-Assisted Knowledge Work</a> <a class="ref" href="#c49">Feeling Easier, Working Harder: Cognitive Load in AI-Assisted Code Comprehension</a></p>
+<p>Объяснение, forcing и scaffold помогают при определённых задачах, но универсального улучшения нет. Важны обнаружение неверного совета, стоимость проверки и перенос в следующую самостоятельную задачу. <a class="ref" href="#c12">Explanations Can Reduce Overreliance on AI Systems During Decision-Making</a> <a class="ref" href="#c3">&quot;It makes you think&quot;: Provocations Help Restore Critical Thinking to AI-Assisted Knowledge Work</a> <a class="ref" href="#c5">An Experimental Comparison of Cognitive Forcing Functions for Execution Plans in AI-Assisted Writing: Effects On Trust, Overreliance, and Perceived Critical Thinking</a> <a class="ref" href="#c35">Metacognitive Scaffolds Create Productive Friction for AI-Assisted Knowledge Work</a></p>
+<p>Повторное использование ИИ без обратной связи не гарантирует правильной калибровки доверия; выбор baseline и доступ к ground truth меняют вывод. <a class="ref" href="#c43">Do People Trust AI Assistants Even When They Are Consistently Wrong?</a> <a class="ref" href="#c32">Human-AI Complementarity: A Goal for Amplified Oversight</a></p>
+<h2>Какой вопрос мы рассматриваем</h2>
+<p><strong>Редакторское предложение.</strong> Корпус: 50 работ, выбранных по исследовательскому вопросу. Различаются 6 тематических групп. Обзоры и концептуальные предложения не считаются самостоятельными подтверждающими экспериментами. </p>
+<p><strong>Редакторское предложение.</strong> Поиск: 22 ноября 2026 года, arXiv, по 200 результатов на направление; затем тематический отбор и проверка доступности полных текстов. Недоступная работа не засчитана и заменена релевантным доступным источником. Охват просмотра указан в каждой карточке; полнота литературы не установлена. </p>
+<h2>Три разных результата</h2>
+<p>Калиброванное доверие: участник использует правильный совет и отвергает неправильный. Без ошибочных советов в тесте нельзя измерить overreliance только по общей точности. <a class="ref" href="#c1">To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-assisted Decision-making</a> <a class="ref" href="#c5">An Experimental Comparison of Cognitive Forcing Functions for Execution Plans in AI-Assisted Writing: Effects On Trust, Overreliance, and Perceived Critical Thinking</a></p>
+<p>Комплементарность: человек с ИИ должен сравниваться и с человеком, и с ИИ по отдельности. Превосходство над человеком без помощи ещё не означает сильную синергию. <a class="ref" href="#c2">When Are Combinations of Humans and AI Useful?</a></p>
+<p>Формирование навыка: после помощи нужна отдельная проверка без инструмента. Самооценка критического мышления, верификационное поведение и результат теста — разные наблюдения. <a class="ref" href="#c6">How AI Impacts Skill Formation</a> <a class="ref" href="#c7">Understanding Critical Thinking in Generative Artificial Intelligence Use: Development, Validation, and Correlates of the Critical Thinking in AI Use Scale</a></p>
+<h2>Какие подходы сопоставляем</h2>
+<p>Измерение: trust attitudes, agreement, compliance и appropriate reliance — разные конструкции. Поведенческая история может предсказывать действия лучше самоотчёта. Рядом со шкалой нужен наблюдаемый критерий. <a class="ref" href="#c15">Trust in Human-AI Interaction: Scoping Out Models, Measures, and Methods</a> <a class="ref" href="#c22">A Systematic Review on Fostering Appropriate Trust in Human-AI Interaction</a> <a class="ref" href="#c16">From Trust to Appropriate Reliance: Measurement Constructs in Human-AI Decision-Making</a> <a class="ref" href="#c33">Comparing Psychometric and Behavioral Predictors of Compliance During Human-AI Interactions</a></p>
+<p>Калибровка: интерактивность, urgency и личная уверенность влияют на принятие совета. Проверять нужно правильные и неправильные рекомендации отдельно и учитывать внешнюю обратную связь. <a class="ref" href="#c8">Not All Trust is the Same: Effects of Decision Workflow and Explanations in Human-AI Decision Making</a> <a class="ref" href="#c26">Trust the AI, Doubt Yourself: The Effect of Urgency on Self-Confidence in Human-AI Interaction</a> <a class="ref" href="#c29">Why not both? Complementing explanations with uncertainty, and the role of self-confidence in Human-AI collaboration</a> <a class="ref" href="#c43">Do People Trust AI Assistants Even When They Are Consistently Wrong?</a></p>
+<p>Мотивация: проверка требует времени и усилия. Стимулы и дизайн объяснения меняют их цену; субъективная лёгкость может расходиться с измеренным качеством и нагрузкой. <a class="ref" href="#c9">When Thinking Pays Off: Incentive Alignment for Human-AI Collaboration</a> <a class="ref" href="#c12">Explanations Can Reduce Overreliance on AI Systems During Decision-Making</a> <a class="ref" href="#c50">How Performance Pressure Influences AI-Assisted Decision Making</a> <a class="ref" href="#c49">Feeling Easier, Working Harder: Cognitive Load in AI-Assisted Code Comprehension</a></p>
+<p>Интерфейс: conversational XAI, examples при onboarding, counterfactuals и вопросы к плану проверяются как разные вмешательства. Одного общего названия «explainability» недостаточно. <a class="ref" href="#c11">Is Conversational XAI All You Need? Human-AI Decision Making With a Conversational XAI Assistant</a> <a class="ref" href="#c25">Interactive Example-based Explanations to Improve Health Professionals&#x27; Onboarding with AI for Human-AI Collaborative Decision Making</a> <a class="ref" href="#c19">Understanding the Effect of Counterfactual Explanations on Trust and Reliance on AI for Human-AI Collaborative Clinical Decision Making</a> <a class="ref" href="#c28">Understanding the Effects of AI-Assisted Critical Thinking on Human-AI Decision Making</a></p>
+<p>Комплементарность: человек+ИИ сравнивается с обоими по отдельности. Алгоритм рекомендации, реакция пользователя и его обучение рассматриваются как совместная система. <a class="ref" href="#c2">When Are Combinations of Humans and AI Useful?</a> <a class="ref" href="#c17">Uncalibrated Models Can Improve Human-AI Collaboration</a> <a class="ref" href="#c23">Designing Algorithmic Recommendations to Achieve Human-AI Complementarity</a> <a class="ref" href="#c46">AI-Assisted Decision Making with Human Learning</a> <a class="ref" href="#c32">Human-AI Complementarity: A Goal for Amplified Oversight</a></p>
+<p>Навык: выполненная с помощником задача не заменяет retest. Код, заметки и logic puzzles показывают разные компромиссы; часть наблюдаемых retest-различий статистически неопределённа. <a class="ref" href="#c6">How AI Impacts Skill Formation</a> <a class="ref" href="#c39">More AI Assistance Reduces Cognitive Engagement: Examining the AI Assistance Dilemma in AI-Supported Note-Taking</a> <a class="ref" href="#c41">Fast and Forgettable: A Controlled Study of Novices&#x27; Performance, Learning, Workload, and Emotion in AI-Assisted and Human Pair Programming Paradigms</a> <a class="ref" href="#c45">How AI Assistance Affects Human Skill Development: A Study of Learning with Logic Puzzles</a> <a class="ref" href="#c48">AI Assistance Reduces Persistence and Hurts Independent Performance</a></p>
+<h2>Сопоставление дизайнов</h2>
+<p><strong>Редакторское предложение.</strong> В таблице 50 публикаций. Выберите тематическую группу или найдите работу по названию. Тип исследования указан отдельно: строки нельзя складывать в общий рейтинг или считать независимыми подтверждениями одного эффекта. </p>
+<div style="overflow-x:auto"><table><thead><tr><th>Работа</th><th>Механизм</th><th>Гарантия</th><th>Условия</th></tr></thead><tbody>
+<tr><td>To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-assisted Decision-making <a href="#c1">источник</a></td><td>Сначала самостоятельное решение, совет по запросу или с задержкой.</td><td>Меньше ошибочного следования совету в изученных условиях; не универсальная защита.</td><td>Контролируемое сравнение интерфейсов, включая No AI и простое XAI.</td></tr>
+<tr><td>When Are Combinations of Humans and AI Useful? <a href="#c2">источник</a></td><td>Сопоставление человек / ИИ / человек с ИИ.</td><td>Положительный результат зависит от выбранного baseline; сильная синергия в среднем не подтверждена.</td><td>Метаанализ исследований с тремя условиями, анализ модераторов.</td></tr>
+<tr><td>&quot;It makes you think&quot;: Provocations Help Restore Critical Thinking to AI-Assisted Knowledge Work <a href="#c3">источник</a></td><td>Контраргументы и вопросы к критериям отбора.</td><td>Полезный дизайн-кандидат; количественный эффект не установлен для основных сравниваемых показателей.</td><td>24 участника, интервью и поведенческие/опросные показатели.</td></tr>
+<tr><td>Measuring and mitigating overreliance is necessary for building human-compatible AI <a href="#c4">источник</a></td><td>Разделить измерение ошибочной зависимости и способы её снижения.</td><td>Исследовательская повестка, а не численный эффект вмешательства.</td><td>Концептуальная работа с обсуждением рисков, метрик и альтернативных взглядов.</td></tr>
+<tr><td>An Experimental Comparison of Cognitive Forcing Functions for Execution Plans in AI-Assisted Writing: Effects On Trust, Overreliance, and Perceived Critical Thinking <a href="#c5">источник</a></td><td>Проверка предположений и вопросы WhatIf к плану.</td><td>Значимо одно конкретное сравнение, а не преимущество всех вмешательств над отсутствием вмешательства.</td><td>Рандомизированное сравнение четырёх условий; коррекция множественных сравнений.</td></tr>
+<tr><td>How AI Impacts Skill Formation <a href="#c6">источник</a></td><td>Раздельно измерить выполнение задачи и освоение нового навыка.</td><td>Снижение результата последующего теста в этом исследовании; долгосрочный перенос неизвестен.</td><td>Рандомизированный доступ к AI-помощи и последующий тест, плюс качественная классификация поведения.</td></tr>
+<tr><td>Understanding Critical Thinking in Generative Artificial Intelligence Use: Development, Validation, and Correlates of the Critical Thinking in AI Use Scale <a href="#c7">источник</a></td><td>Разделить склонность к проверке и наблюдаемую успешность проверки.</td><td>Диагностический инструмент с данными о валидности, а не универсальный тест автономности.</td><td>Шесть исследований; опросная шкала, test–retest и отдельная fact-checking-задача.</td></tr>
+<tr><td>Not All Trust is the Same: Effects of Decision Workflow and Explanations in Human-AI Decision Making <a href="#c8">источник</a></td><td>Межгрупповое онлайн-сравнение workflow и объяснений.</td><td>В эксперименте reported trust зависел от сочетания объяснения и порядка принятия решения: значимо взаимодействие факторов, а не их изолированное общее действие. Эффект на сообщаемое доверие нельзя автоматически считать улучшением поведения.</td><td>300 участников, бинарные решения в сценарии вымышленной организации. Ограничение: Самоотчёт о доверии и фактическая reliance требуют отдельных метрик; сценарий ограничен изученной задачей.</td></tr>
+<tr><td>When Thinking Pays Off: Incentive Alignment for Human-AI Collaboration <a href="#c9">источник</a></td><td>Сравнение baseline, статических и динамических стимулов.</td><td>Бонусы за самостоятельную обработку отдельных примеров меняют reliance. В динамическом условии выигрыш точности относительно baseline обнаружен на примерах с бонусом; на примерах без бонуса значимого различия не найдено.</td><td>180 участников, классификация изображений; анализ примеров с бонусом и без него. Ограничение: Изменение стимулов в этой задаче не устанавливает эффект в организациях с другими издержками и целями.</td></tr>
+<tr><td>Trust Hinders Bidirectional Human-AI Alignment <a href="#c10">источник</a></td><td>Концептуальное различение small-world и large-world решений.</td><td>Авторы различают хорошо заданные задачи и открытые ситуации: trust calibration полезна при известных исходах и полезностях, но не исчерпывает согласование человека и ИИ при меняющихся целях и неизвестных последствиях.</td><td>Анализ рамки доверия, неопределённости и двунаправленного alignment. Ограничение: Это аргумент о границах постановки, а не причинная оценка вреда доверия в пользовательском эксперименте.</td></tr>
+<tr><td>Is Conversational XAI All You Need? Human-AI Decision Making With a Conversational XAI Assistant <a href="#c11">источник</a></td><td>Сравнение интерфейсов объяснения, включая разговорный XAI.</td><td>Разговорный XAI может повышать воспринимаемую полезность объяснений, одновременно усиливая ошибочное следование совету. Оценку удобства разговора необходимо отделять от способности отвергать неверный прогноз.</td><td>Задача оценки кредитоспособности; perceived utility и reliance рассматриваются раздельно. Ограничение: Результат зависит от домена, конкретных объяснений и задач; увеличение интерактивности само по себе не является защитой.</td></tr>
+<tr><td>Explanations Can Reduce Overreliance on AI Systems During Decision-Making <a href="#c12">источник</a></td><td>Серия исследований cost–benefit рамки проверки советов.</td><td>Пять исследований поддерживают cost–benefit объяснение overreliance: объяснения уменьшают ошибочное следование, когда облегчают обнаружение ошибки и снижают стоимость самостоятельного решения. Важен конкретный вид объяснения.</td><td>Низкорисковая задача прохождения лабиринта; варьируются трудность и вид объяснения. Ограничение: Авторы отдельно ограничивают перенос на высокорисковые решения; результат не означает полезности любых объяснений.</td></tr>
+<tr><td>Understanding the Role of Human Intuition on Reliance in Human-AI Decision-Making with Explanations <a href="#c13">источник</a></td><td>Анализ решений и рассуждений участников при объяснённых прогнозах.</td><td>В принятии советов участвует интуиция о правильном исходе и об ограничениях ИИ. Объяснения становятся материалом для интерпретации, а не независимой гарантией того, что человек будет правильно использовать прогноз.</td><td>Предсказание дохода и классификация профессии по биографии. Ограничение: Дизайн не полностью изолирует исходную интуицию от знакомства с советом; качественные наблюдения не равны универсальной причинной модели reliance.</td></tr>
+<tr><td>Engaging with AI: How Interface Design Shapes Human-AI Collaboration in High-Stakes Decision-Making <a href="#c14">источник</a></td><td>Сопоставление механизмов объяснения и вовлечения пользователя.</td><td>Сравнение XAI и cognitive forcing показывает компромисс между рефлексией, усилием и выполнением задачи: вопросы и feedback могут стимулировать размышление, но не обязательно улучшают task performance. Оценку trust нужно читать вместе с reliance на неверный совет.</td><td>Решения с правильными и неправильными AI-подсказками. Ограничение: Изучены конкретные интерфейсы и задачи; рост когнитивного усилия не является самостоятельным критерием успеха.</td></tr>
+<tr><td>Trust in Human-AI Interaction: Scoping Out Models, Measures, and Methods <a href="#c15">источник</a></td><td>Картирование моделей, определений и методов измерения доверия.</td><td>Scoping review обнаруживает неоднородность определений trust, слабую связь многих работ с установленными теориями и неполное описание методов. Поэтому одинаковое слово trust не делает результаты разных интерфейсов сопоставимыми.</td><td>Обзор human–AI interaction, поиск в августе 2021 года; текст PDF. Ограничение: Вторичный исторический источник охватывает широкий класс систем; это не самостоятельный эксперимент с современными LLM.</td></tr>
+<tr><td>From Trust to Appropriate Reliance: Measurement Constructs in Human-AI Decision-Making <a href="#c16">источник</a></td><td>Обзор измерительных конструктов и objective metrics.</td><td>Обзор различает trust, reliance и appropriate reliance и выделяет разные способы операционализации reliance. Нужны согласованные объективные метрики и проверка их валидности в выбранной прикладной задаче.</td><td>Поиск SCOPUS и ACM DL, анализ human–AI decision-making. Ограничение: Фокус на appropriate reliance может исключать работы, использующие другую терминологию; обзор не задаёт единый универсальный численный индекс.</td></tr>
+<tr><td>Uncalibrated Models Can Improve Human-AI Collaboration <a href="#c17">источник</a></td><td>Оптимизация совета с учётом поведения человека.</td><td>Оптимизировать следует итоговое решение человека с моделью, а не только прогноз модели отдельно. Работа исследует преобразование AI-рекомендаций под реакцию пользователя и проверяет подход на нескольких задачах и симуляциях.</td><td>Четыре задачи с изображениями, текстом и таблицами; эмпирическая и симуляционная части. Ограничение: Надёжность выученной реакции пользователя в реальном внедрении остаётся вопросом; заголовок не является разрешением скрывать искажение прогноза.</td></tr>
+<tr><td>Collaborative human-AI trust (CHAI-T): A process framework for active management of trust in human-AI collaboration <a href="#c18">источник</a></td><td>Процессная концептуальная рамка collaborative trust.</td><td>CHAI-T рассматривает доверие как развивающийся процесс: предшествующие установки, взаимодействие команды и результаты влияют друг на друга во времени. Это полезная структура для выбора повторных измерений, а не доказанная интервенция.</td><td>Синтез моделей trust и командных процессов; PDF. Ограничение: Предложение рамки не устанавливает причинный эффект конкретного интерфейса и не подменяет наблюдение поведения.</td></tr>
+<tr><td>Understanding the Effect of Counterfactual Explanations on Trust and Reliance on AI for Human-AI Collaborative Clinical Decision Making <a href="#c19">источник</a></td><td>Сравнение salient-feature и counterfactual explanations.</td><td>Эффект объяснений различается между специалистами и неспециалистами и зависит от правильности совета. Контрфактуальные объяснения надо оценивать на ошибочных примерах отдельно: средний human+AI score может скрывать ухудшение.</td><td>Терапевты и неспециалисты, human-alone и human+AI условия. Ограничение: Это исследование поведения в конкретной клинической задаче, а не клиническая рекомендация; интерфейс и визуальное представление ограничивают перенос.</td></tr>
+<tr><td>The human-AI relationship in decision-making: AI explanation to support people on justifying their decisions <a href="#c20">источник</a></td><td>Концептуальный анализ Decision-Making with AI in the loop.</td><td>Position paper предлагает рассматривать объяснение как часть отношений человека и системы и как поддержку обоснования решения, а не только как свойство алгоритма. Требования к объяснению зависят от роли участника решения.</td><td>Разбор аргументов и случая из литературы; PDF. Ограничение: Не новый контролируемый эксперимент; рамка не устанавливает количественного снижения overreliance.</td></tr>
+<tr><td>Human-AI Interactions in Public Sector Decision-Making: &quot;Automation Bias&quot; and &quot;Selective Adherence&quot; to Algorithmic Advice <a href="#c21">источник</a></td><td>Три эксперимента с алгоритмическими рекомендациями.</td><td>В трёх исследованиях авторы не находят общего автоматического предпочтения алгоритмического совета; отдельно рассматривается selective adherence — принятие совета, совпадающего со стереотипами. Общую automation bias и избирательное следование нельзя смешивать.</td><td>Публичное администрирование в Нидерландах; сравнение советов и контекстов. Ограничение: Контекст государственного решения и конкретные манипуляции ограничивают перенос на разговорные LLM.</td></tr>
+<tr><td>A Systematic Review on Fostering Appropriate Trust in Human-AI Interaction <a href="#c22">источник</a></td><td>Систематический обзор мер и способов формирования trust.</td><td>Систематический обзор показывает, что perceived trust и согласование с надёжностью системы измеряются разными способами. Самооценка может зависеть от внешнего вида и поведения системы, поэтому её недостаточно для вывода об appropriate reliance.</td><td>Human–AI interaction; определения, метрики и методы. Ограничение: Вторичный источник; исторический и терминологический охват ограничивает полноту.</td></tr>
+<tr><td>Designing Algorithmic Recommendations to Achieve Human-AI Complementarity <a href="#c23">источник</a></td><td>Каузальная модель рекомендации и пользовательский эксперимент.</td><td>Рекомендацию предлагается проектировать с учётом того, как человек меняет решение, а не как замену автономному прогнозу. Каузальная постановка проверяется в эксперименте, моделирующем hiring task.</td><td>Бинарное решение, сравнение recommendation algorithms и automation benchmark. Ограничение: Симуляция найма не доказывает результат в реальных кадровых решениях; важны отбор участников и предпосылки модели.</td></tr>
+<tr><td>Designing Human-AI Systems: Anthropomorphism and Framing Bias on Human-AI Collaboration <a href="#c24">источник</a></td><td>Манипуляции framing и антропоморфизмом.</td><td>В эксперименте framing не дал значимых различий в согласии с рекомендациями, а антропоморфный интерфейс уменьшал согласие. Меньшее согласие само по себе ещё не означает более правильного решения.</td><td>750 набранных участников Prolific, английский опрос. Ограничение: Agreement rate необходимо отличать от точности и калибровки по правильности совета.</td></tr>
+<tr><td>Interactive Example-based Explanations to Improve Health Professionals&#x27; Onboarding with AI for Human-AI Collaborative Decision Making <a href="#c25">источник</a></td><td>Интервью и сравнение способов onboarding.</td><td>Примеры при onboarding помогали специалистам откалибровать reliance лучше, чем только feature explanations в момент решения. Обучение работе с инструментом следует отделять от формы текущего объяснения.</td><td>Терапевты, Example+Features против Features. Ограничение: Один профессиональный контекст и конкретная система; перенос на другие задачи требует проверки.</td></tr>
+<tr><td>Trust the AI, Doubt Yourself: The Effect of Urgency on Self-Confidence in Human-AI Interaction <a href="#c26">источник</a></td><td>Сравнение доверия до и после задачи.</td><td>Небольшое исследование связывает подготовку к AI-interaction и срочность с самооценкой уверенности. Рост trust после взаимодействия не позволил однозначно установить его механизм.</td><td>30 участников, преимущественно студенты computer science. Ограничение: Малая и однородная выборка; субъективная уверенность не заменяет объективный результат.</td></tr>
+<tr><td>TRAIL: A Platform for Configurable Human--AI Teaming Experiments <a href="#c27">источник</a></td><td>Платформа контролируемых teaming experiments и пилот.</td><td>TRAIL делает экспериментальные свойства AI-teammate настраиваемыми: задачи, условия, persona и порядок сессий фиксируются исследователем. Пилот показывает возможность изучать доверие и взаимодействие во времени.</td><td>Студенческое развёртывание с изменением persona. Ограничение: Инфраструктурная воспроизводимость и пилот не доказывают универсальную эффективность одной persona.</td></tr>
+<tr><td>Understanding the Effects of AI-Assisted Critical Thinking on Human-AI Decision Making <a href="#c28">источник</a></td><td>Сравнение Human-only, Recommender, Analyzer и AACT.</td><td>AI-assisted critical thinking снижает overreliance ценой дополнительной нагрузки. При этом авторы прямо отмечают: стандартные decision metrics не являются прямым измерением способности критически мыслить.</td><td>402 валидных участника после исключений, повторные decision tasks. Ограничение: Не измерен напрямую перенос критического мышления; важны subgroup effects и стоимость усилия.</td></tr>
+<tr><td>Why not both? Complementing explanations with uncertainty, and the role of self-confidence in Human-AI collaboration <a href="#c29">источник</a></td><td>Сравнение explanation и uncertainty conditions.</td><td>Совместная подача объяснений и uncertainty требует учитывать исходную уверенность человека. Switching и agreement могут искажать интерпретацию, если не сопоставлены с индивидуальной точностью и правильностью совета.</td><td>112 участников MTurk; assisted и unassisted performance. Ограничение: Выборка жителей США и конкретные задачи ограничивают межкультурный перенос.</td></tr>
+<tr><td>Beyond Predictions: A Study of AI Strength and Weakness Transparency Communication on Human-AI Collaboration <a href="#c30">источник</a></td><td>Четыре treatment conditions и контроль.</td><td>Сообщать сильные и слабые стороны модели полезнее оценивать отдельно от объяснения одного прогноза. В исследовании есть положительные task findings, но self-reported understanding не различался значимо между группами.</td><td>Прогноз дохода; performance, calibration и самоотчёт. Ограничение: Один домен и способы подачи информации; разные виды измерений не следует объединять в единый эффект.</td></tr>
+<tr><td>Emerging Reliance Behaviors in Human-AI Content Grounded Data Generation: The Role of Cognitive Forcing Functions and Hallucinations <a href="#c31">источник</a></td><td>Сравнение Formulate, Read First и Highlight.</td><td>В генеративной задаче forcing-функция может привести к добавлению ошибочного AI-текста к уже правильному собственному ответу. Нужно различать назначенное вмешательство и реально показанное вмешательство.</td><td>34 участника, content-grounded generation и качество данных. Ограничение: Небольшая выборка и доменная постановка; эффект нельзя переносить из традиционной классификации без проверки.</td></tr>
+<tr><td>Human-AI Complementarity: A Goal for Amplified Oversight <a href="#c32">источник</a></td><td>Confidence-based hybridization и десять between-subjects experiments.</td><td>Для amplified oversight проверяется объединение human и AI ratings с учётом confidence и показываемых свидетельств. Полезность search results и evidence отличается от предъявления готового judgment.</td><td>Варьируются search, evidence, reasoning, judgment и confidence. Ограничение: Метод требует калиброванной confidence AI-rater; наблюдения не доказывают oversight систем любого уровня.</td></tr>
+<tr><td>Comparing Psychometric and Behavioral Predictors of Compliance During Human-AI Interactions <a href="#c33">источник</a></td><td>Сравнение предикторов в трёх ранее собранных datasets.</td><td>Поведение в ранних взаимодействиях лучше предсказывает последующее compliance, чем самоотчётная склонность доверять. Это аргумент в пользу поведенческого baseline рядом с психометрическими шкалами.</td><td>Начальные действия, последующие compliance decisions и trust attitudes. Ограничение: Предсказательная связь не доказывает причинный эффект вмешательства; используются существующие datasets.</td></tr>
+<tr><td>AI Assistants Overassist <a href="#c34">источник</a></td><td>Benchmark мониторинга и вмешательства AI-наставника.</td><td>В Int-Bench LLM-наставники вмешиваются рано и часто, чаще дают полное решение, чем адресную подсказку; улучшение немедленного успеха не гарантирует generalization. Сравнение поведения с людьми не заменяет длительное исследование обучения.</td><td>Standard monitoring и сравнение интервенций. Ограничение: Перенос benchmark-эффекта на развитие человеческого навыка требует отдельного теста.</td></tr>
+<tr><td>Metacognitive Scaffolds Create Productive Friction for AI-Assisted Knowledge Work <a href="#c35">источник</a></td><td>Рандомизированный межгрупповой writing experiment.</td><td>Метакогнитивный scaffold в writing-задаче создаёт дополнительное усилие: участники могут оценивать систему как менее полезную, одновременно выполняя работу лучше. Удобство и качество измерены раздельно.</td><td>Две задачи, последующая работа без scaffold, rubric-based оценка. Ограничение: LLM judge может предпочитать структуру текста содержанию; перенос ограничен выбранными writing tasks.</td></tr>
+<tr><td>Today&#x27;s Work, Tomorrow&#x27;s Workforce: Incentivizing Learning in AI-Assisted Work <a href="#c36">источник</a></td><td>Теоретическое расширение accept-or-solve.</td><td>Модель стимулов рассматривает повторяющиеся задачи, где решение принять помощь или решить самому меняет будущую квалификацию. Оптимальное распределение помощи зависит от долгосрочной цели навыка.</td><td>Последовательность задач одного семейства и динамика навыка. Ограничение: Предполагается обучение через самостоятельное решение; engaged AI-use может изменить выводы.</td></tr>
+<tr><td>Proximal State Nudging: Reducing Skill Atrophy from AI Assistance <a href="#c37">источник</a></td><td>Shared-control планирование и сравнение baselines.</td><td>Proximal State Nudging проектирует помощь с учётом последующего самостоятельного навыка. Метод проверяется на simulated learners и людях в CARLA, а не только по assisted performance.</td><td>LunarLander и две driving-задачи CARLA, 60 участников. Ограничение: Симулятор и ограниченные motor tasks не устанавливают эффект в интеллектуальном труде.</td></tr>
+<tr><td>Confidence Without Competence in AI-Assisted Knowledge Work <a href="#c38">источник</a></td><td>Формативная работа и сравнение вариантов интерфейса.</td><td>Уверенность, усилие и освоение материала расходятся: полные ответы могут создавать ощущение понимания, тогда как guided hints и future-self explanations дают иной баланс измеренного обучения и нагрузки.</td><td>Студенты, objective learning и perceived understanding. Ограничение: Convenience sampling и конкретные задачи ограничивают перенос; самооценка не равна компетенции.</td></tr>
+<tr><td>More AI Assistance Reduces Cognitive Engagement: Examining the AI Assistance Dilemma in AI-Supported Note-Taking <a href="#c39">источник</a></td><td>Сравнение уровней AI-помощи.</td><td>При note-taking промежуточная помощь дала лучшие post-test результаты, чем полная автоматизация, хотя участники предпочитали удобство автоматического режима.</td><td>30 участников, заметки по видео и проверка понимания. Ограничение: Малая выборка и ограниченные видеоматериалы; предпочтение интерфейса не доказывает учебную пользу.</td></tr>
+<tr><td>Does AI Assistance Leave a Temporal Fingerprint? Detecting Overreliance in AI-Assisted Writing and Programming <a href="#c40">источник</a></td><td>Анализ process traces и simulated delegation.</td><td>Временные признаки работы исследуются как индикатор полной передачи задачи ИИ, а не любого использования помощи. Положительная классификация на симуляции требует проверки в реальной учебной работе.</td><td>Три существующих datasets; новые human data не собирались. Ограничение: Симулированная delegation не равна реальному cheating; classifier flag не доказывает утрату навыка или нарушение.</td></tr>
+<tr><td>Fast and Forgettable: A Controlled Study of Novices&#x27; Performance, Learning, Workload, and Emotion in AI-Assisted and Human Pair Programming Paradigms <a href="#c41">источник</a></td><td>Human–AI против human–human pair programming.</td><td>AI-pair programming ускоряет совместное выполнение, но retest нужно анализировать отдельно: абсолютное снижение в AI-условии не было значимым. Нельзя превращать его в доказанный эффект забывания.</td><td>Новички, командная работа и последующая индивидуальная проверка. Ограничение: Малая выборка и кластеризация делают выводы о retest неопределёнными.</td></tr>
+<tr><td>Hint-Writing with Deferred AI Assistance: Fostering Critical Engagement in Data Science Education <a href="#c42">источник</a></td><td>Три дизайна hint-writing assignments.</td><td>Deferred AI assistance используется после самостоятельного составления подсказок к ошибочному коду. Объект исследования — учебная деятельность и критическая проверка, а не только готовая подсказка.</td><td>Реальный graduate Data Manipulation курс. Ограничение: Учебный контекст содержит возможные confounders; полученный артефакт не является прямой мерой долгосрочного навыка.</td></tr>
+<tr><td>Do People Trust AI Assistants Even When They Are Consistently Wrong? <a href="#c43">источник</a></td><td>Четыре эксперимента repeated advice.</td><td>Повторное общение не гарантирует правильной калибровки: без внешней обратной связи люди продолжают принимать неверные советы. История точности полезна, когда пользователь получает ground-truth feedback.</td><td>Helpful, unhelpful и mixed advisors; сравнение с human advisors. Ограничение: Изучены короткие вопросы с известной истиной; во многих реальных решениях своевременная обратная связь недоступна.</td></tr>
+<tr><td>The Impact and Feasibility of Self-Confidence Shaping for AI-Assisted Decision-Making <a href="#c44">источник</a></td><td>Модель принятия советов и анализ feasibility.</td><td>Self-confidence shaping рассматривается как способ менять принятие AI-рекомендаций. Возможность предсказывать или сдвигать уверенность не доказывает, что соответствующее воздействие улучшит решения в реальном внедрении.</td><td>Acceptance Rate и связь self-confidence с sentiment. Ограничение: Практическая эффективность и допустимость изменения уверенности требуют отдельной проверки.</td></tr>
+<tr><td>How AI Assistance Affects Human Skill Development: A Study of Learning with Logic Puzzles <a href="#c45">источник</a></td><td>Контролируемая puzzle-задача с фазами оценки.</td><td>В трёхфазной logic-puzzle задаче самостоятельное усилие связано с приростом task-specific способности. Наблюдаемую связь нельзя без дополнительного контроля превращать в эффект любого AI-use.</td><td>Pre-AI, помощь и subsequent unaided performance. Ограничение: Краткий горизонт и одна задача; выбор запрашивать помощь может зависеть от исходной способности.</td></tr>
+<tr><td>AI-Assisted Decision Making with Human Learning <a href="#c46">источник</a></td><td>Оптимизация стратегии показа признаков.</td><td>Формальная модель учитывает обучение человека в повторных решениях. Выбор показываемых признаков меняет и текущую точность, и будущую информированность пользователя.</td><td>Повторные решения и формальная динамика обучения. Ограничение: Выводы зависят от простых модельных предпосылок; это не пользовательское доказательство универсального улучшения навыка.</td></tr>
+<tr><td>Do Users Write More Insecure Code with AI Assistants? <a href="#c47">источник</a></td><td>Сравнение выполнения security-related coding tasks.</td><td>В security coding study доступ к AI-assistant часто сопровождался большим числом уязвимостей. Корректность и безопасность кода нужно проверять отдельно от лёгкости его получения.</td><td>Несколько языков, экспериментальная и контрольная группы. Ограничение: Преимущественно студенческая выборка и исследованная модель ограничивают перенос на современные инструменты.</td></tr>
+<tr><td>AI Assistance Reduces Persistence and Hurts Independent Performance <a href="#c48">источник</a></td><td>Эксперименты с learning и unaided stages.</td><td>Работа проверяет persistence и independent performance после удаления AI-помощи. Assisted success не рассматривается как достаточное свидетельство самостоятельного обучения.</td><td>Участники Prolific, attention checks и последующие задачи без assistant. Ограничение: Краткие экспериментальные задачи и критерии исключения ограничивают обобщение на долгосрочную профессиональную деградацию.</td></tr>
+<tr><td>Feeling Easier, Working Harder: Cognitive Load in AI-Assisted Code Comprehension <a href="#c49">источник</a></td><td>Java comprehension и tDRT как proxy нагрузки.</td><td>При code comprehension взаимодействие с AI может добавлять нагрузку управления инструментом, даже когда работа субъективно кажется проще. Cognitive load нужно измерять несколькими способами.</td><td>20 анализируемых участников после исключений. Ограничение: Малая выборка; tDRT является косвенной мерой, а не прямым измерением понимания.</td></tr>
+<tr><td>How Performance Pressure Influences AI-Assisted Decision Making <a href="#c50">источник</a></td><td>Манипуляция pressure и XAI.</td><td>Давление performance взаимодействует со способом объяснения совета. Одинаковое требование ускориться или быть точнее может по-разному менять advice-taking в разных XAI conditions.</td><td>Baseline, LIME и GenAI; задача распознавания отзывов. Ограничение: Низкорисковые crowdworker tasks; часть результатов использует uncorrected p-values.</td></tr>
+</tbody></table></div>
+<h2>Почему выводы могут расходиться</h2>
+<p>«Объяснения уменьшают overreliance» и «разговорный XAI может его увеличить» не образуют простого противоречия. Объяснение может сделать ошибку заметнее или лишь придать совету убедительность; задачи и control conditions различаются. <a class="ref" href="#c12">Explanations Can Reduce Overreliance on AI Systems During Decision-Making</a> <a class="ref" href="#c11">Is Conversational XAI All You Need? Human-AI Decision Making With a Conversational XAI Assistant</a> <a class="ref" href="#c19">Understanding the Effect of Counterfactual Explanations on Trust and Reliance on AI for Human-AI Collaborative Clinical Decision Making</a></p>
+<p>Ощущение полезности, субъективная уверенность и объективное обучение могут двигаться в разные стороны. Предпочтение автоматического режима не является доказательством его учебной ценности. <a class="ref" href="#c39">More AI Assistance Reduces Cognitive Engagement: Examining the AI Assistance Dilemma in AI-Supported Note-Taking</a> <a class="ref" href="#c38">Confidence Without Competence in AI-Assisted Knowledge Work</a> <a class="ref" href="#c35">Metacognitive Scaffolds Create Productive Friction for AI-Assisted Knowledge Work</a> <a class="ref" href="#c49">Feeling Easier, Working Harder: Cognitive Load in AI-Assisted Code Comprehension</a></p>
+<p>Меньшее agreement с антропоморфной системой не равно лучшей точности. Отсутствие общего automation bias не исключает selective adherence к стереотипам. <a class="ref" href="#c24">Designing Human-AI Systems: Anthropomorphism and Framing Bias on Human-AI Collaboration</a> <a class="ref" href="#c21">Human-AI Interactions in Public Sector Decision-Making: &quot;Automation Bias&quot; and &quot;Selective Adherence&quot; to Algorithmic Advice</a></p>
+<p>Незначимое снижение retest не следует описывать как доказанный вред. Теоретическая модель навыка также не заменяет эксперимент: её результат зависит от того, разрешено ли обучение через engaged AI-use. <a class="ref" href="#c41">Fast and Forgettable: A Controlled Study of Novices&#x27; Performance, Learning, Workload, and Emotion in AI-Assisted and Human Pair Programming Paradigms</a> <a class="ref" href="#c36">Today&#x27;s Work, Tomorrow&#x27;s Workforce: Incentivizing Learning in AI-Assisted Work</a> <a class="ref" href="#c46">AI-Assisted Decision Making with Human Learning</a></p>
+<p>Process traces помогают исследовать delegation, но симулированный паттерн не доказывает реальное нарушение или потерю навыка. Измерительный инструмент и причинное объяснение — разные результаты. <a class="ref" href="#c40">Does AI Assistance Leave a Temporal Fingerprint? Detecting Overreliance in AI-Assisted Writing and Programming</a> <a class="ref" href="#c27">TRAIL: A Platform for Configurable Human--AI Teaming Experiments</a> <a class="ref" href="#c7">Understanding Critical Thinking in Generative Artificial Intelligence Use: Development, Validation, and Correlates of the Critical Thinking in AI Use Scale</a></p>
+<h2>Как применить к своему исследованию</h2>
+<p><strong>Редакторское предложение.</strong> Определить рабочую задачу и проверяемую ошибку. Отдельно задать: точность, время, исправление ошибочного совета, ложное отклонение верного совета и результат теста без ИИ. </p>
+<p><strong>Редакторское предложение.</strong> Сравнить человек без ИИ, ИИ отдельно, обычный совет и интерфейс с самостоятельной попыткой перед советом. Уравнять задания и качество рекомендаций; заранее определить primary outcome и анализ мощности. </p>
+<p><strong>Редакторское предложение.</strong> Собирать самоотчёт после поведения, а не вместо него. Предусмотреть согласие участников, процедуру раскрытия намеренно внесённых ошибок и проверку протокола до набора. Это проект исследования, не проведённое испытание. </p>
+<h2>Следующая проверяемая гипотеза</h2>
+<p><strong>Редакторское предложение.</strong> Гипотеза: самостоятельная попытка перед советом помогает заметить ошибочный совет и сохранить навык лучше, чем готовый ответ с объяснением. Сравнение: одинаковый набор задач, случайное распределение интерфейсов, немедленный тест и отложенный тест без ИИ. </p>
+<p><strong>Редакторское предложение.</strong> Опровергающий результат: при достаточной мощности нет выигрыша по заранее выбранному тесту навыка либо цена во времени превышает установленный порог полезности. Не считать красивый готовый ответ подтверждением гипотезы. </p>
+<h2>Маршрут чтения</h2>
+<p>Начать с различия baseline у Vaccaro и коллег, затем посмотреть дизайн Buçinca и соавторов. После этого сопоставить writing-задачи с отдельным тестом освоения библиотеки. <a class="ref" href="#c2">When Are Combinations of Humans and AI Useful?</a> <a class="ref" href="#c1">To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-assisted Decision-making</a> <a class="ref" href="#c5">An Experimental Comparison of Cognitive Forcing Functions for Execution Plans in AI-Assisted Writing: Effects On Trust, Overreliance, and Perceived Critical Thinking</a> <a class="ref" href="#c6">How AI Impacts Skill Formation</a></p>
+<p>Для собственного протокола изучить ограничения провокаций и psychometric validation, а концептуальную работу использовать как список вопросов к измерению. <a class="ref" href="#c3">&quot;It makes you think&quot;: Provocations Help Restore Critical Thinking to AI-Assisted Knowledge Work</a> <a class="ref" href="#c7">Understanding Critical Thinking in Generative Artificial Intelligence Use: Development, Validation, and Correlates of the Critical Thinking in AI Use Scale</a> <a class="ref" href="#c4">Measuring and mitigating overreliance is necessary for building human-compatible AI</a></p>
+</section><section id='concepts'><h2>Понятия</h2>
+<details><summary>Overreliance</summary>
+<p>Следование ошибочному совету вместо самостоятельной проверки. <a class="ref" href="#c1">To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-assisted Decision-making</a> <a class="ref" href="#c5">An Experimental Comparison of Cognitive Forcing Functions for Execution Plans in AI-Assisted Writing: Effects On Trust, Overreliance, and Perceived Critical Thinking</a></p>
+</details>
+<details><summary>Сильная синергия</summary>
+<p>Система человек+ИИ лучше и человека, и ИИ по отдельности. <a class="ref" href="#c2">When Are Combinations of Humans and AI Useful?</a></p>
+</details>
+<details><summary>Формирование навыка</summary>
+<p>Освоение, проверяемое отдельно от результата работы с подсказкой. <a class="ref" href="#c6">How AI Impacts Skill Formation</a></p>
+</details>
+</section><section id='papers'><h2>Статьи и доказательства</h2>
+<h3>To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-assisted Decision-making</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c1"><strong>source_finding</strong><p>Когнитивные forcing-функции в задаче выбора продуктов уменьшали следование ошибочному совету по сравнению с простыми объяснениями. Это вмешательство в процесс принятия решения, а не улучшение модели.</p>
+<p><small>Условия: Контролируемая задача с изображениями еды и симулированным ИИ; методы и результаты §3–6.</small></p>
+<p><small>Авторские ограничения: Ограниченная задача и симулированный совет; долгосрочное сохранение навыка не измерено. Эффект зависит от склонности участников к когнитивному усилию.</small></p>
+<blockquote>cognitive forcing functions reduced overreliance on AI</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2102.09692v1#S6">Раздел S6</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2102.09692v1">Первоисточник</a></p>
+</article>
+<h3>When Are Combinations of Humans and AI Useful?</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c2"><strong>source_finding</strong><p>Метаанализ различает помощь человеку и сильную синергию: улучшение относительно человека без ИИ не означает превосходства над лучшим из человека и ИИ. Средние результаты скрывают большую неоднородность задач.</p>
+<p><small>Условия: Версия v1; §1–3, методы отбора §4; 106 экспериментов за январь 2020 — июнь 2023.</small></p>
+<p><small>Авторские ограничения: Исторический и неоднородный корпус; средний эффект не прогноз для современных моделей или конкретного интерфейса.</small></p>
+<blockquote>performed significantly better than humans alone</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2405.06087v1#S2.SS1">Раздел S2.SS1</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2405.06087v1">Первоисточник</a></p>
+</article>
+<h3>&quot;It makes you think&quot;: Provocations Help Restore Critical Thinking to AI-Assisted Knowledge Work</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c3"><strong>source_finding</strong><p>Провокации в интерфейсе отбора вариантов вызывали содержательные размышления в качественных данных, но значимые различия в разнообразии shortlist и ряде агрегатных показателей не обнаружены.</p>
+<p><small>Условия: Shortlisting благотворительных проектов и фильмов; §3–5 и ограничения §7.</small></p>
+<p><small>Авторские ограничения: Малая выборка, недостаточная мощность; качественный сигнал нельзя превращать в доказанное улучшение качества решения.</small></p>
+<blockquote>did not find statistically significant effects of provocations on shortlist diversity</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2501.17247v1#S5">Раздел S5</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2501.17247v1">Первоисточник</a></p>
+</article>
+<h3>Measuring and mitigating overreliance is necessary for building human-compatible AI</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c4"><strong>source_finding</strong><p>Работа формулирует исследовательскую программу измерения и снижения overreliance: модели, интерфейс и пользователь рассматриваются совместно. Это концептуальная постановка, не испытание готового универсального решения.</p>
+<p><small>Условия: Прочитаны постановка §1–2, измерение §5, mitigation §6 и альтернативные позиции §7.</small></p>
+<p><small>Авторские ограничения: Предложения авторов и синтез прошлых работ; не новый причинный эксперимент и не оценка распространённости риска.</small></p>
+<blockquote>outline several directions</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2509.08010v1#S6">Раздел S6</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2509.08010v1">Первоисточник</a></p>
+</article>
+<h3>An Experimental Comparison of Cognitive Forcing Functions for Execution Plans in AI-Assisted Writing: Effects On Trust, Overreliance, and Perceived Critical Thinking</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c5"><strong>source_finding</strong><p>В эксперименте с планами AI-assisted writing Assumptions снижал overreliance по сравнению с WhatIf; остальные попарные различия после коррекции не значимы. Нельзя утверждать, что любое forcing-вмешательство лучше контроля.</p>
+<p><small>Условия: 214 участников онлайн и отдельные 12 интервью; фиксированные планы и тексты с искусственно внесёнными ошибками, §4–5 и §7.4.</small></p>
+<p><small>Авторские ограничения: Фиксированные writing-задачи, ограниченный набор ошибок; нет длительного полевого наблюдения или проверки сохранения навыка.</small></p>
+<blockquote>No other pairwise differences in overreliance rates were statistically significant after correction.</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2601.18033v1#S5.SS2">Раздел S5.SS2</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2601.18033v1">Первоисточник</a></p>
+</article>
+<h3>How AI Impacts Skill Formation</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c6"><strong>source_finding</strong><p>В рандомизированном обучении новой Python-библиотеке группа с AI-помощью хуже выполнила последующую проверку понимания, чтения кода и debugging; значимого ускорения основной задачи не обнаружено. Анализ паттернов использования не является их отдельной рандомизированной проверкой.</p>
+<p><small>Условия: §4–7: новая async-библиотека, 52 участника основного исследования; качественный разбор 51 доступной записи экрана.</small></p>
+<p><small>Авторские ограничения: Небольшая выборка и краткая задача; это не доказательство необратимой утраты навыков или эффекта любого способа использования ИИ.</small></p>
+<blockquote>did not observe a significant performance boost</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2601.20245v1#S7">Раздел S7</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2601.20245v1">Первоисточник</a></p>
+</article>
+<h3>Understanding Critical Thinking in Generative Artificial Intelligence Use: Development, Validation, and Correlates of the Critical Thinking in AI Use Scale</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c7"><strong>source_finding</strong><p>Шкала Critical Thinking in AI Use разделяет verification, motivation и reflection; авторы проверяют психометрику и связь с поведением в fact-checking. Такая связь не доказывает, что обучение шкале причинно улучшит мышление.</p>
+<p><small>Условия: PDF v2: стр. 2, 14–20, раздел Study 6, обсуждение стр. 64–70; DOI опубликованной работы указан в метаданных.</small></p>
+<p><small>Авторские ограничения: Преимущественно англоязычные онлайн- и университетские выборки; часть индексов самоотчётная; нужна независимая проверка переноса и измерительной инвариантности.</small></p>
+<blockquote>our data rely primarily on English-speaking online and university samples.</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/pdf/2512.12413v2#page=68">PDF, стр. 68</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2512.12413v2">Первоисточник</a></p>
+</article>
+<h3>Not All Trust is the Same: Effects of Decision Workflow and Explanations in Human-AI Decision Making</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c8"><strong>source_finding</strong><p>В эксперименте reported trust зависел от сочетания объяснения и порядка принятия решения: значимо взаимодействие факторов, а не их изолированное общее действие. Эффект на сообщаемое доверие нельзя автоматически считать улучшением поведения.</p>
+<p><small>Условия: Эксперимент. 300 участников, бинарные решения в сценарии вымышленной организации.</small></p>
+<p><small>Авторские ограничения: Самоотчёт о доверии и фактическая reliance требуют отдельных метрик; сценарий ограничен изученной задачей.</small></p>
+<blockquote>To investigate these questions, we conducted a between-subjects</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2603.05229v1#S3.SS1">3 Study Design / 3.1 Experimental Design · S3.SS1</a></small>
+<blockquote>Pearson’s Correlation Coefficient was calculated to examine the</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2603.05229v1#S4.SS1">4 Results / 4.1 Trust and Reliance · S4.SS1</a></small>
+<blockquote>As recent reviews have noted, the circumstance that</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2603.05229v1#S5.SS3">5 Discussion / 5.3 Limitations and Future Work · S5.SS3</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2603.05229v1">Первоисточник</a></p>
+</article>
+<h3>When Thinking Pays Off: Incentive Alignment for Human-AI Collaboration</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c9"><strong>source_finding</strong><p>Бонусы за самостоятельную обработку отдельных примеров меняют reliance. В динамическом условии выигрыш точности относительно baseline обнаружен на примерах с бонусом; на примерах без бонуса значимого различия не найдено.</p>
+<p><small>Условия: Эксперимент. 180 участников, классификация изображений; анализ примеров с бонусом и без него.</small></p>
+<p><small>Авторские ограничения: Изменение стимулов в этой задаче не устанавливает эффект в организациях с другими издержками и целями.</small></p>
+<blockquote>To evaluate the effect of our proposed incentive</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2511.09612v2#S4">4. Behavioral Experiment Design · S4</a></small>
+<blockquote>We begin by examining the effect of the</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2511.09612v2#S5.SS1">5. Experimental Results / 5.1. Task Completion · S5.SS1</a></small>
+<blockquote>Our study shows that incentive structures systematically influence</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2511.09612v2#S6.SS4">6. Discussion / 6.4. Limitations and Directions for Future Work · S6.SS4</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2511.09612v2">Первоисточник</a></p>
+</article>
+<h3>Trust Hinders Bidirectional Human-AI Alignment</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c10"><strong>source_finding</strong><p>Авторы различают хорошо заданные задачи и открытые ситуации: trust calibration полезна при известных исходах и полезностях, но не исчерпывает согласование человека и ИИ при меняющихся целях и неизвестных последствиях.</p>
+<p><small>Условия: Концептуальная работа. Анализ рамки доверия, неопределённости и двунаправленного alignment.</small></p>
+<p><small>Авторские ограничения: Это аргумент о границах постановки, а не причинная оценка вреда доверия в пользовательском эксперименте.</small></p>
+<blockquote>We posit that addressing the challenges discussed thus</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.15136v2#S5">5 Human–AI Alignment in Large-world Settings Requires Addressing Higher-order Decision Processes · S5</a></small>
+<blockquote>AI-assisted decision making has been primarily positioned as</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.15136v2#S7">7 Conclusion · S7</a></small>
+<blockquote>Another critique of our proposal is that trust</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.15136v2#S6">6 Limitations and Counterarguments · S6</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2610.15136v2">Первоисточник</a></p>
+</article>
+<h3>Is Conversational XAI All You Need? Human-AI Decision Making With a Conversational XAI Assistant</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c11"><strong>source_finding</strong><p>Разговорный XAI может повышать воспринимаемую полезность объяснений, одновременно усиливая ошибочное следование совету. Оценку удобства разговора необходимо отделять от способности отвергать неверный прогноз.</p>
+<p><small>Условия: Эксперимент. Задача оценки кредитоспособности; perceived utility и reliance рассматриваются раздельно.</small></p>
+<p><small>Авторские ограничения: Результат зависит от домена, конкретных объяснений и задач; увеличение интерактивности само по себе не является защитой.</small></p>
+<blockquote>The basis for our experimental setup is a</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2501.17546v1#S3.SS1">3. Task, Method, and Hypotheses / 3.1. Loan Approval Task · S3.SS1</a></small>
+<blockquote>Performance Overview. On average across all conditions, participants</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2501.17546v1#S5.SS1">5. Experimental Results / 5.1. Descriptive Statistics · S5.SS1</a></small>
+<blockquote>Broader Societal Implications. Our findings add to the</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2501.17546v1#S6.SS3">6. Discussion / 6.3. Caveats and Limitations · S6.SS3</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2501.17546v1">Первоисточник</a></p>
+</article>
+<h3>Explanations Can Reduce Overreliance on AI Systems During Decision-Making</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c12"><strong>source_finding</strong><p>Пять исследований поддерживают cost–benefit объяснение overreliance: объяснения уменьшают ошибочное следование, когда облегчают обнаружение ошибки и снижают стоимость самостоятельного решения. Важен конкретный вид объяснения.</p>
+<p><small>Условия: Серия экспериментов. Низкорисковая задача прохождения лабиринта; варьируются трудность и вид объяснения.</small></p>
+<p><small>Авторские ограничения: Авторы отдельно ограничивают перенос на высокорисковые решения; результат не означает полезности любых объяснений.</small></p>
+<blockquote>To account for this contradiction, we propose that</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2212.06823v2#S3">3. Framework · S3</a></small>
+<blockquote>Taken together, our results identify scenarios in which</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2212.06823v2#S10">10. Discussion · S10</a></small>
+<blockquote>High-stakes environments: Our study focused on a low-stakes</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2212.06823v2#S10.SS4">10. Discussion / 10.4. Limitations and Future Work · S10.SS4</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2212.06823v2">Первоисточник</a></p>
+</article>
+<h3>Understanding the Role of Human Intuition on Reliance in Human-AI Decision-Making with Explanations</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c13"><strong>source_finding</strong><p>В принятии советов участвует интуиция о правильном исходе и об ограничениях ИИ. Объяснения становятся материалом для интерпретации, а не независимой гарантией того, что человек будет правильно использовать прогноз.</p>
+<p><small>Условия: Исследование взаимодействия. Предсказание дохода и классификация профессии по биографии.</small></p>
+<p><small>Авторские ограничения: Дизайн не полностью изолирует исходную интуицию от знакомства с советом; качественные наблюдения не равны универсальной причинной модели reliance.</small></p>
+<blockquote>We describe the set-up of our study and</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2301.07255v3#S3">3. Methods · S3</a></small>
+<blockquote>First, we overview themes from the think-aloud data</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2301.07255v3#S4">4. Results · S4</a></small>
+<blockquote>Lastly, we observed comments on the limitations of</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2301.07255v3#S4.SS1.SSS0.Px3">4. Results / 4.1. Common Types of Intuition Applied in the Decision-Making Process (RQ1) / Intuition about AI limitations and prediction unreliability · S4.SS1.SSS0.Px3</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2301.07255v3">Первоисточник</a></p>
+</article>
+<h3>Engaging with AI: How Interface Design Shapes Human-AI Collaboration in High-Stakes Decision-Making</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c14"><strong>source_finding</strong><p>Сравнение XAI и cognitive forcing показывает компромисс между рефлексией, усилием и выполнением задачи: вопросы и feedback могут стимулировать размышление, но не обязательно улучшают task performance. Оценку trust нужно читать вместе с reliance на неверный совет.</p>
+<p><small>Условия: Эксперимент. Решения с правильными и неправильными AI-подсказками.</small></p>
+<p><small>Авторские ограничения: Изучены конкретные интерфейсы и задачи; рост когнитивного усилия не является самостоятельным критерием успеха.</small></p>
+<blockquote>Our experiments were conducted using a custom web-based</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2501.16627v1#S6">6 Methods · S6</a></small>
+<blockquote>To test the first hypothesis (H1), which posits</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2501.16627v1#S2.SS1">2 Results / 2.1 Users Over-Rely on AI Suggestions, Even When Incorrect (H1) · S2.SS1</a></small>
+<blockquote>While our study provides valuable insights into the</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2501.16627v1#S4">4 Limitations and Future Work · S4</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2501.16627v1">Первоисточник</a></p>
+</article>
+<h3>Trust in Human-AI Interaction: Scoping Out Models, Measures, and Methods</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c15"><strong>source_finding</strong><p>Scoping review обнаруживает неоднородность определений trust, слабую связь многих работ с установленными теориями и неполное описание методов. Поэтому одинаковое слово trust не делает результаты разных интерфейсов сопоставимыми.</p>
+<p><small>Условия: Scoping review. Обзор human–AI interaction, поиск в августе 2021 года; текст PDF.</small></p>
+<p><small>Авторские ограничения: Вторичный исторический источник охватывает широкий класс систем; это не самостоятельный эксперимент с современными LLM.</small></p>
+<blockquote>2. METHODS We conducted a scoping review in</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/pdf/2205.00189v1#page=3">PDF, стр. 3</a></small>
+<blockquote>1.5 Data Analysis and Synthesis of Results Descriptive</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/pdf/2205.00189v1#page=5">PDF, стр. 5</a></small>
+<blockquote>4. DISCUSSION Trust is a multidimensional factor being</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/pdf/2205.00189v1#page=8">PDF, стр. 8</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2205.00189v1">Первоисточник</a></p>
+</article>
+<h3>From Trust to Appropriate Reliance: Measurement Constructs in Human-AI Decision-Making</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c16"><strong>source_finding</strong><p>Обзор различает trust, reliance и appropriate reliance и выделяет разные способы операционализации reliance. Нужны согласованные объективные метрики и проверка их валидности в выбранной прикладной задаче.</p>
+<p><small>Условия: Обзор измерения. Поиск SCOPUS и ACM DL, анализ human–AI decision-making.</small></p>
+<p><small>Авторские ограничения: Фокус на appropriate reliance может исключать работы, использующие другую терминологию; обзор не задаёт единый универсальный численный индекс.</small></p>
+<blockquote>The search was initially conducted on the SCOPUS</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2604.23896v1#S3">3. Methodology · S3</a></small>
+<blockquote>Experiments with non-realistic tasks and a lack of</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2604.23896v1#S5.SS1">5. Discussion / 5.1. Potential Research Gaps · S5.SS1</a></small>
+<blockquote>We focused on research in human-AI appropriate reliance</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2604.23896v1#S5.SS3">5. Discussion / 5.3. Limitations · S5.SS3</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2604.23896v1">Первоисточник</a></p>
+</article>
+<h3>Uncalibrated Models Can Improve Human-AI Collaboration</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c17"><strong>source_finding</strong><p>Оптимизировать следует итоговое решение человека с моделью, а не только прогноз модели отдельно. Работа исследует преобразование AI-рекомендаций под реакцию пользователя и проверяет подход на нескольких задачах и симуляциях.</p>
+<p><small>Условия: Эксперимент и моделирование. Четыре задачи с изображениями, текстом и таблицами; эмпирическая и симуляционная части.</small></p>
+<p><small>Авторские ограничения: Надёжность выученной реакции пользователя в реальном внедрении остаётся вопросом; заголовок не является разрешением скрывать искажение прогноза.</small></p>
+<blockquote>We collected data from crowd-sourced participants on a</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2202.05983v3#S2">2 Experimental setup · S2</a></small>
+<blockquote>Optimizing Equation 2 results in an optimal α∗,β∗\alpha^{*},\beta^{*}.</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2202.05983v3#S5.SS1">5 Results / 5.1 Simulation results · S5.SS1</a></small>
+<blockquote>Our work has several limitations that would be</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2202.05983v3#S6">6 Discussion, Limitations, and Future Work · S6</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2202.05983v3">Первоисточник</a></p>
+</article>
+<h3>Collaborative human-AI trust (CHAI-T): A process framework for active management of trust in human-AI collaboration</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c18"><strong>source_finding</strong><p>CHAI-T рассматривает доверие как развивающийся процесс: предшествующие установки, взаимодействие команды и результаты влияют друг на друга во времени. Это полезная структура для выбора повторных измерений, а не доказанная интервенция.</p>
+<p><small>Условия: Концептуальная работа. Синтез моделей trust и командных процессов; PDF.</small></p>
+<p><small>Авторские ограничения: Предложение рамки не устанавливает причинный эффект конкретного интерфейса и не подменяет наблюдение поведения.</small></p>
+<blockquote>CHAI-T is not a one-size-fits-all model of trust</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/pdf/2404.01615v1#page=16">PDF, стр. 16</a></small>
+<blockquote>CHAI-T framework permits identification of factors related to</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/pdf/2404.01615v1#page=22">PDF, стр. 22</a></small>
+<blockquote>CHAI-T framework integrates top-down, theory-informed approaches with bottom-</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/pdf/2404.01615v1#page=26">PDF, стр. 26</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2404.01615v1">Первоисточник</a></p>
+</article>
+<h3>Understanding the Effect of Counterfactual Explanations on Trust and Reliance on AI for Human-AI Collaborative Clinical Decision Making</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c19"><strong>source_finding</strong><p>Эффект объяснений различается между специалистами и неспециалистами и зависит от правильности совета. Контрфактуальные объяснения надо оценивать на ошибочных примерах отдельно: средний human+AI score может скрывать ухудшение.</p>
+<p><small>Условия: Пользовательское исследование. Терапевты и неспециалисты, human-alone и human+AI условия.</small></p>
+<p><small>Авторские ограничения: Это исследование поведения в конкретной клинической задаче, а не клиническая рекомендация; интерфейс и визуальное представление ограничивают перенос.</small></p>
+<blockquote>The primary research question of this work is</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2308.04375v1#S3">3. Study Design · S3</a></small>
+<blockquote>In the following section, we reported the descriptive</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2308.04375v1#S4">4. Results · S4</a></small>
+<blockquote>As previous research shows the higher understandability of</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2308.04375v1#S5.SS4">5. Discussion / 5.4. Limitations · S5.SS4</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2308.04375v1">Первоисточник</a></p>
+</article>
+<h3>The human-AI relationship in decision-making: AI explanation to support people on justifying their decisions</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c20"><strong>source_finding</strong><p>Position paper предлагает рассматривать объяснение как часть отношений человека и системы и как поддержку обоснования решения, а не только как свойство алгоритма. Требования к объяснению зависят от роли участника решения.</p>
+<p><small>Условия: Концептуальная работа. Разбор аргументов и случая из литературы; PDF.</small></p>
+<p><small>Авторские ограничения: Не новый контролируемый эксперимент; рамка не устанавливает количественного снижения overreliance.</small></p>
+<blockquote>2 DECISION-MAKING AND AI As Artificial Intelligence (AI)</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/pdf/2102.05460v2#page=2">PDF, стр. 2</a></small>
+<blockquote>Previous work observed in the literature an occurrence</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/pdf/2102.05460v2#page=2">PDF, стр. 2</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2102.05460v2">Первоисточник</a></p>
+</article>
+<h3>Human-AI Interactions in Public Sector Decision-Making: &quot;Automation Bias&quot; and &quot;Selective Adherence&quot; to Algorithmic Advice</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c21"><strong>source_finding</strong><p>В трёх исследованиях авторы не находят общего автоматического предпочтения алгоритмического совета; отдельно рассматривается selective adherence — принятие совета, совпадающего со стереотипами. Общую automation bias и избирательное следование нельзя смешивать.</p>
+<p><small>Условия: Серия экспериментов. Публичное администрирование в Нидерландах; сравнение советов и контекстов.</small></p>
+<p><small>Авторские ограничения: Контекст государственного решения и конкретные манипуляции ограничивают перенос на разговорные LLM.</small></p>
+<blockquote>or inputs from other sources. Rather, automation bias</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/pdf/2103.02381v3#page=5">PDF, стр. 5</a></small>
+<blockquote>Procedure differences are in the expected direction, yet</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/pdf/2103.02381v3#page=8">PDF, стр. 8</a></small>
+<blockquote>Discussion and Conclusion advice. Across the three studies,</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/pdf/2103.02381v3#page=12">PDF, стр. 12</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2103.02381v3">Первоисточник</a></p>
+</article>
+<h3>A Systematic Review on Fostering Appropriate Trust in Human-AI Interaction</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c22"><strong>source_finding</strong><p>Систематический обзор показывает, что perceived trust и согласование с надёжностью системы измеряются разными способами. Самооценка может зависеть от внешнего вида и поведения системы, поэтому её недостаточно для вывода об appropriate reliance.</p>
+<p><small>Условия: Систематический обзор. Human–AI interaction; определения, метрики и методы.</small></p>
+<p><small>Авторские ограничения: Вторичный источник; исторический и терминологический охват ограничивает полноту.</small></p>
+<blockquote>We conducted a systematic review to understand (a)</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2311.06305v1#S3">3. SYSTEMATIC REVIEW METHODOLOGY · S3</a></small>
+<blockquote>We found some authors measured perceived trust by</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2311.06305v1#S5.SS1.SSS1">5. Results of the Systematic Review / 5.1. Measures (How to measure Appropriate Trust?) / 5.1.1. Perceived Trust · S5.SS1.SSS1</a></small>
+<blockquote>Despite the systematic review’s comprehensive analysis of the</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2311.06305v1#S6.SS4">6. Discussion / 6.4. Limitations · S6.SS4</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2311.06305v1">Первоисточник</a></p>
+</article>
+<h3>Designing Algorithmic Recommendations to Achieve Human-AI Complementarity</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c23"><strong>source_finding</strong><p>Рекомендацию предлагается проектировать с учётом того, как человек меняет решение, а не как замену автономному прогнозу. Каузальная постановка проверяется в эксперименте, моделирующем hiring task.</p>
+<p><small>Условия: Модель и эксперимент. Бинарное решение, сравнение recommendation algorithms и automation benchmark.</small></p>
+<p><small>Авторские ограничения: Симуляция найма не доказывает результат в реальных кадровых решениях; важны отбор участников и предпосылки модели.</small></p>
+<blockquote>corresponding to the optimal direct choice by an</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2405.01484v3#S2.SS1">2 A Causal Model of Algorithmically Assisted Decision-Making / 2.1 Treatment Choice and the Automation Benchmark · S2.SS1</a></small>
+<blockquote>Before analyzing the results of the experiment, we</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2405.01484v3#S4.SS3">4 Complementary Recommendations in an Experiment / 4.3 Data and Main Results · S4.SS3</a></small>
+<blockquote>Above, we have introduced the problem of assigning</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2405.01484v3#S2.SS2">2 A Causal Model of Algorithmically Assisted Decision-Making / 2.2 Algorithmic Assistance with Endogenous Response · S2.SS2</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2405.01484v3">Первоисточник</a></p>
+</article>
+<h3>Designing Human-AI Systems: Anthropomorphism and Framing Bias on Human-AI Collaboration</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c24"><strong>source_finding</strong><p>В эксперименте framing не дал значимых различий в согласии с рекомендациями, а антропоморфный интерфейс уменьшал согласие. Меньшее согласие само по себе ещё не означает более правильного решения.</p>
+<p><small>Условия: Эксперимент. 750 набранных участников Prolific, английский опрос.</small></p>
+<p><small>Авторские ограничения: Agreement rate необходимо отличать от точности и калибровки по правильности совета.</small></p>
+<blockquote>The task aimed to emulate the screening phase</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2404.00634v2#S3.SS2">3 Experiment / 3.2 Task and AI model · S3.SS2</a></small>
+<blockquote>As shown in Table 1, a considerable percentage</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2404.00634v2#S3.SS5">3 Experiment / 3.5 Results · S3.SS5</a></small>
+<blockquote>Since currently humans rarely rely exclusively on AI</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2404.00634v2#S4.SS1">4 Discussion / 4.1 Framing effect · S4.SS1</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2404.00634v2">Первоисточник</a></p>
+</article>
+<h3>Interactive Example-based Explanations to Improve Health Professionals&#x27; Onboarding with AI for Human-AI Collaborative Decision Making</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c25"><strong>source_finding</strong><p>Примеры при onboarding помогали специалистам откалибровать reliance лучше, чем только feature explanations в момент решения. Обучение работе с инструментом следует отделять от формы текущего объяснения.</p>
+<p><small>Условия: Пользовательское исследование. Терапевты, Example+Features против Features.</small></p>
+<p><small>Авторские ограничения: Один профессиональный контекст и конкретная система; перенос на другие задачи требует проверки.</small></p>
+<blockquote>To understand how an explainable AI technique can</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2409.15814v1#S3.SS2">3 Study Designs / 3.2 Interviews about Onboarding with AI · S3.SS2</a></small>
+<blockquote>Participants using ‘Examples + Features’ had lower overreliance</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2409.15814v1#S6.SS1">6 Results and Discussion / 6.1 Performance · S6.SS1</a></small>
+<blockquote>Even if our results showed that interactive example-based</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2409.15814v1#S6.SS4">6 Results and Discussion / 6.4 Discussion · S6.SS4</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2409.15814v1">Первоисточник</a></p>
+</article>
+<h3>Trust the AI, Doubt Yourself: The Effect of Urgency on Self-Confidence in Human-AI Interaction</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c26"><strong>source_finding</strong><p>Небольшое исследование связывает подготовку к AI-interaction и срочность с самооценкой уверенности. Рост trust после взаимодействия не позволил однозначно установить его механизм.</p>
+<p><small>Условия: Эксперимент. 30 участников, преимущественно студенты computer science.</small></p>
+<p><small>Авторские ограничения: Малая и однородная выборка; субъективная уверенность не заменяет объективный результат.</small></p>
+<blockquote>To assess how human-AI interaction impacts trust in</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2604.07535v1#S3">3. Study Design · S3</a></small>
+<blockquote>Our observations are in line with the established</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2604.07535v1#S4.SS1.SSSx1">4. RQ1: Trust by human-AI interaction / 4.1. Improved trust in AI / Discussion · S4.SS1.SSSx1</a></small>
+<blockquote>Our sample of experimental population may limit the</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2604.07535v1#S3.SS3.SSSx1">3. Study Design / 3.3. Design trade-offs and threats to validity / External validity · S3.SS3.SSSx1</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2604.07535v1">Первоисточник</a></p>
+</article>
+<h3>TRAIL: A Platform for Configurable Human--AI Teaming Experiments</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c27"><strong>source_finding</strong><p>TRAIL делает экспериментальные свойства AI-teammate настраиваемыми: задачи, условия, persona и порядок сессий фиксируются исследователем. Пилот показывает возможность изучать доверие и взаимодействие во времени.</p>
+<p><small>Условия: Инструмент и пилот. Студенческое развёртывание с изменением persona.</small></p>
+<p><small>Авторские ограничения: Инфраструктурная воспроизводимость и пилот не доказывают универсальную эффективность одной persona.</small></p>
+<blockquote>Table 1 states the seven goals, maps each</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2607.12180v1#S3">3 Platform Design Goals · S3</a></small>
+<blockquote>The deployment’s broadest implication is the one the</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2607.12180v1#S6">6 Discussion · S6</a></small>
+<blockquote>Because TRAIL is configurable and easy to deploy</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2607.12180v1#S6">6 Discussion · S6</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2607.12180v1">Первоисточник</a></p>
+</article>
+<h3>Understanding the Effects of AI-Assisted Critical Thinking on Human-AI Decision Making</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c28"><strong>source_finding</strong><p>AI-assisted critical thinking снижает overreliance ценой дополнительной нагрузки. При этом авторы прямо отмечают: стандартные decision metrics не являются прямым измерением способности критически мыслить.</p>
+<p><small>Условия: Эксперимент. 402 валидных участника после исключений, повторные decision tasks.</small></p>
+<p><small>Авторские ограничения: Не измерен напрямую перенос критического мышления; важны subgroup effects и стоимость усилия.</small></p>
+<blockquote>With the argument identified for each alternative decision,</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2602.10222v2#S3.SS2.SSS2">3. AI-Assisted Critical Thinking: Framework and Instantiation / 3.2. The AI-Assisted Critical Thinking Framework / 3.2.2. AACT Supports for Critiquing Arguments · S3.SS2.SSS2</a></small>
+<blockquote>In total, 405 Prolific workers participated in our</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2602.10222v2#S5">5. Results · S5</a></small>
+<blockquote>Our study leaves several additional limitations. Although we</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2602.10222v2#S6.SS5">6. Discussions / 6.5. Additional Limitations · S6.SS5</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2602.10222v2">Первоисточник</a></p>
+</article>
+<h3>Why not both? Complementing explanations with uncertainty, and the role of self-confidence in Human-AI collaboration</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c29"><strong>source_finding</strong><p>Совместная подача объяснений и uncertainty требует учитывать исходную уверенность человека. Switching и agreement могут искажать интерпретацию, если не сопоставлены с индивидуальной точностью и правильностью совета.</p>
+<p><small>Условия: Эксперимент. 112 участников MTurk; assisted и unassisted performance.</small></p>
+<p><small>Авторские ограничения: Выборка жителей США и конкретные задачи ограничивают межкультурный перенос.</small></p>
+<blockquote>We recruited 112112 participants from Amazon Mechanical Turk</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2304.14130v1#S3.SS1.SSS1">3 Study Overview / 3.1 Experimental Design / 3.1.1 Participants · S3.SS1.SSS1</a></small>
+<blockquote>Then, we compared participants’ performance after exposure to</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2304.14130v1#S4.SS1">4 Results / 4.1 Performance · S4.SS1</a></small>
+<blockquote>We acknowledge that one limitation of our study</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2304.14130v1#S6">6 Limitations · S6</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2304.14130v1">Первоисточник</a></p>
+</article>
+<h3>Beyond Predictions: A Study of AI Strength and Weakness Transparency Communication on Human-AI Collaboration</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c30"><strong>source_finding</strong><p>Сообщать сильные и слабые стороны модели полезнее оценивать отдельно от объяснения одного прогноза. В исследовании есть положительные task findings, но self-reported understanding не различался значимо между группами.</p>
+<p><small>Условия: Эксперимент. Прогноз дохода; performance, calibration и самоотчёт.</small></p>
+<p><small>Авторские ограничения: Один домен и способы подачи информации; разные виды измерений не следует объединять в единый эффект.</small></p>
+<blockquote>Researchers have argued that results and recommendations for</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2508.09033v1#S3.SS1">3 Self-assessing AI / 3.1 Defining the Task · S3.SS1</a></small>
+<blockquote>In the following, we present results related to</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2508.09033v1#S5">5 Results · S5</a></small>
+<blockquote>In this paper, we explored the design of</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2508.09033v1#S6">6 Discussion · S6</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2508.09033v1">Первоисточник</a></p>
+</article>
+<h3>Emerging Reliance Behaviors in Human-AI Content Grounded Data Generation: The Role of Cognitive Forcing Functions and Hallucinations</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c31"><strong>source_finding</strong><p>В генеративной задаче forcing-функция может привести к добавлению ошибочного AI-текста к уже правильному собственному ответу. Нужно различать назначенное вмешательство и реально показанное вмешательство.</p>
+<p><small>Условия: Пользовательское исследование. 34 участника, content-grounded generation и качество данных.</small></p>
+<p><small>Авторские ограничения: Небольшая выборка и доменная постановка; эффект нельзя переносить из традиционной классификации без проверки.</small></p>
+<blockquote>We recruited 34 participants via multiple slack channels</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2409.08937v2#S5.SS1">5. Methodology / 5.1. Participants · S5.SS1</a></small>
+<blockquote>We recruited 34 participants and asked them details</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2409.08937v2#S6.SS1">6. Results / 6.1. Participant Demographics and Self Reported Measures · S6.SS1</a></small>
+<blockquote>While our study offers valuable insights, we acknowledge</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2409.08937v2#S8">8. Limitations and Future Work · S8</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2409.08937v2">Первоисточник</a></p>
+</article>
+<h3>Human-AI Complementarity: A Goal for Amplified Oversight</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c32"><strong>source_finding</strong><p>Для amplified oversight проверяется объединение human и AI ratings с учётом confidence и показываемых свидетельств. Полезность search results и evidence отличается от предъявления готового judgment.</p>
+<p><small>Условия: Серия экспериментов. Варьируются search, evidence, reasoning, judgment и confidence.</small></p>
+<p><small>Авторские ограничения: Метод требует калиброванной confidence AI-rater; наблюдения не доказывают oversight систем любого уровня.</small></p>
+<blockquote>In all experiments, participants first completed a short</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2510.26518v2#A1.SS2.SSS4">Appendix A Appendix / A.2 Additional Details on Evaluation Set, Model, and Experiments / A.2.4 Human Experiment Set-Up · A1.SS2.SSS4</a></small>
+<blockquote>First, we show that confidence-based hybridization improves overall</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2510.26518v2#S3.SS1">3 Experiments and Results / 3.1 Overview · S3.SS1</a></small>
+<blockquote>Importantly, confidence-based hybridization requires a well calibrated AI</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2510.26518v2#S4.SS2">4 Discussion / 4.2 Discussion, Limitations, and Future Work · S4.SS2</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2510.26518v2">Первоисточник</a></p>
+</article>
+<h3>Comparing Psychometric and Behavioral Predictors of Compliance During Human-AI Interactions</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c33"><strong>source_finding</strong><p>Поведение в ранних взаимодействиях лучше предсказывает последующее compliance, чем самоотчётная склонность доверять. Это аргумент в пользу поведенческого baseline рядом с психометрическими шкалами.</p>
+<p><small>Условия: Вторичный эмпирический анализ. Начальные действия, последующие compliance decisions и trust attitudes.</small></p>
+<p><small>Авторские ограничения: Предсказательная связь не доказывает причинный эффект вмешательства; используются существующие datasets.</small></p>
+<blockquote>Model 2: The first category of test models</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2302.01854v1#Pt0.A2.SS1">Appendix B Data and Models / B.1 Models · Pt0.A2.SS1</a></small>
+<blockquote>The disposition to trust measure failed to explain</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2302.01854v1#S6.SS1">6 Results / 6.1 Study 1 · S6.SS1</a></small>
+<blockquote>Had DTI accounted for more significant variance in</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2302.01854v1#S7">7 Discussion · S7</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2302.01854v1">Первоисточник</a></p>
+</article>
+<h3>AI Assistants Overassist</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c34"><strong>source_finding</strong><p>В Int-Bench LLM-наставники вмешиваются рано и часто, чаще дают полное решение, чем адресную подсказку; улучшение немедленного успеха не гарантирует generalization. Сравнение поведения с людьми не заменяет длительное исследование обучения.</p>
+<p><small>Условия: Benchmark. Standard monitoring и сравнение интервенций.</small></p>
+<p><small>Авторские ограничения: Перенос benchmark-эффекта на развитие человеческого навыка требует отдельного теста.</small></p>
+<blockquote>We compare teacher behavior during the monitoring phase</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2607.21306v1#S3.SS2">3 The Int-Bench Framework / 3.2 Monitoring · S3.SS2</a></small>
+<blockquote>We organize our results around our four research</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2607.21306v1#S5">5 Results · S5</a></small>
+<blockquote>AI assistants should ideally do more than correct</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2607.21306v1#S6">6 Discussion · S6</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2607.21306v1">Первоисточник</a></p>
+</article>
+<h3>Metacognitive Scaffolds Create Productive Friction for AI-Assisted Knowledge Work</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c35"><strong>source_finding</strong><p>Метакогнитивный scaffold в writing-задаче создаёт дополнительное усилие: участники могут оценивать систему как менее полезную, одновременно выполняя работу лучше. Удобство и качество измерены раздельно.</p>
+<p><small>Условия: Эксперимент. Две задачи, последующая работа без scaffold, rubric-based оценка.</small></p>
+<p><small>Авторские ограничения: LLM judge может предпочитать структуру текста содержанию; перенос ограничен выбранными writing tasks.</small></p>
+<blockquote>We conducted a randomized between-subjects experiment focusing on</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.30945v1#S3">3. Methods · S3</a></small>
+<blockquote>Our primary question was whether the scaffold improved</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.30945v1#S4.SS1">4. Results / 4.1. The scaffold improved essay quality · S4.SS1</a></small>
+<blockquote>A key limitation is the LLM judge. Firstly,</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.30945v1#S5.SS5">5. Discussion / 5.5. Limitations · S5.SS5</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2610.30945v1">Первоисточник</a></p>
+</article>
+<h3>Today&#x27;s Work, Tomorrow&#x27;s Workforce: Incentivizing Learning in AI-Assisted Work</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c36"><strong>source_finding</strong><p>Модель стимулов рассматривает повторяющиеся задачи, где решение принять помощь или решить самому меняет будущую квалификацию. Оптимальное распределение помощи зависит от долгосрочной цели навыка.</p>
+<p><small>Условия: Теоретическая модель. Последовательность задач одного семейства и динамика навыка.</small></p>
+<p><small>Авторские ограничения: Предполагается обучение через самостоятельное решение; engaged AI-use может изменить выводы.</small></p>
+<blockquote>In the second description, the worker does not</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2611.06346v2#A1.SS4.SSS0.Px2">Appendix A Derivations of the model equations / A.4 The discount factor as a continuation probability / Continuation: the worker performs an expected number of tasks. · A1.SS4.SSS0.Px2</a></small>
+<blockquote>Our primary theoretical contribution is to extend the</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2611.06346v2#S6">6 Discussion · S6</a></small>
+<blockquote>In our model, skill is acquired only through</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2611.06346v2#S6.SS5">6 Discussion / 6.5 Limitations and Future Research · S6.SS5</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2611.06346v2">Первоисточник</a></p>
+</article>
+<h3>Proximal State Nudging: Reducing Skill Atrophy from AI Assistance</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c37"><strong>source_finding</strong><p>Proximal State Nudging проектирует помощь с учётом последующего самостоятельного навыка. Метод проверяется на simulated learners и людях в CARLA, а не только по assisted performance.</p>
+<p><small>Условия: Модель и пользовательский эксперимент. LunarLander и две driving-задачи CARLA, 60 участников.</small></p>
+<p><small>Авторские ограничения: Симулятор и ограниченные motor tasks не устанавливают эффект в интеллектуальном труде.</small></p>
+<blockquote>Proximal State Nudging can build upon any existing</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2605.20355v1#S3.SS1">III Formalism / III-A Shared Control Planning for Assistance · S3.SS1</a></small>
+<blockquote>We first compare Proximal State Nudging against existing</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2605.20355v1#S4">IV Empirical Results: Simulated Learners · S4</a></small>
+<blockquote>Across simulated agents in LunarLander and n=60n=60 human</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2605.20355v1#S6">VI Discussion and Future Work · S6</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2605.20355v1">Первоисточник</a></p>
+</article>
+<h3>Confidence Without Competence in AI-Assisted Knowledge Work</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c38"><strong>source_finding</strong><p>Уверенность, усилие и освоение материала расходятся: полные ответы могут создавать ощущение понимания, тогда как guided hints и future-self explanations дают иной баланс измеренного обучения и нагрузки.</p>
+<p><small>Условия: Пользовательское исследование. Студенты, objective learning и perceived understanding.</small></p>
+<p><small>Авторские ограничения: Convenience sampling и конкретные задачи ограничивают перенос; самооценка не равна компетенции.</small></p>
+<blockquote>While Step 1 provided the “what” and “how</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2604.09444v1#S4.SS2">4. Formative Study: Design Requirements / 4.2. Step 2: Formative Study · S4.SS2</a></small>
+<blockquote>Consequently, for the remaining three pilot sessions, the</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2604.09444v1#S6.SS2">6. User Evaluation / 6.2. Pilot Studies · S6.SS2</a></small>
+<blockquote>In Phase 1, we acknowledge two primary limitations.</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2604.09444v1#S8.SS4">8. Discussion / 8.4. Limitations and Future Work · S8.SS4</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2604.09444v1">Первоисточник</a></p>
+</article>
+<h3>More AI Assistance Reduces Cognitive Engagement: Examining the AI Assistance Dilemma in AI-Supported Note-Taking</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c39"><strong>source_finding</strong><p>При note-taking промежуточная помощь дала лучшие post-test результаты, чем полная автоматизация, хотя участники предпочитали удобство автоматического режима.</p>
+<p><small>Условия: Эксперимент. 30 участников, заметки по видео и проверка понимания.</small></p>
+<p><small>Авторские ограничения: Малая выборка и ограниченные видеоматериалы; предпочтение интерфейса не доказывает учебную пользу.</small></p>
+<blockquote>We recruited 30 participants through mailing lists at</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2509.03392v1#S3.SS1.SSS2">3. Study / 3.1. Experiment design / 3.1.2. Participants and Procedure · S3.SS1.SSS2</a></small>
+<blockquote>Intermediate AIcondition (Mean = 13.88, SD = 2.34)</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2509.03392v1#S5.SS1.SSS1">5. Finding / 5.1. RQ1: How do different levels of AI assistance affect comprehension, cognitive load, note quality, and usability? / 5.1.1. Understanding Levels · S5.SS1.SSS1</a></small>
+<blockquote>We acknowledge the limitations of this work. 1)</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2509.03392v1#S6.SS4">6. Discussion / 6.4. Limitation · S6.SS4</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2509.03392v1">Первоисточник</a></p>
+</article>
+<h3>Does AI Assistance Leave a Temporal Fingerprint? Detecting Overreliance in AI-Assisted Writing and Programming</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c40"><strong>source_finding</strong><p>Временные признаки работы исследуются как индикатор полной передачи задачи ИИ, а не любого использования помощи. Положительная классификация на симуляции требует проверки в реальной учебной работе.</p>
+<p><small>Условия: Вторичный анализ и симуляция. Три существующих datasets; новые human data не собирались.</small></p>
+<p><small>Авторские ограничения: Симулированная delegation не равна реальному cheating; classifier flag не доказывает утрату навыка или нарушение.</small></p>
+<blockquote>DATA We analyze three public, de-identified corpora and</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/pdf/2609.17883v1#page=3">PDF, стр. 3</a></small>
+<blockquote>Three checks say strong but not trivial. A</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/pdf/2609.17883v1#page=7">PDF, стр. 7</a></small>
+<blockquote>AI use (Asher et al., 2026) and by</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/pdf/2609.17883v1#page=8">PDF, стр. 8</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2609.17883v1">Первоисточник</a></p>
+</article>
+<h3>Fast and Forgettable: A Controlled Study of Novices&#x27; Performance, Learning, Workload, and Emotion in AI-Assisted and Human Pair Programming Paradigms</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c41"><strong>source_finding</strong><p>AI-pair programming ускоряет совместное выполнение, но retest нужно анализировать отдельно: абсолютное снижение в AI-условии не было значимым. Нельзя превращать его в доказанный эффект забывания.</p>
+<p><small>Условия: Контролируемое исследование. Новички, командная работа и последующая индивидуальная проверка.</small></p>
+<p><small>Авторские ограничения: Малая выборка и кластеризация делают выводы о retest неопределёнными.</small></p>
+<blockquote>The study was conducted in accordance with the</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2604.18538v1#S3.SS1">3. Method / 3.1. Participants · S3.SS1</a></small>
+<blockquote>Fig. 3a shows a scatterplot of the actual</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2604.18538v1#S4.SS1">4. Results / 4.1. Team Performance · S4.SS1</a></small>
+<blockquote>Regarding internal validity, reliable inference is very challenging</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2604.18538v1#S6">6. Threats to Validity · S6</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2604.18538v1">Первоисточник</a></p>
+</article>
+<h3>Hint-Writing with Deferred AI Assistance: Fostering Critical Engagement in Data Science Education</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c42"><strong>source_finding</strong><p>Deferred AI assistance используется после самостоятельного составления подсказок к ошибочному коду. Объект исследования — учебная деятельность и критическая проверка, а не только готовая подсказка.</p>
+<p><small>Условия: Учебное исследование. Реальный graduate Data Manipulation курс.</small></p>
+<p><small>Авторские ограничения: Учебный контекст содержит возможные confounders; полученный артефакт не является прямой мерой долгосрочного навыка.</small></p>
+<blockquote>We conducted a study comparing three personalized hint</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2604.19931v1#S3.SS1.SSSx1">3. Method / 3.1. Study Design / Educational Context · S3.SS1.SSSx1</a></small>
+<blockquote>We now present the results for each of</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2604.19931v1#S4">4. Results · S4</a></small>
+<blockquote>This study has some limitations, particularly due to</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2604.19931v1#S5.SS0.SSSx5">5. Discussion and Future Work / Limitations · S5.SS0.SSSx5</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2604.19931v1">Первоисточник</a></p>
+</article>
+<h3>Do People Trust AI Assistants Even When They Are Consistently Wrong?</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c43"><strong>source_finding</strong><p>Повторное общение не гарантирует правильной калибровки: без внешней обратной связи люди продолжают принимать неверные советы. История точности полезна, когда пользователь получает ground-truth feedback.</p>
+<p><small>Условия: Серия экспериментов. Helpful, unhelpful и mixed advisors; сравнение с human advisors.</small></p>
+<p><small>Авторские ограничения: Изучены короткие вопросы с известной истиной; во многих реальных решениях своевременная обратная связь недоступна.</small></p>
+<blockquote>We created 30 two-alternative forced choice (2AFC) questions</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2611.14833v1#S2.SS1.SSS1.Px1">2 Experiments / 2.1 Experiment 1: Ground Truth Feedback / 2.1.1 Method / Materials · S2.SS1.SSS1.Px1</a></small>
+<blockquote>(H1–H2) Historically helpful and mixed assistants are persuasive</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2611.14833v1#S2.SS1.SSS2">2 Experiments / 2.1 Experiment 1: Ground Truth Feedback / 2.1.2 Results · S2.SS1.SSS2</a></small>
+<blockquote>Several features of our design limit the conclusions</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2611.14833v1#S4.SS5">4 General Discussion / 4.5 Limitations and Constraints on Generality · S4.SS5</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2611.14833v1">Первоисточник</a></p>
+</article>
+<h3>The Impact and Feasibility of Self-Confidence Shaping for AI-Assisted Decision-Making</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c44"><strong>source_finding</strong><p>Self-confidence shaping рассматривается как способ менять принятие AI-рекомендаций. Возможность предсказывать или сдвигать уверенность не доказывает, что соответствующее воздействие улучшит решения в реальном внедрении.</p>
+<p><small>Условия: Модель и эмпирический анализ. Acceptance Rate и связь self-confidence с sentiment.</small></p>
+<p><small>Авторские ограничения: Практическая эффективность и допустимость изменения уверенности требуют отдельной проверки.</small></p>
+<blockquote>where ym∈{−1,+1}y^{m}\in\{-1,+1\} is the model’s predicted label for</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2502.14311v1#S3.SS1.SSS0.Px2">3 AI-Assisted Decision-Making / 3.1 Collaborative Decision-Making / AI Model · S3.SS1.SSS0.Px2</a></small>
+<blockquote>First, we aim to quantify how much human-AI</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2502.14311v1#S5.SS0.SSS0.Px1">5 Evaluations / RQ1: Impact of Self-Confidence Shaping · S5.SS0.SSS0.Px1</a></small>
+<blockquote>where yh∈{−1,+1}y^{h}\in\{-1,+1\} is the human’s independent decision for</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2502.14311v1#S3.SS1.SSS0.Px1">3 AI-Assisted Decision-Making / 3.1 Collaborative Decision-Making / Human Decision-Maker (DM) · S3.SS1.SSS0.Px1</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2502.14311v1">Первоисточник</a></p>
+</article>
+<h3>How AI Assistance Affects Human Skill Development: A Study of Learning with Logic Puzzles</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c45"><strong>source_finding</strong><p>В трёхфазной logic-puzzle задаче самостоятельное усилие связано с приростом task-specific способности. Наблюдаемую связь нельзя без дополнительного контроля превращать в эффект любого AI-use.</p>
+<p><small>Условия: Эксперимент. Pre-AI, помощь и subsequent unaided performance.</small></p>
+<p><small>Авторские ограничения: Краткий горизонт и одна задача; выбор запрашивать помощь может зависеть от исходной способности.</small></p>
+<blockquote>We build on a logic-puzzle paradigm used in</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2608.23543v1#S3.SS1">3. Experiment / 3.1. Task Description · S3.SS1</a></small>
+<blockquote>To examine whether participants in general showed task-specific</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2608.23543v1#S4.SS1.SSS0.Px1">4. User Study Results / 4.1. Empirical Findings / Skill Development: · S4.SS1.SSS0.Px1</a></small>
+<blockquote>This study examines the role of AI assistance</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2608.23543v1#S5">5. Discussion and Conclusion · S5</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2608.23543v1">Первоисточник</a></p>
+</article>
+<h3>AI-Assisted Decision Making with Human Learning</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c46"><strong>source_finding</strong><p>Формальная модель учитывает обучение человека в повторных решениях. Выбор показываемых признаков меняет и текущую точность, и будущую информированность пользователя.</p>
+<p><small>Условия: Теоретическая модель. Повторные решения и формальная динамика обучения.</small></p>
+<p><small>Авторские ограничения: Выводы зависят от простых модельных предпосылок; это не пользовательское доказательство универсального улучшения навыка.</small></p>
+<blockquote>In this section, we provide additional details about</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2502.13062v2#S3">3 Model and Preliminaries · S3</a></small>
+<blockquote>In this paper, we formally model human decision-making</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2502.13062v2#S7">7 Discussion · S7</a></small>
+<blockquote>In our modeling, we chose assumptions that are</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2502.13062v2#S7">7 Discussion · S7</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2502.13062v2">Первоисточник</a></p>
+</article>
+<h3>Do Users Write More Insecure Code with AI Assistants?</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c47"><strong>source_finding</strong><p>В security coding study доступ к AI-assistant часто сопровождался большим числом уязвимостей. Корректность и безопасность кода нужно проверять отдельно от лёгкости его получения.</p>
+<p><small>Условия: Пользовательский эксперимент. Несколько языков, экспериментальная и контрольная группы.</small></p>
+<p><small>Авторские ограничения: Преимущественно студенческая выборка и исследованная модель ограничивают перенос на современные инструменты.</small></p>
+<blockquote>In this section, we describe how we designed</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2211.03622v3#S3">3. Methods · S3</a></small>
+<blockquote>Overall, we find that having access to the</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2211.03622v3#S4.SS6">4. Security Analysis / 4.6. Security Results Summary · S4.SS6</a></small>
+<blockquote>One important limitation of our results is that</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2211.03622v3#S7.SS2">7. Discussion / 7.2. Limitations · S7.SS2</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2211.03622v3">Первоисточник</a></p>
+</article>
+<h3>AI Assistance Reduces Persistence and Hurts Independent Performance</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c48"><strong>source_finding</strong><p>Работа проверяет persistence и independent performance после удаления AI-помощи. Assisted success не рассматривается как достаточное свидетельство самостоятельного обучения.</p>
+<p><small>Условия: Серия экспериментов. Участники Prolific, attention checks и последующие задачи без assistant.</small></p>
+<p><small>Авторские ограничения: Краткие экспериментальные задачи и критерии исключения ограничивают обобщение на долгосрочную профессиональную деградацию.</small></p>
+<blockquote>We recruited 354354 US-based participants from the online</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2604.04721v6#S2.SS1">2 Experiment 1: AI impairs unassisted performance and persistence / 2.1 Method · S2.SS1</a></small>
+<blockquote>For the results that follow, we used the</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2604.04721v6#S2.SS2">2 Experiment 1: AI impairs unassisted performance and persistence / 2.2 Results · S2.SS2</a></small>
+<blockquote>To measure independent problem-solving capacity, the AI assistant</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2604.04721v6#S2.SS1">2 Experiment 1: AI impairs unassisted performance and persistence / 2.1 Method · S2.SS1</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2604.04721v6">Первоисточник</a></p>
+</article>
+<h3>Feeling Easier, Working Harder: Cognitive Load in AI-Assisted Code Comprehension</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c49"><strong>source_finding</strong><p>При code comprehension взаимодействие с AI может добавлять нагрузку управления инструментом, даже когда работа субъективно кажется проще. Cognitive load нужно измерять несколькими способами.</p>
+<p><small>Условия: Пользовательское исследование. 20 анализируемых участников после исключений.</small></p>
+<p><small>Авторские ограничения: Малая выборка; tDRT является косвенной мерой, а не прямым измерением понимания.</small></p>
+<blockquote>Participants completed six Java comprehension tasks. Within each</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2611.12019v1#S3">III Research Methodology · S3</a></small>
+<blockquote>Twenty-two participants completed the study, but data from</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2611.12019v1#S4">IV Analyses and Results · S4</a></small>
+<blockquote>A comprehension aid that adds load. Prior work</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2611.12019v1#S5">V Discussion, Limitations and Implications · S5</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2611.12019v1">Первоисточник</a></p>
+</article>
+<h3>How Performance Pressure Influences AI-Assisted Decision Making</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c50"><strong>source_finding</strong><p>Давление performance взаимодействует со способом объяснения совета. Одинаковое требование ускориться или быть точнее может по-разному менять advice-taking в разных XAI conditions.</p>
+<p><small>Условия: Эксперимент. Baseline, LIME и GenAI; задача распознавания отзывов.</small></p>
+<p><small>Авторские ограничения: Низкорисковые crowdworker tasks; часть результатов использует uncorrected p-values.</small></p>
+<blockquote>We sample 24 reviews from the test set,</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2410.16560v3#S3.SS5.SSS0.Px1">3 Experiment / 3.5 Experiment Setup / Items. · S3.SS5.SSS0.Px1</a></small>
+<blockquote>After filtering for failed attention checks, we collected</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2410.16560v3#S4">4 Results · S4</a></small>
+<blockquote>Our experiments in manipulating environmental pressure used an</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2410.16560v3#Sx1">Limitations · Sx1</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2410.16560v3">Первоисточник</a></p>
+</article>
+</section><footer><h2>Ограничения</h2>
+<p>Концептуальный обзор 50 целенаправленно выбранных работ; не исчерпывающий систематический обзор. Число публикаций не равно числу независимых экспериментов: есть обзоры, теоретические и архитектурные работы.</p>
+<p>Для новых работ прочитаны выбранные абзацы методов, результатов/обсуждения и ограничений; не все разделы и приложения. Точные версии, фрагменты и SHA-256 сохранены.</p>
+<p>Эксперименты авторов не воспроизводились, независимой научной рецензии нет. Предлагаемые собственные проверки не выполнялись.</p>
+</footer></main></html>

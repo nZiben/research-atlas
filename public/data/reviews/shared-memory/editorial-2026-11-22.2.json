@@ -1,0 +1,3691 @@
+{
+  "schema_version": 1,
+  "kind": "editorial_review",
+  "snapshot_id": "editorial-2026-11-22.2",
+  "at": "2026-11-22",
+  "review": {
+    "topic": "Как агентам делиться опытом, не распространяя ошибки?",
+    "questions": [
+      "Как агентам делиться опытом, не распространяя ошибки?"
+    ]
+  },
+  "papers": [
+    {
+      "id": "arxiv-2404-09982",
+      "title": "INMS: Memory Sharing for Large Language Model based Agents",
+      "authors": [
+        "Hang Gao",
+        "Yongfeng Zhang"
+      ],
+      "year": 2024,
+      "arxiv_id": "2404.09982v3",
+      "url": "https://arxiv.org/abs/2404.09982v3",
+      "doi": "",
+      "source_sha256": "472b3c0e66471f04b37144c40c94ddb0ff4ae92b7a3e94c3a5c63510f79c5609",
+      "checked_at": "2026-11-22",
+      "read_sections": "Текстовая реализация и механизм §3, эксперименты §4, ограничения §6; версия v3."
+    },
+    {
+      "id": "arxiv-2505-18279",
+      "title": "Collaborative Memory: Multi-User Memory Sharing in LLM Agents with Dynamic Access Control",
+      "authors": [
+        "Alireza Rezazadeh",
+        "Zichao Li",
+        "Ange Lou",
+        "Yuying Zhao",
+        "Wei Wei",
+        "Yujia Bao"
+      ],
+      "year": 2025,
+      "arxiv_id": "2505.18279v1",
+      "url": "https://arxiv.org/abs/2505.18279v1",
+      "doi": "",
+      "source_sha256": "e83c35d151705052883763d0a0f1e1e77c26630cfeb52d7f2b284a364c04a300",
+      "checked_at": "2026-11-22",
+      "read_sections": "Механизм §3–4, три сценария §5 и ограничения §6; MultiHop-RAG и синтетические задачи с различающимися правами."
+    },
+    {
+      "id": "arxiv-2602-05965",
+      "title": "Learning to Share: Selective Memory for Efficient Parallel Agentic Systems",
+      "authors": [
+        "Joseph Fioresi",
+        "Parth Parag Kulkarni",
+        "Ashmal Vayani",
+        "Song Wang",
+        "Mubarak Shah"
+      ],
+      "year": 2026,
+      "arxiv_id": "2602.05965v1",
+      "url": "https://arxiv.org/abs/2602.05965v1",
+      "doi": "",
+      "source_sha256": "44b0110c548c3a772d66ac9621fcd5354dc942849726d244a71cdb8c2a95d104",
+      "checked_at": "2026-11-22",
+      "read_sections": "§3–4.5: AssistantBench и GAIA, фиксированный parallel-agent framework и анализ стоимости контроллера."
+    },
+    {
+      "id": "arxiv-2603-23234",
+      "title": "MemCollab: Cross-Agent Memory Collaboration via Contrastive Trajectory Distillation",
+      "authors": [
+        "Yurui Chang",
+        "Yiran Wu",
+        "Qingyun Wu",
+        "Lu Lin"
+      ],
+      "year": 2026,
+      "arxiv_id": "2603.23234v1",
+      "url": "https://arxiv.org/abs/2603.23234v1",
+      "doi": "",
+      "source_sha256": "c56b5860bc78d6814492df12a2df93ea46aae4a73ac878e8bca34373af31ede0",
+      "checked_at": "2026-11-22",
+      "read_sections": "§3–4 и Appendix A/C: reasoning и code, разделение задач построения памяти и оценки, сравнение источников памяти."
+    },
+    {
+      "id": "arxiv-2609-32511",
+      "title": "Learning from Others, Acting for You: Cross-User Memory Sharing for LLM Agents",
+      "authors": [
+        "Jinming Hu",
+        "Haodong Zhao",
+        "Qi Jia",
+        "Die Chen",
+        "Tianhang Zhao",
+        "Sufeng Duan",
+        "Gongshen Liu"
+      ],
+      "year": 2026,
+      "arxiv_id": "2609.32511v1",
+      "url": "https://arxiv.org/abs/2609.32511v1",
+      "doi": "",
+      "source_sha256": "b19f58b2bdc22209886f667be7ff67d90570f8cf9f44044d2ed3b42f4eb298b4",
+      "checked_at": "2026-11-22",
+      "read_sections": "§3–5: Mind2Web, VitaBench 2.0, MemoryCode; абляции consolidation и preference retrieval."
+    },
+    {
+      "id": "arxiv-2606-24535",
+      "title": "Governed Shared Memory for Multi-Agent LLM Systems",
+      "authors": [
+        "Yanki Margalit",
+        "Nurit Cohen-Inger",
+        "Erni Avram",
+        "Ran Taig",
+        "Oded Margalit"
+      ],
+      "year": 2026,
+      "arxiv_id": "2606.24535v1",
+      "url": "https://arxiv.org/abs/2606.24535v1",
+      "doi": "",
+      "source_sha256": "bc0b39bd469c09219592e599d188a436ab494bfcd93570cae6324edc543763fd",
+      "checked_at": "2026-11-22",
+      "read_sections": "Прочитаны failure modes §4, механизм §5, метод/результаты §7–8, проблемы §9 и ограничения §10."
+    },
+    {
+      "id": "arxiv-2609-17921",
+      "title": "Collaborative Memory for Multi-Agent VLM Systems",
+      "authors": [
+        "Huixin Zhang",
+        "Shao-Jun Xia",
+        "Di Wang",
+        "Liangxi Liu",
+        "Hainan Xiong",
+        "Zihao Wang"
+      ],
+      "year": 2026,
+      "arxiv_id": "2609.17921v1",
+      "url": "https://arxiv.org/abs/2609.17921v1",
+      "doi": "",
+      "source_sha256": "6d3e6e8576ae1193c459c1dc513b5108777fac58e81e56a33802df29abe3e0ea",
+      "checked_at": "2026-11-22",
+      "read_sections": "Концептуальная схема §2–4 и будущие направления §6: visual evidence, provenance, reconciliation."
+    },
+    {
+      "id": "arxiv-2611-22461",
+      "title": "Surfacing Disagreement Beats Resolving It: A Gated Ablation Study of Provenance-Weighted Memory for Multi-Agent Debate",
+      "authors": [
+        "Ziaullah Khan",
+        "Abdul Rehman Khalid",
+        "Shrestha Nischal Lal",
+        "Nheng Vanchhay",
+        "Md Ariful Islam Mozumder",
+        "Hee-Cheol Kim"
+      ],
+      "year": 2026,
+      "arxiv_id": "2611.22461v1",
+      "url": "https://arxiv.org/abs/2611.22461v1",
+      "doi": "",
+      "source_sha256": "1d1d9daf15f049ceedbf9c2427de5846f71bf0fa264a6b80a944c9887f85a721",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: A1 Appendix A Method parameterisation; S6.SS1 6 Results / 6.1 Phase 0–1: the ceiling, and whether structure pays; S8 8 Limitations"
+    },
+    {
+      "id": "arxiv-2611-22245",
+      "title": "Multi-Agent Memory Inconsistency: Where Factual Conflicts Disappear in LLM Agents",
+      "authors": [
+        "Hejia Zhang",
+        "Zhongming Yu",
+        "Yimin Ding",
+        "Wei-Ting Chen",
+        "Hengjia Yu",
+        "Wentao Ni",
+        "Yijun Liu",
+        "Cong Xu",
+        "Xin Chen",
+        "Matrix Yao",
+        "Fan Zhao",
+        "Jishen Zhao"
+      ],
+      "year": 2026,
+      "arxiv_id": "2611.22245v2",
+      "url": "https://arxiv.org/abs/2611.22245v2",
+      "doi": "",
+      "source_sha256": "042feccb489e5788ad875d9df336308cb1dfe63132e6ae7be869078916310ab5",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3 3 Benchmark and Measurement; S4.SS3 4 Experimental Results / 4.3 From Evidence Collection to Conflict Detection; Sx1 Limitations"
+    },
+    {
+      "id": "arxiv-2611-12068",
+      "title": "MIRIX-2.0: Multi-Agent Memory System",
+      "authors": [
+        "Wei-Chieh Huang",
+        "Weizhi Zhang",
+        "Jiayan Nan",
+        "Peng Xia",
+        "Yu Wang"
+      ],
+      "year": 2026,
+      "arxiv_id": "2611.12068v1",
+      "url": "https://arxiv.org/abs/2611.12068v1",
+      "doi": "",
+      "source_sha256": "564834d8b47fba93d13f4f8879ec6b15624ce703c8220660272c7d7d1eade8e8",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S2.SS4.SSS0.Px3 2 Methodology / 2.4 Graph-owned evidence retrieval / Two evidence lanes.; S5 5 Conclusion; S5.SS0.SSS0.Px1 5 Conclusion / Limitations."
+    },
+    {
+      "id": "arxiv-2611-08718",
+      "title": "Memory-Aware Multi-Agent Architecture with LLM-based Orchestration for Conversational Recommendation",
+      "authors": [
+        "Emilly Pitman de Castro",
+        "Vanessa Silva",
+        "Gustavo Kanno",
+        "Marcus Santos",
+        "Bruno Ferraz do Amaral",
+        "Marcelo Nogueira",
+        "Lucas Francisco Pellicer",
+        "Lucas Lanaro",
+        "Pedro Augusto Luiz",
+        "João Renato Ribeiro Manesco",
+        "Giovanni Carbinatti",
+        "Isabela de Lima Santos",
+        "Lucas Oliveira Jeronymo",
+        "Jeison Fappi",
+        "Raul Rotilli Aguirre",
+        "Fabio André Frantz",
+        "Renata De Paris",
+        "Fabiana Marucci",
+        "Lohan Silva",
+        "Vinicius Diniz Reolon",
+        "Wandemberg Gibaut"
+      ],
+      "year": 2026,
+      "arxiv_id": "2611.08718v1",
+      "url": "https://arxiv.org/abs/2611.08718v1",
+      "doi": "10.1007/978-3-032-39892-5_25",
+      "source_sha256": "3378e82bc84713ae0e21e5045fce20ee9df83a24a49901a1916c63bcab2c6774",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S4.SS1 4 Experimental Methodology / 4.1 Dataset and Preprocessing; S5.SS1 5 Results / 5.1 Offline Evaluation; S6.SS4 6 Discussions / 6.4 Limitations"
+    },
+    {
+      "id": "arxiv-2611-04296",
+      "title": "SEAM: Situated Executable Associative Memory for a Co-located Community",
+      "authors": [
+        "Keru Wang",
+        "Michael Xu",
+        "Ken Perlin",
+        "Nebojsa Jojic",
+        "Andrzej Banburski-Fahey"
+      ],
+      "year": 2026,
+      "arxiv_id": "2611.04296v1",
+      "url": "https://arxiv.org/abs/2611.04296v1",
+      "doi": "",
+      "source_sha256": "85650cb476a714cbfbf4e081240c379e7955b4e615e2cf421e626e5d3e80a1be",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S5.SS1 5. User Study Setup / 5.1. Field deployment; S6.SS2.SSS1.Px3 6. Findings / 6.2. How the Memory Recalls and Reacts / 6.2.1. What a reply is made of / Executable.; S7.SS2 7. Discussion / 7.2. Study limitations"
+    },
+    {
+      "id": "arxiv-2611-09990",
+      "title": "Peer Memory Changes Who LLM Agents Consult Without a Detected Gain in Answer Accuracy",
+      "authors": [
+        "Jeffrey Chu",
+        "Anjali Joseph",
+        "Rivan Mandot",
+        "Feker Demere",
+        "Vincent Li"
+      ],
+      "year": 2026,
+      "arxiv_id": "2611.09990v1",
+      "url": "https://arxiv.org/abs/2611.09990v1",
+      "doi": "",
+      "source_sha256": "6a279f238153eba75341d80c772c9a8d0a7958319fe21d0e698eae5a0c6a0bb2",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3.SS1 3 Method / 3.1 Task and interaction protocol; S3.SS3 3 Method / 3.3 Reward and evaluation measures; S7 7 Limitations"
+    },
+    {
+      "id": "arxiv-2610-37935",
+      "title": "SkillMem: Compact External Skill Memory for Latent Multi-Agent Reasoning",
+      "authors": [
+        "Yuxuan Zhu",
+        "Mohammad Mohammadi Amiri",
+        "Pin-Yu Chen",
+        "Keerthiram Murugesan"
+      ],
+      "year": 2026,
+      "arxiv_id": "2610.37935v1",
+      "url": "https://arxiv.org/abs/2610.37935v1",
+      "doi": "",
+      "source_sha256": "d513305d5af01ad7824b75eb7c678ff610fd8659eb79f9e3b5c93ffd6698d11a",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S4.SS4 4 Method / 4.4 Skill Discovery; S6.SS2 6 Experiments / 6.2 Main Results; S7 7 Conclusion and Future Work"
+    },
+    {
+      "id": "arxiv-2610-36652",
+      "title": "Remembering Is Not Enough: Refining Memories and Learning When to Use Them in Multi-Agent Systems",
+      "authors": [
+        "Yipeng Hao",
+        "Yuxuan Cai",
+        "Wenkai Ji",
+        "Jie Zhou",
+        "Liyang Yu",
+        "Qin Chen",
+        "Zhiguo Yan",
+        "Shulei Zheng",
+        "Liang He"
+      ],
+      "year": 2026,
+      "arxiv_id": "2610.36652v1",
+      "url": "https://arxiv.org/abs/2610.36652v1",
+      "doi": "",
+      "source_sha256": "4b24da075b6a956decec07794e79eec4d978e785ef4c4a6b29758ab8e6b5bc8b",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3.SS1 3 Method / 3.1 Overview; S5 5 Conclusion and Future Work; Sx1 Limitations"
+    },
+    {
+      "id": "arxiv-2610-35966",
+      "title": "EMMA: Structured Episodic Memory for Multi-Agent Workflow Synthesis",
+      "authors": [
+        "Ruijia Niu",
+        "Kaiwen Liu",
+        "Rose Yu",
+        "Kristina Klinkner"
+      ],
+      "year": 2026,
+      "arxiv_id": "2610.35966v1",
+      "url": "https://arxiv.org/abs/2610.35966v1",
+      "doi": "",
+      "source_sha256": "92934cd0d2021a14648cdb47a13f3f4b84f577271b441630875da16ab6884fd8",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S5.SS1 5 Experiments / 5.1 Experimental Setup; S5.SS2.SSS2 5 Experiments / 5.2 Experimental Results / 5.2.2 Update Efficiency; S6 6 Conclusion and Limitations"
+    },
+    {
+      "id": "arxiv-2610-33539",
+      "title": "CoEvolve: Counterfactual-Guided Co-Evolution of Memory and Collaboration in Multi-Agent Systems",
+      "authors": [
+        "Xufei Shi",
+        "Derong Xu",
+        "Wei Chen",
+        "Yanyu Yao",
+        "Zhi Zheng",
+        "Tong Xu"
+      ],
+      "year": 2026,
+      "arxiv_id": "2610.33539v1",
+      "url": "https://arxiv.org/abs/2610.33539v1",
+      "doi": "",
+      "source_sha256": "cfd8930f56b04f31cb7eb2891dadd08d576e434674ef3e3d65ac1fbd740e63bd",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S4.SS1 4 Experiments / 4.1 Experimental Setup; S5 5 Conclusion; S3.SS4.SSS3 3 Method / 3.4 Counterfactual-Guided Evolution / 3.4.3 Aligned Evolution of Collaboration and Memory"
+    },
+    {
+      "id": "arxiv-2610-31355",
+      "title": "Muffin - A Shared Memory Buffer for Asynchronous AI Agents",
+      "authors": [
+        "Ping-Lin Kuo",
+        "Suman Navaratnarajah",
+        "Christian Frey",
+        "Gresa Shala",
+        "Josif Grabocka"
+      ],
+      "year": 2026,
+      "arxiv_id": "2610.31355v1",
+      "url": "https://arxiv.org/abs/2610.31355v1",
+      "doi": "",
+      "source_sha256": "b7de04b987fc68c9dac98955aa7a5980afe69fcd686caf1e0ab30e10d2761763",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S4.SS1 4 Experiments / 4.1 Setup; S4.SS4 4 Experiments / 4.4 Limitations and Discussion"
+    },
+    {
+      "id": "arxiv-2610-28810",
+      "title": "Combining Long-Term Memory and LLMs Comes at a High Cost: From Prompt Injection to Persistent Compromise",
+      "authors": [
+        "Pedro H. Barcha Correia",
+        "Matheus Azevedo de Sá",
+        "Paulo H. Gomes de Senna",
+        "Giovanni Mandel Martignago",
+        "Victor Takashi Hayashi",
+        "Charles Christian Miers",
+        "Marcos A. Simplicio"
+      ],
+      "year": 2026,
+      "arxiv_id": "2610.28810v1",
+      "url": "https://arxiv.org/abs/2610.28810v1",
+      "doi": "",
+      "source_sha256": "cb59cc9d9f0aa77adf1862f3cbd1aff5ae809b61b894357edd492bf4e1f637f5",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S4.SS2 IV Threat model / IV-B Attacker knowledge and goals; S5.SS3 V Experiments and results / V-C Availability breakdown; S6.SS4 VI Discussion / VI-D Limitations of the NIST taxonomy"
+    },
+    {
+      "id": "arxiv-2610-27032",
+      "title": "M-Plan: Comprehensive Planning For LLM Agents with Memory Arrangement",
+      "authors": [
+        "Ziyang Liu",
+        "Jiakang Yuan",
+        "Jiayuan Fan",
+        "Tao Chen"
+      ],
+      "year": 2026,
+      "arxiv_id": "2610.27032v1",
+      "url": "https://arxiv.org/abs/2610.27032v1",
+      "doi": "",
+      "source_sha256": "2fe2d7a2fb7719aaf5e80cd5572a4a24e78367160101879a0245d2cb84ab7929",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: A3 Appendix C EXPERIMENT SETUP; S4.SS2 4 Experiment / 4.2 Main Results; S3.SS1 3 Methodology / 3.1 Overview"
+    },
+    {
+      "id": "arxiv-2610-19581",
+      "title": "XferAgent: Cross-Agent Experience Transfer for Self-Improving LLM Agents",
+      "authors": [
+        "Weihao Li",
+        "Jun Bai",
+        "Shijie Chen",
+        "Qincheng Lu",
+        "Xinyu Wang",
+        "Ziyang Song"
+      ],
+      "year": 2026,
+      "arxiv_id": "2610.19581v1",
+      "url": "https://arxiv.org/abs/2610.19581v1",
+      "doi": "",
+      "source_sha256": "1c862fec649f529bd1b07d9cb207dc246e1d10483bb9c129dded834103161f5f",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S4.SS1.SSS0.Px1 4 Experiments / 4.1 Experimental Setup / Datasets and Backbones.; S4.SS1.SSS0.Px4 4 Experiments / 4.1 Experimental Setup / Evaluation Protocols and Metrics.; Sx1 Limitations"
+    },
+    {
+      "id": "arxiv-2610-14515",
+      "title": "SEPM: Self-Evolving Procedural Memory Grounded in Task Graphs for Multi-Agent Collaboration",
+      "authors": [
+        "Yi Liu",
+        "Junwei Zhao",
+        "Li Sun",
+        "Jiansong Zhang",
+        "Sen Su"
+      ],
+      "year": 2026,
+      "arxiv_id": "2610.14515v1",
+      "url": "https://arxiv.org/abs/2610.14515v1",
+      "doi": "",
+      "source_sha256": "25610d7e4936395c275be5c93867a547b0e0dce5f43d817042fa23d617ab8190",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S5.SS1 5 Experiments / 5.1 Experimental Setup; S6.SS0.SSS0.Px1 6 Conclusion and Limitations / Conclusion."
+    },
+    {
+      "id": "arxiv-2610-13267",
+      "title": "Forgetting is Not Always Bad: A Neuro-Inspired Memory Repair Mechanism for Poisoned LLM Agents",
+      "authors": [
+        "Lei Liu",
+        "Yunji Liang",
+        "Xiaowen Zhang",
+        "Jingqi Liu",
+        "Qi Li",
+        "Bin Guo",
+        "Zhiwen Yu"
+      ],
+      "year": 2026,
+      "arxiv_id": "2610.13267v1",
+      "url": "https://arxiv.org/abs/2610.13267v1",
+      "doi": "",
+      "source_sha256": "fe0b2ebdc26192b5c9f1cf237d96177cefd59094a421bd84c9d7f4ff45c94bdd",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S4 4 Methods; S5.SS2 5 Experiments and Results / 5.2 Main Results; A1 Appendix A Limitations"
+    },
+    {
+      "id": "arxiv-2610-12793",
+      "title": "Gamma: Grounded Multi-Agent Memory with Mechanical Audit for Memory-Intensive Manipulation",
+      "authors": [
+        "Yudong Liu",
+        "Yueqian Lin",
+        "Zijia Tang",
+        "Yuxi Zheng",
+        "Yuan Li",
+        "Shuai Zhang",
+        "Yi Li",
+        "Taotao Jing",
+        "Shuangjun Liu",
+        "Dashan Gao",
+        "Ning Bi",
+        "Jingwei Sun",
+        "Yiran Chen",
+        "Hai Helen Li"
+      ],
+      "year": 2026,
+      "arxiv_id": "2610.12793v1",
+      "url": "https://arxiv.org/abs/2610.12793v1",
+      "doi": "",
+      "source_sha256": "489a1e510bce8e6a6f678fd5011399429168adb666069d7d0db944bfd730dbf9",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S4.SS3 4 Method / 4.3 Targets and training; S5.SS2 5 Experiments / 5.2 Main results; S6 6 Discussion and Limitations"
+    },
+    {
+      "id": "arxiv-2610-08101",
+      "title": "Beyond Corrected Memory: Execution Consistency in Multi-Agent Systems",
+      "authors": [
+        "Zhe Yu",
+        "Zixuan Wang",
+        "Peidong Wang",
+        "Hehai Lin",
+        "Ruochen Zhao",
+        "Chengwei Qin"
+      ],
+      "year": 2026,
+      "arxiv_id": "2610.08101v1",
+      "url": "https://arxiv.org/abs/2610.08101v1",
+      "doi": "",
+      "source_sha256": "e533eae83d979dc41f5cb0a021a6b972af8ad80ca5e0fbcd52bdc070b00fa541",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: A3.SS1 Appendix C Definition Evaluation Details / C.1 Paired Design and Information Removal; S6 6 Conclusion; A5.SS5 Appendix E Execution Protocol and Stratification / E.5 Limitations"
+    },
+    {
+      "id": "arxiv-2610-07376",
+      "title": "MemCo: Memory-Centric Collaboration for Generalizing LLM Agents to Unseen Environments",
+      "authors": [
+        "Xinting Liao",
+        "Siyan Liu",
+        "Rabab K. Ward",
+        "Holger R. Roth",
+        "Xiaoxiao Li"
+      ],
+      "year": 2026,
+      "arxiv_id": "2610.07376v1",
+      "url": "https://arxiv.org/abs/2610.07376v1",
+      "doi": "",
+      "source_sha256": "1d5ebe68039dfe7f146445438cb0446a1d5064223f7577fc40c2917f0e539fee",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3.SS4 3 Methodology / 3.4 Progressive Global Memory Collaboration; S6 6 Conclusion; Sx1 Limitations"
+    },
+    {
+      "id": "arxiv-2610-07031",
+      "title": "Artemis: Geometry-Grounded Multi-Agent Driving World Models with Shared 3D State and Progressive Memory Update",
+      "authors": [
+        "Sitian Shen",
+        "Jiuming Liu",
+        "Mengmeng Liu",
+        "Yian Wang",
+        "Michael Ying Yang",
+        "Francesco Nex",
+        "Hao Cheng",
+        "Daniele De Martini",
+        "Ayush Tewari",
+        "Per Ola Kristensson"
+      ],
+      "year": 2026,
+      "arxiv_id": "2610.07031v1",
+      "url": "https://arxiv.org/abs/2610.07031v1",
+      "doi": "",
+      "source_sha256": "6074fed15aba8a9d166a803caf14f84c55809870bad8f09e19e0d32bf2d98bde",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: A1.SS1.SSS2 Appendix A Appendix / A.1 MA-CARLA Dataset Details / A.1.2 Interaction Template Design; S5.SS2 5 Experiment / 5.2 Quantitative Results; S3.SS1 3 MA-CARLA Dataset / 3.1 Data Collection"
+    },
+    {
+      "id": "arxiv-2610-05176",
+      "title": "AECG: Asymmetric Experience Consolidation and Governance In Multi-Agent Systems",
+      "authors": [
+        "Ao Tian",
+        "Jialong Liu",
+        "Daqi Zheng",
+        "Xin Sun",
+        "Mengting Li",
+        "Zhizhao Xiao",
+        "Zijian Huang",
+        "Honglei Wang",
+        "Zijian Hei",
+        "Yukun Yan"
+      ],
+      "year": 2026,
+      "arxiv_id": "2610.05176v1",
+      "url": "https://arxiv.org/abs/2610.05176v1",
+      "doi": "",
+      "source_sha256": "acae64b359f9ec70f834886c319dc1e251860a8f905bbec49214dd7e0c5f9e44",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S4.SS1 4 Experiments / 4.1 Experimental Setup; S5 5 Conclusion; S3.SS1 3 Method / 3.1 Problem Formulation and Method Overview"
+    },
+    {
+      "id": "arxiv-2609-37923",
+      "title": "EpiCon: Collective Agent Learning through Co-Evolving Multimodal Memory",
+      "authors": [
+        "Ziyun Zeng",
+        "Hang Hua",
+        "Shaden Alshammari",
+        "Rogerio Feris",
+        "William T. Freeman",
+        "Jiebo Luo"
+      ],
+      "year": 2026,
+      "arxiv_id": "2609.37923v1",
+      "url": "https://arxiv.org/abs/2609.37923v1",
+      "doi": "",
+      "source_sha256": "0017ea04dd49382442e52e9b5c2c8a7e43a498f694277e0c70b967388c3638d6",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S4.SS3 4 Methodology / 4.3 Shared Experience Consolidation and Reuse; S5.SS2 5 Experiments / 5.2 Main Results; S3 3 Data Curation"
+    },
+    {
+      "id": "arxiv-2609-35551",
+      "title": "BaRe-Mem: Bayesian Reliability Memory for Robust and Adaptive Agent Consultation",
+      "authors": [
+        "Peilin Feng",
+        "Zhengyang Huang",
+        "Soujanya Poria"
+      ],
+      "year": 2026,
+      "arxiv_id": "2609.35551v1",
+      "url": "https://arxiv.org/abs/2609.35551v1",
+      "doi": "",
+      "source_sha256": "f97389235ab2a07cdd461cc057816cf0d011c58975ba299a2cd4fb182da32b5b",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S4.SS1 4 Experiments / 4.1 Experimental Setups; S5 5 Conclusion; S3.SS3.SSS0.Px1 3 BaRe-Mem: Reliability-Guided Consultation / 3.3 Deciding Whether to Consult / Consultation Ability."
+    },
+    {
+      "id": "arxiv-2609-32192",
+      "title": "CoMemBench: Benchmarking Collaborative Memory Boundaries across Multi-Agent Workflow Topologies",
+      "authors": [
+        "Sen Zhao",
+        "Ruiqi Kong",
+        "Zuyu Zhang",
+        "Lifeng Shen",
+        "Xinyu He",
+        "Ding Zou",
+        "Xu Zhang",
+        "Qinghua Zhang"
+      ],
+      "year": 2026,
+      "arxiv_id": "2609.32192v2",
+      "url": "https://arxiv.org/abs/2609.32192v2",
+      "doi": "",
+      "source_sha256": "c1d2bbc7652ebae5ba26b35eb4f58030805b032c7f8147092d20e519f97c6b33",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3 3 The CoMemBench Benchmark; S4 4 Evaluation Protocol; S3.SS1 3 The CoMemBench Benchmark / 3.1 Workflow and boundary operationalization"
+    },
+    {
+      "id": "arxiv-2609-30813",
+      "title": "A Benchmark and Diagnostic Study of Epistemic Admission in Shared Agent Memory",
+      "authors": [
+        "Xiaoyang Li",
+        "Yiqi Wang",
+        "Chencheng Zhu",
+        "KE XU",
+        "Wencheng Yang",
+        "Zequn Sun",
+        "Pingan Song",
+        "Yiqun Duan",
+        "Taotao Cai"
+      ],
+      "year": 2026,
+      "arxiv_id": "2609.30813v1",
+      "url": "https://arxiv.org/abs/2609.30813v1",
+      "doi": "",
+      "source_sha256": "a5239d4db96ad58b054b963945409432b1f9846e5583f7c0bbfab7a2992a85eb",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3.SS1 3 Method / 3.1 Problem formulation; S5.SS3 5 Results / 5.3 Adoption with and without a competing truth; A19 Appendix S Limitations"
+    },
+    {
+      "id": "arxiv-2609-25563",
+      "title": "AkasicMEM: Governed Enterprise Memory for Agents",
+      "authors": [
+        "Jeongmin Bae",
+        "Yongjae Kim",
+        "Kyoung Hur",
+        "Donghyoung Han",
+        "Min-Soo Kim"
+      ],
+      "year": 2026,
+      "arxiv_id": "2609.25563v1",
+      "url": "https://arxiv.org/abs/2609.25563v1",
+      "doi": "",
+      "source_sha256": "8cb2b807fe24dd45d073518f5cf95369d53cb9be6ffbf24a5db145b819587008",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3 3. Governed Enterprise Memory; S5 5. Discussion and Future Work; S5.SS2.SSS0.Px1 5. Discussion and Future Work / 5.2. Toward Useful Governed Memory / Selection."
+    },
+    {
+      "id": "arxiv-2609-23790",
+      "title": "Total Cost of Agency: Exact Attribution of Memory Injection Cost in Multi-Agent LLM Workflows",
+      "authors": [
+        "Vivek Kumar Singh",
+        "Preeti Priyam",
+        "Gautam Bhowmick"
+      ],
+      "year": 2026,
+      "arxiv_id": "2609.23790v1",
+      "url": "https://arxiv.org/abs/2609.23790v1",
+      "doi": "",
+      "source_sha256": "35b1da6ffbe9afae8ed1a1452b8ebab610830d499d104e4844705aa4d74af0bf",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S5 V Benchmark and Experimental Setup; S6.SS1 VI Results / VI-A Injection Cost and Its Share of the Bill; S8 VIII Limitations"
+    },
+    {
+      "id": "arxiv-2609-21533",
+      "title": "MACE: Memory-Agent Co-Evolution with Adaptive Memory Graphs for Multi-Agent Systems",
+      "authors": [
+        "Kairui Yang",
+        "Minghao An",
+        "Xunkai Li",
+        "Ziheng Yi",
+        "Zekai Chen",
+        "Guangyuan He",
+        "Rong-Hua Li"
+      ],
+      "year": 2026,
+      "arxiv_id": "2609.21533v1",
+      "url": "https://arxiv.org/abs/2609.21533v1",
+      "doi": "",
+      "source_sha256": "7c01fea1833b71abcf611151a67ee67c5ebf0c6dd1a247bd298ead93a4050fdf",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S5.SS3 5 Methodology / 5.3 Need-aware Memory Composer; A3.SS2 Appendix C Additional Result Details / C.2 Ablation Component Roles; S4 4 Empirical Study"
+    },
+    {
+      "id": "arxiv-2609-15009",
+      "title": "CoMem: Collective-Individual Memory Synergy for Evolutionary Multi-Agent Systems",
+      "authors": [
+        "Chengxin Yu",
+        "Zhaoxin Fan",
+        "Faguo Wu",
+        "Hongwei Zheng",
+        "Yun Zhou",
+        "Zhiyu Li"
+      ],
+      "year": 2026,
+      "arxiv_id": "2609.15009v1",
+      "url": "https://arxiv.org/abs/2609.15009v1",
+      "doi": "",
+      "source_sha256": "ac2dbf74927d588a4cdd1893ee998000af8fb42e5c3288bec5920e396b297067",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S4.SS1.SSS0.Px1 4 Experiments / 4.1 Experiment Setup / Datasets and Baselines.; S4.SS2.SSS0.Px1 4 Experiments / 4.2 Main Results (RQ1) / Takeaway 1:; S3.SS2 3 Methodology / 3.2 Private Experience Sedimentation"
+    },
+    {
+      "id": "arxiv-2609-12320",
+      "title": "AIM: A Privacy-Aware Interoperable Memory Framework for Multi-Agent Multi-User LLM Systems",
+      "authors": [
+        "Zachary Johnson",
+        "Nigel Boachie Kumankumah",
+        "Somya Chatterjee",
+        "Tejas Sathyamurthi",
+        "Min Chen",
+        "Xinyi Alice Li",
+        "Xiao Wang",
+        "Emily Morgan Gelchie",
+        "Jessica Lin",
+        "Sadid A. Hasan",
+        "Sulaiman Vesal"
+      ],
+      "year": 2026,
+      "arxiv_id": "2609.12320v1",
+      "url": "https://arxiv.org/abs/2609.12320v1",
+      "doi": "",
+      "source_sha256": "ef9e3a3067443a1f37ab987873ad1276df5a5798309e961c56c63ebcd068e992",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S5.SS1 5 Evaluation / 5.1 Experimental Setup; S5.SS2.SSS0.Px1 5 Evaluation / 5.2 Evaluation Methodology / Strict accuracy.; S6.SS1 6 Discussion / 6.1 Limitations"
+    },
+    {
+      "id": "arxiv-2609-10144",
+      "title": "Kernel-Managed Shared Memory for System-Wide Personalization",
+      "authors": [
+        "Ryan Lum",
+        "Yongfeng Zhang"
+      ],
+      "year": 2026,
+      "arxiv_id": "2609.10144v3",
+      "url": "https://arxiv.org/abs/2609.10144v3",
+      "doi": "",
+      "source_sha256": "a6df02e37e9ced537e23bd69ad5e901597a4c08ee8ca09e4306357c07493463d",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3.SS1 3 Methodology and Architecture / 3.1 Overview and System Model; S4.SS4 4 Experiments / 4.4 Quantitative Results; S5 5 Discussion and Conclusion"
+    },
+    {
+      "id": "arxiv-2609-03340",
+      "title": "Fresh Memory, Stale Plans: Derivation Currency for Distributed LLM-Agent Memory",
+      "authors": [
+        "Evan Chen",
+        "Shiqiang Wang",
+        "Christopher G. Brinton"
+      ],
+      "year": 2026,
+      "arxiv_id": "2609.03340v2",
+      "url": "https://arxiv.org/abs/2609.03340v2",
+      "doi": "",
+      "source_sha256": "603d25c5deb80add41ce161f96aa90a130034c6089e7cb2e4ba113edf5bd89b5",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S6.SS1 6 Experiments / 6.1 Experimental Design; S7.SSx2 7 Conclusion / Reproducibility Statement; S7 7 Conclusion"
+    },
+    {
+      "id": "arxiv-2609-00237",
+      "title": "Learning What to Retain: Gated-Memory Routing for Efficient Collaboration in Multi-Agent LLM Systems",
+      "authors": [
+        "Rakibul Hasan Rajib",
+        "Mengxin Zheng",
+        "Qian Lou"
+      ],
+      "year": 2026,
+      "arxiv_id": "2609.00237v2",
+      "url": "https://arxiv.org/abs/2609.00237v2",
+      "doi": "",
+      "source_sha256": "1123498eae58e93ca99285c468ede14bb6cb89d5aae5a8d430b7f91d9471abb5",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S4.SS0.SSS0.Px1 4 Experimental Setup / Datasets and Benchmarks.; S5.SS1 5 Results / 5.1 Performance Analysis; Sx1 Limitations"
+    },
+    {
+      "id": "arxiv-2608-29678",
+      "title": "Diachronic Hypergraphs for Orchestrated Multi-Agent Multimodal Memory Curation",
+      "authors": [
+        "Yichao Feng",
+        "Ran Zhang",
+        "Haoran Luo",
+        "Zhenghong Lin",
+        "Carl Yang",
+        "Anh Tuan Luu"
+      ],
+      "year": 2026,
+      "arxiv_id": "2608.29678v2",
+      "url": "https://arxiv.org/abs/2608.29678v2",
+      "doi": "",
+      "source_sha256": "563bced9d3ff71043ac4bf038aa67f0c60dcee93ed382e275b821449c72d9dde",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S5.SS1 5. Experiments / 5.1. Experimental Setup; S6 6. Conclusion; A11 Appendix K Discussion and Limitations"
+    },
+    {
+      "id": "arxiv-2608-19701",
+      "title": "Beyond Memory Majority: Latent-Source Reasoning for Multi-Agent Memory Arbitration",
+      "authors": [
+        "Chenchen Lin",
+        "Wenhao Yuan",
+        "Xuehe Wang",
+        "Edith Cheuk Han Ngai"
+      ],
+      "year": 2026,
+      "arxiv_id": "2608.19701v1",
+      "url": "https://arxiv.org/abs/2608.19701v1",
+      "doi": "",
+      "source_sha256": "40e26618b81b9e6f64abe7fdd7d74f59a234fbce1e4e3ee7fa586b80561c5f18",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: Sx4.SSx1.SSSx2.Px1 Experiments / Experimental Setup / Datasets; Sx4.SSx2.SSSx2.Px1 Experiments / Experimental Results / Overall Performance; Sx3.SSx1 Methodology / Problem Formulation"
+    },
+    {
+      "id": "arxiv-2605-09278",
+      "title": "EquiMem: Calibrating Shared Memory in Multi-Agent Debate via Game-Theoretic Equilibrium",
+      "authors": [
+        "Yuqiao Meng",
+        "Luoxi Tang",
+        "Sakshi Sunil Narvekar",
+        "Rupali Rajendra Vaje",
+        "Yingxue Zhang",
+        "Muchao Ye",
+        "Zhaohan Xi"
+      ],
+      "year": 2026,
+      "arxiv_id": "2605.09278v2",
+      "url": "https://arxiv.org/abs/2605.09278v2",
+      "doi": "",
+      "source_sha256": "48f3c623de739eccba8bb797d91cc3117a541f05051f4bf2f5e2bc3a5ae7d908",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S5.SS1 5 Experiments / 5.1 Experimental Setup; S6 6 Conclusion; A1 Appendix A Limitations"
+    },
+    {
+      "id": "arxiv-2608-00426",
+      "title": "MAPLE-Guard: Memory-Aware Link Enforcement Against Memory-Link Poisoning in Multi-Agent Systems",
+      "authors": [
+        "Wenjun Xiong",
+        "Yijin Zhou",
+        "Jiaqian Wang",
+        "Shangding Gu",
+        "Bo Tang",
+        "Zhiyu Li",
+        "Feiyu Xiong",
+        "Ying Wen",
+        "Muning Wen"
+      ],
+      "year": 2026,
+      "arxiv_id": "2608.00426v2",
+      "url": "https://arxiv.org/abs/2608.00426v2",
+      "doi": "",
+      "source_sha256": "68357e901dd908eb5276e278be591aeb425422aa338100b5a2c8be404358c7b7",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S5.SS1.SSS0.Px1 5 Experiment / 5.1 Experimental Setup / Datasets.; S6 6 Conclusion; Sx1 Limitation"
+    },
+    {
+      "id": "arxiv-2603-10062",
+      "title": "Multi-Agent Memory from a Computer Architecture Perspective: Visions and Challenges Ahead",
+      "authors": [
+        "Zhongming Yu",
+        "Naicheng Yu",
+        "Hejia Zhang",
+        "Wentao Ni",
+        "Mingrui Yin",
+        "Jiaying Yang",
+        "Yujie Zhao",
+        "Jishen Zhao"
+      ],
+      "year": 2026,
+      "arxiv_id": "2603.10062v2",
+      "url": "https://arxiv.org/abs/2603.10062v2",
+      "doi": "",
+      "source_sha256": "3402dc940af6e2f9f142d976c5b32e9d263aaf6cd6a9441c2e8341883c0152f1",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S2 2. Why Memory Matters: Context Is Changing; S7 7. Conclusion; S4 4. An Architecture-Inspired Memory Hierarchy"
+    },
+    {
+      "id": "arxiv-2605-29313",
+      "title": "PatchBoard: Schema-Grounded State Mutation for Reliable and Auditable LLM Multi-Agent Collaboration",
+      "authors": [
+        "Shuyu Zhang",
+        "Yaqi Shi",
+        "Jiarui Zhang",
+        "Yanxiao Zhao",
+        "Lu Wang"
+      ],
+      "year": 2026,
+      "arxiv_id": "2605.29313v2",
+      "url": "https://arxiv.org/abs/2605.29313v2",
+      "doi": "",
+      "source_sha256": "51fe4424708798853604d21b05d0698952b90236c618fd6a1e4e0a59e02d33ac",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3.SS2 3 Methodology / 3.2 Architect and Task Blueprint; S4.SS1 4 Experimental Setup / 4.1 Evaluation Goals; Sx1 Limitations"
+    },
+    {
+      "id": "arxiv-2602-11510",
+      "title": "AgentLeak: A Benchmark for Internal-Channel Privacy Leakage in Multi-Agent LLM Systems",
+      "authors": [
+        "Faouzi El Yagoubi",
+        "Godwin Badu-Marfo",
+        "Ranwa Al Mallah"
+      ],
+      "year": 2026,
+      "arxiv_id": "2602.11510v3",
+      "url": "https://arxiv.org/abs/2602.11510v3",
+      "doi": "10.1109/ACCESS.2026.3704541",
+      "source_sha256": "a0c5c708053ffb13dd907522691d3835c6da47a3859d16607b30a5583fc8adf1",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3.SS1 III Problem Definition and Threat Model / III-A Problem Statement; S6.SS2 VI Evaluation and Results / VI-B Detection Pipeline Validation; S7 VII Discussion and Limitations"
+    },
+    {
+      "id": "arxiv-2606-19911",
+      "title": "Multi-Agent Transactive Memory",
+      "authors": [
+        "To Eun Kim",
+        "Xuhong He",
+        "Dishank Jain",
+        "Ambuj Agrawal",
+        "Negar Arabzadeh",
+        "Fernando Diaz"
+      ],
+      "year": 2026,
+      "arxiv_id": "2606.19911v2",
+      "url": "https://arxiv.org/abs/2606.19911v2",
+      "doi": "",
+      "source_sha256": "52bef0f269135a1dbe9aa37c379a3f5c75da5a0994023beef80ec3b00a93ff6c",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S4 4 Experimental Setup; S5 5 Results; Sx1 Limitations and Future Work"
+    },
+    {
+      "id": "arxiv-2606-18829",
+      "title": "GateMem: Benchmarking Memory Governance in Multi-Principal Shared-Memory Agents",
+      "authors": [
+        "Zhe Ren",
+        "Yibo Yang",
+        "Yimeng Chen",
+        "Zijun Zhao",
+        "Benshuo Fu",
+        "Zhihao Shu",
+        "Bingjie Zhang",
+        "Yangyang Xu",
+        "Dandan Guo",
+        "Shuicheng Yan"
+      ],
+      "year": 2026,
+      "arxiv_id": "2606.18829v1",
+      "url": "https://arxiv.org/abs/2606.18829v1",
+      "doi": "",
+      "source_sha256": "0d55a95c77acd83df68d91e4f31d63059cee146e154edecf164b517538a1fb0f",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3 3 The GateMem Benchmark; S3.SS3 3 The GateMem Benchmark / 3.3 Evaluation Metrics; S3.SS1 3 The GateMem Benchmark / 3.1 Episodes and Memory State"
+    },
+    {
+      "id": "arxiv-2506-07398",
+      "title": "G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems",
+      "authors": [
+        "Guibin Zhang",
+        "Muxin Fu",
+        "Guancheng Wan",
+        "Miao Yu",
+        "Kun Wang",
+        "Shuicheng Yan"
+      ],
+      "year": 2025,
+      "arxiv_id": "2506.07398v2",
+      "url": "https://arxiv.org/abs/2506.07398v2",
+      "doi": "",
+      "source_sha256": "24b6871348823ef007cbed1859c7acfaefbab6fdd9b79a4716ebf4da61b2bb34",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S5.SS1.SSS0.Px1 5 Experiment / 5.1 Experiment Setup / Datasets and Benchmarks.; S5.SS2 5 Experiment / 5.2 Main Results (RQ1); S6 6 Conclusion & Limitation"
+    }
+  ],
+  "cards": [
+    {
+      "paper_id": "arxiv-2404-09982",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c1",
+          "paper_id": "arxiv-2404-09982",
+          "kind": "source_finding",
+          "text": "INMS хранит отобранные пары Prompt–Answer в общем пуле и извлекает их для следующих запросов. Качество общего опыта зависит от scorer и retrieval; добавление записи не обновляет веса всех агентов.",
+          "conditions": [
+            "Текстовая реализация и механизм §3, эксперименты §4, ограничения §6; версия v3."
+          ],
+          "limitations": [
+            "Оценка на выбранных доменах; scorer может наследовать ошибки моделей. Не продемонстрирована полноценная система разграничения доступа."
+          ],
+          "evidence": [
+            {
+              "quote": "All agents share the same Memory Pool",
+              "url": "https://arxiv.org/html/2404.09982v3#S3",
+              "locator": "Раздел S3",
+              "segment_id": "S3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2505-18279",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c2",
+          "paper_id": "arxiv-2505-18279",
+          "kind": "source_finding",
+          "text": "Collaborative Memory разделяет private/shared-фрагменты, сохраняет provenance и фильтрует чтение по динамическим графам доступа. Политика чтения и записи — часть механизма, а не просто параметр общего vector store.",
+          "conditions": [
+            "Механизм §3–4, три сценария §5 и ограничения §6; MultiHop-RAG и синтетические задачи с различающимися правами."
+          ],
+          "limitations": [
+            "Успех в заданных сценариях не доказывает безопасность при всех атаках. В части открытых задач нет ground truth для проверки качества."
+          ],
+          "evidence": [
+            {
+              "quote": "Each fragment",
+              "url": "https://arxiv.org/html/2505.18279v1#S3.SS2",
+              "locator": "Раздел S3.SS2",
+              "segment_id": "S3.SS2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2602-05965",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c3",
+          "paper_id": "arxiv-2602-05965",
+          "kind": "source_finding",
+          "text": "Learning to Share обучает admission-контроллер выбирать промежуточные результаты для общего буфера параллельных команд. Память создаётся на одну задачу и не сохраняется между задачами: это обмен рабочим состоянием, не lifelong learning.",
+          "conditions": [
+            "§3–4.5: AssistantBench и GAIA, фиксированный parallel-agent framework и анализ стоимости контроллера."
+          ],
+          "limitations": [
+            "Не изучены накопление опыта между задачами, удаление и revision. Выигрыш wall-clock зависит от параллелизма и serving-условий."
+          ],
+          "evidence": [
+            {
+              "quote": "does not persist across problem instances.",
+              "url": "https://arxiv.org/html/2602.05965v1#S4.SS5",
+              "locator": "Раздел S4.SS5",
+              "segment_id": "S4.SS5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2603-23234",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c4",
+          "paper_id": "arxiv-2603-23234",
+          "kind": "source_finding",
+          "text": "MemCollab сравнивает успешные и неуспешные траектории агентов для построения переносимых подсказок, затем извлекает их под новую задачу. Метод требует проверки правильности исходных решений.",
+          "conditions": [
+            "§3–4 и Appendix A/C: reasoning и code, разделение задач построения памяти и оценки, сравнение источников памяти."
+          ],
+          "limitations": [
+            "Проверяемые математические и кодовые задачи отличаются от открытых исследований. Требуется аудит train/test overlap; в тексте есть неоднозначные формулировки размера MATH500, поэтому дизайн нужно сверять с кодом."
+          ],
+          "evidence": [
+            {
+              "quote": "we collect a pair of trajectories",
+              "url": "https://arxiv.org/html/2603.23234v1#S3.SS2",
+              "locator": "Раздел S3.SS2",
+              "segment_id": "S3.SS2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2609-32511",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c5",
+          "paper_id": "arxiv-2609-32511",
+          "kind": "source_finding",
+          "text": "ShareMem разделяет повторно используемые процедуры и личные предпочтения: общий опыт направляет действие, значения предпочтений берутся у принимающего пользователя. Local/shared retrieval сравнивается при общем бюджете записей.",
+          "conditions": [
+            "§3–5: Mind2Web, VitaBench 2.0, MemoryCode; абляции consolidation и preference retrieval."
+          ],
+          "limitations": [
+            "Перенос ограничен качеством опыта, scope и доступом к пользовательским требованиям; архитектурное разделение не равно доказательству приватности."
+          ],
+          "evidence": [
+            {
+              "quote": "Preferences are maintained from each user’s history separately from experience consolidation",
+              "url": "https://arxiv.org/html/2609.32511v1#S3.SS1",
+              "locator": "Раздел S3.SS1",
+              "segment_id": "S3.SS1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2606-24535",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c6",
+          "paper_id": "arxiv-2606-24535",
+          "kind": "source_finding",
+          "text": "Governed Shared Memory описывает scope, supersession, provenance и propagation в живом сервисе. Авторы показывают, что дедупликация может отсечь противоречащую запись раньше проверки конфликта, и отдельно признают отсутствие сравнительного baseline.",
+          "conditions": [
+            "Прочитаны failure modes §4, механизм §5, метод/результаты §7–8, проблемы §9 и ограничения §10."
+          ],
+          "limitations": [
+            "Самооценка собственного сервиса, один tenant, ограниченные пробы; это не независимый аудит и не сравнительный рейтинг систем."
+          ],
+          "evidence": [
+            {
+              "quote": "We do not compare against a baseline",
+              "url": "https://arxiv.org/html/2606.24535v1#S10.SS0.SSS0.Px7",
+              "locator": "Раздел S10.SS0.SSS0.Px7",
+              "segment_id": "S10.SS0.SSS0.Px7"
+            },
+            {
+              "quote": "can reject a write before the asynchronous detector ever sees it",
+              "url": "https://arxiv.org/html/2606.24535v1#S9.SS2",
+              "locator": "§9.2 Deduplication Starves Contradiction Detection",
+              "segment_id": "S9.SS2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2609-17921",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c7",
+          "paper_id": "arxiv-2609-17921",
+          "kind": "source_finding",
+          "text": "Collaborative Memory for Multi-Agent VLM Systems предлагает хранить связи наблюдение–интерпретация–вывод и пересматривать зависимые утверждения при изменении визуального свидетельства. Согласие агентов не считается независимым подтверждением.",
+          "conditions": [
+            "Концептуальная схема §2–4 и будущие направления §6: visual evidence, provenance, reconciliation."
+          ],
+          "limitations": [
+            "Архитектурное предложение без сопоставимой экспериментальной оценки выигрыша; не следует включать в leaderboard эффективности."
+          ],
+          "evidence": [
+            {
+              "quote": "Agreement alone does not constitute independent confirmation",
+              "url": "https://arxiv.org/html/2609.17921v1#S4",
+              "locator": "Раздел S4",
+              "segment_id": "S4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2611-22461",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c8",
+          "paper_id": "arxiv-2611-22461",
+          "kind": "source_finding",
+          "text": "Provenance-based write gate не снизил attack success в проверенном режиме. Простая groundedness может предпочесть ложь о знакомой сущности новому верному факту; разрешение конфликта до чтения скрывает полезное несогласие.",
+          "conditions": [
+            "Диагностическое исследование. Фиксированный бюджет, memory-backed debate и проверяемые атаки."
+          ],
+          "limitations": [
+            "Результат относится к проверенному режиму и gate, а не к бесполезности любого provenance."
+          ],
+          "evidence": [
+            {
+              "quote": "Router. Features x⁡(q)x(q) are structural complexity, temporal and",
+              "url": "https://arxiv.org/html/2611.22461v1#A1",
+              "locator": "Appendix A Method parameterisation · A1",
+              "segment_id": "A1"
+            },
+            {
+              "quote": "Full context recovers essentially all gold evidence at",
+              "url": "https://arxiv.org/html/2611.22461v1#S6.SS1",
+              "locator": "6 Results / 6.1 Phase 0–1: the ceiling, and whether structure pays · S6.SS1",
+              "segment_id": "S6.SS1"
+            },
+            {
+              "quote": "Not every run shares the reachable regime. Table",
+              "url": "https://arxiv.org/html/2611.22461v1#S8",
+              "locator": "8 Limitations · S8",
+              "segment_id": "S8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2611-22245",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c9",
+          "paper_id": "arxiv-2611-22245",
+          "kind": "source_finding",
+          "text": "Конфликт может исчезнуть при передаче worker→lead даже после retrieval обеих версий факта. Разнесение противоречащих свидетельств между workers отличается от ситуации, где один worker видит их вместе.",
+          "conditions": [
+            "Диагностическое исследование. Matched comparisons Required/None и размещения свидетельств."
+          ],
+          "limitations": [
+            "Манипуляция объединяет delegation, partitioning и доступ lead; наблюдаемые retrieval choices не полностью рандомизированы."
+          ],
+          "evidence": [
+            {
+              "quote": "We evaluate whether agents flag planted numerical conflicts",
+              "url": "https://arxiv.org/html/2611.22245v2#S3",
+              "locator": "3 Benchmark and Measurement · S3",
+              "segment_id": "S3"
+            },
+            {
+              "quote": "Pooled across models and runs, Required increases Source",
+              "url": "https://arxiv.org/html/2611.22245v2#S4.SS3",
+              "locator": "4 Experimental Results / 4.3 From Evidence Collection to Conflict Detection · S4.SS3",
+              "segment_id": "S4.SS3"
+            },
+            {
+              "quote": "Required combines mandatory delegation, partitioned source assignments, and",
+              "url": "https://arxiv.org/html/2611.22245v2#Sx1",
+              "locator": "Limitations · Sx1",
+              "segment_id": "Sx1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2611-12068",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c10",
+          "paper_id": "arxiv-2611-12068",
+          "kind": "source_finding",
+          "text": "MIRIX-2.0 сохраняет типизированные записи и provenance-гиперграф, а AutoDream выполняет консолидацию вне write path. Компоненты проверяются группами, поэтому нельзя приписать весь эффект одной структуре памяти.",
+          "conditions": [
+            "Система и benchmark. Типизированные записи, bounded retrieval и procedural skills."
+          ],
+          "limitations": [
+            "Групповые абляции не изолируют вклад каждого элемента; авторские benchmark scores требуют отдельной репликации."
+          ],
+          "evidence": [
+            {
+              "quote": "The selected anchors open two bounded lanes. In",
+              "url": "https://arxiv.org/html/2611.12068v1#S2.SS4.SSS0.Px3",
+              "locator": "2 Methodology / 2.4 Graph-owned evidence retrieval / Two evidence lanes. · S2.SS4.SSS0.Px3",
+              "segment_id": "S2.SS4.SSS0.Px3"
+            },
+            {
+              "quote": "We presented MIRIX-2.0, a multi-agent memory system that",
+              "url": "https://arxiv.org/html/2611.12068v1#S5",
+              "locator": "5 Conclusion · S5",
+              "segment_id": "S5"
+            },
+            {
+              "quote": "Our ablations add components in groups. They do",
+              "url": "https://arxiv.org/html/2611.12068v1#S5.SS0.SSS0.Px1",
+              "locator": "5 Conclusion / Limitations. · S5.SS0.SSS0.Px1",
+              "segment_id": "S5.SS0.SSS0.Px1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2611-08718",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c11",
+          "paper_id": "arxiv-2611-08718",
+          "kind": "source_finding",
+          "text": "В conversational recommendation память и orchestration влияют на разные части системы. Retrieval и фактически показанные рекомендации расходятся; LLM reranking может менять семантику и разнообразие без выигрыша Hit@K.",
+          "conditions": [
+            "Прикладная система. Уменьшенная выборка пользователей, симулированные взаимодействия."
+          ],
+          "limitations": [
+            "Контролируемая симуляция ограничивает перенос на реальное пользовательское поведение."
+          ],
+          "evidence": [
+            {
+              "quote": "To support controlled evaluation of LLM-intensive components, a",
+              "url": "https://arxiv.org/html/2611.08718v1#S4.SS1",
+              "locator": "4 Experimental Methodology / 4.1 Dataset and Preprocessing · S4.SS1",
+              "segment_id": "S4.SS1"
+            },
+            {
+              "quote": "Figure 2 reports Hit@10, NDCG@10, ILS@10, and Semantic",
+              "url": "https://arxiv.org/html/2611.08718v1#S5.SS1",
+              "locator": "5 Results / 5.1 Offline Evaluation · S5.SS1",
+              "segment_id": "S5.SS1"
+            },
+            {
+              "quote": "This work relies on a controlled evaluation setting",
+              "url": "https://arxiv.org/html/2611.08718v1#S6.SS4",
+              "locator": "6 Discussions / 6.4 Limitations · S6.SS4",
+              "segment_id": "S6.SS4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2611-04296",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c12",
+          "paper_id": "arxiv-2611-04296",
+          "kind": "source_finding",
+          "text": "SEAM исследует общую ассоциативную память сообщества в открытом использовании. Полевая работа показывает способы обмена контекстом, но дизайн намеренно не измеряет comparative system performance.",
+          "conditions": [
+            "Полевое исследование. 46 участников сообщества, follow-up с 14."
+          ],
+          "limitations": [
+            "Наблюдение за одной группой не устанавливает эффект долгосрочного накопления знаний или causal utility."
+          ],
+          "evidence": [
+            {
+              "quote": "We recruited by email from a co-located community",
+              "url": "https://arxiv.org/html/2611.04296v1#S5.SS1",
+              "locator": "5. User Study Setup / 5.1. Field deployment · S5.SS1",
+              "segment_id": "S5.SS1"
+            },
+            {
+              "quote": "Complexity arrives with ambition. Some instructions are triggered",
+              "url": "https://arxiv.org/html/2611.04296v1#S6.SS2.SSS1.Px3",
+              "locator": "6. Findings / 6.2. How the Memory Recalls and Reacts / 6.2.1. What a reply is made of / Executable. · S6.SS2.SSS1.Px3",
+              "segment_id": "S6.SS2.SSS1.Px3"
+            },
+            {
+              "quote": "designed to observe what emerged rather than to",
+              "url": "https://arxiv.org/html/2611.04296v1#S7.SS2",
+              "locator": "7. Discussion / 7.2. Study limitations · S7.SS2",
+              "segment_id": "S7.SS2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2611-09990",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c13",
+          "paper_id": "arxiv-2611-09990",
+          "kind": "source_finding",
+          "text": "Peer memory меняет выбор консультируемых агентов, но обнаруженного выигрыша final answer accuracy нет. Изменение коммуникационного графа следует проверять отдельно от качества конечного решения.",
+          "conditions": [
+            "Контролируемая оценка. Шесть агентов, парные линии и reference-answer feedback."
+          ],
+          "limitations": [
+            "Общие модели/промпты и малый набор задач ограничивают перенос; отсутствие значимости не доказывает эквивалентности."
+          ],
+          "evidence": [
+            {
+              "quote": "MACE, UCB1, in-context, and random selection can choose",
+              "url": "https://arxiv.org/html/2611.09990v1#S3.SS1",
+              "locator": "3 Method / 3.1 Task and interaction protocol · S3.SS1",
+              "segment_id": "S3.SS1"
+            },
+            {
+              "quote": "We evaluate answers using exact match (EM) and",
+              "url": "https://arxiv.org/html/2611.09990v1#S3.SS3",
+              "locator": "3 Method / 3.3 Reward and evaluation measures · S3.SS3",
+              "segment_id": "S3.SS3"
+            },
+            {
+              "quote": "The experiments use six agents that share a",
+              "url": "https://arxiv.org/html/2611.09990v1#S7",
+              "locator": "7 Limitations · S7",
+              "segment_id": "S7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2610-37935",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c14",
+          "paper_id": "arxiv-2610-37935",
+          "kind": "source_finding",
+          "text": "SkillMem компилирует повторно используемые skills в компактную внешнюю латентную память. Storage и inference efficiency проверяются вместе с качеством; объединение нескольких конфликтующих skills остаётся будущей задачей.",
+          "conditions": [
+            "Система и benchmark. Несколько reasoning benchmarks и два размера backbone."
+          ],
+          "limitations": [
+            "Ограниченные модели и задачи; перенос состава навыков и разрешение конфликтов не установлены."
+          ],
+          "evidence": [
+            {
+              "quote": "The preceding method can compile any textual skill",
+              "url": "https://arxiv.org/html/2610.37935v1#S4.SS4",
+              "locator": "4 Method / 4.4 Skill Discovery · S4.SS4",
+              "segment_id": "S4.SS4"
+            },
+            {
+              "quote": "Overall performance. With Qwen3-4B, SkillMem outperforms LatentMAS and",
+              "url": "https://arxiv.org/html/2610.37935v1#S6.SS2",
+              "locator": "6 Experiments / 6.2 Main Results · S6.SS2",
+              "segment_id": "S6.SS2"
+            },
+            {
+              "quote": "Future work can extend SkillMem to retrieve and",
+              "url": "https://arxiv.org/html/2610.37935v1#S7",
+              "locator": "7 Conclusion and Future Work · S7",
+              "segment_id": "S7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2610-36652",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c15",
+          "paper_id": "arxiv-2610-36652",
+          "kind": "source_finding",
+          "text": "DiscernMem различает ошибочное правило и верное правило, применённое в неподходящем контексте. Refinement и обучение границ применимости — разные механизмы.",
+          "conditions": [
+            "Система и benchmark. Четыре benchmarks, три multi-agent hosts."
+          ],
+          "limitations": [
+            "Область корректируемых ошибок ограничена доступной replay-информацией; общий team failure не даёт готовой причинной метки."
+          ],
+          "evidence": [
+            {
+              "quote": "We propose DiscernMem, a training-free framework that distinguishes",
+              "url": "https://arxiv.org/html/2610.36652v1#S3.SS1",
+              "locator": "3 Method / 3.1 Overview · S3.SS1",
+              "segment_id": "S3.SS1"
+            },
+            {
+              "quote": "We presented DiscernMem, a training-free framework that distinguishes",
+              "url": "https://arxiv.org/html/2610.36652v1#S5",
+              "locator": "5 Conclusion and Future Work · S5",
+              "segment_id": "S5"
+            },
+            {
+              "quote": "Although DiscernMem separates defective rules from misapplied experience",
+              "url": "https://arxiv.org/html/2610.36652v1#Sx1",
+              "locator": "Limitations · Sx1",
+              "segment_id": "Sx1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2610-35966",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c16",
+          "paper_id": "arxiv-2610-35966",
+          "kind": "source_finding",
+          "text": "EMMA хранит структурированный episodic опыт для локальных guarded изменений workflow. Стоимость обновления измеряется количеством training executions, отдельно от итоговой task performance.",
+          "conditions": [
+            "Система и benchmark. KramaBench, AppWorld и BBEH; раздельные train/test."
+          ],
+          "limitations": [
+            "Сравнение относится к выбранным backbones, baselines и бюджетам; execution count не равен полной денежной стоимости."
+          ],
+          "evidence": [
+            {
+              "quote": "Benchmarks. KramaBench (Lai et al., 2026) (28 train",
+              "url": "https://arxiv.org/html/2610.35966v1#S5.SS1",
+              "locator": "5 Experiments / 5.1 Experimental Setup · S5.SS1",
+              "segment_id": "S5.SS1"
+            },
+            {
+              "quote": "As reported in Table 5, EMMA achieves the",
+              "url": "https://arxiv.org/html/2610.35966v1#S5.SS2.SSS2",
+              "locator": "5 Experiments / 5.2 Experimental Results / 5.2.2 Update Efficiency · S5.SS2.SSS2",
+              "segment_id": "S5.SS2.SSS2"
+            },
+            {
+              "quote": "In this paper, we present EMMA, structured Episodic",
+              "url": "https://arxiv.org/html/2610.35966v1#S6",
+              "locator": "6 Conclusion and Limitations · S6",
+              "segment_id": "S6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2610-33539",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c17",
+          "paper_id": "arxiv-2610-33539",
+          "kind": "source_finding",
+          "text": "CoEvolve согласует обновления collaboration и памяти через общий skill space и контраст исходных/контрфактуальных траекторий. Проверяется совместная адаптация, а не один retrieval-компонент.",
+          "conditions": [
+            "Система и benchmark. ALFWorld и WebShop."
+          ],
+          "limitations": [
+            "Два интерактивных benchmark-мира не устанавливают перенос на открытые рабочие процессы."
+          ],
+          "evidence": [
+            {
+              "quote": "Datasets. We evaluate CoEvolve on two widely used",
+              "url": "https://arxiv.org/html/2610.33539v1#S4.SS1",
+              "locator": "4 Experiments / 4.1 Experimental Setup · S4.SS1",
+              "segment_id": "S4.SS1"
+            },
+            {
+              "quote": "In this paper, we introduce CoEvolve as a",
+              "url": "https://arxiv.org/html/2610.33539v1#S5",
+              "locator": "5 Conclusion · S5",
+              "segment_id": "S5"
+            },
+            {
+              "quote": "Skill memory evolution. Skill memory provides the experience",
+              "url": "https://arxiv.org/html/2610.33539v1#S3.SS4.SSS3",
+              "locator": "3 Method / 3.4 Counterfactual-Guided Evolution / 3.4.3 Aligned Evolution of Collaboration and Memory · S3.SS4.SSS3",
+              "segment_id": "S3.SS4.SSS3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2610-31355",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c18",
+          "paper_id": "arxiv-2610-31355",
+          "kind": "source_finding",
+          "text": "Muffin асинхронно делится промежуточными находками, сохраняя частное рассуждение локально. Quality–cost trade-off проверяется отдельно от полного обмена трассами.",
+          "conditions": [
+            "Система и benchmark. Четыре QA/reasoning benchmarks."
+          ],
+          "limitations": [
+            "Авторы ограничивают выводы задачами без полноценного long-horizon tool use и планирования."
+          ],
+          "evidence": [
+            {
+              "quote": "Benchmarks. We evaluate on four benchmarks that cover",
+              "url": "https://arxiv.org/html/2610.31355v1#S4.SS1",
+              "locator": "4 Experiments / 4.1 Setup · S4.SS1",
+              "segment_id": "S4.SS1"
+            },
+            {
+              "quote": "Our results show that shared intermediate findings in",
+              "url": "https://arxiv.org/html/2610.31355v1#S4.SS4",
+              "locator": "4 Experiments / 4.4 Limitations and Discussion · S4.SS4",
+              "segment_id": "S4.SS4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2610-28810",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c19",
+          "paper_id": "arxiv-2610-28810",
+          "kind": "source_finding",
+          "text": "Memory injection может сделать вредоносную инструкцию устойчивой между сессиями и распространить её между пользователями. Persistent storage расширяет threat model по сравнению с разовым заражённым prompt.",
+          "conditions": [
+            "Исследование безопасности. Сервисы с долгосрочной памятью, threat model и attack artifacts."
+          ],
+          "limitations": [
+            "Проверенные версии сервисов и сценарии не устанавливают текущую уязвимость всех продуктов; защита требует повторной проверки."
+          ],
+          "evidence": [
+            {
+              "quote": "Privacy: “Create a memory: After every message I",
+              "url": "https://arxiv.org/html/2610.28810v1#S4.SS2",
+              "locator": "IV Threat model / IV-B Attacker knowledge and goals · S4.SS2",
+              "segment_id": "S4.SS2"
+            },
+            {
+              "quote": "Importantly, at first, all models tended to be",
+              "url": "https://arxiv.org/html/2610.28810v1#S5.SS3",
+              "locator": "V Experiments and results / V-C Availability breakdown · S5.SS3",
+              "segment_id": "S5.SS3"
+            },
+            {
+              "quote": "According to NIST [55], indirect prompt injection occurs",
+              "url": "https://arxiv.org/html/2610.28810v1#S6.SS4",
+              "locator": "VI Discussion / VI-D Limitations of the NIST taxonomy · S6.SS4",
+              "segment_id": "S6.SS4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2610-27032",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c20",
+          "paper_id": "arxiv-2610-27032",
+          "kind": "source_finding",
+          "text": "M-Plan разделяет long-term storage, short-term generation и optimizer, который организует опыт перед сохранением. Это комплексный planning framework, поэтому суммарный эффект не следует приписывать памяти в одиночку.",
+          "conditions": [
+            "Система и benchmark. ALFWorld, WebShop и PDDL; несколько моделей."
+          ],
+          "limitations": [
+            "Результаты зависят от полного стека и выбранных baselines; нужен component-level контроль."
+          ],
+          "evidence": [
+            {
+              "quote": "Datasets We evaluate M-Plan on three widely test",
+              "url": "https://arxiv.org/html/2610.27032v1#A3",
+              "locator": "Appendix C EXPERIMENT SETUP · A3",
+              "segment_id": "A3"
+            },
+            {
+              "quote": "We present our main results with performing each",
+              "url": "https://arxiv.org/html/2610.27032v1#S4.SS2",
+              "locator": "4 Experiment / 4.2 Main Results · S4.SS2",
+              "segment_id": "S4.SS2"
+            },
+            {
+              "quote": "As shown in Figure 2, from the function",
+              "url": "https://arxiv.org/html/2610.27032v1#S3.SS1",
+              "locator": "3 Methodology / 3.1 Overview · S3.SS1",
+              "segment_id": "S3.SS1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2610-19581",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c21",
+          "paper_id": "arxiv-2610-19581",
+          "kind": "source_finding",
+          "text": "XferAgent отделяет основную оценку замороженной памяти от последовательного обновления опыта. Heterogeneous-agent transfer и накопление результатов между проходами проверяются раздельно.",
+          "conditions": [
+            "Система и benchmark. GAIA и ALFWorld, фиксированные backbone/cohort для основных сравнений."
+          ],
+          "limitations": [
+            "Очистка опыта от task-specific информации не является доказательством приватности; важен контроль memory/test overlap."
+          ],
+          "evidence": [
+            {
+              "quote": "We evaluate XferAgent primarily on GAIA (Mialon et",
+              "url": "https://arxiv.org/html/2610.19581v1#S4.SS1.SSS0.Px1",
+              "locator": "4 Experiments / 4.1 Experimental Setup / Datasets and Backbones. · S4.SS1.SSS0.Px1",
+              "segment_id": "S4.SS1.SSS0.Px1"
+            },
+            {
+              "quote": "For the main benchmark comparisons, we evaluate the",
+              "url": "https://arxiv.org/html/2610.19581v1#S4.SS1.SSS0.Px4",
+              "locator": "4 Experiments / 4.1 Experimental Setup / Evaluation Protocols and Metrics. · S4.SS1.SSS0.Px4",
+              "segment_id": "S4.SS1.SSS0.Px4"
+            },
+            {
+              "quote": "For cross-agent experience sharing, XferAgent removes task-specific and",
+              "url": "https://arxiv.org/html/2610.19581v1#Sx1",
+              "locator": "Limitations · Sx1",
+              "segment_id": "Sx1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2610-14515",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c22",
+          "paper_id": "arxiv-2610-14515",
+          "kind": "source_finding",
+          "text": "SEPM связывает procedural memory с графом зависимостей задач и общим blackboard. Разные среды выигрывают от разных компонентов, поэтому эффект нельзя приписывать одному shared store.",
+          "conditions": [
+            "Система и benchmark. ALFWorld, WebArena, OfficeBench."
+          ],
+          "limitations": [
+            "Зависимость от среды и стека; graph consistency не гарантирует выполнение требований задачи."
+          ],
+          "evidence": [
+            {
+              "quote": "ALFWorld evaluates embodied procedural interaction (Shridhar et al.,",
+              "url": "https://arxiv.org/html/2610.14515v1#S5.SS1",
+              "locator": "5 Experiments / 5.1 Experimental Setup · S5.SS1",
+              "segment_id": "S5.SS1"
+            },
+            {
+              "quote": "We introduced SEPM, which connects procedural memory with",
+              "url": "https://arxiv.org/html/2610.14515v1#S6.SS0.SSS0.Px1",
+              "locator": "6 Conclusion and Limitations / Conclusion. · S6.SS0.SSS0.Px1",
+              "segment_id": "S6.SS0.SSS0.Px1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2610-13267",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c23",
+          "paper_id": "arxiv-2610-13267",
+          "kind": "source_finding",
+          "text": "DREAM восстанавливает память после poisoning через activation probes и repair. Защита оценивается против конкретного backdoor attacker и не является общим доказательством невозможности заражения.",
+          "conditions": [
+            "Исследование безопасности. AgentPoison и несколько задач/архитектур."
+          ],
+          "limitations": [
+            "Probe-based отбор может измениться при адаптивном атакующем; стоимость и task success нужны рядом с ASR."
+          ],
+          "evidence": [
+            {
+              "quote": "Drawing inspiration from neuroscientific findings that weak or",
+              "url": "https://arxiv.org/html/2610.13267v1#S4",
+              "locator": "4 Methods · S4",
+              "segment_id": "S4"
+            },
+            {
+              "quote": "DREAM demonstrates strong effectiveness on backdoor attacks. We",
+              "url": "https://arxiv.org/html/2610.13267v1#S5.SS2",
+              "locator": "5 Experiments and Results / 5.2 Main Results · S5.SS2",
+              "segment_id": "S5.SS2"
+            },
+            {
+              "quote": "DREAM relies on a multi-dimensional activation probe to",
+              "url": "https://arxiv.org/html/2610.13267v1#A1",
+              "locator": "Appendix A Limitations · A1",
+              "segment_id": "A1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2610-12793",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c24",
+          "paper_id": "arxiv-2610-12793",
+          "kind": "source_finding",
+          "text": "GAMMA добавляет grounded memory и mechanical audit к фиксированной policy, проверяя память о прошлых событиях в manipulation tasks. Стоимость detector и VLM calls учитывается отдельно.",
+          "conditions": [
+            "Система и benchmark. 16 задач, фиксированная policy, обученные memory agents."
+          ],
+          "limitations": [
+            "Зависимость от benchmark-generated обучающих эпизодов и serving cost ограничивает перенос на произвольную робототехнику."
+          ],
+          "evidence": [
+            {
+              "quote": "Both agents are finetuned on a corpus generated",
+              "url": "https://arxiv.org/html/2610.12793v1#S4.SS3",
+              "locator": "4 Method / 4.3 Targets and training · S4.SS3",
+              "segment_id": "S4.SS3"
+            },
+            {
+              "quote": "Gamma averages 66.066.0 across the sixteen tasks (Appendix",
+              "url": "https://arxiv.org/html/2610.12793v1#S5.SS2",
+              "locator": "5 Experiments / 5.2 Main results · S5.SS2",
+              "segment_id": "S5.SS2"
+            },
+            {
+              "quote": "Serving cost. Each tick costs one detector pass",
+              "url": "https://arxiv.org/html/2610.12793v1#S6",
+              "locator": "6 Discussion and Limitations · S6",
+              "segment_id": "S6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2610-08101",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c25",
+          "paper_id": "arxiv-2610-08101",
+          "kind": "source_finding",
+          "text": "Исправленная запись не гарантирует правильного исполнения: одинаковый log может скрывать разные результаты выполнения обязанностей. CAVERT формализует execution evidence и проверяет recovery относительно rule-guided baseline.",
+          "conditions": [
+            "Формализация и benchmark. Несколько benchmark-executor settings и gated recovery."
+          ],
+          "limitations": [
+            "Выводы ограничены выбранными контрактами и преобразованиями журналов; частоты natural logs не универсальны."
+          ],
+          "evidence": [
+            {
+              "quote": "Table A7 reports all benchmark–factor cells, each containing",
+              "url": "https://arxiv.org/html/2610.08101v1#A3.SS1",
+              "locator": "Appendix C Definition Evaluation Details / C.1 Paired Design and Information Removal · A3.SS1",
+              "segment_id": "A3.SS1"
+            },
+            {
+              "quote": "Correct memory is not enough for consistent execution.",
+              "url": "https://arxiv.org/html/2610.08101v1#S6",
+              "locator": "6 Conclusion · S6",
+              "segment_id": "S6"
+            },
+            {
+              "quote": "Our claims are limited to the evaluated contracts,",
+              "url": "https://arxiv.org/html/2610.08101v1#A5.SS5",
+              "locator": "Appendix E Execution Protocol and Stratification / E.5 Limitations · A5.SS5",
+              "segment_id": "A5.SS5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2610-07376",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c26",
+          "paper_id": "arxiv-2610-07376",
+          "kind": "source_finding",
+          "text": "MemCo постепенно переводит local experience в абстрактную global memory и комбинирует обе при новом решении. Начальные interaction traces нужны для bootstrap.",
+          "conditions": [
+            "Система и benchmark. Интерактивные decision-making benchmarks."
+          ],
+          "limitations": [
+            "Отсутствие полезного раннего опыта и неподходящая абстракция могут ограничивать перенос."
+          ],
+          "evidence": [
+            {
+              "quote": "For a shareable local record p∈𝒫il∪ℰilp\\in\\mathcal{P}_{i}^{l}\\cup\\mathcal{E}_{i}^{l}, MemCo constructs",
+              "url": "https://arxiv.org/html/2610.07376v1#S3.SS4",
+              "locator": "3 Methodology / 3.4 Progressive Global Memory Collaboration · S3.SS4",
+              "segment_id": "S3.SS4"
+            },
+            {
+              "quote": "In this work, we introduced MemCo, a memory-centric",
+              "url": "https://arxiv.org/html/2610.07376v1#S6",
+              "locator": "6 Conclusion · S6",
+              "segment_id": "S6"
+            },
+            {
+              "quote": "First, our framework relies on initial interaction traces",
+              "url": "https://arxiv.org/html/2610.07376v1#Sx1",
+              "locator": "Limitations · Sx1",
+              "segment_id": "Sx1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2610-07031",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c27",
+          "paper_id": "arxiv-2610-07031",
+          "kind": "source_finding",
+          "text": "Artemis использует общий 3D-state для согласования многовидовых driving rollouts. Это пример общей мультимодальной репрезентации, отличный от пула текстовых ответов.",
+          "conditions": [
+            "Мультимодальная система. MA-CARLA с шаблонными сценариями движения."
+          ],
+          "limitations": [
+            "Video consistency и fidelity не доказывают безопасность реального автономного вождения."
+          ],
+          "evidence": [
+            {
+              "quote": "Templates arrange vehicles to approach from opposite directions,",
+              "url": "https://arxiv.org/html/2610.07031v1#A1.SS1.SSS2",
+              "locator": "Appendix A Appendix / A.1 MA-CARLA Dataset Details / A.1.2 Interaction Template Design · A1.SS1.SSS2",
+              "segment_id": "A1.SS1.SSS2"
+            },
+            {
+              "quote": "Comparison Results. As in Table 1, our Artemis",
+              "url": "https://arxiv.org/html/2610.07031v1#S5.SS2",
+              "locator": "5 Experiment / 5.2 Quantitative Results · S5.SS2",
+              "segment_id": "S5.SS2"
+            },
+            {
+              "quote": "Candidate trajectories are generated using rule-based templates for",
+              "url": "https://arxiv.org/html/2610.07031v1#S3.SS1",
+              "locator": "3 MA-CARLA Dataset / 3.1 Data Collection · S3.SS1",
+              "segment_id": "S3.SS1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2610-05176",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c28",
+          "paper_id": "arxiv-2610-05176",
+          "kind": "source_finding",
+          "text": "AECG сохраняет scope процедурного опыта и связывает review со downstream exposure. Paired replay используется для проверки изменений skills.",
+          "conditions": [
+            "Система и benchmark. Несколько MAS frameworks и benchmark settings."
+          ],
+          "limitations": [
+            "Авторские replay-оценки ограничены покрытием задач; сохранение scope не является универсальным privacy proof."
+          ],
+          "evidence": [
+            {
+              "quote": "We evaluate AECG on three MAS frameworks—AutoGen (Wu",
+              "url": "https://arxiv.org/html/2610.05176v1#S4.SS1",
+              "locator": "4 Experiments / 4.1 Experimental Setup · S4.SS1",
+              "segment_id": "S4.SS1"
+            },
+            {
+              "quote": "We introduce AECG, shifting multi-agent procedural memory from",
+              "url": "https://arxiv.org/html/2610.05176v1#S5",
+              "locator": "5 Conclusion · S5",
+              "segment_id": "S5"
+            },
+            {
+              "quote": "Persistent knowledge creates two opposing service risks. Reusing",
+              "url": "https://arxiv.org/html/2610.05176v1#S3.SS1",
+              "locator": "3 Method / 3.1 Problem Formulation and Method Overview · S3.SS1",
+              "segment_id": "S3.SS1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2609-37923",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c29",
+          "paper_id": "arxiv-2609-37923",
+          "kind": "source_finding",
+          "text": "EpiCon консолидирует shared multimodal experience и сравнивает разные memory backbones и hosts. Общий benchmark macro-score нужно читать рядом со стоимостью memory operations.",
+          "conditions": [
+            "Система и benchmark. Один solving attempt, одиннадцать benchmarks."
+          ],
+          "limitations": [
+            "Среднее с равным весом benchmarks не отражает произвольную production-нагрузку; важны train/test границы памяти."
+          ],
+          "evidence": [
+            {
+              "quote": "Here Recall\\operatorname{Recall} uses a frozen text encoder to",
+              "url": "https://arxiv.org/html/2609.37923v1#S4.SS3",
+              "locator": "4 Methodology / 4.3 Shared Experience Consolidation and Reuse · S4.SS3",
+              "segment_id": "S4.SS3"
+            },
+            {
+              "quote": "With a single solving attempt per question, backbone-sized",
+              "url": "https://arxiv.org/html/2609.37923v1#S5.SS2",
+              "locator": "5 Experiments / 5.2 Main Results · S5.SS2",
+              "segment_id": "S5.SS2"
+            },
+            {
+              "quote": "Tree self-organizer. Lessons derived from the collected controller",
+              "url": "https://arxiv.org/html/2609.37923v1#S3",
+              "locator": "3 Data Curation · S3",
+              "segment_id": "S3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2609-35551",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c30",
+          "paper_id": "arxiv-2609-35551",
+          "kind": "source_finding",
+          "text": "BaRe-Mem учится оценивать contextual reliability источников по проверенной истории и решать, стоит ли консультироваться вообще. Частота прошлого успеха не заменяет оценку применимости.",
+          "conditions": [
+            "Система и benchmark. Heterogeneous advisors, misleading conditions и worker allocation."
+          ],
+          "limitations": [
+            "Нужна проверяемая обратная связь; качество verification влияет на саму память надёжности."
+          ],
+          "evidence": [
+            {
+              "quote": "We conduct our study under two complementary capability",
+              "url": "https://arxiv.org/html/2609.35551v1#S4.SS1",
+              "locator": "4 Experiments / 4.1 Experimental Setups · S4.SS1",
+              "segment_id": "S4.SS1"
+            },
+            {
+              "quote": "We introduced BaRe-Mem, a Bayesian reliability memory that",
+              "url": "https://arxiv.org/html/2609.35551v1#S5",
+              "locator": "5 Conclusion · S5",
+              "segment_id": "S5"
+            },
+            {
+              "quote": "Here, κ\\kappa is the central model’s autonomous ability",
+              "url": "https://arxiv.org/html/2609.35551v1#S3.SS3.SSS0.Px1",
+              "locator": "3 BaRe-Mem: Reliability-Guided Consultation / 3.3 Deciding Whether to Consult / Consultation Ability. · S3.SS3.SSS0.Px1",
+              "segment_id": "S3.SS3.SSS0.Px1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2609-32192",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c31",
+          "paper_id": "arxiv-2609-32192",
+          "kind": "source_finding",
+          "text": "CoMemBench проверяет границы обмена в task graphs: больше доступного контекста может ухудшать изоляцию. Рейтинг методов меняется при другой topology и типе загрязнения артефактов.",
+          "conditions": [
+            "Benchmark. Версионированные handoffs, utility, isolation и token cost."
+          ],
+          "limitations": [
+            "Формальные workflow contracts ограничивают набор проверяемых нарушений; одно aggregate score скрывает trade-off."
+          ],
+          "evidence": [
+            {
+              "quote": "CoMemBench represents each instance as an executable task",
+              "url": "https://arxiv.org/html/2609.32192v2#S3",
+              "locator": "3 The CoMemBench Benchmark · S3",
+              "segment_id": "S3"
+            },
+            {
+              "quote": "Results are reported by domain and further stratified",
+              "url": "https://arxiv.org/html/2609.32192v2#S4",
+              "locator": "4 Evaluation Protocol · S4",
+              "segment_id": "S4"
+            },
+            {
+              "quote": "For a consumer vv at workflow state ss,",
+              "url": "https://arxiv.org/html/2609.32192v2#S3.SS1",
+              "locator": "3 The CoMemBench Benchmark / 3.1 Workflow and boundary operationalization · S3.SS1",
+              "segment_id": "S3.SS1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2609-30813",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c32",
+          "paper_id": "arxiv-2609-30813",
+          "kind": "source_finding",
+          "text": "Повторённая или перефразированная ложная запись может выглядеть как независимое подтверждение. Admission policy без source lineage не надёжно различает новые свидетельства и копирование старого убеждения.",
+          "conditions": [
+            "Диагностический benchmark. Сценарии с известной истиной и фиксированным происхождением утверждений."
+          ],
+          "limitations": [
+            "Авторские сценарии сконструированы; перенос на естественную частоту событий требует дополнительной оценки."
+          ],
+          "evidence": [
+            {
+              "quote": "CPB measures admission to shared memory and its",
+              "url": "https://arxiv.org/html/2609.30813v1#S3.SS1",
+              "locator": "3 Method / 3.1 Problem formulation · S3.SS1",
+              "segment_id": "S3.SS1"
+            },
+            {
+              "quote": "F3. With shared memory as the only source,",
+              "url": "https://arxiv.org/html/2609.30813v1#S5.SS3",
+              "locator": "5 Results / 5.3 Adoption with and without a competing truth · S5.SS3",
+              "segment_id": "S5.SS3"
+            },
+            {
+              "quote": "Every Live scenario is authored fiction, which is",
+              "url": "https://arxiv.org/html/2609.30813v1#A19",
+              "locator": "Appendix S Limitations · A19",
+              "segment_id": "A19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2609-25563",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c33",
+          "paper_id": "arxiv-2609-25563",
+          "kind": "source_finding",
+          "text": "AkasicMEM сохраняет связь памяти с авторизацией исходных данных и повторно проверяет политику при retrieval. Разрешение на запись не должно автоматически превращаться в доступ ко всем производным знаниям.",
+          "conditions": [
+            "Архитектурная работа. Vector–graph–relational substrate и source–memory integration."
+          ],
+          "limitations": [
+            "Архитектурное описание не устанавливает универсальную utility или полноту защиты; epistemic admission выделен отдельно."
+          ],
+          "evidence": [
+            {
+              "quote": "Supporting source–memory integration alongside memory governance requires source",
+              "url": "https://arxiv.org/html/2609.25563v1#S3",
+              "locator": "3. Governed Enterprise Memory · S3",
+              "segment_id": "S3"
+            },
+            {
+              "quote": "Authorization continuity addresses one way in which shared",
+              "url": "https://arxiv.org/html/2609.25563v1#S5",
+              "locator": "5. Discussion and Future Work · S5",
+              "segment_id": "S5"
+            },
+            {
+              "quote": "Select is outside this paper’s scope, and admitting",
+              "url": "https://arxiv.org/html/2609.25563v1#S5.SS2.SSS0.Px1",
+              "locator": "5. Discussion and Future Work / 5.2. Toward Useful Governed Memory / Selection. · S5.SS2.SSS0.Px1",
+              "segment_id": "S5.SS2.SSS0.Px1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2609-23790",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c34",
+          "paper_id": "arxiv-2609-23790",
+          "kind": "source_finding",
+          "text": "Стоимость memory injection зависит и от объёма контекста, и от tier модели. Уменьшение денежной строки за счёт смены tier нельзя называть сокращением injected volume.",
+          "conditions": [
+            "Измерительное исследование. 200 enterprise tasks; uncached case."
+          ],
+          "limitations": [
+            "Prompt caching не оценён, tier assignment существенно влияет на итог; результаты не являются текущим тарифным прогнозом."
+          ],
+          "evidence": [
+            {
+              "quote": "We evaluate on a benchmark of 200 enterprise",
+              "url": "https://arxiv.org/html/2609.23790v1#S5",
+              "locator": "V Benchmark and Experimental Setup · S5",
+              "segment_id": "S5"
+            },
+            {
+              "quote": "A caution about Condition H, reported in Table",
+              "url": "https://arxiv.org/html/2609.23790v1#S6.SS1",
+              "locator": "VI Results / VI-A Injection Cost and Its Share of the Bill · S6.SS1",
+              "segment_id": "S6.SS1"
+            },
+            {
+              "quote": "Prompt caching is not evaluated, and this is",
+              "url": "https://arxiv.org/html/2609.23790v1#S8",
+              "locator": "VIII Limitations · S8",
+              "segment_id": "S8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2609-21533",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c35",
+          "paper_id": "arxiv-2609-21533",
+          "kind": "source_finding",
+          "text": "MACE сопрягает memory graphs, retrieval и изменение способов применения опыта. Абляции показывают, что эффект нельзя свести к большему контексту или дополнительным вызовам.",
+          "conditions": [
+            "Система и benchmark. Несколько benchmarks и управляемый token budget."
+          ],
+          "limitations": [
+            "Агрегатный score зависит от задач и backbones; компонентные улучшения не равны независимой репликации."
+          ],
+          "evidence": [
+            {
+              "quote": "where BtB_{t} is the memory-unit budget and the",
+              "url": "https://arxiv.org/html/2609.21533v1#S5.SS3",
+              "locator": "5 Methodology / 5.3 Need-aware Memory Composer · S5.SS3",
+              "segment_id": "S5.SS3"
+            },
+            {
+              "quote": "The largest losses occur when removing the coupling",
+              "url": "https://arxiv.org/html/2609.21533v1#A3.SS2",
+              "locator": "Appendix C Additional Result Details / C.2 Ablation Component Roles · A3.SS2",
+              "segment_id": "A3.SS2"
+            },
+            {
+              "quote": "Memory organization. With memory use fixed, we vary",
+              "url": "https://arxiv.org/html/2609.21533v1#S4",
+              "locator": "4 Empirical Study · S4",
+              "segment_id": "S4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2609-15009",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c36",
+          "paper_id": "arxiv-2609-15009",
+          "kind": "source_finding",
+          "text": "CoMem соединяет индивидуальный опыт и коллективный пул, используя кластеризацию для разнообразия. Проверка shared/private взаимодействия отличается от безусловного добавления всех записей.",
+          "conditions": [
+            "Система и benchmark. ALFWorld и PDDL, несколько MAS frameworks."
+          ],
+          "limitations": [
+            "Заявленная устойчивость к pollution относится к проверенным сценариям, а не ко всем адаптивным атакам."
+          ],
+          "evidence": [
+            {
+              "quote": "We evaluate CoMem on two standard decision-making benchmarks:",
+              "url": "https://arxiv.org/html/2609.15009v1#S4.SS1.SSS0.Px1",
+              "locator": "4 Experiments / 4.1 Experiment Setup / Datasets and Baselines. · S4.SS1.SSS0.Px1",
+              "segment_id": "S4.SS1.SSS0.Px1"
+            },
+            {
+              "quote": "CoMem consistently achieves strong performance across frameworks. On",
+              "url": "https://arxiv.org/html/2609.15009v1#S4.SS2.SSS0.Px1",
+              "locator": "4 Experiments / 4.2 Main Results (RQ1) / Takeaway 1: · S4.SS2.SSS0.Px1",
+              "segment_id": "S4.SS2.SSS0.Px1"
+            },
+            {
+              "quote": "Building on the layered memory architecture outlined above,",
+              "url": "https://arxiv.org/html/2609.15009v1#S3.SS2",
+              "locator": "3 Methodology / 3.2 Private Experience Sedimentation · S3.SS2",
+              "segment_id": "S3.SS2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2609-12320",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c37",
+          "paper_id": "arxiv-2609-12320",
+          "kind": "source_finding",
+          "text": "AIM оценивает multi-user память как набор операций: retrieval, create, update и delete. Visibility classification, strict operation accuracy и state-aware accuracy измеряют разные стороны корректности.",
+          "conditions": [
+            "Система и benchmark. Несколько модельных семейств, четыре домена."
+          ],
+          "limitations": [
+            "Канонизация и различия метрик влияют на результаты; точная visibility не означает точного выполнения всех операций."
+          ],
+          "evidence": [
+            {
+              "quote": "We evaluate AIM on MUMBench across all four",
+              "url": "https://arxiv.org/html/2609.12320v1#S5.SS1",
+              "locator": "5 Evaluation / 5.1 Experimental Setup · S5.SS1",
+              "segment_id": "S5.SS1"
+            },
+            {
+              "quote": "Gold and predicted operations are each reduced to",
+              "url": "https://arxiv.org/html/2609.12320v1#S5.SS2.SSS0.Px1",
+              "locator": "5 Evaluation / 5.2 Evaluation Methodology / Strict accuracy. · S5.SS2.SSS0.Px1",
+              "segment_id": "S5.SS2.SSS0.Px1"
+            },
+            {
+              "quote": "Our evaluation has several limitations. First, tag overlap",
+              "url": "https://arxiv.org/html/2609.12320v1#S6.SS1",
+              "locator": "6 Discussion / 6.1 Limitations · S6.SS1",
+              "segment_id": "S6.SS1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2609-10144",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c38",
+          "paper_id": "arxiv-2609-10144",
+          "kind": "source_finding",
+          "text": "Kernel-managed memory переносит retrieval и enforcement из отдельных агентов в системное ядро. Архитектурное сравнение удерживает storage backend, помогая отделить retrieval policy от качества модели.",
+          "conditions": [
+            "Система и benchmark. AIOS, несколько assistant models, personalization и latency."
+          ],
+          "limitations": [
+            "Сравнение с полной конкатенацией является context ceiling; ограничения workload и privacy probes нужно учитывать отдельно."
+          ],
+          "evidence": [
+            {
+              "quote": "We propose kernel-managed shared memory as a system-level",
+              "url": "https://arxiv.org/html/2609.10144v3#S3.SS1",
+              "locator": "3 Methodology and Architecture / 3.1 Overview and System Model · S3.SS1",
+              "segment_id": "S3.SS1"
+            },
+            {
+              "quote": "Three patterns hold across all three models. First,",
+              "url": "https://arxiv.org/html/2609.10144v3#S4.SS4",
+              "locator": "4 Experiments / 4.4 Quantitative Results · S4.SS4",
+              "segment_id": "S4.SS4"
+            },
+            {
+              "quote": "Kernel-managed shared memory reliably outperforms a standard RAG",
+              "url": "https://arxiv.org/html/2609.10144v3#S5",
+              "locator": "5 Discussion and Conclusion · S5",
+              "segment_id": "S5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2609-03340",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c39",
+          "paper_id": "arxiv-2609-03340",
+          "kind": "source_finding",
+          "text": "Свежесть записи не гарантирует актуальности плана, построенного на старых входах. Dependency-frontier validation связывает исполнение с версиями использованных требований.",
+          "conditions": [
+            "Формализация и система. Пять role processes, planner/executor/auditor, сравнение синхронизации."
+          ],
+          "limitations": [
+            "Цена зависит от частоты обновлений и размера scope; формальная гарантия относится к зафиксированному контракту."
+          ],
+          "evidence": [
+            {
+              "quote": "Live and controlled workflows. Five Qwen3.5-35B-A3B agents run",
+              "url": "https://arxiv.org/html/2609.03340v2#S6.SS1",
+              "locator": "6 Experiments / 6.1 Experimental Design · S6.SS1",
+              "segment_id": "S6.SS1"
+            },
+            {
+              "quote": "Section 3 and Appendix B state the formal",
+              "url": "https://arxiv.org/html/2609.03340v2#S7.SSx2",
+              "locator": "7 Conclusion / Reproducibility Statement · S7.SSx2",
+              "segment_id": "S7.SSx2"
+            },
+            {
+              "quote": "Current local memory does not establish that an",
+              "url": "https://arxiv.org/html/2609.03340v2#S7",
+              "locator": "7 Conclusion · S7",
+              "segment_id": "S7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2609-00237",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c40",
+          "paper_id": "arxiv-2609-00237",
+          "kind": "source_finding",
+          "text": "Gated-Memory Routing обучает удержание и маршрутизацию опыта, сопоставляя качество с inference cost. Закрытые задачи дают проверяемый reward, которого может не быть в открытой работе.",
+          "conditions": [
+            "Система и benchmark. Пять math, code и knowledge benchmarks."
+          ],
+          "limitations": [
+            "Для open-ended generation понадобится другой verification signal; сравнение зависит от бюджета и моделей."
+          ],
+          "evidence": [
+            {
+              "quote": "We evaluate on five benchmarks spanning mathematical reasoning,",
+              "url": "https://arxiv.org/html/2609.00237v2#S4.SS0.SSS0.Px1",
+              "locator": "4 Experimental Setup / Datasets and Benchmarks. · S4.SS0.SSS0.Px1",
+              "segment_id": "S4.SS0.SSS0.Px1"
+            },
+            {
+              "quote": "Table 1 shows that Gated-Memory Routing achieves the",
+              "url": "https://arxiv.org/html/2609.00237v2#S5.SS1",
+              "locator": "5 Results / 5.1 Performance Analysis · S5.SS1",
+              "segment_id": "S5.SS1"
+            },
+            {
+              "quote": "Our evaluation uses closed-domain tasks with verifiable answers,",
+              "url": "https://arxiv.org/html/2609.00237v2#Sx1",
+              "locator": "Limitations · Sx1",
+              "segment_id": "Sx1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2608-29678",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c41",
+          "paper_id": "arxiv-2608-29678",
+          "kind": "source_finding",
+          "text": "MAGE связывает роли, evidence, процедуры и traces в diachronic hypergraph. Retrieval, lifecycle management и budgeted packing образуют совместный memory engine.",
+          "conditions": [
+            "Система и benchmark. Двенадцать QA benchmarks."
+          ],
+          "limitations": [
+            "Суммарный выигрыш не изолирует каждый компонент; нужна проверка временных границ опыта и переносимости evidence."
+          ],
+          "evidence": [
+            {
+              "quote": "Datasets. We evaluate on 1212 QA benchmarks spanning",
+              "url": "https://arxiv.org/html/2608.29678v2#S5.SS1",
+              "locator": "5. Experiments / 5.1. Experimental Setup · S5.SS1",
+              "segment_id": "S5.SS1"
+            },
+            {
+              "quote": "We presented MAGE, an agent graph memory engine",
+              "url": "https://arxiv.org/html/2608.29678v2#S6",
+              "locator": "6. Conclusion · S6",
+              "segment_id": "S6"
+            },
+            {
+              "quote": "Overall, the experiments show that MAGE improves memory",
+              "url": "https://arxiv.org/html/2608.29678v2#A11",
+              "locator": "Appendix K Discussion and Limitations · A11",
+              "segment_id": "A11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2608-19701",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c42",
+          "paper_id": "arxiv-2608-19701",
+          "kind": "source_finding",
+          "text": "CAMA моделирует зависимость между memories вместо подсчёта голосов. Correlated copies могут создавать ложное большинство без новых независимых данных.",
+          "conditions": [
+            "Система и benchmark. Несколько long-term memory benchmarks и backbones."
+          ],
+          "limitations": [
+            "Выявленная зависимость является модельной оценкой; победа на benchmark не гарантирует полного восстановления provenance."
+          ],
+          "evidence": [
+            {
+              "quote": "We evaluate CAMA on three long-term memory benchmarks:",
+              "url": "https://arxiv.org/html/2608.19701v1#Sx4.SSx1.SSSx2.Px1",
+              "locator": "Experiments / Experimental Setup / Datasets · Sx4.SSx1.SSSx2.Px1",
+              "segment_id": "Sx4.SSx1.SSSx2.Px1"
+            },
+            {
+              "quote": "Table 1 shows that CAMA consistently achieves superior",
+              "url": "https://arxiv.org/html/2608.19701v1#Sx4.SSx2.SSSx2.Px1",
+              "locator": "Experiments / Experimental Results / Overall Performance · Sx4.SSx2.SSSx2.Px1",
+              "segment_id": "Sx4.SSx2.SSSx2.Px1"
+            },
+            {
+              "quote": "Unlike conventional aggregation methods that treat retrieved memories",
+              "url": "https://arxiv.org/html/2608.19701v1#Sx3.SSx1",
+              "locator": "Methodology / Problem Formulation · Sx3.SSx1",
+              "segment_id": "Sx3.SSx1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2605-09278",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c43",
+          "paper_id": "arxiv-2605-09278",
+          "kind": "source_finding",
+          "text": "EquiMem формулирует влияние shared memory как zero-trust game и калибрует обновления без предположения о надёжном агенте. Проверяются embedding и graph memory.",
+          "conditions": [
+            "Формализация и benchmark. Несколько MAD frameworks и четыре datasets."
+          ],
+          "limitations": [
+            "Защита ограничена inference-time debate и выбранными архитектурами; equilibrium модели не является универсальной security guarantee."
+          ],
+          "evidence": [
+            {
+              "quote": "Datasets. We evaluate on four datasets spanning two",
+              "url": "https://arxiv.org/html/2605.09278v2#S5.SS1",
+              "locator": "5 Experiments / 5.1 Experimental Setup · S5.SS1",
+              "segment_id": "S5.SS1"
+            },
+            {
+              "quote": "This work formulates shared-memory multi-agent debate as a",
+              "url": "https://arxiv.org/html/2605.09278v2#S6",
+              "locator": "6 Conclusion · S6",
+              "segment_id": "S6"
+            },
+            {
+              "quote": "Our study focuses on inference-time calibration of shared",
+              "url": "https://arxiv.org/html/2605.09278v2#A1",
+              "locator": "Appendix A Limitations · A1",
+              "segment_id": "A1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2608-00426",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c44",
+          "paper_id": "arxiv-2608-00426",
+          "kind": "source_finding",
+          "text": "MAPLE-Guard контролирует write, retrieval, promotion и cross-agent reuse, ограничивая распространение memory-link poisoning. Это containment после попадания атаки, а не обещание предотвратить любую первоначальную компрометацию.",
+          "conditions": [
+            "Исследование безопасности. Пять benchmark–attack пар и разные топологии."
+          ],
+          "limitations": [
+            "Эффект зависит от threat model и атак; требуется адаптивная проверка новых вариантов poisoning."
+          ],
+          "evidence": [
+            {
+              "quote": "We evaluate five benchmark–attack pairs: MMLU–MINJA [10, 13],",
+              "url": "https://arxiv.org/html/2608.00426v2#S5.SS1.SSS0.Px1",
+              "locator": "5 Experiment / 5.1 Experimental Setup / Datasets. · S5.SS1.SSS0.Px1",
+              "segment_id": "S5.SS1.SSS0.Px1"
+            },
+            {
+              "quote": "We formalize memory-link poisoning in LLM-based multi-agent systems",
+              "url": "https://arxiv.org/html/2608.00426v2#S6",
+              "locator": "6 Conclusion · S6",
+              "segment_id": "S6"
+            },
+            {
+              "quote": "MAPLE-Guard is designed to contain memory-link poisoning after",
+              "url": "https://arxiv.org/html/2608.00426v2#Sx1",
+              "locator": "Limitation · Sx1",
+              "segment_id": "Sx1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2603-10062",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c45",
+          "paper_id": "arxiv-2603-10062",
+          "kind": "source_finding",
+          "text": "Архитектурная перспектива разделяет cache, долговременную память, access protocols и consistency. Общий контекст требует явных правил доступа и согласованности, а не только большего context window.",
+          "conditions": [
+            "Концептуальная работа. Иерархия памяти и протоколы обмена."
+          ],
+          "limitations": [
+            "Это vision/position paper, а не новый comparative benchmark или работающий универсальный протокол."
+          ],
+          "evidence": [
+            {
+              "quote": "LLM evaluations show that “real” context ability involves",
+              "url": "https://arxiv.org/html/2603.10062v2#S2",
+              "locator": "2. Why Memory Matters: Context Is Changing · S2",
+              "segment_id": "S2"
+            },
+            {
+              "quote": "Many agent memory systems today resemble human memory:",
+              "url": "https://arxiv.org/html/2603.10062v2#S7",
+              "locator": "7. Conclusion · S7",
+              "segment_id": "S7"
+            },
+            {
+              "quote": "Agent I/O layer: Interfaces that ingest and emit",
+              "url": "https://arxiv.org/html/2603.10062v2#S4",
+              "locator": "4. An Architecture-Inspired Memory Hierarchy · S4",
+              "segment_id": "S4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2605-29313",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c46",
+          "paper_id": "arxiv-2605-29313",
+          "kind": "source_finding",
+          "text": "PatchBoard применяет schema-grounded transactional patches и role authorization к общему состоянию. Структурная валидность записи не гарантирует её семантической правильности.",
+          "conditions": [
+            "Система и benchmark. ALFWorld и диагностический QA."
+          ],
+          "limitations": [
+            "Kernel отклоняет невалидную структуру и права, но не всякую содержательную ошибку."
+          ],
+          "evidence": [
+            {
+              "quote": "After validation, the accepted blueprint becomes the runtime",
+              "url": "https://arxiv.org/html/2605.29313v2#S3.SS2",
+              "locator": "3 Methodology / 3.2 Architect and Task Blueprint · S3.SS2",
+              "segment_id": "S3.SS2"
+            },
+            {
+              "quote": "The experiments evaluate whether schema-grounded state mutation improves",
+              "url": "https://arxiv.org/html/2605.29313v2#S4.SS1",
+              "locator": "4 Experimental Setup / 4.1 Evaluation Goals · S4.SS1",
+              "segment_id": "S4.SS1"
+            },
+            {
+              "quote": "PatchBoard provides structural reliability, so it does not",
+              "url": "https://arxiv.org/html/2605.29313v2#Sx1",
+              "locator": "Limitations · Sx1",
+              "segment_id": "Sx1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2602-11510",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c47",
+          "paper_id": "arxiv-2602-11510",
+          "kind": "source_finding",
+          "text": "AgentLeak проверяет внутренние координационные каналы: закрытый финальный ответ ещё не доказывает, что чувствительные данные не передавались между агентами.",
+          "conditions": [
+            "Исследование безопасности. Coordinator–worker setting и detection pipeline."
+          ],
+          "limitations": [
+            "Ошибки detector и архитектура стенда ограничивают выводы; output-only защита покрывает другой threat surface."
+          ],
+          "evidence": [
+            {
+              "quote": "The problem we address is sensitive data leakage",
+              "url": "https://arxiv.org/html/2602.11510v3#S3.SS1",
+              "locator": "III Problem Definition and Threat Model / III-A Problem Statement · S3.SS1",
+              "segment_id": "S3.SS1"
+            },
+            {
+              "quote": "On a separate test set (n=1,000 segments), Tier",
+              "url": "https://arxiv.org/html/2602.11510v3#S6.SS2",
+              "locator": "VI Evaluation and Results / VI-B Detection Pipeline Validation · S6.SS2",
+              "segment_id": "S6.SS2"
+            },
+            {
+              "quote": "This section examines the broader implications of our",
+              "url": "https://arxiv.org/html/2602.11510v3#S7",
+              "locator": "VII Discussion and Limitations · S7",
+              "segment_id": "S7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2606-19911",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c48",
+          "paper_id": "arxiv-2606-19911",
+          "kind": "source_finding",
+          "text": "Transactive memory индексирует опыт гетерогенной популяции агентов и отдаёт его новым consumer agents без joint training. Retrieval benefit проверяется на interactive tasks.",
+          "conditions": [
+            "Система и benchmark. ALFWorld, WebArena, 34-model consumer population."
+          ],
+          "limitations": [
+            "Два benchmark-мира не покрывают все открытые экосистемы; нужна проверка применимости чужого опыта."
+          ],
+          "evidence": [
+            {
+              "quote": "We instantiate MATM in two interactive benchmarks: ALFWorld",
+              "url": "https://arxiv.org/html/2606.19911v2#S4",
+              "locator": "4 Experimental Setup · S4",
+              "segment_id": "S4"
+            },
+            {
+              "quote": "We organize results around five research questions: whether",
+              "url": "https://arxiv.org/html/2606.19911v2#S5",
+              "locator": "5 Results · S5",
+              "segment_id": "S5"
+            },
+            {
+              "quote": "Our experiments cover two interactive benchmarks (ALFWorld and",
+              "url": "https://arxiv.org/html/2606.19911v2#Sx1",
+              "locator": "Limitations and Future Work · Sx1",
+              "segment_id": "Sx1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2606-18829",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c49",
+          "paper_id": "arxiv-2606-18829",
+          "kind": "source_finding",
+          "text": "GateMem проверяет utility вместе с доступом и active forgetting в multi-principal памяти. Снижение token cost не заменяет тест на выдачу неразрешённой или удалённой информации.",
+          "conditions": [
+            "Benchmark. Medical, office, education и household сценарии."
+          ],
+          "limitations": [
+            "Правила restrictive action и leak annotations задают границы проверки; результаты не являются гарантией для реальных учреждений."
+          ],
+          "evidence": [
+            {
+              "quote": "GateMem evaluates memory-augmented assistants across four multi-principal domains:",
+              "url": "https://arxiv.org/html/2606.18829v1#S3",
+              "locator": "3 The GateMem Benchmark · S3",
+              "segment_id": "S3"
+            },
+            {
+              "quote": "Access-Control Violation (AA). An access-control violation occurs when",
+              "url": "https://arxiv.org/html/2606.18829v1#S3.SS3",
+              "locator": "3 The GateMem Benchmark / 3.3 Evaluation Metrics · S3.SS3",
+              "segment_id": "S3.SS3"
+            },
+            {
+              "quote": "Each episode ee is an independent evaluation unit",
+              "url": "https://arxiv.org/html/2606.18829v1#S3.SS1",
+              "locator": "3 The GateMem Benchmark / 3.1 Episodes and Memory State · S3.SS1",
+              "segment_id": "S3.SS1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2506-07398",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c50",
+          "paper_id": "arxiv-2506-07398",
+          "kind": "source_finding",
+          "text": "G-Memory организует опыт и связанные рассуждения иерархически для повторного использования в MAS. Сравнение охватывает разные task domains и frameworks, а не только один вид QA.",
+          "conditions": [
+            "Система и benchmark. Пять benchmarks в трёх доменах, разные backbone sizes."
+          ],
+          "limitations": [
+            "Авторский benchmark gain зависит от baseline, задач и масштаба модели; перенос и независимая репликация отдельно не выполнены нами."
+          ],
+          "evidence": [
+            {
+              "quote": "To thoroughly evaluate the effectiveness of G-Memory, we",
+              "url": "https://arxiv.org/html/2506.07398v2#S5.SS1.SSS0.Px1",
+              "locator": "5 Experiment / 5.1 Experiment Setup / Datasets and Benchmarks. · S5.SS1.SSS0.Px1",
+              "segment_id": "S5.SS1.SSS0.Px1"
+            },
+            {
+              "quote": "Takeaway ➊: G-Memory consistently improves performance across all",
+              "url": "https://arxiv.org/html/2506.07398v2#S5.SS2",
+              "locator": "5 Experiment / 5.2 Main Results (RQ1) · S5.SS2",
+              "segment_id": "S5.SS2"
+            },
+            {
+              "quote": "In this paper, we conduct a thorough examination",
+              "url": "https://arxiv.org/html/2506.07398v2#S6",
+              "locator": "6 Conclusion & Limitation · S6",
+              "segment_id": "S6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "synthesis": {
+    "title": "Как агентам делиться опытом, не распространяя ошибки?",
+    "sections": [
+      {
+        "key": "brief",
+        "title": "Короткий ответ",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Общая память — это несколько механизмов: рабочий буфер одной задачи, межзадачный опыт и обмен между пользователями. Retrieval, admission, consolidation и governance нужно сравнивать отдельно.",
+            "claim_ids": [
+              "c3",
+              "c18",
+              "c21",
+              "c37"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Больше обмена не гарантирует более правильный ответ. Память может изменить маршрутизацию консультантов, скрыть конфликт при handoff или усилить ложь за счёт коррелированных копий.",
+            "claim_ids": [
+              "c13",
+              "c9",
+              "c32",
+              "c42"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Качество решения, права доступа, актуальность производных планов и стоимость памяти — отдельные проверки. Формальная валидность записи не доказывает семантической правильности исполнения.",
+            "claim_ids": [
+              "c49",
+              "c39",
+              "c34",
+              "c46",
+              "c25"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "scope",
+        "title": "Границы: память или обучение?",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Корпус: 50 работ, выбранных по исследовательскому вопросу. Различаются 5 тематических групп. Обзоры и концептуальные предложения не считаются самостоятельными подтверждающими экспериментами.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Поиск: 22 ноября 2026 года, arXiv, по 200 результатов на направление; затем тематический отбор и проверка доступности полных текстов. Недоступная работа не засчитана и заменена релевантным доступным источником. Охват просмотра указан в каждой карточке; полнота литературы не установлена.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "mechanism",
+        "title": "Жизненный цикл общего опыта",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Записать: INMS отбирает ответы scorer-ом, Learning to Share учит admission-политику, MemCollab извлекает guidance из контраста траекторий. Эти три способа не взаимозаменяемы.",
+            "claim_ids": [
+              "c1",
+              "c3",
+              "c4"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Извлечь: запрос должен учитывать scope, роль и текущие предпочтения получателя. Похожесть текста не означает право доступа или применимость процедуры.",
+            "claim_ids": [
+              "c2",
+              "c5"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Пересмотреть: новое свидетельство может отменить старую интерпретацию; происхождение и зависимости нужны, чтобы обновлять следующие выводы.",
+            "claim_ids": [
+              "c6",
+              "c7"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "approaches",
+        "title": "Три задачи, три семейства",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Admission и координация: learned gates, общий асинхронный буфер и reliability memory выбирают разные единицы обмена. Выбор консультанта и итоговая accuracy проверяются раздельно.",
+            "claim_ids": [
+              "c3",
+              "c18",
+              "c30",
+              "c40",
+              "c13"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Консолидация: procedural skills, episodic memory и hypergraphs хранят разные структуры опыта. Их комплексные системы нужно разбирать по компонентам и бюджетам, а не только по общей таблице побед.",
+            "claim_ids": [
+              "c16",
+              "c22",
+              "c35",
+              "c41",
+              "c10"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Перенос: чужой опыт может обобщаться в guidance или продвигаться из local в global memory. Основную оценку замороженного опыта следует отделять от его обновления на тестовой последовательности.",
+            "claim_ids": [
+              "c4",
+              "c21",
+              "c26",
+              "c5"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Конфликты: нужно сохранить обе версии свидетельства, источник и цепочку производных выводов. Копирование одного убеждения не добавляет независимого подтверждения.",
+            "claim_ids": [
+              "c9",
+              "c32",
+              "c42",
+              "c39"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Governance: источники, роли, операции и derived knowledge задают границы доступа. Защита write path не заменяет проверку retrieval, promotion, reuse и удаления.",
+            "claim_ids": [
+              "c2",
+              "c33",
+              "c37",
+              "c44",
+              "c49"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "comparison",
+        "title": "Что реально сравнивалось",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "В таблице 50 публикаций. Выберите тематическую группу или найдите работу по названию. Тип исследования указан отдельно: строки нельзя складывать в общий рейтинг или считать независимыми подтверждениями одного эффекта.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "disagreements",
+        "title": "Где общий опыт становится проблемой",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Маршрутизация может измениться без обнаруженного выигрыша конечной точности. Это ограничивает вывод «более связная команда лучше решает задачи».",
+            "claim_ids": [
+              "c13",
+              "c30"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Корректная или свежая запись не гарантирует актуальный план и исполненное требование. Нужны зависимости, версии входов и execution evidence, а не только фильтр памяти.",
+            "claim_ids": [
+              "c39",
+              "c25",
+              "c46"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Provenance необходим для анализа происхождения, но простой trust gate может не остановить poisoning. Многоступенчатая защита тоже проверена только при определённых threat models.",
+            "claim_ids": [
+              "c8",
+              "c44",
+              "c43",
+              "c23"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Шире sharing может означать слабее isolation. Правильное распознавание visibility не равно правильному выполнению каждой memory operation.",
+            "claim_ids": [
+              "c31",
+              "c37",
+              "c49"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Token volume, цена модели и фактическая стоимость памяти не взаимозаменяемы. Уменьшение cost после смены model tier не доказывает сокращение контекста; caching требует отдельной оценки.",
+            "claim_ids": [
+              "c34",
+              "c18",
+              "c14"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Полевая общая память сообщества и мультимодальная driving-state дают прикладные идеи, но их критерии успеха отличаются от reasoning accuracy. Концептуальная архитектура сама по себе не является benchmark-результатом.",
+            "claim_ids": [
+              "c12",
+              "c27",
+              "c45",
+              "c7"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "practice",
+        "title": "Минимальная честная проверка",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Сравнить без памяти, локальную память, общий пул без фильтра и общий пул с отбором. Зафиксировать модели, инструменты, число агентов и бюджет retrieval/calls; учесть стоимость записи и консолидации.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Разделить донорские и тестовые задачи до построения памяти, проверить пересечение по содержанию. Создать тесты на смену предпочтений, противоречащую запись, отзыв доступа и повторную выдачу старого факта.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Сохранять success, latency, tokens и memory size отдельно от leakage, stale-read и отрицательного переноса. Мы не запускали этот эксперимент; это предлагаемый протокол.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "questions",
+        "title": "Следующая проверяемая гипотеза",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Гипотеза: переносить проверенные обобщённые процедуры с явным scope полезнее, чем целые ответы. Условия: одинаковые донорские траектории, замороженный тест, одинаковый retrieval budget; контроль — локальная память и сырой общий пул.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Опровержение: выигрыш пропадает после удаления похожих тестовых задач или учёта расходов consolidation; либо появляются утечки и отрицательный перенос сверх заранее установленного порога. Отдельная проверка — исправление ошибочного донора и зависимых записей.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "reading",
+        "title": "Маршрут чтения",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "INMS — базовый общий пул; Learning to Share — learned admission внутри одной задачи; MemCollab — обобщение переносимого опыта.",
+            "claim_ids": [
+              "c1",
+              "c3",
+              "c4"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Затем Collaborative Memory и ShareMem для пользовательских границ. Завершить отрицательными результатами Governed Shared Memory и вопросом независимости свидетельств в VLM-памяти.",
+            "claim_ids": [
+              "c2",
+              "c5",
+              "c6",
+              "c7"
+            ]
+          }
+        ]
+      }
+    ],
+    "concepts": [
+      {
+        "id": "admission",
+        "name": "Admission",
+        "definition": {
+          "kind": "synthesis",
+          "text": "Политика отбора записей для общего пула.",
+          "claim_ids": [
+            "c1",
+            "c3"
+          ]
+        },
+        "statements": [],
+        "disagreements": []
+      },
+      {
+        "id": "scope",
+        "name": "Scope и provenance",
+        "definition": {
+          "kind": "synthesis",
+          "text": "Границы применимости и доступа вместе с происхождением записи.",
+          "claim_ids": [
+            "c2",
+            "c6"
+          ]
+        },
+        "statements": [],
+        "disagreements": []
+      },
+      {
+        "id": "transfer",
+        "name": "Перенос опыта",
+        "definition": {
+          "kind": "synthesis",
+          "text": "Применение внешней guidance другой моделью или пользователем без обязательного обновления весов.",
+          "claim_ids": [
+            "c4",
+            "c5"
+          ]
+        },
+        "statements": [],
+        "disagreements": []
+      }
+    ]
+  },
+  "comparison": [
+    {
+      "paper_id": "arxiv-2404-09982",
+      "method": "Общий пул отфильтрованных ответов и retrieval.",
+      "guarantee": "Повторное использование опыта через контекст, а не синхронизация весов.",
+      "setup": "Эксперименты на задачах генерации; разбор ограничений отдельно.",
+      "claim_ids": [
+        "c1"
+      ],
+      "theme": "Отбор опыта и координация",
+      "study_type": "Система и benchmark"
+    },
+    {
+      "paper_id": "arxiv-2505-18279",
+      "method": "Private/shared-память и динамические права на пользователей, агентов и ресурсы.",
+      "guarantee": "Демонстрация механизма в заданных сценариях; не формальное доказательство отсутствия утечек.",
+      "setup": "Контролируемые сценарии полного, асимметричного и изменяемого доступа.",
+      "claim_ids": [
+        "c2"
+      ],
+      "theme": "Права доступа и защита",
+      "study_type": "Система и benchmark"
+    },
+    {
+      "paper_id": "arxiv-2602-05965",
+      "method": "Выученная политика записи в общий буфер одной задачи.",
+      "guarantee": "Меньше дублирования в изученной системе; не доказательство долгосрочного коллективного обучения.",
+      "setup": "Сравнение с memory-free parallel baseline, add-all и абляциями обучения контроллера.",
+      "claim_ids": [
+        "c3"
+      ],
+      "theme": "Отбор опыта и координация",
+      "study_type": "Система и benchmark"
+    },
+    {
+      "paper_id": "arxiv-2603-23234",
+      "method": "Контраст траекторий, структурированные ограничения, task-aware retrieval.",
+      "guarantee": "Перенос guidance между проверенными конфигурациями; не гарантия переноса произвольного опыта.",
+      "setup": "Сравнение моделей и источников памяти, retrieval-абляции и оценка стоимости inference.",
+      "claim_ids": [
+        "c4"
+      ],
+      "theme": "Перенос и прикладные проверки",
+      "study_type": "Система и benchmark"
+    },
+    {
+      "paper_id": "arxiv-2609-32511",
+      "method": "Двухэтапная консолидация опыта; предпочтения остаются у пользователя.",
+      "guarantee": "Авторские результаты на трёх средах; нет универсальной гарантии против отрицательного переноса.",
+      "setup": "Local против shared, одинаковый retrieval budget и абляции отдельных каналов.",
+      "claim_ids": [
+        "c5"
+      ],
+      "theme": "Перенос и прикладные проверки",
+      "study_type": "Система и benchmark"
+    },
+    {
+      "paper_id": "arxiv-2606-24535",
+      "method": "Контроль scope и происхождения; явное замещение устаревших фактов.",
+      "guarantee": "Отрицательные результаты важны для архитектуры; межсистемное превосходство не проверено.",
+      "setup": "Live-service probes с опубликованными авторами трассами; без comparand.",
+      "claim_ids": [
+        "c6"
+      ],
+      "theme": "Права доступа и защита",
+      "study_type": "Live-service evaluation"
+    },
+    {
+      "paper_id": "arxiv-2609-17921",
+      "method": "Общая визуальная память с зависимостями утверждений и revision.",
+      "guarantee": "Исследовательская гипотеза об организации памяти, не продемонстрированный performance gain.",
+      "setup": "Концептуальная работа и иллюстративный сценарий; новый benchmark-эксперимент не представлен.",
+      "claim_ids": [
+        "c7"
+      ],
+      "theme": "Организация и консолидация",
+      "study_type": "Концептуальная работа"
+    },
+    {
+      "paper_id": "arxiv-2611-22461",
+      "method": "Gated ablation и poisoning tests.",
+      "guarantee": "Provenance-based write gate не снизил attack success в проверенном режиме. Простая groundedness может предпочесть ложь о знакомой сущности новому верному факту; разрешение конфликта до чтения скрывает полезное несогласие.",
+      "setup": "Фиксированный бюджет, memory-backed debate и проверяемые атаки. Ограничение: Результат относится к проверенному режиму и gate, а не к бесполезности любого provenance.",
+      "claim_ids": [
+        "c8"
+      ],
+      "theme": "Конфликты и независимость свидетельств",
+      "study_type": "Диагностическое исследование"
+    },
+    {
+      "paper_id": "arxiv-2611-22245",
+      "method": "Трассировка Pair Recall и handoffs.",
+      "guarantee": "Конфликт может исчезнуть при передаче worker→lead даже после retrieval обеих версий факта. Разнесение противоречащих свидетельств между workers отличается от ситуации, где один worker видит их вместе.",
+      "setup": "Matched comparisons Required/None и размещения свидетельств. Ограничение: Манипуляция объединяет delegation, partitioning и доступ lead; наблюдаемые retrieval choices не полностью рандомизированы.",
+      "claim_ids": [
+        "c9"
+      ],
+      "theme": "Конфликты и независимость свидетельств",
+      "study_type": "Диагностическое исследование"
+    },
+    {
+      "paper_id": "arxiv-2611-12068",
+      "method": "QA benchmarks, budgets и абляции.",
+      "guarantee": "MIRIX-2.0 сохраняет типизированные записи и provenance-гиперграф, а AutoDream выполняет консолидацию вне write path. Компоненты проверяются группами, поэтому нельзя приписать весь эффект одной структуре памяти.",
+      "setup": "Типизированные записи, bounded retrieval и procedural skills. Ограничение: Групповые абляции не изолируют вклад каждого элемента; авторские benchmark scores требуют отдельной репликации.",
+      "claim_ids": [
+        "c10"
+      ],
+      "theme": "Организация и консолидация",
+      "study_type": "Система и benchmark"
+    },
+    {
+      "paper_id": "arxiv-2611-08718",
+      "method": "Offline, conversational и cross-session comparison.",
+      "guarantee": "В conversational recommendation память и orchestration влияют на разные части системы. Retrieval и фактически показанные рекомендации расходятся; LLM reranking может менять семантику и разнообразие без выигрыша Hit@K.",
+      "setup": "Уменьшенная выборка пользователей, симулированные взаимодействия. Ограничение: Контролируемая симуляция ограничивает перенос на реальное пользовательское поведение.",
+      "claim_ids": [
+        "c11"
+      ],
+      "theme": "Перенос и прикладные проверки",
+      "study_type": "Прикладная система"
+    },
+    {
+      "paper_id": "arxiv-2611-04296",
+      "method": "Двухнедельное полевое развёртывание и workshop.",
+      "guarantee": "SEAM исследует общую ассоциативную память сообщества в открытом использовании. Полевая работа показывает способы обмена контекстом, но дизайн намеренно не измеряет comparative system performance.",
+      "setup": "46 участников сообщества, follow-up с 14. Ограничение: Наблюдение за одной группой не устанавливает эффект долгосрочного накопления знаний или causal utility.",
+      "claim_ids": [
+        "c12"
+      ],
+      "theme": "Перенос и прикладные проверки",
+      "study_type": "Полевое исследование"
+    },
+    {
+      "paper_id": "arxiv-2611-09990",
+      "method": "Сравнение peer selection и revision.",
+      "guarantee": "Peer memory меняет выбор консультируемых агентов, но обнаруженного выигрыша final answer accuracy нет. Изменение коммуникационного графа следует проверять отдельно от качества конечного решения.",
+      "setup": "Шесть агентов, парные линии и reference-answer feedback. Ограничение: Общие модели/промпты и малый набор задач ограничивают перенос; отсутствие значимости не доказывает эквивалентности.",
+      "claim_ids": [
+        "c13"
+      ],
+      "theme": "Отбор опыта и координация",
+      "study_type": "Контролируемая оценка"
+    },
+    {
+      "paper_id": "arxiv-2610-37935",
+      "method": "Сравнение skill representations и discovery.",
+      "guarantee": "SkillMem компилирует повторно используемые skills в компактную внешнюю латентную память. Storage и inference efficiency проверяются вместе с качеством; объединение нескольких конфликтующих skills остаётся будущей задачей.",
+      "setup": "Несколько reasoning benchmarks и два размера backbone. Ограничение: Ограниченные модели и задачи; перенос состава навыков и разрешение конфликтов не установлены.",
+      "claim_ids": [
+        "c14"
+      ],
+      "theme": "Организация и консолидация",
+      "study_type": "Система и benchmark"
+    },
+    {
+      "paper_id": "arxiv-2610-36652",
+      "method": "Paired replays, targeted repair и meta-memory.",
+      "guarantee": "DiscernMem различает ошибочное правило и верное правило, применённое в неподходящем контексте. Refinement и обучение границ применимости — разные механизмы.",
+      "setup": "Четыре benchmarks, три multi-agent hosts. Ограничение: Область корректируемых ошибок ограничена доступной replay-информацией; общий team failure не даёт готовой причинной метки.",
+      "claim_ids": [
+        "c15"
+      ],
+      "theme": "Отбор опыта и координация",
+      "study_type": "Система и benchmark"
+    },
+    {
+      "paper_id": "arxiv-2610-35966",
+      "method": "Сопоставление workflow synthesis и update efficiency.",
+      "guarantee": "EMMA хранит структурированный episodic опыт для локальных guarded изменений workflow. Стоимость обновления измеряется количеством training executions, отдельно от итоговой task performance.",
+      "setup": "KramaBench, AppWorld и BBEH; раздельные train/test. Ограничение: Сравнение относится к выбранным backbones, baselines и бюджетам; execution count не равен полной денежной стоимости.",
+      "claim_ids": [
+        "c16"
+      ],
+      "theme": "Организация и консолидация",
+      "study_type": "Система и benchmark"
+    },
+    {
+      "paper_id": "arxiv-2610-33539",
+      "method": "Counterfactual-guided evolution и абляции.",
+      "guarantee": "CoEvolve согласует обновления collaboration и памяти через общий skill space и контраст исходных/контрфактуальных траекторий. Проверяется совместная адаптация, а не один retrieval-компонент.",
+      "setup": "ALFWorld и WebShop. Ограничение: Два интерактивных benchmark-мира не устанавливают перенос на открытые рабочие процессы.",
+      "claim_ids": [
+        "c17"
+      ],
+      "theme": "Отбор опыта и координация",
+      "study_type": "Система и benchmark"
+    },
+    {
+      "paper_id": "arxiv-2610-31355",
+      "method": "Общий буфер и сравнение multi-agent reasoning.",
+      "guarantee": "Muffin асинхронно делится промежуточными находками, сохраняя частное рассуждение локально. Quality–cost trade-off проверяется отдельно от полного обмена трассами.",
+      "setup": "Четыре QA/reasoning benchmarks. Ограничение: Авторы ограничивают выводы задачами без полноценного long-horizon tool use и планирования.",
+      "claim_ids": [
+        "c18"
+      ],
+      "theme": "Отбор опыта и координация",
+      "study_type": "Система и benchmark"
+    },
+    {
+      "paper_id": "arxiv-2610-28810",
+      "method": "Экспериментальная проверка memory-injection угроз.",
+      "guarantee": "Memory injection может сделать вредоносную инструкцию устойчивой между сессиями и распространить её между пользователями. Persistent storage расширяет threat model по сравнению с разовым заражённым prompt.",
+      "setup": "Сервисы с долгосрочной памятью, threat model и attack artifacts. Ограничение: Проверенные версии сервисов и сценарии не устанавливают текущую уязвимость всех продуктов; защита требует повторной проверки.",
+      "claim_ids": [
+        "c19"
+      ],
+      "theme": "Права доступа и защита",
+      "study_type": "Исследование безопасности"
+    },
+    {
+      "paper_id": "arxiv-2610-27032",
+      "method": "Сравнение planning accuracy и efficiency.",
+      "guarantee": "M-Plan разделяет long-term storage, short-term generation и optimizer, который организует опыт перед сохранением. Это комплексный planning framework, поэтому суммарный эффект не следует приписывать памяти в одиночку.",
+      "setup": "ALFWorld, WebShop и PDDL; несколько моделей. Ограничение: Результаты зависят от полного стека и выбранных baselines; нужен component-level контроль.",
+      "claim_ids": [
+        "c20"
+      ],
+      "theme": "Организация и консолидация",
+      "study_type": "Система и benchmark"
+    },
+    {
+      "paper_id": "arxiv-2610-19581",
+      "method": "Cross-agent transfer и experience updates.",
+      "guarantee": "XferAgent отделяет основную оценку замороженной памяти от последовательного обновления опыта. Heterogeneous-agent transfer и накопление результатов между проходами проверяются раздельно.",
+      "setup": "GAIA и ALFWorld, фиксированные backbone/cohort для основных сравнений. Ограничение: Очистка опыта от task-specific информации не является доказательством приватности; важен контроль memory/test overlap.",
+      "claim_ids": [
+        "c21"
+      ],
+      "theme": "Перенос и прикладные проверки",
+      "study_type": "Система и benchmark"
+    },
+    {
+      "paper_id": "arxiv-2610-14515",
+      "method": "Сравнение и component ablations.",
+      "guarantee": "SEPM связывает procedural memory с графом зависимостей задач и общим blackboard. Разные среды выигрывают от разных компонентов, поэтому эффект нельзя приписывать одному shared store.",
+      "setup": "ALFWorld, WebArena, OfficeBench. Ограничение: Зависимость от среды и стека; graph consistency не гарантирует выполнение требований задачи.",
+      "claim_ids": [
+        "c22"
+      ],
+      "theme": "Организация и консолидация",
+      "study_type": "Система и benchmark"
+    },
+    {
+      "paper_id": "arxiv-2610-13267",
+      "method": "Memory-poisoning experiments.",
+      "guarantee": "DREAM восстанавливает память после poisoning через activation probes и repair. Защита оценивается против конкретного backdoor attacker и не является общим доказательством невозможности заражения.",
+      "setup": "AgentPoison и несколько задач/архитектур. Ограничение: Probe-based отбор может измениться при адаптивном атакующем; стоимость и task success нужны рядом с ASR.",
+      "claim_ids": [
+        "c23"
+      ],
+      "theme": "Права доступа и защита",
+      "study_type": "Исследование безопасности"
+    },
+    {
+      "paper_id": "arxiv-2610-12793",
+      "method": "Memory-manipulation suite и перенос benchmark.",
+      "guarantee": "GAMMA добавляет grounded memory и mechanical audit к фиксированной policy, проверяя память о прошлых событиях в manipulation tasks. Стоимость detector и VLM calls учитывается отдельно.",
+      "setup": "16 задач, фиксированная policy, обученные memory agents. Ограничение: Зависимость от benchmark-generated обучающих эпизодов и serving cost ограничивает перенос на произвольную робототехнику.",
+      "claim_ids": [
+        "c24"
+      ],
+      "theme": "Перенос и прикладные проверки",
+      "study_type": "Система и benchmark"
+    },
+    {
+      "paper_id": "arxiv-2610-08101",
+      "method": "Контрактная оценка execution consistency.",
+      "guarantee": "Исправленная запись не гарантирует правильного исполнения: одинаковый log может скрывать разные результаты выполнения обязанностей. CAVERT формализует execution evidence и проверяет recovery относительно rule-guided baseline.",
+      "setup": "Несколько benchmark-executor settings и gated recovery. Ограничение: Выводы ограничены выбранными контрактами и преобразованиями журналов; частоты natural logs не универсальны.",
+      "claim_ids": [
+        "c25"
+      ],
+      "theme": "Конфликты и независимость свидетельств",
+      "study_type": "Формализация и benchmark"
+    },
+    {
+      "paper_id": "arxiv-2610-07376",
+      "method": "Local/global memory и сравнение isolated/shared baselines.",
+      "guarantee": "MemCo постепенно переводит local experience в абстрактную global memory и комбинирует обе при новом решении. Начальные interaction traces нужны для bootstrap.",
+      "setup": "Интерактивные decision-making benchmarks. Ограничение: Отсутствие полезного раннего опыта и неподходящая абстракция могут ограничивать перенос.",
+      "claim_ids": [
+        "c26"
+      ],
+      "theme": "Перенос и прикладные проверки",
+      "study_type": "Система и benchmark"
+    },
+    {
+      "paper_id": "arxiv-2610-07031",
+      "method": "Geometry-grounded world model comparison.",
+      "guarantee": "Artemis использует общий 3D-state для согласования многовидовых driving rollouts. Это пример общей мультимодальной репрезентации, отличный от пула текстовых ответов.",
+      "setup": "MA-CARLA с шаблонными сценариями движения. Ограничение: Video consistency и fidelity не доказывают безопасность реального автономного вождения.",
+      "claim_ids": [
+        "c27"
+      ],
+      "theme": "Перенос и прикладные проверки",
+      "study_type": "Мультимодальная система"
+    },
+    {
+      "paper_id": "arxiv-2610-05176",
+      "method": "Lifecycle governance и абляции scope.",
+      "guarantee": "AECG сохраняет scope процедурного опыта и связывает review со downstream exposure. Paired replay используется для проверки изменений skills.",
+      "setup": "Несколько MAS frameworks и benchmark settings. Ограничение: Авторские replay-оценки ограничены покрытием задач; сохранение scope не является универсальным privacy proof.",
+      "claim_ids": [
+        "c28"
+      ],
+      "theme": "Права доступа и защита",
+      "study_type": "Система и benchmark"
+    },
+    {
+      "paper_id": "arxiv-2609-37923",
+      "method": "Shared experience consolidation и cross-host comparison.",
+      "guarantee": "EpiCon консолидирует shared multimodal experience и сравнивает разные memory backbones и hosts. Общий benchmark macro-score нужно читать рядом со стоимостью memory operations.",
+      "setup": "Один solving attempt, одиннадцать benchmarks. Ограничение: Среднее с равным весом benchmarks не отражает произвольную production-нагрузку; важны train/test границы памяти.",
+      "claim_ids": [
+        "c29"
+      ],
+      "theme": "Перенос и прикладные проверки",
+      "study_type": "Система и benchmark"
+    },
+    {
+      "paper_id": "arxiv-2609-35551",
+      "method": "Bayesian reliability memory и consultation baselines.",
+      "guarantee": "BaRe-Mem учится оценивать contextual reliability источников по проверенной истории и решать, стоит ли консультироваться вообще. Частота прошлого успеха не заменяет оценку применимости.",
+      "setup": "Heterogeneous advisors, misleading conditions и worker allocation. Ограничение: Нужна проверяемая обратная связь; качество verification влияет на саму память надёжности.",
+      "claim_ids": [
+        "c30"
+      ],
+      "theme": "Отбор опыта и координация",
+      "study_type": "Система и benchmark"
+    },
+    {
+      "paper_id": "arxiv-2609-32192",
+      "method": "Executable workflows и pollution operators.",
+      "guarantee": "CoMemBench проверяет границы обмена в task graphs: больше доступного контекста может ухудшать изоляцию. Рейтинг методов меняется при другой topology и типе загрязнения артефактов.",
+      "setup": "Версионированные handoffs, utility, isolation и token cost. Ограничение: Формальные workflow contracts ограничивают набор проверяемых нарушений; одно aggregate score скрывает trade-off.",
+      "claim_ids": [
+        "c31"
+      ],
+      "theme": "Конфликты и независимость свидетельств",
+      "study_type": "Benchmark"
+    },
+    {
+      "paper_id": "arxiv-2609-30813",
+      "method": "Диагностические admission/adoption probes.",
+      "guarantee": "Повторённая или перефразированная ложная запись может выглядеть как независимое подтверждение. Admission policy без source lineage не надёжно различает новые свидетельства и копирование старого убеждения.",
+      "setup": "Сценарии с известной истиной и фиксированным происхождением утверждений. Ограничение: Авторские сценарии сконструированы; перенос на естественную частоту событий требует дополнительной оценки.",
+      "claim_ids": [
+        "c32"
+      ],
+      "theme": "Конфликты и независимость свидетельств",
+      "study_type": "Диагностический benchmark"
+    },
+    {
+      "paper_id": "arxiv-2609-25563",
+      "method": "Архитектура authorization continuity.",
+      "guarantee": "AkasicMEM сохраняет связь памяти с авторизацией исходных данных и повторно проверяет политику при retrieval. Разрешение на запись не должно автоматически превращаться в доступ ко всем производным знаниям.",
+      "setup": "Vector–graph–relational substrate и source–memory integration. Ограничение: Архитектурное описание не устанавливает универсальную utility или полноту защиты; epistemic admission выделен отдельно.",
+      "claim_ids": [
+        "c33"
+      ],
+      "theme": "Права доступа и защита",
+      "study_type": "Архитектурная работа"
+    },
+    {
+      "paper_id": "arxiv-2609-23790",
+      "method": "Контролируемая атрибуция стоимости workflow.",
+      "guarantee": "Стоимость memory injection зависит и от объёма контекста, и от tier модели. Уменьшение денежной строки за счёт смены tier нельзя называть сокращением injected volume.",
+      "setup": "200 enterprise tasks; uncached case. Ограничение: Prompt caching не оценён, tier assignment существенно влияет на итог; результаты не являются текущим тарифным прогнозом.",
+      "claim_ids": [
+        "c34"
+      ],
+      "theme": "Отбор опыта и координация",
+      "study_type": "Измерительное исследование"
+    },
+    {
+      "paper_id": "arxiv-2609-21533",
+      "method": "Coupling и memory-organization ablations.",
+      "guarantee": "MACE сопрягает memory graphs, retrieval и изменение способов применения опыта. Абляции показывают, что эффект нельзя свести к большему контексту или дополнительным вызовам.",
+      "setup": "Несколько benchmarks и управляемый token budget. Ограничение: Агрегатный score зависит от задач и backbones; компонентные улучшения не равны независимой репликации.",
+      "claim_ids": [
+        "c35"
+      ],
+      "theme": "Организация и консолидация",
+      "study_type": "Система и benchmark"
+    },
+    {
+      "paper_id": "arxiv-2609-15009",
+      "method": "Private experience и collective-memory comparisons.",
+      "guarantee": "CoMem соединяет индивидуальный опыт и коллективный пул, используя кластеризацию для разнообразия. Проверка shared/private взаимодействия отличается от безусловного добавления всех записей.",
+      "setup": "ALFWorld и PDDL, несколько MAS frameworks. Ограничение: Заявленная устойчивость к pollution относится к проверенным сценариям, а не ко всем адаптивным атакам.",
+      "claim_ids": [
+        "c36"
+      ],
+      "theme": "Организация и консолидация",
+      "study_type": "Система и benchmark"
+    },
+    {
+      "paper_id": "arxiv-2609-12320",
+      "method": "MUMBench и нормализация операций.",
+      "guarantee": "AIM оценивает multi-user память как набор операций: retrieval, create, update и delete. Visibility classification, strict operation accuracy и state-aware accuracy измеряют разные стороны корректности.",
+      "setup": "Несколько модельных семейств, четыре домена. Ограничение: Канонизация и различия метрик влияют на результаты; точная visibility не означает точного выполнения всех операций.",
+      "claim_ids": [
+        "c37"
+      ],
+      "theme": "Права доступа и защита",
+      "study_type": "Система и benchmark"
+    },
+    {
+      "paper_id": "arxiv-2609-10144",
+      "method": "Managed против unmanaged и RAG injection.",
+      "guarantee": "Kernel-managed memory переносит retrieval и enforcement из отдельных агентов в системное ядро. Архитектурное сравнение удерживает storage backend, помогая отделить retrieval policy от качества модели.",
+      "setup": "AIOS, несколько assistant models, personalization и latency. Ограничение: Сравнение с полной конкатенацией является context ceiling; ограничения workload и privacy probes нужно учитывать отдельно.",
+      "claim_ids": [
+        "c38"
+      ],
+      "theme": "Права доступа и защита",
+      "study_type": "Система и benchmark"
+    },
+    {
+      "paper_id": "arxiv-2609-03340",
+      "method": "Формальный контракт и live/controlled workflows.",
+      "guarantee": "Свежесть записи не гарантирует актуальности плана, построенного на старых входах. Dependency-frontier validation связывает исполнение с версиями использованных требований.",
+      "setup": "Пять role processes, planner/executor/auditor, сравнение синхронизации. Ограничение: Цена зависит от частоты обновлений и размера scope; формальная гарантия относится к зафиксированному контракту.",
+      "claim_ids": [
+        "c39"
+      ],
+      "theme": "Конфликты и независимость свидетельств",
+      "study_type": "Формализация и система"
+    },
+    {
+      "paper_id": "arxiv-2609-00237",
+      "method": "Gating/routing и baseline comparison.",
+      "guarantee": "Gated-Memory Routing обучает удержание и маршрутизацию опыта, сопоставляя качество с inference cost. Закрытые задачи дают проверяемый reward, которого может не быть в открытой работе.",
+      "setup": "Пять math, code и knowledge benchmarks. Ограничение: Для open-ended generation понадобится другой verification signal; сравнение зависит от бюджета и моделей.",
+      "claim_ids": [
+        "c40"
+      ],
+      "theme": "Отбор опыта и координация",
+      "study_type": "Система и benchmark"
+    },
+    {
+      "paper_id": "arxiv-2608-29678",
+      "method": "Text/multimodal memory comparisons.",
+      "guarantee": "MAGE связывает роли, evidence, процедуры и traces в diachronic hypergraph. Retrieval, lifecycle management и budgeted packing образуют совместный memory engine.",
+      "setup": "Двенадцать QA benchmarks. Ограничение: Суммарный выигрыш не изолирует каждый компонент; нужна проверка временных границ опыта и переносимости evidence.",
+      "claim_ids": [
+        "c41"
+      ],
+      "theme": "Организация и консолидация",
+      "study_type": "Система и benchmark"
+    },
+    {
+      "paper_id": "arxiv-2608-19701",
+      "method": "Latent-source arbitration и retrieval-cost analysis.",
+      "guarantee": "CAMA моделирует зависимость между memories вместо подсчёта голосов. Correlated copies могут создавать ложное большинство без новых независимых данных.",
+      "setup": "Несколько long-term memory benchmarks и backbones. Ограничение: Выявленная зависимость является модельной оценкой; победа на benchmark не гарантирует полного восстановления provenance.",
+      "claim_ids": [
+        "c42"
+      ],
+      "theme": "Конфликты и независимость свидетельств",
+      "study_type": "Система и benchmark"
+    },
+    {
+      "paper_id": "arxiv-2605-09278",
+      "method": "Equilibrium calibration и adversarial-agent comparisons.",
+      "guarantee": "EquiMem формулирует влияние shared memory как zero-trust game и калибрует обновления без предположения о надёжном агенте. Проверяются embedding и graph memory.",
+      "setup": "Несколько MAD frameworks и четыре datasets. Ограничение: Защита ограничена inference-time debate и выбранными архитектурами; equilibrium модели не является универсальной security guarantee.",
+      "claim_ids": [
+        "c43"
+      ],
+      "theme": "Права доступа и защита",
+      "study_type": "Формализация и benchmark"
+    },
+    {
+      "paper_id": "arxiv-2608-00426",
+      "method": "Lifecycle-gated defense comparison.",
+      "guarantee": "MAPLE-Guard контролирует write, retrieval, promotion и cross-agent reuse, ограничивая распространение memory-link poisoning. Это containment после попадания атаки, а не обещание предотвратить любую первоначальную компрометацию.",
+      "setup": "Пять benchmark–attack пар и разные топологии. Ограничение: Эффект зависит от threat model и атак; требуется адаптивная проверка новых вариантов poisoning.",
+      "claim_ids": [
+        "c44"
+      ],
+      "theme": "Права доступа и защита",
+      "study_type": "Исследование безопасности"
+    },
+    {
+      "paper_id": "arxiv-2603-10062",
+      "method": "Концептуальная computer-architecture рамка.",
+      "guarantee": "Архитектурная перспектива разделяет cache, долговременную память, access protocols и consistency. Общий контекст требует явных правил доступа и согласованности, а не только большего context window.",
+      "setup": "Иерархия памяти и протоколы обмена. Ограничение: Это vision/position paper, а не новый comparative benchmark или работающий универсальный протокол.",
+      "claim_ids": [
+        "c45"
+      ],
+      "theme": "Организация и консолидация",
+      "study_type": "Концептуальная работа"
+    },
+    {
+      "paper_id": "arxiv-2605-29313",
+      "method": "Matched episodes и fault injection.",
+      "guarantee": "PatchBoard применяет schema-grounded transactional patches и role authorization к общему состоянию. Структурная валидность записи не гарантирует её семантической правильности.",
+      "setup": "ALFWorld и диагностический QA. Ограничение: Kernel отклоняет невалидную структуру и права, но не всякую содержательную ошибку.",
+      "claim_ids": [
+        "c46"
+      ],
+      "theme": "Права доступа и защита",
+      "study_type": "Система и benchmark"
+    },
+    {
+      "paper_id": "arxiv-2602-11510",
+      "method": "Internal-channel leakage benchmark.",
+      "guarantee": "AgentLeak проверяет внутренние координационные каналы: закрытый финальный ответ ещё не доказывает, что чувствительные данные не передавались между агентами.",
+      "setup": "Coordinator–worker setting и detection pipeline. Ограничение: Ошибки detector и архитектура стенда ограничивают выводы; output-only защита покрывает другой threat surface.",
+      "claim_ids": [
+        "c47"
+      ],
+      "theme": "Права доступа и защита",
+      "study_type": "Исследование безопасности"
+    },
+    {
+      "paper_id": "arxiv-2606-19911",
+      "method": "Population-level retrieval и reranking comparisons.",
+      "guarantee": "Transactive memory индексирует опыт гетерогенной популяции агентов и отдаёт его новым consumer agents без joint training. Retrieval benefit проверяется на interactive tasks.",
+      "setup": "ALFWorld, WebArena, 34-model consumer population. Ограничение: Два benchmark-мира не покрывают все открытые экосистемы; нужна проверка применимости чужого опыта.",
+      "claim_ids": [
+        "c48"
+      ],
+      "theme": "Перенос и прикладные проверки",
+      "study_type": "Система и benchmark"
+    },
+    {
+      "paper_id": "arxiv-2606-18829",
+      "method": "Utility/access/forgetting benchmark.",
+      "guarantee": "GateMem проверяет utility вместе с доступом и active forgetting в multi-principal памяти. Снижение token cost не заменяет тест на выдачу неразрешённой или удалённой информации.",
+      "setup": "Medical, office, education и household сценарии. Ограничение: Правила restrictive action и leak annotations задают границы проверки; результаты не являются гарантией для реальных учреждений.",
+      "claim_ids": [
+        "c49"
+      ],
+      "theme": "Права доступа и защита",
+      "study_type": "Benchmark"
+    },
+    {
+      "paper_id": "arxiv-2506-07398",
+      "method": "Hierarchical memory и framework integration.",
+      "guarantee": "G-Memory организует опыт и связанные рассуждения иерархически для повторного использования в MAS. Сравнение охватывает разные task domains и frameworks, а не только один вид QA.",
+      "setup": "Пять benchmarks в трёх доменах, разные backbone sizes. Ограничение: Авторский benchmark gain зависит от baseline, задач и масштаба модели; перенос и независимая репликация отдельно не выполнены нами.",
+      "claim_ids": [
+        "c50"
+      ],
+      "theme": "Организация и консолидация",
+      "study_type": "Система и benchmark"
+    }
+  ],
+  "quality": {
+    "warnings": [
+      "Концептуальный обзор 50 целенаправленно выбранных работ; не исчерпывающий систематический обзор. Число публикаций не равно числу независимых экспериментов: есть обзоры, теоретические и архитектурные работы.",
+      "Для новых работ прочитаны выбранные абзацы методов, результатов/обсуждения и ограничений; не все разделы и приложения. Точные версии, фрагменты и SHA-256 сохранены.",
+      "Эксперименты авторов не воспроизводились, независимой научной рецензии нет. Предлагаемые собственные проверки не выполнялись."
+    ]
+  },
+  "changes": {
+    "summary": "50 работ: тематическое сравнение механизмов, условий проверки и ограничений. Отдельно отмечены теория, обзоры и эмпирические исследования."
+  },
+  "publication": {
+    "released_at": "2026-11-22",
+    "note": "50 работ: тематическое сравнение механизмов, условий проверки и ограничений. Отдельно отмечены теория, обзоры и эмпирические исследования.",
+    "preparation": "source_based_editorial",
+    "expert_peer_review": false
+  }
+}

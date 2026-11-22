@@ -15,7 +15,7 @@ def load_editorial(path: Path) -> dict | None:
     data = read_json(path)
     need(set(data) == {'schema_version', 'kind', 'snapshot_id', 'at', 'review', 'papers', 'cards', 'synthesis', 'comparison', 'quality', 'changes', 'publication'}, 'Unexpected editorial fields; only public content is allowed.')
     need(data.get('schema_version') == 1 and data.get('kind') == 'editorial_review', 'Invalid editorial review.')
-    need(re.fullmatch(r'editorial-\d{4}-\d{2}-\d{2}', data['snapshot_id']), 'Invalid editorial version.')
+    need(re.fullmatch(r'editorial-\d{4}-\d{2}-\d{2}(?:\.[1-9][0-9]*)?', data['snapshot_id']), 'Invalid editorial version.')
     date.fromisoformat(data['at'])
     need(data['publication']['preparation'] == 'source_based_editorial'
          and data['publication']['expert_peer_review'] is False, 'Editorial provenance must be explicit.')

@@ -106,11 +106,24 @@ function setReadingLevel(level) {
 }
 
 function comparisonTable(review, claims, papers) {
-  return el('div',{class:'comparison-scroll',tabindex:'0','aria-label':'Сравнение исследований; таблицу можно прокручивать'},
-    el('table',{class:'comparison-table'},el('caption',{},'Что сделано, что измерено и как ограничен вывод; эксперименты авторов'),
-      el('thead',{},el('tr',{},['Работа','Подход','Вывод и его границы','Дизайн проверки'].map(title=>el('th',{scope:'col'},title)))),
-      el('tbody',{},review.comparison.map(row=>el('tr',{},el('th',{scope:'row'},papers.find(p=>p.id===row.paper_id).title,row.claim_ids.map(id=>citation(id,claims,papers))),
-        ...['method','guarantee','setup'].map(key=>el('td',{},row[key])))))));
+  const groups=[...new Set(review.comparison.map(row=>row.theme).filter(Boolean))];
+  const filter=el('input',{type:'search',placeholder:'Название, метод или условие','aria-label':'Поиск в сравнении работ'});
+  const group=el('select',{'aria-label':'Подтема в сравнении'},el('option',{value:''},'Все подтемы'),groups.map(name=>el('option',{value:name},name)));
+  const summary=el('p',{class:'source-summary','aria-live':'polite'}),body=el('tbody');
+  function render() {
+    const query=filter.value.toLocaleLowerCase();
+    const rows=review.comparison.filter(row=>(!group.value || row.theme===group.value) && [papers.find(p=>p.id===row.paper_id).title,row.method,row.guarantee,row.setup,row.theme,row.study_type].join(' ').toLocaleLowerCase().includes(query));
+    summary.textContent='Работ в сравнении: '+rows.length+' из '+review.comparison.length;
+    body.replaceChildren(...rows.map(row=>el('tr',{},el('th',{scope:'row'},papers.find(p=>p.id===row.paper_id).title,
+      row.study_type ? el('p',{class:'study-type'},row.study_type+' · '+row.theme) : null,row.claim_ids.map(id=>citation(id,claims,papers))),
+      ...['method','guarantee','setup'].map(key=>el('td',{},row[key])))));
+    if(!rows.length)body.append(el('tr',{},el('td',{colspan:'4'},'Нет работ с такими условиями поиска.')));
+  }
+  filter.addEventListener('input',render);group.addEventListener('change',render);render();
+  return el('section',{},el('div',{class:'source-filters'},filter,groups.length ? group : null),summary,
+    el('div',{class:'comparison-scroll',tabindex:'0','aria-label':'Сравнение исследований; таблицу можно прокручивать'},
+      el('table',{class:'comparison-table'},el('caption',{},'Подходы, условия и границы выводов из публикаций'),
+        el('thead',{},el('tr',{},['Работа и тип исследования','Подход','Вывод и его границы','Дизайн проверки'].map(title=>el('th',{scope:'col'},title)))),body)));
 }
 
 function scientificItem(item, claims, papers) {
@@ -170,6 +183,9 @@ function renderSources(topic) {
   const years = [...new Set(papers.map(p=>p.year).filter(Boolean))].sort((a,b)=>b-a);
   const year = el('select',{'aria-label':'Год публикации'},el('option',{value:''},'Все годы'),years.map(y=>el('option',{value:y},y)));
   const group = el('select',{'aria-label':'Поисковая группа'},el('option',{value:''},'Все группы'),Object.entries(discoveryLabels).map(([key,label])=>el('option',{value:key},label)));
+  const taxonomy=new Map((state.detail.review?.comparison||[]).map(row=>[row.paper_id,row]));
+  const themes=[...new Set([...taxonomy.values()].map(row=>row.theme).filter(Boolean))];
+  const theme=el('select',{'aria-label':'Подтема источников'},el('option',{value:''},'Все подтемы'),themes.map(t=>el('option',{value:t},t)));
   const status = el('select',{'aria-label':'Статус разбора источника'},el('option',{value:'reviewed'},'Разобранные работы'),el('option',{value:'candidates'},'Кандидаты'),el('option',{value:'all'},'Все записи'));
   if (!state.detail.review) status.value='all';
   const order = el('select',{'aria-label':'Порядок источников'},el('option',{value:'newest'},'Сначала новые'),el('option',{value:'oldest'},'Сначала ранние'));
@@ -179,13 +195,14 @@ function renderSources(topic) {
   function render() {
     const query = search.value.toLocaleLowerCase();
     const shown = papers.filter(p=>(p.title+' '+(p.authors||[]).join(' ')).toLocaleLowerCase().includes(query)
+      && (!theme.value || taxonomy.get(p.id)?.theme===theme.value)
       && (status.value==='all' || (status.value==='candidates' ? p.decision==='reading_list' : p.decision!=='reading_list'))
       && (!year.value || String(p.year)===year.value) && (!group.value || (p.discovery_groups||[]).includes(group.value)))
       .sort((a,b)=>order.value==='oldest' ? (a.published_at||String(a.year)).localeCompare(b.published_at||String(b.year)) : (b.published_at||String(b.year)).localeCompare(a.published_at||String(a.year)));
     summary.textContent = `Показано ${Math.min(visible,shown.length)} из ${shown.length} · всего в разделе ${papers.length}`;
     list.replaceChildren(...shown.slice(0,visible).map(paper=>{
       const url = safeURL(paper.url), title = url ? el('a',{href:url,target:'_blank',rel:'noreferrer'},paper.title+' ↗') : paper.title;
-      return el('li',{class:'source-card'},el('div',{class:'source-meta'},paper.published_at ? date(paper.published_at) : paper.year||'Год не указан',el('span',{class:'source-status'},labels[paper.decision]||paper.decision)),el('h3',{},title),el('p',{},(paper.authors||[]).join(', ')),paper.arxiv_id ? el('p',{},'arXiv: '+paper.arxiv_id+(paper.updated_at ? ' · версия '+date(paper.updated_at) : '')) : null,
+      return el('li',{class:'source-card'},el('div',{class:'source-meta'},paper.published_at ? date(paper.published_at) : paper.year||'Год не указан',el('span',{class:'source-status'},labels[paper.decision]||paper.decision)),el('h3',{},title),taxonomy.get(paper.id)?.study_type ? el('p',{class:'study-type'},taxonomy.get(paper.id).study_type+' · '+taxonomy.get(paper.id).theme) : null,el('p',{},(paper.authors||[]).join(', ')),paper.arxiv_id ? el('p',{},'arXiv: '+paper.arxiv_id+(paper.updated_at ? ' · версия '+date(paper.updated_at) : '')) : null,
         paper.discovery_groups?.length ? el('p',{},'Найдено: '+paper.discovery_groups.map(key=>discoveryLabels[key]||key).join(' · ')) : null,
         paper.added_at ? el('p',{},'Добавлено в каталог: '+date(paper.added_at)) : null,
         paper.available_arxiv_id ? el('p',{class:'review-notice'},'Обзор использует '+paper.arxiv_id+'. Доступна более новая версия: ',el('a',{href:'https://arxiv.org/abs/'+paper.available_arxiv_id,target:'_blank',rel:'noreferrer'},paper.available_arxiv_id+' ↗')) : null);
@@ -193,10 +210,10 @@ function renderSources(topic) {
     if (!shown.length) list.append(el('li',{class:'empty-panel'},el('p',{},'Нет совпадений с выбранными фильтрами.')));
     more.hidden = visible >= shown.length;
   }
-  for (const control of [search,year,group,order,status]) control.addEventListener(control===search?'input':'change',()=>{visible=25;render();});
+  for (const control of [search,year,group,order,status,theme]) control.addEventListener(control===search?'input':'change',()=>{visible=25;render();});
   more.addEventListener('click',()=>{visible+=25;render();});
   if (papers.some(p=>p.decision==='reading_list')) wrap.append(el('details',{},el('summary',{},'Автоматический поиск: охват и ограничения'),coveragePanel(topic)),el('p',{class:'review-notice'},(topic.has_review ? topic.review_papers+' работ разобраны в опубликованном обзоре; остальные записи — дополнительные кандидаты. ' : 'Поисковый корпус для будущего обзора. ')+'Включение в выдачу не подтверждает научную значимость или качество работы. Дата поиска: '+date(topic.bibliography_checked_at)));
-  wrap.append(el('div',{class:'source-filters'},search,status,year,group,order),el('div',{class:'source-toolbar'},summary,el('a',{href:'./exports/reading-lists/'+topic.id+'/references.bib',download:'references.bib'},'Скачать BibTeX ↓')),list,more);
+  wrap.append(el('div',{class:'source-filters'},search,status,themes.length ? theme : null,year,group,order),el('div',{class:'source-toolbar'},summary,el('a',{href:'./exports/reading-lists/'+topic.id+'/references.bib',download:'references.bib'},'Скачать BibTeX ↓')),list,more);
   render();
   return wrap;
 }

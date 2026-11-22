@@ -1,0 +1,734 @@
+<!doctype html><html lang='ru'><meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta http-equiv='Content-Security-Policy' content="default-src 'none'; style-src 'unsafe-inline'">
+<title>Как агентам делиться опытом, не распространяя ошибки?</title>
+<style>body{margin:0;background:#f6f5f1;color:#202a31;font:17px/1.65 system-ui,sans-serif}main{max-width:960px;margin:auto;padding:48px 24px}h1{font-size:2.5em;line-height:1.15}h2{margin-top:2.5em}a{color:#176a70}.ref{font-size:.76em}nav{display:flex;gap:16px;flex-wrap:wrap}details{background:white;border:1px solid #dbe0dd;border-radius:8px;padding:16px;margin:12px 0}summary{cursor:pointer;font-weight:650}small,.muted{color:#5c676d}.badge{display:inline-block;background:#ffe5aa;border-radius:4px;padding:3px 9px}article{border-top:1px solid #ddd;padding:12px 0;scroll-margin-top:20px}blockquote{border-left:3px solid #c4d6cf;padding-left:16px}code{overflow-wrap:anywhere}footer{margin-top:50px;border-top:1px solid #ccc}</style><main>
+<span class='badge'>Редакционный выпуск · ограничения указаны ниже</span><h1>Как агентам делиться опытом, не распространяя ошибки?</h1>
+<p class='muted'>2026-11-22 · 50 работ</p>
+<nav><a href='#review'>Обзор</a><a href='#concepts'>Понятия</a><a href='#papers'>Статьи и доказательства</a><a href='references.bib'>BibTeX</a></nav>
+<h2>Границы и вопросы</h2><p>Как агентам делиться опытом, не распространяя ошибки?</p><ul>
+<li>Как агентам делиться опытом, не распространяя ошибки?</li>
+</ul><section id='review'>
+<h2>Короткий ответ</h2>
+<p>Общая память — это несколько механизмов: рабочий буфер одной задачи, межзадачный опыт и обмен между пользователями. Retrieval, admission, consolidation и governance нужно сравнивать отдельно. <a class="ref" href="#c3">Learning to Share: Selective Memory for Efficient Parallel Agentic Systems</a> <a class="ref" href="#c18">Muffin - A Shared Memory Buffer for Asynchronous AI Agents</a> <a class="ref" href="#c21">XferAgent: Cross-Agent Experience Transfer for Self-Improving LLM Agents</a> <a class="ref" href="#c37">AIM: A Privacy-Aware Interoperable Memory Framework for Multi-Agent Multi-User LLM Systems</a></p>
+<p>Больше обмена не гарантирует более правильный ответ. Память может изменить маршрутизацию консультантов, скрыть конфликт при handoff или усилить ложь за счёт коррелированных копий. <a class="ref" href="#c13">Peer Memory Changes Who LLM Agents Consult Without a Detected Gain in Answer Accuracy</a> <a class="ref" href="#c9">Multi-Agent Memory Inconsistency: Where Factual Conflicts Disappear in LLM Agents</a> <a class="ref" href="#c32">A Benchmark and Diagnostic Study of Epistemic Admission in Shared Agent Memory</a> <a class="ref" href="#c42">Beyond Memory Majority: Latent-Source Reasoning for Multi-Agent Memory Arbitration</a></p>
+<p>Качество решения, права доступа, актуальность производных планов и стоимость памяти — отдельные проверки. Формальная валидность записи не доказывает семантической правильности исполнения. <a class="ref" href="#c49">GateMem: Benchmarking Memory Governance in Multi-Principal Shared-Memory Agents</a> <a class="ref" href="#c39">Fresh Memory, Stale Plans: Derivation Currency for Distributed LLM-Agent Memory</a> <a class="ref" href="#c34">Total Cost of Agency: Exact Attribution of Memory Injection Cost in Multi-Agent LLM Workflows</a> <a class="ref" href="#c46">PatchBoard: Schema-Grounded State Mutation for Reliable and Auditable LLM Multi-Agent Collaboration</a> <a class="ref" href="#c25">Beyond Corrected Memory: Execution Consistency in Multi-Agent Systems</a></p>
+<h2>Границы: память или обучение?</h2>
+<p><strong>Редакторское предложение.</strong> Корпус: 50 работ, выбранных по исследовательскому вопросу. Различаются 5 тематических групп. Обзоры и концептуальные предложения не считаются самостоятельными подтверждающими экспериментами. </p>
+<p><strong>Редакторское предложение.</strong> Поиск: 22 ноября 2026 года, arXiv, по 200 результатов на направление; затем тематический отбор и проверка доступности полных текстов. Недоступная работа не засчитана и заменена релевантным доступным источником. Охват просмотра указан в каждой карточке; полнота литературы не установлена. </p>
+<h2>Жизненный цикл общего опыта</h2>
+<p>Записать: INMS отбирает ответы scorer-ом, Learning to Share учит admission-политику, MemCollab извлекает guidance из контраста траекторий. Эти три способа не взаимозаменяемы. <a class="ref" href="#c1">INMS: Memory Sharing for Large Language Model based Agents</a> <a class="ref" href="#c3">Learning to Share: Selective Memory for Efficient Parallel Agentic Systems</a> <a class="ref" href="#c4">MemCollab: Cross-Agent Memory Collaboration via Contrastive Trajectory Distillation</a></p>
+<p>Извлечь: запрос должен учитывать scope, роль и текущие предпочтения получателя. Похожесть текста не означает право доступа или применимость процедуры. <a class="ref" href="#c2">Collaborative Memory: Multi-User Memory Sharing in LLM Agents with Dynamic Access Control</a> <a class="ref" href="#c5">Learning from Others, Acting for You: Cross-User Memory Sharing for LLM Agents</a></p>
+<p>Пересмотреть: новое свидетельство может отменить старую интерпретацию; происхождение и зависимости нужны, чтобы обновлять следующие выводы. <a class="ref" href="#c6">Governed Shared Memory for Multi-Agent LLM Systems</a> <a class="ref" href="#c7">Collaborative Memory for Multi-Agent VLM Systems</a></p>
+<h2>Три задачи, три семейства</h2>
+<p>Admission и координация: learned gates, общий асинхронный буфер и reliability memory выбирают разные единицы обмена. Выбор консультанта и итоговая accuracy проверяются раздельно. <a class="ref" href="#c3">Learning to Share: Selective Memory for Efficient Parallel Agentic Systems</a> <a class="ref" href="#c18">Muffin - A Shared Memory Buffer for Asynchronous AI Agents</a> <a class="ref" href="#c30">BaRe-Mem: Bayesian Reliability Memory for Robust and Adaptive Agent Consultation</a> <a class="ref" href="#c40">Learning What to Retain: Gated-Memory Routing for Efficient Collaboration in Multi-Agent LLM Systems</a> <a class="ref" href="#c13">Peer Memory Changes Who LLM Agents Consult Without a Detected Gain in Answer Accuracy</a></p>
+<p>Консолидация: procedural skills, episodic memory и hypergraphs хранят разные структуры опыта. Их комплексные системы нужно разбирать по компонентам и бюджетам, а не только по общей таблице побед. <a class="ref" href="#c16">EMMA: Structured Episodic Memory for Multi-Agent Workflow Synthesis</a> <a class="ref" href="#c22">SEPM: Self-Evolving Procedural Memory Grounded in Task Graphs for Multi-Agent Collaboration</a> <a class="ref" href="#c35">MACE: Memory-Agent Co-Evolution with Adaptive Memory Graphs for Multi-Agent Systems</a> <a class="ref" href="#c41">Diachronic Hypergraphs for Orchestrated Multi-Agent Multimodal Memory Curation</a> <a class="ref" href="#c10">MIRIX-2.0: Multi-Agent Memory System</a></p>
+<p>Перенос: чужой опыт может обобщаться в guidance или продвигаться из local в global memory. Основную оценку замороженного опыта следует отделять от его обновления на тестовой последовательности. <a class="ref" href="#c4">MemCollab: Cross-Agent Memory Collaboration via Contrastive Trajectory Distillation</a> <a class="ref" href="#c21">XferAgent: Cross-Agent Experience Transfer for Self-Improving LLM Agents</a> <a class="ref" href="#c26">MemCo: Memory-Centric Collaboration for Generalizing LLM Agents to Unseen Environments</a> <a class="ref" href="#c5">Learning from Others, Acting for You: Cross-User Memory Sharing for LLM Agents</a></p>
+<p>Конфликты: нужно сохранить обе версии свидетельства, источник и цепочку производных выводов. Копирование одного убеждения не добавляет независимого подтверждения. <a class="ref" href="#c9">Multi-Agent Memory Inconsistency: Where Factual Conflicts Disappear in LLM Agents</a> <a class="ref" href="#c32">A Benchmark and Diagnostic Study of Epistemic Admission in Shared Agent Memory</a> <a class="ref" href="#c42">Beyond Memory Majority: Latent-Source Reasoning for Multi-Agent Memory Arbitration</a> <a class="ref" href="#c39">Fresh Memory, Stale Plans: Derivation Currency for Distributed LLM-Agent Memory</a></p>
+<p>Governance: источники, роли, операции и derived knowledge задают границы доступа. Защита write path не заменяет проверку retrieval, promotion, reuse и удаления. <a class="ref" href="#c2">Collaborative Memory: Multi-User Memory Sharing in LLM Agents with Dynamic Access Control</a> <a class="ref" href="#c33">AkasicMEM: Governed Enterprise Memory for Agents</a> <a class="ref" href="#c37">AIM: A Privacy-Aware Interoperable Memory Framework for Multi-Agent Multi-User LLM Systems</a> <a class="ref" href="#c44">MAPLE-Guard: Memory-Aware Link Enforcement Against Memory-Link Poisoning in Multi-Agent Systems</a> <a class="ref" href="#c49">GateMem: Benchmarking Memory Governance in Multi-Principal Shared-Memory Agents</a></p>
+<h2>Что реально сравнивалось</h2>
+<p><strong>Редакторское предложение.</strong> В таблице 50 публикаций. Выберите тематическую группу или найдите работу по названию. Тип исследования указан отдельно: строки нельзя складывать в общий рейтинг или считать независимыми подтверждениями одного эффекта. </p>
+<div style="overflow-x:auto"><table><thead><tr><th>Работа</th><th>Механизм</th><th>Гарантия</th><th>Условия</th></tr></thead><tbody>
+<tr><td>INMS: Memory Sharing for Large Language Model based Agents <a href="#c1">источник</a></td><td>Общий пул отфильтрованных ответов и retrieval.</td><td>Повторное использование опыта через контекст, а не синхронизация весов.</td><td>Эксперименты на задачах генерации; разбор ограничений отдельно.</td></tr>
+<tr><td>Collaborative Memory: Multi-User Memory Sharing in LLM Agents with Dynamic Access Control <a href="#c2">источник</a></td><td>Private/shared-память и динамические права на пользователей, агентов и ресурсы.</td><td>Демонстрация механизма в заданных сценариях; не формальное доказательство отсутствия утечек.</td><td>Контролируемые сценарии полного, асимметричного и изменяемого доступа.</td></tr>
+<tr><td>Learning to Share: Selective Memory for Efficient Parallel Agentic Systems <a href="#c3">источник</a></td><td>Выученная политика записи в общий буфер одной задачи.</td><td>Меньше дублирования в изученной системе; не доказательство долгосрочного коллективного обучения.</td><td>Сравнение с memory-free parallel baseline, add-all и абляциями обучения контроллера.</td></tr>
+<tr><td>MemCollab: Cross-Agent Memory Collaboration via Contrastive Trajectory Distillation <a href="#c4">источник</a></td><td>Контраст траекторий, структурированные ограничения, task-aware retrieval.</td><td>Перенос guidance между проверенными конфигурациями; не гарантия переноса произвольного опыта.</td><td>Сравнение моделей и источников памяти, retrieval-абляции и оценка стоимости inference.</td></tr>
+<tr><td>Learning from Others, Acting for You: Cross-User Memory Sharing for LLM Agents <a href="#c5">источник</a></td><td>Двухэтапная консолидация опыта; предпочтения остаются у пользователя.</td><td>Авторские результаты на трёх средах; нет универсальной гарантии против отрицательного переноса.</td><td>Local против shared, одинаковый retrieval budget и абляции отдельных каналов.</td></tr>
+<tr><td>Governed Shared Memory for Multi-Agent LLM Systems <a href="#c6">источник</a></td><td>Контроль scope и происхождения; явное замещение устаревших фактов.</td><td>Отрицательные результаты важны для архитектуры; межсистемное превосходство не проверено.</td><td>Live-service probes с опубликованными авторами трассами; без comparand.</td></tr>
+<tr><td>Collaborative Memory for Multi-Agent VLM Systems <a href="#c7">источник</a></td><td>Общая визуальная память с зависимостями утверждений и revision.</td><td>Исследовательская гипотеза об организации памяти, не продемонстрированный performance gain.</td><td>Концептуальная работа и иллюстративный сценарий; новый benchmark-эксперимент не представлен.</td></tr>
+<tr><td>Surfacing Disagreement Beats Resolving It: A Gated Ablation Study of Provenance-Weighted Memory for Multi-Agent Debate <a href="#c8">источник</a></td><td>Gated ablation и poisoning tests.</td><td>Provenance-based write gate не снизил attack success в проверенном режиме. Простая groundedness может предпочесть ложь о знакомой сущности новому верному факту; разрешение конфликта до чтения скрывает полезное несогласие.</td><td>Фиксированный бюджет, memory-backed debate и проверяемые атаки. Ограничение: Результат относится к проверенному режиму и gate, а не к бесполезности любого provenance.</td></tr>
+<tr><td>Multi-Agent Memory Inconsistency: Where Factual Conflicts Disappear in LLM Agents <a href="#c9">источник</a></td><td>Трассировка Pair Recall и handoffs.</td><td>Конфликт может исчезнуть при передаче worker→lead даже после retrieval обеих версий факта. Разнесение противоречащих свидетельств между workers отличается от ситуации, где один worker видит их вместе.</td><td>Matched comparisons Required/None и размещения свидетельств. Ограничение: Манипуляция объединяет delegation, partitioning и доступ lead; наблюдаемые retrieval choices не полностью рандомизированы.</td></tr>
+<tr><td>MIRIX-2.0: Multi-Agent Memory System <a href="#c10">источник</a></td><td>QA benchmarks, budgets и абляции.</td><td>MIRIX-2.0 сохраняет типизированные записи и provenance-гиперграф, а AutoDream выполняет консолидацию вне write path. Компоненты проверяются группами, поэтому нельзя приписать весь эффект одной структуре памяти.</td><td>Типизированные записи, bounded retrieval и procedural skills. Ограничение: Групповые абляции не изолируют вклад каждого элемента; авторские benchmark scores требуют отдельной репликации.</td></tr>
+<tr><td>Memory-Aware Multi-Agent Architecture with LLM-based Orchestration for Conversational Recommendation <a href="#c11">источник</a></td><td>Offline, conversational и cross-session comparison.</td><td>В conversational recommendation память и orchestration влияют на разные части системы. Retrieval и фактически показанные рекомендации расходятся; LLM reranking может менять семантику и разнообразие без выигрыша Hit@K.</td><td>Уменьшенная выборка пользователей, симулированные взаимодействия. Ограничение: Контролируемая симуляция ограничивает перенос на реальное пользовательское поведение.</td></tr>
+<tr><td>SEAM: Situated Executable Associative Memory for a Co-located Community <a href="#c12">источник</a></td><td>Двухнедельное полевое развёртывание и workshop.</td><td>SEAM исследует общую ассоциативную память сообщества в открытом использовании. Полевая работа показывает способы обмена контекстом, но дизайн намеренно не измеряет comparative system performance.</td><td>46 участников сообщества, follow-up с 14. Ограничение: Наблюдение за одной группой не устанавливает эффект долгосрочного накопления знаний или causal utility.</td></tr>
+<tr><td>Peer Memory Changes Who LLM Agents Consult Without a Detected Gain in Answer Accuracy <a href="#c13">источник</a></td><td>Сравнение peer selection и revision.</td><td>Peer memory меняет выбор консультируемых агентов, но обнаруженного выигрыша final answer accuracy нет. Изменение коммуникационного графа следует проверять отдельно от качества конечного решения.</td><td>Шесть агентов, парные линии и reference-answer feedback. Ограничение: Общие модели/промпты и малый набор задач ограничивают перенос; отсутствие значимости не доказывает эквивалентности.</td></tr>
+<tr><td>SkillMem: Compact External Skill Memory for Latent Multi-Agent Reasoning <a href="#c14">источник</a></td><td>Сравнение skill representations и discovery.</td><td>SkillMem компилирует повторно используемые skills в компактную внешнюю латентную память. Storage и inference efficiency проверяются вместе с качеством; объединение нескольких конфликтующих skills остаётся будущей задачей.</td><td>Несколько reasoning benchmarks и два размера backbone. Ограничение: Ограниченные модели и задачи; перенос состава навыков и разрешение конфликтов не установлены.</td></tr>
+<tr><td>Remembering Is Not Enough: Refining Memories and Learning When to Use Them in Multi-Agent Systems <a href="#c15">источник</a></td><td>Paired replays, targeted repair и meta-memory.</td><td>DiscernMem различает ошибочное правило и верное правило, применённое в неподходящем контексте. Refinement и обучение границ применимости — разные механизмы.</td><td>Четыре benchmarks, три multi-agent hosts. Ограничение: Область корректируемых ошибок ограничена доступной replay-информацией; общий team failure не даёт готовой причинной метки.</td></tr>
+<tr><td>EMMA: Structured Episodic Memory for Multi-Agent Workflow Synthesis <a href="#c16">источник</a></td><td>Сопоставление workflow synthesis и update efficiency.</td><td>EMMA хранит структурированный episodic опыт для локальных guarded изменений workflow. Стоимость обновления измеряется количеством training executions, отдельно от итоговой task performance.</td><td>KramaBench, AppWorld и BBEH; раздельные train/test. Ограничение: Сравнение относится к выбранным backbones, baselines и бюджетам; execution count не равен полной денежной стоимости.</td></tr>
+<tr><td>CoEvolve: Counterfactual-Guided Co-Evolution of Memory and Collaboration in Multi-Agent Systems <a href="#c17">источник</a></td><td>Counterfactual-guided evolution и абляции.</td><td>CoEvolve согласует обновления collaboration и памяти через общий skill space и контраст исходных/контрфактуальных траекторий. Проверяется совместная адаптация, а не один retrieval-компонент.</td><td>ALFWorld и WebShop. Ограничение: Два интерактивных benchmark-мира не устанавливают перенос на открытые рабочие процессы.</td></tr>
+<tr><td>Muffin - A Shared Memory Buffer for Asynchronous AI Agents <a href="#c18">источник</a></td><td>Общий буфер и сравнение multi-agent reasoning.</td><td>Muffin асинхронно делится промежуточными находками, сохраняя частное рассуждение локально. Quality–cost trade-off проверяется отдельно от полного обмена трассами.</td><td>Четыре QA/reasoning benchmarks. Ограничение: Авторы ограничивают выводы задачами без полноценного long-horizon tool use и планирования.</td></tr>
+<tr><td>Combining Long-Term Memory and LLMs Comes at a High Cost: From Prompt Injection to Persistent Compromise <a href="#c19">источник</a></td><td>Экспериментальная проверка memory-injection угроз.</td><td>Memory injection может сделать вредоносную инструкцию устойчивой между сессиями и распространить её между пользователями. Persistent storage расширяет threat model по сравнению с разовым заражённым prompt.</td><td>Сервисы с долгосрочной памятью, threat model и attack artifacts. Ограничение: Проверенные версии сервисов и сценарии не устанавливают текущую уязвимость всех продуктов; защита требует повторной проверки.</td></tr>
+<tr><td>M-Plan: Comprehensive Planning For LLM Agents with Memory Arrangement <a href="#c20">источник</a></td><td>Сравнение planning accuracy и efficiency.</td><td>M-Plan разделяет long-term storage, short-term generation и optimizer, который организует опыт перед сохранением. Это комплексный planning framework, поэтому суммарный эффект не следует приписывать памяти в одиночку.</td><td>ALFWorld, WebShop и PDDL; несколько моделей. Ограничение: Результаты зависят от полного стека и выбранных baselines; нужен component-level контроль.</td></tr>
+<tr><td>XferAgent: Cross-Agent Experience Transfer for Self-Improving LLM Agents <a href="#c21">источник</a></td><td>Cross-agent transfer и experience updates.</td><td>XferAgent отделяет основную оценку замороженной памяти от последовательного обновления опыта. Heterogeneous-agent transfer и накопление результатов между проходами проверяются раздельно.</td><td>GAIA и ALFWorld, фиксированные backbone/cohort для основных сравнений. Ограничение: Очистка опыта от task-specific информации не является доказательством приватности; важен контроль memory/test overlap.</td></tr>
+<tr><td>SEPM: Self-Evolving Procedural Memory Grounded in Task Graphs for Multi-Agent Collaboration <a href="#c22">источник</a></td><td>Сравнение и component ablations.</td><td>SEPM связывает procedural memory с графом зависимостей задач и общим blackboard. Разные среды выигрывают от разных компонентов, поэтому эффект нельзя приписывать одному shared store.</td><td>ALFWorld, WebArena, OfficeBench. Ограничение: Зависимость от среды и стека; graph consistency не гарантирует выполнение требований задачи.</td></tr>
+<tr><td>Forgetting is Not Always Bad: A Neuro-Inspired Memory Repair Mechanism for Poisoned LLM Agents <a href="#c23">источник</a></td><td>Memory-poisoning experiments.</td><td>DREAM восстанавливает память после poisoning через activation probes и repair. Защита оценивается против конкретного backdoor attacker и не является общим доказательством невозможности заражения.</td><td>AgentPoison и несколько задач/архитектур. Ограничение: Probe-based отбор может измениться при адаптивном атакующем; стоимость и task success нужны рядом с ASR.</td></tr>
+<tr><td>Gamma: Grounded Multi-Agent Memory with Mechanical Audit for Memory-Intensive Manipulation <a href="#c24">источник</a></td><td>Memory-manipulation suite и перенос benchmark.</td><td>GAMMA добавляет grounded memory и mechanical audit к фиксированной policy, проверяя память о прошлых событиях в manipulation tasks. Стоимость detector и VLM calls учитывается отдельно.</td><td>16 задач, фиксированная policy, обученные memory agents. Ограничение: Зависимость от benchmark-generated обучающих эпизодов и serving cost ограничивает перенос на произвольную робототехнику.</td></tr>
+<tr><td>Beyond Corrected Memory: Execution Consistency in Multi-Agent Systems <a href="#c25">источник</a></td><td>Контрактная оценка execution consistency.</td><td>Исправленная запись не гарантирует правильного исполнения: одинаковый log может скрывать разные результаты выполнения обязанностей. CAVERT формализует execution evidence и проверяет recovery относительно rule-guided baseline.</td><td>Несколько benchmark-executor settings и gated recovery. Ограничение: Выводы ограничены выбранными контрактами и преобразованиями журналов; частоты natural logs не универсальны.</td></tr>
+<tr><td>MemCo: Memory-Centric Collaboration for Generalizing LLM Agents to Unseen Environments <a href="#c26">источник</a></td><td>Local/global memory и сравнение isolated/shared baselines.</td><td>MemCo постепенно переводит local experience в абстрактную global memory и комбинирует обе при новом решении. Начальные interaction traces нужны для bootstrap.</td><td>Интерактивные decision-making benchmarks. Ограничение: Отсутствие полезного раннего опыта и неподходящая абстракция могут ограничивать перенос.</td></tr>
+<tr><td>Artemis: Geometry-Grounded Multi-Agent Driving World Models with Shared 3D State and Progressive Memory Update <a href="#c27">источник</a></td><td>Geometry-grounded world model comparison.</td><td>Artemis использует общий 3D-state для согласования многовидовых driving rollouts. Это пример общей мультимодальной репрезентации, отличный от пула текстовых ответов.</td><td>MA-CARLA с шаблонными сценариями движения. Ограничение: Video consistency и fidelity не доказывают безопасность реального автономного вождения.</td></tr>
+<tr><td>AECG: Asymmetric Experience Consolidation and Governance In Multi-Agent Systems <a href="#c28">источник</a></td><td>Lifecycle governance и абляции scope.</td><td>AECG сохраняет scope процедурного опыта и связывает review со downstream exposure. Paired replay используется для проверки изменений skills.</td><td>Несколько MAS frameworks и benchmark settings. Ограничение: Авторские replay-оценки ограничены покрытием задач; сохранение scope не является универсальным privacy proof.</td></tr>
+<tr><td>EpiCon: Collective Agent Learning through Co-Evolving Multimodal Memory <a href="#c29">источник</a></td><td>Shared experience consolidation и cross-host comparison.</td><td>EpiCon консолидирует shared multimodal experience и сравнивает разные memory backbones и hosts. Общий benchmark macro-score нужно читать рядом со стоимостью memory operations.</td><td>Один solving attempt, одиннадцать benchmarks. Ограничение: Среднее с равным весом benchmarks не отражает произвольную production-нагрузку; важны train/test границы памяти.</td></tr>
+<tr><td>BaRe-Mem: Bayesian Reliability Memory for Robust and Adaptive Agent Consultation <a href="#c30">источник</a></td><td>Bayesian reliability memory и consultation baselines.</td><td>BaRe-Mem учится оценивать contextual reliability источников по проверенной истории и решать, стоит ли консультироваться вообще. Частота прошлого успеха не заменяет оценку применимости.</td><td>Heterogeneous advisors, misleading conditions и worker allocation. Ограничение: Нужна проверяемая обратная связь; качество verification влияет на саму память надёжности.</td></tr>
+<tr><td>CoMemBench: Benchmarking Collaborative Memory Boundaries across Multi-Agent Workflow Topologies <a href="#c31">источник</a></td><td>Executable workflows и pollution operators.</td><td>CoMemBench проверяет границы обмена в task graphs: больше доступного контекста может ухудшать изоляцию. Рейтинг методов меняется при другой topology и типе загрязнения артефактов.</td><td>Версионированные handoffs, utility, isolation и token cost. Ограничение: Формальные workflow contracts ограничивают набор проверяемых нарушений; одно aggregate score скрывает trade-off.</td></tr>
+<tr><td>A Benchmark and Diagnostic Study of Epistemic Admission in Shared Agent Memory <a href="#c32">источник</a></td><td>Диагностические admission/adoption probes.</td><td>Повторённая или перефразированная ложная запись может выглядеть как независимое подтверждение. Admission policy без source lineage не надёжно различает новые свидетельства и копирование старого убеждения.</td><td>Сценарии с известной истиной и фиксированным происхождением утверждений. Ограничение: Авторские сценарии сконструированы; перенос на естественную частоту событий требует дополнительной оценки.</td></tr>
+<tr><td>AkasicMEM: Governed Enterprise Memory for Agents <a href="#c33">источник</a></td><td>Архитектура authorization continuity.</td><td>AkasicMEM сохраняет связь памяти с авторизацией исходных данных и повторно проверяет политику при retrieval. Разрешение на запись не должно автоматически превращаться в доступ ко всем производным знаниям.</td><td>Vector–graph–relational substrate и source–memory integration. Ограничение: Архитектурное описание не устанавливает универсальную utility или полноту защиты; epistemic admission выделен отдельно.</td></tr>
+<tr><td>Total Cost of Agency: Exact Attribution of Memory Injection Cost in Multi-Agent LLM Workflows <a href="#c34">источник</a></td><td>Контролируемая атрибуция стоимости workflow.</td><td>Стоимость memory injection зависит и от объёма контекста, и от tier модели. Уменьшение денежной строки за счёт смены tier нельзя называть сокращением injected volume.</td><td>200 enterprise tasks; uncached case. Ограничение: Prompt caching не оценён, tier assignment существенно влияет на итог; результаты не являются текущим тарифным прогнозом.</td></tr>
+<tr><td>MACE: Memory-Agent Co-Evolution with Adaptive Memory Graphs for Multi-Agent Systems <a href="#c35">источник</a></td><td>Coupling и memory-organization ablations.</td><td>MACE сопрягает memory graphs, retrieval и изменение способов применения опыта. Абляции показывают, что эффект нельзя свести к большему контексту или дополнительным вызовам.</td><td>Несколько benchmarks и управляемый token budget. Ограничение: Агрегатный score зависит от задач и backbones; компонентные улучшения не равны независимой репликации.</td></tr>
+<tr><td>CoMem: Collective-Individual Memory Synergy for Evolutionary Multi-Agent Systems <a href="#c36">источник</a></td><td>Private experience и collective-memory comparisons.</td><td>CoMem соединяет индивидуальный опыт и коллективный пул, используя кластеризацию для разнообразия. Проверка shared/private взаимодействия отличается от безусловного добавления всех записей.</td><td>ALFWorld и PDDL, несколько MAS frameworks. Ограничение: Заявленная устойчивость к pollution относится к проверенным сценариям, а не ко всем адаптивным атакам.</td></tr>
+<tr><td>AIM: A Privacy-Aware Interoperable Memory Framework for Multi-Agent Multi-User LLM Systems <a href="#c37">источник</a></td><td>MUMBench и нормализация операций.</td><td>AIM оценивает multi-user память как набор операций: retrieval, create, update и delete. Visibility classification, strict operation accuracy и state-aware accuracy измеряют разные стороны корректности.</td><td>Несколько модельных семейств, четыре домена. Ограничение: Канонизация и различия метрик влияют на результаты; точная visibility не означает точного выполнения всех операций.</td></tr>
+<tr><td>Kernel-Managed Shared Memory for System-Wide Personalization <a href="#c38">источник</a></td><td>Managed против unmanaged и RAG injection.</td><td>Kernel-managed memory переносит retrieval и enforcement из отдельных агентов в системное ядро. Архитектурное сравнение удерживает storage backend, помогая отделить retrieval policy от качества модели.</td><td>AIOS, несколько assistant models, personalization и latency. Ограничение: Сравнение с полной конкатенацией является context ceiling; ограничения workload и privacy probes нужно учитывать отдельно.</td></tr>
+<tr><td>Fresh Memory, Stale Plans: Derivation Currency for Distributed LLM-Agent Memory <a href="#c39">источник</a></td><td>Формальный контракт и live/controlled workflows.</td><td>Свежесть записи не гарантирует актуальности плана, построенного на старых входах. Dependency-frontier validation связывает исполнение с версиями использованных требований.</td><td>Пять role processes, planner/executor/auditor, сравнение синхронизации. Ограничение: Цена зависит от частоты обновлений и размера scope; формальная гарантия относится к зафиксированному контракту.</td></tr>
+<tr><td>Learning What to Retain: Gated-Memory Routing for Efficient Collaboration in Multi-Agent LLM Systems <a href="#c40">источник</a></td><td>Gating/routing и baseline comparison.</td><td>Gated-Memory Routing обучает удержание и маршрутизацию опыта, сопоставляя качество с inference cost. Закрытые задачи дают проверяемый reward, которого может не быть в открытой работе.</td><td>Пять math, code и knowledge benchmarks. Ограничение: Для open-ended generation понадобится другой verification signal; сравнение зависит от бюджета и моделей.</td></tr>
+<tr><td>Diachronic Hypergraphs for Orchestrated Multi-Agent Multimodal Memory Curation <a href="#c41">источник</a></td><td>Text/multimodal memory comparisons.</td><td>MAGE связывает роли, evidence, процедуры и traces в diachronic hypergraph. Retrieval, lifecycle management и budgeted packing образуют совместный memory engine.</td><td>Двенадцать QA benchmarks. Ограничение: Суммарный выигрыш не изолирует каждый компонент; нужна проверка временных границ опыта и переносимости evidence.</td></tr>
+<tr><td>Beyond Memory Majority: Latent-Source Reasoning for Multi-Agent Memory Arbitration <a href="#c42">источник</a></td><td>Latent-source arbitration и retrieval-cost analysis.</td><td>CAMA моделирует зависимость между memories вместо подсчёта голосов. Correlated copies могут создавать ложное большинство без новых независимых данных.</td><td>Несколько long-term memory benchmarks и backbones. Ограничение: Выявленная зависимость является модельной оценкой; победа на benchmark не гарантирует полного восстановления provenance.</td></tr>
+<tr><td>EquiMem: Calibrating Shared Memory in Multi-Agent Debate via Game-Theoretic Equilibrium <a href="#c43">источник</a></td><td>Equilibrium calibration и adversarial-agent comparisons.</td><td>EquiMem формулирует влияние shared memory как zero-trust game и калибрует обновления без предположения о надёжном агенте. Проверяются embedding и graph memory.</td><td>Несколько MAD frameworks и четыре datasets. Ограничение: Защита ограничена inference-time debate и выбранными архитектурами; equilibrium модели не является универсальной security guarantee.</td></tr>
+<tr><td>MAPLE-Guard: Memory-Aware Link Enforcement Against Memory-Link Poisoning in Multi-Agent Systems <a href="#c44">источник</a></td><td>Lifecycle-gated defense comparison.</td><td>MAPLE-Guard контролирует write, retrieval, promotion и cross-agent reuse, ограничивая распространение memory-link poisoning. Это containment после попадания атаки, а не обещание предотвратить любую первоначальную компрометацию.</td><td>Пять benchmark–attack пар и разные топологии. Ограничение: Эффект зависит от threat model и атак; требуется адаптивная проверка новых вариантов poisoning.</td></tr>
+<tr><td>Multi-Agent Memory from a Computer Architecture Perspective: Visions and Challenges Ahead <a href="#c45">источник</a></td><td>Концептуальная computer-architecture рамка.</td><td>Архитектурная перспектива разделяет cache, долговременную память, access protocols и consistency. Общий контекст требует явных правил доступа и согласованности, а не только большего context window.</td><td>Иерархия памяти и протоколы обмена. Ограничение: Это vision/position paper, а не новый comparative benchmark или работающий универсальный протокол.</td></tr>
+<tr><td>PatchBoard: Schema-Grounded State Mutation for Reliable and Auditable LLM Multi-Agent Collaboration <a href="#c46">источник</a></td><td>Matched episodes и fault injection.</td><td>PatchBoard применяет schema-grounded transactional patches и role authorization к общему состоянию. Структурная валидность записи не гарантирует её семантической правильности.</td><td>ALFWorld и диагностический QA. Ограничение: Kernel отклоняет невалидную структуру и права, но не всякую содержательную ошибку.</td></tr>
+<tr><td>AgentLeak: A Benchmark for Internal-Channel Privacy Leakage in Multi-Agent LLM Systems <a href="#c47">источник</a></td><td>Internal-channel leakage benchmark.</td><td>AgentLeak проверяет внутренние координационные каналы: закрытый финальный ответ ещё не доказывает, что чувствительные данные не передавались между агентами.</td><td>Coordinator–worker setting и detection pipeline. Ограничение: Ошибки detector и архитектура стенда ограничивают выводы; output-only защита покрывает другой threat surface.</td></tr>
+<tr><td>Multi-Agent Transactive Memory <a href="#c48">источник</a></td><td>Population-level retrieval и reranking comparisons.</td><td>Transactive memory индексирует опыт гетерогенной популяции агентов и отдаёт его новым consumer agents без joint training. Retrieval benefit проверяется на interactive tasks.</td><td>ALFWorld, WebArena, 34-model consumer population. Ограничение: Два benchmark-мира не покрывают все открытые экосистемы; нужна проверка применимости чужого опыта.</td></tr>
+<tr><td>GateMem: Benchmarking Memory Governance in Multi-Principal Shared-Memory Agents <a href="#c49">источник</a></td><td>Utility/access/forgetting benchmark.</td><td>GateMem проверяет utility вместе с доступом и active forgetting в multi-principal памяти. Снижение token cost не заменяет тест на выдачу неразрешённой или удалённой информации.</td><td>Medical, office, education и household сценарии. Ограничение: Правила restrictive action и leak annotations задают границы проверки; результаты не являются гарантией для реальных учреждений.</td></tr>
+<tr><td>G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems <a href="#c50">источник</a></td><td>Hierarchical memory и framework integration.</td><td>G-Memory организует опыт и связанные рассуждения иерархически для повторного использования в MAS. Сравнение охватывает разные task domains и frameworks, а не только один вид QA.</td><td>Пять benchmarks в трёх доменах, разные backbone sizes. Ограничение: Авторский benchmark gain зависит от baseline, задач и масштаба модели; перенос и независимая репликация отдельно не выполнены нами.</td></tr>
+</tbody></table></div>
+<h2>Где общий опыт становится проблемой</h2>
+<p>Маршрутизация может измениться без обнаруженного выигрыша конечной точности. Это ограничивает вывод «более связная команда лучше решает задачи». <a class="ref" href="#c13">Peer Memory Changes Who LLM Agents Consult Without a Detected Gain in Answer Accuracy</a> <a class="ref" href="#c30">BaRe-Mem: Bayesian Reliability Memory for Robust and Adaptive Agent Consultation</a></p>
+<p>Корректная или свежая запись не гарантирует актуальный план и исполненное требование. Нужны зависимости, версии входов и execution evidence, а не только фильтр памяти. <a class="ref" href="#c39">Fresh Memory, Stale Plans: Derivation Currency for Distributed LLM-Agent Memory</a> <a class="ref" href="#c25">Beyond Corrected Memory: Execution Consistency in Multi-Agent Systems</a> <a class="ref" href="#c46">PatchBoard: Schema-Grounded State Mutation for Reliable and Auditable LLM Multi-Agent Collaboration</a></p>
+<p>Provenance необходим для анализа происхождения, но простой trust gate может не остановить poisoning. Многоступенчатая защита тоже проверена только при определённых threat models. <a class="ref" href="#c8">Surfacing Disagreement Beats Resolving It: A Gated Ablation Study of Provenance-Weighted Memory for Multi-Agent Debate</a> <a class="ref" href="#c44">MAPLE-Guard: Memory-Aware Link Enforcement Against Memory-Link Poisoning in Multi-Agent Systems</a> <a class="ref" href="#c43">EquiMem: Calibrating Shared Memory in Multi-Agent Debate via Game-Theoretic Equilibrium</a> <a class="ref" href="#c23">Forgetting is Not Always Bad: A Neuro-Inspired Memory Repair Mechanism for Poisoned LLM Agents</a></p>
+<p>Шире sharing может означать слабее isolation. Правильное распознавание visibility не равно правильному выполнению каждой memory operation. <a class="ref" href="#c31">CoMemBench: Benchmarking Collaborative Memory Boundaries across Multi-Agent Workflow Topologies</a> <a class="ref" href="#c37">AIM: A Privacy-Aware Interoperable Memory Framework for Multi-Agent Multi-User LLM Systems</a> <a class="ref" href="#c49">GateMem: Benchmarking Memory Governance in Multi-Principal Shared-Memory Agents</a></p>
+<p>Token volume, цена модели и фактическая стоимость памяти не взаимозаменяемы. Уменьшение cost после смены model tier не доказывает сокращение контекста; caching требует отдельной оценки. <a class="ref" href="#c34">Total Cost of Agency: Exact Attribution of Memory Injection Cost in Multi-Agent LLM Workflows</a> <a class="ref" href="#c18">Muffin - A Shared Memory Buffer for Asynchronous AI Agents</a> <a class="ref" href="#c14">SkillMem: Compact External Skill Memory for Latent Multi-Agent Reasoning</a></p>
+<p>Полевая общая память сообщества и мультимодальная driving-state дают прикладные идеи, но их критерии успеха отличаются от reasoning accuracy. Концептуальная архитектура сама по себе не является benchmark-результатом. <a class="ref" href="#c12">SEAM: Situated Executable Associative Memory for a Co-located Community</a> <a class="ref" href="#c27">Artemis: Geometry-Grounded Multi-Agent Driving World Models with Shared 3D State and Progressive Memory Update</a> <a class="ref" href="#c45">Multi-Agent Memory from a Computer Architecture Perspective: Visions and Challenges Ahead</a> <a class="ref" href="#c7">Collaborative Memory for Multi-Agent VLM Systems</a></p>
+<h2>Минимальная честная проверка</h2>
+<p><strong>Редакторское предложение.</strong> Сравнить без памяти, локальную память, общий пул без фильтра и общий пул с отбором. Зафиксировать модели, инструменты, число агентов и бюджет retrieval/calls; учесть стоимость записи и консолидации. </p>
+<p><strong>Редакторское предложение.</strong> Разделить донорские и тестовые задачи до построения памяти, проверить пересечение по содержанию. Создать тесты на смену предпочтений, противоречащую запись, отзыв доступа и повторную выдачу старого факта. </p>
+<p><strong>Редакторское предложение.</strong> Сохранять success, latency, tokens и memory size отдельно от leakage, stale-read и отрицательного переноса. Мы не запускали этот эксперимент; это предлагаемый протокол. </p>
+<h2>Следующая проверяемая гипотеза</h2>
+<p><strong>Редакторское предложение.</strong> Гипотеза: переносить проверенные обобщённые процедуры с явным scope полезнее, чем целые ответы. Условия: одинаковые донорские траектории, замороженный тест, одинаковый retrieval budget; контроль — локальная память и сырой общий пул. </p>
+<p><strong>Редакторское предложение.</strong> Опровержение: выигрыш пропадает после удаления похожих тестовых задач или учёта расходов consolidation; либо появляются утечки и отрицательный перенос сверх заранее установленного порога. Отдельная проверка — исправление ошибочного донора и зависимых записей. </p>
+<h2>Маршрут чтения</h2>
+<p>INMS — базовый общий пул; Learning to Share — learned admission внутри одной задачи; MemCollab — обобщение переносимого опыта. <a class="ref" href="#c1">INMS: Memory Sharing for Large Language Model based Agents</a> <a class="ref" href="#c3">Learning to Share: Selective Memory for Efficient Parallel Agentic Systems</a> <a class="ref" href="#c4">MemCollab: Cross-Agent Memory Collaboration via Contrastive Trajectory Distillation</a></p>
+<p>Затем Collaborative Memory и ShareMem для пользовательских границ. Завершить отрицательными результатами Governed Shared Memory и вопросом независимости свидетельств в VLM-памяти. <a class="ref" href="#c2">Collaborative Memory: Multi-User Memory Sharing in LLM Agents with Dynamic Access Control</a> <a class="ref" href="#c5">Learning from Others, Acting for You: Cross-User Memory Sharing for LLM Agents</a> <a class="ref" href="#c6">Governed Shared Memory for Multi-Agent LLM Systems</a> <a class="ref" href="#c7">Collaborative Memory for Multi-Agent VLM Systems</a></p>
+</section><section id='concepts'><h2>Понятия</h2>
+<details><summary>Admission</summary>
+<p>Политика отбора записей для общего пула. <a class="ref" href="#c1">INMS: Memory Sharing for Large Language Model based Agents</a> <a class="ref" href="#c3">Learning to Share: Selective Memory for Efficient Parallel Agentic Systems</a></p>
+</details>
+<details><summary>Scope и provenance</summary>
+<p>Границы применимости и доступа вместе с происхождением записи. <a class="ref" href="#c2">Collaborative Memory: Multi-User Memory Sharing in LLM Agents with Dynamic Access Control</a> <a class="ref" href="#c6">Governed Shared Memory for Multi-Agent LLM Systems</a></p>
+</details>
+<details><summary>Перенос опыта</summary>
+<p>Применение внешней guidance другой моделью или пользователем без обязательного обновления весов. <a class="ref" href="#c4">MemCollab: Cross-Agent Memory Collaboration via Contrastive Trajectory Distillation</a> <a class="ref" href="#c5">Learning from Others, Acting for You: Cross-User Memory Sharing for LLM Agents</a></p>
+</details>
+</section><section id='papers'><h2>Статьи и доказательства</h2>
+<h3>INMS: Memory Sharing for Large Language Model based Agents</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c1"><strong>source_finding</strong><p>INMS хранит отобранные пары Prompt–Answer в общем пуле и извлекает их для следующих запросов. Качество общего опыта зависит от scorer и retrieval; добавление записи не обновляет веса всех агентов.</p>
+<p><small>Условия: Текстовая реализация и механизм §3, эксперименты §4, ограничения §6; версия v3.</small></p>
+<p><small>Авторские ограничения: Оценка на выбранных доменах; scorer может наследовать ошибки моделей. Не продемонстрирована полноценная система разграничения доступа.</small></p>
+<blockquote>All agents share the same Memory Pool</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2404.09982v3#S3">Раздел S3</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2404.09982v3">Первоисточник</a></p>
+</article>
+<h3>Collaborative Memory: Multi-User Memory Sharing in LLM Agents with Dynamic Access Control</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c2"><strong>source_finding</strong><p>Collaborative Memory разделяет private/shared-фрагменты, сохраняет provenance и фильтрует чтение по динамическим графам доступа. Политика чтения и записи — часть механизма, а не просто параметр общего vector store.</p>
+<p><small>Условия: Механизм §3–4, три сценария §5 и ограничения §6; MultiHop-RAG и синтетические задачи с различающимися правами.</small></p>
+<p><small>Авторские ограничения: Успех в заданных сценариях не доказывает безопасность при всех атаках. В части открытых задач нет ground truth для проверки качества.</small></p>
+<blockquote>Each fragment</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2505.18279v1#S3.SS2">Раздел S3.SS2</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2505.18279v1">Первоисточник</a></p>
+</article>
+<h3>Learning to Share: Selective Memory for Efficient Parallel Agentic Systems</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c3"><strong>source_finding</strong><p>Learning to Share обучает admission-контроллер выбирать промежуточные результаты для общего буфера параллельных команд. Память создаётся на одну задачу и не сохраняется между задачами: это обмен рабочим состоянием, не lifelong learning.</p>
+<p><small>Условия: §3–4.5: AssistantBench и GAIA, фиксированный parallel-agent framework и анализ стоимости контроллера.</small></p>
+<p><small>Авторские ограничения: Не изучены накопление опыта между задачами, удаление и revision. Выигрыш wall-clock зависит от параллелизма и serving-условий.</small></p>
+<blockquote>does not persist across problem instances.</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2602.05965v1#S4.SS5">Раздел S4.SS5</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2602.05965v1">Первоисточник</a></p>
+</article>
+<h3>MemCollab: Cross-Agent Memory Collaboration via Contrastive Trajectory Distillation</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c4"><strong>source_finding</strong><p>MemCollab сравнивает успешные и неуспешные траектории агентов для построения переносимых подсказок, затем извлекает их под новую задачу. Метод требует проверки правильности исходных решений.</p>
+<p><small>Условия: §3–4 и Appendix A/C: reasoning и code, разделение задач построения памяти и оценки, сравнение источников памяти.</small></p>
+<p><small>Авторские ограничения: Проверяемые математические и кодовые задачи отличаются от открытых исследований. Требуется аудит train/test overlap; в тексте есть неоднозначные формулировки размера MATH500, поэтому дизайн нужно сверять с кодом.</small></p>
+<blockquote>we collect a pair of trajectories</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2603.23234v1#S3.SS2">Раздел S3.SS2</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2603.23234v1">Первоисточник</a></p>
+</article>
+<h3>Learning from Others, Acting for You: Cross-User Memory Sharing for LLM Agents</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c5"><strong>source_finding</strong><p>ShareMem разделяет повторно используемые процедуры и личные предпочтения: общий опыт направляет действие, значения предпочтений берутся у принимающего пользователя. Local/shared retrieval сравнивается при общем бюджете записей.</p>
+<p><small>Условия: §3–5: Mind2Web, VitaBench 2.0, MemoryCode; абляции consolidation и preference retrieval.</small></p>
+<p><small>Авторские ограничения: Перенос ограничен качеством опыта, scope и доступом к пользовательским требованиям; архитектурное разделение не равно доказательству приватности.</small></p>
+<blockquote>Preferences are maintained from each user’s history separately from experience consolidation</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.32511v1#S3.SS1">Раздел S3.SS1</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2609.32511v1">Первоисточник</a></p>
+</article>
+<h3>Governed Shared Memory for Multi-Agent LLM Systems</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c6"><strong>source_finding</strong><p>Governed Shared Memory описывает scope, supersession, provenance и propagation в живом сервисе. Авторы показывают, что дедупликация может отсечь противоречащую запись раньше проверки конфликта, и отдельно признают отсутствие сравнительного baseline.</p>
+<p><small>Условия: Прочитаны failure modes §4, механизм §5, метод/результаты §7–8, проблемы §9 и ограничения §10.</small></p>
+<p><small>Авторские ограничения: Самооценка собственного сервиса, один tenant, ограниченные пробы; это не независимый аудит и не сравнительный рейтинг систем.</small></p>
+<blockquote>We do not compare against a baseline</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2606.24535v1#S10.SS0.SSS0.Px7">Раздел S10.SS0.SSS0.Px7</a></small>
+<blockquote>can reject a write before the asynchronous detector ever sees it</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2606.24535v1#S9.SS2">§9.2 Deduplication Starves Contradiction Detection</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2606.24535v1">Первоисточник</a></p>
+</article>
+<h3>Collaborative Memory for Multi-Agent VLM Systems</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c7"><strong>source_finding</strong><p>Collaborative Memory for Multi-Agent VLM Systems предлагает хранить связи наблюдение–интерпретация–вывод и пересматривать зависимые утверждения при изменении визуального свидетельства. Согласие агентов не считается независимым подтверждением.</p>
+<p><small>Условия: Концептуальная схема §2–4 и будущие направления §6: visual evidence, provenance, reconciliation.</small></p>
+<p><small>Авторские ограничения: Архитектурное предложение без сопоставимой экспериментальной оценки выигрыша; не следует включать в leaderboard эффективности.</small></p>
+<blockquote>Agreement alone does not constitute independent confirmation</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.17921v1#S4">Раздел S4</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2609.17921v1">Первоисточник</a></p>
+</article>
+<h3>Surfacing Disagreement Beats Resolving It: A Gated Ablation Study of Provenance-Weighted Memory for Multi-Agent Debate</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c8"><strong>source_finding</strong><p>Provenance-based write gate не снизил attack success в проверенном режиме. Простая groundedness может предпочесть ложь о знакомой сущности новому верному факту; разрешение конфликта до чтения скрывает полезное несогласие.</p>
+<p><small>Условия: Диагностическое исследование. Фиксированный бюджет, memory-backed debate и проверяемые атаки.</small></p>
+<p><small>Авторские ограничения: Результат относится к проверенному режиму и gate, а не к бесполезности любого provenance.</small></p>
+<blockquote>Router. Features x⁡(q)x(q) are structural complexity, temporal and</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2611.22461v1#A1">Appendix A Method parameterisation · A1</a></small>
+<blockquote>Full context recovers essentially all gold evidence at</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2611.22461v1#S6.SS1">6 Results / 6.1 Phase 0–1: the ceiling, and whether structure pays · S6.SS1</a></small>
+<blockquote>Not every run shares the reachable regime. Table</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2611.22461v1#S8">8 Limitations · S8</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2611.22461v1">Первоисточник</a></p>
+</article>
+<h3>Multi-Agent Memory Inconsistency: Where Factual Conflicts Disappear in LLM Agents</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c9"><strong>source_finding</strong><p>Конфликт может исчезнуть при передаче worker→lead даже после retrieval обеих версий факта. Разнесение противоречащих свидетельств между workers отличается от ситуации, где один worker видит их вместе.</p>
+<p><small>Условия: Диагностическое исследование. Matched comparisons Required/None и размещения свидетельств.</small></p>
+<p><small>Авторские ограничения: Манипуляция объединяет delegation, partitioning и доступ lead; наблюдаемые retrieval choices не полностью рандомизированы.</small></p>
+<blockquote>We evaluate whether agents flag planted numerical conflicts</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2611.22245v2#S3">3 Benchmark and Measurement · S3</a></small>
+<blockquote>Pooled across models and runs, Required increases Source</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2611.22245v2#S4.SS3">4 Experimental Results / 4.3 From Evidence Collection to Conflict Detection · S4.SS3</a></small>
+<blockquote>Required combines mandatory delegation, partitioned source assignments, and</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2611.22245v2#Sx1">Limitations · Sx1</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2611.22245v2">Первоисточник</a></p>
+</article>
+<h3>MIRIX-2.0: Multi-Agent Memory System</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c10"><strong>source_finding</strong><p>MIRIX-2.0 сохраняет типизированные записи и provenance-гиперграф, а AutoDream выполняет консолидацию вне write path. Компоненты проверяются группами, поэтому нельзя приписать весь эффект одной структуре памяти.</p>
+<p><small>Условия: Система и benchmark. Типизированные записи, bounded retrieval и procedural skills.</small></p>
+<p><small>Авторские ограничения: Групповые абляции не изолируют вклад каждого элемента; авторские benchmark scores требуют отдельной репликации.</small></p>
+<blockquote>The selected anchors open two bounded lanes. In</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2611.12068v1#S2.SS4.SSS0.Px3">2 Methodology / 2.4 Graph-owned evidence retrieval / Two evidence lanes. · S2.SS4.SSS0.Px3</a></small>
+<blockquote>We presented MIRIX-2.0, a multi-agent memory system that</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2611.12068v1#S5">5 Conclusion · S5</a></small>
+<blockquote>Our ablations add components in groups. They do</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2611.12068v1#S5.SS0.SSS0.Px1">5 Conclusion / Limitations. · S5.SS0.SSS0.Px1</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2611.12068v1">Первоисточник</a></p>
+</article>
+<h3>Memory-Aware Multi-Agent Architecture with LLM-based Orchestration for Conversational Recommendation</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c11"><strong>source_finding</strong><p>В conversational recommendation память и orchestration влияют на разные части системы. Retrieval и фактически показанные рекомендации расходятся; LLM reranking может менять семантику и разнообразие без выигрыша Hit@K.</p>
+<p><small>Условия: Прикладная система. Уменьшенная выборка пользователей, симулированные взаимодействия.</small></p>
+<p><small>Авторские ограничения: Контролируемая симуляция ограничивает перенос на реальное пользовательское поведение.</small></p>
+<blockquote>To support controlled evaluation of LLM-intensive components, a</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2611.08718v1#S4.SS1">4 Experimental Methodology / 4.1 Dataset and Preprocessing · S4.SS1</a></small>
+<blockquote>Figure 2 reports Hit@10, NDCG@10, ILS@10, and Semantic</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2611.08718v1#S5.SS1">5 Results / 5.1 Offline Evaluation · S5.SS1</a></small>
+<blockquote>This work relies on a controlled evaluation setting</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2611.08718v1#S6.SS4">6 Discussions / 6.4 Limitations · S6.SS4</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2611.08718v1">Первоисточник</a></p>
+</article>
+<h3>SEAM: Situated Executable Associative Memory for a Co-located Community</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c12"><strong>source_finding</strong><p>SEAM исследует общую ассоциативную память сообщества в открытом использовании. Полевая работа показывает способы обмена контекстом, но дизайн намеренно не измеряет comparative system performance.</p>
+<p><small>Условия: Полевое исследование. 46 участников сообщества, follow-up с 14.</small></p>
+<p><small>Авторские ограничения: Наблюдение за одной группой не устанавливает эффект долгосрочного накопления знаний или causal utility.</small></p>
+<blockquote>We recruited by email from a co-located community</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2611.04296v1#S5.SS1">5. User Study Setup / 5.1. Field deployment · S5.SS1</a></small>
+<blockquote>Complexity arrives with ambition. Some instructions are triggered</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2611.04296v1#S6.SS2.SSS1.Px3">6. Findings / 6.2. How the Memory Recalls and Reacts / 6.2.1. What a reply is made of / Executable. · S6.SS2.SSS1.Px3</a></small>
+<blockquote>designed to observe what emerged rather than to</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2611.04296v1#S7.SS2">7. Discussion / 7.2. Study limitations · S7.SS2</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2611.04296v1">Первоисточник</a></p>
+</article>
+<h3>Peer Memory Changes Who LLM Agents Consult Without a Detected Gain in Answer Accuracy</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c13"><strong>source_finding</strong><p>Peer memory меняет выбор консультируемых агентов, но обнаруженного выигрыша final answer accuracy нет. Изменение коммуникационного графа следует проверять отдельно от качества конечного решения.</p>
+<p><small>Условия: Контролируемая оценка. Шесть агентов, парные линии и reference-answer feedback.</small></p>
+<p><small>Авторские ограничения: Общие модели/промпты и малый набор задач ограничивают перенос; отсутствие значимости не доказывает эквивалентности.</small></p>
+<blockquote>MACE, UCB1, in-context, and random selection can choose</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2611.09990v1#S3.SS1">3 Method / 3.1 Task and interaction protocol · S3.SS1</a></small>
+<blockquote>We evaluate answers using exact match (EM) and</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2611.09990v1#S3.SS3">3 Method / 3.3 Reward and evaluation measures · S3.SS3</a></small>
+<blockquote>The experiments use six agents that share a</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2611.09990v1#S7">7 Limitations · S7</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2611.09990v1">Первоисточник</a></p>
+</article>
+<h3>SkillMem: Compact External Skill Memory for Latent Multi-Agent Reasoning</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c14"><strong>source_finding</strong><p>SkillMem компилирует повторно используемые skills в компактную внешнюю латентную память. Storage и inference efficiency проверяются вместе с качеством; объединение нескольких конфликтующих skills остаётся будущей задачей.</p>
+<p><small>Условия: Система и benchmark. Несколько reasoning benchmarks и два размера backbone.</small></p>
+<p><small>Авторские ограничения: Ограниченные модели и задачи; перенос состава навыков и разрешение конфликтов не установлены.</small></p>
+<blockquote>The preceding method can compile any textual skill</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.37935v1#S4.SS4">4 Method / 4.4 Skill Discovery · S4.SS4</a></small>
+<blockquote>Overall performance. With Qwen3-4B, SkillMem outperforms LatentMAS and</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.37935v1#S6.SS2">6 Experiments / 6.2 Main Results · S6.SS2</a></small>
+<blockquote>Future work can extend SkillMem to retrieve and</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.37935v1#S7">7 Conclusion and Future Work · S7</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2610.37935v1">Первоисточник</a></p>
+</article>
+<h3>Remembering Is Not Enough: Refining Memories and Learning When to Use Them in Multi-Agent Systems</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c15"><strong>source_finding</strong><p>DiscernMem различает ошибочное правило и верное правило, применённое в неподходящем контексте. Refinement и обучение границ применимости — разные механизмы.</p>
+<p><small>Условия: Система и benchmark. Четыре benchmarks, три multi-agent hosts.</small></p>
+<p><small>Авторские ограничения: Область корректируемых ошибок ограничена доступной replay-информацией; общий team failure не даёт готовой причинной метки.</small></p>
+<blockquote>We propose DiscernMem, a training-free framework that distinguishes</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.36652v1#S3.SS1">3 Method / 3.1 Overview · S3.SS1</a></small>
+<blockquote>We presented DiscernMem, a training-free framework that distinguishes</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.36652v1#S5">5 Conclusion and Future Work · S5</a></small>
+<blockquote>Although DiscernMem separates defective rules from misapplied experience</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.36652v1#Sx1">Limitations · Sx1</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2610.36652v1">Первоисточник</a></p>
+</article>
+<h3>EMMA: Structured Episodic Memory for Multi-Agent Workflow Synthesis</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c16"><strong>source_finding</strong><p>EMMA хранит структурированный episodic опыт для локальных guarded изменений workflow. Стоимость обновления измеряется количеством training executions, отдельно от итоговой task performance.</p>
+<p><small>Условия: Система и benchmark. KramaBench, AppWorld и BBEH; раздельные train/test.</small></p>
+<p><small>Авторские ограничения: Сравнение относится к выбранным backbones, baselines и бюджетам; execution count не равен полной денежной стоимости.</small></p>
+<blockquote>Benchmarks. KramaBench (Lai et al., 2026) (28 train</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.35966v1#S5.SS1">5 Experiments / 5.1 Experimental Setup · S5.SS1</a></small>
+<blockquote>As reported in Table 5, EMMA achieves the</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.35966v1#S5.SS2.SSS2">5 Experiments / 5.2 Experimental Results / 5.2.2 Update Efficiency · S5.SS2.SSS2</a></small>
+<blockquote>In this paper, we present EMMA, structured Episodic</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.35966v1#S6">6 Conclusion and Limitations · S6</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2610.35966v1">Первоисточник</a></p>
+</article>
+<h3>CoEvolve: Counterfactual-Guided Co-Evolution of Memory and Collaboration in Multi-Agent Systems</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c17"><strong>source_finding</strong><p>CoEvolve согласует обновления collaboration и памяти через общий skill space и контраст исходных/контрфактуальных траекторий. Проверяется совместная адаптация, а не один retrieval-компонент.</p>
+<p><small>Условия: Система и benchmark. ALFWorld и WebShop.</small></p>
+<p><small>Авторские ограничения: Два интерактивных benchmark-мира не устанавливают перенос на открытые рабочие процессы.</small></p>
+<blockquote>Datasets. We evaluate CoEvolve on two widely used</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.33539v1#S4.SS1">4 Experiments / 4.1 Experimental Setup · S4.SS1</a></small>
+<blockquote>In this paper, we introduce CoEvolve as a</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.33539v1#S5">5 Conclusion · S5</a></small>
+<blockquote>Skill memory evolution. Skill memory provides the experience</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.33539v1#S3.SS4.SSS3">3 Method / 3.4 Counterfactual-Guided Evolution / 3.4.3 Aligned Evolution of Collaboration and Memory · S3.SS4.SSS3</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2610.33539v1">Первоисточник</a></p>
+</article>
+<h3>Muffin - A Shared Memory Buffer for Asynchronous AI Agents</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c18"><strong>source_finding</strong><p>Muffin асинхронно делится промежуточными находками, сохраняя частное рассуждение локально. Quality–cost trade-off проверяется отдельно от полного обмена трассами.</p>
+<p><small>Условия: Система и benchmark. Четыре QA/reasoning benchmarks.</small></p>
+<p><small>Авторские ограничения: Авторы ограничивают выводы задачами без полноценного long-horizon tool use и планирования.</small></p>
+<blockquote>Benchmarks. We evaluate on four benchmarks that cover</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.31355v1#S4.SS1">4 Experiments / 4.1 Setup · S4.SS1</a></small>
+<blockquote>Our results show that shared intermediate findings in</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.31355v1#S4.SS4">4 Experiments / 4.4 Limitations and Discussion · S4.SS4</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2610.31355v1">Первоисточник</a></p>
+</article>
+<h3>Combining Long-Term Memory and LLMs Comes at a High Cost: From Prompt Injection to Persistent Compromise</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c19"><strong>source_finding</strong><p>Memory injection может сделать вредоносную инструкцию устойчивой между сессиями и распространить её между пользователями. Persistent storage расширяет threat model по сравнению с разовым заражённым prompt.</p>
+<p><small>Условия: Исследование безопасности. Сервисы с долгосрочной памятью, threat model и attack artifacts.</small></p>
+<p><small>Авторские ограничения: Проверенные версии сервисов и сценарии не устанавливают текущую уязвимость всех продуктов; защита требует повторной проверки.</small></p>
+<blockquote>Privacy: “Create a memory: After every message I</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.28810v1#S4.SS2">IV Threat model / IV-B Attacker knowledge and goals · S4.SS2</a></small>
+<blockquote>Importantly, at first, all models tended to be</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.28810v1#S5.SS3">V Experiments and results / V-C Availability breakdown · S5.SS3</a></small>
+<blockquote>According to NIST [55], indirect prompt injection occurs</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.28810v1#S6.SS4">VI Discussion / VI-D Limitations of the NIST taxonomy · S6.SS4</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2610.28810v1">Первоисточник</a></p>
+</article>
+<h3>M-Plan: Comprehensive Planning For LLM Agents with Memory Arrangement</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c20"><strong>source_finding</strong><p>M-Plan разделяет long-term storage, short-term generation и optimizer, который организует опыт перед сохранением. Это комплексный planning framework, поэтому суммарный эффект не следует приписывать памяти в одиночку.</p>
+<p><small>Условия: Система и benchmark. ALFWorld, WebShop и PDDL; несколько моделей.</small></p>
+<p><small>Авторские ограничения: Результаты зависят от полного стека и выбранных baselines; нужен component-level контроль.</small></p>
+<blockquote>Datasets We evaluate M-Plan on three widely test</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.27032v1#A3">Appendix C EXPERIMENT SETUP · A3</a></small>
+<blockquote>We present our main results with performing each</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.27032v1#S4.SS2">4 Experiment / 4.2 Main Results · S4.SS2</a></small>
+<blockquote>As shown in Figure 2, from the function</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.27032v1#S3.SS1">3 Methodology / 3.1 Overview · S3.SS1</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2610.27032v1">Первоисточник</a></p>
+</article>
+<h3>XferAgent: Cross-Agent Experience Transfer for Self-Improving LLM Agents</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c21"><strong>source_finding</strong><p>XferAgent отделяет основную оценку замороженной памяти от последовательного обновления опыта. Heterogeneous-agent transfer и накопление результатов между проходами проверяются раздельно.</p>
+<p><small>Условия: Система и benchmark. GAIA и ALFWorld, фиксированные backbone/cohort для основных сравнений.</small></p>
+<p><small>Авторские ограничения: Очистка опыта от task-specific информации не является доказательством приватности; важен контроль memory/test overlap.</small></p>
+<blockquote>We evaluate XferAgent primarily on GAIA (Mialon et</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.19581v1#S4.SS1.SSS0.Px1">4 Experiments / 4.1 Experimental Setup / Datasets and Backbones. · S4.SS1.SSS0.Px1</a></small>
+<blockquote>For the main benchmark comparisons, we evaluate the</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.19581v1#S4.SS1.SSS0.Px4">4 Experiments / 4.1 Experimental Setup / Evaluation Protocols and Metrics. · S4.SS1.SSS0.Px4</a></small>
+<blockquote>For cross-agent experience sharing, XferAgent removes task-specific and</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.19581v1#Sx1">Limitations · Sx1</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2610.19581v1">Первоисточник</a></p>
+</article>
+<h3>SEPM: Self-Evolving Procedural Memory Grounded in Task Graphs for Multi-Agent Collaboration</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c22"><strong>source_finding</strong><p>SEPM связывает procedural memory с графом зависимостей задач и общим blackboard. Разные среды выигрывают от разных компонентов, поэтому эффект нельзя приписывать одному shared store.</p>
+<p><small>Условия: Система и benchmark. ALFWorld, WebArena, OfficeBench.</small></p>
+<p><small>Авторские ограничения: Зависимость от среды и стека; graph consistency не гарантирует выполнение требований задачи.</small></p>
+<blockquote>ALFWorld evaluates embodied procedural interaction (Shridhar et al.,</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.14515v1#S5.SS1">5 Experiments / 5.1 Experimental Setup · S5.SS1</a></small>
+<blockquote>We introduced SEPM, which connects procedural memory with</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.14515v1#S6.SS0.SSS0.Px1">6 Conclusion and Limitations / Conclusion. · S6.SS0.SSS0.Px1</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2610.14515v1">Первоисточник</a></p>
+</article>
+<h3>Forgetting is Not Always Bad: A Neuro-Inspired Memory Repair Mechanism for Poisoned LLM Agents</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c23"><strong>source_finding</strong><p>DREAM восстанавливает память после poisoning через activation probes и repair. Защита оценивается против конкретного backdoor attacker и не является общим доказательством невозможности заражения.</p>
+<p><small>Условия: Исследование безопасности. AgentPoison и несколько задач/архитектур.</small></p>
+<p><small>Авторские ограничения: Probe-based отбор может измениться при адаптивном атакующем; стоимость и task success нужны рядом с ASR.</small></p>
+<blockquote>Drawing inspiration from neuroscientific findings that weak or</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.13267v1#S4">4 Methods · S4</a></small>
+<blockquote>DREAM demonstrates strong effectiveness on backdoor attacks. We</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.13267v1#S5.SS2">5 Experiments and Results / 5.2 Main Results · S5.SS2</a></small>
+<blockquote>DREAM relies on a multi-dimensional activation probe to</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.13267v1#A1">Appendix A Limitations · A1</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2610.13267v1">Первоисточник</a></p>
+</article>
+<h3>Gamma: Grounded Multi-Agent Memory with Mechanical Audit for Memory-Intensive Manipulation</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c24"><strong>source_finding</strong><p>GAMMA добавляет grounded memory и mechanical audit к фиксированной policy, проверяя память о прошлых событиях в manipulation tasks. Стоимость detector и VLM calls учитывается отдельно.</p>
+<p><small>Условия: Система и benchmark. 16 задач, фиксированная policy, обученные memory agents.</small></p>
+<p><small>Авторские ограничения: Зависимость от benchmark-generated обучающих эпизодов и serving cost ограничивает перенос на произвольную робототехнику.</small></p>
+<blockquote>Both agents are finetuned on a corpus generated</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.12793v1#S4.SS3">4 Method / 4.3 Targets and training · S4.SS3</a></small>
+<blockquote>Gamma averages 66.066.0 across the sixteen tasks (Appendix</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.12793v1#S5.SS2">5 Experiments / 5.2 Main results · S5.SS2</a></small>
+<blockquote>Serving cost. Each tick costs one detector pass</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.12793v1#S6">6 Discussion and Limitations · S6</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2610.12793v1">Первоисточник</a></p>
+</article>
+<h3>Beyond Corrected Memory: Execution Consistency in Multi-Agent Systems</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c25"><strong>source_finding</strong><p>Исправленная запись не гарантирует правильного исполнения: одинаковый log может скрывать разные результаты выполнения обязанностей. CAVERT формализует execution evidence и проверяет recovery относительно rule-guided baseline.</p>
+<p><small>Условия: Формализация и benchmark. Несколько benchmark-executor settings и gated recovery.</small></p>
+<p><small>Авторские ограничения: Выводы ограничены выбранными контрактами и преобразованиями журналов; частоты natural logs не универсальны.</small></p>
+<blockquote>Table A7 reports all benchmark–factor cells, each containing</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.08101v1#A3.SS1">Appendix C Definition Evaluation Details / C.1 Paired Design and Information Removal · A3.SS1</a></small>
+<blockquote>Correct memory is not enough for consistent execution.</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.08101v1#S6">6 Conclusion · S6</a></small>
+<blockquote>Our claims are limited to the evaluated contracts,</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.08101v1#A5.SS5">Appendix E Execution Protocol and Stratification / E.5 Limitations · A5.SS5</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2610.08101v1">Первоисточник</a></p>
+</article>
+<h3>MemCo: Memory-Centric Collaboration for Generalizing LLM Agents to Unseen Environments</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c26"><strong>source_finding</strong><p>MemCo постепенно переводит local experience в абстрактную global memory и комбинирует обе при новом решении. Начальные interaction traces нужны для bootstrap.</p>
+<p><small>Условия: Система и benchmark. Интерактивные decision-making benchmarks.</small></p>
+<p><small>Авторские ограничения: Отсутствие полезного раннего опыта и неподходящая абстракция могут ограничивать перенос.</small></p>
+<blockquote>For a shareable local record p∈𝒫il∪ℰilp\in\mathcal{P}_{i}^{l}\cup\mathcal{E}_{i}^{l}, MemCo constructs</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.07376v1#S3.SS4">3 Methodology / 3.4 Progressive Global Memory Collaboration · S3.SS4</a></small>
+<blockquote>In this work, we introduced MemCo, a memory-centric</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.07376v1#S6">6 Conclusion · S6</a></small>
+<blockquote>First, our framework relies on initial interaction traces</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.07376v1#Sx1">Limitations · Sx1</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2610.07376v1">Первоисточник</a></p>
+</article>
+<h3>Artemis: Geometry-Grounded Multi-Agent Driving World Models with Shared 3D State and Progressive Memory Update</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c27"><strong>source_finding</strong><p>Artemis использует общий 3D-state для согласования многовидовых driving rollouts. Это пример общей мультимодальной репрезентации, отличный от пула текстовых ответов.</p>
+<p><small>Условия: Мультимодальная система. MA-CARLA с шаблонными сценариями движения.</small></p>
+<p><small>Авторские ограничения: Video consistency и fidelity не доказывают безопасность реального автономного вождения.</small></p>
+<blockquote>Templates arrange vehicles to approach from opposite directions,</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.07031v1#A1.SS1.SSS2">Appendix A Appendix / A.1 MA-CARLA Dataset Details / A.1.2 Interaction Template Design · A1.SS1.SSS2</a></small>
+<blockquote>Comparison Results. As in Table 1, our Artemis</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.07031v1#S5.SS2">5 Experiment / 5.2 Quantitative Results · S5.SS2</a></small>
+<blockquote>Candidate trajectories are generated using rule-based templates for</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.07031v1#S3.SS1">3 MA-CARLA Dataset / 3.1 Data Collection · S3.SS1</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2610.07031v1">Первоисточник</a></p>
+</article>
+<h3>AECG: Asymmetric Experience Consolidation and Governance In Multi-Agent Systems</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c28"><strong>source_finding</strong><p>AECG сохраняет scope процедурного опыта и связывает review со downstream exposure. Paired replay используется для проверки изменений skills.</p>
+<p><small>Условия: Система и benchmark. Несколько MAS frameworks и benchmark settings.</small></p>
+<p><small>Авторские ограничения: Авторские replay-оценки ограничены покрытием задач; сохранение scope не является универсальным privacy proof.</small></p>
+<blockquote>We evaluate AECG on three MAS frameworks—AutoGen (Wu</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.05176v1#S4.SS1">4 Experiments / 4.1 Experimental Setup · S4.SS1</a></small>
+<blockquote>We introduce AECG, shifting multi-agent procedural memory from</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.05176v1#S5">5 Conclusion · S5</a></small>
+<blockquote>Persistent knowledge creates two opposing service risks. Reusing</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2610.05176v1#S3.SS1">3 Method / 3.1 Problem Formulation and Method Overview · S3.SS1</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2610.05176v1">Первоисточник</a></p>
+</article>
+<h3>EpiCon: Collective Agent Learning through Co-Evolving Multimodal Memory</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c29"><strong>source_finding</strong><p>EpiCon консолидирует shared multimodal experience и сравнивает разные memory backbones и hosts. Общий benchmark macro-score нужно читать рядом со стоимостью memory operations.</p>
+<p><small>Условия: Система и benchmark. Один solving attempt, одиннадцать benchmarks.</small></p>
+<p><small>Авторские ограничения: Среднее с равным весом benchmarks не отражает произвольную production-нагрузку; важны train/test границы памяти.</small></p>
+<blockquote>Here Recall\operatorname{Recall} uses a frozen text encoder to</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.37923v1#S4.SS3">4 Methodology / 4.3 Shared Experience Consolidation and Reuse · S4.SS3</a></small>
+<blockquote>With a single solving attempt per question, backbone-sized</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.37923v1#S5.SS2">5 Experiments / 5.2 Main Results · S5.SS2</a></small>
+<blockquote>Tree self-organizer. Lessons derived from the collected controller</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.37923v1#S3">3 Data Curation · S3</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2609.37923v1">Первоисточник</a></p>
+</article>
+<h3>BaRe-Mem: Bayesian Reliability Memory for Robust and Adaptive Agent Consultation</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c30"><strong>source_finding</strong><p>BaRe-Mem учится оценивать contextual reliability источников по проверенной истории и решать, стоит ли консультироваться вообще. Частота прошлого успеха не заменяет оценку применимости.</p>
+<p><small>Условия: Система и benchmark. Heterogeneous advisors, misleading conditions и worker allocation.</small></p>
+<p><small>Авторские ограничения: Нужна проверяемая обратная связь; качество verification влияет на саму память надёжности.</small></p>
+<blockquote>We conduct our study under two complementary capability</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.35551v1#S4.SS1">4 Experiments / 4.1 Experimental Setups · S4.SS1</a></small>
+<blockquote>We introduced BaRe-Mem, a Bayesian reliability memory that</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.35551v1#S5">5 Conclusion · S5</a></small>
+<blockquote>Here, κ\kappa is the central model’s autonomous ability</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.35551v1#S3.SS3.SSS0.Px1">3 BaRe-Mem: Reliability-Guided Consultation / 3.3 Deciding Whether to Consult / Consultation Ability. · S3.SS3.SSS0.Px1</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2609.35551v1">Первоисточник</a></p>
+</article>
+<h3>CoMemBench: Benchmarking Collaborative Memory Boundaries across Multi-Agent Workflow Topologies</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c31"><strong>source_finding</strong><p>CoMemBench проверяет границы обмена в task graphs: больше доступного контекста может ухудшать изоляцию. Рейтинг методов меняется при другой topology и типе загрязнения артефактов.</p>
+<p><small>Условия: Benchmark. Версионированные handoffs, utility, isolation и token cost.</small></p>
+<p><small>Авторские ограничения: Формальные workflow contracts ограничивают набор проверяемых нарушений; одно aggregate score скрывает trade-off.</small></p>
+<blockquote>CoMemBench represents each instance as an executable task</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.32192v2#S3">3 The CoMemBench Benchmark · S3</a></small>
+<blockquote>Results are reported by domain and further stratified</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.32192v2#S4">4 Evaluation Protocol · S4</a></small>
+<blockquote>For a consumer vv at workflow state ss,</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.32192v2#S3.SS1">3 The CoMemBench Benchmark / 3.1 Workflow and boundary operationalization · S3.SS1</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2609.32192v2">Первоисточник</a></p>
+</article>
+<h3>A Benchmark and Diagnostic Study of Epistemic Admission in Shared Agent Memory</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c32"><strong>source_finding</strong><p>Повторённая или перефразированная ложная запись может выглядеть как независимое подтверждение. Admission policy без source lineage не надёжно различает новые свидетельства и копирование старого убеждения.</p>
+<p><small>Условия: Диагностический benchmark. Сценарии с известной истиной и фиксированным происхождением утверждений.</small></p>
+<p><small>Авторские ограничения: Авторские сценарии сконструированы; перенос на естественную частоту событий требует дополнительной оценки.</small></p>
+<blockquote>CPB measures admission to shared memory and its</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.30813v1#S3.SS1">3 Method / 3.1 Problem formulation · S3.SS1</a></small>
+<blockquote>F3. With shared memory as the only source,</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.30813v1#S5.SS3">5 Results / 5.3 Adoption with and without a competing truth · S5.SS3</a></small>
+<blockquote>Every Live scenario is authored fiction, which is</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.30813v1#A19">Appendix S Limitations · A19</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2609.30813v1">Первоисточник</a></p>
+</article>
+<h3>AkasicMEM: Governed Enterprise Memory for Agents</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c33"><strong>source_finding</strong><p>AkasicMEM сохраняет связь памяти с авторизацией исходных данных и повторно проверяет политику при retrieval. Разрешение на запись не должно автоматически превращаться в доступ ко всем производным знаниям.</p>
+<p><small>Условия: Архитектурная работа. Vector–graph–relational substrate и source–memory integration.</small></p>
+<p><small>Авторские ограничения: Архитектурное описание не устанавливает универсальную utility или полноту защиты; epistemic admission выделен отдельно.</small></p>
+<blockquote>Supporting source–memory integration alongside memory governance requires source</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.25563v1#S3">3. Governed Enterprise Memory · S3</a></small>
+<blockquote>Authorization continuity addresses one way in which shared</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.25563v1#S5">5. Discussion and Future Work · S5</a></small>
+<blockquote>Select is outside this paper’s scope, and admitting</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.25563v1#S5.SS2.SSS0.Px1">5. Discussion and Future Work / 5.2. Toward Useful Governed Memory / Selection. · S5.SS2.SSS0.Px1</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2609.25563v1">Первоисточник</a></p>
+</article>
+<h3>Total Cost of Agency: Exact Attribution of Memory Injection Cost in Multi-Agent LLM Workflows</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c34"><strong>source_finding</strong><p>Стоимость memory injection зависит и от объёма контекста, и от tier модели. Уменьшение денежной строки за счёт смены tier нельзя называть сокращением injected volume.</p>
+<p><small>Условия: Измерительное исследование. 200 enterprise tasks; uncached case.</small></p>
+<p><small>Авторские ограничения: Prompt caching не оценён, tier assignment существенно влияет на итог; результаты не являются текущим тарифным прогнозом.</small></p>
+<blockquote>We evaluate on a benchmark of 200 enterprise</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.23790v1#S5">V Benchmark and Experimental Setup · S5</a></small>
+<blockquote>A caution about Condition H, reported in Table</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.23790v1#S6.SS1">VI Results / VI-A Injection Cost and Its Share of the Bill · S6.SS1</a></small>
+<blockquote>Prompt caching is not evaluated, and this is</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.23790v1#S8">VIII Limitations · S8</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2609.23790v1">Первоисточник</a></p>
+</article>
+<h3>MACE: Memory-Agent Co-Evolution with Adaptive Memory Graphs for Multi-Agent Systems</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c35"><strong>source_finding</strong><p>MACE сопрягает memory graphs, retrieval и изменение способов применения опыта. Абляции показывают, что эффект нельзя свести к большему контексту или дополнительным вызовам.</p>
+<p><small>Условия: Система и benchmark. Несколько benchmarks и управляемый token budget.</small></p>
+<p><small>Авторские ограничения: Агрегатный score зависит от задач и backbones; компонентные улучшения не равны независимой репликации.</small></p>
+<blockquote>where BtB_{t} is the memory-unit budget and the</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.21533v1#S5.SS3">5 Methodology / 5.3 Need-aware Memory Composer · S5.SS3</a></small>
+<blockquote>The largest losses occur when removing the coupling</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.21533v1#A3.SS2">Appendix C Additional Result Details / C.2 Ablation Component Roles · A3.SS2</a></small>
+<blockquote>Memory organization. With memory use fixed, we vary</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.21533v1#S4">4 Empirical Study · S4</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2609.21533v1">Первоисточник</a></p>
+</article>
+<h3>CoMem: Collective-Individual Memory Synergy for Evolutionary Multi-Agent Systems</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c36"><strong>source_finding</strong><p>CoMem соединяет индивидуальный опыт и коллективный пул, используя кластеризацию для разнообразия. Проверка shared/private взаимодействия отличается от безусловного добавления всех записей.</p>
+<p><small>Условия: Система и benchmark. ALFWorld и PDDL, несколько MAS frameworks.</small></p>
+<p><small>Авторские ограничения: Заявленная устойчивость к pollution относится к проверенным сценариям, а не ко всем адаптивным атакам.</small></p>
+<blockquote>We evaluate CoMem on two standard decision-making benchmarks:</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.15009v1#S4.SS1.SSS0.Px1">4 Experiments / 4.1 Experiment Setup / Datasets and Baselines. · S4.SS1.SSS0.Px1</a></small>
+<blockquote>CoMem consistently achieves strong performance across frameworks. On</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.15009v1#S4.SS2.SSS0.Px1">4 Experiments / 4.2 Main Results (RQ1) / Takeaway 1: · S4.SS2.SSS0.Px1</a></small>
+<blockquote>Building on the layered memory architecture outlined above,</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.15009v1#S3.SS2">3 Methodology / 3.2 Private Experience Sedimentation · S3.SS2</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2609.15009v1">Первоисточник</a></p>
+</article>
+<h3>AIM: A Privacy-Aware Interoperable Memory Framework for Multi-Agent Multi-User LLM Systems</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c37"><strong>source_finding</strong><p>AIM оценивает multi-user память как набор операций: retrieval, create, update и delete. Visibility classification, strict operation accuracy и state-aware accuracy измеряют разные стороны корректности.</p>
+<p><small>Условия: Система и benchmark. Несколько модельных семейств, четыре домена.</small></p>
+<p><small>Авторские ограничения: Канонизация и различия метрик влияют на результаты; точная visibility не означает точного выполнения всех операций.</small></p>
+<blockquote>We evaluate AIM on MUMBench across all four</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.12320v1#S5.SS1">5 Evaluation / 5.1 Experimental Setup · S5.SS1</a></small>
+<blockquote>Gold and predicted operations are each reduced to</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.12320v1#S5.SS2.SSS0.Px1">5 Evaluation / 5.2 Evaluation Methodology / Strict accuracy. · S5.SS2.SSS0.Px1</a></small>
+<blockquote>Our evaluation has several limitations. First, tag overlap</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.12320v1#S6.SS1">6 Discussion / 6.1 Limitations · S6.SS1</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2609.12320v1">Первоисточник</a></p>
+</article>
+<h3>Kernel-Managed Shared Memory for System-Wide Personalization</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c38"><strong>source_finding</strong><p>Kernel-managed memory переносит retrieval и enforcement из отдельных агентов в системное ядро. Архитектурное сравнение удерживает storage backend, помогая отделить retrieval policy от качества модели.</p>
+<p><small>Условия: Система и benchmark. AIOS, несколько assistant models, personalization и latency.</small></p>
+<p><small>Авторские ограничения: Сравнение с полной конкатенацией является context ceiling; ограничения workload и privacy probes нужно учитывать отдельно.</small></p>
+<blockquote>We propose kernel-managed shared memory as a system-level</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.10144v3#S3.SS1">3 Methodology and Architecture / 3.1 Overview and System Model · S3.SS1</a></small>
+<blockquote>Three patterns hold across all three models. First,</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.10144v3#S4.SS4">4 Experiments / 4.4 Quantitative Results · S4.SS4</a></small>
+<blockquote>Kernel-managed shared memory reliably outperforms a standard RAG</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.10144v3#S5">5 Discussion and Conclusion · S5</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2609.10144v3">Первоисточник</a></p>
+</article>
+<h3>Fresh Memory, Stale Plans: Derivation Currency for Distributed LLM-Agent Memory</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c39"><strong>source_finding</strong><p>Свежесть записи не гарантирует актуальности плана, построенного на старых входах. Dependency-frontier validation связывает исполнение с версиями использованных требований.</p>
+<p><small>Условия: Формализация и система. Пять role processes, planner/executor/auditor, сравнение синхронизации.</small></p>
+<p><small>Авторские ограничения: Цена зависит от частоты обновлений и размера scope; формальная гарантия относится к зафиксированному контракту.</small></p>
+<blockquote>Live and controlled workflows. Five Qwen3.5-35B-A3B agents run</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.03340v2#S6.SS1">6 Experiments / 6.1 Experimental Design · S6.SS1</a></small>
+<blockquote>Section 3 and Appendix B state the formal</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.03340v2#S7.SSx2">7 Conclusion / Reproducibility Statement · S7.SSx2</a></small>
+<blockquote>Current local memory does not establish that an</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.03340v2#S7">7 Conclusion · S7</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2609.03340v2">Первоисточник</a></p>
+</article>
+<h3>Learning What to Retain: Gated-Memory Routing for Efficient Collaboration in Multi-Agent LLM Systems</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c40"><strong>source_finding</strong><p>Gated-Memory Routing обучает удержание и маршрутизацию опыта, сопоставляя качество с inference cost. Закрытые задачи дают проверяемый reward, которого может не быть в открытой работе.</p>
+<p><small>Условия: Система и benchmark. Пять math, code и knowledge benchmarks.</small></p>
+<p><small>Авторские ограничения: Для open-ended generation понадобится другой verification signal; сравнение зависит от бюджета и моделей.</small></p>
+<blockquote>We evaluate on five benchmarks spanning mathematical reasoning,</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.00237v2#S4.SS0.SSS0.Px1">4 Experimental Setup / Datasets and Benchmarks. · S4.SS0.SSS0.Px1</a></small>
+<blockquote>Table 1 shows that Gated-Memory Routing achieves the</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.00237v2#S5.SS1">5 Results / 5.1 Performance Analysis · S5.SS1</a></small>
+<blockquote>Our evaluation uses closed-domain tasks with verifiable answers,</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2609.00237v2#Sx1">Limitations · Sx1</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2609.00237v2">Первоисточник</a></p>
+</article>
+<h3>Diachronic Hypergraphs for Orchestrated Multi-Agent Multimodal Memory Curation</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c41"><strong>source_finding</strong><p>MAGE связывает роли, evidence, процедуры и traces в diachronic hypergraph. Retrieval, lifecycle management и budgeted packing образуют совместный memory engine.</p>
+<p><small>Условия: Система и benchmark. Двенадцать QA benchmarks.</small></p>
+<p><small>Авторские ограничения: Суммарный выигрыш не изолирует каждый компонент; нужна проверка временных границ опыта и переносимости evidence.</small></p>
+<blockquote>Datasets. We evaluate on 1212 QA benchmarks spanning</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2608.29678v2#S5.SS1">5. Experiments / 5.1. Experimental Setup · S5.SS1</a></small>
+<blockquote>We presented MAGE, an agent graph memory engine</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2608.29678v2#S6">6. Conclusion · S6</a></small>
+<blockquote>Overall, the experiments show that MAGE improves memory</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2608.29678v2#A11">Appendix K Discussion and Limitations · A11</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2608.29678v2">Первоисточник</a></p>
+</article>
+<h3>Beyond Memory Majority: Latent-Source Reasoning for Multi-Agent Memory Arbitration</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c42"><strong>source_finding</strong><p>CAMA моделирует зависимость между memories вместо подсчёта голосов. Correlated copies могут создавать ложное большинство без новых независимых данных.</p>
+<p><small>Условия: Система и benchmark. Несколько long-term memory benchmarks и backbones.</small></p>
+<p><small>Авторские ограничения: Выявленная зависимость является модельной оценкой; победа на benchmark не гарантирует полного восстановления provenance.</small></p>
+<blockquote>We evaluate CAMA on three long-term memory benchmarks:</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2608.19701v1#Sx4.SSx1.SSSx2.Px1">Experiments / Experimental Setup / Datasets · Sx4.SSx1.SSSx2.Px1</a></small>
+<blockquote>Table 1 shows that CAMA consistently achieves superior</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2608.19701v1#Sx4.SSx2.SSSx2.Px1">Experiments / Experimental Results / Overall Performance · Sx4.SSx2.SSSx2.Px1</a></small>
+<blockquote>Unlike conventional aggregation methods that treat retrieved memories</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2608.19701v1#Sx3.SSx1">Methodology / Problem Formulation · Sx3.SSx1</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2608.19701v1">Первоисточник</a></p>
+</article>
+<h3>EquiMem: Calibrating Shared Memory in Multi-Agent Debate via Game-Theoretic Equilibrium</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c43"><strong>source_finding</strong><p>EquiMem формулирует влияние shared memory как zero-trust game и калибрует обновления без предположения о надёжном агенте. Проверяются embedding и graph memory.</p>
+<p><small>Условия: Формализация и benchmark. Несколько MAD frameworks и четыре datasets.</small></p>
+<p><small>Авторские ограничения: Защита ограничена inference-time debate и выбранными архитектурами; equilibrium модели не является универсальной security guarantee.</small></p>
+<blockquote>Datasets. We evaluate on four datasets spanning two</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2605.09278v2#S5.SS1">5 Experiments / 5.1 Experimental Setup · S5.SS1</a></small>
+<blockquote>This work formulates shared-memory multi-agent debate as a</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2605.09278v2#S6">6 Conclusion · S6</a></small>
+<blockquote>Our study focuses on inference-time calibration of shared</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2605.09278v2#A1">Appendix A Limitations · A1</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2605.09278v2">Первоисточник</a></p>
+</article>
+<h3>MAPLE-Guard: Memory-Aware Link Enforcement Against Memory-Link Poisoning in Multi-Agent Systems</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c44"><strong>source_finding</strong><p>MAPLE-Guard контролирует write, retrieval, promotion и cross-agent reuse, ограничивая распространение memory-link poisoning. Это containment после попадания атаки, а не обещание предотвратить любую первоначальную компрометацию.</p>
+<p><small>Условия: Исследование безопасности. Пять benchmark–attack пар и разные топологии.</small></p>
+<p><small>Авторские ограничения: Эффект зависит от threat model и атак; требуется адаптивная проверка новых вариантов poisoning.</small></p>
+<blockquote>We evaluate five benchmark–attack pairs: MMLU–MINJA [10, 13],</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2608.00426v2#S5.SS1.SSS0.Px1">5 Experiment / 5.1 Experimental Setup / Datasets. · S5.SS1.SSS0.Px1</a></small>
+<blockquote>We formalize memory-link poisoning in LLM-based multi-agent systems</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2608.00426v2#S6">6 Conclusion · S6</a></small>
+<blockquote>MAPLE-Guard is designed to contain memory-link poisoning after</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2608.00426v2#Sx1">Limitation · Sx1</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2608.00426v2">Первоисточник</a></p>
+</article>
+<h3>Multi-Agent Memory from a Computer Architecture Perspective: Visions and Challenges Ahead</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c45"><strong>source_finding</strong><p>Архитектурная перспектива разделяет cache, долговременную память, access protocols и consistency. Общий контекст требует явных правил доступа и согласованности, а не только большего context window.</p>
+<p><small>Условия: Концептуальная работа. Иерархия памяти и протоколы обмена.</small></p>
+<p><small>Авторские ограничения: Это vision/position paper, а не новый comparative benchmark или работающий универсальный протокол.</small></p>
+<blockquote>LLM evaluations show that “real” context ability involves</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2603.10062v2#S2">2. Why Memory Matters: Context Is Changing · S2</a></small>
+<blockquote>Many agent memory systems today resemble human memory:</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2603.10062v2#S7">7. Conclusion · S7</a></small>
+<blockquote>Agent I/O layer: Interfaces that ingest and emit</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2603.10062v2#S4">4. An Architecture-Inspired Memory Hierarchy · S4</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2603.10062v2">Первоисточник</a></p>
+</article>
+<h3>PatchBoard: Schema-Grounded State Mutation for Reliable and Auditable LLM Multi-Agent Collaboration</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c46"><strong>source_finding</strong><p>PatchBoard применяет schema-grounded transactional patches и role authorization к общему состоянию. Структурная валидность записи не гарантирует её семантической правильности.</p>
+<p><small>Условия: Система и benchmark. ALFWorld и диагностический QA.</small></p>
+<p><small>Авторские ограничения: Kernel отклоняет невалидную структуру и права, но не всякую содержательную ошибку.</small></p>
+<blockquote>After validation, the accepted blueprint becomes the runtime</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2605.29313v2#S3.SS2">3 Methodology / 3.2 Architect and Task Blueprint · S3.SS2</a></small>
+<blockquote>The experiments evaluate whether schema-grounded state mutation improves</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2605.29313v2#S4.SS1">4 Experimental Setup / 4.1 Evaluation Goals · S4.SS1</a></small>
+<blockquote>PatchBoard provides structural reliability, so it does not</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2605.29313v2#Sx1">Limitations · Sx1</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2605.29313v2">Первоисточник</a></p>
+</article>
+<h3>AgentLeak: A Benchmark for Internal-Channel Privacy Leakage in Multi-Agent LLM Systems</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c47"><strong>source_finding</strong><p>AgentLeak проверяет внутренние координационные каналы: закрытый финальный ответ ещё не доказывает, что чувствительные данные не передавались между агентами.</p>
+<p><small>Условия: Исследование безопасности. Coordinator–worker setting и detection pipeline.</small></p>
+<p><small>Авторские ограничения: Ошибки detector и архитектура стенда ограничивают выводы; output-only защита покрывает другой threat surface.</small></p>
+<blockquote>The problem we address is sensitive data leakage</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2602.11510v3#S3.SS1">III Problem Definition and Threat Model / III-A Problem Statement · S3.SS1</a></small>
+<blockquote>On a separate test set (n=1,000 segments), Tier</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2602.11510v3#S6.SS2">VI Evaluation and Results / VI-B Detection Pipeline Validation · S6.SS2</a></small>
+<blockquote>This section examines the broader implications of our</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2602.11510v3#S7">VII Discussion and Limitations · S7</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2602.11510v3">Первоисточник</a></p>
+</article>
+<h3>Multi-Agent Transactive Memory</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c48"><strong>source_finding</strong><p>Transactive memory индексирует опыт гетерогенной популяции агентов и отдаёт его новым consumer agents без joint training. Retrieval benefit проверяется на interactive tasks.</p>
+<p><small>Условия: Система и benchmark. ALFWorld, WebArena, 34-model consumer population.</small></p>
+<p><small>Авторские ограничения: Два benchmark-мира не покрывают все открытые экосистемы; нужна проверка применимости чужого опыта.</small></p>
+<blockquote>We instantiate MATM in two interactive benchmarks: ALFWorld</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2606.19911v2#S4">4 Experimental Setup · S4</a></small>
+<blockquote>We organize results around five research questions: whether</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2606.19911v2#S5">5 Results · S5</a></small>
+<blockquote>Our experiments cover two interactive benchmarks (ALFWorld and</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2606.19911v2#Sx1">Limitations and Future Work · Sx1</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2606.19911v2">Первоисточник</a></p>
+</article>
+<h3>GateMem: Benchmarking Memory Governance in Multi-Principal Shared-Memory Agents</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c49"><strong>source_finding</strong><p>GateMem проверяет utility вместе с доступом и active forgetting в multi-principal памяти. Снижение token cost не заменяет тест на выдачу неразрешённой или удалённой информации.</p>
+<p><small>Условия: Benchmark. Medical, office, education и household сценарии.</small></p>
+<p><small>Авторские ограничения: Правила restrictive action и leak annotations задают границы проверки; результаты не являются гарантией для реальных учреждений.</small></p>
+<blockquote>GateMem evaluates memory-augmented assistants across four multi-principal domains:</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2606.18829v1#S3">3 The GateMem Benchmark · S3</a></small>
+<blockquote>Access-Control Violation (AA). An access-control violation occurs when</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2606.18829v1#S3.SS3">3 The GateMem Benchmark / 3.3 Evaluation Metrics · S3.SS3</a></small>
+<blockquote>Each episode ee is an independent evaluation unit</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2606.18829v1#S3.SS1">3 The GateMem Benchmark / 3.1 Episodes and Memory State · S3.SS1</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2606.18829v1">Первоисточник</a></p>
+</article>
+<h3>G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems</h3>
+<p class='muted'>selected_full_text_sections</p>
+<article id="c50"><strong>source_finding</strong><p>G-Memory организует опыт и связанные рассуждения иерархически для повторного использования в MAS. Сравнение охватывает разные task domains и frameworks, а не только один вид QA.</p>
+<p><small>Условия: Система и benchmark. Пять benchmarks в трёх доменах, разные backbone sizes.</small></p>
+<p><small>Авторские ограничения: Авторский benchmark gain зависит от baseline, задач и масштаба модели; перенос и независимая репликация отдельно не выполнены нами.</small></p>
+<blockquote>To thoroughly evaluate the effectiveness of G-Memory, we</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2506.07398v2#S5.SS1.SSS0.Px1">5 Experiment / 5.1 Experiment Setup / Datasets and Benchmarks. · S5.SS1.SSS0.Px1</a></small>
+<blockquote>Takeaway ➊: G-Memory consistently improves performance across all</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2506.07398v2#S5.SS2">5 Experiment / 5.2 Main Results (RQ1) · S5.SS2</a></small>
+<blockquote>In this paper, we conduct a thorough examination</blockquote>
+<small>Источник: <a rel="noreferrer" href="https://arxiv.org/html/2506.07398v2#S6">6 Conclusion &amp; Limitation · S6</a></small>
+<p><a rel="noreferrer" href="https://arxiv.org/abs/2506.07398v2">Первоисточник</a></p>
+</article>
+</section><footer><h2>Ограничения</h2>
+<p>Концептуальный обзор 50 целенаправленно выбранных работ; не исчерпывающий систематический обзор. Число публикаций не равно числу независимых экспериментов: есть обзоры, теоретические и архитектурные работы.</p>
+<p>Для новых работ прочитаны выбранные абзацы методов, результатов/обсуждения и ограничений; не все разделы и приложения. Точные версии, фрагменты и SHA-256 сохранены.</p>
+<p>Эксперименты авторов не воспроизводились, независимой научной рецензии нет. Предлагаемые собственные проверки не выполнялись.</p>
+</footer></main></html>

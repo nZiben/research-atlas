@@ -1,0 +1,3575 @@
+{
+  "schema_version": 1,
+  "kind": "editorial_review",
+  "snapshot_id": "editorial-2026-11-22.2",
+  "at": "2026-11-22",
+  "review": {
+    "topic": "Как помощь ИИ влияет на самостоятельность суждений?",
+    "questions": [
+      "Как помощь ИИ влияет на самостоятельность суждений?"
+    ]
+  },
+  "papers": [
+    {
+      "id": "arxiv-2102-09692",
+      "title": "To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-assisted Decision-making",
+      "authors": [
+        "Zana Buçinca",
+        "Maja Barbara Malaya",
+        "Krzysztof Z. Gajos"
+      ],
+      "year": 2021,
+      "arxiv_id": "2102.09692v1",
+      "url": "https://arxiv.org/abs/2102.09692v1",
+      "doi": "10.1145/3449287",
+      "source_sha256": "3408845c8b29cd3430cb87c4c64a0612b3ee9c4d3afacee9c0354bfe1d7f4a53",
+      "checked_at": "2026-11-22",
+      "read_sections": "Контролируемая задача с изображениями еды и симулированным ИИ; методы и результаты §3–6."
+    },
+    {
+      "id": "arxiv-2405-06087",
+      "title": "When Are Combinations of Humans and AI Useful?",
+      "authors": [
+        "Michelle Vaccaro",
+        "Abdullah Almaatouq",
+        "Thomas Malone"
+      ],
+      "year": 2024,
+      "arxiv_id": "2405.06087v1",
+      "url": "https://arxiv.org/abs/2405.06087v1",
+      "doi": "",
+      "source_sha256": "2341c60360aeee5d89ea0db5091e525698d359d1897b1022a4d0ca3dd37b85c2",
+      "checked_at": "2026-11-22",
+      "read_sections": "Версия v1; §1–3, методы отбора §4; 106 экспериментов за январь 2020 — июнь 2023."
+    },
+    {
+      "id": "arxiv-2501-17247",
+      "title": "\"It makes you think\": Provocations Help Restore Critical Thinking to AI-Assisted Knowledge Work",
+      "authors": [
+        "Ian Drosos",
+        "Advait Sarkar",
+        " Xiaotong",
+        " Xu",
+        "Neil Toronto"
+      ],
+      "year": 2025,
+      "arxiv_id": "2501.17247v1",
+      "url": "https://arxiv.org/abs/2501.17247v1",
+      "doi": "",
+      "source_sha256": "69050f62bb8e5784c241dbcfd598f332ffa7fafd4bd59d7cbc9136bbe7241927",
+      "checked_at": "2026-11-22",
+      "read_sections": "Shortlisting благотворительных проектов и фильмов; §3–5 и ограничения §7."
+    },
+    {
+      "id": "arxiv-2509-08010",
+      "title": "Measuring and mitigating overreliance is necessary for building human-compatible AI",
+      "authors": [
+        "Lujain Ibrahim",
+        "Katherine M. Collins",
+        "Sunnie S. Y. Kim",
+        "Anka Reuel",
+        "Max Lamparth",
+        "Kevin Feng",
+        "Lama Ahmad",
+        "Prajna Soni",
+        "Alia El Kattan",
+        "Merlin Stein",
+        "Siddharth Swaroop",
+        "Ilia Sucholutsky",
+        "Andrew Strait",
+        "Q. Vera Liao",
+        "Umang Bhatt"
+      ],
+      "year": 2025,
+      "arxiv_id": "2509.08010v1",
+      "url": "https://arxiv.org/abs/2509.08010v1",
+      "doi": "",
+      "source_sha256": "67c35ee8f7a163b6c9186fa98ee5d684b25d211497d41e4ffa27fc7ef41d2c66",
+      "checked_at": "2026-11-22",
+      "read_sections": "Прочитаны постановка §1–2, измерение §5, mitigation §6 и альтернативные позиции §7."
+    },
+    {
+      "id": "arxiv-2601-18033",
+      "title": "An Experimental Comparison of Cognitive Forcing Functions for Execution Plans in AI-Assisted Writing: Effects On Trust, Overreliance, and Perceived Critical Thinking",
+      "authors": [
+        "Ahana Ghosh",
+        "Advait Sarkar",
+        "Siân Lindley",
+        "Christian Poelitz"
+      ],
+      "year": 2026,
+      "arxiv_id": "2601.18033v1",
+      "url": "https://arxiv.org/abs/2601.18033v1",
+      "doi": "",
+      "source_sha256": "3ba9e7662a698cf392d78680d0da2249cf9339c0adfcc4fe4d7a1bc0d534c892",
+      "checked_at": "2026-11-22",
+      "read_sections": "214 участников онлайн и отдельные 12 интервью; фиксированные планы и тексты с искусственно внесёнными ошибками, §4–5 и §7.4."
+    },
+    {
+      "id": "arxiv-2601-20245",
+      "title": "How AI Impacts Skill Formation",
+      "authors": [
+        "Judy Hanwen Shen",
+        "Alex Tamkin"
+      ],
+      "year": 2026,
+      "arxiv_id": "2601.20245v1",
+      "url": "https://arxiv.org/abs/2601.20245v1",
+      "doi": "",
+      "source_sha256": "72200cfe20676ed28b457c39432e18985a74cfe7618a47fef5373c44deeb011e",
+      "checked_at": "2026-11-22",
+      "read_sections": "§4–7: новая async-библиотека, 52 участника основного исследования; качественный разбор 51 доступной записи экрана."
+    },
+    {
+      "id": "arxiv-2512-12413",
+      "title": "Understanding Critical Thinking in Generative Artificial Intelligence Use: Development, Validation, and Correlates of the Critical Thinking in AI Use Scale",
+      "authors": [
+        "Gabriel R. Lau",
+        "Wei Yan Low",
+        "Louis Tay",
+        "Ysabel Guevarra",
+        "Dragan Gašević",
+        "Andree Hartanto"
+      ],
+      "year": 2025,
+      "arxiv_id": "2512.12413v2",
+      "url": "https://arxiv.org/abs/2512.12413v2",
+      "doi": "10.1016/j.chbr.2026.101103",
+      "source_sha256": "5349cf300513ce1509d25948e6495090849a52aa6dd94d51a89a315f20e6942c",
+      "checked_at": "2026-11-22",
+      "read_sections": "PDF v2: стр. 2, 14–20, раздел Study 6, обсуждение стр. 64–70; DOI опубликованной работы указан в метаданных."
+    },
+    {
+      "id": "arxiv-2603-05229",
+      "title": "Not All Trust is the Same: Effects of Decision Workflow and Explanations in Human-AI Decision Making",
+      "authors": [
+        "Laura Spillner",
+        "Rachel Ringe",
+        "Robert Porzel",
+        "Rainer Malaka"
+      ],
+      "year": 2026,
+      "arxiv_id": "2603.05229v1",
+      "url": "https://arxiv.org/abs/2603.05229v1",
+      "doi": "",
+      "source_sha256": "af5c5fa7d514c272726fdf327156589b6fb7a6063244132d8b47669c84e56c0f",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3.SS1 3 Study Design / 3.1 Experimental Design; S4.SS1 4 Results / 4.1 Trust and Reliance; S5.SS3 5 Discussion / 5.3 Limitations and Future Work"
+    },
+    {
+      "id": "arxiv-2511-09612",
+      "title": "When Thinking Pays Off: Incentive Alignment for Human-AI Collaboration",
+      "authors": [
+        "Joshua Holstein",
+        "Patrick Hemmer",
+        "Gerhard Satzger",
+        "Wei Sun"
+      ],
+      "year": 2025,
+      "arxiv_id": "2511.09612v2",
+      "url": "https://arxiv.org/abs/2511.09612v2",
+      "doi": "10.1145/3805689.3812250",
+      "source_sha256": "864b6d8a8987d2bc4ddb66ae01c05313e223241ffc36a414d5284e3730799e93",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S4 4. Behavioral Experiment Design; S5.SS1 5. Experimental Results / 5.1. Task Completion; S6.SS4 6. Discussion / 6.4. Limitations and Directions for Future Work"
+    },
+    {
+      "id": "arxiv-2610-15136",
+      "title": "Trust Hinders Bidirectional Human-AI Alignment",
+      "authors": [
+        "Michaela Benk",
+        "Kacper Sokol"
+      ],
+      "year": 2026,
+      "arxiv_id": "2610.15136v2",
+      "url": "https://arxiv.org/abs/2610.15136v2",
+      "doi": "",
+      "source_sha256": "98685602305a746e4edb1e67f2a69d79440024b5ac490866a50e9f06c83f1d4e",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S5 5 Human–AI Alignment in Large-world Settings Requires Addressing Higher-order Decision Processes; S7 7 Conclusion; S6 6 Limitations and Counterarguments"
+    },
+    {
+      "id": "arxiv-2501-17546",
+      "title": "Is Conversational XAI All You Need? Human-AI Decision Making With a Conversational XAI Assistant",
+      "authors": [
+        "Gaole He",
+        "Nilay Aishwarya",
+        "Ujwal Gadiraju"
+      ],
+      "year": 2025,
+      "arxiv_id": "2501.17546v1",
+      "url": "https://arxiv.org/abs/2501.17546v1",
+      "doi": "10.1145/3708359.3712133",
+      "source_sha256": "372c3fcd1a26a5417144af217e18ee7e6851a3987c4d6d57e36355783c25bb81",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3.SS1 3. Task, Method, and Hypotheses / 3.1. Loan Approval Task; S5.SS1 5. Experimental Results / 5.1. Descriptive Statistics; S6.SS3 6. Discussion / 6.3. Caveats and Limitations"
+    },
+    {
+      "id": "arxiv-2212-06823",
+      "title": "Explanations Can Reduce Overreliance on AI Systems During Decision-Making",
+      "authors": [
+        "Helena Vasconcelos",
+        "Matthew Jörke",
+        "Madeleine Grunde-McLaughlin",
+        "Tobias Gerstenberg",
+        "Michael Bernstein",
+        "Ranjay Krishna"
+      ],
+      "year": 2022,
+      "arxiv_id": "2212.06823v2",
+      "url": "https://arxiv.org/abs/2212.06823v2",
+      "doi": "",
+      "source_sha256": "c85a56c7b681213a3acd1d6fe9744eaa4bd7f92f720b2f501642836c70fb5797",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3 3. Framework; S10 10. Discussion; S10.SS4 10. Discussion / 10.4. Limitations and Future Work"
+    },
+    {
+      "id": "arxiv-2301-07255",
+      "title": "Understanding the Role of Human Intuition on Reliance in Human-AI Decision-Making with Explanations",
+      "authors": [
+        "Valerie Chen",
+        "Q. Vera Liao",
+        "Jennifer Wortman Vaughan",
+        "Gagan Bansal"
+      ],
+      "year": 2023,
+      "arxiv_id": "2301.07255v3",
+      "url": "https://arxiv.org/abs/2301.07255v3",
+      "doi": "",
+      "source_sha256": "30816f6d24dbd3680744fd858c2f582e04ed60b794fd8d889a5ec9053124ef52",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3 3. Methods; S4 4. Results; S4.SS1.SSS0.Px3 4. Results / 4.1. Common Types of Intuition Applied in the Decision-Making Process (RQ1) / Intuition about AI limitations and prediction unreliability"
+    },
+    {
+      "id": "arxiv-2501-16627",
+      "title": "Engaging with AI: How Interface Design Shapes Human-AI Collaboration in High-Stakes Decision-Making",
+      "authors": [
+        "Zichen Chen",
+        "Yunhao Luo",
+        "Misha Sra"
+      ],
+      "year": 2025,
+      "arxiv_id": "2501.16627v1",
+      "url": "https://arxiv.org/abs/2501.16627v1",
+      "doi": "",
+      "source_sha256": "355c43f4c5677792c1732fd359a5d281f90b01d517cff651128de2f2344fcb02",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S6 6 Methods; S2.SS1 2 Results / 2.1 Users Over-Rely on AI Suggestions, Even When Incorrect (H1); S4 4 Limitations and Future Work"
+    },
+    {
+      "id": "arxiv-2205-00189",
+      "title": "Trust in Human-AI Interaction: Scoping Out Models, Measures, and Methods",
+      "authors": [
+        "Takane Ueno",
+        "Yuto Sawa",
+        "Yeongdae Kim",
+        "Jacqueline Urakami",
+        "Hiroki Oura",
+        "Katie Seaborn"
+      ],
+      "year": 2022,
+      "arxiv_id": "2205.00189v1",
+      "url": "https://arxiv.org/abs/2205.00189v1",
+      "doi": "10.1145/3491101.3519772",
+      "source_sha256": "05c88c762b674e415c8e4a097d75ff86b4256afffd05d47e3098f545020bb9b4",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: page.3 \n2.         METHODS; page.5 \n3.          RESULTS; page.8 \n4.          DISCUSSION"
+    },
+    {
+      "id": "arxiv-2604-23896",
+      "title": "From Trust to Appropriate Reliance: Measurement Constructs in Human-AI Decision-Making",
+      "authors": [
+        "Muhammad Raees",
+        "Konstantinos Papangelis"
+      ],
+      "year": 2026,
+      "arxiv_id": "2604.23896v1",
+      "url": "https://arxiv.org/abs/2604.23896v1",
+      "doi": "",
+      "source_sha256": "cedd1a97d6fd29bbd893694edb39e59e5db20777492cfcb8eb7ca275817901ff",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3 3. Methodology; S5.SS1 5. Discussion / 5.1. Potential Research Gaps; S5.SS3 5. Discussion / 5.3. Limitations"
+    },
+    {
+      "id": "arxiv-2202-05983",
+      "title": "Uncalibrated Models Can Improve Human-AI Collaboration",
+      "authors": [
+        "Kailas Vodrahalli",
+        "Tobias Gerstenberg",
+        "James Zou"
+      ],
+      "year": 2022,
+      "arxiv_id": "2202.05983v3",
+      "url": "https://arxiv.org/abs/2202.05983v3",
+      "doi": "",
+      "source_sha256": "3c7c38ae5eeb33b63dcd2a6b3be88411f5236911449ccb3404e915814547d5bf",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S2 2 Experimental setup; S5.SS1 5 Results / 5.1 Simulation results; S6 6 Discussion, Limitations, and Future Work"
+    },
+    {
+      "id": "arxiv-2404-01615",
+      "title": "Collaborative human-AI trust (CHAI-T): A process framework for active management of trust in human-AI collaboration",
+      "authors": [
+        "Melanie J. McGrath",
+        "Andreas Duenser",
+        "Justine Lacey",
+        "Cecile Paris"
+      ],
+      "year": 2024,
+      "arxiv_id": "2404.01615v1",
+      "url": "https://arxiv.org/abs/2404.01615v1",
+      "doi": "",
+      "source_sha256": "74108b1d00bf5ce99ebf26a995bad73e81de5316b973e6e138fffc9cb505c3d3",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: page.16 CHAI-T framework / context and future research; page.22 CHAI-T framework / context and future research; page.26 CHAI-T framework / context and future research"
+    },
+    {
+      "id": "arxiv-2308-04375",
+      "title": "Understanding the Effect of Counterfactual Explanations on Trust and Reliance on AI for Human-AI Collaborative Clinical Decision Making",
+      "authors": [
+        "Min Hun Lee",
+        "Chong Jun Chew"
+      ],
+      "year": 2023,
+      "arxiv_id": "2308.04375v1",
+      "url": "https://arxiv.org/abs/2308.04375v1",
+      "doi": "10.1145/3610218",
+      "source_sha256": "841b6cdb2af156264c1b81f09ecdf0592c55d322829fbd57d990f73b73ab2b6c",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3 3. Study Design; S4 4. Results; S5.SS4 5. Discussion / 5.4. Limitations"
+    },
+    {
+      "id": "arxiv-2102-05460",
+      "title": "The human-AI relationship in decision-making: AI explanation to support people on justifying their decisions",
+      "authors": [
+        "Juliana Jansen Ferreira",
+        "Mateus Monteiro"
+      ],
+      "year": 2021,
+      "arxiv_id": "2102.05460v2",
+      "url": "https://arxiv.org/abs/2102.05460v2",
+      "doi": "",
+      "source_sha256": "d4f4999af60355173f24883e120630c8e74f1294ddd8ea98280292082e5bea5a",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: page.2 "
+    },
+    {
+      "id": "arxiv-2103-02381",
+      "title": "Human-AI Interactions in Public Sector Decision-Making: \"Automation Bias\" and \"Selective Adherence\" to Algorithmic Advice",
+      "authors": [
+        "Saar Alon-Barkat",
+        "Madalina Busuioc"
+      ],
+      "year": 2021,
+      "arxiv_id": "2103.02381v3",
+      "url": "https://arxiv.org/abs/2103.02381v3",
+      "doi": "10.1093/jopart/muac007",
+      "source_sha256": "e40eab72e08c0ad3cefb787681ae0eb7b5f9585c1069b55df4dc723a48184add",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: page.5 ; page.8 Results (Study 2)                                                             such biases.; page.12 \n\n\nDiscussion and Conclusion                                                      advice. Across the three studies, we consistently did not find"
+    },
+    {
+      "id": "arxiv-2311-06305",
+      "title": "A Systematic Review on Fostering Appropriate Trust in Human-AI Interaction",
+      "authors": [
+        "Siddharth Mehrotra",
+        "Chadha Degachi",
+        "Oleksandra Vereschak",
+        "Catholijn M. Jonker",
+        "Myrthe L. Tielman"
+      ],
+      "year": 2023,
+      "arxiv_id": "2311.06305v1",
+      "url": "https://arxiv.org/abs/2311.06305v1",
+      "doi": "",
+      "source_sha256": "fdaad4af41843710db64db3a534d8258ecf722ff8f4b29e64afaa33b536a8a45",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3 3. SYSTEMATIC REVIEW METHODOLOGY; S5.SS1.SSS1 5. Results of the Systematic Review / 5.1. Measures (How to measure Appropriate Trust?) / 5.1.1. Perceived Trust; S6.SS4 6. Discussion / 6.4. Limitations"
+    },
+    {
+      "id": "arxiv-2405-01484",
+      "title": "Designing Algorithmic Recommendations to Achieve Human-AI Complementarity",
+      "authors": [
+        "Bryce McLaughlin",
+        "Jann Spiess"
+      ],
+      "year": 2024,
+      "arxiv_id": "2405.01484v3",
+      "url": "https://arxiv.org/abs/2405.01484v3",
+      "doi": "",
+      "source_sha256": "43dd0ff29c2fc6fdf8c6cdd680a540e2e939413712339d7088578b506e117d85",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S2.SS1 2 A Causal Model of Algorithmically Assisted Decision-Making / 2.1 Treatment Choice and the Automation Benchmark; S4.SS3 4 Complementary Recommendations in an Experiment / 4.3 Data and Main Results; S2.SS2 2 A Causal Model of Algorithmically Assisted Decision-Making / 2.2 Algorithmic Assistance with Endogenous Response"
+    },
+    {
+      "id": "arxiv-2404-00634",
+      "title": "Designing Human-AI Systems: Anthropomorphism and Framing Bias on Human-AI Collaboration",
+      "authors": [
+        "Samuel Aleksander Sánchez Olszewski"
+      ],
+      "year": 2024,
+      "arxiv_id": "2404.00634v2",
+      "url": "https://arxiv.org/abs/2404.00634v2",
+      "doi": "",
+      "source_sha256": "a40d8c08d017decc3b20b5aeebe1cde004f8148a66530a55491dfcbd5a7354b5",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3.SS2 3 Experiment / 3.2 Task and AI model; S3.SS5 3 Experiment / 3.5 Results; S4.SS1 4 Discussion / 4.1 Framing effect"
+    },
+    {
+      "id": "arxiv-2409-15814",
+      "title": "Interactive Example-based Explanations to Improve Health Professionals' Onboarding with AI for Human-AI Collaborative Decision Making",
+      "authors": [
+        "Min Hun Lee",
+        "Renee Bao Xuan Ng",
+        "Silvana Xinyi Choo",
+        "Shamala Thilarajah"
+      ],
+      "year": 2024,
+      "arxiv_id": "2409.15814v1",
+      "url": "https://arxiv.org/abs/2409.15814v1",
+      "doi": "",
+      "source_sha256": "bee6918eaa4c31ae16ea39b6f649d32765bd73bec07f1565a969de8c4b29d0eb",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3.SS2 3 Study Designs / 3.2 Interviews about Onboarding with AI; S6.SS1 6 Results and Discussion / 6.1 Performance; S6.SS4 6 Results and Discussion / 6.4 Discussion"
+    },
+    {
+      "id": "arxiv-2604-07535",
+      "title": "Trust the AI, Doubt Yourself: The Effect of Urgency on Self-Confidence in Human-AI Interaction",
+      "authors": [
+        "Baran Shajari",
+        "Xiaoran Liu",
+        "Kyanna Dagenais",
+        "Istvan David"
+      ],
+      "year": 2026,
+      "arxiv_id": "2604.07535v1",
+      "url": "https://arxiv.org/abs/2604.07535v1",
+      "doi": "",
+      "source_sha256": "a852266d656e9fa5cb4daa5a37088e6bfacd8423a35470f14866a110928dd8e8",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3 3. Study Design; S4.SS1.SSSx1 4. RQ1: Trust by human-AI interaction / 4.1. Improved trust in AI / Discussion; S3.SS3.SSSx1 3. Study Design / 3.3. Design trade-offs and threats to validity / External validity"
+    },
+    {
+      "id": "arxiv-2607-12180",
+      "title": "TRAIL: A Platform for Configurable Human--AI Teaming Experiments",
+      "authors": [
+        "Mohammad Amin Samadi",
+        "Pedro Martins De Bastos",
+        "Jaeyoon Choi",
+        "Spencer JaQuay",
+        "Seehee Park",
+        "Nia Nixon"
+      ],
+      "year": 2026,
+      "arxiv_id": "2607.12180v1",
+      "url": "https://arxiv.org/abs/2607.12180v1",
+      "doi": "",
+      "source_sha256": "5a3a80ac3f597729cc4b43311513202c98f13e8fc861f0ec203133e33005fcca",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3 3 Platform Design Goals; S6 6 Discussion"
+    },
+    {
+      "id": "arxiv-2602-10222",
+      "title": "Understanding the Effects of AI-Assisted Critical Thinking on Human-AI Decision Making",
+      "authors": [
+        "Harry Yizhou Tian",
+        "Hasan Amin",
+        "Ming Yin"
+      ],
+      "year": 2026,
+      "arxiv_id": "2602.10222v2",
+      "url": "https://arxiv.org/abs/2602.10222v2",
+      "doi": "",
+      "source_sha256": "ff7220406d6866227eb6fccc7ca9faebf4aa0add3277651435e944a6975f8d76",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3.SS2.SSS2 3. AI-Assisted Critical Thinking: Framework and Instantiation / 3.2. The AI-Assisted Critical Thinking Framework / 3.2.2. AACT Supports for Critiquing Arguments; S5 5. Results; S6.SS5 6. Discussions / 6.5. Additional Limitations"
+    },
+    {
+      "id": "arxiv-2304-14130",
+      "title": "Why not both? Complementing explanations with uncertainty, and the role of self-confidence in Human-AI collaboration",
+      "authors": [
+        "Ioannis Papantonis",
+        "Vaishak Belle"
+      ],
+      "year": 2023,
+      "arxiv_id": "2304.14130v1",
+      "url": "https://arxiv.org/abs/2304.14130v1",
+      "doi": "",
+      "source_sha256": "bb69844b19f9753324ab08d91cf97920c0aab14df54ea0e2f4fa46e68b07fc00",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3.SS1.SSS1 3 Study Overview / 3.1 Experimental Design / 3.1.1 Participants; S4.SS1 4 Results / 4.1 Performance; S6 6 Limitations"
+    },
+    {
+      "id": "arxiv-2508-09033",
+      "title": "Beyond Predictions: A Study of AI Strength and Weakness Transparency Communication on Human-AI Collaboration",
+      "authors": [
+        "Tina Behzad",
+        "Nikolos Gurney",
+        "Ning Wang",
+        "David V. Pynadath"
+      ],
+      "year": 2025,
+      "arxiv_id": "2508.09033v1",
+      "url": "https://arxiv.org/abs/2508.09033v1",
+      "doi": "",
+      "source_sha256": "156f7d0a22f47e56a22711a4eeda5460d6b6b5f2d511de8276c2015ec7e7a2e6",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3.SS1 3 Self-assessing AI / 3.1 Defining the Task; S5 5 Results; S6 6 Discussion"
+    },
+    {
+      "id": "arxiv-2409-08937",
+      "title": "Emerging Reliance Behaviors in Human-AI Content Grounded Data Generation: The Role of Cognitive Forcing Functions and Hallucinations",
+      "authors": [
+        "Zahra Ashktorab",
+        "Qian Pan",
+        "Werner Geyer",
+        "Michael Desmond",
+        "Marina Danilevsky",
+        "James M. Johnson",
+        "Casey Dugan",
+        "Michelle Bachman"
+      ],
+      "year": 2024,
+      "arxiv_id": "2409.08937v2",
+      "url": "https://arxiv.org/abs/2409.08937v2",
+      "doi": "",
+      "source_sha256": "33b94277661369205b6f96fba02e60981395a532039e6b3cca9bd8432b22429c",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S5.SS1 5. Methodology / 5.1. Participants; S6.SS1 6. Results / 6.1. Participant Demographics and Self Reported Measures; S8 8. Limitations and Future Work"
+    },
+    {
+      "id": "arxiv-2510-26518",
+      "title": "Human-AI Complementarity: A Goal for Amplified Oversight",
+      "authors": [
+        "Rishub Jain",
+        "Sophie Bridgers",
+        "Lili Janzer",
+        "Rory Greig",
+        "Tian Huey Teh",
+        "Vladimir Mikulik"
+      ],
+      "year": 2025,
+      "arxiv_id": "2510.26518v2",
+      "url": "https://arxiv.org/abs/2510.26518v2",
+      "doi": "",
+      "source_sha256": "0d2f482544c2ba9a8af31e37b61023715bfd3a9b97a694f6feb0b9014c751420",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: A1.SS2.SSS4 Appendix A Appendix / A.2 Additional Details on Evaluation Set, Model, and Experiments / A.2.4 Human Experiment Set-Up; S3.SS1 3 Experiments and Results / 3.1 Overview; S4.SS2 4 Discussion / 4.2 Discussion, Limitations, and Future Work"
+    },
+    {
+      "id": "arxiv-2302-01854",
+      "title": "Comparing Psychometric and Behavioral Predictors of Compliance During Human-AI Interactions",
+      "authors": [
+        "Nikolos Gurney",
+        "David V. Pynadath",
+        "Ning Wang"
+      ],
+      "year": 2023,
+      "arxiv_id": "2302.01854v1",
+      "url": "https://arxiv.org/abs/2302.01854v1",
+      "doi": "10.1007/978-3-031-30933-5_12",
+      "source_sha256": "7b1a9043a1606fed5339a59a9f509f2c9c65b1667bde2180ff04993a8388a676",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: Pt0.A2.SS1 Appendix B Data and Models / B.1 Models; S6.SS1 6 Results / 6.1 Study 1; S7 7 Discussion"
+    },
+    {
+      "id": "arxiv-2607-21306",
+      "title": "AI Assistants Overassist",
+      "authors": [
+        "Verona Teo",
+        "Raghav Jain",
+        "Tobias Gerstenberg",
+        "Max Kleiman-Weiner"
+      ],
+      "year": 2026,
+      "arxiv_id": "2607.21306v1",
+      "url": "https://arxiv.org/abs/2607.21306v1",
+      "doi": "",
+      "source_sha256": "1e7ae97c8b91933967a07d7b950e15e0b24f44a5b7495c2e2a8bce32448dc66d",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3.SS2 3 The Int-Bench Framework / 3.2 Monitoring; S5 5 Results; S6 6 Discussion"
+    },
+    {
+      "id": "arxiv-2610-30945",
+      "title": "Metacognitive Scaffolds Create Productive Friction for AI-Assisted Knowledge Work",
+      "authors": [
+        "Viktor Kewenig",
+        "Lev Tankelevitch",
+        "Sean Rintel",
+        "Advait Sarkar",
+        "Abigail Sellen"
+      ],
+      "year": 2026,
+      "arxiv_id": "2610.30945v1",
+      "url": "https://arxiv.org/abs/2610.30945v1",
+      "doi": "",
+      "source_sha256": "b0a8f16afd59b6a9e1e15796d3025e368e73cc4b8a6f19ee9c490928d3ef43ec",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3 3. Methods; S4.SS1 4. Results / 4.1. The scaffold improved essay quality; S5.SS5 5. Discussion / 5.5. Limitations"
+    },
+    {
+      "id": "arxiv-2611-06346",
+      "title": "Today's Work, Tomorrow's Workforce: Incentivizing Learning in AI-Assisted Work",
+      "authors": [
+        "Moritz Diener",
+        "Daniel Hendriks",
+        "Philipp Spitzer",
+        "Gerhard Satzger",
+        "Joshua Holstein",
+        "Wei Sun"
+      ],
+      "year": 2026,
+      "arxiv_id": "2611.06346v2",
+      "url": "https://arxiv.org/abs/2611.06346v2",
+      "doi": "",
+      "source_sha256": "1936025b51fef535744129170cfe4c4b88cf9a8882bb58ba9df8dbe9849fac32",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: A1.SS4.SSS0.Px2 Appendix A Derivations of the model equations / A.4 The discount factor as a continuation probability / Continuation: the worker performs an expected number of tasks.; S6 6 Discussion; S6.SS5 6 Discussion / 6.5 Limitations and Future Research"
+    },
+    {
+      "id": "arxiv-2605-20355",
+      "title": "Proximal State Nudging: Reducing Skill Atrophy from AI Assistance",
+      "authors": [
+        "Megha Srivastava",
+        "Jonathan Ouyang",
+        "Eric Zhou",
+        "Andrew Silva",
+        "Emily Sumner",
+        "Dorsa Sadigh",
+        "Yuchen Cui",
+        "Deepak Gopinath",
+        "Guy Rosman"
+      ],
+      "year": 2026,
+      "arxiv_id": "2605.20355v1",
+      "url": "https://arxiv.org/abs/2605.20355v1",
+      "doi": "",
+      "source_sha256": "642f3fe056f82857b8be2f814b6ed59033809d47f02f0c39edff613aff8055e2",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3.SS1 III Formalism / III-A Shared Control Planning for Assistance; S4 IV Empirical Results: Simulated Learners; S6 VI Discussion and Future Work"
+    },
+    {
+      "id": "arxiv-2604-09444",
+      "title": "Confidence Without Competence in AI-Assisted Knowledge Work",
+      "authors": [
+        "Elena Eleftheriou",
+        "George Pallis",
+        "Marios Constantinides"
+      ],
+      "year": 2026,
+      "arxiv_id": "2604.09444v1",
+      "url": "https://arxiv.org/abs/2604.09444v1",
+      "doi": "",
+      "source_sha256": "c964a1d5c3e5c625d237ba7ca5f245019abbdfbedba1d59b0f70b01949672d0e",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S4.SS2 4. Formative Study: Design Requirements / 4.2. Step 2: Formative Study; S6.SS2 6. User Evaluation / 6.2. Pilot Studies; S8.SS4 8. Discussion / 8.4. Limitations and Future Work"
+    },
+    {
+      "id": "arxiv-2509-03392",
+      "title": "More AI Assistance Reduces Cognitive Engagement: Examining the AI Assistance Dilemma in AI-Supported Note-Taking",
+      "authors": [
+        "Xinyue Chen",
+        "Kunlin Ruan",
+        "Kexin Phyllis Ju",
+        "Nathan Yap",
+        "Xu Wang"
+      ],
+      "year": 2025,
+      "arxiv_id": "2509.03392v1",
+      "url": "https://arxiv.org/abs/2509.03392v1",
+      "doi": "10.1145/3757632",
+      "source_sha256": "6d197f24f2aebe71e385bad5f0857060bfd22318f780b2a80fa51461226b87e3",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3.SS1.SSS2 3. Study / 3.1. Experiment design / 3.1.2. Participants and Procedure; S5.SS1.SSS1 5. Finding / 5.1. RQ1: How do different levels of AI assistance affect comprehension, cognitive load, note quality, and usability? / 5.1.1. Understanding Levels; S6.SS4 6. Discussion / 6.4. Limitation"
+    },
+    {
+      "id": "arxiv-2609-17883",
+      "title": "Does AI Assistance Leave a Temporal Fingerprint? Detecting Overreliance in AI-Assisted Writing and Programming",
+      "authors": [
+        "Eduardo Davalos",
+        "Yike Zhang"
+      ],
+      "year": 2026,
+      "arxiv_id": "2609.17883v1",
+      "url": "https://arxiv.org/abs/2609.17883v1",
+      "doi": "",
+      "source_sha256": "bbaceebc5e9c44217bd74e3b71dbe69da4fe414316f3e3e15d105f1dc5c16348",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: page.3 ; page.7 \nDISCUSSION; page.8 \nLIMITATIONS"
+    },
+    {
+      "id": "arxiv-2604-18538",
+      "title": "Fast and Forgettable: A Controlled Study of Novices' Performance, Learning, Workload, and Emotion in AI-Assisted and Human Pair Programming Paradigms",
+      "authors": [
+        "Nicholas Gardella",
+        "James Prather",
+        "Juho Leinonen",
+        "Paul Denny",
+        "Raymond Pettit",
+        "Sara L. Riggs"
+      ],
+      "year": 2026,
+      "arxiv_id": "2604.18538v1",
+      "url": "https://arxiv.org/abs/2604.18538v1",
+      "doi": "",
+      "source_sha256": "e3c7ad01df0a43b12926bb7a169445abff6954c6508df4d57d9e5b0cdf1729d5",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3.SS1 3. Method / 3.1. Participants; S4.SS1 4. Results / 4.1. Team Performance; S6 6. Threats to Validity"
+    },
+    {
+      "id": "arxiv-2604-19931",
+      "title": "Hint-Writing with Deferred AI Assistance: Fostering Critical Engagement in Data Science Education",
+      "authors": [
+        "Anjali Singh",
+        "Christopher Brooks",
+        "Warren Li",
+        "Juho Kim",
+        "Xu Wang"
+      ],
+      "year": 2026,
+      "arxiv_id": "2604.19931v1",
+      "url": "https://arxiv.org/abs/2604.19931v1",
+      "doi": "",
+      "source_sha256": "3104b9c5fa2c176923b0d12e2e07be83fce64318b71f37c61eaaa265c0922202",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3.SS1.SSSx1 3. Method / 3.1. Study Design / Educational Context; S4 4. Results; S5.SS0.SSSx5 5. Discussion and Future Work / Limitations"
+    },
+    {
+      "id": "arxiv-2611-14833",
+      "title": "Do People Trust AI Assistants Even When They Are Consistently Wrong?",
+      "authors": [
+        "Cameron R. Jones",
+        "Julia Wong",
+        "Aaron S. Cohen",
+        "James Woolley",
+        "Benjamin K. Bergen"
+      ],
+      "year": 2026,
+      "arxiv_id": "2611.14833v1",
+      "url": "https://arxiv.org/abs/2611.14833v1",
+      "doi": "",
+      "source_sha256": "65ba0011cea70d20460f01275cc2931168fb350d9e9080c78aab144ddd828724",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S2.SS1.SSS1.Px1 2 Experiments / 2.1 Experiment 1: Ground Truth Feedback / 2.1.1 Method / Materials; S2.SS1.SSS2 2 Experiments / 2.1 Experiment 1: Ground Truth Feedback / 2.1.2 Results; S4.SS5 4 General Discussion / 4.5 Limitations and Constraints on Generality"
+    },
+    {
+      "id": "arxiv-2502-14311",
+      "title": "The Impact and Feasibility of Self-Confidence Shaping for AI-Assisted Decision-Making",
+      "authors": [
+        "Takehiro Takayanagi",
+        "Ryuji Hashimoto",
+        "Chung-Chi Chen",
+        "Kiyoshi Izumi"
+      ],
+      "year": 2025,
+      "arxiv_id": "2502.14311v1",
+      "url": "https://arxiv.org/abs/2502.14311v1",
+      "doi": "",
+      "source_sha256": "bd86b226db7d02a26ed8fcee1482f473df8979aad952f1e28539d43b02990b47",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3.SS1.SSS0.Px2 3 AI-Assisted Decision-Making / 3.1 Collaborative Decision-Making / AI Model; S5.SS0.SSS0.Px1 5 Evaluations / RQ1: Impact of Self-Confidence Shaping; S3.SS1.SSS0.Px1 3 AI-Assisted Decision-Making / 3.1 Collaborative Decision-Making / Human Decision-Maker (DM)"
+    },
+    {
+      "id": "arxiv-2608-23543",
+      "title": "How AI Assistance Affects Human Skill Development: A Study of Learning with Logic Puzzles",
+      "authors": [
+        "Shang Wu",
+        "Catarina G Belem",
+        "Shuyuan Fu",
+        "Mark Steyvers",
+        "Padhraic Smyth"
+      ],
+      "year": 2026,
+      "arxiv_id": "2608.23543v1",
+      "url": "https://arxiv.org/abs/2608.23543v1",
+      "doi": "",
+      "source_sha256": "3ca3b128aaeccddb0413e3d3575dfda70d930ca2ea02709aa211bff3a6456514",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3.SS1 3. Experiment / 3.1. Task Description; S4.SS1.SSS0.Px1 4. User Study Results / 4.1. Empirical Findings / Skill Development:; S5 5. Discussion and Conclusion"
+    },
+    {
+      "id": "arxiv-2502-13062",
+      "title": "AI-Assisted Decision Making with Human Learning",
+      "authors": [
+        "Gali Noti",
+        "Kate Donahue",
+        "Jon Kleinberg",
+        "Sigal Oren"
+      ],
+      "year": 2025,
+      "arxiv_id": "2502.13062v2",
+      "url": "https://arxiv.org/abs/2502.13062v2",
+      "doi": "10.1145/3736252.3742492",
+      "source_sha256": "cfd4cdc3feaedc636607976ef6ca41fa330993f2f9664cdebe950d8ab725984c",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3 3 Model and Preliminaries; S7 7 Discussion"
+    },
+    {
+      "id": "arxiv-2211-03622",
+      "title": "Do Users Write More Insecure Code with AI Assistants?",
+      "authors": [
+        "Neil Perry",
+        "Megha Srivastava",
+        "Deepak Kumar",
+        "Dan Boneh"
+      ],
+      "year": 2022,
+      "arxiv_id": "2211.03622v3",
+      "url": "https://arxiv.org/abs/2211.03622v3",
+      "doi": "10.1145/3576915.3623157",
+      "source_sha256": "53c29491c1ee6ba783c66dda6395b8145b3cfae82be64584a3f0de056a332275",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3 3. Methods; S4.SS6 4. Security Analysis / 4.6. Security Results Summary; S7.SS2 7. Discussion / 7.2. Limitations"
+    },
+    {
+      "id": "arxiv-2604-04721",
+      "title": "AI Assistance Reduces Persistence and Hurts Independent Performance",
+      "authors": [
+        "Grace Liu",
+        "Brian Christian",
+        "Tsvetomira Dumbalska",
+        "Michiel A. Bakker",
+        "Rachit Dubey"
+      ],
+      "year": 2026,
+      "arxiv_id": "2604.04721v6",
+      "url": "https://arxiv.org/abs/2604.04721v6",
+      "doi": "",
+      "source_sha256": "79014641b507c69fd4939e2cfccd2042ea4e1eb36f726152c05ee2ca67f94415",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S2.SS1 2 Experiment 1: AI impairs unassisted performance and persistence / 2.1 Method; S2.SS2 2 Experiment 1: AI impairs unassisted performance and persistence / 2.2 Results"
+    },
+    {
+      "id": "arxiv-2611-12019",
+      "title": "Feeling Easier, Working Harder: Cognitive Load in AI-Assisted Code Comprehension",
+      "authors": [
+        "Maryangela White",
+        "Maximilian Rose",
+        "Matthew Buckman",
+        "Amy McDonnell",
+        "Francisco Ortega",
+        "Bianca Trinkenreich"
+      ],
+      "year": 2026,
+      "arxiv_id": "2611.12019v1",
+      "url": "https://arxiv.org/abs/2611.12019v1",
+      "doi": "",
+      "source_sha256": "12796e2604a1eddff5f38a11ac8d0742e896ee3b31a6abdb6472c2d8d9d6138a",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3 III Research Methodology; S4 IV Analyses and Results; S5 V Discussion, Limitations and Implications"
+    },
+    {
+      "id": "arxiv-2410-16560",
+      "title": "How Performance Pressure Influences AI-Assisted Decision Making",
+      "authors": [
+        "Nikita Haduong",
+        "Noah A. Smith"
+      ],
+      "year": 2024,
+      "arxiv_id": "2410.16560v3",
+      "url": "https://arxiv.org/abs/2410.16560v3",
+      "doi": "",
+      "source_sha256": "d855ceb9da9b85eb62bdbea00857e3eed2c2c67eb2e043ff159dba807becbce0",
+      "checked_at": "2026-11-22",
+      "read_sections": "Выбранные абзацы, не полный разбор всех разделов: S3.SS5.SSS0.Px1 3 Experiment / 3.5 Experiment Setup / Items.; S4 4 Results; Sx1 Limitations"
+    }
+  ],
+  "cards": [
+    {
+      "paper_id": "arxiv-2102-09692",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c1",
+          "paper_id": "arxiv-2102-09692",
+          "kind": "source_finding",
+          "text": "Когнитивные forcing-функции в задаче выбора продуктов уменьшали следование ошибочному совету по сравнению с простыми объяснениями. Это вмешательство в процесс принятия решения, а не улучшение модели.",
+          "conditions": [
+            "Контролируемая задача с изображениями еды и симулированным ИИ; методы и результаты §3–6."
+          ],
+          "limitations": [
+            "Ограниченная задача и симулированный совет; долгосрочное сохранение навыка не измерено. Эффект зависит от склонности участников к когнитивному усилию."
+          ],
+          "evidence": [
+            {
+              "quote": "cognitive forcing functions reduced overreliance on AI",
+              "url": "https://arxiv.org/html/2102.09692v1#S6",
+              "locator": "Раздел S6",
+              "segment_id": "S6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2405-06087",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c2",
+          "paper_id": "arxiv-2405-06087",
+          "kind": "source_finding",
+          "text": "Метаанализ различает помощь человеку и сильную синергию: улучшение относительно человека без ИИ не означает превосходства над лучшим из человека и ИИ. Средние результаты скрывают большую неоднородность задач.",
+          "conditions": [
+            "Версия v1; §1–3, методы отбора §4; 106 экспериментов за январь 2020 — июнь 2023."
+          ],
+          "limitations": [
+            "Исторический и неоднородный корпус; средний эффект не прогноз для современных моделей или конкретного интерфейса."
+          ],
+          "evidence": [
+            {
+              "quote": "performed significantly better than humans alone",
+              "url": "https://arxiv.org/html/2405.06087v1#S2.SS1",
+              "locator": "Раздел S2.SS1",
+              "segment_id": "S2.SS1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2501-17247",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c3",
+          "paper_id": "arxiv-2501-17247",
+          "kind": "source_finding",
+          "text": "Провокации в интерфейсе отбора вариантов вызывали содержательные размышления в качественных данных, но значимые различия в разнообразии shortlist и ряде агрегатных показателей не обнаружены.",
+          "conditions": [
+            "Shortlisting благотворительных проектов и фильмов; §3–5 и ограничения §7."
+          ],
+          "limitations": [
+            "Малая выборка, недостаточная мощность; качественный сигнал нельзя превращать в доказанное улучшение качества решения."
+          ],
+          "evidence": [
+            {
+              "quote": "did not find statistically significant effects of provocations on shortlist diversity",
+              "url": "https://arxiv.org/html/2501.17247v1#S5",
+              "locator": "Раздел S5",
+              "segment_id": "S5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2509-08010",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c4",
+          "paper_id": "arxiv-2509-08010",
+          "kind": "source_finding",
+          "text": "Работа формулирует исследовательскую программу измерения и снижения overreliance: модели, интерфейс и пользователь рассматриваются совместно. Это концептуальная постановка, не испытание готового универсального решения.",
+          "conditions": [
+            "Прочитаны постановка §1–2, измерение §5, mitigation §6 и альтернативные позиции §7."
+          ],
+          "limitations": [
+            "Предложения авторов и синтез прошлых работ; не новый причинный эксперимент и не оценка распространённости риска."
+          ],
+          "evidence": [
+            {
+              "quote": "outline several directions",
+              "url": "https://arxiv.org/html/2509.08010v1#S6",
+              "locator": "Раздел S6",
+              "segment_id": "S6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2601-18033",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c5",
+          "paper_id": "arxiv-2601-18033",
+          "kind": "source_finding",
+          "text": "В эксперименте с планами AI-assisted writing Assumptions снижал overreliance по сравнению с WhatIf; остальные попарные различия после коррекции не значимы. Нельзя утверждать, что любое forcing-вмешательство лучше контроля.",
+          "conditions": [
+            "214 участников онлайн и отдельные 12 интервью; фиксированные планы и тексты с искусственно внесёнными ошибками, §4–5 и §7.4."
+          ],
+          "limitations": [
+            "Фиксированные writing-задачи, ограниченный набор ошибок; нет длительного полевого наблюдения или проверки сохранения навыка."
+          ],
+          "evidence": [
+            {
+              "quote": "No other pairwise differences in overreliance rates were statistically significant after correction.",
+              "url": "https://arxiv.org/html/2601.18033v1#S5.SS2",
+              "locator": "Раздел S5.SS2",
+              "segment_id": "S5.SS2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2601-20245",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c6",
+          "paper_id": "arxiv-2601-20245",
+          "kind": "source_finding",
+          "text": "В рандомизированном обучении новой Python-библиотеке группа с AI-помощью хуже выполнила последующую проверку понимания, чтения кода и debugging; значимого ускорения основной задачи не обнаружено. Анализ паттернов использования не является их отдельной рандомизированной проверкой.",
+          "conditions": [
+            "§4–7: новая async-библиотека, 52 участника основного исследования; качественный разбор 51 доступной записи экрана."
+          ],
+          "limitations": [
+            "Небольшая выборка и краткая задача; это не доказательство необратимой утраты навыков или эффекта любого способа использования ИИ."
+          ],
+          "evidence": [
+            {
+              "quote": "did not observe a significant performance boost",
+              "url": "https://arxiv.org/html/2601.20245v1#S7",
+              "locator": "Раздел S7",
+              "segment_id": "S7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2512-12413",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c7",
+          "paper_id": "arxiv-2512-12413",
+          "kind": "source_finding",
+          "text": "Шкала Critical Thinking in AI Use разделяет verification, motivation и reflection; авторы проверяют психометрику и связь с поведением в fact-checking. Такая связь не доказывает, что обучение шкале причинно улучшит мышление.",
+          "conditions": [
+            "PDF v2: стр. 2, 14–20, раздел Study 6, обсуждение стр. 64–70; DOI опубликованной работы указан в метаданных."
+          ],
+          "limitations": [
+            "Преимущественно англоязычные онлайн- и университетские выборки; часть индексов самоотчётная; нужна независимая проверка переноса и измерительной инвариантности."
+          ],
+          "evidence": [
+            {
+              "quote": "our data rely primarily on English-speaking online and university samples.",
+              "url": "https://arxiv.org/pdf/2512.12413v2#page=68",
+              "locator": "PDF, стр. 68",
+              "segment_id": "page.68"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2603-05229",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c8",
+          "paper_id": "arxiv-2603-05229",
+          "kind": "source_finding",
+          "text": "В эксперименте reported trust зависел от сочетания объяснения и порядка принятия решения: значимо взаимодействие факторов, а не их изолированное общее действие. Эффект на сообщаемое доверие нельзя автоматически считать улучшением поведения.",
+          "conditions": [
+            "Эксперимент. 300 участников, бинарные решения в сценарии вымышленной организации."
+          ],
+          "limitations": [
+            "Самоотчёт о доверии и фактическая reliance требуют отдельных метрик; сценарий ограничен изученной задачей."
+          ],
+          "evidence": [
+            {
+              "quote": "To investigate these questions, we conducted a between-subjects",
+              "url": "https://arxiv.org/html/2603.05229v1#S3.SS1",
+              "locator": "3 Study Design / 3.1 Experimental Design · S3.SS1",
+              "segment_id": "S3.SS1"
+            },
+            {
+              "quote": "Pearson’s Correlation Coefficient was calculated to examine the",
+              "url": "https://arxiv.org/html/2603.05229v1#S4.SS1",
+              "locator": "4 Results / 4.1 Trust and Reliance · S4.SS1",
+              "segment_id": "S4.SS1"
+            },
+            {
+              "quote": "As recent reviews have noted, the circumstance that",
+              "url": "https://arxiv.org/html/2603.05229v1#S5.SS3",
+              "locator": "5 Discussion / 5.3 Limitations and Future Work · S5.SS3",
+              "segment_id": "S5.SS3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2511-09612",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c9",
+          "paper_id": "arxiv-2511-09612",
+          "kind": "source_finding",
+          "text": "Бонусы за самостоятельную обработку отдельных примеров меняют reliance. В динамическом условии выигрыш точности относительно baseline обнаружен на примерах с бонусом; на примерах без бонуса значимого различия не найдено.",
+          "conditions": [
+            "Эксперимент. 180 участников, классификация изображений; анализ примеров с бонусом и без него."
+          ],
+          "limitations": [
+            "Изменение стимулов в этой задаче не устанавливает эффект в организациях с другими издержками и целями."
+          ],
+          "evidence": [
+            {
+              "quote": "To evaluate the effect of our proposed incentive",
+              "url": "https://arxiv.org/html/2511.09612v2#S4",
+              "locator": "4. Behavioral Experiment Design · S4",
+              "segment_id": "S4"
+            },
+            {
+              "quote": "We begin by examining the effect of the",
+              "url": "https://arxiv.org/html/2511.09612v2#S5.SS1",
+              "locator": "5. Experimental Results / 5.1. Task Completion · S5.SS1",
+              "segment_id": "S5.SS1"
+            },
+            {
+              "quote": "Our study shows that incentive structures systematically influence",
+              "url": "https://arxiv.org/html/2511.09612v2#S6.SS4",
+              "locator": "6. Discussion / 6.4. Limitations and Directions for Future Work · S6.SS4",
+              "segment_id": "S6.SS4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2610-15136",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c10",
+          "paper_id": "arxiv-2610-15136",
+          "kind": "source_finding",
+          "text": "Авторы различают хорошо заданные задачи и открытые ситуации: trust calibration полезна при известных исходах и полезностях, но не исчерпывает согласование человека и ИИ при меняющихся целях и неизвестных последствиях.",
+          "conditions": [
+            "Концептуальная работа. Анализ рамки доверия, неопределённости и двунаправленного alignment."
+          ],
+          "limitations": [
+            "Это аргумент о границах постановки, а не причинная оценка вреда доверия в пользовательском эксперименте."
+          ],
+          "evidence": [
+            {
+              "quote": "We posit that addressing the challenges discussed thus",
+              "url": "https://arxiv.org/html/2610.15136v2#S5",
+              "locator": "5 Human–AI Alignment in Large-world Settings Requires Addressing Higher-order Decision Processes · S5",
+              "segment_id": "S5"
+            },
+            {
+              "quote": "AI-assisted decision making has been primarily positioned as",
+              "url": "https://arxiv.org/html/2610.15136v2#S7",
+              "locator": "7 Conclusion · S7",
+              "segment_id": "S7"
+            },
+            {
+              "quote": "Another critique of our proposal is that trust",
+              "url": "https://arxiv.org/html/2610.15136v2#S6",
+              "locator": "6 Limitations and Counterarguments · S6",
+              "segment_id": "S6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2501-17546",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c11",
+          "paper_id": "arxiv-2501-17546",
+          "kind": "source_finding",
+          "text": "Разговорный XAI может повышать воспринимаемую полезность объяснений, одновременно усиливая ошибочное следование совету. Оценку удобства разговора необходимо отделять от способности отвергать неверный прогноз.",
+          "conditions": [
+            "Эксперимент. Задача оценки кредитоспособности; perceived utility и reliance рассматриваются раздельно."
+          ],
+          "limitations": [
+            "Результат зависит от домена, конкретных объяснений и задач; увеличение интерактивности само по себе не является защитой."
+          ],
+          "evidence": [
+            {
+              "quote": "The basis for our experimental setup is a",
+              "url": "https://arxiv.org/html/2501.17546v1#S3.SS1",
+              "locator": "3. Task, Method, and Hypotheses / 3.1. Loan Approval Task · S3.SS1",
+              "segment_id": "S3.SS1"
+            },
+            {
+              "quote": "Performance Overview. On average across all conditions, participants",
+              "url": "https://arxiv.org/html/2501.17546v1#S5.SS1",
+              "locator": "5. Experimental Results / 5.1. Descriptive Statistics · S5.SS1",
+              "segment_id": "S5.SS1"
+            },
+            {
+              "quote": "Broader Societal Implications. Our findings add to the",
+              "url": "https://arxiv.org/html/2501.17546v1#S6.SS3",
+              "locator": "6. Discussion / 6.3. Caveats and Limitations · S6.SS3",
+              "segment_id": "S6.SS3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2212-06823",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c12",
+          "paper_id": "arxiv-2212-06823",
+          "kind": "source_finding",
+          "text": "Пять исследований поддерживают cost–benefit объяснение overreliance: объяснения уменьшают ошибочное следование, когда облегчают обнаружение ошибки и снижают стоимость самостоятельного решения. Важен конкретный вид объяснения.",
+          "conditions": [
+            "Серия экспериментов. Низкорисковая задача прохождения лабиринта; варьируются трудность и вид объяснения."
+          ],
+          "limitations": [
+            "Авторы отдельно ограничивают перенос на высокорисковые решения; результат не означает полезности любых объяснений."
+          ],
+          "evidence": [
+            {
+              "quote": "To account for this contradiction, we propose that",
+              "url": "https://arxiv.org/html/2212.06823v2#S3",
+              "locator": "3. Framework · S3",
+              "segment_id": "S3"
+            },
+            {
+              "quote": "Taken together, our results identify scenarios in which",
+              "url": "https://arxiv.org/html/2212.06823v2#S10",
+              "locator": "10. Discussion · S10",
+              "segment_id": "S10"
+            },
+            {
+              "quote": "High-stakes environments: Our study focused on a low-stakes",
+              "url": "https://arxiv.org/html/2212.06823v2#S10.SS4",
+              "locator": "10. Discussion / 10.4. Limitations and Future Work · S10.SS4",
+              "segment_id": "S10.SS4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2301-07255",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c13",
+          "paper_id": "arxiv-2301-07255",
+          "kind": "source_finding",
+          "text": "В принятии советов участвует интуиция о правильном исходе и об ограничениях ИИ. Объяснения становятся материалом для интерпретации, а не независимой гарантией того, что человек будет правильно использовать прогноз.",
+          "conditions": [
+            "Исследование взаимодействия. Предсказание дохода и классификация профессии по биографии."
+          ],
+          "limitations": [
+            "Дизайн не полностью изолирует исходную интуицию от знакомства с советом; качественные наблюдения не равны универсальной причинной модели reliance."
+          ],
+          "evidence": [
+            {
+              "quote": "We describe the set-up of our study and",
+              "url": "https://arxiv.org/html/2301.07255v3#S3",
+              "locator": "3. Methods · S3",
+              "segment_id": "S3"
+            },
+            {
+              "quote": "First, we overview themes from the think-aloud data",
+              "url": "https://arxiv.org/html/2301.07255v3#S4",
+              "locator": "4. Results · S4",
+              "segment_id": "S4"
+            },
+            {
+              "quote": "Lastly, we observed comments on the limitations of",
+              "url": "https://arxiv.org/html/2301.07255v3#S4.SS1.SSS0.Px3",
+              "locator": "4. Results / 4.1. Common Types of Intuition Applied in the Decision-Making Process (RQ1) / Intuition about AI limitations and prediction unreliability · S4.SS1.SSS0.Px3",
+              "segment_id": "S4.SS1.SSS0.Px3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2501-16627",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c14",
+          "paper_id": "arxiv-2501-16627",
+          "kind": "source_finding",
+          "text": "Сравнение XAI и cognitive forcing показывает компромисс между рефлексией, усилием и выполнением задачи: вопросы и feedback могут стимулировать размышление, но не обязательно улучшают task performance. Оценку trust нужно читать вместе с reliance на неверный совет.",
+          "conditions": [
+            "Эксперимент. Решения с правильными и неправильными AI-подсказками."
+          ],
+          "limitations": [
+            "Изучены конкретные интерфейсы и задачи; рост когнитивного усилия не является самостоятельным критерием успеха."
+          ],
+          "evidence": [
+            {
+              "quote": "Our experiments were conducted using a custom web-based",
+              "url": "https://arxiv.org/html/2501.16627v1#S6",
+              "locator": "6 Methods · S6",
+              "segment_id": "S6"
+            },
+            {
+              "quote": "To test the first hypothesis (H1), which posits",
+              "url": "https://arxiv.org/html/2501.16627v1#S2.SS1",
+              "locator": "2 Results / 2.1 Users Over-Rely on AI Suggestions, Even When Incorrect (H1) · S2.SS1",
+              "segment_id": "S2.SS1"
+            },
+            {
+              "quote": "While our study provides valuable insights into the",
+              "url": "https://arxiv.org/html/2501.16627v1#S4",
+              "locator": "4 Limitations and Future Work · S4",
+              "segment_id": "S4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2205-00189",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c15",
+          "paper_id": "arxiv-2205-00189",
+          "kind": "source_finding",
+          "text": "Scoping review обнаруживает неоднородность определений trust, слабую связь многих работ с установленными теориями и неполное описание методов. Поэтому одинаковое слово trust не делает результаты разных интерфейсов сопоставимыми.",
+          "conditions": [
+            "Scoping review. Обзор human–AI interaction, поиск в августе 2021 года; текст PDF."
+          ],
+          "limitations": [
+            "Вторичный исторический источник охватывает широкий класс систем; это не самостоятельный эксперимент с современными LLM."
+          ],
+          "evidence": [
+            {
+              "quote": "2. METHODS We conducted a scoping review in",
+              "url": "https://arxiv.org/pdf/2205.00189v1#page=3",
+              "locator": "PDF, стр. 3",
+              "segment_id": "page.3"
+            },
+            {
+              "quote": "1.5 Data Analysis and Synthesis of Results Descriptive",
+              "url": "https://arxiv.org/pdf/2205.00189v1#page=5",
+              "locator": "PDF, стр. 5",
+              "segment_id": "page.5"
+            },
+            {
+              "quote": "4. DISCUSSION Trust is a multidimensional factor being",
+              "url": "https://arxiv.org/pdf/2205.00189v1#page=8",
+              "locator": "PDF, стр. 8",
+              "segment_id": "page.8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2604-23896",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c16",
+          "paper_id": "arxiv-2604-23896",
+          "kind": "source_finding",
+          "text": "Обзор различает trust, reliance и appropriate reliance и выделяет разные способы операционализации reliance. Нужны согласованные объективные метрики и проверка их валидности в выбранной прикладной задаче.",
+          "conditions": [
+            "Обзор измерения. Поиск SCOPUS и ACM DL, анализ human–AI decision-making."
+          ],
+          "limitations": [
+            "Фокус на appropriate reliance может исключать работы, использующие другую терминологию; обзор не задаёт единый универсальный численный индекс."
+          ],
+          "evidence": [
+            {
+              "quote": "The search was initially conducted on the SCOPUS",
+              "url": "https://arxiv.org/html/2604.23896v1#S3",
+              "locator": "3. Methodology · S3",
+              "segment_id": "S3"
+            },
+            {
+              "quote": "Experiments with non-realistic tasks and a lack of",
+              "url": "https://arxiv.org/html/2604.23896v1#S5.SS1",
+              "locator": "5. Discussion / 5.1. Potential Research Gaps · S5.SS1",
+              "segment_id": "S5.SS1"
+            },
+            {
+              "quote": "We focused on research in human-AI appropriate reliance",
+              "url": "https://arxiv.org/html/2604.23896v1#S5.SS3",
+              "locator": "5. Discussion / 5.3. Limitations · S5.SS3",
+              "segment_id": "S5.SS3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2202-05983",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c17",
+          "paper_id": "arxiv-2202-05983",
+          "kind": "source_finding",
+          "text": "Оптимизировать следует итоговое решение человека с моделью, а не только прогноз модели отдельно. Работа исследует преобразование AI-рекомендаций под реакцию пользователя и проверяет подход на нескольких задачах и симуляциях.",
+          "conditions": [
+            "Эксперимент и моделирование. Четыре задачи с изображениями, текстом и таблицами; эмпирическая и симуляционная части."
+          ],
+          "limitations": [
+            "Надёжность выученной реакции пользователя в реальном внедрении остаётся вопросом; заголовок не является разрешением скрывать искажение прогноза."
+          ],
+          "evidence": [
+            {
+              "quote": "We collected data from crowd-sourced participants on a",
+              "url": "https://arxiv.org/html/2202.05983v3#S2",
+              "locator": "2 Experimental setup · S2",
+              "segment_id": "S2"
+            },
+            {
+              "quote": "Optimizing Equation 2 results in an optimal α∗,β∗\\alpha^{*},\\beta^{*}.",
+              "url": "https://arxiv.org/html/2202.05983v3#S5.SS1",
+              "locator": "5 Results / 5.1 Simulation results · S5.SS1",
+              "segment_id": "S5.SS1"
+            },
+            {
+              "quote": "Our work has several limitations that would be",
+              "url": "https://arxiv.org/html/2202.05983v3#S6",
+              "locator": "6 Discussion, Limitations, and Future Work · S6",
+              "segment_id": "S6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2404-01615",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c18",
+          "paper_id": "arxiv-2404-01615",
+          "kind": "source_finding",
+          "text": "CHAI-T рассматривает доверие как развивающийся процесс: предшествующие установки, взаимодействие команды и результаты влияют друг на друга во времени. Это полезная структура для выбора повторных измерений, а не доказанная интервенция.",
+          "conditions": [
+            "Концептуальная работа. Синтез моделей trust и командных процессов; PDF."
+          ],
+          "limitations": [
+            "Предложение рамки не устанавливает причинный эффект конкретного интерфейса и не подменяет наблюдение поведения."
+          ],
+          "evidence": [
+            {
+              "quote": "CHAI-T is not a one-size-fits-all model of trust",
+              "url": "https://arxiv.org/pdf/2404.01615v1#page=16",
+              "locator": "PDF, стр. 16",
+              "segment_id": "page.16"
+            },
+            {
+              "quote": "CHAI-T framework permits identification of factors related to",
+              "url": "https://arxiv.org/pdf/2404.01615v1#page=22",
+              "locator": "PDF, стр. 22",
+              "segment_id": "page.22"
+            },
+            {
+              "quote": "CHAI-T framework integrates top-down, theory-informed approaches with bottom-",
+              "url": "https://arxiv.org/pdf/2404.01615v1#page=26",
+              "locator": "PDF, стр. 26",
+              "segment_id": "page.26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2308-04375",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c19",
+          "paper_id": "arxiv-2308-04375",
+          "kind": "source_finding",
+          "text": "Эффект объяснений различается между специалистами и неспециалистами и зависит от правильности совета. Контрфактуальные объяснения надо оценивать на ошибочных примерах отдельно: средний human+AI score может скрывать ухудшение.",
+          "conditions": [
+            "Пользовательское исследование. Терапевты и неспециалисты, human-alone и human+AI условия."
+          ],
+          "limitations": [
+            "Это исследование поведения в конкретной клинической задаче, а не клиническая рекомендация; интерфейс и визуальное представление ограничивают перенос."
+          ],
+          "evidence": [
+            {
+              "quote": "The primary research question of this work is",
+              "url": "https://arxiv.org/html/2308.04375v1#S3",
+              "locator": "3. Study Design · S3",
+              "segment_id": "S3"
+            },
+            {
+              "quote": "In the following section, we reported the descriptive",
+              "url": "https://arxiv.org/html/2308.04375v1#S4",
+              "locator": "4. Results · S4",
+              "segment_id": "S4"
+            },
+            {
+              "quote": "As previous research shows the higher understandability of",
+              "url": "https://arxiv.org/html/2308.04375v1#S5.SS4",
+              "locator": "5. Discussion / 5.4. Limitations · S5.SS4",
+              "segment_id": "S5.SS4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2102-05460",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c20",
+          "paper_id": "arxiv-2102-05460",
+          "kind": "source_finding",
+          "text": "Position paper предлагает рассматривать объяснение как часть отношений человека и системы и как поддержку обоснования решения, а не только как свойство алгоритма. Требования к объяснению зависят от роли участника решения.",
+          "conditions": [
+            "Концептуальная работа. Разбор аргументов и случая из литературы; PDF."
+          ],
+          "limitations": [
+            "Не новый контролируемый эксперимент; рамка не устанавливает количественного снижения overreliance."
+          ],
+          "evidence": [
+            {
+              "quote": "2 DECISION-MAKING AND AI As Artificial Intelligence (AI)",
+              "url": "https://arxiv.org/pdf/2102.05460v2#page=2",
+              "locator": "PDF, стр. 2",
+              "segment_id": "page.2"
+            },
+            {
+              "quote": "Previous work observed in the literature an occurrence",
+              "url": "https://arxiv.org/pdf/2102.05460v2#page=2",
+              "locator": "PDF, стр. 2",
+              "segment_id": "page.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2103-02381",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c21",
+          "paper_id": "arxiv-2103-02381",
+          "kind": "source_finding",
+          "text": "В трёх исследованиях авторы не находят общего автоматического предпочтения алгоритмического совета; отдельно рассматривается selective adherence — принятие совета, совпадающего со стереотипами. Общую automation bias и избирательное следование нельзя смешивать.",
+          "conditions": [
+            "Серия экспериментов. Публичное администрирование в Нидерландах; сравнение советов и контекстов."
+          ],
+          "limitations": [
+            "Контекст государственного решения и конкретные манипуляции ограничивают перенос на разговорные LLM."
+          ],
+          "evidence": [
+            {
+              "quote": "or inputs from other sources. Rather, automation bias",
+              "url": "https://arxiv.org/pdf/2103.02381v3#page=5",
+              "locator": "PDF, стр. 5",
+              "segment_id": "page.5"
+            },
+            {
+              "quote": "Procedure differences are in the expected direction, yet",
+              "url": "https://arxiv.org/pdf/2103.02381v3#page=8",
+              "locator": "PDF, стр. 8",
+              "segment_id": "page.8"
+            },
+            {
+              "quote": "Discussion and Conclusion advice. Across the three studies,",
+              "url": "https://arxiv.org/pdf/2103.02381v3#page=12",
+              "locator": "PDF, стр. 12",
+              "segment_id": "page.12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2311-06305",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c22",
+          "paper_id": "arxiv-2311-06305",
+          "kind": "source_finding",
+          "text": "Систематический обзор показывает, что perceived trust и согласование с надёжностью системы измеряются разными способами. Самооценка может зависеть от внешнего вида и поведения системы, поэтому её недостаточно для вывода об appropriate reliance.",
+          "conditions": [
+            "Систематический обзор. Human–AI interaction; определения, метрики и методы."
+          ],
+          "limitations": [
+            "Вторичный источник; исторический и терминологический охват ограничивает полноту."
+          ],
+          "evidence": [
+            {
+              "quote": "We conducted a systematic review to understand (a)",
+              "url": "https://arxiv.org/html/2311.06305v1#S3",
+              "locator": "3. SYSTEMATIC REVIEW METHODOLOGY · S3",
+              "segment_id": "S3"
+            },
+            {
+              "quote": "We found some authors measured perceived trust by",
+              "url": "https://arxiv.org/html/2311.06305v1#S5.SS1.SSS1",
+              "locator": "5. Results of the Systematic Review / 5.1. Measures (How to measure Appropriate Trust?) / 5.1.1. Perceived Trust · S5.SS1.SSS1",
+              "segment_id": "S5.SS1.SSS1"
+            },
+            {
+              "quote": "Despite the systematic review’s comprehensive analysis of the",
+              "url": "https://arxiv.org/html/2311.06305v1#S6.SS4",
+              "locator": "6. Discussion / 6.4. Limitations · S6.SS4",
+              "segment_id": "S6.SS4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2405-01484",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c23",
+          "paper_id": "arxiv-2405-01484",
+          "kind": "source_finding",
+          "text": "Рекомендацию предлагается проектировать с учётом того, как человек меняет решение, а не как замену автономному прогнозу. Каузальная постановка проверяется в эксперименте, моделирующем hiring task.",
+          "conditions": [
+            "Модель и эксперимент. Бинарное решение, сравнение recommendation algorithms и automation benchmark."
+          ],
+          "limitations": [
+            "Симуляция найма не доказывает результат в реальных кадровых решениях; важны отбор участников и предпосылки модели."
+          ],
+          "evidence": [
+            {
+              "quote": "corresponding to the optimal direct choice by an",
+              "url": "https://arxiv.org/html/2405.01484v3#S2.SS1",
+              "locator": "2 A Causal Model of Algorithmically Assisted Decision-Making / 2.1 Treatment Choice and the Automation Benchmark · S2.SS1",
+              "segment_id": "S2.SS1"
+            },
+            {
+              "quote": "Before analyzing the results of the experiment, we",
+              "url": "https://arxiv.org/html/2405.01484v3#S4.SS3",
+              "locator": "4 Complementary Recommendations in an Experiment / 4.3 Data and Main Results · S4.SS3",
+              "segment_id": "S4.SS3"
+            },
+            {
+              "quote": "Above, we have introduced the problem of assigning",
+              "url": "https://arxiv.org/html/2405.01484v3#S2.SS2",
+              "locator": "2 A Causal Model of Algorithmically Assisted Decision-Making / 2.2 Algorithmic Assistance with Endogenous Response · S2.SS2",
+              "segment_id": "S2.SS2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2404-00634",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c24",
+          "paper_id": "arxiv-2404-00634",
+          "kind": "source_finding",
+          "text": "В эксперименте framing не дал значимых различий в согласии с рекомендациями, а антропоморфный интерфейс уменьшал согласие. Меньшее согласие само по себе ещё не означает более правильного решения.",
+          "conditions": [
+            "Эксперимент. 750 набранных участников Prolific, английский опрос."
+          ],
+          "limitations": [
+            "Agreement rate необходимо отличать от точности и калибровки по правильности совета."
+          ],
+          "evidence": [
+            {
+              "quote": "The task aimed to emulate the screening phase",
+              "url": "https://arxiv.org/html/2404.00634v2#S3.SS2",
+              "locator": "3 Experiment / 3.2 Task and AI model · S3.SS2",
+              "segment_id": "S3.SS2"
+            },
+            {
+              "quote": "As shown in Table 1, a considerable percentage",
+              "url": "https://arxiv.org/html/2404.00634v2#S3.SS5",
+              "locator": "3 Experiment / 3.5 Results · S3.SS5",
+              "segment_id": "S3.SS5"
+            },
+            {
+              "quote": "Since currently humans rarely rely exclusively on AI",
+              "url": "https://arxiv.org/html/2404.00634v2#S4.SS1",
+              "locator": "4 Discussion / 4.1 Framing effect · S4.SS1",
+              "segment_id": "S4.SS1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2409-15814",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c25",
+          "paper_id": "arxiv-2409-15814",
+          "kind": "source_finding",
+          "text": "Примеры при onboarding помогали специалистам откалибровать reliance лучше, чем только feature explanations в момент решения. Обучение работе с инструментом следует отделять от формы текущего объяснения.",
+          "conditions": [
+            "Пользовательское исследование. Терапевты, Example+Features против Features."
+          ],
+          "limitations": [
+            "Один профессиональный контекст и конкретная система; перенос на другие задачи требует проверки."
+          ],
+          "evidence": [
+            {
+              "quote": "To understand how an explainable AI technique can",
+              "url": "https://arxiv.org/html/2409.15814v1#S3.SS2",
+              "locator": "3 Study Designs / 3.2 Interviews about Onboarding with AI · S3.SS2",
+              "segment_id": "S3.SS2"
+            },
+            {
+              "quote": "Participants using ‘Examples + Features’ had lower overreliance",
+              "url": "https://arxiv.org/html/2409.15814v1#S6.SS1",
+              "locator": "6 Results and Discussion / 6.1 Performance · S6.SS1",
+              "segment_id": "S6.SS1"
+            },
+            {
+              "quote": "Even if our results showed that interactive example-based",
+              "url": "https://arxiv.org/html/2409.15814v1#S6.SS4",
+              "locator": "6 Results and Discussion / 6.4 Discussion · S6.SS4",
+              "segment_id": "S6.SS4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2604-07535",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c26",
+          "paper_id": "arxiv-2604-07535",
+          "kind": "source_finding",
+          "text": "Небольшое исследование связывает подготовку к AI-interaction и срочность с самооценкой уверенности. Рост trust после взаимодействия не позволил однозначно установить его механизм.",
+          "conditions": [
+            "Эксперимент. 30 участников, преимущественно студенты computer science."
+          ],
+          "limitations": [
+            "Малая и однородная выборка; субъективная уверенность не заменяет объективный результат."
+          ],
+          "evidence": [
+            {
+              "quote": "To assess how human-AI interaction impacts trust in",
+              "url": "https://arxiv.org/html/2604.07535v1#S3",
+              "locator": "3. Study Design · S3",
+              "segment_id": "S3"
+            },
+            {
+              "quote": "Our observations are in line with the established",
+              "url": "https://arxiv.org/html/2604.07535v1#S4.SS1.SSSx1",
+              "locator": "4. RQ1: Trust by human-AI interaction / 4.1. Improved trust in AI / Discussion · S4.SS1.SSSx1",
+              "segment_id": "S4.SS1.SSSx1"
+            },
+            {
+              "quote": "Our sample of experimental population may limit the",
+              "url": "https://arxiv.org/html/2604.07535v1#S3.SS3.SSSx1",
+              "locator": "3. Study Design / 3.3. Design trade-offs and threats to validity / External validity · S3.SS3.SSSx1",
+              "segment_id": "S3.SS3.SSSx1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2607-12180",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c27",
+          "paper_id": "arxiv-2607-12180",
+          "kind": "source_finding",
+          "text": "TRAIL делает экспериментальные свойства AI-teammate настраиваемыми: задачи, условия, persona и порядок сессий фиксируются исследователем. Пилот показывает возможность изучать доверие и взаимодействие во времени.",
+          "conditions": [
+            "Инструмент и пилот. Студенческое развёртывание с изменением persona."
+          ],
+          "limitations": [
+            "Инфраструктурная воспроизводимость и пилот не доказывают универсальную эффективность одной persona."
+          ],
+          "evidence": [
+            {
+              "quote": "Table 1 states the seven goals, maps each",
+              "url": "https://arxiv.org/html/2607.12180v1#S3",
+              "locator": "3 Platform Design Goals · S3",
+              "segment_id": "S3"
+            },
+            {
+              "quote": "The deployment’s broadest implication is the one the",
+              "url": "https://arxiv.org/html/2607.12180v1#S6",
+              "locator": "6 Discussion · S6",
+              "segment_id": "S6"
+            },
+            {
+              "quote": "Because TRAIL is configurable and easy to deploy",
+              "url": "https://arxiv.org/html/2607.12180v1#S6",
+              "locator": "6 Discussion · S6",
+              "segment_id": "S6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2602-10222",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c28",
+          "paper_id": "arxiv-2602-10222",
+          "kind": "source_finding",
+          "text": "AI-assisted critical thinking снижает overreliance ценой дополнительной нагрузки. При этом авторы прямо отмечают: стандартные decision metrics не являются прямым измерением способности критически мыслить.",
+          "conditions": [
+            "Эксперимент. 402 валидных участника после исключений, повторные decision tasks."
+          ],
+          "limitations": [
+            "Не измерен напрямую перенос критического мышления; важны subgroup effects и стоимость усилия."
+          ],
+          "evidence": [
+            {
+              "quote": "With the argument identified for each alternative decision,",
+              "url": "https://arxiv.org/html/2602.10222v2#S3.SS2.SSS2",
+              "locator": "3. AI-Assisted Critical Thinking: Framework and Instantiation / 3.2. The AI-Assisted Critical Thinking Framework / 3.2.2. AACT Supports for Critiquing Arguments · S3.SS2.SSS2",
+              "segment_id": "S3.SS2.SSS2"
+            },
+            {
+              "quote": "In total, 405 Prolific workers participated in our",
+              "url": "https://arxiv.org/html/2602.10222v2#S5",
+              "locator": "5. Results · S5",
+              "segment_id": "S5"
+            },
+            {
+              "quote": "Our study leaves several additional limitations. Although we",
+              "url": "https://arxiv.org/html/2602.10222v2#S6.SS5",
+              "locator": "6. Discussions / 6.5. Additional Limitations · S6.SS5",
+              "segment_id": "S6.SS5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2304-14130",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c29",
+          "paper_id": "arxiv-2304-14130",
+          "kind": "source_finding",
+          "text": "Совместная подача объяснений и uncertainty требует учитывать исходную уверенность человека. Switching и agreement могут искажать интерпретацию, если не сопоставлены с индивидуальной точностью и правильностью совета.",
+          "conditions": [
+            "Эксперимент. 112 участников MTurk; assisted и unassisted performance."
+          ],
+          "limitations": [
+            "Выборка жителей США и конкретные задачи ограничивают межкультурный перенос."
+          ],
+          "evidence": [
+            {
+              "quote": "We recruited 112112 participants from Amazon Mechanical Turk",
+              "url": "https://arxiv.org/html/2304.14130v1#S3.SS1.SSS1",
+              "locator": "3 Study Overview / 3.1 Experimental Design / 3.1.1 Participants · S3.SS1.SSS1",
+              "segment_id": "S3.SS1.SSS1"
+            },
+            {
+              "quote": "Then, we compared participants’ performance after exposure to",
+              "url": "https://arxiv.org/html/2304.14130v1#S4.SS1",
+              "locator": "4 Results / 4.1 Performance · S4.SS1",
+              "segment_id": "S4.SS1"
+            },
+            {
+              "quote": "We acknowledge that one limitation of our study",
+              "url": "https://arxiv.org/html/2304.14130v1#S6",
+              "locator": "6 Limitations · S6",
+              "segment_id": "S6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2508-09033",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c30",
+          "paper_id": "arxiv-2508-09033",
+          "kind": "source_finding",
+          "text": "Сообщать сильные и слабые стороны модели полезнее оценивать отдельно от объяснения одного прогноза. В исследовании есть положительные task findings, но self-reported understanding не различался значимо между группами.",
+          "conditions": [
+            "Эксперимент. Прогноз дохода; performance, calibration и самоотчёт."
+          ],
+          "limitations": [
+            "Один домен и способы подачи информации; разные виды измерений не следует объединять в единый эффект."
+          ],
+          "evidence": [
+            {
+              "quote": "Researchers have argued that results and recommendations for",
+              "url": "https://arxiv.org/html/2508.09033v1#S3.SS1",
+              "locator": "3 Self-assessing AI / 3.1 Defining the Task · S3.SS1",
+              "segment_id": "S3.SS1"
+            },
+            {
+              "quote": "In the following, we present results related to",
+              "url": "https://arxiv.org/html/2508.09033v1#S5",
+              "locator": "5 Results · S5",
+              "segment_id": "S5"
+            },
+            {
+              "quote": "In this paper, we explored the design of",
+              "url": "https://arxiv.org/html/2508.09033v1#S6",
+              "locator": "6 Discussion · S6",
+              "segment_id": "S6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2409-08937",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c31",
+          "paper_id": "arxiv-2409-08937",
+          "kind": "source_finding",
+          "text": "В генеративной задаче forcing-функция может привести к добавлению ошибочного AI-текста к уже правильному собственному ответу. Нужно различать назначенное вмешательство и реально показанное вмешательство.",
+          "conditions": [
+            "Пользовательское исследование. 34 участника, content-grounded generation и качество данных."
+          ],
+          "limitations": [
+            "Небольшая выборка и доменная постановка; эффект нельзя переносить из традиционной классификации без проверки."
+          ],
+          "evidence": [
+            {
+              "quote": "We recruited 34 participants via multiple slack channels",
+              "url": "https://arxiv.org/html/2409.08937v2#S5.SS1",
+              "locator": "5. Methodology / 5.1. Participants · S5.SS1",
+              "segment_id": "S5.SS1"
+            },
+            {
+              "quote": "We recruited 34 participants and asked them details",
+              "url": "https://arxiv.org/html/2409.08937v2#S6.SS1",
+              "locator": "6. Results / 6.1. Participant Demographics and Self Reported Measures · S6.SS1",
+              "segment_id": "S6.SS1"
+            },
+            {
+              "quote": "While our study offers valuable insights, we acknowledge",
+              "url": "https://arxiv.org/html/2409.08937v2#S8",
+              "locator": "8. Limitations and Future Work · S8",
+              "segment_id": "S8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2510-26518",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c32",
+          "paper_id": "arxiv-2510-26518",
+          "kind": "source_finding",
+          "text": "Для amplified oversight проверяется объединение human и AI ratings с учётом confidence и показываемых свидетельств. Полезность search results и evidence отличается от предъявления готового judgment.",
+          "conditions": [
+            "Серия экспериментов. Варьируются search, evidence, reasoning, judgment и confidence."
+          ],
+          "limitations": [
+            "Метод требует калиброванной confidence AI-rater; наблюдения не доказывают oversight систем любого уровня."
+          ],
+          "evidence": [
+            {
+              "quote": "In all experiments, participants first completed a short",
+              "url": "https://arxiv.org/html/2510.26518v2#A1.SS2.SSS4",
+              "locator": "Appendix A Appendix / A.2 Additional Details on Evaluation Set, Model, and Experiments / A.2.4 Human Experiment Set-Up · A1.SS2.SSS4",
+              "segment_id": "A1.SS2.SSS4"
+            },
+            {
+              "quote": "First, we show that confidence-based hybridization improves overall",
+              "url": "https://arxiv.org/html/2510.26518v2#S3.SS1",
+              "locator": "3 Experiments and Results / 3.1 Overview · S3.SS1",
+              "segment_id": "S3.SS1"
+            },
+            {
+              "quote": "Importantly, confidence-based hybridization requires a well calibrated AI",
+              "url": "https://arxiv.org/html/2510.26518v2#S4.SS2",
+              "locator": "4 Discussion / 4.2 Discussion, Limitations, and Future Work · S4.SS2",
+              "segment_id": "S4.SS2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2302-01854",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c33",
+          "paper_id": "arxiv-2302-01854",
+          "kind": "source_finding",
+          "text": "Поведение в ранних взаимодействиях лучше предсказывает последующее compliance, чем самоотчётная склонность доверять. Это аргумент в пользу поведенческого baseline рядом с психометрическими шкалами.",
+          "conditions": [
+            "Вторичный эмпирический анализ. Начальные действия, последующие compliance decisions и trust attitudes."
+          ],
+          "limitations": [
+            "Предсказательная связь не доказывает причинный эффект вмешательства; используются существующие datasets."
+          ],
+          "evidence": [
+            {
+              "quote": "Model 2: The first category of test models",
+              "url": "https://arxiv.org/html/2302.01854v1#Pt0.A2.SS1",
+              "locator": "Appendix B Data and Models / B.1 Models · Pt0.A2.SS1",
+              "segment_id": "Pt0.A2.SS1"
+            },
+            {
+              "quote": "The disposition to trust measure failed to explain",
+              "url": "https://arxiv.org/html/2302.01854v1#S6.SS1",
+              "locator": "6 Results / 6.1 Study 1 · S6.SS1",
+              "segment_id": "S6.SS1"
+            },
+            {
+              "quote": "Had DTI accounted for more significant variance in",
+              "url": "https://arxiv.org/html/2302.01854v1#S7",
+              "locator": "7 Discussion · S7",
+              "segment_id": "S7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2607-21306",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c34",
+          "paper_id": "arxiv-2607-21306",
+          "kind": "source_finding",
+          "text": "В Int-Bench LLM-наставники вмешиваются рано и часто, чаще дают полное решение, чем адресную подсказку; улучшение немедленного успеха не гарантирует generalization. Сравнение поведения с людьми не заменяет длительное исследование обучения.",
+          "conditions": [
+            "Benchmark. Standard monitoring и сравнение интервенций."
+          ],
+          "limitations": [
+            "Перенос benchmark-эффекта на развитие человеческого навыка требует отдельного теста."
+          ],
+          "evidence": [
+            {
+              "quote": "We compare teacher behavior during the monitoring phase",
+              "url": "https://arxiv.org/html/2607.21306v1#S3.SS2",
+              "locator": "3 The Int-Bench Framework / 3.2 Monitoring · S3.SS2",
+              "segment_id": "S3.SS2"
+            },
+            {
+              "quote": "We organize our results around our four research",
+              "url": "https://arxiv.org/html/2607.21306v1#S5",
+              "locator": "5 Results · S5",
+              "segment_id": "S5"
+            },
+            {
+              "quote": "AI assistants should ideally do more than correct",
+              "url": "https://arxiv.org/html/2607.21306v1#S6",
+              "locator": "6 Discussion · S6",
+              "segment_id": "S6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2610-30945",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c35",
+          "paper_id": "arxiv-2610-30945",
+          "kind": "source_finding",
+          "text": "Метакогнитивный scaffold в writing-задаче создаёт дополнительное усилие: участники могут оценивать систему как менее полезную, одновременно выполняя работу лучше. Удобство и качество измерены раздельно.",
+          "conditions": [
+            "Эксперимент. Две задачи, последующая работа без scaffold, rubric-based оценка."
+          ],
+          "limitations": [
+            "LLM judge может предпочитать структуру текста содержанию; перенос ограничен выбранными writing tasks."
+          ],
+          "evidence": [
+            {
+              "quote": "We conducted a randomized between-subjects experiment focusing on",
+              "url": "https://arxiv.org/html/2610.30945v1#S3",
+              "locator": "3. Methods · S3",
+              "segment_id": "S3"
+            },
+            {
+              "quote": "Our primary question was whether the scaffold improved",
+              "url": "https://arxiv.org/html/2610.30945v1#S4.SS1",
+              "locator": "4. Results / 4.1. The scaffold improved essay quality · S4.SS1",
+              "segment_id": "S4.SS1"
+            },
+            {
+              "quote": "A key limitation is the LLM judge. Firstly,",
+              "url": "https://arxiv.org/html/2610.30945v1#S5.SS5",
+              "locator": "5. Discussion / 5.5. Limitations · S5.SS5",
+              "segment_id": "S5.SS5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2611-06346",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c36",
+          "paper_id": "arxiv-2611-06346",
+          "kind": "source_finding",
+          "text": "Модель стимулов рассматривает повторяющиеся задачи, где решение принять помощь или решить самому меняет будущую квалификацию. Оптимальное распределение помощи зависит от долгосрочной цели навыка.",
+          "conditions": [
+            "Теоретическая модель. Последовательность задач одного семейства и динамика навыка."
+          ],
+          "limitations": [
+            "Предполагается обучение через самостоятельное решение; engaged AI-use может изменить выводы."
+          ],
+          "evidence": [
+            {
+              "quote": "In the second description, the worker does not",
+              "url": "https://arxiv.org/html/2611.06346v2#A1.SS4.SSS0.Px2",
+              "locator": "Appendix A Derivations of the model equations / A.4 The discount factor as a continuation probability / Continuation: the worker performs an expected number of tasks. · A1.SS4.SSS0.Px2",
+              "segment_id": "A1.SS4.SSS0.Px2"
+            },
+            {
+              "quote": "Our primary theoretical contribution is to extend the",
+              "url": "https://arxiv.org/html/2611.06346v2#S6",
+              "locator": "6 Discussion · S6",
+              "segment_id": "S6"
+            },
+            {
+              "quote": "In our model, skill is acquired only through",
+              "url": "https://arxiv.org/html/2611.06346v2#S6.SS5",
+              "locator": "6 Discussion / 6.5 Limitations and Future Research · S6.SS5",
+              "segment_id": "S6.SS5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2605-20355",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c37",
+          "paper_id": "arxiv-2605-20355",
+          "kind": "source_finding",
+          "text": "Proximal State Nudging проектирует помощь с учётом последующего самостоятельного навыка. Метод проверяется на simulated learners и людях в CARLA, а не только по assisted performance.",
+          "conditions": [
+            "Модель и пользовательский эксперимент. LunarLander и две driving-задачи CARLA, 60 участников."
+          ],
+          "limitations": [
+            "Симулятор и ограниченные motor tasks не устанавливают эффект в интеллектуальном труде."
+          ],
+          "evidence": [
+            {
+              "quote": "Proximal State Nudging can build upon any existing",
+              "url": "https://arxiv.org/html/2605.20355v1#S3.SS1",
+              "locator": "III Formalism / III-A Shared Control Planning for Assistance · S3.SS1",
+              "segment_id": "S3.SS1"
+            },
+            {
+              "quote": "We first compare Proximal State Nudging against existing",
+              "url": "https://arxiv.org/html/2605.20355v1#S4",
+              "locator": "IV Empirical Results: Simulated Learners · S4",
+              "segment_id": "S4"
+            },
+            {
+              "quote": "Across simulated agents in LunarLander and n=60n=60 human",
+              "url": "https://arxiv.org/html/2605.20355v1#S6",
+              "locator": "VI Discussion and Future Work · S6",
+              "segment_id": "S6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2604-09444",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c38",
+          "paper_id": "arxiv-2604-09444",
+          "kind": "source_finding",
+          "text": "Уверенность, усилие и освоение материала расходятся: полные ответы могут создавать ощущение понимания, тогда как guided hints и future-self explanations дают иной баланс измеренного обучения и нагрузки.",
+          "conditions": [
+            "Пользовательское исследование. Студенты, objective learning и perceived understanding."
+          ],
+          "limitations": [
+            "Convenience sampling и конкретные задачи ограничивают перенос; самооценка не равна компетенции."
+          ],
+          "evidence": [
+            {
+              "quote": "While Step 1 provided the “what” and “how",
+              "url": "https://arxiv.org/html/2604.09444v1#S4.SS2",
+              "locator": "4. Formative Study: Design Requirements / 4.2. Step 2: Formative Study · S4.SS2",
+              "segment_id": "S4.SS2"
+            },
+            {
+              "quote": "Consequently, for the remaining three pilot sessions, the",
+              "url": "https://arxiv.org/html/2604.09444v1#S6.SS2",
+              "locator": "6. User Evaluation / 6.2. Pilot Studies · S6.SS2",
+              "segment_id": "S6.SS2"
+            },
+            {
+              "quote": "In Phase 1, we acknowledge two primary limitations.",
+              "url": "https://arxiv.org/html/2604.09444v1#S8.SS4",
+              "locator": "8. Discussion / 8.4. Limitations and Future Work · S8.SS4",
+              "segment_id": "S8.SS4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2509-03392",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c39",
+          "paper_id": "arxiv-2509-03392",
+          "kind": "source_finding",
+          "text": "При note-taking промежуточная помощь дала лучшие post-test результаты, чем полная автоматизация, хотя участники предпочитали удобство автоматического режима.",
+          "conditions": [
+            "Эксперимент. 30 участников, заметки по видео и проверка понимания."
+          ],
+          "limitations": [
+            "Малая выборка и ограниченные видеоматериалы; предпочтение интерфейса не доказывает учебную пользу."
+          ],
+          "evidence": [
+            {
+              "quote": "We recruited 30 participants through mailing lists at",
+              "url": "https://arxiv.org/html/2509.03392v1#S3.SS1.SSS2",
+              "locator": "3. Study / 3.1. Experiment design / 3.1.2. Participants and Procedure · S3.SS1.SSS2",
+              "segment_id": "S3.SS1.SSS2"
+            },
+            {
+              "quote": "Intermediate AIcondition (Mean = 13.88, SD = 2.34)",
+              "url": "https://arxiv.org/html/2509.03392v1#S5.SS1.SSS1",
+              "locator": "5. Finding / 5.1. RQ1: How do different levels of AI assistance affect comprehension, cognitive load, note quality, and usability? / 5.1.1. Understanding Levels · S5.SS1.SSS1",
+              "segment_id": "S5.SS1.SSS1"
+            },
+            {
+              "quote": "We acknowledge the limitations of this work. 1)",
+              "url": "https://arxiv.org/html/2509.03392v1#S6.SS4",
+              "locator": "6. Discussion / 6.4. Limitation · S6.SS4",
+              "segment_id": "S6.SS4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2609-17883",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c40",
+          "paper_id": "arxiv-2609-17883",
+          "kind": "source_finding",
+          "text": "Временные признаки работы исследуются как индикатор полной передачи задачи ИИ, а не любого использования помощи. Положительная классификация на симуляции требует проверки в реальной учебной работе.",
+          "conditions": [
+            "Вторичный анализ и симуляция. Три существующих datasets; новые human data не собирались."
+          ],
+          "limitations": [
+            "Симулированная delegation не равна реальному cheating; classifier flag не доказывает утрату навыка или нарушение."
+          ],
+          "evidence": [
+            {
+              "quote": "DATA We analyze three public, de-identified corpora and",
+              "url": "https://arxiv.org/pdf/2609.17883v1#page=3",
+              "locator": "PDF, стр. 3",
+              "segment_id": "page.3"
+            },
+            {
+              "quote": "Three checks say strong but not trivial. A",
+              "url": "https://arxiv.org/pdf/2609.17883v1#page=7",
+              "locator": "PDF, стр. 7",
+              "segment_id": "page.7"
+            },
+            {
+              "quote": "AI use (Asher et al., 2026) and by",
+              "url": "https://arxiv.org/pdf/2609.17883v1#page=8",
+              "locator": "PDF, стр. 8",
+              "segment_id": "page.8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2604-18538",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c41",
+          "paper_id": "arxiv-2604-18538",
+          "kind": "source_finding",
+          "text": "AI-pair programming ускоряет совместное выполнение, но retest нужно анализировать отдельно: абсолютное снижение в AI-условии не было значимым. Нельзя превращать его в доказанный эффект забывания.",
+          "conditions": [
+            "Контролируемое исследование. Новички, командная работа и последующая индивидуальная проверка."
+          ],
+          "limitations": [
+            "Малая выборка и кластеризация делают выводы о retest неопределёнными."
+          ],
+          "evidence": [
+            {
+              "quote": "The study was conducted in accordance with the",
+              "url": "https://arxiv.org/html/2604.18538v1#S3.SS1",
+              "locator": "3. Method / 3.1. Participants · S3.SS1",
+              "segment_id": "S3.SS1"
+            },
+            {
+              "quote": "Fig. 3a shows a scatterplot of the actual",
+              "url": "https://arxiv.org/html/2604.18538v1#S4.SS1",
+              "locator": "4. Results / 4.1. Team Performance · S4.SS1",
+              "segment_id": "S4.SS1"
+            },
+            {
+              "quote": "Regarding internal validity, reliable inference is very challenging",
+              "url": "https://arxiv.org/html/2604.18538v1#S6",
+              "locator": "6. Threats to Validity · S6",
+              "segment_id": "S6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2604-19931",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c42",
+          "paper_id": "arxiv-2604-19931",
+          "kind": "source_finding",
+          "text": "Deferred AI assistance используется после самостоятельного составления подсказок к ошибочному коду. Объект исследования — учебная деятельность и критическая проверка, а не только готовая подсказка.",
+          "conditions": [
+            "Учебное исследование. Реальный graduate Data Manipulation курс."
+          ],
+          "limitations": [
+            "Учебный контекст содержит возможные confounders; полученный артефакт не является прямой мерой долгосрочного навыка."
+          ],
+          "evidence": [
+            {
+              "quote": "We conducted a study comparing three personalized hint",
+              "url": "https://arxiv.org/html/2604.19931v1#S3.SS1.SSSx1",
+              "locator": "3. Method / 3.1. Study Design / Educational Context · S3.SS1.SSSx1",
+              "segment_id": "S3.SS1.SSSx1"
+            },
+            {
+              "quote": "We now present the results for each of",
+              "url": "https://arxiv.org/html/2604.19931v1#S4",
+              "locator": "4. Results · S4",
+              "segment_id": "S4"
+            },
+            {
+              "quote": "This study has some limitations, particularly due to",
+              "url": "https://arxiv.org/html/2604.19931v1#S5.SS0.SSSx5",
+              "locator": "5. Discussion and Future Work / Limitations · S5.SS0.SSSx5",
+              "segment_id": "S5.SS0.SSSx5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2611-14833",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c43",
+          "paper_id": "arxiv-2611-14833",
+          "kind": "source_finding",
+          "text": "Повторное общение не гарантирует правильной калибровки: без внешней обратной связи люди продолжают принимать неверные советы. История точности полезна, когда пользователь получает ground-truth feedback.",
+          "conditions": [
+            "Серия экспериментов. Helpful, unhelpful и mixed advisors; сравнение с human advisors."
+          ],
+          "limitations": [
+            "Изучены короткие вопросы с известной истиной; во многих реальных решениях своевременная обратная связь недоступна."
+          ],
+          "evidence": [
+            {
+              "quote": "We created 30 two-alternative forced choice (2AFC) questions",
+              "url": "https://arxiv.org/html/2611.14833v1#S2.SS1.SSS1.Px1",
+              "locator": "2 Experiments / 2.1 Experiment 1: Ground Truth Feedback / 2.1.1 Method / Materials · S2.SS1.SSS1.Px1",
+              "segment_id": "S2.SS1.SSS1.Px1"
+            },
+            {
+              "quote": "(H1–H2) Historically helpful and mixed assistants are persuasive",
+              "url": "https://arxiv.org/html/2611.14833v1#S2.SS1.SSS2",
+              "locator": "2 Experiments / 2.1 Experiment 1: Ground Truth Feedback / 2.1.2 Results · S2.SS1.SSS2",
+              "segment_id": "S2.SS1.SSS2"
+            },
+            {
+              "quote": "Several features of our design limit the conclusions",
+              "url": "https://arxiv.org/html/2611.14833v1#S4.SS5",
+              "locator": "4 General Discussion / 4.5 Limitations and Constraints on Generality · S4.SS5",
+              "segment_id": "S4.SS5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2502-14311",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c44",
+          "paper_id": "arxiv-2502-14311",
+          "kind": "source_finding",
+          "text": "Self-confidence shaping рассматривается как способ менять принятие AI-рекомендаций. Возможность предсказывать или сдвигать уверенность не доказывает, что соответствующее воздействие улучшит решения в реальном внедрении.",
+          "conditions": [
+            "Модель и эмпирический анализ. Acceptance Rate и связь self-confidence с sentiment."
+          ],
+          "limitations": [
+            "Практическая эффективность и допустимость изменения уверенности требуют отдельной проверки."
+          ],
+          "evidence": [
+            {
+              "quote": "where ym∈{−1,+1}y^{m}\\in\\{-1,+1\\} is the model’s predicted label for",
+              "url": "https://arxiv.org/html/2502.14311v1#S3.SS1.SSS0.Px2",
+              "locator": "3 AI-Assisted Decision-Making / 3.1 Collaborative Decision-Making / AI Model · S3.SS1.SSS0.Px2",
+              "segment_id": "S3.SS1.SSS0.Px2"
+            },
+            {
+              "quote": "First, we aim to quantify how much human-AI",
+              "url": "https://arxiv.org/html/2502.14311v1#S5.SS0.SSS0.Px1",
+              "locator": "5 Evaluations / RQ1: Impact of Self-Confidence Shaping · S5.SS0.SSS0.Px1",
+              "segment_id": "S5.SS0.SSS0.Px1"
+            },
+            {
+              "quote": "where yh∈{−1,+1}y^{h}\\in\\{-1,+1\\} is the human’s independent decision for",
+              "url": "https://arxiv.org/html/2502.14311v1#S3.SS1.SSS0.Px1",
+              "locator": "3 AI-Assisted Decision-Making / 3.1 Collaborative Decision-Making / Human Decision-Maker (DM) · S3.SS1.SSS0.Px1",
+              "segment_id": "S3.SS1.SSS0.Px1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2608-23543",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c45",
+          "paper_id": "arxiv-2608-23543",
+          "kind": "source_finding",
+          "text": "В трёхфазной logic-puzzle задаче самостоятельное усилие связано с приростом task-specific способности. Наблюдаемую связь нельзя без дополнительного контроля превращать в эффект любого AI-use.",
+          "conditions": [
+            "Эксперимент. Pre-AI, помощь и subsequent unaided performance."
+          ],
+          "limitations": [
+            "Краткий горизонт и одна задача; выбор запрашивать помощь может зависеть от исходной способности."
+          ],
+          "evidence": [
+            {
+              "quote": "We build on a logic-puzzle paradigm used in",
+              "url": "https://arxiv.org/html/2608.23543v1#S3.SS1",
+              "locator": "3. Experiment / 3.1. Task Description · S3.SS1",
+              "segment_id": "S3.SS1"
+            },
+            {
+              "quote": "To examine whether participants in general showed task-specific",
+              "url": "https://arxiv.org/html/2608.23543v1#S4.SS1.SSS0.Px1",
+              "locator": "4. User Study Results / 4.1. Empirical Findings / Skill Development: · S4.SS1.SSS0.Px1",
+              "segment_id": "S4.SS1.SSS0.Px1"
+            },
+            {
+              "quote": "This study examines the role of AI assistance",
+              "url": "https://arxiv.org/html/2608.23543v1#S5",
+              "locator": "5. Discussion and Conclusion · S5",
+              "segment_id": "S5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2502-13062",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c46",
+          "paper_id": "arxiv-2502-13062",
+          "kind": "source_finding",
+          "text": "Формальная модель учитывает обучение человека в повторных решениях. Выбор показываемых признаков меняет и текущую точность, и будущую информированность пользователя.",
+          "conditions": [
+            "Теоретическая модель. Повторные решения и формальная динамика обучения."
+          ],
+          "limitations": [
+            "Выводы зависят от простых модельных предпосылок; это не пользовательское доказательство универсального улучшения навыка."
+          ],
+          "evidence": [
+            {
+              "quote": "In this section, we provide additional details about",
+              "url": "https://arxiv.org/html/2502.13062v2#S3",
+              "locator": "3 Model and Preliminaries · S3",
+              "segment_id": "S3"
+            },
+            {
+              "quote": "In this paper, we formally model human decision-making",
+              "url": "https://arxiv.org/html/2502.13062v2#S7",
+              "locator": "7 Discussion · S7",
+              "segment_id": "S7"
+            },
+            {
+              "quote": "In our modeling, we chose assumptions that are",
+              "url": "https://arxiv.org/html/2502.13062v2#S7",
+              "locator": "7 Discussion · S7",
+              "segment_id": "S7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2211-03622",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c47",
+          "paper_id": "arxiv-2211-03622",
+          "kind": "source_finding",
+          "text": "В security coding study доступ к AI-assistant часто сопровождался большим числом уязвимостей. Корректность и безопасность кода нужно проверять отдельно от лёгкости его получения.",
+          "conditions": [
+            "Пользовательский эксперимент. Несколько языков, экспериментальная и контрольная группы."
+          ],
+          "limitations": [
+            "Преимущественно студенческая выборка и исследованная модель ограничивают перенос на современные инструменты."
+          ],
+          "evidence": [
+            {
+              "quote": "In this section, we describe how we designed",
+              "url": "https://arxiv.org/html/2211.03622v3#S3",
+              "locator": "3. Methods · S3",
+              "segment_id": "S3"
+            },
+            {
+              "quote": "Overall, we find that having access to the",
+              "url": "https://arxiv.org/html/2211.03622v3#S4.SS6",
+              "locator": "4. Security Analysis / 4.6. Security Results Summary · S4.SS6",
+              "segment_id": "S4.SS6"
+            },
+            {
+              "quote": "One important limitation of our results is that",
+              "url": "https://arxiv.org/html/2211.03622v3#S7.SS2",
+              "locator": "7. Discussion / 7.2. Limitations · S7.SS2",
+              "segment_id": "S7.SS2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2604-04721",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c48",
+          "paper_id": "arxiv-2604-04721",
+          "kind": "source_finding",
+          "text": "Работа проверяет persistence и independent performance после удаления AI-помощи. Assisted success не рассматривается как достаточное свидетельство самостоятельного обучения.",
+          "conditions": [
+            "Серия экспериментов. Участники Prolific, attention checks и последующие задачи без assistant."
+          ],
+          "limitations": [
+            "Краткие экспериментальные задачи и критерии исключения ограничивают обобщение на долгосрочную профессиональную деградацию."
+          ],
+          "evidence": [
+            {
+              "quote": "We recruited 354354 US-based participants from the online",
+              "url": "https://arxiv.org/html/2604.04721v6#S2.SS1",
+              "locator": "2 Experiment 1: AI impairs unassisted performance and persistence / 2.1 Method · S2.SS1",
+              "segment_id": "S2.SS1"
+            },
+            {
+              "quote": "For the results that follow, we used the",
+              "url": "https://arxiv.org/html/2604.04721v6#S2.SS2",
+              "locator": "2 Experiment 1: AI impairs unassisted performance and persistence / 2.2 Results · S2.SS2",
+              "segment_id": "S2.SS2"
+            },
+            {
+              "quote": "To measure independent problem-solving capacity, the AI assistant",
+              "url": "https://arxiv.org/html/2604.04721v6#S2.SS1",
+              "locator": "2 Experiment 1: AI impairs unassisted performance and persistence / 2.1 Method · S2.SS1",
+              "segment_id": "S2.SS1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2611-12019",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c49",
+          "paper_id": "arxiv-2611-12019",
+          "kind": "source_finding",
+          "text": "При code comprehension взаимодействие с AI может добавлять нагрузку управления инструментом, даже когда работа субъективно кажется проще. Cognitive load нужно измерять несколькими способами.",
+          "conditions": [
+            "Пользовательское исследование. 20 анализируемых участников после исключений."
+          ],
+          "limitations": [
+            "Малая выборка; tDRT является косвенной мерой, а не прямым измерением понимания."
+          ],
+          "evidence": [
+            {
+              "quote": "Participants completed six Java comprehension tasks. Within each",
+              "url": "https://arxiv.org/html/2611.12019v1#S3",
+              "locator": "III Research Methodology · S3",
+              "segment_id": "S3"
+            },
+            {
+              "quote": "Twenty-two participants completed the study, but data from",
+              "url": "https://arxiv.org/html/2611.12019v1#S4",
+              "locator": "IV Analyses and Results · S4",
+              "segment_id": "S4"
+            },
+            {
+              "quote": "A comprehension aid that adds load. Prior work",
+              "url": "https://arxiv.org/html/2611.12019v1#S5",
+              "locator": "V Discussion, Limitations and Implications · S5",
+              "segment_id": "S5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2410-16560",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c50",
+          "paper_id": "arxiv-2410-16560",
+          "kind": "source_finding",
+          "text": "Давление performance взаимодействует со способом объяснения совета. Одинаковое требование ускориться или быть точнее может по-разному менять advice-taking в разных XAI conditions.",
+          "conditions": [
+            "Эксперимент. Baseline, LIME и GenAI; задача распознавания отзывов."
+          ],
+          "limitations": [
+            "Низкорисковые crowdworker tasks; часть результатов использует uncorrected p-values."
+          ],
+          "evidence": [
+            {
+              "quote": "We sample 24 reviews from the test set,",
+              "url": "https://arxiv.org/html/2410.16560v3#S3.SS5.SSS0.Px1",
+              "locator": "3 Experiment / 3.5 Experiment Setup / Items. · S3.SS5.SSS0.Px1",
+              "segment_id": "S3.SS5.SSS0.Px1"
+            },
+            {
+              "quote": "After filtering for failed attention checks, we collected",
+              "url": "https://arxiv.org/html/2410.16560v3#S4",
+              "locator": "4 Results · S4",
+              "segment_id": "S4"
+            },
+            {
+              "quote": "Our experiments in manipulating environmental pressure used an",
+              "url": "https://arxiv.org/html/2410.16560v3#Sx1",
+              "locator": "Limitations · Sx1",
+              "segment_id": "Sx1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "synthesis": {
+    "title": "Как помощь ИИ влияет на самостоятельность суждений?",
+    "sections": [
+      {
+        "key": "brief",
+        "title": "Короткий ответ",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Качество результата с ИИ, доверие к совету и способность решить задачу без инструмента — разные величины. Их нельзя оценить одной метрикой удобства или скорости.",
+            "claim_ids": [
+              "c2",
+              "c6",
+              "c38",
+              "c49"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Объяснение, forcing и scaffold помогают при определённых задачах, но универсального улучшения нет. Важны обнаружение неверного совета, стоимость проверки и перенос в следующую самостоятельную задачу.",
+            "claim_ids": [
+              "c12",
+              "c3",
+              "c5",
+              "c35"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Повторное использование ИИ без обратной связи не гарантирует правильной калибровки доверия; выбор baseline и доступ к ground truth меняют вывод.",
+            "claim_ids": [
+              "c43",
+              "c32"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "scope",
+        "title": "Какой вопрос мы рассматриваем",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Корпус: 50 работ, выбранных по исследовательскому вопросу. Различаются 6 тематических групп. Обзоры и концептуальные предложения не считаются самостоятельными подтверждающими экспериментами.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Поиск: 22 ноября 2026 года, arXiv, по 200 результатов на направление; затем тематический отбор и проверка доступности полных текстов. Недоступная работа не засчитана и заменена релевантным доступным источником. Охват просмотра указан в каждой карточке; полнота литературы не установлена.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "mechanism",
+        "title": "Три разных результата",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Калиброванное доверие: участник использует правильный совет и отвергает неправильный. Без ошибочных советов в тесте нельзя измерить overreliance только по общей точности.",
+            "claim_ids": [
+              "c1",
+              "c5"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Комплементарность: человек с ИИ должен сравниваться и с человеком, и с ИИ по отдельности. Превосходство над человеком без помощи ещё не означает сильную синергию.",
+            "claim_ids": [
+              "c2"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Формирование навыка: после помощи нужна отдельная проверка без инструмента. Самооценка критического мышления, верификационное поведение и результат теста — разные наблюдения.",
+            "claim_ids": [
+              "c6",
+              "c7"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "approaches",
+        "title": "Какие подходы сопоставляем",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Измерение: trust attitudes, agreement, compliance и appropriate reliance — разные конструкции. Поведенческая история может предсказывать действия лучше самоотчёта. Рядом со шкалой нужен наблюдаемый критерий.",
+            "claim_ids": [
+              "c15",
+              "c22",
+              "c16",
+              "c33"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Калибровка: интерактивность, urgency и личная уверенность влияют на принятие совета. Проверять нужно правильные и неправильные рекомендации отдельно и учитывать внешнюю обратную связь.",
+            "claim_ids": [
+              "c8",
+              "c26",
+              "c29",
+              "c43"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Мотивация: проверка требует времени и усилия. Стимулы и дизайн объяснения меняют их цену; субъективная лёгкость может расходиться с измеренным качеством и нагрузкой.",
+            "claim_ids": [
+              "c9",
+              "c12",
+              "c50",
+              "c49"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Интерфейс: conversational XAI, examples при onboarding, counterfactuals и вопросы к плану проверяются как разные вмешательства. Одного общего названия «explainability» недостаточно.",
+            "claim_ids": [
+              "c11",
+              "c25",
+              "c19",
+              "c28"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Комплементарность: человек+ИИ сравнивается с обоими по отдельности. Алгоритм рекомендации, реакция пользователя и его обучение рассматриваются как совместная система.",
+            "claim_ids": [
+              "c2",
+              "c17",
+              "c23",
+              "c46",
+              "c32"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Навык: выполненная с помощником задача не заменяет retest. Код, заметки и logic puzzles показывают разные компромиссы; часть наблюдаемых retest-различий статистически неопределённа.",
+            "claim_ids": [
+              "c6",
+              "c39",
+              "c41",
+              "c45",
+              "c48"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "comparison",
+        "title": "Сопоставление дизайнов",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "В таблице 50 публикаций. Выберите тематическую группу или найдите работу по названию. Тип исследования указан отдельно: строки нельзя складывать в общий рейтинг или считать независимыми подтверждениями одного эффекта.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "disagreements",
+        "title": "Почему выводы могут расходиться",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "«Объяснения уменьшают overreliance» и «разговорный XAI может его увеличить» не образуют простого противоречия. Объяснение может сделать ошибку заметнее или лишь придать совету убедительность; задачи и control conditions различаются.",
+            "claim_ids": [
+              "c12",
+              "c11",
+              "c19"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Ощущение полезности, субъективная уверенность и объективное обучение могут двигаться в разные стороны. Предпочтение автоматического режима не является доказательством его учебной ценности.",
+            "claim_ids": [
+              "c39",
+              "c38",
+              "c35",
+              "c49"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Меньшее agreement с антропоморфной системой не равно лучшей точности. Отсутствие общего automation bias не исключает selective adherence к стереотипам.",
+            "claim_ids": [
+              "c24",
+              "c21"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Незначимое снижение retest не следует описывать как доказанный вред. Теоретическая модель навыка также не заменяет эксперимент: её результат зависит от того, разрешено ли обучение через engaged AI-use.",
+            "claim_ids": [
+              "c41",
+              "c36",
+              "c46"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Process traces помогают исследовать delegation, но симулированный паттерн не доказывает реальное нарушение или потерю навыка. Измерительный инструмент и причинное объяснение — разные результаты.",
+            "claim_ids": [
+              "c40",
+              "c27",
+              "c7"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "practice",
+        "title": "Как применить к своему исследованию",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Определить рабочую задачу и проверяемую ошибку. Отдельно задать: точность, время, исправление ошибочного совета, ложное отклонение верного совета и результат теста без ИИ.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Сравнить человек без ИИ, ИИ отдельно, обычный совет и интерфейс с самостоятельной попыткой перед советом. Уравнять задания и качество рекомендаций; заранее определить primary outcome и анализ мощности.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Собирать самоотчёт после поведения, а не вместо него. Предусмотреть согласие участников, процедуру раскрытия намеренно внесённых ошибок и проверку протокола до набора. Это проект исследования, не проведённое испытание.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "questions",
+        "title": "Следующая проверяемая гипотеза",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Гипотеза: самостоятельная попытка перед советом помогает заметить ошибочный совет и сохранить навык лучше, чем готовый ответ с объяснением. Сравнение: одинаковый набор задач, случайное распределение интерфейсов, немедленный тест и отложенный тест без ИИ.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Опровергающий результат: при достаточной мощности нет выигрыша по заранее выбранному тесту навыка либо цена во времени превышает установленный порог полезности. Не считать красивый готовый ответ подтверждением гипотезы.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "reading",
+        "title": "Маршрут чтения",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Начать с различия baseline у Vaccaro и коллег, затем посмотреть дизайн Buçinca и соавторов. После этого сопоставить writing-задачи с отдельным тестом освоения библиотеки.",
+            "claim_ids": [
+              "c2",
+              "c1",
+              "c5",
+              "c6"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Для собственного протокола изучить ограничения провокаций и psychometric validation, а концептуальную работу использовать как список вопросов к измерению.",
+            "claim_ids": [
+              "c3",
+              "c7",
+              "c4"
+            ]
+          }
+        ]
+      }
+    ],
+    "concepts": [
+      {
+        "id": "reliance",
+        "name": "Overreliance",
+        "definition": {
+          "kind": "synthesis",
+          "text": "Следование ошибочному совету вместо самостоятельной проверки.",
+          "claim_ids": [
+            "c1",
+            "c5"
+          ]
+        },
+        "statements": [],
+        "disagreements": []
+      },
+      {
+        "id": "synergy",
+        "name": "Сильная синергия",
+        "definition": {
+          "kind": "synthesis",
+          "text": "Система человек+ИИ лучше и человека, и ИИ по отдельности.",
+          "claim_ids": [
+            "c2"
+          ]
+        },
+        "statements": [],
+        "disagreements": []
+      },
+      {
+        "id": "formation",
+        "name": "Формирование навыка",
+        "definition": {
+          "kind": "synthesis",
+          "text": "Освоение, проверяемое отдельно от результата работы с подсказкой.",
+          "claim_ids": [
+            "c6"
+          ]
+        },
+        "statements": [],
+        "disagreements": []
+      }
+    ]
+  },
+  "comparison": [
+    {
+      "paper_id": "arxiv-2102-09692",
+      "method": "Сначала самостоятельное решение, совет по запросу или с задержкой.",
+      "guarantee": "Меньше ошибочного следования совету в изученных условиях; не универсальная защита.",
+      "setup": "Контролируемое сравнение интерфейсов, включая No AI и простое XAI.",
+      "claim_ids": [
+        "c1"
+      ],
+      "theme": "Объяснения и интерфейс",
+      "study_type": "Эксперимент"
+    },
+    {
+      "paper_id": "arxiv-2405-06087",
+      "method": "Сопоставление человек / ИИ / человек с ИИ.",
+      "guarantee": "Положительный результат зависит от выбранного baseline; сильная синергия в среднем не подтверждена.",
+      "setup": "Метаанализ исследований с тремя условиями, анализ модераторов.",
+      "claim_ids": [
+        "c2"
+      ],
+      "theme": "Комплементарность и baseline",
+      "study_type": "Метаанализ"
+    },
+    {
+      "paper_id": "arxiv-2501-17247",
+      "method": "Контраргументы и вопросы к критериям отбора.",
+      "guarantee": "Полезный дизайн-кандидат; количественный эффект не установлен для основных сравниваемых показателей.",
+      "setup": "24 участника, интервью и поведенческие/опросные показатели.",
+      "claim_ids": [
+        "c3"
+      ],
+      "theme": "Объяснения и интерфейс",
+      "study_type": "Пользовательское исследование"
+    },
+    {
+      "paper_id": "arxiv-2509-08010",
+      "method": "Разделить измерение ошибочной зависимости и способы её снижения.",
+      "guarantee": "Исследовательская повестка, а не численный эффект вмешательства.",
+      "setup": "Концептуальная работа с обсуждением рисков, метрик и альтернативных взглядов.",
+      "claim_ids": [
+        "c4"
+      ],
+      "theme": "Понятия и измерение",
+      "study_type": "Концептуальная работа"
+    },
+    {
+      "paper_id": "arxiv-2601-18033",
+      "method": "Проверка предположений и вопросы WhatIf к плану.",
+      "guarantee": "Значимо одно конкретное сравнение, а не преимущество всех вмешательств над отсутствием вмешательства.",
+      "setup": "Рандомизированное сравнение четырёх условий; коррекция множественных сравнений.",
+      "claim_ids": [
+        "c5"
+      ],
+      "theme": "Объяснения и интерфейс",
+      "study_type": "Эксперимент"
+    },
+    {
+      "paper_id": "arxiv-2601-20245",
+      "method": "Раздельно измерить выполнение задачи и освоение нового навыка.",
+      "guarantee": "Снижение результата последующего теста в этом исследовании; долгосрочный перенос неизвестен.",
+      "setup": "Рандомизированный доступ к AI-помощи и последующий тест, плюс качественная классификация поведения.",
+      "claim_ids": [
+        "c6"
+      ],
+      "theme": "Навык и самостоятельная работа",
+      "study_type": "Эксперимент"
+    },
+    {
+      "paper_id": "arxiv-2512-12413",
+      "method": "Разделить склонность к проверке и наблюдаемую успешность проверки.",
+      "guarantee": "Диагностический инструмент с данными о валидности, а не универсальный тест автономности.",
+      "setup": "Шесть исследований; опросная шкала, test–retest и отдельная fact-checking-задача.",
+      "claim_ids": [
+        "c7"
+      ],
+      "theme": "Понятия и измерение",
+      "study_type": "Психометрическое исследование"
+    },
+    {
+      "paper_id": "arxiv-2603-05229",
+      "method": "Межгрупповое онлайн-сравнение workflow и объяснений.",
+      "guarantee": "В эксперименте reported trust зависел от сочетания объяснения и порядка принятия решения: значимо взаимодействие факторов, а не их изолированное общее действие. Эффект на сообщаемое доверие нельзя автоматически считать улучшением поведения.",
+      "setup": "300 участников, бинарные решения в сценарии вымышленной организации. Ограничение: Самоотчёт о доверии и фактическая reliance требуют отдельных метрик; сценарий ограничен изученной задачей.",
+      "claim_ids": [
+        "c8"
+      ],
+      "theme": "Доверие и калибровка",
+      "study_type": "Эксперимент"
+    },
+    {
+      "paper_id": "arxiv-2511-09612",
+      "method": "Сравнение baseline, статических и динамических стимулов.",
+      "guarantee": "Бонусы за самостоятельную обработку отдельных примеров меняют reliance. В динамическом условии выигрыш точности относительно baseline обнаружен на примерах с бонусом; на примерах без бонуса значимого различия не найдено.",
+      "setup": "180 участников, классификация изображений; анализ примеров с бонусом и без него. Ограничение: Изменение стимулов в этой задаче не устанавливает эффект в организациях с другими издержками и целями.",
+      "claim_ids": [
+        "c9"
+      ],
+      "theme": "Мотивация и стоимость проверки",
+      "study_type": "Эксперимент"
+    },
+    {
+      "paper_id": "arxiv-2610-15136",
+      "method": "Концептуальное различение small-world и large-world решений.",
+      "guarantee": "Авторы различают хорошо заданные задачи и открытые ситуации: trust calibration полезна при известных исходах и полезностях, но не исчерпывает согласование человека и ИИ при меняющихся целях и неизвестных последствиях.",
+      "setup": "Анализ рамки доверия, неопределённости и двунаправленного alignment. Ограничение: Это аргумент о границах постановки, а не причинная оценка вреда доверия в пользовательском эксперименте.",
+      "claim_ids": [
+        "c10"
+      ],
+      "theme": "Понятия и измерение",
+      "study_type": "Концептуальная работа"
+    },
+    {
+      "paper_id": "arxiv-2501-17546",
+      "method": "Сравнение интерфейсов объяснения, включая разговорный XAI.",
+      "guarantee": "Разговорный XAI может повышать воспринимаемую полезность объяснений, одновременно усиливая ошибочное следование совету. Оценку удобства разговора необходимо отделять от способности отвергать неверный прогноз.",
+      "setup": "Задача оценки кредитоспособности; perceived utility и reliance рассматриваются раздельно. Ограничение: Результат зависит от домена, конкретных объяснений и задач; увеличение интерактивности само по себе не является защитой.",
+      "claim_ids": [
+        "c11"
+      ],
+      "theme": "Объяснения и интерфейс",
+      "study_type": "Эксперимент"
+    },
+    {
+      "paper_id": "arxiv-2212-06823",
+      "method": "Серия исследований cost–benefit рамки проверки советов.",
+      "guarantee": "Пять исследований поддерживают cost–benefit объяснение overreliance: объяснения уменьшают ошибочное следование, когда облегчают обнаружение ошибки и снижают стоимость самостоятельного решения. Важен конкретный вид объяснения.",
+      "setup": "Низкорисковая задача прохождения лабиринта; варьируются трудность и вид объяснения. Ограничение: Авторы отдельно ограничивают перенос на высокорисковые решения; результат не означает полезности любых объяснений.",
+      "claim_ids": [
+        "c12"
+      ],
+      "theme": "Мотивация и стоимость проверки",
+      "study_type": "Серия экспериментов"
+    },
+    {
+      "paper_id": "arxiv-2301-07255",
+      "method": "Анализ решений и рассуждений участников при объяснённых прогнозах.",
+      "guarantee": "В принятии советов участвует интуиция о правильном исходе и об ограничениях ИИ. Объяснения становятся материалом для интерпретации, а не независимой гарантией того, что человек будет правильно использовать прогноз.",
+      "setup": "Предсказание дохода и классификация профессии по биографии. Ограничение: Дизайн не полностью изолирует исходную интуицию от знакомства с советом; качественные наблюдения не равны универсальной причинной модели reliance.",
+      "claim_ids": [
+        "c13"
+      ],
+      "theme": "Доверие и калибровка",
+      "study_type": "Исследование взаимодействия"
+    },
+    {
+      "paper_id": "arxiv-2501-16627",
+      "method": "Сопоставление механизмов объяснения и вовлечения пользователя.",
+      "guarantee": "Сравнение XAI и cognitive forcing показывает компромисс между рефлексией, усилием и выполнением задачи: вопросы и feedback могут стимулировать размышление, но не обязательно улучшают task performance. Оценку trust нужно читать вместе с reliance на неверный совет.",
+      "setup": "Решения с правильными и неправильными AI-подсказками. Ограничение: Изучены конкретные интерфейсы и задачи; рост когнитивного усилия не является самостоятельным критерием успеха.",
+      "claim_ids": [
+        "c14"
+      ],
+      "theme": "Объяснения и интерфейс",
+      "study_type": "Эксперимент"
+    },
+    {
+      "paper_id": "arxiv-2205-00189",
+      "method": "Картирование моделей, определений и методов измерения доверия.",
+      "guarantee": "Scoping review обнаруживает неоднородность определений trust, слабую связь многих работ с установленными теориями и неполное описание методов. Поэтому одинаковое слово trust не делает результаты разных интерфейсов сопоставимыми.",
+      "setup": "Обзор human–AI interaction, поиск в августе 2021 года; текст PDF. Ограничение: Вторичный исторический источник охватывает широкий класс систем; это не самостоятельный эксперимент с современными LLM.",
+      "claim_ids": [
+        "c15"
+      ],
+      "theme": "Понятия и измерение",
+      "study_type": "Scoping review"
+    },
+    {
+      "paper_id": "arxiv-2604-23896",
+      "method": "Обзор измерительных конструктов и objective metrics.",
+      "guarantee": "Обзор различает trust, reliance и appropriate reliance и выделяет разные способы операционализации reliance. Нужны согласованные объективные метрики и проверка их валидности в выбранной прикладной задаче.",
+      "setup": "Поиск SCOPUS и ACM DL, анализ human–AI decision-making. Ограничение: Фокус на appropriate reliance может исключать работы, использующие другую терминологию; обзор не задаёт единый универсальный численный индекс.",
+      "claim_ids": [
+        "c16"
+      ],
+      "theme": "Понятия и измерение",
+      "study_type": "Обзор измерения"
+    },
+    {
+      "paper_id": "arxiv-2202-05983",
+      "method": "Оптимизация совета с учётом поведения человека.",
+      "guarantee": "Оптимизировать следует итоговое решение человека с моделью, а не только прогноз модели отдельно. Работа исследует преобразование AI-рекомендаций под реакцию пользователя и проверяет подход на нескольких задачах и симуляциях.",
+      "setup": "Четыре задачи с изображениями, текстом и таблицами; эмпирическая и симуляционная части. Ограничение: Надёжность выученной реакции пользователя в реальном внедрении остаётся вопросом; заголовок не является разрешением скрывать искажение прогноза.",
+      "claim_ids": [
+        "c17"
+      ],
+      "theme": "Комплементарность и baseline",
+      "study_type": "Эксперимент и моделирование"
+    },
+    {
+      "paper_id": "arxiv-2404-01615",
+      "method": "Процессная концептуальная рамка collaborative trust.",
+      "guarantee": "CHAI-T рассматривает доверие как развивающийся процесс: предшествующие установки, взаимодействие команды и результаты влияют друг на друга во времени. Это полезная структура для выбора повторных измерений, а не доказанная интервенция.",
+      "setup": "Синтез моделей trust и командных процессов; PDF. Ограничение: Предложение рамки не устанавливает причинный эффект конкретного интерфейса и не подменяет наблюдение поведения.",
+      "claim_ids": [
+        "c18"
+      ],
+      "theme": "Понятия и измерение",
+      "study_type": "Концептуальная работа"
+    },
+    {
+      "paper_id": "arxiv-2308-04375",
+      "method": "Сравнение salient-feature и counterfactual explanations.",
+      "guarantee": "Эффект объяснений различается между специалистами и неспециалистами и зависит от правильности совета. Контрфактуальные объяснения надо оценивать на ошибочных примерах отдельно: средний human+AI score может скрывать ухудшение.",
+      "setup": "Терапевты и неспециалисты, human-alone и human+AI условия. Ограничение: Это исследование поведения в конкретной клинической задаче, а не клиническая рекомендация; интерфейс и визуальное представление ограничивают перенос.",
+      "claim_ids": [
+        "c19"
+      ],
+      "theme": "Объяснения и интерфейс",
+      "study_type": "Пользовательское исследование"
+    },
+    {
+      "paper_id": "arxiv-2102-05460",
+      "method": "Концептуальный анализ Decision-Making with AI in the loop.",
+      "guarantee": "Position paper предлагает рассматривать объяснение как часть отношений человека и системы и как поддержку обоснования решения, а не только как свойство алгоритма. Требования к объяснению зависят от роли участника решения.",
+      "setup": "Разбор аргументов и случая из литературы; PDF. Ограничение: Не новый контролируемый эксперимент; рамка не устанавливает количественного снижения overreliance.",
+      "claim_ids": [
+        "c20"
+      ],
+      "theme": "Понятия и измерение",
+      "study_type": "Концептуальная работа"
+    },
+    {
+      "paper_id": "arxiv-2103-02381",
+      "method": "Три эксперимента с алгоритмическими рекомендациями.",
+      "guarantee": "В трёх исследованиях авторы не находят общего автоматического предпочтения алгоритмического совета; отдельно рассматривается selective adherence — принятие совета, совпадающего со стереотипами. Общую automation bias и избирательное следование нельзя смешивать.",
+      "setup": "Публичное администрирование в Нидерландах; сравнение советов и контекстов. Ограничение: Контекст государственного решения и конкретные манипуляции ограничивают перенос на разговорные LLM.",
+      "claim_ids": [
+        "c21"
+      ],
+      "theme": "Доверие и калибровка",
+      "study_type": "Серия экспериментов"
+    },
+    {
+      "paper_id": "arxiv-2311-06305",
+      "method": "Систематический обзор мер и способов формирования trust.",
+      "guarantee": "Систематический обзор показывает, что perceived trust и согласование с надёжностью системы измеряются разными способами. Самооценка может зависеть от внешнего вида и поведения системы, поэтому её недостаточно для вывода об appropriate reliance.",
+      "setup": "Human–AI interaction; определения, метрики и методы. Ограничение: Вторичный источник; исторический и терминологический охват ограничивает полноту.",
+      "claim_ids": [
+        "c22"
+      ],
+      "theme": "Понятия и измерение",
+      "study_type": "Систематический обзор"
+    },
+    {
+      "paper_id": "arxiv-2405-01484",
+      "method": "Каузальная модель рекомендации и пользовательский эксперимент.",
+      "guarantee": "Рекомендацию предлагается проектировать с учётом того, как человек меняет решение, а не как замену автономному прогнозу. Каузальная постановка проверяется в эксперименте, моделирующем hiring task.",
+      "setup": "Бинарное решение, сравнение recommendation algorithms и automation benchmark. Ограничение: Симуляция найма не доказывает результат в реальных кадровых решениях; важны отбор участников и предпосылки модели.",
+      "claim_ids": [
+        "c23"
+      ],
+      "theme": "Комплементарность и baseline",
+      "study_type": "Модель и эксперимент"
+    },
+    {
+      "paper_id": "arxiv-2404-00634",
+      "method": "Манипуляции framing и антропоморфизмом.",
+      "guarantee": "В эксперименте framing не дал значимых различий в согласии с рекомендациями, а антропоморфный интерфейс уменьшал согласие. Меньшее согласие само по себе ещё не означает более правильного решения.",
+      "setup": "750 набранных участников Prolific, английский опрос. Ограничение: Agreement rate необходимо отличать от точности и калибровки по правильности совета.",
+      "claim_ids": [
+        "c24"
+      ],
+      "theme": "Объяснения и интерфейс",
+      "study_type": "Эксперимент"
+    },
+    {
+      "paper_id": "arxiv-2409-15814",
+      "method": "Интервью и сравнение способов onboarding.",
+      "guarantee": "Примеры при onboarding помогали специалистам откалибровать reliance лучше, чем только feature explanations в момент решения. Обучение работе с инструментом следует отделять от формы текущего объяснения.",
+      "setup": "Терапевты, Example+Features против Features. Ограничение: Один профессиональный контекст и конкретная система; перенос на другие задачи требует проверки.",
+      "claim_ids": [
+        "c25"
+      ],
+      "theme": "Объяснения и интерфейс",
+      "study_type": "Пользовательское исследование"
+    },
+    {
+      "paper_id": "arxiv-2604-07535",
+      "method": "Сравнение доверия до и после задачи.",
+      "guarantee": "Небольшое исследование связывает подготовку к AI-interaction и срочность с самооценкой уверенности. Рост trust после взаимодействия не позволил однозначно установить его механизм.",
+      "setup": "30 участников, преимущественно студенты computer science. Ограничение: Малая и однородная выборка; субъективная уверенность не заменяет объективный результат.",
+      "claim_ids": [
+        "c26"
+      ],
+      "theme": "Доверие и калибровка",
+      "study_type": "Эксперимент"
+    },
+    {
+      "paper_id": "arxiv-2607-12180",
+      "method": "Платформа контролируемых teaming experiments и пилот.",
+      "guarantee": "TRAIL делает экспериментальные свойства AI-teammate настраиваемыми: задачи, условия, persona и порядок сессий фиксируются исследователем. Пилот показывает возможность изучать доверие и взаимодействие во времени.",
+      "setup": "Студенческое развёртывание с изменением persona. Ограничение: Инфраструктурная воспроизводимость и пилот не доказывают универсальную эффективность одной persona.",
+      "claim_ids": [
+        "c27"
+      ],
+      "theme": "Понятия и измерение",
+      "study_type": "Инструмент и пилот"
+    },
+    {
+      "paper_id": "arxiv-2602-10222",
+      "method": "Сравнение Human-only, Recommender, Analyzer и AACT.",
+      "guarantee": "AI-assisted critical thinking снижает overreliance ценой дополнительной нагрузки. При этом авторы прямо отмечают: стандартные decision metrics не являются прямым измерением способности критически мыслить.",
+      "setup": "402 валидных участника после исключений, повторные decision tasks. Ограничение: Не измерен напрямую перенос критического мышления; важны subgroup effects и стоимость усилия.",
+      "claim_ids": [
+        "c28"
+      ],
+      "theme": "Объяснения и интерфейс",
+      "study_type": "Эксперимент"
+    },
+    {
+      "paper_id": "arxiv-2304-14130",
+      "method": "Сравнение explanation и uncertainty conditions.",
+      "guarantee": "Совместная подача объяснений и uncertainty требует учитывать исходную уверенность человека. Switching и agreement могут искажать интерпретацию, если не сопоставлены с индивидуальной точностью и правильностью совета.",
+      "setup": "112 участников MTurk; assisted и unassisted performance. Ограничение: Выборка жителей США и конкретные задачи ограничивают межкультурный перенос.",
+      "claim_ids": [
+        "c29"
+      ],
+      "theme": "Доверие и калибровка",
+      "study_type": "Эксперимент"
+    },
+    {
+      "paper_id": "arxiv-2508-09033",
+      "method": "Четыре treatment conditions и контроль.",
+      "guarantee": "Сообщать сильные и слабые стороны модели полезнее оценивать отдельно от объяснения одного прогноза. В исследовании есть положительные task findings, но self-reported understanding не различался значимо между группами.",
+      "setup": "Прогноз дохода; performance, calibration и самоотчёт. Ограничение: Один домен и способы подачи информации; разные виды измерений не следует объединять в единый эффект.",
+      "claim_ids": [
+        "c30"
+      ],
+      "theme": "Объяснения и интерфейс",
+      "study_type": "Эксперимент"
+    },
+    {
+      "paper_id": "arxiv-2409-08937",
+      "method": "Сравнение Formulate, Read First и Highlight.",
+      "guarantee": "В генеративной задаче forcing-функция может привести к добавлению ошибочного AI-текста к уже правильному собственному ответу. Нужно различать назначенное вмешательство и реально показанное вмешательство.",
+      "setup": "34 участника, content-grounded generation и качество данных. Ограничение: Небольшая выборка и доменная постановка; эффект нельзя переносить из традиционной классификации без проверки.",
+      "claim_ids": [
+        "c31"
+      ],
+      "theme": "Объяснения и интерфейс",
+      "study_type": "Пользовательское исследование"
+    },
+    {
+      "paper_id": "arxiv-2510-26518",
+      "method": "Confidence-based hybridization и десять between-subjects experiments.",
+      "guarantee": "Для amplified oversight проверяется объединение human и AI ratings с учётом confidence и показываемых свидетельств. Полезность search results и evidence отличается от предъявления готового judgment.",
+      "setup": "Варьируются search, evidence, reasoning, judgment и confidence. Ограничение: Метод требует калиброванной confidence AI-rater; наблюдения не доказывают oversight систем любого уровня.",
+      "claim_ids": [
+        "c32"
+      ],
+      "theme": "Комплементарность и baseline",
+      "study_type": "Серия экспериментов"
+    },
+    {
+      "paper_id": "arxiv-2302-01854",
+      "method": "Сравнение предикторов в трёх ранее собранных datasets.",
+      "guarantee": "Поведение в ранних взаимодействиях лучше предсказывает последующее compliance, чем самоотчётная склонность доверять. Это аргумент в пользу поведенческого baseline рядом с психометрическими шкалами.",
+      "setup": "Начальные действия, последующие compliance decisions и trust attitudes. Ограничение: Предсказательная связь не доказывает причинный эффект вмешательства; используются существующие datasets.",
+      "claim_ids": [
+        "c33"
+      ],
+      "theme": "Понятия и измерение",
+      "study_type": "Вторичный эмпирический анализ"
+    },
+    {
+      "paper_id": "arxiv-2607-21306",
+      "method": "Benchmark мониторинга и вмешательства AI-наставника.",
+      "guarantee": "В Int-Bench LLM-наставники вмешиваются рано и часто, чаще дают полное решение, чем адресную подсказку; улучшение немедленного успеха не гарантирует generalization. Сравнение поведения с людьми не заменяет длительное исследование обучения.",
+      "setup": "Standard monitoring и сравнение интервенций. Ограничение: Перенос benchmark-эффекта на развитие человеческого навыка требует отдельного теста.",
+      "claim_ids": [
+        "c34"
+      ],
+      "theme": "Навык и самостоятельная работа",
+      "study_type": "Benchmark"
+    },
+    {
+      "paper_id": "arxiv-2610-30945",
+      "method": "Рандомизированный межгрупповой writing experiment.",
+      "guarantee": "Метакогнитивный scaffold в writing-задаче создаёт дополнительное усилие: участники могут оценивать систему как менее полезную, одновременно выполняя работу лучше. Удобство и качество измерены раздельно.",
+      "setup": "Две задачи, последующая работа без scaffold, rubric-based оценка. Ограничение: LLM judge может предпочитать структуру текста содержанию; перенос ограничен выбранными writing tasks.",
+      "claim_ids": [
+        "c35"
+      ],
+      "theme": "Мотивация и стоимость проверки",
+      "study_type": "Эксперимент"
+    },
+    {
+      "paper_id": "arxiv-2611-06346",
+      "method": "Теоретическое расширение accept-or-solve.",
+      "guarantee": "Модель стимулов рассматривает повторяющиеся задачи, где решение принять помощь или решить самому меняет будущую квалификацию. Оптимальное распределение помощи зависит от долгосрочной цели навыка.",
+      "setup": "Последовательность задач одного семейства и динамика навыка. Ограничение: Предполагается обучение через самостоятельное решение; engaged AI-use может изменить выводы.",
+      "claim_ids": [
+        "c36"
+      ],
+      "theme": "Навык и самостоятельная работа",
+      "study_type": "Теоретическая модель"
+    },
+    {
+      "paper_id": "arxiv-2605-20355",
+      "method": "Shared-control планирование и сравнение baselines.",
+      "guarantee": "Proximal State Nudging проектирует помощь с учётом последующего самостоятельного навыка. Метод проверяется на simulated learners и людях в CARLA, а не только по assisted performance.",
+      "setup": "LunarLander и две driving-задачи CARLA, 60 участников. Ограничение: Симулятор и ограниченные motor tasks не устанавливают эффект в интеллектуальном труде.",
+      "claim_ids": [
+        "c37"
+      ],
+      "theme": "Навык и самостоятельная работа",
+      "study_type": "Модель и пользовательский эксперимент"
+    },
+    {
+      "paper_id": "arxiv-2604-09444",
+      "method": "Формативная работа и сравнение вариантов интерфейса.",
+      "guarantee": "Уверенность, усилие и освоение материала расходятся: полные ответы могут создавать ощущение понимания, тогда как guided hints и future-self explanations дают иной баланс измеренного обучения и нагрузки.",
+      "setup": "Студенты, objective learning и perceived understanding. Ограничение: Convenience sampling и конкретные задачи ограничивают перенос; самооценка не равна компетенции.",
+      "claim_ids": [
+        "c38"
+      ],
+      "theme": "Навык и самостоятельная работа",
+      "study_type": "Пользовательское исследование"
+    },
+    {
+      "paper_id": "arxiv-2509-03392",
+      "method": "Сравнение уровней AI-помощи.",
+      "guarantee": "При note-taking промежуточная помощь дала лучшие post-test результаты, чем полная автоматизация, хотя участники предпочитали удобство автоматического режима.",
+      "setup": "30 участников, заметки по видео и проверка понимания. Ограничение: Малая выборка и ограниченные видеоматериалы; предпочтение интерфейса не доказывает учебную пользу.",
+      "claim_ids": [
+        "c39"
+      ],
+      "theme": "Навык и самостоятельная работа",
+      "study_type": "Эксперимент"
+    },
+    {
+      "paper_id": "arxiv-2609-17883",
+      "method": "Анализ process traces и simulated delegation.",
+      "guarantee": "Временные признаки работы исследуются как индикатор полной передачи задачи ИИ, а не любого использования помощи. Положительная классификация на симуляции требует проверки в реальной учебной работе.",
+      "setup": "Три существующих datasets; новые human data не собирались. Ограничение: Симулированная delegation не равна реальному cheating; classifier flag не доказывает утрату навыка или нарушение.",
+      "claim_ids": [
+        "c40"
+      ],
+      "theme": "Понятия и измерение",
+      "study_type": "Вторичный анализ и симуляция"
+    },
+    {
+      "paper_id": "arxiv-2604-18538",
+      "method": "Human–AI против human–human pair programming.",
+      "guarantee": "AI-pair programming ускоряет совместное выполнение, но retest нужно анализировать отдельно: абсолютное снижение в AI-условии не было значимым. Нельзя превращать его в доказанный эффект забывания.",
+      "setup": "Новички, командная работа и последующая индивидуальная проверка. Ограничение: Малая выборка и кластеризация делают выводы о retest неопределёнными.",
+      "claim_ids": [
+        "c41"
+      ],
+      "theme": "Навык и самостоятельная работа",
+      "study_type": "Контролируемое исследование"
+    },
+    {
+      "paper_id": "arxiv-2604-19931",
+      "method": "Три дизайна hint-writing assignments.",
+      "guarantee": "Deferred AI assistance используется после самостоятельного составления подсказок к ошибочному коду. Объект исследования — учебная деятельность и критическая проверка, а не только готовая подсказка.",
+      "setup": "Реальный graduate Data Manipulation курс. Ограничение: Учебный контекст содержит возможные confounders; полученный артефакт не является прямой мерой долгосрочного навыка.",
+      "claim_ids": [
+        "c42"
+      ],
+      "theme": "Навык и самостоятельная работа",
+      "study_type": "Учебное исследование"
+    },
+    {
+      "paper_id": "arxiv-2611-14833",
+      "method": "Четыре эксперимента repeated advice.",
+      "guarantee": "Повторное общение не гарантирует правильной калибровки: без внешней обратной связи люди продолжают принимать неверные советы. История точности полезна, когда пользователь получает ground-truth feedback.",
+      "setup": "Helpful, unhelpful и mixed advisors; сравнение с human advisors. Ограничение: Изучены короткие вопросы с известной истиной; во многих реальных решениях своевременная обратная связь недоступна.",
+      "claim_ids": [
+        "c43"
+      ],
+      "theme": "Доверие и калибровка",
+      "study_type": "Серия экспериментов"
+    },
+    {
+      "paper_id": "arxiv-2502-14311",
+      "method": "Модель принятия советов и анализ feasibility.",
+      "guarantee": "Self-confidence shaping рассматривается как способ менять принятие AI-рекомендаций. Возможность предсказывать или сдвигать уверенность не доказывает, что соответствующее воздействие улучшит решения в реальном внедрении.",
+      "setup": "Acceptance Rate и связь self-confidence с sentiment. Ограничение: Практическая эффективность и допустимость изменения уверенности требуют отдельной проверки.",
+      "claim_ids": [
+        "c44"
+      ],
+      "theme": "Доверие и калибровка",
+      "study_type": "Модель и эмпирический анализ"
+    },
+    {
+      "paper_id": "arxiv-2608-23543",
+      "method": "Контролируемая puzzle-задача с фазами оценки.",
+      "guarantee": "В трёхфазной logic-puzzle задаче самостоятельное усилие связано с приростом task-specific способности. Наблюдаемую связь нельзя без дополнительного контроля превращать в эффект любого AI-use.",
+      "setup": "Pre-AI, помощь и subsequent unaided performance. Ограничение: Краткий горизонт и одна задача; выбор запрашивать помощь может зависеть от исходной способности.",
+      "claim_ids": [
+        "c45"
+      ],
+      "theme": "Навык и самостоятельная работа",
+      "study_type": "Эксперимент"
+    },
+    {
+      "paper_id": "arxiv-2502-13062",
+      "method": "Оптимизация стратегии показа признаков.",
+      "guarantee": "Формальная модель учитывает обучение человека в повторных решениях. Выбор показываемых признаков меняет и текущую точность, и будущую информированность пользователя.",
+      "setup": "Повторные решения и формальная динамика обучения. Ограничение: Выводы зависят от простых модельных предпосылок; это не пользовательское доказательство универсального улучшения навыка.",
+      "claim_ids": [
+        "c46"
+      ],
+      "theme": "Комплементарность и baseline",
+      "study_type": "Теоретическая модель"
+    },
+    {
+      "paper_id": "arxiv-2211-03622",
+      "method": "Сравнение выполнения security-related coding tasks.",
+      "guarantee": "В security coding study доступ к AI-assistant часто сопровождался большим числом уязвимостей. Корректность и безопасность кода нужно проверять отдельно от лёгкости его получения.",
+      "setup": "Несколько языков, экспериментальная и контрольная группы. Ограничение: Преимущественно студенческая выборка и исследованная модель ограничивают перенос на современные инструменты.",
+      "claim_ids": [
+        "c47"
+      ],
+      "theme": "Навык и самостоятельная работа",
+      "study_type": "Пользовательский эксперимент"
+    },
+    {
+      "paper_id": "arxiv-2604-04721",
+      "method": "Эксперименты с learning и unaided stages.",
+      "guarantee": "Работа проверяет persistence и independent performance после удаления AI-помощи. Assisted success не рассматривается как достаточное свидетельство самостоятельного обучения.",
+      "setup": "Участники Prolific, attention checks и последующие задачи без assistant. Ограничение: Краткие экспериментальные задачи и критерии исключения ограничивают обобщение на долгосрочную профессиональную деградацию.",
+      "claim_ids": [
+        "c48"
+      ],
+      "theme": "Навык и самостоятельная работа",
+      "study_type": "Серия экспериментов"
+    },
+    {
+      "paper_id": "arxiv-2611-12019",
+      "method": "Java comprehension и tDRT как proxy нагрузки.",
+      "guarantee": "При code comprehension взаимодействие с AI может добавлять нагрузку управления инструментом, даже когда работа субъективно кажется проще. Cognitive load нужно измерять несколькими способами.",
+      "setup": "20 анализируемых участников после исключений. Ограничение: Малая выборка; tDRT является косвенной мерой, а не прямым измерением понимания.",
+      "claim_ids": [
+        "c49"
+      ],
+      "theme": "Мотивация и стоимость проверки",
+      "study_type": "Пользовательское исследование"
+    },
+    {
+      "paper_id": "arxiv-2410-16560",
+      "method": "Манипуляция pressure и XAI.",
+      "guarantee": "Давление performance взаимодействует со способом объяснения совета. Одинаковое требование ускориться или быть точнее может по-разному менять advice-taking в разных XAI conditions.",
+      "setup": "Baseline, LIME и GenAI; задача распознавания отзывов. Ограничение: Низкорисковые crowdworker tasks; часть результатов использует uncorrected p-values.",
+      "claim_ids": [
+        "c50"
+      ],
+      "theme": "Мотивация и стоимость проверки",
+      "study_type": "Эксперимент"
+    }
+  ],
+  "quality": {
+    "warnings": [
+      "Концептуальный обзор 50 целенаправленно выбранных работ; не исчерпывающий систематический обзор. Число публикаций не равно числу независимых экспериментов: есть обзоры, теоретические и архитектурные работы.",
+      "Для новых работ прочитаны выбранные абзацы методов, результатов/обсуждения и ограничений; не все разделы и приложения. Точные версии, фрагменты и SHA-256 сохранены.",
+      "Эксперименты авторов не воспроизводились, независимой научной рецензии нет. Предлагаемые собственные проверки не выполнялись."
+    ]
+  },
+  "changes": {
+    "summary": "50 работ: тематическое сравнение механизмов, условий проверки и ограничений. Отдельно отмечены теория, обзоры и эмпирические исследования."
+  },
+  "publication": {
+    "released_at": "2026-11-22",
+    "note": "50 работ: тематическое сравнение механизмов, условий проверки и ограничений. Отдельно отмечены теория, обзоры и эмпирические исследования.",
+    "preparation": "source_based_editorial",
+    "expert_peer_review": false
+  }
+}

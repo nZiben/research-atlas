@@ -44,6 +44,17 @@ class EditorialPublication(unittest.TestCase):
         self.assertTrue((site / 'related.html').is_file())
         self.assertEqual(len(data['versions']), 1)
 
+    def test_revised_editorial_keeps_the_prior_publication(self):
+        history = self.root / 'reviews/history/efficiency'
+        history.mkdir(parents=True)
+        shutil.copyfile(self.path, history / 'editorial-2026-11-13.json')
+        self.data['snapshot_id'] = 'editorial-2026-11-13.2'
+        write_json(self.path, self.data)
+        site = build_site(self.root / 'library', self.root / 'public')
+        versions = json.loads((site / 'data/topics/efficiency.json').read_text())['versions']
+        self.assertEqual([v['id'] for v in versions], ['editorial-2026-11-13.2', 'editorial-2026-11-13'])
+        self.assertTrue((site / 'exports/efficiency/editorial-2026-11-13/index.html').exists())
+
     def test_unknown_claim_cannot_support_a_conclusion(self):
         self.data['synthesis']['sections'][0]['items'][0]['claim_ids'].append('missing')
         self.reject(self.data)

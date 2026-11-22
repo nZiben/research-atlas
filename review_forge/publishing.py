@@ -126,8 +126,15 @@ def build_site(library: Path, destination: Path) -> Path:
                 versions.append({"id": entry["snapshot_id"], "released_at": entry["released_at"], "note": entry["note"]})
             # Tracked editorial publications are not model-run snapshots or private drafts.
             if not current:
-                current = load_editorial(library.parent / 'reviews' / f'{topic_id}.json')
-                if current:
+                review_root = library.parent / 'reviews'
+                editorial_paths = sorted((review_root / 'history' / topic_id).glob('editorial-*.json')) + [review_root / f'{topic_id}.json']
+                for editorial_path in editorial_paths:
+                    candidate = load_editorial(editorial_path)
+                    if not candidate:
+                        continue
+                    if any(v['id'] == candidate['snapshot_id'] for v in versions):
+                        raise ReviewError('Duplicate editorial version in publication history.')
+                    current = candidate
                     base = temporary / 'exports' / topic_id / current['snapshot_id']
                     write_json(temporary / 'data' / 'reviews' / topic_id / f"{current['snapshot_id']}.json", current)
                     write_text(base / 'references.bib', bibliography(current['papers']))

@@ -1,0 +1,684 @@
+{
+  "schema_version": 1,
+  "kind": "editorial_review",
+  "snapshot_id": "editorial-2026-11-22",
+  "at": "2026-11-22",
+  "review": {
+    "topic": "Как агентам делиться опытом, не распространяя ошибки?",
+    "questions": [
+      "Как агентам делиться опытом, не распространяя ошибки?"
+    ]
+  },
+  "papers": [
+    {
+      "id": "arxiv-2404-09982",
+      "title": "INMS: Memory Sharing for Large Language Model based Agents",
+      "authors": [
+        "Hang Gao",
+        "Yongfeng Zhang"
+      ],
+      "year": 2024,
+      "arxiv_id": "2404.09982v3",
+      "url": "https://arxiv.org/abs/2404.09982v3",
+      "doi": "",
+      "source_sha256": "472b3c0e66471f04b37144c40c94ddb0ff4ae92b7a3e94c3a5c63510f79c5609",
+      "checked_at": "2026-11-22",
+      "read_sections": "Текстовая реализация и механизм §3, эксперименты §4, ограничения §6; версия v3."
+    },
+    {
+      "id": "arxiv-2505-18279",
+      "title": "Collaborative Memory: Multi-User Memory Sharing in LLM Agents with Dynamic Access Control",
+      "authors": [
+        "Alireza Rezazadeh",
+        "Zichao Li",
+        "Ange Lou",
+        "Yuying Zhao",
+        "Wei Wei",
+        "Yujia Bao"
+      ],
+      "year": 2025,
+      "arxiv_id": "2505.18279v1",
+      "url": "https://arxiv.org/abs/2505.18279v1",
+      "doi": "",
+      "source_sha256": "e83c35d151705052883763d0a0f1e1e77c26630cfeb52d7f2b284a364c04a300",
+      "checked_at": "2026-11-22",
+      "read_sections": "Механизм §3–4, три сценария §5 и ограничения §6; MultiHop-RAG и синтетические задачи с различающимися правами."
+    },
+    {
+      "id": "arxiv-2602-05965",
+      "title": "Learning to Share: Selective Memory for Efficient Parallel Agentic Systems",
+      "authors": [
+        "Joseph Fioresi",
+        "Parth Parag Kulkarni",
+        "Ashmal Vayani",
+        "Song Wang",
+        "Mubarak Shah"
+      ],
+      "year": 2026,
+      "arxiv_id": "2602.05965v1",
+      "url": "https://arxiv.org/abs/2602.05965v1",
+      "doi": "",
+      "source_sha256": "44b0110c548c3a772d66ac9621fcd5354dc942849726d244a71cdb8c2a95d104",
+      "checked_at": "2026-11-22",
+      "read_sections": "§3–4.5: AssistantBench и GAIA, фиксированный parallel-agent framework и анализ стоимости контроллера."
+    },
+    {
+      "id": "arxiv-2603-23234",
+      "title": "MemCollab: Cross-Agent Memory Collaboration via Contrastive Trajectory Distillation",
+      "authors": [
+        "Yurui Chang",
+        "Yiran Wu",
+        "Qingyun Wu",
+        "Lu Lin"
+      ],
+      "year": 2026,
+      "arxiv_id": "2603.23234v1",
+      "url": "https://arxiv.org/abs/2603.23234v1",
+      "doi": "",
+      "source_sha256": "c56b5860bc78d6814492df12a2df93ea46aae4a73ac878e8bca34373af31ede0",
+      "checked_at": "2026-11-22",
+      "read_sections": "§3–4 и Appendix A/C: reasoning и code, разделение задач построения памяти и оценки, сравнение источников памяти."
+    },
+    {
+      "id": "arxiv-2609-32511",
+      "title": "Learning from Others, Acting for You: Cross-User Memory Sharing for LLM Agents",
+      "authors": [
+        "Jinming Hu",
+        "Haodong Zhao",
+        "Qi Jia",
+        "Die Chen",
+        "Tianhang Zhao",
+        "Sufeng Duan",
+        "Gongshen Liu"
+      ],
+      "year": 2026,
+      "arxiv_id": "2609.32511v1",
+      "url": "https://arxiv.org/abs/2609.32511v1",
+      "doi": "",
+      "source_sha256": "b19f58b2bdc22209886f667be7ff67d90570f8cf9f44044d2ed3b42f4eb298b4",
+      "checked_at": "2026-11-22",
+      "read_sections": "§3–5: Mind2Web, VitaBench 2.0, MemoryCode; абляции consolidation и preference retrieval."
+    },
+    {
+      "id": "arxiv-2606-24535",
+      "title": "Governed Shared Memory for Multi-Agent LLM Systems",
+      "authors": [
+        "Yanki Margalit",
+        "Nurit Cohen-Inger",
+        "Erni Avram",
+        "Ran Taig",
+        "Oded Margalit"
+      ],
+      "year": 2026,
+      "arxiv_id": "2606.24535v1",
+      "url": "https://arxiv.org/abs/2606.24535v1",
+      "doi": "",
+      "source_sha256": "bc0b39bd469c09219592e599d188a436ab494bfcd93570cae6324edc543763fd",
+      "checked_at": "2026-11-22",
+      "read_sections": "Прочитаны failure modes §4, механизм §5, метод/результаты §7–8, проблемы §9 и ограничения §10."
+    },
+    {
+      "id": "arxiv-2609-17921",
+      "title": "Collaborative Memory for Multi-Agent VLM Systems",
+      "authors": [
+        "Huixin Zhang",
+        "Shao-Jun Xia",
+        "Di Wang",
+        "Liangxi Liu",
+        "Hainan Xiong",
+        "Zihao Wang"
+      ],
+      "year": 2026,
+      "arxiv_id": "2609.17921v1",
+      "url": "https://arxiv.org/abs/2609.17921v1",
+      "doi": "",
+      "source_sha256": "6d3e6e8576ae1193c459c1dc513b5108777fac58e81e56a33802df29abe3e0ea",
+      "checked_at": "2026-11-22",
+      "read_sections": "Концептуальная схема §2–4 и будущие направления §6: visual evidence, provenance, reconciliation."
+    }
+  ],
+  "cards": [
+    {
+      "paper_id": "arxiv-2404-09982",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c1",
+          "paper_id": "arxiv-2404-09982",
+          "kind": "source_finding",
+          "text": "INMS хранит отобранные пары Prompt–Answer в общем пуле и извлекает их для следующих запросов. Качество общего опыта зависит от scorer и retrieval; добавление записи не обновляет веса всех агентов.",
+          "conditions": [
+            "Текстовая реализация и механизм §3, эксперименты §4, ограничения §6; версия v3."
+          ],
+          "limitations": [
+            "Оценка на выбранных доменах; scorer может наследовать ошибки моделей. Не продемонстрирована полноценная система разграничения доступа."
+          ],
+          "evidence": [
+            {
+              "quote": "All agents share the same Memory Pool",
+              "url": "https://arxiv.org/html/2404.09982v3#S3",
+              "locator": "Раздел S3",
+              "segment_id": "S3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2505-18279",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c2",
+          "paper_id": "arxiv-2505-18279",
+          "kind": "source_finding",
+          "text": "Collaborative Memory разделяет private/shared-фрагменты, сохраняет provenance и фильтрует чтение по динамическим графам доступа. Политика чтения и записи — часть механизма, а не просто параметр общего vector store.",
+          "conditions": [
+            "Механизм §3–4, три сценария §5 и ограничения §6; MultiHop-RAG и синтетические задачи с различающимися правами."
+          ],
+          "limitations": [
+            "Успех в заданных сценариях не доказывает безопасность при всех атаках. В части открытых задач нет ground truth для проверки качества."
+          ],
+          "evidence": [
+            {
+              "quote": "Each fragment",
+              "url": "https://arxiv.org/html/2505.18279v1#S3.SS2",
+              "locator": "Раздел S3.SS2",
+              "segment_id": "S3.SS2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2602-05965",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c3",
+          "paper_id": "arxiv-2602-05965",
+          "kind": "source_finding",
+          "text": "Learning to Share обучает admission-контроллер выбирать промежуточные результаты для общего буфера параллельных команд. Память создаётся на одну задачу и не сохраняется между задачами: это обмен рабочим состоянием, не lifelong learning.",
+          "conditions": [
+            "§3–4.5: AssistantBench и GAIA, фиксированный parallel-agent framework и анализ стоимости контроллера."
+          ],
+          "limitations": [
+            "Не изучены накопление опыта между задачами, удаление и revision. Выигрыш wall-clock зависит от параллелизма и serving-условий."
+          ],
+          "evidence": [
+            {
+              "quote": "does not persist across problem instances.",
+              "url": "https://arxiv.org/html/2602.05965v1#S4.SS5",
+              "locator": "Раздел S4.SS5",
+              "segment_id": "S4.SS5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2603-23234",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c4",
+          "paper_id": "arxiv-2603-23234",
+          "kind": "source_finding",
+          "text": "MemCollab сравнивает успешные и неуспешные траектории агентов для построения переносимых подсказок, затем извлекает их под новую задачу. Метод требует проверки правильности исходных решений.",
+          "conditions": [
+            "§3–4 и Appendix A/C: reasoning и code, разделение задач построения памяти и оценки, сравнение источников памяти."
+          ],
+          "limitations": [
+            "Проверяемые математические и кодовые задачи отличаются от открытых исследований. Требуется аудит train/test overlap; в тексте есть неоднозначные формулировки размера MATH500, поэтому дизайн нужно сверять с кодом."
+          ],
+          "evidence": [
+            {
+              "quote": "we collect a pair of trajectories",
+              "url": "https://arxiv.org/html/2603.23234v1#S3.SS2",
+              "locator": "Раздел S3.SS2",
+              "segment_id": "S3.SS2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2609-32511",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c5",
+          "paper_id": "arxiv-2609-32511",
+          "kind": "source_finding",
+          "text": "ShareMem разделяет повторно используемые процедуры и личные предпочтения: общий опыт направляет действие, значения предпочтений берутся у принимающего пользователя. Local/shared retrieval сравнивается при общем бюджете записей.",
+          "conditions": [
+            "§3–5: Mind2Web, VitaBench 2.0, MemoryCode; абляции consolidation и preference retrieval."
+          ],
+          "limitations": [
+            "Перенос ограничен качеством опыта, scope и доступом к пользовательским требованиям; архитектурное разделение не равно доказательству приватности."
+          ],
+          "evidence": [
+            {
+              "quote": "Preferences are maintained from each user’s history separately from experience consolidation",
+              "url": "https://arxiv.org/html/2609.32511v1#S3.SS1",
+              "locator": "Раздел S3.SS1",
+              "segment_id": "S3.SS1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2606-24535",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c6",
+          "paper_id": "arxiv-2606-24535",
+          "kind": "source_finding",
+          "text": "Governed Shared Memory описывает scope, supersession, provenance и propagation в живом сервисе. Авторы показывают, что дедупликация может отсечь противоречащую запись раньше проверки конфликта, и отдельно признают отсутствие сравнительного baseline.",
+          "conditions": [
+            "Прочитаны failure modes §4, механизм §5, метод/результаты §7–8, проблемы §9 и ограничения §10."
+          ],
+          "limitations": [
+            "Самооценка собственного сервиса, один tenant, ограниченные пробы; это не независимый аудит и не сравнительный рейтинг систем."
+          ],
+          "evidence": [
+            {
+              "quote": "We do not compare against a baseline",
+              "url": "https://arxiv.org/html/2606.24535v1#S10.SS0.SSS0.Px7",
+              "locator": "Раздел S10.SS0.SSS0.Px7",
+              "segment_id": "S10.SS0.SSS0.Px7"
+            },
+            {
+              "quote": "can reject a write before the asynchronous detector ever sees it",
+              "url": "https://arxiv.org/html/2606.24535v1#S9.SS2",
+              "locator": "§9.2 Deduplication Starves Contradiction Detection",
+              "segment_id": "S9.SS2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paper_id": "arxiv-2609-17921",
+      "coverage": "selected_full_text_sections",
+      "claims": [
+        {
+          "id": "c7",
+          "paper_id": "arxiv-2609-17921",
+          "kind": "source_finding",
+          "text": "Collaborative Memory for Multi-Agent VLM Systems предлагает хранить связи наблюдение–интерпретация–вывод и пересматривать зависимые утверждения при изменении визуального свидетельства. Согласие агентов не считается независимым подтверждением.",
+          "conditions": [
+            "Концептуальная схема §2–4 и будущие направления §6: visual evidence, provenance, reconciliation."
+          ],
+          "limitations": [
+            "Архитектурное предложение без сопоставимой экспериментальной оценки выигрыша; не следует включать в leaderboard эффективности."
+          ],
+          "evidence": [
+            {
+              "quote": "Agreement alone does not constitute independent confirmation",
+              "url": "https://arxiv.org/html/2609.17921v1#S4",
+              "locator": "Раздел S4",
+              "segment_id": "S4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "synthesis": {
+    "title": "Как агентам делиться опытом, не распространяя ошибки?",
+    "sections": [
+      {
+        "key": "brief",
+        "title": "Короткий ответ",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Общая память может означать обмен промежуточными результатами внутри одной задачи, перенос опыта между задачами или обмен знаниями между пользователями. Эти механизмы требуют разных проверок.",
+            "claim_ids": [
+              "c1",
+              "c3",
+              "c4",
+              "c5"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Отбор полезного опыта и контроль того, кому он доступен, — разные задачи. Retrieval сам по себе не решает права доступа, устаревание и перенос чужих предпочтений.",
+            "claim_ids": [
+              "c2",
+              "c5",
+              "c6"
+            ]
+          },
+          {
+            "kind": "editorial",
+            "text": "Цель разбора — выбрать механизм и честный эксперимент для коллективного накопления опыта, а не просто подключить всем агентам одну базу.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "scope",
+        "title": "Границы: память или обучение?",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Мы рассматриваем collaborative learning через внешнюю память LLM-агентов: write, retrieval, consolidation и revision. Federated learning, обмен градиентами и совместное обновление весов остаются вне этого разбора.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Поиск 22 ноября 2026 года: первичные работы о shared/collaborative/cross-agent memory; выбраны семь механизмов и типов проверки. Это начальная подборка; новые ноябрьские кандидаты и более широкий корпус требуют отдельного разбора.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "mechanism",
+        "title": "Жизненный цикл общего опыта",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Записать: INMS отбирает ответы scorer-ом, Learning to Share учит admission-политику, MemCollab извлекает guidance из контраста траекторий. Эти три способа не взаимозаменяемы.",
+            "claim_ids": [
+              "c1",
+              "c3",
+              "c4"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Извлечь: запрос должен учитывать scope, роль и текущие предпочтения получателя. Похожесть текста не означает право доступа или применимость процедуры.",
+            "claim_ids": [
+              "c2",
+              "c5"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Пересмотреть: новое свидетельство может отменить старую интерпретацию; происхождение и зависимости нужны, чтобы обновлять следующие выводы.",
+            "claim_ids": [
+              "c6",
+              "c7"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "approaches",
+        "title": "Три задачи, три семейства",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Сократить повторные вычисления сейчас: общий буфер параллельных команд. Проверять wall-clock и успех при одинаковом числе команд; не приписывать ему накопление долгосрочного опыта.",
+            "claim_ids": [
+              "c3"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Перенести опыт на будущие задачи: отбор ответов или обобщение контраста успешных и ошибочных траекторий. Нужны раздельные задачи создания памяти и тестирования.",
+            "claim_ids": [
+              "c1",
+              "c4"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Передать опыт другому пользователю: отделить общую процедуру от персональных значений, применять права чтения и записи, учитывать изменение полномочий.",
+            "claim_ids": [
+              "c2",
+              "c5"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Сохранить корректность общей базы: проверять supersession, provenance и зависимые выводы. Продуктовые probes и концептуальные схемы имеют иной статус, чем сравнительный benchmark.",
+            "claim_ids": [
+              "c6",
+              "c7"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "comparison",
+        "title": "Что реально сравнивалось",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Общего leaderboard здесь нет: latency одной задачи, reasoning accuracy и корректность доступа не являются одной метрикой.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "disagreements",
+        "title": "Где общий опыт становится проблемой",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "Много записей не обязательно лучше: шумный admission увеличивает контекст, а исходный опыт может быть неправильным или содержать неприменимые предпочтения. Сравнивать следует при одном retrieval budget.",
+            "claim_ids": [
+              "c3",
+              "c5"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Дедупликация и обновление фактов могут конфликтовать: похожая новая запись бывает именно исправлением. В production-исследовании synchronous near-duplicate gate мог не пропустить запись до проверки противоречия.",
+            "claim_ids": [
+              "c6"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Согласие нескольких агентов не является независимым подтверждением, если все прочитали одну ошибочную память. Для визуальных задач важно хранить исходное свидетельство и контекст наблюдения.",
+            "claim_ids": [
+              "c7"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Признаки переноса на reasoning benchmarks не доказывают безопасное применение между пользователями. Успех задачи, отсутствие утечек и верное разрешение конфликта надо проверять отдельно.",
+            "claim_ids": [
+              "c2",
+              "c4",
+              "c6"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "practice",
+        "title": "Минимальная честная проверка",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Сравнить без памяти, локальную память, общий пул без фильтра и общий пул с отбором. Зафиксировать модели, инструменты, число агентов и бюджет retrieval/calls; учесть стоимость записи и консолидации.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Разделить донорские и тестовые задачи до построения памяти, проверить пересечение по содержанию. Создать тесты на смену предпочтений, противоречащую запись, отзыв доступа и повторную выдачу старого факта.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Сохранять success, latency, tokens и memory size отдельно от leakage, stale-read и отрицательного переноса. Мы не запускали этот эксперимент; это предлагаемый протокол.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "questions",
+        "title": "Следующая проверяемая гипотеза",
+        "items": [
+          {
+            "kind": "editorial",
+            "text": "Гипотеза: переносить проверенные обобщённые процедуры с явным scope полезнее, чем целые ответы. Условия: одинаковые донорские траектории, замороженный тест, одинаковый retrieval budget; контроль — локальная память и сырой общий пул.",
+            "claim_ids": []
+          },
+          {
+            "kind": "editorial",
+            "text": "Опровержение: выигрыш пропадает после удаления похожих тестовых задач или учёта расходов consolidation; либо появляются утечки и отрицательный перенос сверх заранее установленного порога. Отдельная проверка — исправление ошибочного донора и зависимых записей.",
+            "claim_ids": []
+          }
+        ]
+      },
+      {
+        "key": "reading",
+        "title": "Маршрут чтения",
+        "items": [
+          {
+            "kind": "synthesis",
+            "text": "INMS — базовый общий пул; Learning to Share — learned admission внутри одной задачи; MemCollab — обобщение переносимого опыта.",
+            "claim_ids": [
+              "c1",
+              "c3",
+              "c4"
+            ]
+          },
+          {
+            "kind": "synthesis",
+            "text": "Затем Collaborative Memory и ShareMem для пользовательских границ. Завершить отрицательными результатами Governed Shared Memory и вопросом независимости свидетельств в VLM-памяти.",
+            "claim_ids": [
+              "c2",
+              "c5",
+              "c6",
+              "c7"
+            ]
+          }
+        ]
+      }
+    ],
+    "concepts": [
+      {
+        "id": "admission",
+        "name": "Admission",
+        "definition": {
+          "kind": "synthesis",
+          "text": "Политика отбора записей для общего пула.",
+          "claim_ids": [
+            "c1",
+            "c3"
+          ]
+        },
+        "statements": [],
+        "disagreements": []
+      },
+      {
+        "id": "scope",
+        "name": "Scope и provenance",
+        "definition": {
+          "kind": "synthesis",
+          "text": "Границы применимости и доступа вместе с происхождением записи.",
+          "claim_ids": [
+            "c2",
+            "c6"
+          ]
+        },
+        "statements": [],
+        "disagreements": []
+      },
+      {
+        "id": "transfer",
+        "name": "Перенос опыта",
+        "definition": {
+          "kind": "synthesis",
+          "text": "Применение внешней guidance другой моделью или пользователем без обязательного обновления весов.",
+          "claim_ids": [
+            "c4",
+            "c5"
+          ]
+        },
+        "statements": [],
+        "disagreements": []
+      }
+    ]
+  },
+  "comparison": [
+    {
+      "paper_id": "arxiv-2404-09982",
+      "method": "Общий пул отфильтрованных ответов и retrieval.",
+      "guarantee": "Повторное использование опыта через контекст, а не синхронизация весов.",
+      "setup": "Эксперименты на задачах генерации; разбор ограничений отдельно.",
+      "claim_ids": [
+        "c1"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2505-18279",
+      "method": "Private/shared-память и динамические права на пользователей, агентов и ресурсы.",
+      "guarantee": "Демонстрация механизма в заданных сценариях; не формальное доказательство отсутствия утечек.",
+      "setup": "Контролируемые сценарии полного, асимметричного и изменяемого доступа.",
+      "claim_ids": [
+        "c2"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2602-05965",
+      "method": "Выученная политика записи в общий буфер одной задачи.",
+      "guarantee": "Меньше дублирования в изученной системе; не доказательство долгосрочного коллективного обучения.",
+      "setup": "Сравнение с memory-free parallel baseline, add-all и абляциями обучения контроллера.",
+      "claim_ids": [
+        "c3"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2603-23234",
+      "method": "Контраст траекторий, структурированные ограничения, task-aware retrieval.",
+      "guarantee": "Перенос guidance между проверенными конфигурациями; не гарантия переноса произвольного опыта.",
+      "setup": "Сравнение моделей и источников памяти, retrieval-абляции и оценка стоимости inference.",
+      "claim_ids": [
+        "c4"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2609-32511",
+      "method": "Двухэтапная консолидация опыта; предпочтения остаются у пользователя.",
+      "guarantee": "Авторские результаты на трёх средах; нет универсальной гарантии против отрицательного переноса.",
+      "setup": "Local против shared, одинаковый retrieval budget и абляции отдельных каналов.",
+      "claim_ids": [
+        "c5"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2606-24535",
+      "method": "Контроль scope и происхождения; явное замещение устаревших фактов.",
+      "guarantee": "Отрицательные результаты важны для архитектуры; межсистемное превосходство не проверено.",
+      "setup": "Live-service probes с опубликованными авторами трассами; без comparand.",
+      "claim_ids": [
+        "c6"
+      ]
+    },
+    {
+      "paper_id": "arxiv-2609-17921",
+      "method": "Общая визуальная память с зависимостями утверждений и revision.",
+      "guarantee": "Исследовательская гипотеза об организации памяти, не продемонстрированный performance gain.",
+      "setup": "Концептуальная работа и иллюстративный сценарий; новый benchmark-эксперимент не представлен.",
+      "claim_ids": [
+        "c7"
+      ]
+    }
+  ],
+  "quality": {
+    "warnings": [
+      "Стартовый концептуальный разбор семи целенаправленно выбранных работ; не систематический и не исчерпывающий обзор.",
+      "Прочитаны выбранные разделы указанных версий, а не все приложения. Эксперименты не воспроизводились, независимой экспертной рецензии нет.",
+      "Аргументы из концептуальных работ отделены от эмпирических результатов. Предлагаемые проверки не выполнялись."
+    ]
+  },
+  "changes": {
+    "summary": "Первый выпуск узкого исследовательского разбора; новая структура чтения."
+  },
+  "publication": {
+    "released_at": "2026-11-22",
+    "note": "Стартовый разбор: методы, ограничения и следующие проверки. Новые кандидаты не меняют выводы автоматически.",
+    "preparation": "source_based_editorial",
+    "expert_peer_review": false
+  }
+}
