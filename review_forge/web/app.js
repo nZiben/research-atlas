@@ -59,7 +59,7 @@ function renderHome(archive=false) {
   const cards = el('div',{class:'topic-cards'+(archive?' archive-cards':'')},topics.map(topic=>el('a',{class:'topic-card',href:safeURL(topic.external_url)||'#'+topic.id},
     el('p',{class:'eyebrow'},topic.name),el('h2',{},topic.reader_title || topic.topic),
     el('p',{},topic.description),topic.reader_goals ? el('ul',{class:'reader-goals'},topic.reader_goals.map(text=>el('li',{},text))) : null,
-    el('div',{class:'card-meta'},el('span',{},topic.review_papers+' разобранных работ'),el('span',{},topic.has_review ? 'Открыть обзор' : 'Открыть тему')))));
+    el('div',{class:'card-meta'},el('span',{},topic.external_url ? 'Самостоятельный проект' : topic.review_papers+' разобранных работ'),el('span',{},topic.has_review ? 'Открыть обзор' : 'Открыть тему')))));
   const method = archive ? el('a',{class:'back-link',href:'#home'},'Основные разделы') : el('section',{class:'reading-guide'},
     el('h2',{},'Как читать'),el('div',{class:'guide-grid'},
       ...[['Краткий ответ','Откройте тему и начните с вывода. Для объяснений и таблицы работ включите подробный разбор.'],['Карта вопроса','Посмотрите, как связаны механизмы, подходы, ограничения и открытые вопросы.'],['Первоисточники','Нажмите [1] рядом с утверждением, чтобы увидеть цитату и перейти к нужному разделу статьи.']].map(([title,text])=>el('div',{},el('h3',{},title),el('p',{},text)))));

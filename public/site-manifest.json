@@ -1,7 +1,7 @@
 {
   "kind": "review-forge-public-site",
   "files": {
-    "app.js": "b3b222e7298c0e86b82e70e8dc70b15d5a948b36726ed32e45fa8766cb2751c4",
+    "app.js": "05fe6d764da07611a7064555655e5ce1a2084ee2e43837f678cce2a58b8e11fd",
     "data/discovery.json": "7d5b8306bc0d3a7f2db62ff11e27c62d3e95e39ccff9577fc7e4feef7ccce5e3",
     "data/library.json": "6df61f259cb2e678c7df1d9d259861b49cb464e2af213f69d1f158326e8b139f",
     "data/reviews/agents/editorial-2026-11-13.json": "7cb0f292d958451900d30c52f3842610dffeedb996dd18700734c99ea2532709",
