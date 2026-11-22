@@ -1,9 +1,9 @@
 {
   "kind": "review-forge-public-site",
   "files": {
-    "app.js": "1d7a489a3d7e915a099739f59c15cb6cd0d13102ca22a7870fed9c6e9f189ec5",
+    "app.js": "b3b222e7298c0e86b82e70e8dc70b15d5a948b36726ed32e45fa8766cb2751c4",
     "data/discovery.json": "7d5b8306bc0d3a7f2db62ff11e27c62d3e95e39ccff9577fc7e4feef7ccce5e3",
-    "data/library.json": "93bb4f3006acab16e33ca68a0cb980e24f04f97be79488c3b29b53f26ec1819c",
+    "data/library.json": "6df61f259cb2e678c7df1d9d259861b49cb464e2af213f69d1f158326e8b139f",
     "data/reviews/agents/editorial-2026-11-13.json": "7cb0f292d958451900d30c52f3842610dffeedb996dd18700734c99ea2532709",
     "data/reviews/ai-for-science/editorial-2026-11-13.json": "d2d28a0ee029396700dcd47a7ada3167a8e5ddad948f43e2fd372f82b8f6a90f",
     "data/reviews/efficiency/editorial-2026-11-13.json": "d7b714bd18fefb4eae71b7c4cda409e5b6ed604d2b1444c1f318d4d28a0c0076",

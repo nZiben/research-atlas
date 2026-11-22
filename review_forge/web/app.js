@@ -54,9 +54,9 @@ function renderHome(archive=false) {
   document.title = archive ? 'Архив · Research Atlas' : 'Research Atlas — исследовательские разборы';
   const topics = state.data.topics.filter(t=>archive ? !t.focus : t.focus);
   const heading = el('section',{class:'home-intro'},
-    el('h1',{},archive ? 'Другие обзоры' : 'ИИ: самостоятельность человека\nи общая память агентов'),
-    el('p',{class:'hero-description'},archive ? 'Разборы отдельных вопросов безопасности, интерпретируемости, эффективности, робототехники и других направлений AI.' : 'Как люди принимают решения с помощью ИИ и как агенты накапливают общий опыт. В каждом разделе — объяснение механизмов, сравнение исследований и ссылки на первоисточники.'));
-  const cards = el('div',{class:'topic-cards'+(archive?' archive-cards':'')},topics.map(topic=>el('a',{class:'topic-card',href:'#'+topic.id},
+    el('h1',{},archive ? 'Другие обзоры' : 'Исследовательские обзоры'),
+    el('p',{class:'hero-description'},archive ? 'Разборы отдельных вопросов безопасности, интерпретируемости, эффективности, робототехники и других направлений AI.' : 'Два самостоятельных проекта: влияние ИИ на самостоятельность человека и общая память агентов. У каждого свой сайт, источники и история обновлений.'));
+  const cards = el('div',{class:'topic-cards'+(archive?' archive-cards':'')},topics.map(topic=>el('a',{class:'topic-card',href:safeURL(topic.external_url)||'#'+topic.id},
     el('p',{class:'eyebrow'},topic.name),el('h2',{},topic.reader_title || topic.topic),
     el('p',{},topic.description),topic.reader_goals ? el('ul',{class:'reader-goals'},topic.reader_goals.map(text=>el('li',{},text))) : null,
     el('div',{class:'card-meta'},el('span',{},topic.review_papers+' разобранных работ'),el('span',{},topic.has_review ? 'Открыть обзор' : 'Открыть тему')))));
@@ -252,7 +252,10 @@ function route() {
   const id=location.hash.slice(1);
   if (!state.data) return;
   if (!id || id==='home' || id==='content' || id==='archive') renderHome(id==='archive');
-  else if(state.data.topics.some(t=>t.id===id)) selectTopic(id);
+  else if(state.data.topics.some(t=>t.id===id)) {
+    const external=safeURL(state.data.topics.find(t=>t.id===id).external_url);
+    if(external) location.replace(external); else selectTopic(id);
+  }
   else {renderHome();$('#home-panel').prepend(el('p',{role:'status',class:'review-notice'},'Тема по этой ссылке не найдена. Выберите опубликованный разбор.'));}
 }
 window.addEventListener('hashchange',route);
